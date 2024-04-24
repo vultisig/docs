@@ -1,4 +1,8 @@
-# MIT License
+---
+description: Voltix is MIT Licence
+---
+
+# License
 
 Copyright: 2024, Voltix
 

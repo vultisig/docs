@@ -13,9 +13,9 @@
 
 ## VOLTIX Token
 
+* [VLTX](voltix-token/vltx.md)
 * [Launch](voltix-token/launch.md)
 * [Airdrop](voltix-token/airdrop.md)
-* [VLTX](voltix-token/vltx.md)
 
 ## Other
 

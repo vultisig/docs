@@ -13,7 +13,7 @@
 
 ## VOLTIX Token
 
-* [VLTX](voltix-token/vltx.md)
+* [$VLTX](voltix-token/usdvltx.md)
 * [Launch](voltix-token/launch.md)
 * [Airdrop](voltix-token/airdrop.md)
 

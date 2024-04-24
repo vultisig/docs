@@ -2,7 +2,7 @@
 description: The purpose of the Voltix Token
 ---
 
-# VLTX
+# $VLTX
 
 Voltix fulfils four important purposes:
 
@@ -24,5 +24,13 @@ Voltix fulfils four important purposes:
 
 ### Value Accrual
 
-Voltix Is a buy-burn model. All affiliate and bridge fees accumulated from platform useage will buy and burn the asset.&#x20;
+Voltix is a buy-burn model. All affiliate and bridge fees accumulated from platform useage will buy and burn the asset.&#x20;
+
+
+
+| Fee                      | Amount          |
+| ------------------------ | --------------- |
+| THORChain Affiliate Fees | 50 basis points |
+| THORChain Affiliate Fees | 50 basis points |
+| Bridge Fees              | 10 basis points |
 

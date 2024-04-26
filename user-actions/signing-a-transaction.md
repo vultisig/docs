@@ -14,4 +14,6 @@ description: How to sign a transaction.
 
 5. *On your other devices*, after selecting the same Vault, click the **Camera** icon and scan the QR code shown on the first device.
 
-6. 
+6. When the transaction details are loaded, check and click **Join keysign** to proceed.
+
+7. On the *initial* device, the other devices' information will appear once synced. Select the other devices, and finally, click **Sign** to complete the transaction.

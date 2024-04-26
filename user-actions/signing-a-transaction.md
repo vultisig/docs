@@ -8,7 +8,7 @@ description: How to sign a transaction.
 
 2. On one of your device, prepare the transaction (e.g. Send or Swap). When ready, click on **Continue**.&#x20;
 
-3. Confirm all the details on the Verify screen, check all boxes for the the reminder messages, and click **Sign**.&#x20;
+3. Confirm all the details on the Verify screen, check all boxes for the reminder messages, and click **Sign**.&#x20;
 
 4. On the Pair screen, a QR code will be generated. Choose the correct option: whether your other devices are in the same **Wifi** or **Hotspot** network, or using **Cellular** connection.
 

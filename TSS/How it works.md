@@ -30,7 +30,7 @@ It is critically important that individual vault shares are never stored togethe
 
 **Key-sign** is a process by which a threshold (Voltix TSS chooses 67%) of the parties must come together in another ceremony to once again prove access to a secret and generated a signed transaction object. The transaction can then be broadcast to a crypto network.&#x20;
 
-Eg, for a 2 of 3 TSS vault, only 2 of the devices need to be together to sign an outgoing transaction.&#x20;
+Eg, for a 2-of-3 TSS vault, only 2 of the devices need to be together to sign an outgoing transaction.&#x20;
 
-**Re-share** is a process by which the signing theshold of a vault can work to kick out a non-responsive device and add a different device, or even upgrade the vault from 2of2 to 3of4, (or downgrade).&#x20;
+**Re-share** is a process by which the signing theshold of a vault can work to kick out a non-responsive device and add a different device, or even upgrade the vault from 2-of-2 to 3-of-4, (or downgrade).&#x20;
 

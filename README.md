@@ -18,6 +18,8 @@ Create a vault:
 * 2 of 3 (recommended, backed up)
 * 3 of 4 (most secure)
 
+*The above are the most popular vault configurations.*
+
 ## Why
 
 🔮 Threshold-Sig Vaults are better than Single-Sig or Multi-sig Wallets:

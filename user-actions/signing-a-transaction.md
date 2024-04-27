@@ -16,6 +16,7 @@ description: How to sign a transaction.
 ![IMG_1289](https://github.com/SamYap0/Voltix-docs/assets/96066776/4004bb69-c534-45de-8579-8ef2f1dfbbe5)
 
 5. *On your other devices*, after selecting the same Vault, click the **Camera** icon and scan the QR code shown on the first device.
+![IMG_1296](https://github.com/SamYap0/Voltix-docs/assets/96066776/fcd41309-8a01-4388-b067-96c6674076aa)
 
 6. When the transaction details are loaded, check and click **Join keysign** to proceed.
 ![IMG_6252](https://github.com/SamYap0/Voltix-docs/assets/96066776/1fb864ec-a9e4-43dc-86db-560f7d789764)

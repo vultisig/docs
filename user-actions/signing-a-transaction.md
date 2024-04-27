@@ -4,7 +4,7 @@ description: How to sign a transaction.
 
 # Signing a Transaction
 
-1. Depending on your Vault types (2-of-2, 2-of-3 or 3-of-4), you need to have the requisite number of devices ready for the signing process.&#x20;
+1. Depending on your Vault types (2-of-2, 2-of-3, 3-of-4, or m-of-n), you need to have the requisite number of devices ready for the signing process.&#x20;
 
 2. On one of your device, prepare the transaction (e.g. Send or Swap). When ready, click on **Continue**.&#x20;
 ![IMG_1294](https://github.com/SamYap0/Voltix-docs/assets/96066776/f9a8e986-85ad-4c19-a4bf-f66a9a0e8162)

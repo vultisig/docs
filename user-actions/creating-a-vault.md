@@ -24,8 +24,22 @@ The following are the most common vaults:
 
 ### Steps
 
-1. On your first device, click **Create a New Vault**. If the device already had existing vaults, you would first need to click **Add New Vault** to access this page.
+1. On all your devices, click **Create a New Vault**. Note: if your devices already have existing vaults, first click **Add New Vault** to access this page. 
    
-2. Make sure all your other devices are on the same Wifi network with the Voltix App opened, and click **Start**.
+2. On one of your device, click **Start**.
 
-3. 
+3. On the next screen, select **WiFi**, **Hotspot** or **Cellular**. If using WiFi or Hotspot, all devices must be on the same network.
+
+4. *On the other devices*, click **Join**.
+
+5. The camera function will be enabled, and use it to scan the QR Code displayed on the *first device*. Once joined, it will show the "Waiting for key generation to start" message.
+
+6. *On the first device*, select the other devices that showed up, then click **Continue**.
+![IMG_6256](https://github.com/SamYap0/Voltix-docs/assets/96066776/f56779ad-fb6d-495e-95ae-4668f7576559)
+
+7. On the Summary page, check that the details are correct, then click **Continue**.
+![IMG_6257](https://github.com/SamYap0/Voltix-docs/assets/96066776/022713bd-c503-41db-859c-a2dd0b2ac52d)
+
+8. The vaults key generation process will start and once completed, your vault/address will be ready for use.
+
+Note: The above screenshots illustrate a 2-of-2 vault creation, but the process is similar for any m-of-n vaults.

@@ -28,9 +28,9 @@ Voltix is a buy-burn model. All affiliate and bridge fees accumulated from platf
 
 
 
-| Fee                      | Amount          |
-| ------------------------ | --------------- |
-| THORChain Affiliate Fees | 50 basis points |
-| THORChain Affiliate Fees | 50 basis points |
-| Bridge Fees              | 10 basis points |
+| Fee                       | Amount          |
+| ------------------------- | --------------- |
+| THORChain Affiliate Fees  | 50 basis points |
+| Uniswap/1Inch Router Fees | 50 basis points |
+| Bridge Fees               | 10 basis points |
 

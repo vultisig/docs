@@ -34,7 +34,7 @@ The following are the most common vaults:
 ![IMG_1300](https://github.com/SamYap0/Voltix-docs/assets/96066776/2315f8f3-c9f5-4eb0-8f22-ed539a88a7f1)
 
 4. *On the other devices*, click **Join**.
-![IMG_1298](https://github.com/SamYap0/Voltix-docs/assets/96066776/1a5b70b4-1197-4a6d-8b00-e5ed8a2f9b15)
+![IMG_1299](https://github.com/SamYap0/Voltix-docs/assets/96066776/edadcd17-576e-4c83-adb6-42516a2c4ecf)
 
 5. The camera function will be enabled, and use it to scan the QR Code displayed on the *first device*. Once joined, it will show the "Waiting for key generation to start" message.
 ![IMG_1301](https://github.com/SamYap0/Voltix-docs/assets/96066776/7088ed64-a8a0-4965-bd1e-7630bf857707)

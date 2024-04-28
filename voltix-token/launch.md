@@ -24,7 +24,7 @@ The following is an indication of how the launch could go, and the subsequent 12
 These are fictional numbers for now
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### LP Ownership
 

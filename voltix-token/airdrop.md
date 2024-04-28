@@ -20,7 +20,7 @@ The final share of the airdrop is the pro-rata share of the Airdrop Allocation.
 user_airdrop_share = 10,000,000 * (user_airdrop_value / total_airdrop_value)
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="143"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="143"><figcaption></figcaption></figure>
 
 ### Initial Airdrop
 

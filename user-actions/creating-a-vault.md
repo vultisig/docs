@@ -25,7 +25,7 @@ The following are the most common vaults:
 ### Creating A Vault
 
 {% hint style="success" %}
-Remember - your devices must be open with Voltix, and connected on the same network/hotspot/internet. If they are not fully connected, they will fail the KeyGen.
+Remember - all your devices must be open with Voltix, and must be connected on the (i) same wifi network/ (ii) same hotspot network/ (iii) individual cellular network. If they are not fully connected, they will fail the KeyGen.
 {% endhint %}
 
 Get your devices ready and create a vault.&#x20;

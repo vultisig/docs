@@ -28,7 +28,7 @@ It is critically important that individual vault shares are never stored togethe
 2\) Do not upload more than 1 vault share to the same website
 {% endhint %}
 
-**Key-sign** is a process by which a threshold (Voltix TSS chooses 67%) of the parties must come together in another ceremony to once again prove access to a secret and generated a signed transaction object. The transaction can then be broadcast to a crypto network.&#x20;
+**Key-sign** is a process by which a threshold (Vultisig TSS chooses 67%) of the parties must come together in another ceremony to once again prove access to a secret and generated a signed transaction object. The transaction can then be broadcast to a crypto network.&#x20;
 
 Eg, for a 2-of-3 TSS vault, only 2 of the devices need to be together to sign an outgoing transaction.&#x20;
 

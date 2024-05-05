@@ -11,11 +11,11 @@
 * [Managing your Vault](user-actions/managing-your-vault.md)
 * [Signing a Transaction](user-actions/signing-a-transaction.md)
 
-## VOLTIX Token
+## VULTISIG Token
 
-* [$VLTX](voltix-token/usdvltx.md)
-* [Launch](voltix-token/launch.md)
-* [Airdrop](voltix-token/airdrop.md)
+* [$VLTI](vultisig-token/usdvltx.md)
+* [Launch](vultisig-token/launch.md)
+* [Airdrop](vultisig-token/airdrop.md)
 
 ## Other
 

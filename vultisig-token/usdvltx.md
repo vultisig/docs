@@ -2,16 +2,16 @@
 description: The purpose of the Voltix Token
 ---
 
-# $VLTX
+# $VLTI
 
-Voltix fulfils four important purposes:
+Vultisig fulfils four important purposes:
 
 1. To raise capital to accelerate the product during its bootstrap phase
 2. To buy users and AUM as quickly as possible using an Airdrop
 3. To provide incentives to contributors to build the product
 4. To allow anyone to support the adoption trajectory of the product
 
-### The Voltix Token $VLTX
+### The Vultisig Token $VLTI
 
 * 100,000,000 starting supply
 * 80% in launch liquidity
@@ -20,11 +20,9 @@ Voltix fulfils four important purposes:
 * Ownable, but not mintable (to set launch params)
 * Burnable
 
-[https://github.com/voltix-vault/voltix-contracts/blob/feat/token-contracts/contracts/Voltix.sol](https://github.com/voltix-vault/voltix-contracts/blob/feat/token-contracts/contracts/Voltix.sol)
-
 ### Value Accrual
 
-Voltix is a buy-burn model. All affiliate and bridge fees accumulated from platform useage will buy and burn the asset.&#x20;
+Vultisig is a buy-burn model. All affiliate and bridge fees accumulated from platform useage will buy and burn the asset.&#x20;
 
 
 

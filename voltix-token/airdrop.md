@@ -15,7 +15,7 @@ description: Aggressively buying Users and AUM
 
 To register their vaults for the Airdrop, users send their ECDSA and EdDSA public keys to an airdrop registry, which will scan for presence of funds on chains, and then begin counting Airdrop Value.
 
-A new scan will be performed each month, and the User Airdrop Value accumulates. Users that keep the funds the longest in Voltix will earn the highest Airdrop Value.
+A new scan will be performed each month, and the User Airdrop Value accumulates. Users that keep the funds the longest in Vultisig will earn the highest Airdrop Value.
 
 ```
 user_airdrop_value += $total_vault_value

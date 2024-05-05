@@ -33,4 +33,3 @@ It is critically important that individual vault shares are never stored togethe
 Eg, for a 2-of-3 TSS vault, only 2 of the devices need to be together to sign an outgoing transaction.&#x20;
 
 **Re-share** is a process by which the signing theshold of a vault can work to kick out a non-responsive device and add a different device, or even upgrade the vault from 2-of-2 to 3-of-4, (or downgrade).&#x20;
-

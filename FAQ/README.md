@@ -11,3 +11,7 @@ Yes with partners.
 3. Will it be possible to integrate Vultisig with Li-Fi (JumperExchange), and different platforms like Uniswap and others?
 
 Yes.
+
+4. What versions of iOS / iPhones are supported?
+
+At least iOS 17; iPhone XS (2018) or never.

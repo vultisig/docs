@@ -4,6 +4,7 @@
 * [TSS](tss/README.md)
   * [How it works](<TSS/How it works.md>)
   * [Emergency Recovery](tss/emergency-recovery.md)
+* [FAQ](FAQ/README.md)
 
 ## User Actions
 

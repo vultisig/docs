@@ -1,5 +1,5 @@
 ---
-description: The purpose of the Voltix Token
+description: The purpose of the Vultisig Token
 ---
 
 # $VLTI

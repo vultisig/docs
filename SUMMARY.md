@@ -4,8 +4,7 @@
 * [TSS](tss/README.md)
   * [How it works](<tss/How it works.md>)
   * [Emergency Recovery](tss/emergency-recovery.md)
-* [FAQ](FAQ/README.md)
-
+  
 ## User Actions
 
 * [Creating a Vault](user-actions/creating-a-vault.md)
@@ -20,6 +19,7 @@
 
 ## Other
 
+* [FAQ](FAQ/README.md)
 * [Privacy](other/privacy.md)
 * [License](other/licence.md)
 * [Terms](other/terms.md)

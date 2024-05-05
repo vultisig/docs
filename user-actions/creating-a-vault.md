@@ -6,7 +6,7 @@ description: How to create a vault.
 
 ### Setup
 
-You first need to download the Voltix App to 2 or more devices.
+You first need to download the Vultisig App to 2 or more devices.
 
 {% hint style="warning" %}
 Currently only Macbook (M1), iPad and iPhones are supported. Find the app in the app stores (for Mac, look under "iPad Apps")
@@ -28,7 +28,7 @@ The following are the most common vaults:
 Remember - all your devices must be open with Voltix, and must be connected on the (i) same wifi network/ (ii) same hotspot network/ (iii) individual cellular network. If they are not fully connected, they will fail the KeyGen.
 {% endhint %}
 
-Get your devices ready and create a vault.&#x20;
+Get your devices ready and create a vault.
 
 **Main Device:** START -> will show a QR Code to pair with
 
@@ -38,21 +38,21 @@ Get your devices ready and create a vault.&#x20;
 
 #### Network Type
 
-You can choose Wifi, Hotspot or Cellular.&#x20;
+You can choose Wifi, Hotspot or Cellular.
 
 1. **WiFi**: Simplest and fastest, however may not work on some WiFi networks (since they block mDNS packets)
 2. **Hotspot**: Fast and reliable, since devices are connected directly to each other. Some devices may not have Hotspot.
-3. **Cellular**: slowest, and can be unreliable. Encrypted packets are routed through a relay server.&#x20;
+3. **Cellular**: slowest, and can be unreliable. Encrypted packets are routed through a relay server.
 
 <figure><img src="../.gitbook/assets/image (4).png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Keygen
 
-Once clicking **CONTINUE**, the keygen process will begin. Firstly it will create the pre-params (your vault shares and some other aspects, around 10 seconds), then it will create the ECDSA and EdDSA keys (another 10 seconds). Finally it will be done! Make sure all devices show the done screen.&#x20;
+Once clicking **CONTINUE**, the keygen process will begin. Firstly it will create the pre-params (your vault shares and some other aspects, around 10 seconds), then it will create the ECDSA and EdDSA keys (another 10 seconds). Finally it will be done! Make sure all devices show the done screen.
 
 ### Troubleshooting
 
-If Keygen fails it is because you have an unreliable network and the devices dropped connections.&#x20;
+If Keygen fails it is because you have an unreliable network and the devices dropped connections.
 
 1. Quit the apps and start again
 2. Change networks

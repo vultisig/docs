@@ -13,9 +13,9 @@
 
 ## VULTISIG Token
 
-* [$VLTI](vultisig-token/usdvltx.md)
-* [Launch](vultisig-token/launch.md)
-* [Airdrop](vultisig-token/airdrop.md)
+* [$VLTI](voltix-token/usdvltx.md)
+* [Launch](voltix-token/launch.md)
+* [Airdrop](voltix-token/airdrop.md)
 
 ## Other
 

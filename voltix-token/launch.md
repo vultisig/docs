@@ -1,5 +1,5 @@
 ---
-description: The launch of the VOLTIX token to the world.
+description: The launch of the Vultisig token to the world.
 ---
 
 # Launch
@@ -30,7 +30,7 @@ These are fictional numbers for now
 
 Instead of the direct token ownership, the Launch Liquidity is split between:
 
-* Treasury (no cliff)
+* Treasury&#x20;
 * DEV (12mo cliff, 5 year vest)
 * Investors (12mo cliff)
 * Liquidity (12mo cliff, 5 year lock)

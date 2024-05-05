@@ -18,13 +18,13 @@ Create a vault:
 * 2 of 3 (recommended, backed up)
 * 3 of 4 (most secure)
 
-*The above are the most popular vault configurations.*
+_The above are the most popular vault configurations._
 
 ## Why
 
-🔮 Threshold-Sig Vaults are better than Single-Sig or Multi-sig Wallets:
+🔮 Vultisigs are better than Single-sig or Multi-sig Wallets:
 
-Vault shares do not store funds - thus no funds at risk if you lose a key. There is no on-chain registration of signing-keys. Threshold-Sigs are compatible on all chains (Multi-sigs are not) Threshold-Sigs are fully DeFi compatible (Multi-sigs are not) 📱 Vultisig uses your favourite Laptops, Tablets and Phones.
+Vultisig vault shares do not store funds - thus no funds at risk if you lose a key. There is no on-chain registration of signing-keys. Vultisigs are compatible on all chains (Multi-sigs are not). Vultisigs are fully DeFi compatible (Multi-sigs are not) 📱 Vultisig uses your favourite Laptops, Tablets and Phones.
 
 Rich, large screens with familiar UI Secure Enclaves to store vault shares, with biometric locking. Does not look a hardware device (not a honeypot) 🌈 Vultisig is open-source, based on secure technology and is audited (link soon). There is no registration required.
 

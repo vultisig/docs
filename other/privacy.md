@@ -22,7 +22,7 @@ At Vultisig, safeguarding user privacy is paramount. We pledge to never store an
 
 **User Details:** Vultisig refrains from storing any user-specific details, including IP addresses or real-world addresses, to uphold user privacy.
 
-**Vault Shares or Key Material:** Voltix will never retain any vault shares or key material.
+**Vault Shares or Key Material:** Vultisig will never retain any vault shares or key material.
 
 ## Canary Statement
 

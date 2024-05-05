@@ -18,5 +18,5 @@ At least iOS 17; iPhone XS (2018) or never.
 
 5. Are the Vault Shares automatically uploded into iCloud?
 
-No. Users need to manually backup the Vault Shares. Users can then choose to keep the Vault Share file on iCloud. **Do not store multiple Vault Share files in a single location. Anyone who have m Vault Shares (of a m-of-n setup) will have full access to the Vault!** 
+No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/user-actions/managing-your-vault). Users can then choose to keep the Vault Share files on iCloud. **Do not store multiple Vault Share files in a single location. Anyone who have m Vault Shares (of a m-of-n setup) will have full access to the Vault!** 
 

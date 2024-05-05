@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 * [TSS](tss/README.md)
-  * [How it works](<TSS/How it works.md>)
+  * [How it works](<tss/How it works.md>)
   * [Emergency Recovery](tss/emergency-recovery.md)
 * [FAQ](FAQ/README.md)
 

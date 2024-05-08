@@ -22,13 +22,10 @@ Vultisig fulfils four important purposes:
 
 ### Value Accrual
 
-Vultisig is a buy-burn model. All affiliate and bridge fees accumulated from platform useage will buy and burn the asset.&#x20;
-
-
+Vultisig is a buy-burn model. All affiliate and bridge fees accumulated from platform useage will buy and burn the asset.
 
 | Fee                       | Amount          |
 | ------------------------- | --------------- |
 | THORChain Affiliate Fees  | 50 basis points |
 | Uniswap/1Inch Router Fees | 50 basis points |
 | Bridge Fees               | 10 basis points |
-

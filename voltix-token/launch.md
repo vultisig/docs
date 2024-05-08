@@ -4,7 +4,7 @@ description: The launch of the Vultisig token to the world.
 
 # Launch
 
-### Token Allocation
+## Token Allocation
 
 | Allocation            | Amount     | Description                                               |
 | --------------------- | ---------- | --------------------------------------------------------- |
@@ -12,11 +12,11 @@ description: The launch of the Vultisig token to the world.
 | 12 Month Airdrop      | 10,000,000 | 10% is distributed as an airdrop to users after 12 months |
 | 5 year Annual Airdrop | 10,000,000 | 2% a year for 5 years                                     |
 
-### Launch Liquidity
+## Launch Liquidity
 
-All of the initial raise of capital from external investors will be placed in a liquidity pool for launch.&#x20;
+All of the initial raise of capital from external investors will be placed in a liquidity pool for launch.
 
-A 24hour whitelisted trade-only period will be the next phase. Then the pool will be opened for unlimited buys/sells.&#x20;
+A 24hour whitelisted trade-only period will be the next phase. Then the pool will be opened for unlimited buys/sells.
 
 The following is an indication of how the launch could go, and the subsequent 12 months.
 
@@ -26,11 +26,11 @@ These are fictional numbers for now
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-### LP Ownership
+## LP Ownership
 
 Instead of the direct token ownership, the Launch Liquidity is split between:
 
-* Treasury&#x20;
+* Treasury
 * DEV (12mo cliff, 5 year vest)
 * Investors (12mo cliff)
 * Liquidity (12mo cliff, 5 year lock)

@@ -20,7 +20,7 @@ Both devices will co-sign and send the final transaction. Only one transaction w
 
 On your main devices, prepare the transaction (e.g. Send or Swap). When ready, click on **Continue**.
 
-<figure><img src="https://github.com/SamYap0/Voltix-docs/assets/96066776/f9a8e986-85ad-4c19-a4bf-f66a9a0e8162" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/IMG_6382.jpeg" alt="" width="188"><figcaption></figcaption></figure>
 
 Confirm all the details on the Verify screen, check all boxes for the reminder messages, and click **Sign**.&#x20;
 

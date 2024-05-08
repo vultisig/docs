@@ -4,30 +4,30 @@ description: Aggressively buying Users and AUM
 
 # Airdrop
 
-### TLDR
+## TLDR
 
 1. Install Vultisig App and create your vault.
 2. Register your vault for the Airdrop. You can register as many vaults as you wish.
 3. Deposit funds to your vault, aka use your wallet! Funds are any supported Layer1 or Layer2 assets, and any token on the 1inch token list.
 4. Airdrop will be based on your total vault amounts, multiplied by the length of time your funds are kept in the vault. The largest holders for the longest amount of time earn the most.
 
-### Airdrop Process
+## Airdrop Process
 
 To register their vaults for the Airdrop, users send their ECDSA and EdDSA public keys to an airdrop registry, which will scan for presence of funds on chains, and then begin counting Airdrop Value.
 
 A new scan will be performed each month, and the User Airdrop Value accumulates. Users that keep the funds the longest in Vultisig will earn the highest Airdrop Value.
 
-```
-user_airdrop_value += $total_vault_value
-```
+$$
+user\_airdrop\_value += \$\text{total\_vault\_value}
+$$
 
 The final share of the airdrop is the pro-rata share of the Airdrop Allocation.
 
-```
-user_airdrop_share = 10,000,000 * (user_airdrop_value / total_airdrop_value)
-```
+$$
+\text{user\_airdrop\_share} = 10,000,000 \times \left( \frac{\text{user\_airdrop\_value}}{\text{total\_airdrop\_value}} \right)
+$$
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="143"><figcaption></figcaption></figure>
+![Image](../.gitbook/assets/image (1).png)
 
 ### Initial Airdrop
 

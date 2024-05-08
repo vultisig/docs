@@ -4,18 +4,18 @@ description: Vultisig Frequently Asked Questions
 
 # Frequently Asked Questions
 
-## **Will it be possible to add tokens like ERC-20s on EVM blockchains, or SPL tokens on Solana, etc?**
+### **Will it be possible to add tokens like ERC-20s on EVM blockchains, or SPL tokens on Solana, etc?**
 Yes.
 
-## **Will Vultisig have a browser extension?**
+### **Will Vultisig have a browser extension?**
 Yes with partners.
 
-## **Will it be possible to integrate Vultisig with Li-Fi (JumperExchange), and different platforms like Uniswap and others?**
+### **Will it be possible to integrate Vultisig with Li-Fi (JumperExchange), and different platforms like Uniswap and others?**
 Yes.
 
-## **What versions of iOS / iPhones are supported?**
+### **What versions of iOS / iPhones are supported?**
 At least iOS 17; iPhone XS (2018) or newer.
 
-## **Are the Vault Shares automatically uploded into iCloud?**
+### **Are the Vault Shares automatically uploded into iCloud?**
 No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/user-actions/managing-your-vault). Users can then choose to keep the Vault Share files on iCloud. **Do not store multiple Vault Share files in a single location. Anyone who have m Vault Shares (of a m-of-n setup) will have full access to the Vault!** 
 

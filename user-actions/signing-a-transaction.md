@@ -24,26 +24,26 @@ On your main devices, prepare the transaction (e.g. Send or Swap). When ready, c
 
 Confirm all the details on the Verify screen, check all boxes for the reminder messages, and click **Sign**.
 
-<figure><img src="https://github.com/SamYap0/Voltix-docs/assets/96066776/f1982625-164d-4e22-b90b-54b0da1d3abe" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/SignTx-2.jpeg" alt="" width="188"><figcaption></figcaption></figure>
 
 On the Pair screen, a QR code will be generated. Choose the correct option: whether your other devices are in the same **Wifi** or **Hotspot** network, or using **Cellular** connection.
 
-<figure><img src="https://github.com/SamYap0/Voltix-docs/assets/96066776/4004bb69-c534-45de-8579-8ef2f1dfbbe5" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/SignTx-3.jpeg" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Pair Device
 
 On your other device, after selecting the same Vault, click the **Camera** icon and scan the QR code shown on the first device.
 
-<figure><img src="https://github.com/SamYap0/Voltix-docs/assets/96066776/fcd41309-8a01-4388-b067-96c6674076aa" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/SignTx-4.jpeg" alt="" width="188"><figcaption></figcaption></figure>
 
 The transaction details will load, so then check and click **Join keysign** to proceed.
 
-<figure><img src="https://github.com/SamYap0/Voltix-docs/assets/96066776/1fb864ec-a9e4-43dc-86db-560f7d789764" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/SignTx-5.jpeg" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Main Device
 
 On the main device, the other devices' information will appear once synced. Select the other devices, and finally, click **Sign** to complete the transaction.
 
-<figure><img src="https://github.com/SamYap0/Voltix-docs/assets/96066776/e777c8ed-8dac-4683-ab31-4c612549534c" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/SignTx-6.jpeg" alt="" width="188"><figcaption></figcaption></figure>
 
 That's it! The transaction should sign and be sent by one of the devices.

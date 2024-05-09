@@ -6,7 +6,7 @@ description: How to manage a vault
 
 ## Vault Functions
 
-Select a vault and on the top right, edit button.
+Select a vault. Then, click on the gear icon below the chains displayed, on the right.
 
 ### Details
 

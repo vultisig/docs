@@ -27,7 +27,7 @@ $$
 \text{user\_airdrop\_share} = 10,000,000 \times \left( \frac{\text{user\_airdrop\_value}}{\text{total\_airdrop\_value}} \right)
 $$
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="143"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook\assets\airdrop.png" alt="" width="143"><figcaption></figcaption></figure>
 
 ### Initial Airdrop
 

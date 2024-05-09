@@ -20,7 +20,7 @@ Both devices will co-sign and send the final transaction. Only one transaction w
 
 On your main devices, prepare the transaction (e.g. Send or Swap). When ready, click on **Continue**.
 
-<figure><img src="../.gitbook/assets/IMG_6382.jpeg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/SignTx-1.jpeg" alt="" width="188"><figcaption></figcaption></figure>
 
 Confirm all the details on the Verify screen, check all boxes for the reminder messages, and click **Sign**.
 

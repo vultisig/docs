@@ -28,4 +28,4 @@ You can rename your vault. Note, it only renames the local vault name, and doesn
 
 Reshare is a function where you can kick out other devices in the vault, as well as upgrade or downgrade the number of parties.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ManageVault.png" alt="" width="375"><figcaption></figcaption></figure>

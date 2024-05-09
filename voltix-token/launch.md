@@ -24,7 +24,7 @@ The following is an indication of how the launch could go, and the subsequent 12
 These are fictional numbers for now
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Launch-1.png" alt=""><figcaption></figcaption></figure>
 
 ## LP Ownership
 
@@ -43,4 +43,4 @@ This guarantees:
 
 Tokens are auto-sold through the pool on behalf of LP Owners as the market interacts.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Launch-2.png" alt=""><figcaption></figcaption></figure>

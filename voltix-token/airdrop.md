@@ -31,7 +31,7 @@ $$
 
 ### Initial Airdrop
 
-The initial airdrop is 10,000,000 VLTI. After which, all public keys are purged and a new airdrop period begins.
+The initial airdrop is 10,000,000 VLTI, which will be distributed after the first year. After which, all public keys are purged and a new airdrop period begins.
 
 ### Ongoing Airdrop
 

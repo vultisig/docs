@@ -19,7 +19,7 @@
 
 ## Other
 
-* [FAQ](FAQ/README.md)
+* [Frequently Asked Questions](FAQ/README.md)
 * [Privacy](other/privacy.md)
 * [License](other/licence.md)
 * [Terms](other/terms.md)

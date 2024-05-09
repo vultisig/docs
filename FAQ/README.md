@@ -30,4 +30,4 @@ No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/u
 
 ### Can users mix-and-match iOS and Android?
 
-Yes! Vault shares & signers are device agnostic. Users can mix-and-match any devices (iOS or Android, etc.) to be used as signers.
+Yes! Vault shares & signers are device agnostic. Users can mix-and-match any devices (iOS, Android, browser apps, etc.) to be used as signers.

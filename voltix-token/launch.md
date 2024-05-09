@@ -44,3 +44,7 @@ This guarantees:
 Tokens are auto-sold through the pool on behalf of LP Owners as the market interacts.&#x20;
 
 <figure><img src="../.gitbook/assets/Launch-2.png" alt=""><figcaption></figcaption></figure>
+
+## Further Information
+
+* The parties with 12mo cliff (DEV, Investors & Liquidity) will not be able to withdraw from the LP during the vesting period. However, $VLTI can still be freely bought/sold through the LP.

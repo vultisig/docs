@@ -27,3 +27,7 @@ No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/u
 {% hint style="warning" %}
 **Do not store multiple Vault Share files in a single location. Anyone who have m Vault Shares (of a m-of-n setup) will have full access to the Vault!**
 {% endhint %}
+
+### Can users mix-and-match iOS and Android?
+
+Yes! Vault shares & signers are device agnostic. Users can mix-and-match any devices (iOS or Android, etc.) to be used as signers.

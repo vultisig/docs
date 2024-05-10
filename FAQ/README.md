@@ -8,9 +8,9 @@ description: Vultisig Frequently Asked Questions
 
 Yes.
 
-### Will Vultisig have a browser extension?
+### Will Vultisig have a web app or browser extension?
 
-Yes with partners.
+Yes, with partners, utilizing WASM.
 
 ### Will it be possible to integrate Vultisig with Li-Fi (JumperExchange), and different platforms like Uniswap and others?
 

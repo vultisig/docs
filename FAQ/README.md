@@ -31,3 +31,7 @@ No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/u
 ### Can users mix-and-match iOS and Android?
 
 Yes! Vault shares & signers are device agnostic. Users can mix-and-match any devices (iOS, Android, browser apps, etc.) to be used as signers.
+
+### Can users import their existing address into Vultisig?
+
+The single-sig private key and seed phrase of existing addresses are already potentially exposed, especially if they were on hot wallets. Vultisig will not remedy this existing risk.

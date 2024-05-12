@@ -35,3 +35,7 @@ Yes! Vault shares & signers are device agnostic. Users can mix-and-match any dev
 ### Can users import their existing address into Vultisig?
 
 The single-sig private key and seed phrase of existing addresses are already potentially exposed, especially if they were on hot wallets. Vultisig will not remedy this existing risk.
+
+### Can we bond RUNE/ provide liquidity on THORChain by using Vultisig and will it be counted for airdrop?
+
+Yes, Vultisig will support this. 

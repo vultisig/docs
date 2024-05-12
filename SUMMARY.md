@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Overview](README.md)
-* [TSS](tss/README.md)
+
+## TSS
   * [How it works](<tss/How it works.md>)
   * [Emergency Recovery](tss/emergency-recovery.md)
   

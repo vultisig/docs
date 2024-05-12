@@ -57,4 +57,4 @@ Tokens are auto-sold through the pool on behalf of LP Owners as the market inter
 * The parties with 12mo cliff (DEV, Investors & Liquidity) will not be able to withdraw from the LP during the vesting period. However, $VLTI can still be freely bought/sold through the LP.
 * Investors have claim to 20% of the launch liquidity, thus they are buying at $12.5m FDV.
 * The first buy during the WL launch will be at $2.5m FDV.
-* The first $3m buy during the WL launch will be at/below $12.5m FDV.
+* The first $3m worth of buys during the WL launch will be at/below $12.5m FDV.

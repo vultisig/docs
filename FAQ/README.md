@@ -4,6 +4,10 @@ description: Vultisig Frequently Asked Questions
 
 # Frequently Asked Questions
 
+### What are the biggest differences between Vultisig and all the other cold and hot wallets out there?
+
+All the other cold and hot wallets are single-sig, and they rely on one set of seed phrase and one piece of private key; while Vultisig is a Multi-Sig Multi-Devices wallet that does not rely on seed phrase and with its private key split into many pieces to enhance wallet security. [Reference](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b).
+
 ### Will it be possible to add tokens like ERC-20s on EVM blockchains, or SPL tokens on Solana, etc?
 
 Yes.

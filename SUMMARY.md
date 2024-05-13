@@ -3,9 +3,11 @@
 * [Overview](README.md)
 
 ## TSS
-  * [How it works](<tss/How it works.md>)
-  * [Emergency Recovery](tss/emergency-recovery.md)
-  
+
+* [How it works](<tss/How it works.md>)
+* [Emergency Recovery](tss/emergency-recovery.md)
+* [Security](tss/security.md)
+
 ## User Actions
 
 * [Creating a Vault](user-actions/creating-a-vault.md)

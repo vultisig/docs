@@ -22,7 +22,7 @@ Kudelski Audit of `mobile-tss-lib`
 
 ## TSS-Security
 
-TSS (GG20), whilst a relatively new cryptographically protocol, has been tested in the wild extensively by THORChain (thorchain.org) in an open-source and adversarial environment. The fact that it works today with a non-zero amount of funds in vaults is testament to the robustness of the protocol.&#x20;
+TSS (GG20), whilst a relatively new cryptographically protocol, has been tested in the wild extensively by THORChain (thorchain.org) in an open-source and adversarial environment. The fact that it works today with a non-zero amount of funds in vaults is testament to the robustness of the protocol.
 
-Vultisig also implements GG20; but in a non-adverserial environment. Your trusted devices only connect to each other in deliberate sessions after being unlocked by you or your device owner. Thus they cannot be attacked whilst you sleep with your devices locked/asleep as well.&#x20;
+Vultisig also implements GG20; but in a non-adverserial environment. Your trusted devices only connect to each other in deliberate sessions after being unlocked by you or your device owner. Thus they cannot be attacked whilst you sleep with your devices locked/asleep as well.
 

@@ -12,7 +12,7 @@ description: The launch of the Vultisig token to the world.
 | 12 Month Airdrop      | 10,000,000 | 10% is distributed as an airdrop to users after 12 months |
 | 5 year Annual Airdrop | 10,000,000 | 2% a year for 5 years                                     |
 
-<figure><img src="../.gitbook/assets/Launch-TokenAllocation.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Launch-TokenAllocation.jpeg" alt=""><figcaption></figcaption></figure>
 
 ## Launch Liquidity
 
@@ -22,7 +22,7 @@ A 24hour whitelisted (WL) trade-only period will be the next phase (first come, 
 
 After 24 hours, the pool will be opened for unlimited buys/sells.
 
-<figure><img src="../.gitbook/assets/Launch-Roadmap.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Launch-Roadmap.jpeg" alt=""><figcaption></figcaption></figure>
 
 The following is an indication of how the launch could go, and the subsequent 12 months.
 

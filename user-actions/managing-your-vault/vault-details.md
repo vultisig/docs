@@ -14,10 +14,9 @@ description: >-
 
 </div>
 
-Vault Name: Name of current Vault
+**Vault Name:** Name of current Vault
 
-ECDSA: Public key of ECDSA\
-EDDSA: Public key of ECDSA\
+**ECDSA:** Public key of ECDSA\
+**EDDSA:** Public key of ECDSA
 
-
-M of N Vault: Displays the Signing Devices for the current Vault
+**M of N Vault:** Displays the Signing Devices for the current Vault

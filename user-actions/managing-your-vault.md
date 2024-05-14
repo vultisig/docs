@@ -27,14 +27,14 @@ Do not store vault shares of the same vault from different devices in the same l
 {% endhint %}
 
 * Digital storage suggestions:
-- Store one vault share on your cloud drive, store another vault share on your partner's cloud drive
-- Or, have separate/independant cloud drive accounts for each vault share
-- Make sure one device do not have access to multiple cloud drive accounts (thus access to multiple vault shares)
+-- Store one vault share on your cloud drive, store another vault share on your partner's cloud drive
+-- Or, have separate/independant cloud drive accounts for each vault share
+-- Make sure one device do not have access to multiple cloud drive accounts (thus access to multiple vault shares)
 
 * Each of the vault shares are unique. For example:
-- Let’s say the original 3 vault shares for a 2of3 vault are x, y & z; on devices a, b, c respectively.
-- User imports vault share z into device d —> user cannot use only device c and d to sign (because they are the same vault share/signer).
-- The signing devices can be a&b, a&c, a&d, b&c or b&d.
+-- Let’s say the original 3 vault shares for a 2of3 vault are x, y & z; on devices a, b, c respectively.
+-- User imports vault share z into device d —> user cannot use only device c and d to sign (because they are the same vault share/signer).
+-- The signing devices can be a&b, a&c, a&d, b&c or b&d.
 
 ### Rename
 

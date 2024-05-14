@@ -4,7 +4,7 @@
 
 Kudelski Audit of `mobile-tss-lib`
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/TSS-Security.png" alt=""><figcaption></figcaption></figure>
 
 {% file src="../.gitbook/assets/Kudelski_Security_Vultisig_Mob_CR_v1.1_Public.pdf" %}
 

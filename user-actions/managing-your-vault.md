@@ -28,11 +28,11 @@ Do not store vault shares of the same vault from different devices in the same l
 
 * Digital storage suggestions:
 
--- Store one vault share on your cloud drive, store another vault share on your partner's cloud drive
+-- Store one vault share on your cloud drive, store another vault share on your partner's cloud drive.
 
--- Or, have separate/independant cloud drive accounts for each vault share
+-- Or, have separate/independant cloud drive accounts for each vault share. Make sure one device do not have access to those multiple cloud drive accounts (thus access to multiple vault shares).
 
--- Make sure one device do not have access to multiple cloud drive accounts (thus access to multiple vault shares)
+-- Or, store the vault shares on separate Password Managers.
 
 * Each of the vault shares are unique. For example:
 

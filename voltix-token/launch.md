@@ -37,7 +37,7 @@ These are fictional numbers for now
 Instead of the direct token ownership, the Launch Liquidity is split between:
 
 * Treasury
-* DEV (12mo cliff, 5 year vest)
+* Team/Dev (12mo cliff, 5 year vest)
 * Investors (12mo cliff)
 * Liquidity (12mo cliff, 5 year lock)
 
@@ -53,7 +53,7 @@ Tokens are auto-sold through the pool on behalf of LP Owners as the market inter
 
 ## Further Information
 
-* The parties with 12mo cliff (DEV, Investors & Liquidity) will not be able to withdraw from the LP during the vesting period. However, $VLTI can still be freely bought/sold through the LP.
+* The parties with 12mo cliff (Team/Dev, Investors & Liquidity) will not be able to withdraw from the LP during the vesting period. However, $VLTI can still be freely bought/sold through the LP.
 * Investors have claim to 20% of the launch liquidity, thus they are buying at $12.5m FDV.
 * The first buy during the WL launch will be at $2.5m FDV.
 * The first $3m worth of buys during the WL launch will be at/below $12.5m FDV.

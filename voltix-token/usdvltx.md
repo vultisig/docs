@@ -2,7 +2,7 @@
 description: The purpose of the Vultisig Token
 ---
 
-# $VLTI
+# $VULT
 
 Vultisig fulfils four important purposes:
 
@@ -11,7 +11,7 @@ Vultisig fulfils four important purposes:
 3. To provide incentives to contributors to build the product
 4. To allow anyone to support the adoption trajectory of the product
 
-### The Vultisig Token $VLTI
+### The Vultisig Token $VULT
 
 * 100,000,000 starting supply
 * 80% in launch liquidity

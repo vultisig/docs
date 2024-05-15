@@ -14,8 +14,6 @@ description: This is where you can export a vault share.
 Do not store vault shares of the same vault from different devices in the same location as it means a malicous party can re-construct your vault.
 {% endhint %}
 
-***
-
 **Digital Storage Suggetions**
 
 * Store vault-shares on different cloud drives
@@ -28,23 +26,21 @@ Do not store vault shares of the same vault from different devices in the same l
 Each backup is only as safe as the medium and password used where the vault-share is stored
 {% endhint %}
 
-***
-
 **Recovering a lost device**
 
-As each vault share is unique the lost device can only be recovered with the respective backup of the vault-share. \
-
+As each vault share is unique the lost device can only be recovered with the respective backup of the vault-share.&#x20;
 
 Example:\
-Lets say we have 3 devices and 3 backups of each device. Then we loose device 3.
+Lets say we have 3 devices and 3 backups of each device. Then we loose device 3.\
 
-<figure><img src="../../.gitbook/assets/reconstruct 1 (1).jpg" alt="" width="375"><figcaption><p>3 devices, 3 shares, 1 device lost</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/reconstruct 1.jpg" alt="" width="375"><figcaption><p>3 devices, 3 shares, 1 device lost</p></figcaption></figure>
 
 * If device 3 is lost, it can only be recovered with using the backup-share of device 3 on a new device.
 * If installing a share of device 1 or 2 on the new device the vault can´t be accessed, as two of the same shares can´t sign the vault.
 * If installing backup-share 3 on device 1 or 2 the respective device gets overridden as device 3.
 
-<figure><img src="../../.gitbook/assets/reconstruct 2 (1).jpg" alt="" width="375"><figcaption><p>Possible recreations</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/reconstruct 2.jpg" alt="" width="375"><figcaption><p>Possible recreation</p></figcaption></figure>
 
 {% hint style="info" %}
 Two of the same vault-shares can never access a vault

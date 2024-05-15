@@ -6,13 +6,7 @@ description: >-
 
 # Vault Details
 
-
-
-<div data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>View of Vault Details</p></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>View of Vault Details</p></figcaption></figure>
 
 **Vault Name:** Name of current Vault
 

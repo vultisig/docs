@@ -31,11 +31,11 @@ $$
 
 ### Initial Airdrop
 
-The initial airdrop is 10,000,000 VLTI, which will be distributed after the first year. After which, all public keys are purged and a new airdrop period begins.
+The initial airdrop is 10,000,000 $VULT, which will be distributed after the first year. After which, all public keys are purged and a new airdrop period begins.
 
 ### Ongoing Airdrop
 
-The Airdrop Process will continue for another 5 years, and 2% of the supply of VLTI will be airdropped on the anniversary of the token launch every year.
+The Airdrop Process will continue for another 5 years, and 2% of the supply of $VULT will be airdropped on the anniversary of the token launch every year.
 
 ### Privacy
 

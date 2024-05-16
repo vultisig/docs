@@ -12,25 +12,27 @@ description: The launch of the Vultisig token to the world.
 | 12 Month Airdrop      | 10,000,000 | 10% is distributed as an airdrop to users after 12 months |
 | 5 year Annual Airdrop | 10,000,000 | 2% a year for 5 years                                     |
 
-<figure><img src="../.gitbook/assets/Launch-TokenAllocation.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Token allocation.jpg" alt=""><figcaption><p>Token Allocation</p></figcaption></figure>
 
 ## Launch Liquidity
 
 All of the initial raise of capital from external investors (tentatively USD $2m) will be placed in a liquidity pool for launch, together with 80m $VULT (80% of total supply). Thus, FDV begins at $2.5m.
 
-A 24hour whitelisted (WL) trade-only period will be the next phase (first come, first served among the WL addresses). Each WL address can execute only one single buy transaction, with a maximum of $10k. Sell transactions are also allowed during this period (but only whitelisted addresses who first bought, will have any $VULT to sell). 
+A 24hour whitelisted (WL) trade-only period will be the next phase (first come, first served among the WL addresses). Each WL address can execute only one single buy transaction, with a maximum of $10k. Sell transactions are also allowed during this period (but only whitelisted addresses who first bought, will have any $VULT to sell).
 
 After 24 hours, the pool will be opened for unlimited buys/sells.
 
-<figure><img src="../.gitbook/assets/Launch-Roadmap.jpeg" alt=""><figcaption></figcaption></figure>
-
 The following is an indication of how the launch could go, and the subsequent 12 months.
+
+<figure><img src="../.gitbook/assets/launch_roadmap.jpg" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
+
+***
+
+<figure><img src="../.gitbook/assets/Launch-1.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 These are fictional numbers for now
 {% endhint %}
-
-<figure><img src="../.gitbook/assets/Launch-1.png" alt=""><figcaption></figcaption></figure>
 
 ## LP Ownership
 
@@ -47,7 +49,7 @@ This guarantees:
 2. Minimum FDV
 3. No non-circulating tokens with the exception of Airdrop Allocation
 
-Tokens are auto-sold through the pool on behalf of LP Owners as the market interacts.&#x20;
+Tokens are auto-sold through the pool on behalf of LP Owners as the market interacts.
 
 <figure><img src="../.gitbook/assets/Launch-2.png" alt=""><figcaption></figcaption></figure>
 

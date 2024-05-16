@@ -16,9 +16,9 @@ description: The launch of the Vultisig token to the world.
 
 ## Launch Liquidity
 
-All of the initial raise of capital from external investors (tentatively USD $2m) will be placed in a liquidity pool for launch, together with 80m $VLTI (80% of total supply). Thus, FDV begins at $2.5m.
+All of the initial raise of capital from external investors (tentatively USD $2m) will be placed in a liquidity pool for launch, together with 80m $VULT (80% of total supply). Thus, FDV begins at $2.5m.
 
-A 24hour whitelisted (WL) trade-only period will be the next phase (first come, first served among the WL addresses). Each WL address can execute only one single buy transaction, with a maximum of $10k. Sell transactions are also allowed during this period (but only whitelisted addresses who first bought, will have any $VLTI to sell). 
+A 24hour whitelisted (WL) trade-only period will be the next phase (first come, first served among the WL addresses). Each WL address can execute only one single buy transaction, with a maximum of $10k. Sell transactions are also allowed during this period (but only whitelisted addresses who first bought, will have any $VULT to sell). 
 
 After 24 hours, the pool will be opened for unlimited buys/sells.
 
@@ -53,7 +53,7 @@ Tokens are auto-sold through the pool on behalf of LP Owners as the market inter
 
 ## Further Information
 
-* The parties with 12mo cliff (Team/Dev, Investors & Liquidity) will not be able to withdraw from the LP during the vesting period. However, $VLTI can still be freely bought/sold through the LP.
+* The parties with 12mo cliff (Team/Dev, Investors & Liquidity) will not be able to withdraw from the LP during the vesting period. However, $VULT can still be freely bought/sold through the LP.
 * Investors have claim to 20% of the launch liquidity, thus they are buying at $12.5m FDV.
 * The first buy during the WL launch will be at $2.5m FDV.
 * The first $3m worth of buys during the WL launch will be at/below $12.5m FDV.

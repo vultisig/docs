@@ -9,7 +9,7 @@ description: How to create a vault.
 You first need to download the Vultisig App to 2 or more devices.
 
 {% hint style="warning" %}
-Currently only Macbook (M1), iPad and iPhones are supported. Find the app in the app stores (for Mac, look under "iPad Apps")
+Currently only Macbook with chips of the M-Series , iPad and iPhones are supported. Find the app in the app stores (for Mac, look under "iPad Apps")
 {% endhint %}
 
 ### Vault Types

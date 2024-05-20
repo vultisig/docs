@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Overview](README.md)
-
-## TSS
-
-* [How it works](<tss/How it works.md>)
-* [Emergency Recovery](tss/emergency-recovery.md)
-* [Security](tss/security.md)
+* [Threshold Signature Scheme](threshold-signature-scheme/README.md)
+  * [How it works](threshold-signature-scheme/how-it-works.md)
+  * [TSS Actions](threshold-signature-scheme/tss-actions.md)
+  * [Difference to Multi-Signatures](threshold-signature-scheme/difference-to-multi-signatures.md)
+  * [Emergency Recovery](threshold-signature-scheme/emergency-recovery.md)
+  * [Security](threshold-signature-scheme/security.md)
 
 ## User Actions
 

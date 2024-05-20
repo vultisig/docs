@@ -1,7 +1,7 @@
 ---
 description: >-
-  This is where you can see the details of your vault, including parties and
-  public keys.
+  Here you can view the details of your vault, including parties and public
+  keys.
 ---
 
 # Vault Details

@@ -4,7 +4,7 @@ description: What is the difference between TSS and Multi Signatures?
 
 # Difference to Multi-Signatures
 
-The most significant difference between Threshold-Signatures-Schemes (TSS) and Multi-Signatures (MS) are that the TSS-Signature is constructed with one private key while MS uses multiple Private keys to generate a signature.\
+The main difference between Threshold Signature Schemes (TSS) and Multi-Signatures (MS) is that the TSS signature is created with a single private key, while MS uses multiple private keys to create a signature.\
 
 
 <div align="left">
@@ -17,13 +17,12 @@ The most significant difference between Threshold-Signatures-Schemes (TSS) and M
 
 </div>
 
-Raising the inconvenience that lost keys can't be reshared and the funds ultimatley need to migrate due to lower security and less redundancy.&#x20;
-
-Here is a comparison with different Factors for TSS and MS:
+Increasing the inconvenience that lost keys can't be re-shared and the funds that ultimately need to be migrated due to lower security and less redundancy. Here is a comparison of different factors for TSS and MS:
 
 | Factors             | Threshold Signature Scheme                     | Multi Signature                         |
 | ------------------- | ---------------------------------------------- | --------------------------------------- |
 | Losing Shares/Keys  | New participants can be added                  | Funds need to migrate                   |
 | On-Chain Footprint  | One Single Signature signing a Transaction     | More Signatures signing one Transaction |
 | Adding participants | ✔                                              | ❌                                       |
-| Compatability       | <p>Multi-Chain:<br>ECDSA and EDDSA Support</p> | Single Chain Support                    |
+| Compatibility       | <p>Multi-Chain:<br>ECDSA and EDDSA Support</p> | Single Chain Support                    |
+| Private Key         | Never gets exposed                             | Potentionally exposed                   |

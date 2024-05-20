@@ -26,7 +26,7 @@ After 24 hours, the pool will be opened for unlimited buys/sells.
 
 The following is an indication of how the launch could go, and the subsequent 12 months.
 
-<figure><img src="../.gitbook/assets/Launch-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Launch-10.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 These are fictional numbers for now
@@ -49,7 +49,7 @@ This guarantees:
 
 Tokens are auto-sold through the pool on behalf of LP Owners as the market interacts.
 
-<figure><img src="../.gitbook/assets/Launch-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Launch-20.png" alt=""><figcaption></figcaption></figure>
 
 ## Further Information
 

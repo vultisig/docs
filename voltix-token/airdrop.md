@@ -13,7 +13,7 @@ description: Aggressively buying Users and AUM
 
 ## Airdrop Process
 
-To register their vaults for the Airdrop, users send their ECDSA and EdDSA public keys to an airdrop registry, which will scan for presence of funds on chains, and then begin counting Airdrop Value.
+To register their vaults for the Airdrop, users send their ECDSA and EdDSA public keys to an airdrop registry, which will scan for presence of funds on chains, and then begin counting Airdrop Value. This will include any actions performed in Vultisig (like bonding to Nodes and Staking etc).&#x20;
 
 A new scan will be performed each month, and the User Airdrop Value accumulates. Users that keep the funds the longest in Vultisig will earn the highest Airdrop Value.
 

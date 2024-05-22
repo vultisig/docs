@@ -9,5 +9,5 @@ description: Here you can rename your vault.
 
 
 {% hint style="info" %}
-So far it only renames the local vault name, and doesn't affect other devices (will change soon).
+This only renames the local vault name, and doesn't affect other devices.
 {% endhint %}

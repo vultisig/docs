@@ -24,8 +24,8 @@ Vultisig fulfils four important purposes:
 
 Vultisig is a buy-burn model. All affiliate, router and bridge fees accumulated from platform useage will buy and burn the asset.
 
-| Fee                       | Amount          |
-| ------------------------- | --------------- |
-| THORChain Affiliate Fees  | 50 basis points |
-| Uniswap/1Inch Router Fees | 50 basis points |
-| Bridge Fees               | 10 basis points |
+| Fee                                     | Amount          |
+| --------------------------------------- | --------------- |
+| Swap Fees (Cross-chain and Token swaps) | 50 basis points |
+| Bridge Fees (Between EVMs and IBC)      | 10 basis points |
+

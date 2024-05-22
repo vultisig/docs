@@ -29,7 +29,7 @@ The following is an indication of how the launch could go, and the subsequent 12
 <figure><img src="../.gitbook/assets/Launch-10.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-These are fictional numbers for now
+These are fictional numbers
 {% endhint %}
 
 ## LP Ownership
@@ -37,8 +37,8 @@ These are fictional numbers for now
 Instead of the direct token ownership, the Launch Liquidity is split between:
 
 * Treasury
-* Team/Dev (12mo cliff, 5 year vest)
 * Investors (12mo cliff)
+* Team/Dev (12mo cliff, 5 year vest)
 * Liquidity (12mo cliff, 5 year lock)
 
 This guarantees:

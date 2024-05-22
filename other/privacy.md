@@ -10,7 +10,7 @@ At Vultisig, safeguarding user privacy is paramount. We pledge to never store an
 
 **ECDSA and EdDSA Public Keys:** These keys may be associated with Vultisig vaults and can be utilized to derive on-chain addresses, which exposes address balances and other on-chain activities.
 
-**On-chain Transactions:** Transactions involving the `v0` affiliate may be logged for operational purposes.
+**On-chain Transactions:** Transactions involving the `v0` `vi` `va` affiliate may be logged for operational purposes.
 
 ## Plausible Deniability
 

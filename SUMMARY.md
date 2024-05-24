@@ -5,8 +5,8 @@
   * [How it works](threshold-signature-scheme/how-it-works.md)
   * [TSS Actions](threshold-signature-scheme/tss-actions.md)
   * [Difference to Multi-Signatures](threshold-signature-scheme/difference-to-multi-signatures.md)
-  * [Emergency Recovery](threshold-signature-scheme/emergency-recovery.md)
   * [Security](threshold-signature-scheme/security.md)
+  * [Emergency Recovery](threshold-signature-scheme/emergency-recovery.md)
 
 ## User Actions
 

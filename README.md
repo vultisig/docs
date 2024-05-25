@@ -36,6 +36,6 @@ Everyone should use it. It is far safer than anything else (mobile, desktop, har
 
 👩‍💻 Read the docs!
 
-🍿 Download here [iOS Testflight](https://testflight.apple.com/join/CHHICwnO)
+🍿 Download here [iOS Testflight](https://testflight.apple.com/join/kpVufItl)
 
 🧙 Contribute to the code ([https://github.com/vultisig](https://github.com/vultisig))

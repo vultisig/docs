@@ -30,18 +30,23 @@ Any backup is only as secure as the media and password used to store the vault s
 
 If you lose a device you have two options:
 
-1\) Import the original backed-up vault share into a new device.&#x20;
+Option 1) Import the original backed-up vault share into a new device.&#x20;
 
-2\) Re-share the vault using the two other devices to include a new device.
+Option 2) Re-share the vault using the two other devices to include a new device.
 
-Example:\
-Say we have 3 devices and 3 backups of each device. Then we lose device 3.\
+Example for importing:\
+Say we have 3 devices and 3 backups of each device in our set-up.  Due to a boating accident we lose device 3.\
 
 
 <figure><img src="../../.gitbook/assets/reconstruct 1.jpg" alt="" width="375"><figcaption><p>3 devices, 3 shares, 1 device lost</p></figcaption></figure>
 
-* If Device 3 is lost, we can import Device 3 Vault Share into the new Device.
-* If a Share of Device 1 is installed on the new device, the vault is still truly recovered, since we would have now two Device 1's and Device 2.&#x20;
-* Installing Backup Share 3 on Device 1 or 2 will override that device as Device 3.
+Recover Do's:
+
+* If device 3 is lost, we can import backup of vault share 3 into the new device 4.
+
+Recover Don'ts:
+
+* Installing a backup of Share 1 or Share 2 on a new device allows vault access, but it doesn't recover the third device. The vault remains a 2/2 setup, with two devices holding the same share.
+* Installing backup share 3 on device 1 or 2 will override that respective device as device 3.
 
 <figure><img src="../../.gitbook/assets/reconstruct 2.jpg" alt="" width="375"><figcaption><p>Possible recreation</p></figcaption></figure>

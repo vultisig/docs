@@ -48,7 +48,7 @@ Recover Do's:
 
 Recover Don'ts:
 
-* Installing a backup of Share 1 or Share 2 on a new device allows vault access, but it doesn't recover the third device. The vault remains a 2/2 setup, with now two devices holding the same share.
+* Installing a backup of Share 1 or Share 2 on a new device allows vault access (due to 67% threshold), but it doesn't recover the third device. The vault remains a 2/2 setup, with now two devices holding the same share.
 * Installing backup share 3 on device 1 or 2 will override that respective device as device 3.
 
 <figure><img src="../../.gitbook/assets/reconstruct 2.jpg" alt="" width="375"><figcaption><p>Possible recreation</p></figcaption></figure>

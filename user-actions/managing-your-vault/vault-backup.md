@@ -34,7 +34,9 @@ Option 1) Import the original backed-up vault share into a new device.&#x20;
 
 Option 2) Re-share the vault using the two other devices to include a new device.
 
-Example for importing:\
+***
+
+**Example for Recovery:**\
 Say we have 3 devices and 3 backups of each device in our set-up.  Due to a boating accident we lose device 3.\
 
 

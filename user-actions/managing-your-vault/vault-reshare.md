@@ -8,6 +8,10 @@ Reshare is a feature that allows you to reshare each share to the other devices 
 
 Do this if you have lost a device, and want to include a new, unique device.&#x20;
 
+{% hint style="warning" %}
+Resharing can never remove a device from the vault. All existing vault shares remain valid, and can be used in keygen/keysign.
+{% endhint %}
+
 To reshare the vault, please follow the instruction to create a Vault: [#setup](../creating-a-vault.md#setup "mention")
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>

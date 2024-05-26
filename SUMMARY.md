@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Threshold Signature Scheme](threshold-signature-scheme/README.md)
+
+## Threshold Signature Scheme
   * [How it works](threshold-signature-scheme/how-it-works.md)
   * [TSS Actions](threshold-signature-scheme/tss-actions.md)
   * [Difference to Multi-Signatures](threshold-signature-scheme/difference-to-multi-signatures.md)

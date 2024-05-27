@@ -4,12 +4,12 @@ description: What is the difference between TSS and Multi Signatures?
 
 # Difference to Multi-Signatures
 
-The main difference between Threshold Signature Schemes (TSS) and Multi-Signatures (MS) is that the TSS signature is created with a single private key, while MS uses multiple private keys to create a signature.\
+The main difference between Threshold Signature Schemes (TSS) and Multi-Signatures (MS) is that the TSS signature is created with the combination of vault shares where no private key is contructed, while MS uses multiple private keys to create a signature.\
 
 
 <div align="left">
 
-<figure><picture><source srcset="../.gitbook/assets/TSS.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/TSS dark (1).png" alt="" width="375"></picture><figcaption><p>Threshold Signatures</p></figcaption></figure>
+<figure><picture><source srcset="../.gitbook/assets/Tx white.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/TX black.png" alt="" width="375"></picture><figcaption><p>Threshold Signatures</p></figcaption></figure>
 
  
 
@@ -19,10 +19,6 @@ The main difference between Threshold Signature Schemes (TSS) and Multi-Signatur
 
 Increasing the inconvenience that lost keys can't be re-shared and the funds that ultimately need to be migrated due to lower security and less redundancy. Here is a comparison of different factors for TSS and MS:
 
-| Factors             | Threshold Signature Scheme                     | Multi Signature                         |
-| ------------------- | ---------------------------------------------- | --------------------------------------- |
-| Losing Shares/Keys  | New participants can be added                  | Funds need to migrate                   |
-| On-Chain Footprint  | One Single Signature signing a Transaction     | More Signatures signing one Transaction |
-| Adding participants | ✔                                              | ❌                                       |
-| Compatibility       | <p>Multi-Chain:<br>ECDSA and EDDSA Support</p> | Single Chain Support                    |
-| Private Key         | Never gets exposed                             | Potentionally exposed                   |
+***
+
+<table><thead><tr><th>Factors</th><th width="270.3333333333333">Threshold Signature Scheme</th><th>Multi Signature</th></tr></thead><tbody><tr><td>Private Key Storage</td><td>Parties holding shares</td><td>Parties having multiple keys</td></tr><tr><td>On-Chain Footprint</td><td>One Single Signature signing a Transaction</td><td>Multiple Signatures signing one Transaction</td></tr><tr><td>Losing Shares/Keys</td><td>New participants can be added</td><td>Funds need to migrate</td></tr><tr><td>Compatibility</td><td>Multi-Chain:<br>ECDSA and EDDSA Support</td><td>Single Chain Support</td></tr><tr><td>Key Construction</td><td>Private Key never constructed</td><td>Parties having each one private key</td></tr><tr><td>Adding participants</td><td>✔</td><td>❌</td></tr></tbody></table>

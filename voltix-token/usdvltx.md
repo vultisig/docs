@@ -24,6 +24,10 @@ Vultisig fulfils four important purposes:
 
 Vultisig is a buy-burn model. All affiliate, router and bridge fees accumulated from platform useage will buy and burn the asset.
 
+{% hint style="info" %}
+Through the buy and burn-burn model, the token automatically accurs value the more the app is used to swap and bridge.&#x20;
+{% endhint %}
+
 | Fee                                     | Amount          |
 | --------------------------------------- | --------------- |
 | Swap Fees (Cross-chain and Token swaps) | 50 basis points |

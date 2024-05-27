@@ -43,3 +43,21 @@ The single-sig private key and seed phrase of existing addresses are single-sig 
 ### Can we bond RUNE/ provide liquidity on THORChain by using Vultisig and will it be counted for airdrop?
 
 Yes, Vultisig will support this. It will be counted to airdrop value.&#x20;
+
+### What is the best practice in the event of losing 67% of vault shares at the same time? For example, a lady has her handbag snatched with two mobile phones inside the handbag and she has Vultisig 2of2 or 2of3 vault setup with both mobile phones.
+
+*Scenario 1 :*
+With mobile remote data wipe feature setup done and with at least 67% of vault shares backup done properly
+
+1. Erase mobile phones data remotely. 
+2. Buy new devices and import vault shares backup to new devices to regain access to the vault.
+
+*Scenario 2 :*
+WITHOUT mobile remote data wipe feature setup done and with at least 67% of vault shares backup done properly
+
+1. Buy new devices and import vault shares backup to new devices to regain access to the vault.
+2. Immediately move your funds away from this existing vault.
+
+{% hint style="warning" %}
+**You would still loss access to your funds if you do not have at least 67% of vault shares backup done properly.**
+{% endhint %}

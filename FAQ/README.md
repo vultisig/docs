@@ -61,3 +61,9 @@ WITHOUT mobile remote data wipe feature setup done and with at least 67% of vaul
 {% hint style="warning" %}
 **You would still loss access to your funds if you do not have at least 67% of vault shares backup done properly.**
 {% endhint %}
+
+### What is the key utility of $VULT token to the ordinary users?
+
+All the platform incomes (affiliate, router and bridge fees) will be used to buy $VULT and burn to reduce $VULT supply, and create an deflationary effect.
+
+The larger amount and the longer time a user uses the platform, the more $VULT airdrops the user would receive.

@@ -4,7 +4,7 @@ description: What is the difference between TSS and Multi Signatures?
 
 # Difference to Multi-Signatures
 
-The main difference between Threshold Signature Schemes (TSS) and Multi-Signatures (MS) is that the TSS signature is created with the combination of vault shares where no private key is contructed, while MS uses multiple private keys to create a signature.\
+The main difference between Threshold Signature Schemes (TSS) and Multi-Signatures (MS) is that the TSS signature is created using the combination of vault shares through Zero-Knowledge Proof, where no private key is constructed, while MS uses multiple private keys to create a signature.\
 
 
 <div align="left">
@@ -17,7 +17,8 @@ The main difference between Threshold Signature Schemes (TSS) and Multi-Signatur
 
 </div>
 
-Increasing the inconvenience that lost keys can't be re-shared and the funds that ultimately need to be migrated due to lower security and less redundancy. Here is a comparison of different factors for TSS and MS:
+Increasing the inconvenience of MS, that lost keys can't be re-shared and the funds ultimately need to be migrated due to lower security and less redundancy. \
+Here is a comparison of different factors for TSS and MS:
 
 ***
 

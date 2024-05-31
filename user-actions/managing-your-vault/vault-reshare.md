@@ -6,16 +6,18 @@ description: Resharing Vault Shares with paired devices
 
 Reshare is a feature that allows you to reshare each share to the other devices in the Vault, as well as increase or decrease the number of parties.
 
-Do this if you have lost a device, and want to include a new, unique device.&#x20;
-
-{% hint style="warning" %}
-Resharing can never remove a device from the vault. All existing vault shares remain valid, and can be used in keygen/keysign.
-{% endhint %}
+Do this if you lost a device, and want to include a new, unique device or make sure all devices have compatible shares.
 
 To reshare the vault, please follow the instruction to create a Vault: [#setup](../creating-a-vault.md#setup "mention")
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-{% hint style="warning" %}
-When you "remove" a device from your vault, make sure that the backup file is also completely deleted. It is not cryptographically possible to make old backups unusable.
+### Changing the number of parties
+
+Changing the number of parties is as simple as resharing to the old devices, creating a new Vault on the new device, and joining the keygen ceremony or leaving a device out. \
+\
+After resharing a vault, the vault shares of each device also change. Therefore, the old shares that weren't present at the ceremony will be invalid and will not be able to sign any transactions.
+
+{% hint style="danger" %}
+**When you remove or add a device from your vault, make sure that you backup the vault shares after a reshare.**&#x20;
 {% endhint %}

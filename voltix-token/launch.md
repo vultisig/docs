@@ -12,7 +12,7 @@ description: The launch of the Vultisig token to the world.
 | 12 Month Airdrop      | 10,000,000 | 10% is distributed as an airdrop to users after 12 months |
 | 5 year Annual Airdrop | 10,000,000 | 2% a year for 5 years                                     |
 
-<figure><img src="../.gitbook/assets/Airdrop VULT allocation.jpg" alt=""><figcaption><p>Token Allocation</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Airdrop VULT allocation (2).jpg" alt=""><figcaption><p>Token Allocation</p></figcaption></figure>
 
 ## Launch Liquidity
 

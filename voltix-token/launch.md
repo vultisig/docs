@@ -22,7 +22,7 @@ A 24hour whitelisted (WL) trade-only period will be the next phase (first come, 
 
 After 24 hours, the pool will be opened for unlimited buys/sells.
 
-<figure><img src="../.gitbook/assets/launch_roadmap.jpg" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Vultisig Launch roadmap.jpg" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
 
 The following is an indication of how the launch could go (based on USD value of the ETH added to the pool), and the subsequent 12 months.
 

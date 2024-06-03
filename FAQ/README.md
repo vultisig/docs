@@ -6,7 +6,11 @@ description: Vultisig Frequently Asked Questions
 
 ### What are the biggest differences between Vultisig and all the other cold and hot wallets out there?
 
-All the other cold and hot wallets are single-sig, and they rely on one set of seed phrase and one piece of private key; while Vultisig is a Multi-Sig Multi-Device wallet that does not rely on seed phrases and no single-point-of-failure to enhance wallet security. [Reference](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b).
+All the other cold and hot wallets are single-sig, and they rely on one set of seed phrase and one piece of private key; while Vultisig is a Multi-Sig Multi-Device wallet that does not rely on seed phrases and no single-point-of-failure to enhance wallet security. Vultisig utilizes Threshold Signature Scheme (TSS): [Reference](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b).
+
+### What chains can/will Vultisig support?
+
+Any chains on [Trust Wallet Core](https://github.com/trustwallet/wallet-core/tree/master/src) can be supported.
 
 ### Will it be possible to add tokens like ERC-20s on EVM blockchains, or SPL tokens on Solana, etc?
 

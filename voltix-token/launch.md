@@ -56,3 +56,4 @@ Tokens are auto-sold through the pool on behalf of LP Owners as the market inter
 * The parties with 12mo cliff (Team/Dev, Investors & Liquidity) will not be able to withdraw from the LP during the vesting period. However, $VULT can still be freely bought/sold through the LP.
 * Investors have claim to 30% of the launch liquidity, thus they are buying at $10m FDV.
 * The first buy during the WL launch will be at $3m FDV.
+* The launch pool will be on Uniswap V3, with 1% swap fee setting.

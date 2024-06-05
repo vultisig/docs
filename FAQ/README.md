@@ -28,6 +28,10 @@ Yes, via Vultisigner.&#x20;
 
 At least iOS 17; iPhone XS (2018) or newer.
 
+### What versions of Android are supported?
+
+At least API Level 26; Android 8.0 (Oreo) or newer.
+
 ### Are the Vault Shares automatically uploaded into iCloud?
 
 No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/user-actions/managing-your-vault). Users can then choose to keep the Vault Share files on iCloud.

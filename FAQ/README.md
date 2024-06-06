@@ -8,6 +8,12 @@ description: Vultisig Frequently Asked Questions
 
 All the other cold and hot wallets are single-sig, and they rely on one set of seed phrase and one piece of private key; while Vultisig is a Multi-Sig Multi-Device wallet that does not rely on seed phrases and no single-point-of-failure to enhance wallet security. Vultisig utilizes Threshold Signature Scheme (TSS): [Reference](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b).
 
+### What Platforms will be supported?
+
+Available: iOS and Android
+
+Planned: Windows, Linux
+
 ### What chains can/will Vultisig support?
 
 Any chains on [Trust Wallet Core](https://github.com/trustwallet/wallet-core/tree/master/src) can be supported.
@@ -22,7 +28,7 @@ Yes, with partners, utilizing Vultisigner.
 
 ### Will it be possible to integrate Vultisig with Li-Fi (JumperExchange), and different platforms like Uniswap and others?
 
-Yes, via Vultisigner.&#x20;
+Yes, via Vultisigner.
 
 ### What versions of iOS / iPhones are supported?
 
@@ -46,22 +52,20 @@ Yes! Vault shares & signers are device agnostic. Users can mix-and-match any dev
 
 ### Can users import their existing address into Vultisig?
 
-The single-sig private key and seed phrase of existing addresses are single-sig wallets, and cannot be imported into a Vultisig - which is multi-sig wallet.&#x20;
+The single-sig private key and seed phrase of existing addresses are single-sig wallets, and cannot be imported into a Vultisig - which is multi-sig wallet.
 
 ### Can we bond RUNE/ provide liquidity on THORChain by using Vultisig and will it be counted for airdrop?
 
-Yes, Vultisig will support this. It will be counted to airdrop value.&#x20;
+Yes, Vultisig will support this. It will be counted to airdrop value.
 
 ### What is the best practice in the event of losing 67% of vault shares at the same time? For example, a lady has her handbag snatched with two mobile phones inside the handbag and she has Vultisig 2of2 or 2of3 vault setup with both mobile phones.
 
-*Scenario 1 :*
-With mobile remote data wipe feature setup done and with at least 67% of vault shares backup done properly
+_Scenario 1 :_ With mobile remote data wipe feature setup done and with at least 67% of vault shares backup done properly
 
-1. Erase mobile phones data remotely. 
+1. Erase mobile phones data remotely.
 2. Buy new devices and import vault shares backup to new devices to regain access to the vault.
 
-*Scenario 2 :*
-WITHOUT mobile remote data wipe feature setup done and with at least 67% of vault shares backup done properly
+_Scenario 2 :_ WITHOUT mobile remote data wipe feature setup done and with at least 67% of vault shares backup done properly
 
 1. Buy new devices and import vault shares backup to new devices to regain access to the vault.
 2. Immediately move your funds away from this existing vault.

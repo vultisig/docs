@@ -13,10 +13,11 @@
 * [Signing a Transaction](user-actions/signing-a-transaction.md)
 
 ## Vultisigner
- * [What is a Vultisigner](vultisigner/what-is-vultisigner.md)
- * [How does a Vultisigner work?](vultisigner/how-does-vultisigner-work.md)
- * [What can be configured](vultisigner/what-can-be-configured.md)
- * [Why is it safe?](vultisigner/why-is-it-safe.md)
+
+* [What is a Vultisigner](vultisigner/what-is-vultisigner.md)
+* [How does a Vultisigner work?](vultisigner/how-does-vultisigner-work.md)
+* [What can be configured?](vultisigner/what-can-be-configured.md)
+* [Why is it safe?](vultisigner/why-is-it-safe.md)
 
 ## Threshold Signature Scheme
 

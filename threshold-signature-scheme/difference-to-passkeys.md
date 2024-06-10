@@ -12,7 +12,7 @@ Initially adopted by major tech companies such as Apple, Microsoft, and Google, 
 
 ## How do passkeys work?
 
-Passkeys utilize an asymmetric cryptographic pair, consisting of a private key and a public key, similar to the principles employed in the cryptocurrency domain. These keys are generated locally on the user's device using secure hardware modules, such as the Trusted Platform Module (TPM) or Secure Enclave.
+Passkeys utilize an asymmetric cryptographic pair, consisting of a private key and a public key, similar to the principles employed in cryptocurrencies. These keys are generated locally on the user's device using secure hardware modules, such as the Trusted Platform Module (TPM) or Secure Enclave.
 
 The public key is transmitted to and stored by the application or website's server, while the private key remains securely on the user's device, protected by advanced biometric authentication mechanisms like fingerprint or facial recognition.
 

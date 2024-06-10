@@ -4,11 +4,8 @@
 Vultisigner is still to be implemented
 {% endhint %}
 
-Vultisigner is a feature of Vultisig that provides the ability to automatically co-sign transactions in a user's Vault, but only under pre-defined parameters by the Vault owner. 
+Vultisigner is a feature of Vultisig that allows for the automatic co-signing of transactions within a user's Vault, but only under pre-defined parameters set by the Vault owner. It acts as an automatic co-signer that engages only when specific user-defined criteria are met.
 
-It is an automatic co-signer that only signs when the user-defined characteristics are met. This means that the user has the ability to have a Vultisig that is inherently a multi-device vault that feels like a single signature wallet when signing transactions.&#x20;
+This functionality allows users to manage a Vultisig vault that inherently operates as a multi-device vault while providing the user experience of a single-signature wallet when signing transactions, particularly in a 2-of-2 Vault configuration. When used in a 2-of-3 setup, it significantly enhances security.&#x20;
 
-With that it gives the ability to further improve security and accessibility without making the set-up more complicated. \
-This also helps funds yo have automatic security checks in place that are always met once they are set.  &#x20;
-
-These features can be changed with the threshold majority of vaults and signing a transaction.
+Additionally, Vultisigner ensures that funds undergo automatic security checks that are consistently met once configured. These features can be modified by obtaining the threshold majority of vault shares and signing a transaction, offering flexibility in maintaining and updating security protocols.

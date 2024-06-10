@@ -6,65 +6,69 @@ description: How do Threshold Signatures work ?
 
 ## Concept
 
-The Threshold Signature Scheme (TSS) was originally introduced by Adi Shamir and Yael Tauman in 1998. However, due to its complex nature and resource-intensive computation, it was impractical for widespread adoption. With the introduction of the "GG18" paper by Gerrano-Goldfeder in 2018 and its breakthrough in simplifying and improving the efficiency of the TSS scheme, it became practical for implementation and adoption. \
-Vultisig uses the improved version of this TSS (GG20), which has been implemented and thoroughly tested by THORChain.\
-\
-It mainly combines Homomorphic Secret Sharing, Zero Knowledge Proofs and Multi Party Computation (MPC) to securely sign transactions or generate new Vault shares without revealing anything but the correct output.
+The Threshold Signature Scheme (TSS) was originally introduced by Adi Shamir and Yael Tauman in 1998. However, due to its complex nature and resource-intensive computation, it was impractical for widespread adoption.
+
+In 2018, the "GG18" paper by Gerrano-Goldfeder introduced significant advancements, simplifying and enhancing the efficiency of TSS, thereby making it feasible for practical implementation.
+
+Vultisig utilizes an improved version of this TSS, known as GG20, which has been rigorously implemented and thoroughly tested by THORChain.
+
+GG20 TSS integrates Homomorphic Secret Sharing, Zero Knowledge Proofs, and Multi-Party Computation (MPC) to securely sign transactions or generate new Vault shares without revealing any sensitive information. This process ensures that only the correct output is exposed, preserving the security and privacy of the underlying data.
+
+By leveraging these advanced cryptographic techniques, Vultisig provides a highly secure and cutting-edge solution for managing digital assets.
 
 ***
 
 ## Homomorphic Secret Sharing
 
-The homomorphic secret sharing used in Vultisig is based on the Paillier encryption scheme. Named after its inventor Pascal Paillier, who introduced it in 1998. This scheme is an additive homomorphic encryption scheme, which means that ciphertexts can be added homomorphically by mathematical addition.
+The homomorphic secret sharing employed by Vultisig is founded on the Paillier encryption scheme, introduced by Pascal Paillier in 1998. This additive homomorphic encryption method allows ciphertexts to be combined through mathematical addition, enabling secure computations on encrypted data without revealing the underlying information.
 
 {% hint style="info" %}
-Homomorphic means that the structure of the objects is preserved even when mathematical operations are applied to the objects.
+Homomorphic encryption preserves the structure of data, allowing mathematical operations to be performed on encrypted objects without altering their underlying integrity.
 {% endhint %}
 
-These properties allow the TSS to enable secret sharing and apply manipulation, such as mathematics, without the need to decrypt the shares. Essentially, this ensures that the secret shares are kept secure and private, while providing an efficient way to compute them.
+These properties enable the TSS to perform secret sharing and mathematical operations directly on encrypted shares without requiring decryption. This ensures that the secret shares remain secure and private while allowing efficient computation.
 
 ***
 
 ## Zero Knowledge Proof
 
-Zero Knowledge Proof (ZKP) is a cryptographic method that allows a proving entity to convince a verifying entity that a given fact is true without revealing any additional information that could be used to compromise privacy or security.\
-\
-Important properties of ZKPS are:
+Zero Knowledge Proof (ZKP) is a cryptographic technique that enables a proving entity to convince a verifying entity that a specific statement is true without disclosing any additional information that could compromise privacy or security.
 
-1. **Zero-knowledge**: The verifier learns nothing about the proving entity’s private information, except for the fact that the statement is true.
-2. **Soundness**: It is computationally infeasible for an adversary to convince the verifier that a false statement is true.
-3. **Completeness**: If the statement is indeed true, the proving entity can convince the verifier with high probability.
+The key properties of ZKPs are:
 
-Therefore, ZKPs are a perfect fit for threshold signature schemes, providing a powerful tool for ensuring the privacy and security of sensitive information.\
-\
-The ZKP used in Vultisig's TSS are "zk-SNARKs" (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge), a type of ZKP that allows the verification of complex statements without revealing the underlying data.
+* **Zero-Knowledge**: The verifier learns nothing about the proving entity’s private information, other than the fact that the statement is true.
+* **Soundness**: It is computationally infeasible for an adversary to convince the verifier of a false statement.
+* **Completeness**: If the statement is true, the proving entity can convince the verifier with high probability.
+
+These properties make ZKPs an ideal fit for threshold signature schemes, offering robust tools for ensuring the privacy and security of sensitive information.
+
+The ZKP used in Vultisig's TSS is "zk-SNARKs" (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge). This advanced type of ZKP allows the verification of complex statements without revealing the underlying data, enhancing both security and efficiency.
 
 ## Multi Party Computation (MPC)
 
-Vultisig's TSS uses Multi Party Computation (MPC) to achieve secure computation with a possible dishonest majority. This allows a solution for proving access to the secret without ever actually constructing it.
+Vultisig's Threshold Signature Scheme (TSS) leverages Multi-Party Computation (MPC) to enable secure computation even in the presence of a potentially dishonest majority. This approach allows participants to prove access to a secret without ever reconstructing it.
 
-This allows functions to be computed using the secret shares of the participants without revealing them. This function proves access to the secret without ever creating the actual secret.
+Using MPC, functions can be computed on the secret shares held by participants without revealing those shares. This method ensures that the access to the secret is verified and proven without ever generating or exposing the actual secret, thereby maintaining high security and privacy standards.
 
 {% hint style="success" %}
 The private key is never actually constructed in Vultisig
 {% endhint %}
 
-Thus, no party will ever have access to the actual secret (i.e. private key) of the other parties.
+Thus, no party will ever have access to the actual secret (i.e., private key) held by the other parties.
 
 ***
 
-This MPC allows key generation functions with `n`-amount of shares, this function will output the same public key to all parties, and a different secret share for each participant.\
-Only `m`-number of shares will be needed to construct a valid key sign.
+This MPC allows for key generation functions using an `n`-amount of shares, where the function outputs the same public key to all parties and a unique secret share for each participant. Only an `m`-number of shares are needed to construct a valid key signature.
 
-Since MPC is an offline calculation, it has several advantages for use in blockchains:
+Since MPC is an offline computation, it offers several advantages for use in blockchains:
 
-* The `m`-amount can be freely set and later be reconfigured through the re-share computation.
-* The on-chain footprint is similar to a single signature, keeping privacy and lowering transaction fees.
-* Faster and more efficient signing computations.
+* The `m`-amount can be freely set and later reconfigured through the re-share computation.
+* The on-chain footprint is similar to a single signature, maintaining privacy and reducing transaction fees.
+* It enables faster and more efficient signing computations.
 
 ***
 
-To sign a transaction, the vault shares are used as the inputs in the MPC to generate a valid and verifiable signature, which will be used on-chain.
+To sign a transaction, the vault shares are used as inputs in the MPC process to generate a valid and verifiable signature, which will then be used on-chain.
 
 <figure><picture><source srcset="../.gitbook/assets/Tx white.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/TX black.png" alt="" width="375"></picture><figcaption><p>Signing Transaction</p></figcaption></figure>
 
@@ -72,6 +76,6 @@ To sign a transaction, the vault shares are used as the inputs in the MPC to gen
 
 ## Conclusion
 
-The combination of the above concepts essentially builds the Threshold Signature Scheme used by Vultisig, where the Vault Shares are created on each individual device with the possibility to apply functions without the need to reveal the shares.&#x20;
+The combination of these concepts essentially forms the foundation of the Threshold Signature Scheme used by Vultisig. Vault Shares are created on each individual device, allowing functions to be applied without revealing the shares.&#x20;
 
-The privacy and security of the Vault Shares are guaranteed at all times.
+This approach ensures that the privacy and security of the Vault Shares are maintained at all times.

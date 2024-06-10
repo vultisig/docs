@@ -14,7 +14,7 @@ Currently only Macbook with chips of the M-Series , iPad and iPhones are support
 
 ### Vault Types
 
-The vaults will be m-of-n, where m is at least 2/3rds of n, and no maximum number of n devices. The more devices you use, the longer it will take to process any transactions.
+The vaults will be `m`-of-`n`, where m is at least 2/3rds of `n`, and no maximum number of `n` devices. The more devices you use, the longer it will take to process any transactions.
 
 The following are the most common vaults:
 

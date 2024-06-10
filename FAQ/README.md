@@ -18,9 +18,9 @@ Planned: Windows, Linux
 
 Any chains on [Trust Wallet Core](https://github.com/trustwallet/wallet-core/tree/master/src) can be supported.
 
-### Will it be possible to add tokens like ERC-20s on EVM blockchains, or SPL tokens on Solana, etc?
+### Is it possible to add tokens like ERC-20s on EVM blockchains, or SPL tokens on Solana, etc?
 
-Yes.
+Yes, ERC-20 are available and SPL will be added later.
 
 ### Will Vultisig support web apps or browser extension?
 
@@ -43,7 +43,7 @@ At least API Level 26; Android 8.0 (Oreo) or newer.
 No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/user-actions/managing-your-vault). Users can then choose to keep the Vault Share files on iCloud.
 
 {% hint style="warning" %}
-**Do not store multiple Vault Share files in a single location. Anyone who have m Vault Shares (of a m-of-n setup) will have full access to the Vault**
+**Do not store multiple Vault Share files in a single location. Anyone who have m Vault Shares (of a `m`-of-`n` setup) will have full access to the Vault**
 {% endhint %}
 
 ### Can users mix-and-match iOS and Android?
@@ -54,9 +54,10 @@ Yes! Vault shares & signers are device agnostic. Users can mix-and-match any dev
 
 The single-sig private key and seed phrase of existing addresses are single-sig wallets, and cannot be imported into a Vultisig - which is multi-sig wallet.
 
-### Can we bond RUNE/ provide liquidity on THORChain by using Vultisig and will it be counted for airdrop?
+### Can we bond RUNE/ provide liquidity on THORChain/MAYA by using Vultisig and will it be counted for airdrop?
 
-Yes, Vultisig will support this. It will be counted to airdrop value.
+Yes, Vultisig supports message deposits for THORChain and MAYA Protocol.\
+Saver, Liquidity Positions, Lending and Bonding will be counted for the airdrop
 
 ### What is the best practice in the event of losing 67% of vault shares at the same time? For example, a lady has her handbag snatched with two mobile phones inside the handbag and she has Vultisig 2of2 or 2of3 vault setup with both mobile phones.
 
@@ -79,3 +80,5 @@ _Scenario 2 :_ WITHOUT mobile remote data wipe feature setup done and with at le
 All the platform incomes (affiliate, router and bridge fees) will be used to buy $VULT and burn to reduce $VULT supply, and create an deflationary effect.
 
 The larger amount and the longer time a user uses the platform, the more $VULT airdrops the user would receive.
+
+*

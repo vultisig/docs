@@ -6,35 +6,39 @@ description: What is the difference between TSS and Passkeys??
 
 ## What is a passkey?
 
-A passkey is a new way of storing sensitive data to access applications and websites, developed by an initiative of the FIDO (Fast IDentity Online) Alliance to create a new sign-in standard. \
-Initially used by Apple, Microsoft and Google, it is gaining popularity as a secure replacement for passwords.
+A passkey is an advanced method for securely storing sensitive data, designed to facilitate access to applications and websites. \
+This technology was developed under the auspices of the FIDO (Fast IDentity Online) Alliance as part of an initiative to establish a new authentication standard. \
+Initially adopted by major tech companies such as Apple, Microsoft, and Google, passkeys are rapidly gaining traction as a robust alternative to traditional passwords.
 
 ## How do passkeys work?
 
-Passkeys consist of a private key and a public key, as we already know from the crypto industry. \
-They are generated on your device and the public key is stored on the application or website. \
-The private key is stored on the device and is used to authenticate the private key, usually created with biometric authentication tools. When a user wants to log into a website or authenticate themselves, the website/app sends a challenge to the user's device, which uses the private key to digitally sign the challenge with the public key credentials. \
-The response proves that the user has the private key without exposing it. \
-Much like cryptocurrency transactions.
+Passkeys utilize an asymmetric cryptographic pair, consisting of a private key and a public key, similar to the principles employed in the cryptocurrency domain. These keys are generated locally on the user's device using secure hardware modules, such as the Trusted Platform Module (TPM) or Secure Enclave.
+
+The public key is transmitted to and stored by the application or website's server, while the private key remains securely on the user's device, protected by advanced biometric authentication mechanisms like fingerprint or facial recognition.
+
+During the authentication process, the website or application generates a unique cryptographic challenge, which is sent to the user's device. The device responds by using the private key to create a digital signature of the challenge. This signature is then verified by the server using the stored public key.
+
+The cryptographic process ensures that the user possesses the private key without ever transmitting it, thereby maintaining a high level of security and privacy. \
+This mechanism is analogous to the verification process in cryptocurrency transactions, ensuring both integrity and authenticity of the authentication process.
 
 ## Why does Vultisig not use passkeys?
 
-The devil is in the details, because in general passkeys are very secure and should really be adapted to replace passwords.
+While passkeys are generally considered highly secure and hold great promise as a replacement for traditional passwords, the implementation details reveal some critical vulnerabilities that must be addressed, especially when securing high-value assets and wealth.
 
-There are some major flaws when it comes to securing assets and wealth, which should never be compromised:
+Firstly, although passkey technology is open source, it relies on centralized authentication platforms operated by large corporations. This dependency raises concerns about data collection practices and the extent to which user data might be harvested by these entities. The lack of transparency in data handling by these corporations is a significant risk factor.
 
-* The passkey technology itself is open source, but relies on centralized platform authentications from large cooperations.
-* It is not completely sure how and what data is collected by large cooperations.
-* Authentication is a single point of failure, where a physical attack can easily compromise security.
+Secondly, the authentication process itself constitutes a single point of failure. A physical attack on the device holding the private key can lead to a complete security compromise, undermining the reliability of the passkey system. \
+Additionally, if the authentication relies on cookies for session management, attackers could potentially circumvent the system by stealing the authentication cookie, thereby gaining unauthorized access without needing the private key.
 
-These are general weaknesses of passkeys, but when used specifically for cryptocurrencies, there are two more points:
+Specific to the cryptocurrency industry, passkeys exhibit additional limitations:
 
-* It is not multi-chain
-* It is just another single signature technology
+1. **Lack of Multi-Chain Support**: Passkey technology is not inherently designed to operate across multiple blockchain networks, which is a critical requirement for the dynamic and diverse cryptocurrency ecosystem.
+2. **Single Signature Mechanism**: Passkeys employ a single signature for authentication, which may not provide sufficient security for complex, high-stakes transactions that benefit from multi-signature or multi-factor authentication.
 
-This is why Vultisig decided to develop our own solution as we want to bring the cryptocurrency space forward.\
-We want to set new standards, which are:&#x20;
+Recognizing these shortcomings, Vultisig has embarked on developing an advanced solution tailored for the cryptocurrency space. Our objectives are to set new standards by ensuring:
 
-* Open source everything
-* Multi-Chain&#x20;
-* Multi-Factor Authentication
+1. **Open Source Everything**: Transparency and community trust through open-source protocols and implementations.
+2. **Multi-Chain Compatibility**: Seamless interoperability across various blockchain networks.
+3. **Multi-Factor Authentication**: Enhanced security through multiple layers of authentication, mitigating the risks associated with single points of failure.
+
+By addressing these critical issues, Vultisig aims to advance the security and functionality of the cryptocurrency industry.

@@ -14,6 +14,21 @@ Available: iOS and Android
 
 Planned: Windows, Linux
 
+### What versions of iOS/IPadOS/Mac are supported?
+
+**IOS:** At least iOS 17 with iPhone XS (2018) or newer.
+
+**IPad:** IPad OS 17.2
+
+* iPad Pro 12.9-inch (2nd generation and later)
+* iPad Pro 10.5-inch
+* iPad Pro 11-inch (1st generation and later)
+* iPad Air (3rd generation and later)
+* iPad (6th generation and later)
+* iPad mini (5th generation and later)
+
+**Mac:** Currently only Macbook with chips of the M-Series (working on macOS support)
+
 ### What chains can/will Vultisig support?
 
 Any chains on [Trust Wallet Core](https://github.com/trustwallet/wallet-core/tree/master/src) can be supported.
@@ -29,10 +44,6 @@ Yes, with partners, utilizing Vultisigner.
 ### Will it be possible to integrate Vultisig with Li-Fi (JumperExchange), and different platforms like Uniswap and others?
 
 Yes, via Vultisigner.
-
-### What versions of iOS / iPhones are supported?
-
-At least iOS 17; iPhone XS (2018) or newer.
 
 ### What versions of Android are supported?
 

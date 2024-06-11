@@ -22,6 +22,6 @@ Audit Summery
 
 ## TSS-Security
 
-While TSS (GG20) is a relatively new cryptographic protocol, it has been extensively tested in the wild by THORChain (thorchain.org) in an open source and adversarial environment. The fact that it works today with a non-zero amount of funds in vaults is a testament to the robustness of the protocol. \
-\
+While TSS (GG20) is a relatively new cryptographic protocol, it has been extensively tested in the wild by THORChain (thorchain.org) in an open-source and adversarial environment. The fact that it works today with a non-zero amount of funds in vaults is a testament to the robustness of the protocol.
+
 Vultisig also implements GG20, but in a non-adversarial environment. Your trusted devices only connect to each other in deliberate sessions after being unlocked by you or your device owner. Thus, they cannot be attacked while you are asleep with your devices also locked/asleep.

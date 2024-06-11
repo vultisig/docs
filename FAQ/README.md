@@ -6,26 +6,25 @@ description: Vultisig Frequently Asked Questions
 
 ### What are the biggest differences between Vultisig and all the other cold and hot wallets out there?
 
-All the other cold and hot wallets are single-sig, and they rely on one set of seed phrase and one piece of private key; while Vultisig is a Multi-Sig Multi-Device wallet that does not rely on seed phrases and no single-point-of-failure to enhance wallet security. Vultisig utilizes Threshold Signature Scheme (TSS): [Reference](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b).
+All other cold and hot wallets are single-sig and rely on one set of seed phrase and one piece of private key, while Vultisig is a Multi-Sig Multi-Device wallet that does not rely on seed phrases and has no single point of failure, enhancing wallet security. Vultisig utilizes the Threshold Signature Scheme (TSS): [Reference](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b).
 
 ### What Platforms will be supported?
 
-Available: iOS and Android
-
-Planned: Windows, Linux
+- Available: iOS and Android
+- Planned: Windows, Linux
 
 ### What versions of iOS/IPadOS/Mac are supported?
 
-**IOS:** At least iOS 17 with iPhone XS (2018) or newer.
+**iOS:** At least iOS 17 with iPhone XS (2018) or newer.
 
-**IPad:** IPad OS 17.2
+**iPad:** iPad OS 17.2
 
-* iPad Pro 12.9-inch (2nd generation and later)
-* iPad Pro 10.5-inch
-* iPad Pro 11-inch (1st generation and later)
-* iPad Air (3rd generation and later)
-* iPad (6th generation and later)
-* iPad mini (5th generation and later)
+- iPad Pro 12.9-inch (2nd generation and later)
+- iPad Pro 10.5-inch
+- iPad Pro 11-inch (1st generation and later)
+- iPad Air (3rd generation and later)
+- iPad (6th generation and later)
+- iPad mini (5th generation and later)
 
 **Mac:** Currently only Macbook with chips of the M-Series (working on macOS support)
 
@@ -35,9 +34,9 @@ Any chains on [Trust Wallet Core](https://github.com/trustwallet/wallet-core/tre
 
 ### Is it possible to add tokens like ERC-20s on EVM blockchains, or SPL tokens on Solana, etc?
 
-Yes, ERC-20 are available and SPL will be added later.
+Yes, ERC-20 tokens are available, and SPL support will be added later.
 
-### Will Vultisig support web apps or browser extension?
+### Will Vultisig support web apps or browser extensions?
 
 Yes, with partners, utilizing Vultisigner.
 
@@ -54,12 +53,12 @@ At least API Level 26; Android 8.0 (Oreo) or newer.
 No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/user-actions/managing-your-vault). Users can then choose to keep the Vault Share files on iCloud.
 
 {% hint style="warning" %}
-**Do not store multiple Vault Share files in a single location. Anyone who have m Vault Shares (of a `m`-of-`n` setup) will have full access to the Vault**
+**Do not store multiple Vault Share files in a single location. Anyone who has m Vault Shares (of a `m`-of-`n` setup) will have full access to the Vault**
 {% endhint %}
 
-### Can users mix-and-match iOS and Android?
+### Can users mix and match iOS and Android devices?
 
-Yes! Vault shares & signers are device agnostic. Users can mix-and-match any devices (iOS, Android, browser apps, etc.) to be used as signers.
+Yes! Vault shares and signers are device agnostic. Users can mix and match any devices (iOS, Android, browser apps, etc.) to be used as signers.
 
 ### Can users import their existing address into Vultisig?
 
@@ -70,7 +69,9 @@ The single-sig private key and seed phrase of existing addresses are single-sig 
 Yes, Vultisig supports message deposits for THORChain and MAYA Protocol.\
 Saver, Liquidity Positions, Lending and Bonding will be counted for the airdrop
 
-### What is the best practice in the event of losing 67% of vault shares at the same time? For example, a lady has her handbag snatched with two mobile phones inside the handbag and she has Vultisig 2of2 or 2of3 vault setup with both mobile phones.
+### What is the best practice in the event of losing 67% of vault shares at the same time?
+
+For example, a lady has her handbag snatched with two mobile phones inside the handbag and she has Vultisig 2of2 or 2of3 vault setup with both mobile phones
 
 _Scenario 1 :_ With mobile remote data wipe feature setup done and with at least 67% of vault shares backup done properly
 
@@ -91,5 +92,3 @@ _Scenario 2 :_ WITHOUT mobile remote data wipe feature setup done and with at le
 All the platform incomes (affiliate, router and bridge fees) will be used to buy $VULT and burn to reduce $VULT supply, and create an deflationary effect.
 
 The larger amount and the longer time a user uses the platform, the more $VULT airdrops the user would receive.
-
-*

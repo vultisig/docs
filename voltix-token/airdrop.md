@@ -13,15 +13,15 @@ description: Aggressively buying Users and AUM
 
 ## Airdrop Process
 
-To register their vaults for the Airdrop, users send their ECDSA and EdDSA public keys to an airdrop registry, which will scan for presence of funds on chains, and then begin counting Airdrop Value. This will include any actions performed in Vultisig (like bonding to Nodes and Staking etc).&#x20;
+To register their vaults for the Airdrop, users send their ECDSA and EdDSA public keys to an Airdrop Registry, which will scan for presence of funds on chains, and then begin counting airdrop value. This will include any actions performed in Vultisig (like bonding to nodes and staking, etc.).
 
-A new scan will be performed each month, and the User Airdrop Value accumulates. Users that keep the funds the longest in Vultisig will earn the highest Airdrop Value.
+A new scan will be performed each month, and the user airdrop value accumulates. Users that keep the funds the longest in Vultisig will earn the highest airdrop value.
 
 $$
 user\_airdrop\_value += \$\text{total\_vault\_value}
 $$
 
-The final share of the airdrop is the pro-rata share of the Airdrop Allocation.
+The final share of the Airdrop is the pro-rata share of the airdrop allocation.
 
 $$
 \text{user\_airdrop\_share} = 10,000,000 \times \left( \frac{\text{user\_airdrop\_value}}{\text{total\_airdrop\_value}} \right)
@@ -31,16 +31,16 @@ $$
 
 ### Initial Airdrop
 
-The initial airdrop is 10,000,000 $VULT, which will be distributed after the first year. After which, all public keys are purged and a new airdrop period begins.
+The initial Airdrop is 10,000,000 $VULT, which will be distributed after the first year. After which, all public keys are purged and a new airdrop period begins.
 
 ### Ongoing Airdrop
 
-The Airdrop Process will continue for another 5 years, and 2% of the supply of $VULT will be airdropped on the anniversary of the token launch every year.
+The Ongoing Airdrop Process will continue for another 5 years, and 2% of the supply of $VULT will be airdropped on the anniversary of the token launch every year.
 
 ### Privacy
 
 {% hint style="warning" %}
-Do not register for the airdrop if you do not wish for your public keys to be sent to the Airdrop Registry. Note, after the Airdrop has finished, your public keys will be purged. No other user information is collected.
+Do not register for the Airdrop if you do not wish for your public keys to be sent to the Airdrop Registry. Note, after the Airdrop has finished, your public keys will be purged. No other user information is collected.
 {% endhint %}
 
 Read the [#privacy-policy](../other/privacy.md#privacy-policy "mention")

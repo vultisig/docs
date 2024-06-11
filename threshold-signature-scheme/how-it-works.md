@@ -1,8 +1,8 @@
 ---
-description: How do Threshold Signatures work ?
+description: How do Threshold Signatures Work ?
 ---
 
-# How it works
+# How It Works
 
 ## Concept
 
@@ -16,7 +16,7 @@ GG20 TSS integrates Homomorphic Secret Sharing, Zero Knowledge Proofs, and Multi
 
 By leveraging these advanced cryptographic techniques, Vultisig provides a highly secure and cutting-edge solution for managing digital assets.
 
-***
+---
 
 ## Homomorphic Secret Sharing
 
@@ -28,7 +28,7 @@ Homomorphic encryption preserves the structure of data, allowing mathematical op
 
 These properties enable the TSS to perform secret sharing and mathematical operations directly on encrypted shares without requiring decryption. This ensures that the secret shares remain secure and private while allowing efficient computation.
 
-***
+---
 
 ## Zero Knowledge Proof
 
@@ -36,9 +36,9 @@ Zero Knowledge Proof (ZKP) is a cryptographic technique that enables a proving e
 
 The key properties of ZKPs are:
 
-* **Zero-Knowledge**: The verifier learns nothing about the proving entity’s private information, other than the fact that the statement is true.
-* **Soundness**: It is computationally infeasible for an adversary to convince the verifier of a false statement.
-* **Completeness**: If the statement is true, the proving entity can convince the verifier with high probability.
+- **Zero-Knowledge**: The verifier learns nothing about the proving entity’s private information, other than the fact that the statement is true.
+- **Soundness**: It is computationally infeasible for an adversary to convince the verifier of a false statement.
+- **Completeness**: If the statement is true, the proving entity can convince the verifier with high probability.
 
 These properties make ZKPs an ideal fit for threshold signature schemes, offering robust tools for ensuring the privacy and security of sensitive information.
 
@@ -56,23 +56,23 @@ The private key is never actually constructed in Vultisig
 
 Thus, no party will ever have access to the actual secret (i.e., private key) held by the other parties.
 
-***
+---
 
 This MPC allows for key generation functions using an `n`-amount of shares, where the function outputs the same public key to all parties and a unique secret share for each participant. Only an `m`-number of shares are needed to construct a valid key signature.
 
 Since MPC is an offline computation, it offers several advantages for use in blockchains:
 
-* The `m`-amount can be freely set and later reconfigured through the re-share computation.
-* The on-chain footprint is similar to a single signature, maintaining privacy and reducing transaction fees.
-* It enables faster and more efficient signing computations.
+- The `m`-amount can be freely set and later reconfigured through the re-share computation.
+- The on-chain footprint is similar to a single signature, maintaining privacy and reducing transaction fees.
+- It enables faster and more efficient signing computations.
 
-***
+---
 
 To sign a transaction, the vault shares are used as inputs in the MPC process to generate a valid and verifiable signature, which will then be used on-chain.
 
 <figure><picture><source srcset="../.gitbook/assets/Tx white.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/TX black.png" alt="" width="375"></picture><figcaption><p>Signing Transaction</p></figcaption></figure>
 
-***
+---
 
 ## Conclusion
 

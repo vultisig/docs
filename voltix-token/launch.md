@@ -1,5 +1,5 @@
 ---
-description: The launch of the Vultisig token to the world.
+description: The launch of the Vultisig Token to the world.
 ---
 
 # Launch
@@ -16,9 +16,9 @@ description: The launch of the Vultisig token to the world.
 
 ## Launch Liquidity
 
-All of the initial raise of capital from external investors (tentatively USD $2.4m) will be converted to ETH and placed in a liquidity pool for launch, together with 80m $VULT (80% of total supply). Thus, FDV begins at $3m.
+All of the initial raise of capital from external investors (tentatively USD $2.4m) will be converted to ETH and placed in a liquidity pool for launch, together with 80m $VULT (80% of total supply). Thus, Fully Diluted Valuation (FDV) begins at $3m.
 
-A 24hour whitelisted (WL) trade-only period will be the next phase (first come, first served among the WL addresses). Each WL address can only buy up to a maximum of 3 ETH. Sell transactions are also allowed during this period (but only whitelisted addresses who have first bought, will then have any $VULT to sell).
+A 24-hour whitelisted (WL) trade-only period will be the next phase (first come, first served among the WL addresses). Each WL address can only buy up to a maximum of 3 ETH. Sell transactions are also allowed during this period (but only whitelisted addresses who have first bought, will then have any $VULT to sell).
 
 After 24 hours, the pool will be opened for unlimited buys/sells.
 
@@ -36,15 +36,15 @@ These are fictional numbers
 
 Instead of the direct token ownership, the Launch Liquidity is split between:
 
-* Treasury
-* Investors (12mo cliff)
-* Team/Dev (12mo cliff, 5 year vest)
-* Liquidity (12mo cliff, 5 year lock)
+- Treasury
+- Investors (12-month cliff)
+- Team/Dev (12-month cliff, 5-year vest)
+- Liquidity (12-month cliff, 5-year lock)
 
 This guarantees:
 
 1. Maximum liquidity for the asset
-2. Minimum FDV for the launch
+2. Minimum Fully Diluted Valuation (FDV) for the launch
 3. No non-circulating tokens with the exception of Airdrop Allocation
 
 Tokens are auto-sold through the pool on behalf of LP Owners as the market interacts.
@@ -53,7 +53,7 @@ Tokens are auto-sold through the pool on behalf of LP Owners as the market inter
 
 ## Further Information
 
-* The parties with 12mo cliff (Team/Dev, Investors & Liquidity) will not be able to withdraw from the LP during the vesting period. However, $VULT can still be freely bought/sold through the LP.
-* Investors have claim to 30% of the launch liquidity, thus they are buying at $10m FDV.
-* The first buy during the WL launch will be at $3m FDV.
-* The launch pool will be on Uniswap V3, with 1% swap fee setting.
+- The parties with 12-month cliff (Team/Dev, Investors & Liquidity) will not be able to withdraw from the Liquidity Pool during the vesting period. However, $VULT can still be freely bought/sold through the Liquidity Pool.
+- Investors have claim to 30% of the launch liquidity, thus they are buying at $10m FDV.
+- The first buy during the WL launch will be at $3m Fully Diluted Valuation (FDV).
+- The launch pool will be on Uniswap V3, with a 1% swap fee setting.

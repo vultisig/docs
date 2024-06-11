@@ -1,5 +1,5 @@
 ---
-description: Possible Actions
+description: Actions
 ---
 
 # TSS Actions
@@ -8,9 +8,9 @@ description: Possible Actions
 2. Key-Signing
 3. Re-Sharing
 
-## **Key-Generation**
+## Key Generation
 
-Key generation (Key-gen) is a process by which devices prove access to a secret and generate a shared public key. This requires 100% of the devices to be online. The shared public key generated through this process can then be used to create on-chain addresses, referred to as the "vault," for receiving funds.&#x20;
+Key generation (Key-gen) is a process by which devices prove access to a secret and generate a shared public key. This requires 100% of the devices to be online. The shared public key generated through this process can then be used to create on-chain addresses, referred to as the "vault," for receiving funds.
 
 These vault addresses resemble simple wallet addresses, known as "externally-owned accounts" (EOA), and do not appear as special contracts or scripts.
 
@@ -29,14 +29,14 @@ It is crucial that individual Vault shares are never stored together, as a malic
 Following these guidelines ensures the security and integrity of the Vault shares and prevents unauthorized access to the Vault.
 {% endhint %}
 
-## **Key-Signing**
+## Key Signing
 
 Key Signing is a process in which a threshold of parties, specifically 67% as chosen by Vultisig TSS, must collaborate in a coordinated manner to prove access to a secret and generate a signed transaction object. This transaction can then be submitted to a crypto network.
 
 For instance, in a 2-of-3 TSS vault, only 2 of the 3 devices need to participate to sign an outgoing transaction. This ensures that the signing process remains secure and efficient while maintaining the integrity and security of the vault.
 
-## **Re-share**
+## Re-share
 
-Re-share is a process that allows the signing threshold of a vault to adapt by replacing a non-responsive or lost devices with a new one or by modifying the vault's configuration.&#x20;
+Re-share is a process that allows the signing threshold of a vault to adapt by replacing a non-responsive or lost devices with a new one or by modifying the vault's configuration.
 
 This can include upgrading from a 2-of-2 configuration to a 3-of-4, or even downgrading as needed. This flexibility ensures that the vault remains functional and secure despite changes in device availability or requirements.

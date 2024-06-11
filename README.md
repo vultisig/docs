@@ -15,9 +15,9 @@ Vultisig is built by the founders of [THORChain](https://thorchain.org) - who bu
 
 It is possible to create a vault with different setup options:
 
-* 2 of 2 (fastest setup, not backed up)
-* 2 of 3 (recommended, backed up)
-* 3 of 4 (most secure)
+- 2 of 2 (fastest setup, not backed up)
+- 2 of 3 (recommended, backed up)
+- 3 of 4 (most secure)
 
 _The above are the most popular vault configurations and more will come in the future._
 
@@ -25,13 +25,13 @@ _The above are the most popular vault configurations and more will come in the f
 
 🔮 Vultisigs are better than Single-sig or Multi-sig Wallets:
 
-Vultisig vault shares do not store funds - thus no funds at risk if you lose a key. \
-There is no on-chain registration of signing-keys. \
-Vultisigs are compatible for all chains and fully DeFi compatible (Multi-sigs are not). \
-📱 Vultisig uses your favourite Laptops, Tablets and Phones.
+Vultisig vault shares do not store funds - thus no funds at risk if you lose a key.\
+There is no on-chain registration of signing-keys.\
+Vultisigs are compatible with all chains and fully DeFi compatible (Multi-sigs are not).\
+📱 Vultisig uses your favourite laptops, tablets, and phones.
 
-Rich, large screens with familiar UI, Secure Enclaves to store vault shares and with biometric locking. Does not look like a hardware device and therefore grant higher security.\
-🌈 Vultisig is open-source, based on secure technology and is audited (see in [security.md](threshold-signature-scheme/security.md "mention"), _with further audits to come_). \
+Rich, large screens with familiar UI, Secure Enclaves to store vault shares and with biometric locking. Does not look like a hardware device and therefore grants higher security.\
+🌈 Vultisig is open-source, based on secure technology and is audited (see in [security.md](threshold-signature-scheme/security.md "mention"), _with further audits to come_).\
 There is no registration required.
 
 ## Who should use it

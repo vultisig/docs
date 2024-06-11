@@ -4,13 +4,11 @@ description: What is the difference between TSS and Passkeys??
 
 # Difference to Passkeys
 
-## What is a passkey?
+## What is a Passkey?
 
-A passkey is an advanced method for securely storing sensitive data, designed to facilitate access to applications and websites. \
-This technology was developed under the auspices of the FIDO (Fast IDentity Online) Alliance as part of an initiative to establish a new authentication standard. \
-Initially adopted by major tech companies such as Apple, Microsoft, and Google, passkeys are rapidly gaining traction as a robust alternative to traditional passwords.
+A passkey is an advanced method for securely storing sensitive data, designed to facilitate access to applications and websites. This technology was developed under the auspices of the FIDO (Fast IDentity Online) Alliance as part of an initiative to establish a new authentication standard. Initially adopted by major tech companies such as Apple, Microsoft, and Google, passkeys are rapidly gaining traction as a robust alternative to traditional passwords.
 
-## How do passkeys work?
+## How do Passkeys work?
 
 Passkeys utilize an asymmetric cryptographic pair, consisting of a private key and a public key, similar to the principles employed in cryptocurrencies. These keys are generated locally on the user's device using secure hardware modules, such as the Trusted Platform Module (TPM) or Secure Enclave.
 
@@ -18,17 +16,15 @@ The public key is transmitted to and stored by the application or website's serv
 
 During the authentication process, the website or application generates a unique cryptographic challenge, which is sent to the user's device. The device responds by using the private key to create a digital signature of the challenge. This signature is then verified by the server using the stored public key.
 
-The cryptographic process ensures that the user possesses the private key without ever transmitting it, thereby maintaining a high level of security and privacy. \
-This mechanism is analogous to the verification process in cryptocurrency transactions, ensuring both integrity and authenticity of the authentication process.
+The cryptographic process ensures that the user possesses the private key without ever transmitting it, thereby maintaining a high level of security and privacy. This mechanism is analogous to the verification process in cryptocurrency transactions, ensuring both integrity and authenticity of the authentication process.
 
-## Why does Vultisig not use passkeys?
+## Why does Vultisig not use Passkeys?
 
 While passkeys are generally considered highly secure and hold great promise as a replacement for traditional passwords, the implementation details reveal some critical vulnerabilities that must be addressed, especially when securing high-value assets and wealth.
 
 Firstly, although passkey technology is open source, it relies on centralized authentication platforms operated by large corporations. This dependency raises concerns about data collection practices and the extent to which user data might be harvested by these entities. The lack of transparency in data handling by these corporations is a significant risk factor.
 
-Secondly, the authentication process itself constitutes a single point of failure. A physical attack on the device holding the private key can lead to a complete security compromise, undermining the reliability of the passkey system. \
-Additionally, if the authentication relies on cookies for session management, attackers could potentially circumvent the system by stealing the authentication cookie, thereby gaining unauthorized access without needing the private key.
+Secondly, the authentication process itself constitutes a single point of failure. A physical attack on the device holding the private key can lead to a complete security compromise, undermining the reliability of the passkey system. Additionally, if the authentication relies on cookies for session management, attackers could potentially circumvent the system by stealing the authentication cookie, thereby gaining unauthorized access without needing the private key.
 
 Specific to the cryptocurrency industry, passkeys exhibit additional limitations:
 

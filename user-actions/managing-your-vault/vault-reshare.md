@@ -2,7 +2,7 @@
 description: Resharing Vault Shares with paired devices
 ---
 
-# Vault Re-share
+# Vault Reshare
 
 Re-share is a feature that allows you to re-share each vault share to the other devices in the Vault, as well as increase or decrease the number of parties.
 
@@ -10,7 +10,7 @@ Do this if you lost a device and want to include a new, unique device or make su
 
 After clicking on "Re-share" in the Vultisign menu, the subsequent steps are very similar to creating a Vault: [#setup](../creating-a-vault.md#setup)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Changing the Number of Parties
 

@@ -1,14 +1,16 @@
 ---
-description: Here you can view the details of your vault, including parties and public keys.
+description: >-
+  Here you can view the details of your vault, including parties and public
+  keys.
 ---
 
 # Vault Details
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>View of Vault Details</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption><p>View of Vault Details</p></figcaption></figure>
 
 **Vault Name:** Name of current Vault
 
-**ECDSA:** Public key of ECDSA \
+**ECDSA:** Public key of ECDSA\
 **EdDSA:** Public key of EdDSA
 
 **M of N Vault:** Displays the Signing Devices for the current Vault

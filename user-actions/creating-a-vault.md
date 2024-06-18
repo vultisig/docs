@@ -4,6 +4,8 @@ description: How to create a vault.
 
 # Creating a Vault
 
+Creating a Vault is also called a Key Generation event, see [here](../threshold-signature-scheme/tss-actions.md#key-generation)
+
 ## Setup
 
 You first need to download the Vultisig App to two or more devices.
@@ -25,30 +27,48 @@ The following are the most common vaults:
 ## Creating A Vault
 
 {% hint style="success" %}
-Remember - all your devices must be open with Vultisig and must be connected on the (i) same Wi-Fi network/ (ii) same hotspot network/ (iii) individual cellular network. If they are not fully connected, they will fail the Keygen.
+Remember - all your devices must be open with Vultisig and must be connected on the same Wi-Fi network or Internet, using the Vultisig Relay Server. \
+**If they are not fully connected, they will fail the Keygen.**
 {% endhint %}
 
 Get your devices ready and create a vault.
 
-**Main Device:** START -> will show a QR Code to pair with
+<figure><img src="../.gitbook/assets/Get Started .png" alt="" width="188"><figcaption></figcaption></figure>
 
-**Pair Device:** JOIN -> will start the camera to scan the QR code
+Select the Vault set-up of preference: 2-2, 2-3, m-n
 
-<figure><img src="../.gitbook/assets/CreateVault-1.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3.png" alt="" width="188"><figcaption></figcaption></figure>
+
+
+
+Follow these steps for the following devices after selecting your preferred setup**:**
+
+**Main Device:** START -> will show a QR Code to scan with your pairing device(s)
+
+<figure><img src="../.gitbook/assets/Main Device Keygen Internet.png" alt="" width="188"><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The Internet and Local options will be implemented in the next iOS update and are already active on android
+{% endhint %}
+
+**Pair Device:** PAIR -> will start the camera to scan the QR code
+
+<figure><img src="../.gitbook/assets/3.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Network Type
 
-You can choose Wi-Fi, Hotspot, or Cellular.
+You can choose Internet or WiFI.
 
-1. **Wi-Fi**: Simplest and fastest, however may not work on some Wi-Fi networks (since they block mDNS packets)
-2. **Hotspot**: Fast and reliable, since devices are connected directly to each other. Some devices may not have Hotspot.
-3. **Cellular**: slowest, and can be unreliable. Encrypted packets are routed through a relay server.
+1. **Internet:** Using the Vultisig relay server. Encrypted packets are routed through a relay server.
+2. **Wi-Fi**: Using local Network, however may not work on some Wi-Fi networks (since they block mDNS packets)
 
-<figure><img src="../.gitbook/assets/CreateVault-2.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Main Device Keygen Internet.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Keygen
 
-Once clicking **CONTINUE**, the keygen process will begin. Firstly, it will create the pre-params (your vault shares and some other aspects, around 10 seconds), then it will create the ECDSA and EdDSA keys (another 10 seconds). Finally, it will be done! Make sure all devices show the done screen.
+Once clicking **CONTINUE**, the keygen process will begin. Firstly, it will create the pre-parameter (your vault shares and some other aspects, around 10 seconds), then it will create the ECDSA and EdDSA keys (another 10 seconds). Finally, it will be done! Make sure all devices show the done screen.
+
+<figure><img src="../.gitbook/assets/Keygen.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Troubleshooting
 

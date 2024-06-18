@@ -1,7 +1,3 @@
----
-description: How to sign a transaction.
----
-
 # Signing a Transaction
 
 ## Get your device's ready
@@ -20,30 +16,31 @@ Both devices will co-sign and send the final transaction. Only one transaction w
 
 On your Main Device, prepare the transaction (e.g. Send or Swap). When ready, click on **Continue**.
 
-<figure><img src="../.gitbook/assets/SignTx-1.jpeg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Send.png" alt="" width="188"><figcaption><p>Send Screen</p></figcaption></figure>
 
 Confirm all the details on the Verify screen, check all boxes for the reminder messages, and click **Sign**.
 
-<figure><img src="../.gitbook/assets/SignTx-2.jpeg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Verify.png" alt="" width="188"><figcaption></figcaption></figure>
 
-On the Pair screen, a QR code will be generated. Choose the correct option: whether your other devices are in the same **Wi-Fi** or **Hotspot** network, or using **Cellular** connection.
+On the Pair screen, a QR code will be generated. \
+Choose the correct option: whether your other devices are in the same **Wi-Fi** or using The relay Server over the **Internet**.
 
-<figure><img src="../.gitbook/assets/SignTx-3.jpeg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Send pair.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ## Pair Device
 
 On your other device, after selecting the same Vault, click the **Camera** icon and scan the QR code shown on the first device.
 
-<figure><img src="../.gitbook/assets/SignTx-4.jpeg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Main pair.png" alt="" width="188"><figcaption></figcaption></figure>
 
-The transaction details will load, so then check and click **Join key sign** to proceed.
+The transaction details will load, verify them and click **Join key sign** to proceed.
 
-<figure><img src="../.gitbook/assets/SignTx-5.jpeg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Verify pair.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ## Main Device
 
 On the Main Device, the other device's information will appear once synced. Select the other devices, and finally, click **Sign** to complete the transaction.
 
-<figure><img src="../.gitbook/assets/SignTx-6.jpeg" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SignTx-6.jpeg" alt="" width="188"><figcaption></figcaption></figure>
 
 That's it! The transaction should sign and be sent by one of the devices.

@@ -10,7 +10,9 @@
   * [Vault Backup](user-actions/managing-your-vault/vault-backup.md)
   * [Vault Rename](user-actions/managing-your-vault/vault-rename.md)
   * [Vault Reshare](user-actions/managing-your-vault/vault-reshare.md)
-* [Signing a Transaction](user-actions/signing-a-transaction.md)
+* [Keysign](vultisig-user-actions/signing-a-transaction/README.md)
+  * [How Keysigning works](vultisig-user-actions/signing-a-transaction/how-keysigning-works.md)
+  * [Signing a Transaction](vultisig-user-actions/signing-a-transaction/signing-a-transaction.md)
 
 ## Vultisigner
 

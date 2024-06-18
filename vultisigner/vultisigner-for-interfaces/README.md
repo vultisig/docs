@@ -10,7 +10,7 @@ There will be two possible versions of the Vultisigner implementation for Interf
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Two versions of integrations</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Two versions of integrations</p></figcaption></figure>
 
 </div>
 

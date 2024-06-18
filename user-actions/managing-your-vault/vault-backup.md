@@ -4,6 +4,8 @@ description: Exporting vault shares, backing up vaults, importing vault shares.
 
 # Vault Backup
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Backup in Settings</p></figcaption></figure>
+
 {% hint style="success" %}
 **Vault shares should always be backed up.**&#x20;
 {% endhint %}
@@ -23,6 +25,14 @@ Do not store vault shares of the same vault from different devices in the same l
 * Have independent cloud drive accounts for each Vault share.
 * Ensure that a device does not have access to multiple cloud drive accounts that store Vault shares.
 * Use offline devices to store vault shares
+
+## Backup Encryption
+
+It is possible to encrypt the Vault share with an optional password, adding an extra layer of security to the shares.
+
+The Password option can either activated with putting in a strong password and **saving** it or can be **skipped**.
+
+<figure><img src="../../.gitbook/assets/Enrypt Backup.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ## **Recovering a lost device**
 

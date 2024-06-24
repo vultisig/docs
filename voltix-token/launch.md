@@ -18,7 +18,7 @@ description: The launch of the Vultisig Token to the world.
 
 All of the initial raise of capital from external investors (tentatively USD $2.4m) will be converted to ETH and placed in a liquidity pool for launch, together with 80m $VULT (80% of total supply). Thus, Fully Diluted Valuation (FDV) begins at $3m.
 
-A 24-hour whitelisted (WL) trade-only period will be the next phase (first come, first served among the WL addresses). Each WL address can only buy up to a maximum of 3 ETH. Sell transactions are also allowed during this period (but only whitelisted addresses who have first bought, will then have any $VULT to sell).
+A 24-hour whitelisted (WL) trade-only period will be the next phase (first come, first served among the WL addresses). Each WL address can buy multiple times, but only up to a total of 3 ETH (regardless of any sell transactions). Sell transactions are also allowed during this period (but only whitelisted addresses who have first bought, will then have any $VULT to sell).
 
 After 24 hours, the pool will be opened for unlimited buys/sells.
 

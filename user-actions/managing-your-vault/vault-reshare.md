@@ -1,25 +1,63 @@
 ---
-description: Resharing Vault Shares with paired devices
+description: >-
+  Resharing Vault Shares with paired devices and adding new devices to the
+  vault.
 ---
 
 # Vault Reshare
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Feature in settings</p></figcaption></figure>
 
-Re-share is a feature that allows you to re-share the Vault to all the other devices again, it is also possible to increase or decrease the number of parties participating in the Vault.
+## What is the Reshare feature
 
-Do this if a device was lost and want to include a new, unique device or to make sure all devices have compatible shares.
+Resharing is a feature that can be used in two ways.
 
-After clicking on "Re-share" in the Vultisig menu, the subsequent steps are very similar to creating a Vault: [#setup](../creating-a-vault.md#setup)
+1. Allows the user to reshare the current Vault configuration and update the vault shares of the current present devices of a Vault.
+2.  To increase/decrease the number of participating devices in a Vault setup.
 
-<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
-## Changing the Number of Parties
 
-Changing the number of parties is as simple as re-sharing the Vault to the name old devices, and joining the Keygen ceremony or leaving a device out.
+<figure><img src="../../.gitbook/assets/Reshare.png" alt=""><figcaption></figcaption></figure>
 
-After re-sharing a vault, the vault shares of each device also change. Therefore, the old shares that weren't present at the ceremony will be invalid and will not be able to sign any transactions.
+## How to use the Feature
+
+{% hint style="info" %}
+A threshold majority is **always** required to use this feature. \
+For example, for a 2-of-2 vault, both devices must be present.
+{% endhint %}
+
+Do this if a device has been lost in a 2-of-3 setup and you need to add a new, unique device or update the current shares.\
+_If a device of a 2-of-2 setup is lost please use the_ [_backup feature_](vault-backup.md)_._
+
+After clicking "Reshare" in the Vultisig Vault menu, the next steps are very similar to creating a Vault, as the reshare feature is just another keygen ceremony.
+
+<figure><img src="../../.gitbook/assets/3.png" alt="" width="188"><figcaption></figcaption></figure>
+
+## When to use the Reshare feature
+
+Like described in the section about [what the feature is](vault-reshare.md#what-is-the-reshare-feature), it can be used for the following:
+
+### Resharing the currenct Vault Setup
+
+This option doesn't change the configuration, it just refreshes the Vault shares. \
+This feature is recommended if there is a possibility that a Vault share has been compromised.
+
+### Changing the Number of Parties
+
+Changing the number of parties is as simple as joining another keygen session. \
+This gives the ability to change the number of devices participating in a setup. \
+New unique devices can be added or old devices can be excluded.
+
+## **IMPORTANT NOTE FOR RESHARE**
+
+After resharing a vault, the vault shares of each device also change.\
+This invalidates the old backups of the shares in Vultisig and increases the risk that mixed backups will be imported and restored. \
+**This can result in inaccessible vaults.**\
+_If that happened the_ [_emergency recovery_](../../threshold-signature-scheme/emergency-recovery.md) _can be used as last resort._
+
+Any device that was not present in a reshare will have a different vault share to the rest of the vault, making it impossible to join the keygen or keysign after the reshare. \
+This is intentional, as vault shares can be disabled in Vultisig if a share is suspected of being compromised.
 
 {% hint style="danger" %}
-**When you re-share, remove or add a device from your vault, make sure that you ALWAYS back up the vault shares!**
+**Be sure to ALWAYS back up your Vault shares after using the reshare feature!**
 {% endhint %}

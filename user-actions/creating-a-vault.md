@@ -27,31 +27,31 @@ The following are the most common vaults:
 ## Creating A Vault
 
 {% hint style="success" %}
-Remember - all your devices must be open with Vultisig and must be connected on the same Wi-Fi network or Internet, using the Vultisig Relay Server. \
-**If they are not fully connected, they will fail the Keygen.**
+Remember - all your devices must have the Vultisig open and must be connected to the same Wi-Fi network or Internet, using the Vultisig Relay Server. \
+**The keygen will fail if the connection is not stable.**
 {% endhint %}
 
 Get your devices ready and create a vault.
 
 <figure><img src="../.gitbook/assets/Get Started .png" alt="" width="188"><figcaption></figcaption></figure>
 
-Select the Vault set-up of preference: 2-2, 2-3, m-n
+Select the Vault setup of preference:&#x20;
+
+* 2-of-2
+* 2-of-3
+* &#x20;`m`-of-`n`
 
 <figure><img src="../.gitbook/assets/3.png" alt="" width="188"><figcaption></figcaption></figure>
 
 
 
-Follow these steps for the following devices after selecting your preferred setup**:**
+After selecting your preferred setup, follow these steps for the following devices**:**
 
 **Main Device:** START -> will show a QR Code to scan with your pairing device(s)
 
 <figure><img src="../.gitbook/assets/Main Device Keygen Internet.png" alt="" width="188"><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-The Internet and Local options will be implemented in the next iOS update and are already active on android
-{% endhint %}
-
-**Pair Device:** PAIR -> will start the camera to scan the QR code
+**Pair Device:** PAIR -> will start the camera to scan the QR code or a shared QR code can be imported.
 
 <figure><img src="../.gitbook/assets/3.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -59,20 +59,22 @@ The Internet and Local options will be implemented in the next iOS update and ar
 
 You can choose Internet or WiFI.
 
-1. **Internet:** Using the Vultisig relay server. Encrypted packets are routed through a relay server.
-2. **Wi-Fi**: Using local Network, however may not work on some Wi-Fi networks (since they block mDNS packets)
+1. **Internet:** Using the Vultisig relay server. Encrypted packages are routed through the Vultisig relay server.
+2. **Wi-Fi**: Using local Network, however may not work on some Wi-Fi networks (since they may block mDNS packets)
 
 <figure><img src="../.gitbook/assets/Main Device Keygen Internet.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Keygen
 
-Once clicking **CONTINUE**, the keygen process will begin. Firstly, it will create the pre-parameter (your vault shares and some other aspects, around 10 seconds), then it will create the ECDSA and EdDSA keys (another 10 seconds). Finally, it will be done! Make sure all devices show the done screen.
+Once you click CONTINUE, the keygen process will begin. First it will create the pre-parameters (your vault shares and some other aspects, about 10 seconds), then it will create the ECDSA and EdDSA keys (another 10 seconds). \
+Finally, it is done! Make sure that all devices show the done screen.
 
 <figure><img src="../.gitbook/assets/Keygen.png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Troubleshooting
 
-If Keygen fails it is because you have an unreliable network and the devices dropped connections.
+If a Keygen fails, it may be because you have an unreliable network and the devices dropped connections.
 
-1. Quit the apps and start again.
+1. Quit the apps.
 2. Change networks.
+3. Start again.

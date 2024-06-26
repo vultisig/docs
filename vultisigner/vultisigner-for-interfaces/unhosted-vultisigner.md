@@ -4,7 +4,7 @@
 
 If the user already has a Vault on their devices and the interfaces want to allow the user to interact with their dApp without creating a dedicated Vault for the application, they can opt for this version.
 
-<figure><img src="../../.gitbook/assets/Unhosted (1).png" alt=""><figcaption><p>Flowchart - Unhosted</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Unhosted.png" alt=""><figcaption><p>Flowchart - Unhosted</p></figcaption></figure>
 
 ***
 

@@ -7,7 +7,7 @@ This configuration allows the partners to oversee the entire process from key ge
 
 ***
 
-<figure><img src="../../.gitbook/assets/Hosted (1).png" alt=""><figcaption><p>Flowchart - Hosted</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Hosted.png" alt=""><figcaption><p>Flowchart - Hosted</p></figcaption></figure>
 
 ### Key generation and Vault setup
 

@@ -24,7 +24,11 @@ The following are the most common vaults:
 2. **2-of-3 vault** - three devices to create a vault and two to sign a transaction. This is automatically backed up (one device is the backup) so you don't need to export vault shares. But you may choose to do this. **This vault type is recommended, as it is more secured than 2-of-2 vault.**
 3. **3-of-4 vault** - four devices to create a vault and three to sign a transaction. This is automatically backed up (one device is the backup) so you don't need to export vault shares. But you may choose to do this.
 
-## Creating A Vault
+## Generating A Vault
+
+<figure><img src="../.gitbook/assets/How Keygen works.png" alt=""><figcaption><p>Keygen Flowchart</p></figcaption></figure>
+
+### How to generate a Vault
 
 {% hint style="success" %}
 Remember - all your devices must have the Vultisig open and must be connected to the same Wi-Fi network or Internet, using the Vultisig Relay Server. \

@@ -37,7 +37,7 @@ After clicking "Reshare" in the Vultisig Vault menu, the next steps are very sim
 
 Like described in the section about [what the feature is](vault-reshare.md#what-is-the-reshare-feature), it can be used for the following:
 
-### Resharing the currenct Vault Setup
+### Resharing the current Vault Setup
 
 This option doesn't change the configuration, it just refreshes the Vault shares. \
 This feature is recommended if there is a possibility that a Vault share has been compromised.

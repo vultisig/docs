@@ -15,9 +15,9 @@ All other cold and hot wallets are single-sig and rely on one set of seed phrase
 
 ### What versions of iOS/IPadOS/Mac are supported?
 
-**iOS:** At least iOS 17 with iPhone XS (2018) or newer.
+**iOS:** Minimum iOS 17 with iPhone XS (2018)
 
-**iPad:** iPad OS 17.2
+**iPad:** Minimum iPad OS 17.2
 
 - iPad Pro 12.9-inch (2nd generation and later)
 - iPad Pro 10.5-inch
@@ -26,7 +26,15 @@ All other cold and hot wallets are single-sig and rely on one set of seed phrase
 - iPad (6th generation and later)
 - iPad mini (5th generation and later)
 
-**Mac:** Currently only Macbook with chips of the M-Series (working on macOS support)
+**Mac:** Minimum MacOS 14.0
+
+### What versions of Android are supported?
+
+Minimum API Level 26; Android 8.0 (Oreo) or newer.
+
+### Can users mix and match iOS and Android devices?
+
+Yes! Vault shares and signers are device agnostic. Users can mix and match any devices (iOS, Android, browser apps, etc.) to be used as signers.
 
 ### What chains can/will Vultisig support?
 
@@ -44,10 +52,6 @@ Yes, with partners, utilizing Vultisigner.
 
 Yes, via Vultisigner.
 
-### What versions of Android are supported?
-
-At least API Level 26; Android 8.0 (Oreo) or newer.
-
 ### Are the Vault Shares automatically uploaded into iCloud?
 
 No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/user-actions/managing-your-vault). Users can then choose to keep the Vault Share files on iCloud.
@@ -55,10 +59,6 @@ No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/u
 {% hint style="warning" %}
 **Do not store multiple Vault Share files in a single location. Anyone who has m Vault Shares (of a `m`-of-`n` setup) will have full access to the Vault**
 {% endhint %}
-
-### Can users mix and match iOS and Android devices?
-
-Yes! Vault shares and signers are device agnostic. Users can mix and match any devices (iOS, Android, browser apps, etc.) to be used as signers.
 
 ### Can users import their existing address into Vultisig?
 

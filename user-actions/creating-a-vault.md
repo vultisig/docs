@@ -21,8 +21,32 @@ The vaults will be `m`-of-`n`, where m is at least 2/3rds of `n`, and no maximum
 The following are the most common vaults:
 
 1. **2-of-2 vault** - only need two to create a vault and two to sign a transaction. Note, it is not automatically "redundant" so you absolutely should export the vault shares and store them separately and securely. This will be the most popular vault type as this is the most convenient. **For its convenience, this is also the least secured vault type.**
-2. **2-of-3 vault** - three devices to create a vault and two to sign a transaction. This is automatically backed up (one device is the backup) so you don't need to export vault shares. But you may choose to do this. **This vault type is recommended, as it is more secured than 2-of-2 vault.**
-3. **3-of-4 vault** - four devices to create a vault and three to sign a transaction. This is automatically backed up (one device is the backup) so you don't need to export vault shares. But you may choose to do this.
+2. **2-of-3 vault** - three devices to create a vault and two to sign a transaction. This is automatically backed up (one device is the backup) so you don't need to export vault shares. But you should do this anyway. **This vault type is recommended, as it is more secured than 2-of-2 vault.**
+3. **3-of-4 vault** - four devices to create a vault and three to sign a transaction. This is automatically backed up (one device is the backup) so you don't need to export vault shares. But you should do this anyway.
+
+
+
+{% hint style="info" %}
+What is the most redundant vault that allows you maximum flexibility?&#x20;
+
+Try this:\
+1\) Use 3 different builds (Mac, iOS, Android) on 3 different devices.&#x20;
+
+2\) Export vaults shares with 3 different passwords to encrypt.&#x20;
+
+3\) Save vault shares in 3 different Cloud Storage options (Google, iCloud, Proton, Dropbox etc), each with a unique email address per Cloud Storage. \
+4\) Ensure each email has 2FA. \
+\
+To compromise this vault, an attacker would need to\
+1\) Break into 2 different emails, intercept your 2FA, AND crack 2 different passwords, or\
+2\) Compromise 2 different devices (get past passcodes and biometrics).
+
+If you practice good security, the likelihood of this is significantly low, almost zero. (How many times has someone broken into 1 of your devices/email/storage accounts, let alone 2).&#x20;
+
+The advantage of this setup is you can re-spawn anywhere in the world with just your email accounts and passwords, without carrying around hardware wallets and seed-phrases.&#x20;
+{% endhint %}
+
+
 
 ## Generating A Vault
 

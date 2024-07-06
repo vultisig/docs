@@ -10,8 +10,8 @@ Creating a Vault is also called a Key Generation event, see [here](../threshold-
 
 You first need to download the Vultisig App to two or more devices.
 
-{% hint style="warning" %}
-Currently only MacBook with chips of the M-Series, iPad, and iPhones are supported. Find the app in the app stores (for Mac, look under "iPad Apps").
+{% hint style="success" %}
+iOS, MacOs, Android, Windows and eventually Linux are intended to be supported. Check the website for the latest update on distribution.&#x20;
 {% endhint %}
 
 ## Vault Types

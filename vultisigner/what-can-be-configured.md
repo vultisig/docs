@@ -8,3 +8,4 @@ The default transaction policy can look like this:
 * Only send to whitelist addresses
 * Send to non-whitelist addresses with 24 hour delay
 * Add new address whitelist with 24-hour delay
+* Only able to swap certain routes

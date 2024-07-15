@@ -12,7 +12,7 @@ description: The launch of the Vultisig Token to the world.
 | 12 Month Airdrop      | 10,000,000 | 10% is distributed as an airdrop to users after 12 months |
 | 5 year Annual Airdrop | 10,000,000 | 2% a year for 5 years                                     |
 
-<figure><img src="../.gitbook/assets/Airdrop VULT allocation (2).jpg" alt=""><figcaption><p>Token Allocation</p></figcaption></figure>
+<figure><picture><source srcset="../.gitbook/assets/Token Allocation.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Token Allocation.png" alt=""></picture><figcaption><p>Token Allocation</p></figcaption></figure>
 
 ## Launch Liquidity
 
@@ -36,10 +36,10 @@ These are fictional numbers
 
 Instead of the direct token ownership, the Launch Liquidity is split between:
 
-- Treasury
-- Investors (12-month cliff)
-- Team/Dev (12-month cliff, 5-year vest)
-- Liquidity (12-month cliff, 5-year lock)
+* Treasury
+* Investors (12-month cliff)
+* Team/Dev (12-month cliff, 5-year vest)
+* Liquidity (12-month cliff, 5-year lock)
 
 This guarantees:
 
@@ -53,7 +53,7 @@ Tokens are auto-sold through the pool on behalf of LP Owners as the market inter
 
 ## Further Information
 
-- The parties with 12-month cliff (Team/Dev, Investors & Liquidity) will not be able to withdraw from the Liquidity Pool during the vesting period. However, $VULT can still be freely bought/sold through the Liquidity Pool.
-- Investors have claim to 30% of the launch liquidity, thus they are buying at $10m FDV.
-- The first buy during the WL launch will be at $3m Fully Diluted Valuation (FDV).
-- The launch pool will be on Uniswap V3, with a 1% swap fee setting.
+* The parties with 12-month cliff (Team/Dev, Investors & Liquidity) will not be able to withdraw from the Liquidity Pool during the vesting period. However, $VULT can still be freely bought/sold through the Liquidity Pool.
+* Investors have claim to 30% of the launch liquidity, thus they are buying at $10m FDV.
+* The first buy during the WL launch will be at $3m Fully Diluted Valuation (FDV).
+* The launch pool will be on Uniswap V3, with a 1% swap fee setting.

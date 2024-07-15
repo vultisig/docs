@@ -16,7 +16,9 @@ The rest of the process is similar to that described for setting up a [2-of-2 Va
 ## Vault Share storage
 
 The Vault Shares are stored on a dedicated Vultisigner server, which contains the Vault Shares along with configured instructions for signing transactions.\
-Those Vault shares can be requested via email.
+Those Vault Shares can be requested via email.
+
+<figure><img src="../.gitbook/assets/Vultisigner storage 2-2.png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Requesting the Vault Share stored on the Vultisigner server via email is always advised but optional in a 2 of 3 vault. \

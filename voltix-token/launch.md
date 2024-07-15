@@ -12,17 +12,31 @@ description: The launch of the Vultisig Token to the world.
 | 12 Month Airdrop      | 10,000,000 | 10% is distributed as an airdrop to users after 12 months |
 | 5 year Annual Airdrop | 10,000,000 | 2% a year for 5 years                                     |
 
-<figure><picture><source srcset="../.gitbook/assets/Token Allocation.png"><img src="../.gitbook/assets/Token Allocation.png" alt=""></picture><figcaption><p>Token Allocation</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Token Allocation.png" alt=""><figcaption><p>Token Allocation</p></figcaption></figure>
 
 ## Launch Liquidity
 
-All of the initial raise of capital from external investors (tentatively USD $2.4m) will be converted to ETH and placed in a liquidity pool for launch, together with 80m $VULT (80% of total supply). Thus, Fully Diluted Valuation (FDV) begins at $3m.
+**Initial Funding**
 
-A 24-hour whitelisted (WL) trade-only period will be the next phase (first come, first served among the WL addresses). Each WL address can buy multiple times, but only up to a total of 3 ETH (regardless of any sell transactions). Sell transactions are also allowed during this period (but only whitelisted addresses who have first bought, will then have any $VULT to sell).
+Vultisig raised $2.4 million from external investors. This capital will be converted to Ethereum (ETH) and added to a liquidity pool for the launch. Along with this, 80 million $VULT tokens (which is 80% of the total supply) will also be added to the pool.
 
-After 24 hours, the pool will be opened for unlimited buys/sells.
+**Initial Valuation**
 
-<figure><img src="../.gitbook/assets/Vultisig Launch roadmap.jpg" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
+This setup gives us a fully diluted valuation (FDV) of $3 million.
+
+**Whitelisted Trade-Only Period**
+
+The next phase is a 24-hour trade-only period for whitelisted (WL) addresses. Here are the key points:
+
+* The trade-only period operates on a first-come, first-served basis among WL addresses.
+* Each WL address can make multiple purchases, but the total cannot exceed 3 ETH.
+* Sell transactions are allowed, but only whitelisted addresses that have already bought $VULT tokens will have any to sell.
+
+**Open Trading**
+
+After the 24-hour whitelisted period, the pool will be open for unlimited buy and sell transactions.
+
+<figure><img src="../.gitbook/assets/Launch Roadmap.png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
 
 The following is an indication of how the launch could go (based on USD value of the ETH added to the pool), and the subsequent 12 months.
 

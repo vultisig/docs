@@ -49,7 +49,7 @@ The Password option can either activated with putting in a strong password and *
 
 If a device is lost, there are two ways to recover the device:
 
-* **Option 1:** Import the original backed-up vault share into a new device.
+* **Option 1:** Import the original backed-up vault share into a new device. Vault shares can be imported into any device that support Vultisig. E.g. a vault share created from an iOS device, can be imported into iOS, MacOS, Android, etc.
 * **Option 2:** Reshare the vault using the two other devices to include a new device. This is only possible on a 2-of-3 setup.
 
 {% hint style="warning" %}

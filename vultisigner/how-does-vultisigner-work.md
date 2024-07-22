@@ -10,7 +10,7 @@ For security reasons, these Vault shares are password encrypted and the user mus
 
 ### 2-of-3 Vault
 
-In this setup, the Vault can be created initially together with the Vultisigner, or later added to an existing Vault with the[ Reshare](../user-actions/managing-your-vault/vault-reshare.md) feature. \
+In this setup, the Vault can be created initially together with the Vultisigner, later added with an import of one vault share of an already existing vault or with the[ Reshare](../user-actions/managing-your-vault/vault-reshare.md) feature extending the vault from a 2-of-2 to an 2-of-3 . \
 The rest of the process is similar to that described for setting up a [2-of-2 Vault](how-does-vultisigner-work.md#id-2-of-2-vault).
 
 ## Vault Share storage

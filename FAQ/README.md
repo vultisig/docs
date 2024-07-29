@@ -10,8 +10,8 @@ All other cold and hot wallets are single-sig and rely on one set of seed phrase
 
 ### What Platforms will be supported?
 
-- Available: iOS and Android
-- Planned: Windows, Linux
+* Available: iOS and Android
+* Planned: Windows, Linux
 
 ### What versions of iOS/IPadOS/Mac are supported?
 
@@ -19,12 +19,12 @@ All other cold and hot wallets are single-sig and rely on one set of seed phrase
 
 **iPad:** Minimum iPad OS 17.2
 
-- iPad Pro 12.9-inch (2nd generation and later)
-- iPad Pro 10.5-inch
-- iPad Pro 11-inch (1st generation and later)
-- iPad Air (3rd generation and later)
-- iPad (6th generation and later)
-- iPad mini (5th generation and later)
+* iPad Pro 12.9-inch (2nd generation and later)
+* iPad Pro 10.5-inch
+* iPad Pro 11-inch (1st generation and later)
+* iPad Air (3rd generation and later)
+* iPad (6th generation and later)
+* iPad mini (5th generation and later)
 
 **Mac:** Minimum MacOS 14.0
 
@@ -62,7 +62,8 @@ No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/u
 
 ### Can users import their existing address into Vultisig?
 
-The single-sig private key and seed phrase of existing addresses are single-sig wallets, and cannot be imported into a Vultisig - which is multi-sig wallet.
+The single-sig private key and seed phrase of existing addresses are single-sig wallets, and cannot be imported into a Vultisig - which is multi-sig wallet.\
+This is to maintain and improve the security of the vaults, as single-sig seed phrases may have been previously exposed or had a bad generation, making them more vulnerable.
 
 ### Can we bond RUNE/ provide liquidity on THORChain/MAYA by using Vultisig and will it be counted for airdrop?
 
@@ -84,7 +85,8 @@ _Scenario 2 :_ WITHOUT mobile remote data wipe feature setup done and with at le
 2. Immediately move your funds away from this existing vault.
 
 {% hint style="warning" %}
-**You would still loss access to your funds if you do not have at least 67% of vault shares backup done properly.**
+**You would still loss access to your funds if you do not have at least 67% of vault shares backup done properly.**\
+**ALWAYS BACK UP EACH DEVICE INDIVIDUALLY**
 {% endhint %}
 
 ### What is the key utility of $VULT token to the ordinary users?

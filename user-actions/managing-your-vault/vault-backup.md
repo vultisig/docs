@@ -6,18 +6,17 @@ description: Exporting vault shares, backing up or importing vaults shares.
 
 ## What is a Backup in Vultisig
 
-Vultisig implements a novel backup and recovery mechanism that differs from traditional seed phrase-based approaches. \
+Vultisig implements a novel backup and recovery mechanism that differs from traditional seed phrase-based approaches.\
 This mechanism also utilizes Threshold Signature Scheme (TSS) technology to generate so called "Vault Shares", that enable more secure and reliable wallet recovery without seed phrases.\
-These shares store all the data necessary to participate in Keygen/Keysign sessions and restore the Vault upon import. \
+These shares store all the data necessary to participate in Keygen/Keysign sessions and restore the Vault upon import.\
 The parameters stored in Vault shares are to the device on which they are generated, making Vault shares **unique** and not interchangeable.\
 \
-\
-
+\\
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Backup in Settings</p></figcaption></figure>
 
 {% hint style="success" %}
-**Vault shares should always be backed up.**&#x20;
+**Vault shares should always be backed up.**
 {% endhint %}
 
 ## How do Vault-Shares work in Vultisig?
@@ -26,7 +25,7 @@ The parameters stored in Vault shares are to the device on which they are genera
 * Each vault share by itself does not have access to any assets, so it is safe to export and store them digitally.
 
 {% hint style="danger" %}
-**Never** store different vault shares of the same vault in the same location, as this could potentially lead to loss of funds. \
+**Never** store different vault shares of the same vault in the same location, as this could potentially lead to loss of funds.\
 This can happen if a malicious party gains access to that location and is able to reconstruct the vault.
 {% endhint %}
 
@@ -36,6 +35,12 @@ This can happen if a malicious party gains access to that location and is able t
 * [x] Having independent cloud drives or password manager for each Vault share.
 * [x] Ensuring that a device does not have access to multiple cloud drives or password managers that store Vault shares.
 * [x] Use offline devices to store vault shares
+
+## How to Backup Vault shares?
+
+In the app, navigate to `Settings` and proceed to `Vault Settings`. \
+Select `Backup`, enter an optional backup encryption password and proceed with `Save`. \
+If not needed, save the vault share by pressing `Skip` directly.
 
 ## Backup Encryption
 
@@ -53,6 +58,6 @@ If a device is lost, there are two ways to recover the device:
 * **Option 2:** Reshare the vault using the two other devices to include a new device. This is only possible on a 2-of-3 setup.
 
 {% hint style="warning" %}
-**Backups are reshare sensitive**. \
+**Backups are reshare sensitive**.\
 This means that backups are incompatible with each other after using the reshare feature, see [here](vault-reshare.md#important-note-for-reshare) for more information.
 {% endhint %}

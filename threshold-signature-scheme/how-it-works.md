@@ -6,7 +6,7 @@ description: How do Threshold Signatures Work ?
 
 ## Concept
 
-The Threshold Signature Scheme (TSS) was originally introduced by Adi Shamir and Yael Tauman in 1998. However, due to its complex nature and resource-intensive computation, it was impractical for widespread adoption.
+The Threshold Signature Scheme (TSS) is part of the broader field of Multi-Party-Computaion (MPC) and was originally introduced by Adi Shamir and Yael Tauman in 1998. However, due to its complex nature and resource-intensive computation, it was impractical for widespread adoption.
 
 In 2018, [the "GG18" paper by Gerrano-Goldfeder](https://eprint.iacr.org/2019/114.pdf) introduced significant advancements, simplifying and enhancing the efficiency of TSS, thereby making it feasible for practical implementation.
 
@@ -15,8 +15,6 @@ Vultisig utilizes an [improved version of this TSS, known as GG20,](https://gith
 [GG20 TSS integrates Homomorphic Secret Sharing, Zero Knowledge Proofs, and Multi-Party Computation (MPC)](https://eprint.iacr.org/2020/540) to securely sign transactions or generate new Vault shares without revealing any sensitive information. This process ensures that only the correct output is exposed, preserving the security and privacy of the underlying data.
 
 By leveraging these advanced cryptographic techniques, Vultisig provides a highly secure and cutting-edge solution for managing digital assets.
-
-
 
 {% hint style="info" %}
 For an excellent summary of the history of MPC protocols, start here\
@@ -53,7 +51,7 @@ The ZKP used in Vultisig's TSS is "zk-SNARKs" (Zero-Knowledge Succinct Non-Inter
 
 ## Multi Party Computation (MPC)
 
-Vultisig's Threshold Signature Scheme (TSS) leverages Multi-Party Computation (MPC) to enable secure computation even in the presence of a potentially dishonest majority. This approach allows participants to prove access to a secret without ever reconstructing it.
+Multi Party Computation includes a broad field of cryptography where Vultisig's Threshold Signature Scheme (TSS) falls into. It enables secure computation even in the presence of a potentially dishonest majority. This approach allows participants to prove access to a secret without ever reconstructing it.
 
 Using MPC, functions can be computed on the secret shares held by participants without revealing those shares. This method ensures that the access to the secret is verified and proven without ever generating or exposing the actual secret, thereby maintaining high security and privacy standards.
 
@@ -65,7 +63,7 @@ Thus, no party will ever have access to the actual secret (i.e., private key) he
 
 ***
 
-This MPC allows for key generation functions using an `n`-amount of shares, where the function outputs the same public key to all parties and a unique secret share for each participant. Only an `m`-number of shares are needed to construct a valid key signature.
+This MPC TSS allows for key generation functions using an `n`-amount of shares, where the function outputs the same public key to all parties and a unique secret share for each participant. Only an `m`-number of shares are needed to construct a valid key signature.
 
 Since MPC is an offline computation, it offers several advantages for use in blockchains:
 
@@ -75,7 +73,7 @@ Since MPC is an offline computation, it offers several advantages for use in blo
 
 ***
 
-To sign a transaction, the vault shares are used as inputs in the MPC process to generate a valid and verifiable signature, which will then be used on-chain.
+To sign a transaction, the vault shares are used as inputs in the MPC process to generate a valid and verifiable signature, which will then be used to sign a transaction on-chain.
 
 <figure><picture><source srcset="../.gitbook/assets/Tx white.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/TX black.png" alt="" width="375"></picture><figcaption><p>Signing Transaction</p></figcaption></figure>
 
@@ -83,6 +81,9 @@ To sign a transaction, the vault shares are used as inputs in the MPC process to
 
 ## Conclusion
 
-The combination of these concepts essentially forms the foundation of the Threshold Signature Scheme used by Vultisig. Vault Shares are created on each individual device, allowing functions to be applied without revealing the shares.
+The combination of these concepts essentially forms the foundation of the Threshold Signature Scheme used by Vultisig. Vault Shares are created on each individual device, allowing functions to be applied without revealing the shares.\
+\
+This ge approach ensures that the privacy and security of the Vault Shares are maintained at all times.\
+\
+While using this technology also reduces the on-chain footprint, improving efficiency and safety for the user.
 
-This approach ensures that the privacy and security of the Vault Shares are maintained at all times.

@@ -15,11 +15,12 @@ Vultisig is built by the founders of [THORChain](https://thorchain.org) - who bu
 
 It is possible to create a vault with different setup options:
 
-- 2 of 2 (fastest setup, not backed up)
-- 2 of 3 (recommended, backed up)
-- 3 of 4 (most secure)
+* 2 of 2 (fastest setup, not backed up\*)
+* 2 of 3 (recommended, backed up\*)
+* 3 of 4 (most secure)
 
-_The above are the most popular vault configurations and more will come in the future._
+_The above are the most popular vault configurations and more will come in the future._\
+
 
 ## Why
 
@@ -45,4 +46,6 @@ It is far safer than anything else (mobile, desktop, hardware, etc).
 
 🍿 Download here [iOS Testflight](https://testflight.apple.com/join/kpVufItl), [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet) or [Google Play Store Web](https://play.google.com/apps/testing/com.vultisig.wallet). Android APK or MacOS downloads also available - please check on Vultisig Discord for these.
 
-🧙 Contribute to the code ([https://github.com/vultisig](https://github.com/vultisig))
+🧙 Contribute to the code ([https://github.com/vultisig](https://github.com/vultisig))\
+\
+_\*_backed up: meaning that a device can be lost and access to funds is still ensured. Deleting the application is equivalent to losing the device. To properly back up the vault shares, please use the [following steps](user-actions/managing-your-vault/vault-backup.md).

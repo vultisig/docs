@@ -1,13 +1,89 @@
 ---
-description: Vultisig is MIT Licence
+description: Vultisig is STMF Licence
 ---
 
 # License
 
-Copyright: 2024, Vultisig
+## STMF License (Set the Memes Free)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Version 1.0, July 2024
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+#### Terms and Conditions for Use, Reproduction, and Distribution
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+**1. Definitions**
+
+"License" means these fun and friendly terms and conditions for using, sharing, and remixing the code.
+
+"Licensor" means the original creator or entity that is sharing the code with you.
+
+"You" (or "Your") means any individual or entity using the code.
+
+"Source" form means the original code, including all the juicy bits like documentation and configuration files.
+
+"Object" form means any form of the code that has been transformed, like compiled code or generated documentation.
+
+"Work" means the original code made available under this License.
+
+"Derivative Works" means any remix or modification of the Work.
+
+"Contribution" means any addition or change to the Work submitted by You to the Licensor.
+
+"Contributor" means anyone who has contributed to the Work.
+
+**2. Sharing is Caring**
+
+You can use, modify, and share the code as much as you like. Just make sure to:
+
+1. Include a copy of this License with any distribution.
+2. Clearly state any changes you made to the code.
+3. Keep all original notices intact.
+
+**3. No Gatekeeping Allowed**
+
+You can't use the code to create patents or restrict others from using it. The code is free for everyone, forever. No gatekeeping allowed!
+
+**4. Redistribution**
+
+When you share the code or your modifications:
+
+1. Verify updates and correctness yourself.
+2. Include a copy of this License.
+3. Clearly state any changes you made.
+4. Keep all original notices intact.
+5. Ensure that no one can ever make patents or gatekeep copied code for themselves.
+
+**5. Contributions**
+
+By contributing to the code, you agree that your contributions are also covered by this License. Your memes and code are now part of the community!
+
+**6. Trademarks**
+
+You can't use the original creator's trademarks without permission. Just give credit where it's due and keep the fun going.
+
+**7. No Warranties**
+
+The code is provided "as-is" without any warranties. Use it at your own risk. If it breaks, you get to keep both pieces.
+
+**8. No Liability**
+
+The creators are not responsible for any damages that may arise from using the code. If things go wrong, it's all on you.
+
+**9. Optional Support**
+
+If you offer support or warranties for the code, you do so at your own risk and responsibility. You're on your own adventure here!
+
+**10. Community Spirit**
+
+Remember, this License is all about community and sharing. Be kind, be respectful, and keep the spirit of open-source alive. Share your improvements, help others, and let's make something awesome together.
+
+**11. Fun Clause**
+
+Have fun! This License is designed to encourage creativity and collaboration. So go ahead, set the memes free, and enjoy the process of building and sharing.
+
+#### END OF TERMS AND CONDITIONS
+
+APPENDIX: How to apply the STMF License to your work To apply the STMF License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "\[]" replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.
+
+Licensed under the STMF License, Version 1.0 (the "License"); you may not use this file except in compliance with the License.
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.

@@ -4,6 +4,10 @@ description: Aggressively buying Users and AUM
 
 # Airdrop
 
+{% hint style="warning" %}
+Airdrop registration is not live yet.
+{% endhint %}
+
 ## TLDR
 
 1. Install Vultisig App and create your vault.

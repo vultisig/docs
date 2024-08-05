@@ -6,23 +6,24 @@ description: The launch of the Vultisig Token to the world.
 
 ## Token Allocation
 
-| Allocation            | Amount     | Description                                               |
-| --------------------- | ---------- | --------------------------------------------------------- |
-| Launch Liquidity      | 80,000,000 | 80% is available at launch                                |
-| 12 Month Airdrop      | 10,000,000 | 10% is distributed as an airdrop to users after 12 months |
-| 5 year Annual Airdrop | 10,000,000 | 2% a year for 5 years                                     |
+| Allocation            | Amount     | Description                                                                          |
+| --------------------- | ---------- | ------------------------------------------------------------------------------------ |
+| Launch Liquidity      | 70,000,000 | 80% is available at launch                                                           |
+| VULT-WEWE Merge       | 10,000,000 | 10% of the tokens used in the VULT-WEWE merge contract to facilitate the conversion. |
+| 12 Month Airdrop      | 10,000,000 | 10% is distributed as an airdrop to users after 12 months                            |
+| 5 year Annual Airdrop | 10,000,000 | 2% a year for 5 years                                                                |
 
-<figure><img src="../.gitbook/assets/Token Allocation.png" alt=""><figcaption><p>Token Allocation</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Token Allocation (1).png" alt=""><figcaption><p>Token Allocation</p></figcaption></figure>
 
 ## Launch Liquidity
 
 **Initial Funding**
 
-Vultisig raised $2.4 million from external investors. This capital will be converted to Ethereum (ETH) and added to a liquidity pool for the launch. Along with this, 80 million $VULT tokens (which is 80% of the total supply) will also be added to the pool.
+Vultisig has raised $2.4 million from outside investors. A portion of this capital will be used to pair in a UNI V3 liquidity pool with the 70 million $VULT tokens (which is 70% of the total supply) for the launch. By using the concentrated liquidity of UNI V3, the capital will be deployed in a range of $2.5 million to $1 billion FDV. This gives the opportunity to use the capital efficiently and deploy it in the required ranges.
 
 **Initial Valuation**
 
-This setup gives us a fully diluted valuation (FDV) of $3 million.
+This setup gives us the possibility to launch at a fully diluted valuation (FDV) of $3 million.
 
 **Whitelisted Trade-Only Period**
 

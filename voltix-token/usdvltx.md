@@ -13,16 +13,18 @@ Vultisig fulfils four important purposes:
 
 ## The Vultisig Token $VULT
 
-- 100,000,000 starting supply
-- 80% in launch liquidity
-- 20% allocated to an airdrop
-- ERC20 with ERC777 extensions: `approveAndCall()` and `_beforeTransferHook()`
-- Ownable, but not mintable (to set launch params)
-- Burnable
+* 100,000,000 starting supply
+* 70% in launch liquidity
+* 10% for the WEWE-VULT merge on Base
+* 20% allocated to an airdrop
+* ERC20 with ERC777 extensions: `approveAndCall()` and `_beforeTransferHook()`
+* Ownable, but not mintable (to set launch params)
+* Burnable
 
 ## Value Accrual
 
 Vultisig operates on a buy-burn model. All affiliate, router, and bridge fees accumulated from platform usage will be used to buy and burn the asset.
+
 {% hint style="info" %}
 Through the buy and burn-burn model, the token automatically increases in value the more the app is used to swap and bridge.
 {% endhint %}

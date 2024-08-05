@@ -6,9 +6,9 @@ description: What happens if the TSS software is unavailable
 
 ## What is the Emergency Recovery Tool?
 
-In Vultisig the private key never exists, improving the security by timesfold due to not be able to be extracted or stolen. The stadnard recovery is archieved by&#x20;
+In Vultisig the private key never exists, improving the security by timesfold since there is no private key to be extracted or stolen. 
 
-It is possible to recombine the vault shares of a vault and generate the private key to extract it and use it in other wallets. Scripts are created to allow users to do this if the Vultisig app ever goes offline:
+It is possible though to recombine the vault shares of a vault and generate the private key to extract it and use it in other wallets. Scripts are created to allow users to do this if the Vultisig app ever goes offline:
 
 ## Prerequisites
 

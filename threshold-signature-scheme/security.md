@@ -20,6 +20,10 @@ Audit Summery
 >
 > • Audit 2 #18 (commit 2577eb3b00d4d58a7318fa0ada726ba7965579ab)
 
+**Contract Audit**
+
+C4rena Audit of the $VULT contract can be seen [here](https://code4rena.com/reports/2024-06-vultisig).
+
 ## TSS-Security
 
 While TSS (GG20) is a relatively new cryptographic protocol, it has been extensively tested in the wild by THORChain (thorchain.org) in an open-source and adversarial environment. The fact that it works today with a non-zero amount of funds in vaults is a testament to the robustness of the protocol.

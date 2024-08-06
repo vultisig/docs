@@ -37,7 +37,7 @@ The next phase is a 24-hour trade-only period for whitelisted (WL) addresses. He
 
 After the 24-hour whitelisted period, the pool will be open for unlimited buy and sell transactions.
 
-<figure><img src="../.gitbook/assets/Launch Roadmap (1).png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Launch Roadmap (2).png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
 
 The following is an indication of how the launch could go (based on USD value of the ETH added to the pool), and the subsequent 12 months.
 

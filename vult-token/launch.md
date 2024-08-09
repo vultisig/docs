@@ -8,7 +8,7 @@ description: The launch of the Vultisig Token to the world.
 
 * Launch will be on Ethereum mainnet
 * WhiteListed (WL) sell on 15-Aug-2024, 1pm UTC
-* Max WL buy is 3 ETH or WETH (either ETH or WETH can be used)
+* Max WL buy is 4 ETH or WETH (either ETH or WETH can be used)
 
 ## Token Allocation
 
@@ -25,7 +25,7 @@ description: The launch of the Vultisig Token to the world.
 
 #### **Initial Funding**
 
-Vultisig has raised $2.4 million from outside investors. A portion of this capital will be used to pair the 70 million $VULT tokens (which is 70% of the total supply) in a UNI V3 liquidity pool. By using the concentrated liquidity and range setting of UNI V3, the capital will be deployed in a range of $2.5 million to $10 billion FDV. \
+Vultisig has raised $2.4 million from outside investors. A portion of this capital will be used to pair the 70 million $VULT tokens (which is 70% of the total supply) in a UNI V3 liquidity pool. By using the concentrated liquidity and range setting of UNI V3, the capital will be deployed in a range of $2.5 million to $10 billion FDV.\
 This gives the opportunity to use the capital efficiently and deploy it in the required ranges to efficiently deploy the token on launch day.
 
 **Initial Valuation**
@@ -44,11 +44,11 @@ The next phase is a 24-hour trade-only period for whitelisted (WL) addresses. He
 
 After the 24-hour whitelisted period, the pool will be open for unlimited buy and sell transactions.
 
-<figure><img src="../.gitbook/assets/Launch Roadmap (2).png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Launch Roadmap.png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
 
 #### **Launch Possibilities**
 
-The following is an indication of how the launch could go based on the initial test run of the contract deployed as the [$WEWE](https://www.weweswap.com/) token.&#x20;
+The following is an indication of how the launch could go based on the initial test run of the contract deployed as the [$WEWE](https://www.weweswap.com/) token but is not a guarantee.
 
 <figure><img src="../.gitbook/assets/WEWE WL Phase.png" alt=""><figcaption><p>WEWE price in the Whitelist phase</p></figcaption></figure>
 

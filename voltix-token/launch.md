@@ -25,7 +25,8 @@ description: The launch of the Vultisig Token to the world.
 
 #### **Initial Funding**
 
-Vultisig has raised $2.4 million from outside investors. A portion of this capital will be used to pair in a UNI V3 liquidity pool with the 70 million $VULT tokens (which is 70% of the total supply) for the launch. By using the concentrated liquidity of UNI V3, the capital will be deployed in a range of $2.5 million to $10 billion FDV. This gives the opportunity to use the capital efficiently and deploy it in the required ranges to efficiently deploy the token.
+Vultisig has raised $2.4 million from outside investors. A portion of this capital will be used to pair the 70 million $VULT tokens (which is 70% of the total supply) in a UNI V3 liquidity pool. By using the concentrated liquidity and range setting of UNI V3, the capital will be deployed in a range of $2.5 million to $10 billion FDV. \
+This gives the opportunity to use the capital efficiently and deploy it in the required ranges to efficiently deploy the token on launch day.
 
 **Initial Valuation**
 

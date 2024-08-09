@@ -6,9 +6,9 @@ description: The launch of the Vultisig Token to the world.
 
 ## TLDR/FAQ
 
-- Launch will be on Ethereum mainnet
-- WhiteListed (WL) sell on 15-Aug-2024, 1pm UTC
-- Max WL buy is 3 ETH or WETH (either ETH or WETH can be used)
+* Launch will be on Ethereum mainnet
+* WhiteListed (WL) sell on 15-Aug-2024, 1pm UTC
+* Max WL buy is 3 ETH or WETH (either ETH or WETH can be used)
 
 ## Token Allocation
 
@@ -23,15 +23,15 @@ description: The launch of the Vultisig Token to the world.
 
 ## Launch Liquidity
 
-**Initial Funding**
+#### **Initial Funding**
 
-Vultisig has raised $2.4 million from outside investors. A portion of this capital will be used to pair in a UNI V3 liquidity pool with the 70 million $VULT tokens (which is 70% of the total supply) for the launch. By using the concentrated liquidity of UNI V3, the capital will be deployed in a range of $2.5 million to $1 billion FDV. This gives the opportunity to use the capital efficiently and deploy it in the required ranges.
+Vultisig has raised $2.4 million from outside investors. A portion of this capital will be used to pair in a UNI V3 liquidity pool with the 70 million $VULT tokens (which is 70% of the total supply) for the launch. By using the concentrated liquidity of UNI V3, the capital will be deployed in a range of $2.5 million to $10 billion FDV. This gives the opportunity to use the capital efficiently and deploy it in the required ranges to efficiently deploy the token.
 
 **Initial Valuation**
 
-This setup gives us the possibility to launch at a fully diluted valuation (FDV) of $3 million.
+This setup gives us the possibility to launch at a **fully diluted valuation (FDV) of $3 million**.
 
-**Whitelisted Trade-Only Period**
+#### **Whitelisted Trade-Only Period**
 
 The next phase is a 24-hour trade-only period for whitelisted (WL) addresses. Here are the key points:
 
@@ -39,19 +39,19 @@ The next phase is a 24-hour trade-only period for whitelisted (WL) addresses. He
 * Each WL address can make multiple purchases, but the total cannot exceed 3 ETH.
 * Sell transactions are allowed, but only whitelisted addresses that have already bought $VULT tokens will have any to sell.
 
-**Open Trading**
+#### **Open Trading**
 
 After the 24-hour whitelisted period, the pool will be open for unlimited buy and sell transactions.
 
 <figure><img src="../.gitbook/assets/Launch Roadmap (2).png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
 
-The following is an indication of how the launch could go (based on USD value of the ETH added to the pool), and the subsequent 12 months.
+#### **Launch Possibilities**
 
-<figure><img src="../.gitbook/assets/Launch-10.png" alt=""><figcaption></figcaption></figure>
+The following is an indication of how the launch could go based on the initial test run of the contract deployed as the [$WEWE](https://www.weweswap.com/) token.&#x20;
 
-{% hint style="warning" %}
-These are fictional numbers
-{% endhint %}
+<figure><img src="../.gitbook/assets/WEWE WL Phase.png" alt=""><figcaption><p>WEWE price in the Whitelist phase</p></figcaption></figure>
+
+Any further price predictions can be taken from the $WEWE chart after the WL phase ended, but will not reflect exactly the actual $VULT launch.
 
 ## LP Ownership
 

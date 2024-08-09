@@ -37,7 +37,7 @@ This setup gives us the possibility to launch at a **fully diluted valuation (FD
 The next phase is a 24-hour trade-only period for whitelisted (WL) addresses. Here are the key points:
 
 * The trade-only period operates on a first-come, first-served basis among WL addresses.
-* Each WL address can make multiple purchases, but the total cannot exceed 3 ETH.
+* Each WL address can make multiple purchases, but the total cannot exceed 4 ETH.
 * Sell transactions are allowed, but only whitelisted addresses that have already bought $VULT tokens will have any to sell.
 
 #### **Open Trading**

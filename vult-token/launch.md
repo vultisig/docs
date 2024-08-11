@@ -46,13 +46,9 @@ After the 24-hour whitelisted period, the pool will be open for unlimited buy an
 
 <figure><img src="../.gitbook/assets/Launch Roadmap.png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
 
-#### **Launch Possibilities**
+#### **Launch**&#x20;
 
-The following is an indication of how the launch could go based on the initial test run of the contract deployed as the [$WEWE](https://www.weweswap.com/) token but is not a guarantee.
-
-<figure><img src="../.gitbook/assets/WEWE WL Phase.png" alt=""><figcaption><p>WEWE price in the Whitelist phase</p></figcaption></figure>
-
-Any further price predictions can be taken from the $WEWE chart after the WL phase ended, but will not reflect exactly the actual $VULT launch.
+The launch will take place on the [Krystal ILO](https://ilo.krystal.app/) platform and Uniswap with a 24-hour whitelisting period. The launch mechanics may be similar to the launch of [$WEWE](https://ilo.krystal.app/project/upside-dow-wewe-690447).
 
 ## LP Ownership
 

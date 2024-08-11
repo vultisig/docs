@@ -23,10 +23,11 @@ Vultisig fulfils four important purposes:
 
 ## Value Accrual
 
-Vultisig operates on a buy-burn model. All affiliate, router, and bridge fees accumulated from platform usage will be used to buy and burn the asset.
+The Vultisig $VULT token will accrue direct USDC revenue to the user when stalked, coming from the fees generated in the Vultisig vaults. \
+The more swaps and bridges that happen in Vultisig, the higher the real yield will be.
 
 {% hint style="info" %}
-Through the buy and burn-burn model, the token automatically increases in value the more the app is used to swap and bridge.
+This feature is yet to be implemented and the exact parameters are still under evaluation.
 {% endhint %}
 
 | Fee                                     | Amount          |

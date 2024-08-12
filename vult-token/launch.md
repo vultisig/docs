@@ -7,7 +7,6 @@ description: The launch of the Vultisig Token to the world.
 ## TLDR/FAQ
 
 * Launch will be on Ethereum mainnet
-* WhiteListed (WL) sell on 15-Aug-2024, 1pm UTC
 * Max WL buy is 4 ETH or WETH (either ETH or WETH can be used)
 
 ## Token Allocation

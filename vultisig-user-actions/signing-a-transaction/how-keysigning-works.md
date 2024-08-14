@@ -1,6 +1,6 @@
 # How Keysigning works
 
-<figure><img src="../../.gitbook/assets/How it works.png" alt=""><figcaption><p>Flowchart - TX signing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/How keysign works.png" alt=""><figcaption><p>Flowchart - TX signing</p></figcaption></figure>
 
 A device initiates a cryptographic session to sign a transaction. It takes the user input and transforms it into the transaction payload, while also acting as the host for that session. The initiating device sends the session metadata, including the session ID, to the Vultisig relay server or broadcasts it over the local network. At the same time, a QR code is generated that embeds the session-specific details required for the pairing devices to join the session.
 

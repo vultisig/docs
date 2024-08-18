@@ -54,7 +54,7 @@ The advantage of this setup is you can re-spawn anywhere in the world with just 
 
 [<img src="../.gitbook/assets/IMG_7263.jpeg" width="188">](https://twitter.com/iceman00008/status/1824683328085299628/video/1 "Watch video")
 
-Click to watch Twitter video
+Click above to watch Twitter video
 
 ### How to generate a Vault
 

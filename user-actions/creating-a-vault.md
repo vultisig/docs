@@ -52,6 +52,8 @@ The advantage of this setup is you can re-spawn anywhere in the world with just 
 
 <figure><img src="../.gitbook/assets/How Keygen works.png" alt=""><figcaption><p>Keygen Flowchart</p></figcaption></figure>
 
+[![Watch video](../.gitbook/assets/IMG_7263.jpg)](https://twitter.com/iceman00008/status/1824683328085299628/video/1)
+
 ### How to generate a Vault
 
 {% hint style="success" %}

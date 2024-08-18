@@ -32,3 +32,7 @@ The appropriate Vultisigner Vault will verify that the configured transaction po
 If they are met, the Vultisigner joins the Keysign ceremony and the transaction is broadcasted to the blockchain.
 
 <figure><img src="../.gitbook/assets/default vultisigner.png" alt=""><figcaption><p>Vultisigner Flowchart</p></figcaption></figure>
+
+{% hint style="info" %}
+In case the Vultisigner server is offline and unable to sign. The user needs to import the Vultisigner share received via email into another device and sign like a normal Keysign.
+{% endhint %}

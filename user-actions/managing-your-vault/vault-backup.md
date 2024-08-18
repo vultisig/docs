@@ -9,9 +9,7 @@ description: Exporting vault shares, backing up or importing vaults shares.
 Vultisig implements a novel backup and recovery mechanism that differs from traditional seed phrase-based approaches.\
 This mechanism also utilizes Threshold Signature Scheme (TSS) technology to generate so called "Vault Shares", that enable more secure and reliable wallet recovery without seed phrases.\
 These shares store all the data necessary to participate in Keygen/Keysign sessions and restore the Vault upon import.\
-The parameters stored in Vault shares are to the device on which they are generated, making Vault shares **unique** and not interchangeable.\
-\
-\\
+The parameters stored in Vault shares are to the device on which they are generated, making Vault shares **unique** and not interchangeable.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Backup in Settings</p></figcaption></figure>
 
@@ -38,12 +36,12 @@ This can happen if a malicious party gains access to that location and is able t
 
 ## How to Backup Vault shares?
 
-[<img src="../../.gitbook/assets/TwitterVideoThumbnail.jpeg" width="50%">](https://twitter.com/iceman00008/status/1824686908368412732/video/1 "Watch video")
+[![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://twitter.com/iceman00008/status/1824686908368412732/video/1)
 
-Click above to watch Twitter video
+_Click on the above Image to watch a explanation Video on Twitter_
 
-In the app, navigate to `Settings` and proceed to `Vault Settings`. \
-Select `Backup`, enter an optional backup encryption password and proceed with `Save`. \
+In the app, navigate to `Settings` and proceed to `Vault Settings`.\
+Select `Backup`, enter an optional backup encryption password and proceed with `Save`.\
 If not needed, save the vault share by pressing `Skip` directly.
 
 ## Backup Encryption

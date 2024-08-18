@@ -52,7 +52,7 @@ The advantage of this setup is you can re-spawn anywhere in the world with just 
 
 <figure><img src="../.gitbook/assets/How Keygen works.png" alt=""><figcaption><p>Keygen Flowchart</p></figcaption></figure>
 
-[<img src="../.gitbook/assets/IMG_7263.jpeg" width="188">](https://twitter.com/iceman00008/status/1824683328085299628/video/1 "Watch video")
+[<img src="../.gitbook/assets/TwitterVideoThumbnail.jpeg" width="188">](https://twitter.com/iceman00008/status/1824683328085299628/video/1 "Watch video")
 
 Click above to watch Twitter video
 

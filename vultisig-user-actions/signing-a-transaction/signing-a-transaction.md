@@ -16,10 +16,6 @@ Both devices will co-sign and send the final transaction. Only one transaction w
 
 Click above to watch Twitter video
 
-[<img src="https://github.com/vultisig/docs/blob/f7bf57ec9234753549ea7ed09740ed8f494e9632/.gitbook/assets/TwitterVideoThumbnail.jpeg" width="50%">](https://twitter.com/iceman00008/status/1824690627843592573/video/1 "Watch video")
-
-Click above to watch Twitter video
-
 ## Main Device
 
 On your Main Device, prepare the transaction (e.g. Send or Swap). When ready, click on **Continue**.

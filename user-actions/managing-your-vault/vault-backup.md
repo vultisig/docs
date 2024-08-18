@@ -38,6 +38,10 @@ This can happen if a malicious party gains access to that location and is able t
 
 ## How to Backup Vault shares?
 
+[<img src="../.gitbook/assets/IMG_7263.jpeg" width="50%">](https://twitter.com/iceman00008/status/1824686908368412732/video/1 "Watch video")
+
+Click above to watch Twitter video
+
 In the app, navigate to `Settings` and proceed to `Vault Settings`. \
 Select `Backup`, enter an optional backup encryption password and proceed with `Save`. \
 If not needed, save the vault share by pressing `Skip` directly.

@@ -38,7 +38,7 @@ This can happen if a malicious party gains access to that location and is able t
 
 ## How to Backup Vault shares?
 
-[<img src="https://github.com/vultisig/docs/blob/9fe44c097c278dae6e82bce1ec46accbd2c3cd17/.gitbook/assets/IMG_7263.jpeg" width="50%">](https://twitter.com/iceman00008/status/1824686908368412732/video/1 "Watch video")
+[<img src="../../.gitbook/assets/TwitterVideoThumbnail.jpeg" width="50%">](https://twitter.com/iceman00008/status/1824686908368412732/video/1 "Watch video")
 
 Click above to watch Twitter video
 

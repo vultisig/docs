@@ -12,6 +12,10 @@ Make sure you confirm the transaction on your pair device.
 Both devices will co-sign and send the final transaction. Only one transaction will be sent (you won't have duplicate transactions).
 {% endhint %}
 
+[<img src="../.gitbook/assets/IMG_7263.jpeg" width="50%">](https://twitter.com/iceman00008/status/1824690627843592573/video/1 "Watch video")
+
+Click above to watch Twitter video
+
 ## Main Device
 
 On your Main Device, prepare the transaction (e.g. Send or Swap). When ready, click on **Continue**.

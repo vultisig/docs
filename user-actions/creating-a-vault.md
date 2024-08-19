@@ -52,9 +52,9 @@ The advantage of this setup is you can re-spawn anywhere in the world with just 
 
 <figure><img src="../.gitbook/assets/How Keygen works.png" alt=""><figcaption><p>Keygen Flowchart</p></figcaption></figure>
 
-[<img src="../.gitbook/assets/TwitterVideoThumbnail.jpeg" width="50%">](https://twitter.com/iceman00008/status/1824683328085299628/video/1 "Watch video")
+[![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://twitter.com/iceman00008/status/1824683328085299628/video/1)
 
-Click above to watch Twitter video
+_Click on the above Image to watch a explanation Video on Twitter_
 
 ### How to generate a Vault
 

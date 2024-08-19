@@ -9,7 +9,7 @@ Early adopters of the Vultisig wallet security standard are highly valued by the
 The future $VULT airdrop will be proportionate to:
 
 $$
-vault\_asset\_value*time\_in\_vault=user\_airdrop\_share
+vault\_asset\_value*time\_in\_vault
 $$
 
 With the distribution date of 12 months after registration goes live.\

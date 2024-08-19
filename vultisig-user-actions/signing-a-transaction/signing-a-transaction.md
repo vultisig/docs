@@ -14,7 +14,7 @@ Both devices will co-sign and send the final transaction. Only one transaction w
 
 [![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://twitter.com/iceman00008/status/1824690627843592573/video/1)
 
-_Click on the above Image to watch a explanation Video on Twitter_
+_Click on the above image to watch an explanation video on Twitter_
 
 ## Main Device
 

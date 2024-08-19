@@ -12,9 +12,9 @@ Make sure you confirm the transaction on your pair device.
 Both devices will co-sign and send the final transaction. Only one transaction will be sent (you won't have duplicate transactions).
 {% endhint %}
 
-[<img src="../../.gitbook/assets/TwitterVideoThumbnail.jpeg" width="50%">](https://twitter.com/iceman00008/status/1824690627843592573/video/1 "Watch video") 
+[![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://twitter.com/iceman00008/status/1824690627843592573/video/1)
 
-Click above to watch Twitter video
+_Click on the above Image to watch a explanation Video on Twitter_
 
 ## Main Device
 

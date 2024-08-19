@@ -38,7 +38,7 @@ This can happen if a malicious party gains access to that location and is able t
 
 [![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://twitter.com/iceman00008/status/1824686908368412732/video/1)
 
-_Click on the above Image to watch a explanation Video on Twitter_
+_Click on the above image to watch an explanation video on Twitter_
 
 In the app, navigate to `Settings` and proceed to `Vault Settings`.\
 Select `Backup`, enter an optional backup encryption password and proceed with `Save`.\

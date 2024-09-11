@@ -42,7 +42,7 @@ The initial Airdrop is 10,000,000 $VULT, which will be distributed after the fir
 
 ### Ongoing Airdrop
 
-The Ongoing Airdrop Process will continue for another 5 years, and 2% of the supply of $VULT will be airdropped on the anniversary of the token launch every year.
+The Ongoing Airdrop Process will continue for another 5 years, and the dedicated supply of $VULT will be airdropped on the anniversary of the token launch every year.
 
 ### Privacy
 

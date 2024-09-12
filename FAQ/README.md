@@ -67,7 +67,7 @@ This is to maintain and improve the security of the vaults, as single-sig seed p
 
 ### Can we bond RUNE/ provide liquidity on THORChain/MAYA by using Vultisig and will it be counted for airdrop?
 
-Yes, Vultisig supports message deposits for THORChain and MAYA Protocol.\
+Yes, Vultisig supports MsgDeposits for THORChain and MAYA Protocol.\
 Saver, Liquidity Positions, Lending and Bonding will be counted for the airdrop
 
 ### What is the best practice in the event of losing 67% of vault shares at the same time?

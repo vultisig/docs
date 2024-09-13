@@ -10,13 +10,11 @@ There are different types of vaults that can be created in the Vultisig App, des
 
 Creating a Vault is also called a Key Generation (KeyGen) event, see more information [here](../threshold-signature-scheme/tss-actions.md#key-generation).
 
-## Setup
+## Setup - Vault Types
 
 {% hint style="success" %}
 iOS, MacOs, Android, Windows and eventually Linux are intended to be supported. Check the [website](https://www.vultisig.com) for the latest update on distribution.
 {% endhint %}
-
-## Vault Types
 
 There are three general setup types to choose from:
 

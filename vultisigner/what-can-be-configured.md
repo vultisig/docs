@@ -1,4 +1,10 @@
-# What can be configured?
+# Transaction Policies
+
+{% hint style="info" %}
+Transaction Policies will be available soon
+{% endhint %}
+
+## What can be configured?
 
 The transaction policies for Vultisigner can be configured to meet the specific needs of each user. \
 The default transaction policy can look like this:

@@ -18,7 +18,7 @@
 
 * [What is a Vultisigner](vultisigner/what-is-vultisigner.md)
 * [How does a Vultisigner work?](vultisigner/how-does-vultisigner-work.md)
-* [What can be configured?](vultisigner/what-can-be-configured.md)
+* [Transaction Policies](vultisigner/what-can-be-configured.md)
 * [Why is it safe?](vultisigner/why-is-it-safe.md)
 * [Vultisigner for Interfaces](vultisigner/vultisigner-for-interfaces/README.md)
   * [Hosted Vultisigner](vultisigner/vultisigner-for-interfaces/hosted-vultisigner.md)

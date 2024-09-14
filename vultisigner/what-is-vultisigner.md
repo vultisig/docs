@@ -1,9 +1,5 @@
 # What is a Vultisigner
 
-{% hint style="info" %}
-Vultisigner is still to be implemented
-{% endhint %}
-
 Vultisigner is a feature of Vultisig that allows for the automatic co-signing of transactions within a user's Vault, but only under pre-defined parameters set by the Vault owner. \
 It acts as an automatic co-signer that engages only when specific user-defined criterias are met.
 

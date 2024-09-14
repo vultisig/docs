@@ -13,7 +13,7 @@ Creating a Vault is also called a Key Generation (KeyGen) event, see more inform
 ## Setup - Vault Types
 
 {% hint style="success" %}
-iOS, MacOs, Android, Windows and eventually Linux are intended to be supported. Check the [website](https://www.vultisig.com) for the latest update on distribution.
+iOS, MacOs, Android, Windows and eventually Linux are intended to be supported. Check the [website](https://vultisig.com/) for the latest update on distribution.
 {% endhint %}
 
 There are three general setup types to choose from:
@@ -70,7 +70,8 @@ Try this:\
 
 2\) Export vaults shares with 3 different passwords to encrypt.
 
-3\) Save vault shares in 3 different Cloud Storage options (Google, iCloud, Proton, Dropbox etc), each with a unique email address per Cloud Storage.\
+3\) Save vault shares in 3 different Cloud Storage options (Google, iCloud, Proton, Dropbox etc), each with a unique email address per Cloud Storage.
+
 4\) Ensure each email has 2FA.\
 \
 To compromise this vault, an attacker would need to\
@@ -109,7 +110,7 @@ Select the Vault setup of preference:
 
 <figure><img src="../.gitbook/assets/Setup Fast.png" alt="" width="188"><figcaption></figcaption></figure>
 
-After selecting your preferred setup, follow the steps for the following Setups\*\*:\*\*
+After selecting your preferred setup, follow the steps for the following Setups:
 
 #### Fast Vault
 

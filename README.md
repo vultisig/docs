@@ -51,7 +51,7 @@ It is far safer than anything else (mobile, desktop, hardware, etc).
 
 👩‍💻 Read the docs!
 
-🍿 Download here [iOS Testflight](https://testflight.apple.com/join/kpVufItl), [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet) or [Google Play Store Web](https://play.google.com/apps/testing/com.vultisig.wallet). Android APK or MacOS downloads also available - please check on Vultisig Discord for these.
+🍿 Download here [iOS AppStore](https://apps.apple.com/us/app/vultisig/id6503023896), [iOS Testflight](https://testflight.apple.com/join/kpVufItl), [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet) or [Google Play Store Web](https://play.google.com/apps/testing/com.vultisig.wallet). Android APK or MacOS downloads also available - please check on Vultisig Discord for these.
 
 🧙 Contribute to the code ([https://github.com/vultisig](https://github.com/vultisig))\
 \

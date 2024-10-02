@@ -9,7 +9,11 @@ description: Exporting vault shares, backing up or importing vaults shares.
 Vultisig implements a novel backup and recovery mechanism that differs from traditional seed phrase-based approaches.\
 This mechanism also utilizes Threshold Signature Scheme (TSS) technology to generate so called "Vault Shares", that enable more secure and reliable wallet recovery without seed phrases.\
 These shares store all the data necessary to participate in Keygen/Keysign sessions and restore the Vault upon import.\
-The parameters stored in Vault shares are to the device on which they are generated, making Vault shares **unique** and not interchangeable.
+They never store any secret key or seed phrase.
+
+{% hint style="info" %}
+The parameters stored in Vault Shares are non-sensitive data and are unique to the device on which they are created, making Vault Shares unique and not interchangeable with eachother.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Backup in Settings</p></figcaption></figure>
 

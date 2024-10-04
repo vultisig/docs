@@ -25,6 +25,10 @@
   * [Unhosted Vultisigner](vultisigner/vultisigner-for-interfaces/unhosted-vultisigner.md)
   * [Conclusion](vultisigner/vultisigner-for-interfaces/conclusion.md)
 
+## Vulticonnect
+
+* [What is Vulticonnect](vulticonnect/what-is-vulticonnect.md)
+
 ## Threshold Signature Scheme
 
 * [How it works](threshold-signature-scheme/how-it-works.md)

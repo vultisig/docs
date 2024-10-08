@@ -87,9 +87,13 @@ The advantage of this setup is you can re-spawn anywhere in the world with just 
 
 <figure><img src="../.gitbook/assets/How Keygen works.png" alt=""><figcaption><p>Keygen Flowchart</p></figcaption></figure>
 
+_Click on the image below to watch an explanation video on Twitter on creating a 2/2 Secure Vault_
+
 [![](../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://twitter.com/iceman00008/status/1824683328085299628/video/1)
 
-_Click on the above image to watch an explanation video on Twitter_
+_Click on the image below to watch an explanation video on Twitter on creating a 2/2 Fast Vault_
+
+[![](../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://twitter.com/iceman00008/status/1843118661076455906/video/1)
 
 ### How to generate a Vault
 

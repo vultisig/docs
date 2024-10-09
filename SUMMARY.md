@@ -7,7 +7,7 @@
 * [Creating a Vault](user-actions/creating-a-vault.md)
 * [Managing your Vault](user-actions/managing-your-vault/README.md)
   * [Vault Details](user-actions/managing-your-vault/vault-details.md)
-  * [Vault Backup](user-actions/managing-your-vault/vault-backup.md)
+  * [Vault Backups](user-actions/managing-your-vault/vault-backup.md)
   * [Vault Rename](user-actions/managing-your-vault/vault-rename.md)
   * [Vault Reshare](user-actions/managing-your-vault/vault-reshare.md)
 * [Keysign](vultisig-user-actions/signing-a-transaction/README.md)

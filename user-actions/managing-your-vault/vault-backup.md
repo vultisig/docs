@@ -29,7 +29,7 @@ The parameters stored in Vault Shares are non-sensitive data and are unique to t
 * <mark style="color:red;">Each device in the vault has its</mark> <mark style="color:red;"></mark><mark style="color:red;">**own unique**</mark> <mark style="color:red;"></mark><mark style="color:red;">vault share. So each device needs its</mark> <mark style="color:red;"></mark><mark style="color:red;">**own backup**</mark>.
 * Each vault share by itself does not have access to any assets, so it is safe to export and store them digitally.
 * They use the **.vult** extension standard for easy identification
-* Due to the .vult extensions shares can be directly imported when opened.
+* Due to the **.vult** extension, shares can be directly imported when opened.
 * To easily identify which Vault Share is backed up and which is missing, they are labeled as follows:
 
 $$

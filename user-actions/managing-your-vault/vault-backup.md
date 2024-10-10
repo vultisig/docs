@@ -18,18 +18,18 @@ The parameters stored in Vault Shares are non-sensitive data and are unique to t
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Backup in Settings</p></figcaption></figure>
 
 {% hint style="success" %}
-**Vault shares should always be backed up.**
+**Vaults should always be backed up!**
 {% endhint %}
 
 ***
 
 ## What are Vault Shares?
 
-* Vault shares are the backups to recover Vaults in Vultisig.
-* <mark style="color:red;">Each device in the vault has its</mark> <mark style="color:red;"></mark><mark style="color:red;">**own unique**</mark> <mark style="color:red;"></mark><mark style="color:red;">vault share. So each device needs its</mark> <mark style="color:red;"></mark><mark style="color:red;">**own backup**</mark>.
-* Each vault share by itself does not have access to any assets, so it is safe to export and store them digitally.
+* Vault shares are the backups to recover Vaults in Vultisig
+* <mark style="color:red;">Each device in the vault has its</mark> <mark style="color:red;"></mark><mark style="color:red;">**own unique**</mark> <mark style="color:red;"></mark><mark style="color:red;">vault share. So each device needs its</mark> <mark style="color:red;"></mark><mark style="color:red;">**own backup**</mark>
+* Each vault share by itself does not have access to any assets, so it is safe to export and store them digitally
 * They use the **.vult** extension standard for easy identification
-* Due to the **.vult** extension, shares can be directly imported when opened.
+* Due to the **.vult** extension, shares can be directly imported when opened
 * To easily identify which Vault Share is backed up and which is missing, they are labeled as follows:
 
 $$
@@ -41,8 +41,8 @@ ID: ID of the vault\
 t: share of the vault\
 n: total shares&#x20;
 
-Example: You have a share called `savings-ef8b-part1of2.vult` backed up and `savings-ef8b-part2of2.vult` backed up. So you know the Vault is fully backed up. Secure.\
-If you can't find one of the two (or respectively more parts) you know which device you need to back up
+Example: You have two shares called `savings-ef8b-part1of2.vult` and `savings-ef8b-part2of2.vult` backed up. So you know that your Vault is completely backed up. Secured.\
+If you can't find one of the two (or respectively more parts) you know which device you need to back up to have full access on recovery.
 
 {% hint style="danger" %}
 **Never** store different vault shares of the same vault in the same location, as this could potentially lead to loss of funds.\

@@ -13,7 +13,7 @@ vault\_asset\_value*time\_in\_vault
 $$
 
 With the distribution date of 12 months after registration goes live.\
-See further caluclation [here](airdrop.md#airdrop-process).\
+See further calculation [here](airdrop.md#airdrop-process).\
 \
 Users will receive full information about how to register for this airdrop in the coming weeks.
 

@@ -10,6 +10,7 @@
   * [Vault Backups](user-actions/managing-your-vault/vault-backup.md)
   * [Vault Rename](user-actions/managing-your-vault/vault-rename.md)
   * [Vault Reshare](user-actions/managing-your-vault/vault-reshare.md)
+  * [Vault QR](vultisig-user-actions/managing-your-vault/vault-qr.md)
 * [Keysign](vultisig-user-actions/signing-a-transaction/README.md)
   * [How Keysigning works](vultisig-user-actions/signing-a-transaction/how-keysigning-works.md)
   * [Signing a Transaction](vultisig-user-actions/signing-a-transaction/signing-a-transaction.md)
@@ -25,9 +26,10 @@
   * [Unhosted Vultisigner](vultisigner/vultisigner-for-interfaces/unhosted-vultisigner.md)
   * [Conclusion](vultisigner/vultisigner-for-interfaces/conclusion.md)
 
-## Vulticonnect
+## Vultisig Connect
 
-* [What is Vulticonnect](vulticonnect/what-is-vulticonnect.md)
+* [What is Vultisig Connect](vultisig-connect/what-is-vulticonnect.md)
+* [How to use Vultisig Connect](vultisig-connect/how-to-use-vultisig-connect.md)
 
 ## Threshold Signature Scheme
 

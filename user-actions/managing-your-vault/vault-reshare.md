@@ -6,7 +6,7 @@ description: >-
 
 # Vault Reshare
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Feature in settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Feature in settings</p></figcaption></figure>
 
 ## What is the Reshare feature
 

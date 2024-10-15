@@ -7,7 +7,7 @@ description: Exporting vault shares, backing up or importing vaults shares.
 ## What is a Backup in Vultisig
 
 Vultisig implements a novel backup and recovery mechanism that differs from traditional seed phrase-based approaches.\
-This mechanism also utilizes the Threshold Signature Scheme (TSS) technology to generate so called          "[**Vault Shares**](vault-backup.md#what-are-vault-shares)", that enable more secure and reliable wallet recovery without seed phrases.\
+This mechanism also utilizes the Threshold Signature Scheme (TSS) technology to generate so called "[**Vault Shares**](vault-backup.md#what-are-vault-shares)", that enable more secure and reliable wallet recovery without seed phrases.\
 These shares store all the data necessary to participate in Keygen/Keysign sessions and restore the Vault upon import.\
 They never store any secret key or seed phrase.
 
@@ -15,7 +15,7 @@ They never store any secret key or seed phrase.
 The parameters stored in Vault Shares are non-sensitive data and are unique to the device on which they are created, making Vault Shares unique and not interchangeable with eachother.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Backup in Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Backup in Settings</p></figcaption></figure>
 
 {% hint style="success" %}
 **Vaults should always be backed up!**
@@ -26,7 +26,7 @@ The parameters stored in Vault Shares are non-sensitive data and are unique to t
 ## What are Vault Shares?
 
 * Vault shares are the backups to recover Vaults in Vultisig
-* <mark style="color:red;">Each device in the vault has its</mark> <mark style="color:red;"></mark><mark style="color:red;">**own unique**</mark> <mark style="color:red;"></mark><mark style="color:red;">vault share. So each device needs its</mark> <mark style="color:red;"></mark><mark style="color:red;">**own backup**</mark>
+* <mark style="color:red;">Each device in the vault has its</mark> <mark style="color:red;">**own unique**</mark> <mark style="color:red;">vault share. So each device needs its</mark> <mark style="color:red;">**own backup**</mark>
 * Each vault share by itself does not have access to any assets, so it is safe to export and store them digitally
 * They use the **.vult** extension standard for easy identification
 * Due to the **.vult** extension, shares can be directly imported when opened
@@ -39,7 +39,7 @@ $$
 vaultname: Set name of the vault\
 ID: ID of the vault\
 t: share of the vault\
-n: total shares&#x20;
+n: total shares
 
 Example: You have two shares called `savings-ef8b-part1of2.vult` and `savings-ef8b-part2of2.vult` backed up. So you know that your Vault is completely backed up. Secured.\
 If you can't find one of the two (or respectively more parts) you know which device you need to back up to have full access on recovery.
@@ -56,7 +56,7 @@ This can happen if a malicious party gains access to that location and is able t
 * [x] Ensuring that a device does not have access to multiple cloud drives or password managers that store Vault shares.
 * [x] Use offline devices to store vault shares
 
-Secure Example:&#x20;
+Secure Example:
 
 * Store all Part 1 Shares on your Google Drive
 * Store all Part 2 Shares on your iCould

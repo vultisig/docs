@@ -48,6 +48,7 @@
 
 ## Other
 
+* [Vultisig Bot](other/vultisig-bot.md)
 * [Frequently Asked Questions](FAQ/README.md)
 * [Privacy](other/privacy.md)
 * [License](other/licence.md)

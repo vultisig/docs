@@ -55,7 +55,13 @@ Vultisig is a ever expanding Ecosystem. Working on more platforms, products and 
 
 👩‍💻 Read the docs!
 
-🍿 Download here [iOS AppStore](https://apps.apple.com/us/app/vultisig/id6503023896), [iOS Testflight](https://testflight.apple.com/join/kpVufItl), [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet) or [Google Play Store Web](https://play.google.com/apps/testing/com.vultisig.wallet). Android APK or MacOS downloads also available - please check on Vultisig Discord for these.
+🍿 Download here:
+- [iOS AppStore](https://apps.apple.com/us/app/vultisig/id6503023896)
+- [iOS Testflight](https://testflight.apple.com/join/kpVufItl)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet) or [Google Play Store Web](https://play.google.com/apps/testing/com.vultisig.wallet)
+- [Windows](https://github.com/vultisig/vultisig-windows/releases)
+- [VultiConnect Chrome Extension](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0&hl=en-GB)
+- Android APK or MacOS downloads also available - please check on Vultisig Discord for these.
 
 🧙 Contribute to the code ([https://github.com/vultisig](https://github.com/vultisig))\
 \

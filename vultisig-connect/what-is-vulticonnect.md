@@ -9,6 +9,12 @@ With Vulticonnect you can tap into the complete universe of DeFi and web3 while 
 
 It is a secure and efficient way to interact with DeFi in the way you want — know that your assets are secure and accessible at any time.
 
+## Download VultiConnect
+
 {% hint style="info" %}
-Vulticonnect is currently under development and will be adding more features and chains.
+Vulticonnect is currently under development and will be adding more features and Connections.
 {% endhint %}
+
+{% embed url="https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb" %}
+Download now
+{% endembed %}

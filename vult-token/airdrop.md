@@ -47,7 +47,7 @@ Assets eligble to accumulate VULTIES (airdrop points) are:
 
 * L1 tokens supported by Vultisig
 * Tokens supported by 1inch and displayed in Vultisig
-* WEWE.BASE
+* BASE.WEWE
 * WEWESWAP LP
 * THORChain Bonds, LP(dual and single), RUNEPool, Savers
 * MAYA Protocol Bonds, LP(dual and single)

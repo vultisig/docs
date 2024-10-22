@@ -41,7 +41,7 @@ $$
 
 <figure><img src="../.gitbook/assets/Airdrop.png" alt="" width="143"><figcaption></figcaption></figure>
 
-### Eligble assets
+### Eligible assets
 
 Assets eligble to accumulate VULTIES (airdrop points) are:
 

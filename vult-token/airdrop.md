@@ -67,13 +67,13 @@ The Ongoing Airdrop Process will continue for another 5 years, and the dedicated
 
 ## How to register for the airdrop
 
-1.  [Export](../vultisig-user-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault\
+1.  [Export](../vultisig-user-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault
 
     <figure><img src="../.gitbook/assets/VultisigQR-Main Vault-828 (1).png" alt="" width="188"><figcaption></figcaption></figure>
-2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Connect](broken-reference/) or with uploading your Vault QR\
+2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Connect](broken-reference/) or with uploading your Vault QR
 
     <figure><img src="../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
-3.  Join the Airdrop with your connected Vault\
+3.  Join the Airdrop with your connected Vault
 
     <figure><img src="../.gitbook/assets/image (13).png" alt="" width="188"><figcaption></figcaption></figure>
 4. Earn VULTIES (Airdrop points) and track the leaderboard

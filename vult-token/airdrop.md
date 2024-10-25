@@ -54,6 +54,7 @@ Assets eligble to accumulate VULTIES (airdrop points) are:
 * Chain Flip Node staking and LP
 * vTHOR
 * TGT stakers
+* Staked TON
 
 ### Initial Airdrop
 

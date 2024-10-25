@@ -4,7 +4,7 @@ description: The purpose of the Vultisig Token
 
 # $VULT
 
-Vultisig fulfils four important purposes:
+Vultisig token $VULT serves four important purposes:
 
 1. To raise capital to accelerate the product during its bootstrap phase
 2. To buy users and AUM as quickly as possible using an Airdrop

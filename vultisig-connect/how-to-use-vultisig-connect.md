@@ -4,9 +4,7 @@
 
 Install Vultisig Connect for your Chrome Browser, over the Chrome Extension Store or directly over [Github](https://github.com/vultisig/vulticonnect)
 
-{% hint style="info" %}
-Chrome Store listing in process
-{% endhint %}
+{% embed url="https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0&hl=en-GB" %}
 
 ## How to import a Vault&#x20;
 

@@ -12,7 +12,7 @@ It is a secure and efficient way to interact with DeFi in the way you want — k
 ## Download VultiConnect
 
 {% hint style="info" %}
-Vulticonnect is currently under development and will be adding more features and Connections.
+Vulticonnect is currently under development and will be receiving more features and Connections gradually.
 {% endhint %}
 
 {% embed url="https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb" %}

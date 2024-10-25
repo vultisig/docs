@@ -7,7 +7,7 @@ description: The launch of the Vultisig Token to the world.
 ## TLDR/FAQ
 
 * Launch will be on Ethereum mainnet
-* Max WL buy is 4 ETH (value \~$10k Dollar)  or WETH (either ETH or WETH can be used)
+* Max WL buy will be for a value of \~$10k Dollar (either ETH or WETH can be used)
 * The launch will happen when specific milestones are met
 * Token Allocation will be specified closer to actual launch
 

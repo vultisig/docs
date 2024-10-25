@@ -22,24 +22,24 @@ Users will receive full information about how to register for this airdrop in th
 ## Airdrop Process
 
 To register their vaults for the Airdrop, users send their exported Vault public Keys to an Airdrop Registry, which will scan for presence of funds on chains, and then begin counting airdrop value.\
-See the exact instructions [here.](airdrop.md#how-to-register-for-the-airdrop)\
+**See the exact instructions** [**here.**](airdrop.md#how-to-register-for-the-airdrop)\
 \
-This will include any actions performed in Vultisig (like bonding to nodes and staking, etc.).
+This will include most actions performed in Vultisig (like bonding to nodes and staking, etc.).
 
-A new scan will be performed each cycle (day), and the user airdrop value accumulate in form of VULTIES (Points).\
+A new scan will be performed each cycle (day), and the user airdrop value accumulates in form of VULTIES (Points).\
 Users that keep the funds the longest in Vultisig will earn the highest airdrop value.
 
 $$
-user\_airdrop\_value += \$\text{total\_vault\_value}
+user\_VULTIES += \$\text{total\_vault\_value}
 $$
 
 The final share of the Airdrop is the pro-rata share of the airdrop allocation.
 
 $$
-\text{user\_airdrop\_share} = 10,000,000 \times \left( \frac{\text{user\_airdrop\_value}}{\text{total\_airdrop\_value}} \right)
+\text{user\_airdrop\_share} = 5,000,000 \times \left( \frac{\text{user\_VULTIES}}{\text{total\_VULTIES}} \right)
 $$
 
-<figure><img src="../.gitbook/assets/Airdrop.png" alt="" width="143"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Eligible assets
 
@@ -51,13 +51,13 @@ Assets eligble to accumulate VULTIES (airdrop points) are:
 * WEWESWAP LP
 * THORChain Bonds, LP(dual and single), RUNEPool, Savers
 * MAYA Protocol Bonds, LP(dual and single)
-* Chain Flip Node staking and LP&#x20;
-* vTHOR&#x20;
+* Chain Flip Node staking and LP
+* vTHOR
 * TGT stakers
 
 ### Initial Airdrop
 
-The initial Airdrop is 10,000,000 $VULT, which will be distributed after the first year. After which, all public keys are purged and a new airdrop period begins.
+The initial Airdrop is 5,000,000 $VULT, which will be distributed after the first year. After which, all public keys are purged and a new airdrop period begins.
 
 ### Ongoing Airdrop
 
@@ -67,17 +67,25 @@ The Ongoing Airdrop Process will continue for another 5 years, and the dedicated
 
 ## How to register for the airdrop
 
-1.  [Export](../vultisig-user-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault
+1.  [Export](../vultisig-user-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault\
+
 
     <figure><img src="../.gitbook/assets/VultisigQR-Main Vault-828 (1).png" alt="" width="188"><figcaption></figcaption></figure>
-2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Connect](broken-reference/) or with uploading your Vault QR
+2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Connect](broken-reference/) or with uploading your Vault QR\
+
 
     <figure><img src="../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
-3.  Join the Airdrop with your connected Vault
+3.  Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the website\
 
-    <figure><img src="../.gitbook/assets/image (13).png" alt="" width="188"><figcaption></figcaption></figure>
-4. Earn VULTIES (Airdrop points) and track the leaderboard
-5. Register multiple Vaults
+
+    <figure><img src="../.gitbook/assets/image (14).png" alt="" width="188"><figcaption></figcaption></figure>
+4. Go to the `Balance` tab and enable **ALL a**ssets you want to have counted towards the airdrop
+5. Earn VULTIES (Airdrop points) and track the leaderboard
+6. Register multiple Vaults
+
+{% hint style="warning" %}
+You need to enable all Chains and Tokens you want to have counted towards the airdrop once!
+{% endhint %}
 
 ***
 
@@ -113,7 +121,8 @@ Vultisig team has built a [Telegram bot](../other/vultisig-bot.md) to easily inv
 ## Privacy
 
 {% hint style="warning" %}
-Do not register for the Airdrop if you do not wish for your public keys to be sent to the Airdrop Registry. Note, after the Airdrop has finished, your public keys will be purged. No other user information is collected.
+Do not register for the Airdrop if you do not wish for your public keys to be sent to the Airdrop Registry. \
+Note, after the Airdrop has finished, your public keys will be purged. No other user information is collected.
 {% endhint %}
 
 Read the [#privacy-policy](../other/privacy.md#privacy-policy "mention")

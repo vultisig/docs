@@ -28,3 +28,7 @@ Continuing, you will see a QR code that contains all the information needed for 
 Scan the QR with your vault devices. \
 \
 If the threshold for signing is reached, the transaction will be signed automatically.
+
+{% hint style="info" %}
+Vulticonnect only have users' public key information, not the actual vault shares. Thus Vulticonnect itself cannot be a signer.
+{% endhint %}

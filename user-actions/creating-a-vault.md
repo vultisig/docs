@@ -97,11 +97,6 @@ _Click on the image below to watch an explanation video on Twitter on creating a
 
 ### How to generate a Vault
 
-{% hint style="success" %}
-Remember - all your devices must have the Vultisig open and must be connected to the same Wi-Fi network or Internet, using the Vultisig Relay Server.\
-**The keygen will fail if the connection is not stable.**
-{% endhint %}
-
 Get your devices ready and create a vault.
 
 <figure><img src="../.gitbook/assets/Create Vault Start.png" alt="" width="188"><figcaption><p>Create Vault</p></figcaption></figure>
@@ -153,8 +148,10 @@ When all wanted pairing devices are present, create the vault with the `Continue
 
 You can choose Internet or WiFI.
 
-1. **Internet:** Using the Vultisig relay server. Encrypted packages are routed through the Vultisig relay server.
-2. **Wi-Fi**: Using local Network, however may not work on some Wi-Fi networks (since they may block mDNS packets)
+1. **Internet:** Using the Vultisig relay server. Encrypted packages are routed through the Vultisig relay server over the Internet. Each device can be on different networks / Internet providers.
+2. **Local**: Using local Wi-Fi Network, however may not work on some Wi-Fi networks (since they may block mDNS packets).
+
+The Vault Creation step may fail if the Internet/network connection is not stable.
 
 <figure><img src="../.gitbook/assets/Main Device Keygen Internet (1).png" alt="" width="188"><figcaption></figcaption></figure>
 

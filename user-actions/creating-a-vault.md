@@ -52,7 +52,7 @@ This setup offers the highest level of security and is considered the 'cold wall
 <figure><img src="../.gitbook/assets/Setup Secure.png" alt="" width="188"><figcaption><p>Secure Vault in app</p></figcaption></figure>
 
 Secure Vaults consist solely of user devices. \
-Users needs at least three devices and can add more to their vaults, increasing the signing threshold and enhancing security with each additional device. \
+Users need at least two devices (although minimum three is recommended) and can add more to their vaults, increasing the signing threshold and enhancing security with each additional device. \
 This option is also ideal for shared wallets among multiple users and DAOs.
 
 The vaults will be a `m`-of-`n` Threshold,  where m is at least 2/3rds of `n`, and no maximum number of `n` devices. The more devices you use, the longer it will take to process any transactions.

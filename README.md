@@ -24,7 +24,7 @@ It is possible to create a vault with different secure setup options:
 
 * 2 of 2 (fastest setup, no fallback device\*)
 * 2 of 3 (recommended, with fallback device\*)
-* 3 of 4 (most secure, with fallback device)
+* 3 of 4 (most secure, with fallback device\*)
 
 _The above are the most popular vault configurations and more can come in the future._\\
 
@@ -65,4 +65,4 @@ Vultisig is a ever expanding Ecosystem. Working on more platforms, products and 
 
 🧙 Contribute to the code ([https://github.com/vultisig](https://github.com/vultisig))\
 \
-\_\*\_backed up: meaning that a device can be lost and access to funds is still ensured. Deleting the application is equivalent to losing the device. To properly back up the vault shares, please use the [following steps](user-actions/managing-your-vault/vault-backup.md).
+\_\*\_fallback device: meaning that a device can be lost and access to funds is still ensured. Deleting the application is equivalent to losing the device. To properly back up the vault shares, please use the [following steps](user-actions/managing-your-vault/vault-backup.md).

@@ -22,9 +22,9 @@ It is possible to create a vault with different secure setup options:
 
 #### Self Custodial options:
 
-* 2 of 2 (fastest setup, not backed up\*)
-* 2 of 3 (recommended, backed up\*)
-* 3 of 4 (most secure)
+* 2 of 2 (fastest setup, no fallback device\*)
+* 2 of 3 (recommended, with fallback device\*)
+* 3 of 4 (most secure, with fallback device)
 
 _The above are the most popular vault configurations and more can come in the future._\\
 

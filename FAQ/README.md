@@ -42,15 +42,11 @@ Any chains on [Trust Wallet Core](https://github.com/trustwallet/wallet-core/tre
 
 ### Is it possible to add tokens like ERC-20s on EVM blockchains, or SPL tokens on Solana, etc?
 
-Yes, ERC-20 tokens are available, and SPL support will be added later.
+Yes, most ERC-20 and SPL tokens are available. More and more tokens on different chains will become available gradually.
 
-### Will Vultisig support web apps or browser extensions?
+### Will Vultisig support web apps and different platforms like Uniswap or Li-Fi(JumperExchange)?
 
-Yes, with partners, utilizing Vultisigner.
-
-### Will it be possible to integrate Vultisig with Li-Fi (JumperExchange), and different platforms like Uniswap and others?
-
-Yes, via Vultisigner.
+Yes, most web apps can be accessed with the VultiConnect browser extension. Some platforms will need a dedicated integration with Vultisig.
 
 ### Are the Vault Shares automatically uploaded into iCloud?
 

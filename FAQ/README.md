@@ -8,10 +8,10 @@ description: Vultisig Frequently Asked Questions
 
 All other cold and hot wallets are single-sig and rely on one set of seed phrase and one piece of private key, while Vultisig is a Multi-Sig Multi-Device wallet that does not rely on seed phrases and has no single point of failure, enhancing wallet security. Vultisig utilizes the Threshold Signature Scheme (TSS): [Reference](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b).
 
-### What Platforms will be supported?
+### What Platforms are supported and which are planned?
 
-* Available: iOS and Android
-* Planned: Windows, Linux
+* Available: iOS, Android, Windows and Web
+* Planned: Linux
 
 ### What versions of iOS/IPadOS/Mac are supported?
 

@@ -1,7 +1,7 @@
 # Airdrop
 
 {% hint style="warning" %}
-Airdrop registration and tracking is  live (starting 30-Oct-2024)!
+Airdrop registration and tracking is live (starting 30-Oct-2024)!
 {% endhint %}
 
 Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.
@@ -51,7 +51,6 @@ Assets eligble to accumulate VULTIES (airdrop points) are:
 * WEWESWAP LP
 * THORChain Bonds, LP(dual and single), RUNEPool, Savers
 * MAYA Protocol Bonds, LP(dual and single)
-* Chain Flip Node staking and LP
 * vTHOR
 * TGT stakers
 * Staked TON
@@ -68,16 +67,13 @@ The Ongoing Airdrop Process will continue for another 5 years, and the dedicated
 
 ## How to register for the airdrop
 
-1.  [Export](../vultisig-user-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault\
-
+1.  [Export](../vultisig-user-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault\\
 
     <figure><img src="../.gitbook/assets/VultisigQR-Main Vault-828 (1).png" alt="" width="188"><figcaption></figcaption></figure>
-2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Connect](broken-reference/) or with uploading your Vault QR\
-
+2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Connect](broken-reference/) or with uploading your Vault QR\\
 
     <figure><img src="../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
-3.  Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the website\
-
+3.  Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the website\\
 
     <figure><img src="../.gitbook/assets/image (14).png" alt="" width="188"><figcaption></figcaption></figure>
 4. Go to the `Balance` tab and enable **ALL a**ssets you want to have counted towards the airdrop
@@ -122,7 +118,7 @@ Vultisig team has built a [Telegram bot](../other/vultisig-bot.md) to easily inv
 ## Privacy
 
 {% hint style="warning" %}
-Do not register for the Airdrop if you do not wish for your public keys to be sent to the Airdrop Registry. \
+Do not register for the Airdrop if you do not wish for your public keys to be sent to the Airdrop Registry.\
 Note, after the Airdrop has finished, your public keys will be purged. No other user information is collected.
 {% endhint %}
 

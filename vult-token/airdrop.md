@@ -1,7 +1,7 @@
 # Airdrop
 
 {% hint style="warning" %}
-Airdrop registration is not live yet.
+Airdrop registration and tracking is  live (starting 30-Oct-2024)!
 {% endhint %}
 
 Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.

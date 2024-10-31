@@ -6,5 +6,5 @@ Since the Vultisigner server always holds only one Vault share, it will never be
 In addition, the server is configured so that it can never initiate a transaction; it can only be a participant in the key signing process.\
 
 
-In the event that the Vultisig server is offline, the user will still have the threshold majority required to perform Keysign ceremonies.\
-The hosted Vault Share on the Vultisigner server can be requested by email to be sent to the user as indicated [before](how-does-vultisigner-work.md#vault-share-storage), this is mandatory in a 2-of-2 Vault configuration.
+In the event that the Vultisig server is offline, the user will still need the threshold majority required to perform Keysign ceremonies.\
+The Vultisigner's password-encrypted Vault Share which was emailed to the user during setup must be stored securely by the user (at a separate location from the user's own device's Vault Share) for this reason.

@@ -36,9 +36,36 @@ Minimum API Level 26; Android 8.0 (Oreo) or newer.
 
 Yes! Vault shares and signers are device agnostic. Users can mix and match any devices (iOS, Android, browser apps, etc.) to be used as signers.
 
-### What chains can/will Vultisig support?
+### What chains are supported by Vultisig?
 
-Any chains on [Trust Wallet Core](https://github.com/trustwallet/wallet-core/tree/master/src) can be supported.
+Currently supported are:
+
+* Arbitrum
+* Avalanche
+* BSC
+* Base
+* Bitcoin
+* Bitcoin-Cash
+* Blast
+* Cosmos
+* CronosChain
+* Dash
+* Dogecoin
+* dydx
+* Ethereum
+* Kujira
+* Litecoin
+* Maya Protocol
+* Optimisim
+* Polkadot
+* Polygon
+* Solana
+* Sui
+* THORChain
+* Ton
+* Zksync
+
+Generally any chains on [Trust Wallet Core](https://github.com/trustwallet/wallet-core/tree/master/src) can be supported.
 
 ### Is it possible to add tokens like ERC-20s on EVM blockchains, or SPL tokens on Solana, etc?
 
@@ -58,7 +85,7 @@ No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/u
 
 ### Can users import their existing address into Vultisig?
 
-The single-sig private key and seed phrase of existing addresses are single-sig wallets, and cannot be imported into a Vultisig - which is multi-sig wallet.\
+The single-sig private key and seed phrase of existing addresses are single-sig wallets, and cannot be imported into a Vultisig - which is mpc wallet.\
 This is to maintain and improve the security of the vaults, as single-sig seed phrases may have been previously exposed or had a bad generation, making them more vulnerable.
 
 ### Can we bond RUNE/ provide liquidity on THORChain/MAYA by using Vultisig and will it be counted for airdrop?

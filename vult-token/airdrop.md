@@ -1,7 +1,7 @@
 # Airdrop
 
 {% hint style="warning" %}
-Airdrop registration and tracking is live (starting 30-Oct-2024)!
+Airdrop registration and tracking is live (started 30-Oct-2024)!
 {% endhint %}
 
 Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.
@@ -43,10 +43,11 @@ $$
 
 ### Eligible assets
 
-Assets eligble to accumulate VULTIES (airdrop points) are:
+Assets must have a dollar value from an external provider in order to accumulate VULTIES (airdrop points).\
+Supported Assets are:
 
 * L1 tokens supported by Vultisig
-* Tokens supported by 1inch and displayed in Vultisig
+* Tokens supported by 1inch and displayed on the airdrop website
 * BASE.WEWE
 * WEWESWAP LP
 * THORChain Bonds, LP(dual and single), RUNEPool, Savers

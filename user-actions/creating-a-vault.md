@@ -18,8 +18,8 @@ iOS, MacOs, Android, Windows and eventually Linux are intended to be supported. 
 
 There are three general setup types to choose from:
 
-* Fast Vaults&#x20;
-* Active Vaults&#x20;
+* Fast Vaults
+* Active Vaults
 * Secure Vaults
 
 ### Fast Vaults
@@ -29,16 +29,16 @@ This setup is the 'hot wallet' equivalent in Vultisig, enabling vaults to be cre
 <figure><img src="../.gitbook/assets/Setup Fast.png" alt="" width="188"><figcaption><p>Fast Vaults in app</p></figcaption></figure>
 
 Fast Vaults are configured as a two-factor vault, where one device is held by the user and the other part is the Vultiserver, which automatically co-signs the user's requests (learn more about what a Vultisigner is [here](../vultisigner/what-is-vultisigner.md)), making it a single signature experience.\
-In the future, [transaction policies](../vultisigner/what-can-be-configured.md) will allow users to specify parameters for co-signing. &#x20;
+In the future, [transaction policies](../vultisigner/what-can-be-configured.md) will allow users to specify parameters for co-signing.
 
 It is recommended not to store large amounts in these vaults and to use them as a daily wallet or 'hot wallet.'
 
 ### Active Vaults
 
-This setup offers increased security compared to Fast Vaults and is therefore considered the "normal wallet" in Vultisig.&#x20;
+This setup offers increased security compared to Fast Vaults and is therefore considered the "normal wallet" in Vultisig.
 
-Active Vaults consist of two user devices and the [Vultisigner](broken-reference). This configuration allows users to sign transactions with just one device while on the go, with the set [transaction policies](../vultisigner/what-can-be-configured.md) applied. \
-These policies can be configured to be very strict. \
+Active Vaults consist of two user devices and the [Vultisigner](broken-reference/). This configuration allows users to sign transactions with just one device while on the go, with the set [transaction policies](../vultisigner/what-can-be-configured.md) applied.\
+These policies can be configured to be very strict.\
 However, signing transactions with only the user's devices can bypass these policies, allowing for user-authorized unrestricted transactions.
 
 <figure><img src="../.gitbook/assets/Setup Active.png" alt="" width="188"><figcaption><p>Active Vault in app</p></figcaption></figure>
@@ -47,20 +47,27 @@ This setup provides the flexibility of a single-signature wallet with much highe
 
 ### Secure Vault
 
-This setup offers the highest level of security and is considered the 'cold wallet' equivalent in the Vultisig App.&#x20;
+This setup offers the highest level of security and is considered the 'cold wallet' equivalent in the Vultisig App.
 
 <figure><img src="../.gitbook/assets/Setup Secure.png" alt="" width="188"><figcaption><p>Secure Vault in app</p></figcaption></figure>
 
-Secure Vaults consist solely of user devices. \
-Users need at least two devices (although minimum three is recommended) and can add more to their vaults, increasing the signing threshold and enhancing security with each additional device. \
+Secure Vaults consist solely of user devices.\
+Users need at least two devices (although minimum three is recommended) and can add more to their vaults, increasing the signing threshold and enhancing security with each additional device.\
 This option is also ideal for shared wallets among multiple users and DAOs.
 
-The vaults will be a `m`-of-`n` Threshold,  where m is at least 2/3rds of `n`, and no maximum number of `n` devices. The more devices you use, the longer it will take to process any transactions.
+The vaults will be a `m`-of-`n` Threshold, where m is at least 2/3rds of `n`, and no maximum number of `n` devices. The more devices you use, the longer it will take to process any transactions.
 
 The following are the most common vaults:
 
-1. **2-of-3 vault** - three devices to create a vault and two to sign a transaction. This is automatically backed up (one device is the backup) so you don't need to export vault shares. But you should do this anyway. **This vault type is recommended as a secure vault setup.**
-2. **3-of-4 vault** - four devices to create a vault and three to sign a transaction. This is automatically backed up (one device is the backup) so you don't need to export vault shares. But you should do this anyway.
+1. **2-of-3 vault** - three devices to create a vault and two to sign a transaction. \
+   This vault is automatically redundant, which means you can lose one device and still have access to your vault. To make sure you are fully protected, please [back up](managing-your-vault/vault-backup.md) the Vault shares of every device.\
+   **This vault type is recommended as a secure vault setup.**
+2. **3-of-4 vault** - four devices to create a vault and three to sign a transaction. \
+   This vault is automatically redundant, which means you can lose one device and still have access to your vault. To make sure you are fully protected, please [back up](managing-your-vault/vault-backup.md) the Vault shares of every device.
+3. **2-of-2 vault** - two devices to create a vault and two to sign a transaction.\
+   This vault is vunerable if you lose one device, you can lose access to the funds. \
+   To make sure you are fully protected, please [back up](managing-your-vault/vault-backup.md) the Vault shares of every device.\
+   **This vault type is not recommended as a secure vault setup.**
 
 {% hint style="info" %}
 What is the most redundant vault that allows you maximum flexibility?
@@ -162,6 +169,10 @@ Finally, it is done! Make sure that all devices show the done screen.
 
 <figure><img src="../.gitbook/assets/Keygen.png" alt="" width="188"><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+After creating a vault, **ALWAYS** [back up](managing-your-vault/vault-backup.md) every device.
+{% endhint %}
+
 ### Troubleshooting
 
 If a Keygen fails, it may be because you have an unreliable network and the devices dropped connections.
@@ -170,5 +181,5 @@ If a Keygen fails, it may be because you have an unreliable network and the devi
 2. Change networks.
 3. Start again.
 
-Another reason are low spec android devices. \
+Another reason are low spec android devices.\
 Please ensure that your device has at **least 4 GB RAM**

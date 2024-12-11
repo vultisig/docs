@@ -6,7 +6,7 @@ description: How do Threshold Signatures Work ?
 
 ## Concept
 
-The Threshold Signature Scheme (TSS) is part of the broader field of Multi-Party-Computaion (MPC) and was originally introduced by Adi Shamir and Yael Tauman in 1998. However, due to its complex nature and resource-intensive computation, it was impractical for widespread adoption.
+The Threshold Signature Scheme (TSS) is part of the broader field of Multi-Party-Computation (MPC) and was originally introduced by Adi Shamir and Yael Tauman in 1998. However, due to its complex nature and resource-intensive computation, it was impractical for widespread adoption.
 
 In 2018, [the "GG18" paper by Gerrano-Goldfeder](https://eprint.iacr.org/2019/114.pdf) introduced significant advancements, simplifying and enhancing the efficiency of TSS, thereby making it feasible for practical implementation.
 

@@ -22,6 +22,10 @@ There are three general setup types to choose from:
 * Active Vaults
 * Secure Vaults
 
+{% hint style="info" %}
+Fast and Active Vaults creation are disabled at the moment. Only 2-of-3 (or more signers) Secure Vaults are enabled for creation. Existing Fast, Active, and 2-of-2 Secure Vaults are fine and can still be used as normal.
+{% endhint %}
+
 ### Fast Vaults
 
 This setup is the 'hot wallet' equivalent in Vultisig, enabling vaults to be created on the go without the need for multiple devices from the user.

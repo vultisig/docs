@@ -41,20 +41,22 @@ It is possible though to recombine the vault shares of a vault and generate the 
     ```sh
     git clone https://github.com/vultisig/mobile-tss-lib
     ```
-2.  **Navigate to the CLI Directory:**
+2.  **Navigate to the Recovery CLI Directory:**
 
     ```sh
-    cd mobile-tss-lib/cmd/cli
+    cd mobile-tss-lib/cmd/recovery-cli
     ```
-3.  **Run the CLI Tool:**
+3.  **Run the Recovery CLI Tool:**
 
     ```sh
-    go run main.go
+    go run main.go 
     ```
 
     Follow the instructions displayed in the terminal to proceed with the recovery process.
 
 {% hint style="danger" %}
+Only the following assets are supported; Bitcoin, BitcoinCash, Litecoin, Dogecoin, Ethereum, Thorchain, Mayachain. 
+
 Before the user does this, the private key never existed. This is a one-way function; once the private key is created, the vault is no longer a TSS vault, but a single-signature wallet.
 
 Never use a single-signature wallet again.

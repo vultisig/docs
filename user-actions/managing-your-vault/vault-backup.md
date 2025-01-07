@@ -59,7 +59,7 @@ This can happen if a malicious party gains access to that location and is able t
 Secure Example:
 
 * Store all Part 1 Shares on your Google Drive
-* Store all Part 2 Shares on your iCould
+* Store all Part 2 Shares on your iCloud
 * Store all Part 3 Shares on your Dropbox
 
 ### Estate planning (The gold standard for backing up Vaults)

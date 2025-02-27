@@ -22,13 +22,13 @@ For example, for a 2-of-2 vault, both devices must be present.
 {% endhint %}
 
 Do this if a device has been lost in a secure setup and you need to add a new, unique device or update the current shares.\
-_If a device of a 2-of-2 setup is lost please use the_ [_backup feature_](vault-backup.md)_._
+&#xNAN;_&#x49;f a device of a 2-of-2 setup is lost please use the_ [_backup feature_](vault-backup.md)_._
 
 [![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://twitter.com/iceman00008/status/1825339005673857356/video/1)
 
 _Click on the above image to watch an explanation video on Twitter_
 
-After clicking "Reshare" in the Vultisig Vault menu, the next steps are very similar to creating a Vault, as the reshare feature is just another keygen ceremony.&#x20;
+After clicking "Reshare" in the Vultisig Vault menu, the next steps are very similar to creating a Vault, as the reshare feature is just another keygen ceremony.
 
 Start the Reshare with or without the Vultisigner present.
 
@@ -41,12 +41,12 @@ You always need the threshold of the current vault setup to change the configura
 {% endhint %}
 
 When resharing with Vultisigner, the steps are similar, but with the inclusion of the Vultisigner.\
-The server checks if a Vault Share is currently present and requests the password. \
+The server checks if a Vault Share is currently present and requests the password.\
 If a Vault Share is not present, a new share will be created on the server.
 
 ## When to use the Reshare feature
 
-Like described in the section about [what the feature is](vault-reshare.md#what-is-the-reshare-feature), it can be used for the following:&#x20;
+Like described in the section about [what the feature is](vault-reshare.md#what-is-the-reshare-feature), it can be used for the following:
 
 ### Changing the Number of Parties
 
@@ -63,7 +63,7 @@ After resharing a vault, the vault shares of each device will also change.
 {% endhint %}
 
 Resharing invalidates the old backups of the shares in Vultisig and increases the risk that mixed backups will be imported and restored.\
-**This can result in inaccessible vaults.**\
+**This can result in inaccessible vaults.**\\
 
 {% hint style="info" %}
 Any device that was not present in a reshare will have a different vault share to the rest of the vault, making it impossible to join the keygen or keysign after the reshare.\

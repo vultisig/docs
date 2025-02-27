@@ -1,25 +1,70 @@
 ---
-description: The purpose of the Vultisig Token
+description: >-
+  $VULT serves as the cornerstone of the rapidly expanding Vultisig Ecosystem,
+  offering multiple valuable utilities to holders.
 ---
 
-# $VULT
+# The $VULT token
 
-Vultisig token $VULT serves four important purposes:
+## Utility of $VULT token
+
+The primary benefit comes through the staking mechanism, where $VULT holders will be able stake their tokens to earn direct $USDC cashback rewards generated from ecosystem activity.
+
+Beyond passive income opportunities, $VULT unlocks preferential pricing and exclusive access to premium features across the Vultisig marketplace. As our ecosystem grows, so too will the utility and value proposition of holding VULT tokens.
+
+Furthermore, the Vultisig token $VULT serves four important purposes:
 
 1. To raise capital to accelerate the product during its bootstrap phase
 2. To buy users and AUM as quickly as possible using an Airdrop
 3. To provide incentives to contributors to build the product
 4. To allow anyone to support the adoption trajectory of the product
 
-## The Vultisig Token $VULT
+## The $VULT Tokenomics
 
-* 100,000,000 starting supply
-* Tokens reserved for the WEWE-VULT merge on Base
-* Tokens allocated to an airdrop
-* Tokens allocated to investors
+* 100,000,000 maximum supply
 * ERC20 with ERC777 extensions: `approveAndCall()` and `_beforeTransferHook()`
 * Ownable, but not mintable (to set launch params)
 * Burnable
+
+### Allocations
+
+<figure><img src="../.gitbook/assets/Tokenomics.png" alt=""><figcaption><p>Allocations</p></figcaption></figure>
+
+## Vesting
+
+Following vestings apply to above mentioned parties:
+
+
+
+<figure><img src="../.gitbook/assets/Tokenomics 7.png" alt=""><figcaption></figcaption></figure>
+
+### **Launch Liquidity Allocation:**
+
+* 24% of $VULT tokens are allocated to initial investors as an LP position, with a 1-year cliff to provide sufficient initial liquidity
+* 11% of $VULT tokens come from the project Treasury and will be carefully managed for specific growth initiatives but intended to stay in the LP.
+
+{% hint style="success" %}
+The Treasury allocation remains partially unlocked to fund exceptional opportunities that drive Vultisig adoption, including strategic partnerships, community giveaways, and hackathons. \
+All Treasury token usage will be strictly limited to initiatives that directly increase Vultisig ecosystem value.
+{% endhint %}
+
+### **Token Allocation**
+
+#### **Community and Strategic Allocations:**
+
+* 6% of VULT reserved for community airdrop, rewarding early supporters. Unlocking with ending seasons and ditributed to airdrop participants
+* 10% of $VULT dedicated to the $WEWE → $VULT merger, directly unlocked on public launch.&#x20;
+* 1.7% of $VULT allocated to a strategic partnership with CoinMarketCap to significantly expand Vultisig’s reach and adoption. Locked with a 1-year cliff
+
+#### **Team Commitment:**
+
+* 17.3% of VULT allocated to the team with a 4-year linear vesting schedule, ensuring long-term alignment with project success
+
+#### **Early Investor Structure:**
+
+* 30% of $VULT distributed to early investors who fulfilled all their obligations by providing crucial funding that enables 3+ years of development runway and will be unlocked on launch.
+* These investors initially bought in at a $70M fully diluted valuation (FDV), while the public launch begins at just $3M FDV, creating strong incentive alignment with the community
+* Many investors have committed to providing additional liquidity at launch, helping stabilize price action and deepen the trading pool
 
 ## Value Accrual
 
@@ -30,7 +75,4 @@ The more swaps and bridging that happen in Vultisig, the higher the real yield w
 This feature is yet to be implemented and the exact parameters are still under evaluation.
 {% endhint %}
 
-| Fee                                     | Amount          |
-| --------------------------------------- | --------------- |
-| Swap Fees (Cross-chain and Token swaps) | 50 basis points |
-| Bridge Fees (Between EVMs and IBC)      | 10 basis points |
+<table><thead><tr><th width="373">Fee</th><th>Amount</th></tr></thead><tbody><tr><td>Swap Fees (Cross-chain and Token swaps)</td><td>50 basis points</td></tr><tr><td>Bridge Fees (Between EVMs and IBC)</td><td>10 basis points</td></tr><tr><td>Marketplace Fees (Plugins and Ai Agents)</td><td>40% of generated revenue </td></tr></tbody></table>

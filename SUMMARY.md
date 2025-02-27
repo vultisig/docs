@@ -42,8 +42,8 @@
 
 ## VULTISIG Token
 
-* [$VULT](vult-token/usdvult.md)
-* [Launch](vult-token/launch.md)
+* [The $VULT token](vult-token/usdvult.md)
+* [Launch of $VULT](vult-token/launch.md)
 * [Airdrop](vult-token/airdrop.md)
 
 ## Other

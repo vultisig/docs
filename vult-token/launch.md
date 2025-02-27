@@ -2,46 +2,84 @@
 description: The launch of the Vultisig Token to the world.
 ---
 
-# Launch
+# Launch of $VULT
 
 ## TLDR/FAQ
 
-* Launch will be on Ethereum mainnet
-* Max WL buy will be for a value of \~$10k Dollar (either ETH or WETH can be used)
-* The launch will happen when specific milestones are met
-* Token Allocation will be specified closer to actual launch
+* **Launch**: March 27, 2025, 1pm UTC on Ethereum (Uniswap V3)
+* **Initial Pool**: 35% of VULT tokens
+* **Pricing**: $3M starting FDV
+* **Format**: 24-hour whitelist period (1,500 users) then public launch
+* **Purchase Limits**: Hour 1: $1,000 max per whitelist; Hour 2+: $10,000 max
+* **Fees**: 1% swap fee on Uniswap V3 pool
 
 ## Launch Liquidity
 
-#### **Initial Funding**
+### **Initial Funding**
 
-Vultisig has raised $2.4 million from outside investors. A portion of this capital will be used to pair against the $VULT tokens in a UNI V3 liquidity pool. By using the concentrated liquidity and range setting of UNI V3, the capital will be deployed in a range of $2.5 million to $10 billion FDV.\
+Vultisig has raised $3.6 million from outside investors. A portion of this capital will be used to pair against the $VULT tokens in a UNI V3 liquidity pool. By using the concentrated liquidity and range setting of UNI V3, the capital will be deployed in a range of $2.5 million to $10 billion FDV.\
 This gives the opportunity to use the capital efficiently and deploy it in the required ranges to efficiently deploy the token on launch day.
 
-**Initial Valuation**
+### Liquidity&#x20;
+
+The initial launch pool will consist of 35% of all $VULT tokens
+
+* 24% of $VULT tokens are provided from initial investors
+* 11% of $VULT tokens come from the project Treasury
+
+See [Vesting ](usdvult.md#vesting)[here](usdvult.md#vesting)
+
+### **Initial Valuation**
 
 This setup gives us the possibility to launch at a **fully diluted valuation (FDV) of $3 million**.
 
-#### **Whitelisted Trade-Only Period**
+## Launch Plan
 
-The next phase after launch is a 24-hour trade-only period for whitelisted (WL) addresses. Here are the key points:
+While prioritizing development sustainability, we remain deeply committed to fair token distribution. In line with this commitment, we’re honoring our previously announced plan with an initial WL launch at **$3M fully diluted valuation** (FDV).
 
-* The trade-only period operates on a first-come, first-served basis among WL addresses.
-* Each WL address can make multiple purchases, but the total cannot exceed 4 ETH.
-* Sell transactions are allowed, but only whitelisted addresses that have already bought $VULT tokens will have any to sell.
+### Date and Launch Platform
 
-#### **Open Trading**
+The VULT launch will occur on the **27th of March 2025 at 1pm UTC** on **Ethereum mainnet** through a seeded Uniswap V3 liquidity pool, accessible via:
 
-After the 24-hour whitelisted period, the pool will be open for unlimited buy and sell transactions.
+* Our dedicated Vultisig launch website
+* Directly through the Uniswap interface
 
-<figure><img src="../.gitbook/assets/Launch Roadmap.png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
+The launch will proceed in two structured phases to ensure orderly market formation and maximize participation opportunities.
 
-#### **Launch**&#x20;
+### **Whitelisted Trade-Only Period**
 
-The launch will take place on the [Krystal ILO](https://ilo.krystal.app/) platform and Uniswap with a 24-hour whitelisting period. The launch mechanics may be similar to the launch of [$WEWE](https://ilo.krystal.app/project/upside-dow-wewe-690447).
+Our first launch phase gives 1,500 early Vultisig supporters priority access through a whitelist for **24 hours.** These early believers were hand selected and will receive first access to the $VULT token with significant benefits:
+
+* Priority purchase rights of up to \~$10,000 in ETH equivalent per whitelist position
+* Starting at $3M FDV
+* Complete freedom to sell tokens at their discretion, with no lockup requirements
+* Participation alongside our investors who may also sell tokens or provide liquidity during this phase. Specified here.
+
+#### Dedicated to good distribution&#x20;
+
+Our hand-selected whitelist process already significantly limits bot impact, as we've carefully vetted participants to prioritize genuine community members. \
+While we want to maintain an open trading environment with minimal restrictions, we've implemented a balanced approach that protects our launch integrity.\
+The two-tier allocation system works as follows:
+
+* **Hour 1**: Whitelist participants can purchase up to $1,000 worth of $VULT
+* **Hour 2 onward**: Full access to complete \~$10,000 allocation
+
+This staggered approach prevents automated systems from front-running transactions to acquire large positions immediately at launch. By carefully vetting participants and implementing measured purchase limits, we create a more equitable environment for our community while establishing healthy initial token distribution and liquidity.
+
+### **Public Launch**
+
+After 24 hours, the whitelist phase will conclude, and we’ll transition to our public launch. At this point, the $VULT token pool will be fully opened to everyone, removing all purchase restrictions. During this phase:
+
+* Anyone can buy, sell, or provide liquidity without limits
+* No maximum purchase amounts or throttling mechanisms will be in place
+* Full market dynamics will determine price discovery
+
+<figure><img src="../.gitbook/assets/Tokenomics 4.png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
 
 ## Further Information
 
-* The parties with 12-month cliff will not be able to withdraw from the Liquidity Pool during the vesting period. However, $VULT can still be freely bought/sold through the Liquidity Pool.
-* The first buy during the WL launch will be at $3m Fully Diluted Valuation (FDV).
+* Investors have fully completed their obligations to the project
+* They purchased at $70M FDV (23x higher than the $3M public launch valuation), creating strong price support and market making
+* Some investors provide additional liquidity at launch, helping stabilize trading and deepen the pool
+* Initial investor liquidity (24% of tokens) is locked in the LP for a full year
 * The launch pool will be on Uniswap V3, with a 1% swap fee setting.

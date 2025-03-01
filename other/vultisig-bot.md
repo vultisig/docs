@@ -22,7 +22,7 @@ When installed launch the bot and follow the [instructions](vultisig-bot.md#how-
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-1. Upload your Vultisig [Vault QR](../vultisig-user-actions/managing-your-vault/vault-qr.md)
+1. Upload your Vultisig [Vault QR](../vultisig-vault-user-actions/managing-your-vault/vault-qr.md)
 2. Join the airdrop in the `airdrop` tab
 3. Refer your friends with your invite link found in the `squad` tab
 4. See your airdrop progress in `home` tab

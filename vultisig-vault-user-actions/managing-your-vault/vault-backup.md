@@ -6,10 +6,11 @@ description: Exporting vault shares, backing up or importing vaults shares.
 
 ## What is a Backup in Vultisig
 
-Vultisig implements a novel backup and recovery mechanism that differs from traditional seed phrase-based approaches.\
-This mechanism also utilizes the Threshold Signature Scheme (TSS) technology to generate so called "[**Vault Shares**](vault-backup.md#what-are-vault-shares)", that enable more secure and reliable wallet recovery without seed phrases.\
+**Vultisig implements a novel backup and recovery mechanism that differs from traditional seed phrase-based approaches.**
+
+This mechanism also utilizes the Threshold Signature Scheme (TSS) technology which is used to generate so called "[**Vault Shares**](vault-backup.md#what-are-vault-shares)", that enable more secure and reliable wallet recovery without seed phrases.\
 These shares store all the data necessary to participate in Keygen/Keysign sessions and restore the Vault upon import.\
-They never store any secret key or seed phrase.
+**They never store any secret key or seed phrase.**
 
 {% hint style="info" %}
 The parameters stored in Vault Shares are non-sensitive data and are unique to the device on which they are created, making Vault Shares unique and not interchangeable with eachother.
@@ -45,7 +46,7 @@ Example: You have two shares called `savings-ef8b-part1of2.vult` and `savings-ef
 If you can't find one of the two (or respectively more parts) you know which device you need to back up to have full access on recovery.
 
 {% hint style="danger" %}
-**Never** store different vault shares of the same vault in the same location, as this could potentially lead to loss of funds.\
+**Never store different vault shares of the same vault in the same location, as this could potentially lead to loss of funds.**\
 This can happen if a malicious party gains access to that location and is able to reconstruct the vault.
 {% endhint %}
 
@@ -66,14 +67,14 @@ Secure Example:
 
 To ensure access to your assets in the event of adverse circumstances or for inheritance purposes, we propose a solution that works really well but can be adapted to everyone's needs:
 
-1. Zip all Part 1 shares
+1. Zip all Part 1 vault shares
 2. Store in your reach
-3. Zip all Part 2 shares
+3. Zip all Part 2 vault shares
 4. Send to partner/trusted family member
-5. Zip all Part 3 shares
+5. Zip all Part 3 vault shares
 6. Send to family laywer/accountant
 
-This can be expanded to larger vaults if needed, but ensures that you are properly backed up.
+This can be expanded if larger vaults with more devices are used, but ensures that you are properly backed up.
 
 {% hint style="info" %}
 You need to make sure that the counterparts receiving the parts cannot easily collaborate.
@@ -89,7 +90,7 @@ _Click on the above image to watch an explanation video on Twitter_
 
 In the app, navigate to `Settings` and proceed to `Vault Settings`.\
 Select `Backup`, enter an optional backup encryption password and proceed with `Save`.\
-If not needed, save the vault share by pressing `Skip` directly.
+If not needed, save the vault share by pressing `Skip PAssword` directly.
 
 ***
 
@@ -99,7 +100,7 @@ It is possible to encrypt the Vault share with an optional password, adding an e
 
 The Password option can either activated with putting in a strong password and **saving** it or can be **skipped**.
 
-<figure><img src="../../.gitbook/assets/Enrypt Backup.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Enrypt Backup (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 ***
 

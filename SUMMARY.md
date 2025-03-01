@@ -2,29 +2,29 @@
 
 * [Overview](README.md)
 
-## Vultisig User Actions
+## Vultisig Vault User Actions
 
-* [Creating a Vault](user-actions/creating-a-vault.md)
-* [Managing your Vault](user-actions/managing-your-vault/README.md)
-  * [Vault Details](user-actions/managing-your-vault/vault-details.md)
-  * [Vault Backups](user-actions/managing-your-vault/vault-backup.md)
-  * [Vault Rename](user-actions/managing-your-vault/vault-rename.md)
-  * [Vault Reshare](user-actions/managing-your-vault/vault-reshare.md)
-  * [Vault QR](vultisig-user-actions/managing-your-vault/vault-qr.md)
-* [Keysign](vultisig-user-actions/signing-a-transaction/README.md)
-  * [How Keysigning works](vultisig-user-actions/signing-a-transaction/how-keysigning-works.md)
-  * [Signing a Transaction](vultisig-user-actions/signing-a-transaction/signing-a-transaction.md)
+* [Creating a Vault](vultisig-vault-user-actions/creating-a-vault.md)
+* [Managing your Vault](vultisig-vault-user-actions/managing-your-vault/README.md)
+  * [Vault Details](vultisig-vault-user-actions/managing-your-vault/vault-details.md)
+  * [Vault Backups](vultisig-vault-user-actions/managing-your-vault/vault-backup.md)
+  * [Vault Rename](vultisig-vault-user-actions/managing-your-vault/vault-rename.md)
+  * [Vault Reshare](vultisig-vault-user-actions/managing-your-vault/vault-reshare.md)
+  * [Vault QR](vultisig-vault-user-actions/managing-your-vault/vault-qr.md)
+* [Keysign](vultisig-vault-user-actions/signing-a-transaction/README.md)
+  * [How Keysigning works](vultisig-vault-user-actions/signing-a-transaction/how-keysigning-works.md)
+  * [Signing a Transaction](vultisig-vault-user-actions/signing-a-transaction/signing-a-transaction.md)
 
-## Vultisigner
+## Vultiserver
 
-* [What is a Vultisigner](vultisigner/what-is-vultisigner.md)
-* [How does a Vultisigner work?](vultisigner/how-does-vultisigner-work.md)
-* [Transaction Policies](vultisigner/what-can-be-configured.md)
-* [Why is it safe?](vultisigner/why-is-it-safe.md)
-* [Vultisigner for Interfaces](vultisigner/vultisigner-for-interfaces/README.md)
-  * [Hosted Vultisigner](vultisigner/vultisigner-for-interfaces/hosted-vultisigner.md)
-  * [Unhosted Vultisigner](vultisigner/vultisigner-for-interfaces/unhosted-vultisigner.md)
-  * [Conclusion](vultisigner/vultisigner-for-interfaces/conclusion.md)
+* [What is a Vultisigner](vultiserver/what-is-vultisigner.md)
+* [How does a Vultisigner work?](vultiserver/how-does-vultisigner-work.md)
+* [Transaction Policies](vultiserver/what-can-be-configured.md)
+* [Why is it safe?](vultiserver/why-is-it-safe.md)
+* [Vultisigner for Interfaces](vultiserver/vultisigner-for-interfaces/README.md)
+  * [Hosted Vultisigner](vultiserver/vultisigner-for-interfaces/hosted-vultisigner.md)
+  * [Unhosted Vultisigner](vultiserver/vultisigner-for-interfaces/unhosted-vultisigner.md)
+  * [Conclusion](vultiserver/vultisigner-for-interfaces/conclusion.md)
 
 ## Vultisig Connect
 

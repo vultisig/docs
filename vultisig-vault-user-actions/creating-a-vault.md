@@ -31,8 +31,8 @@ This setup is the equivalent of a "hot wallet" in Vultisig, allowing vaults to b
 
 <figure><img src="../.gitbook/assets/Setup Fast (1).png" alt="" width="375"><figcaption><p>Fast Vaults in app</p></figcaption></figure>
 
-Fast Vaults are configured as a two-factor vault, where one device is held by the user and the other part is the Vultiserver, which automatically co-signs the user's requests (learn more about what the Vultiserver is [here](../vultiserver/what-is-vultisigner.md)), making it a single signature experience.\
-In the future, [transaction policies](../vultiserver/what-can-be-configured.md) will allow users to specify parameters for co-signing.
+Fast Vaults are configured as a two-factor vault, where one device is held by the user and the other part is the Vultiserver, which automatically co-signs the user's requests (learn more about what the Vultiserver is [here](../vultisig-infrastructure/what-is-vultisigner/)), making it a single signature experience.\
+In the future, [transaction policies](../vultisig-infrastructure/what-is-vultisigner/what-can-be-configured.md) will allow users to specify parameters for co-signing.
 
 {% hint style="info" %}
 It is recommended not to store large amounts in these vaults and to use them as a daily wallet or 'hot wallet.'

@@ -15,16 +15,17 @@
   * [How Keysigning works](vultisig-vault-user-actions/signing-a-transaction/how-keysigning-works.md)
   * [Signing a Transaction](vultisig-vault-user-actions/signing-a-transaction/signing-a-transaction.md)
 
-## Vultiserver
+## Vultisig Infrastructure
 
-* [What is a Vultisigner](vultiserver/what-is-vultisigner.md)
-* [How does a Vultisigner work?](vultiserver/how-does-vultisigner-work.md)
-* [Transaction Policies](vultiserver/what-can-be-configured.md)
-* [Why is it safe?](vultiserver/why-is-it-safe.md)
-* [Vultisigner for Interfaces](vultiserver/vultisigner-for-interfaces/README.md)
-  * [Hosted Vultisigner](vultiserver/vultisigner-for-interfaces/hosted-vultisigner.md)
-  * [Unhosted Vultisigner](vultiserver/vultisigner-for-interfaces/unhosted-vultisigner.md)
-  * [Conclusion](vultiserver/vultisigner-for-interfaces/conclusion.md)
+* [Overview](vultisig-infrastructure/overview.md)
+* [Vultiserver](vultisig-infrastructure/what-is-vultisigner/README.md)
+  * [How does a Fast Vault work?](vultisig-infrastructure/what-is-vultisigner/how-does-vultisigner-work.md)
+  * [Transaction Policies](vultisig-infrastructure/what-is-vultisigner/what-can-be-configured.md)
+  * [Why is it safe?](vultisig-infrastructure/what-is-vultisigner/why-is-it-safe.md)
+
+***
+
+* [Relay Server](relay-server.md)
 
 ## Vultisig Connect
 

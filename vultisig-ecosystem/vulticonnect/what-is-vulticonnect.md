@@ -1,6 +1,6 @@
-# What is Vultisig Connect
+# What is Vulticonnect
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="263"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="263"><figcaption></figcaption></figure>
 
 Vulticonnect acts as a bridge to let you use your assets stored in Vultisig Vaults with most available Web3 and DeFi dApps.\
 This is a chrome extension made to connect with your most liked web apps without transferring your assets out of Vultisigs safe environment.

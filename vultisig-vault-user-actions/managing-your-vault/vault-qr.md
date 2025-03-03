@@ -25,4 +25,4 @@ You can find the export of the QR code on the main screen in the top right corne
 
 ## Where to use the Vault QR?
 
-Currently the Vault QR can be imported into the Vultisig [Airdrop page](https://airdrop.vultisig.com/), to register for the [airdrop](../../vult-token/airdrop.md) or into the [Vultisig Connect](broken-reference) browser extension.
+Currently the Vault QR can be imported into the Vultisig [Airdrop page](https://airdrop.vultisig.com/), to register for the [airdrop](../../vultisig-token/airdrop/) or into the [Vultisig Connect](broken-reference) browser extension.

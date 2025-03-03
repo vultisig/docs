@@ -1,7 +1,7 @@
 # Airdrop
 
 {% hint style="warning" %}
-Airdrop registration and tracking is live (started 30-Oct-2024)!
+This iThis is the setup for the current Season 0 and will be discontinued after the current season ends, starting with [Airdrop V2](airdrop-v2.md) to further enhance the airdrop experience.
 {% endhint %}
 
 Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.
@@ -13,7 +13,7 @@ vault\_asset\_value*time\_in\_vault
 $$
 
 With the distribution date of 12 months after registration goes live.\
-See further calculation [here](airdrop.md#airdrop-process).\
+See further calculation [here](./#airdrop-process).\
 \
 Users will receive full information about how to register for this airdrop in the coming weeks.
 
@@ -22,7 +22,7 @@ Users will receive full information about how to register for this airdrop in th
 ## Airdrop Process
 
 To register their vaults for the Airdrop, users send their exported Vault public Keys to an Airdrop Registry, which will scan for presence of funds on chains, and then begin counting airdrop value.\
-**See the exact instructions** [**here.**](airdrop.md#how-to-register-for-the-airdrop)\
+**See the exact instructions** [**here.**](./#how-to-register-for-the-airdrop)\
 \
 This will include most actions performed in Vultisig (like bonding to nodes and staking, etc.).
 
@@ -39,7 +39,7 @@ $$
 \text{user\_airdrop\_share} = 5,000,000 \times \left( \frac{\text{user\_VULTIES}}{\text{total\_VULTIES}} \right)
 $$
 
-<figure><img src="../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Eligible assets
 
@@ -68,15 +68,15 @@ The Ongoing Airdrop Process will continue for another 5 years, and the dedicated
 
 ## How to register for the airdrop
 
-1.  [Export](../vultisig-vault-user-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault\\
+1.  [Export](../../vultisig-vault-user-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault\\
 
-    <figure><img src="../.gitbook/assets/VultisigQR-Main Vault-828 (1).png" alt="" width="188"><figcaption></figcaption></figure>
-2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Connect](broken-reference/) or with uploading your Vault QR\\
+    <figure><img src="../../.gitbook/assets/VultisigQR-Main Vault-828 (1).png" alt="" width="188"><figcaption></figcaption></figure>
+2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Connect](../../vult-token/broken-reference/) or with uploading your Vault QR\\
 
-    <figure><img src="../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
 3.  Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the website\\
 
-    <figure><img src="../.gitbook/assets/image (14).png" alt="" width="188"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (14).png" alt="" width="188"><figcaption></figcaption></figure>
 4. Go to the `Balance` tab and enable **ALL a**ssets you want to have counted towards the airdrop
 5. Earn VULTIES (Airdrop points) and track the leaderboard
 6. Register multiple Vaults
@@ -99,7 +99,7 @@ The multiplier will start at 1 and will increase depending on the activities and
 
 ### How to increase the Multiplier
 
-At the heart of the Airdrop multiplier is the [Referral Program](airdrop.md#referral-program).
+At the heart of the Airdrop multiplier is the [Referral Program](./#referral-program).
 
 {% hint style="info" %}
 There will be special programs and opportunities to increase this as the airdrop progresses. They are listed below.
@@ -107,7 +107,7 @@ There will be special programs and opportunities to increase this as the airdrop
 
 #### Referral Program
 
-Vultisig team has built a [Telegram bot](../other/vultisig-bot.md) to easily invite friends and track the referred people.
+Vultisig team has built a [Telegram bot](../../other/vultisig-bot.md) to easily invite friends and track the referred people.
 
 * Invite people
 * Let them install Vultisig
@@ -123,4 +123,4 @@ Do not register for the Airdrop if you do not wish for your public keys to be se
 Note, after the Airdrop has finished, your public keys will be purged. No other user information is collected.
 {% endhint %}
 
-Read the [#privacy-policy](../other/privacy.md#privacy-policy "mention")
+Read the [#privacy-policy](../../other/privacy.md#privacy-policy "mention")

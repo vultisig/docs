@@ -8,20 +8,20 @@ Install Vultisig Connect for your Chrome Browser, over the Chrome Extension Stor
 
 ## How to import a Vault
 
-After installing the Vultisig Connect extension, start the Extension and follow the instructions presented. You will need the [Vault QR](../vultisig-vault-user-actions/managing-your-vault/vault-qr.md) of your Vultisig Vault for import.
+After installing the Vulticonnect extension, start the Extension and follow the instructions presented. You will need the [Vault QR](../../vultisig-vault-user-actions/managing-your-vault/vault-qr.md) of your Vultisig Vault for import.
 
 ## How to connect to web3
 
-Vultisig Connect can be easily connected to any interface as it uses the widely used web wallet injections and also dedicated connections if supported by the interfaces.
+Vulticonnect can be easily connected to any interface as it uses the widely used web wallet injections and also dedicated connections if supported by the interfaces.
 
 ## How to sign transactions
 
-Signing a transaction with Vultisig Connect is seamless.\
+Signing a transaction with Vulticonnect is seamless.\
 \
 Construct the desired transaction on the interface of your choice.\
-When initiating a transaction, Vultisig Connect will open and present a verification screen to verify the correctness of the initiated transaction.
+When initiating a transaction, Vulticonnect will open and present a verification screen to verify the correctness of the initiated transaction.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt="" width="360"><figcaption><p>Verification</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="360"><figcaption><p>Verification</p></figcaption></figure>
 
 Continuing, you will see a QR code that contains all the information needed for your Vultisig Vault to sign the transaction.\
 \

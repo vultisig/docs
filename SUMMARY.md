@@ -27,10 +27,17 @@
 
 * [Relay Server](relay-server.md)
 
-## Vultisig Connect
+## Vultisig Ecosystem
 
-* [What is Vultisig Connect](vultisig-connect/what-is-vulticonnect.md)
-* [How to use Vultisig Connect](vultisig-connect/how-to-use-vultisig-connect.md)
+* [Vulticonnect](vultisig-ecosystem/vulticonnect/README.md)
+  * [What is Vulticonnect](vultisig-ecosystem/vulticonnect/what-is-vulticonnect.md)
+  * [How to use Vultisig Connect](vultisig-ecosystem/vulticonnect/how-to-use-vultisig-connect.md)
+* [Web App](vultisig-ecosystem/web-app.md)
+
+***
+
+* [Marketplace](marketplace.md)
+* [Marketplace](marketplace-1.md)
 
 ## Threshold Signature Scheme
 
@@ -45,7 +52,8 @@
 
 * [The $VULT token](vult-token/usdvult.md)
 * [Launch of $VULT](vult-token/launch.md)
-* [Airdrop](vult-token/airdrop.md)
+* [Airdrop](vultisig-token/airdrop/README.md)
+  * [Airdrop V2](vultisig-token/airdrop/airdrop-v2.md)
 
 ## Other
 

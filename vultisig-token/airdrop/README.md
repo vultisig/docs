@@ -1,8 +1,10 @@
 # Airdrop
 
 {% hint style="warning" %}
-This iThis is the setup for the current Season 0 and will be discontinued after the current season ends, starting with [Airdrop V2](airdrop-v2.md) to further enhance the airdrop experience.
+This is the setup for the current Season 0 and will be discontinued after the current season ends, starting with [Airdrop V2](airdrop-v2.md) to further enhance the airdrop experience. Read more about it [here](https://medium.com/@vultisig/vultisig-airdrop-2-0-how-were-transforming-the-experience-f20c146f2f29) .
 {% endhint %}
+
+***
 
 Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.
 

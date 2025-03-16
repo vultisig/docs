@@ -37,7 +37,7 @@
 ***
 
 * [Marketplace](marketplace.md)
-* [Marketplace](marketplace-1.md)
+* [Vultisig SDK](vultisig-sdk.md)
 
 ## Threshold Signature Scheme
 

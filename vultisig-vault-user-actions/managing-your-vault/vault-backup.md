@@ -34,7 +34,7 @@ The parameters stored in Vault Shares are non-sensitive data and are unique to t
 * To easily identify which Vault Share is backed up and which is missing, they are labeled as follows:
 
 $$
-vaultname-ID-part(t)of(n).vult
+vaultname-ID-share(t)of(n).vult
 $$
 
 vaultname: Set name of the vault\
@@ -42,7 +42,14 @@ ID: ID of the vault\
 t: share of the vault\
 n: total shares
 
-Example: You have two shares called `savings-ef8b-part1of2.vult` and `savings-ef8b-part2of2.vult` backed up. So you know that your Vault is completely backed up. Secured.\
+{% hint style="info" %}
+To easily distinguish between vault types, backups are named differently for the two TSS types:
+
+* share: A DKLS vault
+* part: a GG20 vault
+{% endhint %}
+
+Example: You have two shares called `savings-ef8b-share1of2.vult` and `savings-ef8b-share2of2.vult` backed up. So you know that your Vault is completely backed up. Secured.\
 If you can't find one of the two (or respectively more parts) you know which device you need to back up to have full access on recovery.
 
 {% hint style="danger" %}

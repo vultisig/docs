@@ -2,7 +2,7 @@
 
 ## Audits
 
-Kudelski Audit of `mobile-tss-lib`
+### Kudelski Audit of `mobile-tss-lib`
 
 <figure><img src="../.gitbook/assets/TSS-Security.png" alt=""><figcaption><p>Kudelski Findings</p></figcaption></figure>
 
@@ -20,9 +20,15 @@ Audit Summery
 >
 > • Audit 2 #18 (commit 2577eb3b00d4d58a7318fa0ada726ba7965579ab)
 
-**Contract Audit**
+### **$VULT Contract Audit**
 
-C4rena Audit of the $VULT contract can be seen [here](https://code4rena.com/reports/2024-06-vultisig).
+The audit was done by [Code4rena ](https://x.com/code4rena)for  the $VULT contract and can be found [here](https://code4rena.com/reports/2024-06-vultisig).
+
+### Staking Contract Audit
+
+The audit was done by [Zenith](https://x.com/zenith256) and can be found [here](https://github.com/zenith-security/reports/blob/main/reports/Vultisig%20-%20Zenith%20Audit%20Report.pdf).&#x20;
+
+***
 
 ## TSS-Security
 

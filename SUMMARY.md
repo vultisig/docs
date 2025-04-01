@@ -62,3 +62,15 @@
 * [Privacy](other/privacy.md)
 * [License](other/licence.md)
 * [Terms](other/terms.md)
+
+## Developer Docs
+
+* [Infrastructure Overview](developer-docs/infrastructure-overview.md)
+* [Vultisig SDK](developer-docs/vultisig-sdk/README.md)
+  * [How to use it](developer-docs/vultisig-sdk/how-to-use-it.md)
+
+***
+
+* [Marketplace](marketplace-1/README.md)
+  * [Plugins](marketplace-1/plugins.md)
+  * [Ai Agents](marketplace-1/ai-agents.md)

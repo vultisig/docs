@@ -75,4 +75,4 @@ The more swaps and bridging that happen in Vultisig, the higher the real yield w
 This feature is yet to be implemented and the exact parameters are still under evaluation.
 {% endhint %}
 
-<table><thead><tr><th width="373">Fee</th><th>Amount</th></tr></thead><tbody><tr><td>Swap Fees (Cross-chain and Token swaps)</td><td>50 basis points</td></tr><tr><td>Bridge Fees (Between EVMs and IBC)</td><td>10 basis points</td></tr><tr><td>Marketplace Fees (Plugins and Ai Agents)</td><td>40% of generated revenue </td></tr></tbody></table>
+<table><thead><tr><th width="373">Fee</th><th>Amount</th></tr></thead><tbody><tr><td>Swap Fees (Cross-chain and Token swaps)</td><td>50 basis points</td></tr><tr><td>Bridge Fees (Between EVMs and IBC)</td><td>10 basis points</td></tr><tr><td>Marketplace Fees (Plugins and Ai Agents)</td><td>30% of generated revenue</td></tr></tbody></table>

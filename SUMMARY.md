@@ -52,6 +52,7 @@
 
 * [The $VULT token](vult-token/usdvult.md)
 * [Launch of $VULT](vult-token/launch.md)
+* [$VULT Staking](vultisig-token/usdvult-staking.md)
 * [Airdrop](vultisig-token/airdrop/README.md)
   * [Airdrop V2](vultisig-token/airdrop/airdrop-v2.md)
 

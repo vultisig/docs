@@ -6,7 +6,7 @@ description: The launch of the Vultisig Token to the world.
 
 ## TLDR/FAQ
 
-* **Launch**: April 15, 2025, on Ethereum (Uniswap V3)
+* **Launch**: April 23, 2025, on Ethereum (Uniswap V3)
 * **Initial Pool**: 35% of VULT tokens
 * **Pricing**: $3M starting FDV
 * **Format**: 24-hour whitelist period (1,500 users) then public launch

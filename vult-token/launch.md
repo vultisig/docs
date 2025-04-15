@@ -39,7 +39,7 @@ While prioritizing development sustainability, we remain deeply committed to fai
 
 ### Date and Launch Platform
 
-The VULT launch will occur on the **15th of April 2025** on **Ethereum mainnet** through a seeded Uniswap V3 liquidity pool, accessible via:
+The VULT launch will occur on the **23rd of April 2025** on **Ethereum mainnet** through a seeded Uniswap V3 liquidity pool, accessible via:
 
 * Our dedicated Vultisig launch website
 * Directly through the Uniswap interface

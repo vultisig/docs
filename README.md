@@ -74,7 +74,7 @@ _The above are the most popular vault configurations and more can come in the fu
 * Rich, large screens with familiar UI, Secure Enclaves to store vault shares and with biometric locking.
 * Does not look like a hardware device and therefore grants higher security.
 
-🌈 Vultisig is open-source, based on secure technology and is audited (see in [security.md](threshold-signature-scheme/security.md "mention"), _with further audits to come_).\
+🌈 Vultisig is open-source, based on secure technology and is audited (see in [security.md](other/security.md "mention"), _with further audits to come_).\
 **There is no registration required.**
 
 ## Who should use it

@@ -1,3 +1,7 @@
+---
+description: Everything related to security what affects the Vultisig Project
+---
+
 # Security
 
 ## Audits

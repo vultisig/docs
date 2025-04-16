@@ -45,7 +45,6 @@
 * [TSS Actions](threshold-signature-scheme/tss-actions.md)
 * [Difference to Multi-Signatures](threshold-signature-scheme/difference-to-multi-signatures.md)
 * [Difference to Passkeys](threshold-signature-scheme/difference-to-passkeys.md)
-* [Security](threshold-signature-scheme/security.md)
 * [Emergency Recovery](threshold-signature-scheme/emergency-recovery.md)
 
 ## VULTISIG Token
@@ -59,6 +58,7 @@
 ## Other
 
 * [Vultisig Bot](other/vultisig-bot.md)
+* [Security](other/security.md)
 * [Frequently Asked Questions](FAQ/README.md)
 * [Privacy](other/privacy.md)
 * [License](other/licence.md)

@@ -33,7 +33,7 @@ This approach guarantees we never miss a published date again and keeps the comm
 
 ### Initial Funding (unchanged)
 
-Vultisig has raised **$3.6M** in strategic capital. 35% of the total supply is paired with this ETH in a Uniswap V3 1% fee pool. Concentrated-liquidity ranges will span **$3M → $1B FDV**, ensuring deep two-side liquidity from the first block.
+Vultisig has raised **$3.6M** in strategic capital. 35% of the total supply is paired with this USDC in a Uniswap V3 1% fee pool. Concentrated-liquidity ranges will span **$3M → $1B FDV**, ensuring deep two-side liquidity from the first block.
 
 ### Pool Composition
 
@@ -75,7 +75,7 @@ The FDV at pool inception remains **$3M**.
 ## Further Information (unchanged)
 
 - Strategic investors entered at **$70M FDV** (~23× public launch valuation).
-- Investors will optionally LP more ETH/VULT at launch to stabilize price discovery.
+- Investors will optionally LP more USDC/VULT at launch to stabilize price discovery.
 - Launch LP remains on Uniswap V3 (1% fee tier).
 
 ---

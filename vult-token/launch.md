@@ -8,21 +8,20 @@ description: The launch of the Vultisig Token to the world.
 
 ## TL;DR / FAQ
 
- **Launch window:** *TBA*. The DEX launch will occur **24 hours *before* our CEX listing**, once the CEX partner publicly confirms their go-live date. We will share this confirmation as soon as we receive it - which could be announced several days or weeks ahead of time.
-- **DEX → CEX cadence:** 24 h DEX lead‑in, then CEX listing (same model, just date now gated on CEX confirmation).
-- **Liquidity & pricing:** unchanged - 35% of supply seeded in a Uniswap V3 pool at ~$3M FDV.
-- **Whitelist:** unchanged - 1,500 slots with staggered purchase caps ($1k first hour → $10k thereafter).
+**Launch window:** *TBA*. The DEX launch will occur **24 hours *before* our CEX listing**, once a date with the CEX partner is finalized. We will share this confirmation as soon as we receive it - which could be announced several days or weeks ahead of time.
+
+- **DEX → CEX cadence:** DEX launches **24 hours before the CEX listing**.
+- **Liquidity & pricing:** 35% of supply seeded in a Uniswap V3 pool at ~$3M FDV.
+- **Whitelist:** 1,500 slots with staggered purchase caps ($1k first hour → $10k thereafter).
 - **IOU VULT holders:** merged IOU balances will be airdropped as *staked VULT* **24h after public launch**; no action required.
 
 ---
 
-## Why the delay?
-
 Our CEX partners determine their own go‑live schedule. Once our CEX partner publicly confirms their listing schedule, we will coordinate transparently and clearly communicate the DEX launch date. Committing prematurely has already created confusion, so we are moving to an evidence‑based timeline:
 
-1. **CEX confirms listing date** (signed & sealed).
+1. Confirmed date with CEX.
 2. We subtract 24 h from the confirmed CEX listing date and lock that in as the DEX launch time - meaning you’ll know the DEX launch timing as soon as the CEX date is announced.
-3. Announcement to the community within 24h of receiving the confirmation.
+3. Announcement will happen with enough due time (1-2 weeks) until launch but as soon as date is set.
 4. Joint marketing push‑up with the CEX + Vultisquad until launch.
 
 This approach guarantees we never miss a published date again and keeps the community first in the information flow.
@@ -31,7 +30,7 @@ This approach guarantees we never miss a published date again and keeps the comm
 
 ## Launch Liquidity
 
-### Initial Funding (unchanged)
+### Initial Funding
 
 Vultisig has raised **$3.6M** in strategic capital. 35% of the total supply is paired with this USDC in a Uniswap V3 1% fee pool. Concentrated-liquidity ranges will span **$3M → $1B FDV**, ensuring deep two-side liquidity from the first block.
 
@@ -72,7 +71,7 @@ The FDV at pool inception remains **$3M**.
 
 ---
 
-## Further Information (unchanged)
+## Further Information
 
 - Strategic investors entered at **$70M FDV** (~23× public launch valuation).
 - Investors will optionally LP more USDC/VULT at launch to stabilize price discovery.

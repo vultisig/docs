@@ -2,84 +2,82 @@
 description: The launch of the Vultisig Token to the world.
 ---
 
-# Launch of $VULT
+# Launch of $VULT (Status: **Launch Date Pending**)
 
-## TLDR/FAQ
+> **Last updated:** 2025‑04‑21 - reflects the “Token Launch Update and New Principles for Community Communication” Medium post. [Read the full announcement](https://vultisig.medium.com/token-launch-update-and-new-principles-for-community-communication-a57898b5614e).
 
-* **Launch**: April 23, 2025, on Ethereum (Uniswap V3)
-* **Initial Pool**: 35% of VULT tokens
-* **Pricing**: $3M starting FDV
-* **Format**: 24-hour whitelist period (1,500 users) then public launch
-* **Purchase Limits**: Hour 1: $1,000 max per whitelist; Hour 2+: $10,000 max
-* **Fees**: 1% swap fee on Uniswap V3 pool
+## TL;DR / FAQ
+
+ **Launch window:** *TBA*. The DEX launch will occur **24 hours *before* our CEX listing**, once the CEX partner publicly confirms their go-live date. We will share this confirmation as soon as we receive it - which could be announced several days or weeks ahead of time.
+- **DEX → CEX cadence:** 24 h DEX lead‑in, then CEX listing (same model, just date now gated on CEX confirmation).
+- **Liquidity & pricing:** unchanged - 35% of supply seeded in a Uniswap V3 pool at ~$3M FDV.
+- **Whitelist:** unchanged - 1,500 slots with staggered purchase caps ($1k first hour → $10k thereafter).
+- **IOU VULT holders:** merged IOU balances will be airdropped as *staked VULT* **24h after public launch**; no action required.
+
+---
+
+## Why the delay?
+
+Our CEX partners determine their own go‑live schedule. Once our CEX partner publicly confirms their listing schedule, we will coordinate transparently and clearly communicate the DEX launch date. Committing prematurely has already created confusion, so we are moving to an evidence‑based timeline:
+
+1. **CEX confirms listing date** (signed & sealed).
+2. We subtract 24 h from the confirmed CEX listing date and lock that in as the DEX launch time - meaning you’ll know the DEX launch timing as soon as the CEX date is announced.
+3. Announcement to the community within 24h of receiving the confirmation.
+4. Joint marketing push‑up with the CEX + Vultisquad until launch.
+
+This approach guarantees we never miss a published date again and keeps the community first in the information flow.
+
+---
 
 ## Launch Liquidity
 
-### **Initial Funding**
+### Initial Funding (unchanged)
 
-Vultisig has raised $3.6 million from outside investors. A portion of this capital will be used to pair against the $VULT tokens in a UNI V3 liquidity pool. By using the concentrated liquidity and range setting of UNI V3, the capital will be deployed in a range of $3 million to $1 billion FDV.\
-This will allow for the efficient use of capital and the deployment of capital in the areas necessary to efficiently manage the token on launch day.
+Vultisig has raised **$3.6M** in strategic capital. 35% of the total supply is paired with this ETH in a Uniswap V3 1% fee pool. Concentrated-liquidity ranges will span **$3M → $1B FDV**, ensuring deep two-side liquidity from the first block.
 
-### Liquidity&#x20;
+### Pool Composition
 
-The initial launch pool will consist of 35% of all $VULT tokens
+- **24%** - strategic investors  (1-year lock)
+- **11%** - Treasury allocation
 
-* 24% of $VULT tokens are provided from initial investors
-* 11% of $VULT tokens come from the project Treasury
+### Initial Valuation
 
-See [Vesting ](usdvult.md#vesting)[here](usdvult.md#vesting)
+The FDV at pool inception remains **$3M**.
 
-### **Initial Valuation**
+---
 
-This setup gives us the possibility to launch at a **fully diluted valuation (FDV) of $3 million**.
+## Updated Launch Flow
 
-## Launch Plan
+### Phase 1 - Whitelisted Trade-Only (24h)
 
-While prioritizing development sustainability, we remain deeply committed to fair token distribution. In line with this commitment, we’re honoring our previously announced plan with an initial WL launch at **$3M fully diluted valuation** (FDV).
+- 1,500 vetted addresses
+- Hour 1 cap: **$1k**
+- Hour 2 → 24h cap: **$10k**
+- No lock-ups; free to LP or trade
 
-### Date and Launch Platform
+### Phase 2 - Public Launch
 
-The VULT launch will occur on the **23rd of April 2025** on **Ethereum mainnet** through a seeded Uniswap V3 liquidity pool, accessible via:
-
-* Our dedicated Vultisig launch website
-* Directly through the Uniswap interface
-
-The launch will proceed in two structured phases to ensure orderly market formation and maximize participation opportunities.
-
-### **Whitelisted Trade-Only Period**
-
-Our first launch phase gives 1,500 early Vultisig supporters priority access through a whitelist for **24 hours.** These early believers were hand selected and will receive first access to the $VULT token with significant benefits:
-
-* Priority purchase rights of up to \~$10,000 in ETH equivalent per whitelist position
-* Starting at $3M FDV
-* Complete freedom to sell tokens at their discretion, with no lockup requirements
-* Participation alongside our investors who may also sell tokens or provide liquidity during this phase. Specified here.
-
-#### Dedicated to good distribution&#x20;
-
-Our hand-selected whitelist process already significantly limits bot impact, as we've carefully vetted participants to prioritize genuine community members. \
-While we want to maintain an open trading environment with minimal restrictions, we've implemented a balanced approach that protects our launch integrity.\
-The two-tier allocation system works as follows:
-
-* **Hour 1**: Whitelist participants can purchase up to $1,000 worth of $VULT
-* **Hour 2 onward**: Full access to complete \~$10,000 allocation
-
-This staggered approach prevents automated systems from front-running transactions to acquire large positions immediately at launch. By carefully vetting participants and implementing measured purchase limits, we create a more equitable environment for our community while establishing healthy initial token distribution and liquidity.
-
-### **Public Launch**
-
-After 24 hours, the whitelist phase will conclude, and we’ll transition to our public launch. At this point, the $VULT token pool will be fully opened to everyone, removing all purchase restrictions. During this phase:
-
-* Anyone can buy, sell, or provide liquidity without limits
-* No maximum purchase amounts or throttling mechanisms will be in place
-* Full market dynamics will determine price discovery
+- Pool opens to everyone simultaneously with the availability of $VULT on our CEX partner
+- No caps, no throttles; full market dynamics
 
 <figure><img src="../.gitbook/assets/Tokenomics 4.png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
 
-## Further Information
+---
 
-* Investors have fully completed their obligations to the project
-* They purchased at $70M FDV (23x higher than the $3M public launch valuation), creating strong price support and market making
-* Some investors provide additional liquidity at launch, helping stabilize trading and deepen the pool
-* Initial investor liquidity (24% of tokens) is locked in the LP for a full year
-* The launch pool will be on Uniswap V3, with a 1% swap fee setting.
+## Communication Principles (adopted 2025‑04‑21)
+
+1. **Evidence over estimation** - no public dates without contractual confirmation.
+2. **Community first** - Vultisquad gets the news before press releases.
+3. **Single source of truth** - this page is updated within 24h of any material change.
+
+---
+
+## Further Information (unchanged)
+
+- Strategic investors entered at **$70M FDV** (~23× public launch valuation).
+- Investors will optionally LP more ETH/VULT at launch to stabilize price discovery.
+- Launch LP remains on Uniswap V3 (1% fee tier).
+
+---
+
+*Questions?*  Join the discussion in `#-announcements` and `#-wl-launch` on Discord.

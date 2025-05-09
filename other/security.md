@@ -34,14 +34,36 @@ The audit was done by [Zenith](https://x.com/zenith256) and can be found [here](
 
 ***
 
-## TSS-Security
+## Threshold Signature Security (TSS and DKLS)
 
-While TSS (GG20) is a relatively new cryptographic protocol, it has been extensively tested in the wild by THORChain (thorchain.org) in an open-source and adversarial environment. The fact that it works today with a non-zero amount of funds in vaults is a testament to the robustness of the protocol.
+Vultisig currently supports two Threshold Signature Schemes (TSS): GG20 and DKLS. As of March 2025, DKLS is the preferred cryptographic standard for all new vaults on iOS, Android, and macOS. Windows also fully supports DKLS, including vault participation and optional initiation via an advanced toggle. Default behavior may evolve in future releases.
 
-Vultisig also implements GG20, but in a non-adversarial environment. Your trusted devices only connect to each other in deliberate sessions after being unlocked by you or your device owner. Thus, they cannot be attacked while you are asleep with your devices also locked/asleep.
+**GG20** is a well-established threshold signing protocol that has been battle-tested in production through projects like [THORChain](https://thorchain.org), which uses it in open-source, adversarial environments. In Vultisig, GG20 remains available primarily for legacy vaults and advanced configuration cases.
 
-## Research&#x20;
+**DKLS** (Distributed Keygen and Local Signing) is a modern threshold signature scheme developed by [Silence Laboratories](https://github.com/silence-laboratories/dkls23). It enables multiple trusted devices to sign transactions collaboratively, without ever reconstructing the full private key.
+
+> 🔒 Both protocols eliminate the need for a seed phrase or centralized private key, offering a seedless, self-custodial experience.
+
+In practice:
+- Your devices connect only during deliberate signing sessions.
+- Private key shares are never combined or stored.
+- An attacker would need access to all your devices simultaneously to forge a signature.
+
+Vultisig will continue to evolve with the latest advancements in TSS protocols to provide secure, resilient self-custody for all users.
+
+## Research
 
 The Threshold Signature Scheme is a relatively new area within the field of Multi-Party Computation. As such, advancements in security and efficiency are ongoing and continuously evolving.
 
 Vultisig closely monitors these developments and is committed to adopting more secure and efficient versions as they become available. Additionally, we are actively researching new possibilities within this space.
+
+## DKLS Threshold Signing
+
+Vultisig leverages [DKLS threshold signatures](https://github.com/silence-laboratories/dkls23), a cryptographic scheme developed by Silence Laboratories. This protocol enables multiple trusted devices to sign a transaction together without ever reconstructing or exposing the full private key.
+
+This technique enhances security by eliminating single points of failure—no seed phrase or complete key is ever stored on any single device. Instead, each device holds a secure share of the key, and must participate in the signing process.
+
+> 🔒 This is how Vultisig enables secure, seedless, self-custody for your crypto.
+
+We will link to a verified DKLS audit from Silence Labs once available.
+

@@ -65,5 +65,6 @@ This technique enhances security by eliminating single points of failure—no se
 
 > 🔒 This is how Vultisig enables secure, seedless, self-custody for your crypto.
 
-We will link to a verified DKLS audit from Silence Labs once available.
+The DKLS protocol was audited in February 2024 by Trail of Bits. The full audit report is available [here (PDF)](https://github.com/silence-laboratories/dkls23/blob/main/docs/ToB-SilenceLaboratories_2024.04.10.pdf).
+
 

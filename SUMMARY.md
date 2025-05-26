@@ -41,7 +41,9 @@
 
 ## Threshold Signature Scheme
 
-* [How it works](threshold-signature-scheme/how-it-works.md)
+* [Threshold Signature Schemes used by Vultisig](threshold-signature-scheme/threshold-signature-schemes-used-by-vultisig/README.md)
+  * [How GG20 works](threshold-signature-scheme/threshold-signature-schemes-used-by-vultisig/how-it-works.md)
+  * [How DKLS23 works](threshold-signature-scheme/threshold-signature-schemes-used-by-vultisig/how-dkls23-works.md)
 * [TSS Actions](threshold-signature-scheme/tss-actions.md)
 * [Difference to Multi-Signatures](threshold-signature-scheme/difference-to-multi-signatures.md)
 * [Difference to Passkeys](threshold-signature-scheme/difference-to-passkeys.md)

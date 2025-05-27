@@ -41,7 +41,7 @@ Distributed across all major platforms like iOS, Android, Windows and Linux user
 ## What is Vultisig Wallet
 
 🙋‍♀️ Vultisig's wallet solution is a multi-chain, multi-factor, multi-platform Threshold-Signature vault that does not need any specialised hardware. It supports most UTXO, EVM, BFT and EdDSA Chains.\
-It is based on [Binance tss-lib](https://github.com/bnb-chain/tss-lib/tree/master), but adapted for the mobile environment.
+It is powered by the state-of-the-art TSS protocol, [DKLS23](https://github.com/silence-laboratories/dkls23), which is developed and maintained by Silence Laboratories.
 
 Vultisig is built by the founders of [THORChain](https://thorchain.org) - who built the largest and oldest working multi-chain DEX with Threshold-signatures.
 

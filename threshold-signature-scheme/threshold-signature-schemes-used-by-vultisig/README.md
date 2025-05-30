@@ -5,9 +5,7 @@ description: 'Understanding Vultisig’s TSS Protocols: GG20 and DKLS23'
 # Threshold Signature Schemes used by Vultisig
 
 
-What is TSS and Why Does It Matter?
------------------------------------
-
+# What is TSS and Why Does It Matter?
 
 The Threshold Signature Scheme (TSS) protects your digital assets by splitting control among multiple devices or parties using multi-party computation (MPC) technology. Rather than using one private key, which could be stolen, TSS divides control so that a minimum number of shares `t`("threshold") must work together to authorize transactions.
 
@@ -30,40 +28,27 @@ For your wallet security, TSS means:
 
 Vultisig utilizes two TSS protocols: the original GG20 and the newer DKLS23. Both protocols secure your assets, but they do so in different technical ways.
 
-### &#xD;[GG20](how-it-works.md): The Protocol Vultisig started with
+### [GG20](how-it-works.md): The Protocol Vultisig started with
 
+GG20 (developed in 2020) was Vultisig's first TSS protocol. It's like a secure but somewhat complex postal system:
 
-GG20 (developed in 2020) was Vultisig’s first TSS protocol. It’s like a secure but somewhat
-&#x20;complex postal system:
-
-* **How it works:** Uses a special type of encryption called “Paillier encryption” that allows
-  &#x20;mathematical operations on encrypted data
-* **Communication style:** Requires 6 rounds of back-and-forth messages between your
-  &#x20;devices to complete a signature
-* **Security approach:** Includes “identifiable abort” - the ability to detect which device might be
-  &#x20;causing problems
-
-
+* **How it works:** Uses a special type of encryption called "Paillier encryption" that allows mathematical operations on encrypted data
+* **Communication style:** Requires 6 rounds of back-and-forth messages between your devices to complete a signature
+* **Security approach:** Includes "identifiable abort" - the ability to detect which device might be causing problems
 
 ***
 
-[DKLS23](how-dkls23-works.md): The Enhanced Protocol
+### [DKLS23](how-dkls23-works.md): The Enhanced Protocol
 
+DKLS23 (developed in 2023) is Vultisig's current, newer protocol. It's like a streamlined, modern courier service:
 
-DKLS23 (developed in 2023) is Vultisig’s current, newer protocol. It’s like a streamlined, modern courier
-&#x20;service:
-
-* **How it works:** Uses a technique called “oblivious transfer” that’s more efficient than the
-  &#x20;previous method
+* **How it works:** Uses a technique called "oblivious transfer" that's more efficient than the previous method
 * **Communication style:** Requires only 3 rounds of messages (half as many as GG20)
 * **Security approach:** Maintains the same strong security but with simpler mechanisms
 
 ***
 
-
-Why Vultisig Upgraded to DKLS23
--------------------------------
-
+# Why Vultisig Upgraded to DKLS23
 
 In early 2025, Vultisig transitioned from GG20 to DKLS23 to provide users with a better experience while maintaining the highest security standards. This was accomplished in close cooperation with [Silence Laboratories](https://x.com/silencelabs_sl), which developed a customized version of DKLS23 for Vultisig. The open-source protocol can be found on the Silence Laboratories [GitHub](https://github.com/silence-laboratories/dkls23).
 
@@ -88,30 +73,22 @@ While the possible improvements for end users of Vultisig are clear, upgrading t
 
 ***
 
-Comparing the Protocols
-
+## Comparing the Protocols
 
 | Feature                          | GG20                               | DKLS23       |    What This Means For The User                     |
 | -------------------------------- | ---------------------------------- | ------------ | --------------------------------------------------- |
 | Signing Speed                    | Slower                             | 5-10x faster | Quicker transaction approvals                       |
-| <p>Communication
-<br>Rounds
-</p> | 6 round                            | 3 rounds     | <p>Works better on
-<br>spotty connections</p>       |
-| Security Level                   | Very High                          | Very High    | Both protocols provide&#xD; excellent security&#xD; |
-| Network Reliability              | More sensitive to&#xD; delays&#xD; | More robust  | Fewer failed transactions                           |
+| Communication Rounds             | 6 round                            | 3 rounds     | Works better on spotty connections                  |
+| Security Level                   | Very High                          | Very High    | Both protocols provide excellent security           |
+| Network Reliability              | More sensitive to delays           | More robust  | Fewer failed transactions                           |
 
 ***
 
 ## Learn More
 
 
-If you’re interested in the technical details of these protocols, you can explore the more
-&#x20;comprehensive explanation of [GG20](how-it-works.md) or [DKLS23](how-dkls23-works.md)
-\
-
+If you're interested in the technical details of these protocols, you can explore the more comprehensive explanation of [GG20](how-it-works.md) or [DKLS23](how-dkls23-works.md)
 
 {% hint style="info" %}
-This document provides a simplified overview of complex cryptographic protocols. While this is a simplified the concepts for clarity, both protocols provide state-of-the-art security for your digital
-&#x20;assets.
+This document provides a simplified overview of complex cryptographic protocols. While this is a simplified the concepts for clarity, both protocols provide state-of-the-art security for your digital assets.
 {% endhint %}

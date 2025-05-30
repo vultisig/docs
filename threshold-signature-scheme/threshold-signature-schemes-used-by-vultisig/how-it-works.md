@@ -6,9 +6,9 @@ description: How do Threshold Signatures with the GG20 protocol work ?
 
 ## Concept
 
-The Threshold Signature Scheme (TSS) is part of the broader field of Multi-Party-Computation&#x20;(MPC) and has evolved significantly over the past few decades. The concept of secret sharing&#x20;was originally introduced by Adi Shamir in 1979, with threshold signatures developing as an&#x20;extension of this foundational work.
+The Threshold Signature Scheme (TSS) is part of the broader field of Multi-Party-Computation (MPC) and has evolved significantly over the past few decades. The concept of secret sharing was originally introduced by Adi Shamir in 1979, with threshold signatures developing as an extension of this foundational work.
 
-In 2018, [the "GG18" paper by Gerrano-Goldfeder](https://eprint.iacr.org/2019/114.pdf) introduced significant advancements, simplifying and enhancing the efficiency of TSS, thereby making it feasible for practical implementation. This was further improved in 2020 with the [“GG20” paper](https://eprint.iacr.org/2020/540), which introduced the concept of&#x20;“identifiable abort” - the ability to identify which party caused a protocol failure.
+In 2018, [the "GG18" paper by Gerrano-Goldfeder](https://eprint.iacr.org/2019/114.pdf) introduced significant advancements, simplifying and enhancing the efficiency of TSS, thereby making it feasible for practical implementation. This was further improved in 2020 with the ["GG20" paper](https://eprint.iacr.org/2020/540), which introduced the concept of "identifiable abort" - the ability to identify which party caused a protocol failure.
 
 Vultisig utilizes this improved version of TSS, known as GG20, which has been implemented in a comprehensive [library from Binance](https://github.com/bnb-chain/tss-lib) and thoroughly tested in production by THORChain.
 
@@ -17,7 +17,7 @@ GG20 TSS integrates Homomorphic Secret Sharing, Zero Knowledge Proofs, and Multi
 By leveraging these advanced cryptographic techniques, Vultisig provides a highly secure and cutting-edge solution for managing digital assets.
 
 {% hint style="info" %}
-For an excellent summary of the history of MPC protocols, start here\
+For an excellent summary of the history of MPC protocols, start here
 [https://www.cryptologie.net/article/605/whats-out-there-for-ecdsa-threshold-signatures/](https://www.cryptologie.net/article/605/whats-out-there-for-ecdsa-threshold-signatures/)
 {% endhint %}
 
@@ -31,8 +31,7 @@ The homomorphic secret sharing employed by Vultisig is founded on the Paillier e
 Homomorphic encryption preserves the structure of data, allowing mathematical operations to be performed on encrypted objects without altering their underlying integrity.
 {% endhint %}
 
-In the GG20 protocol, Paillier encryption plays a crucial role in the Multiplicative-to-Additive (MtA)&#x20;conversion process, which is essential for threshold ECDSA signatures. \
-This process allows&#x20;parties to securely compute the product of their secret values without revealing those values to&#x20;each other.
+In the GG20 protocol, Paillier encryption plays a crucial role in the Multiplicative-to-Additive (MtA) conversion process, which is essential for threshold ECDSA signatures. This process allows parties to securely compute the product of their secret values without revealing those values to each other.
 
 These properties enable the TSS to perform secret sharing and mathematical operations directly on encrypted shares without requiring decryption. This ensures that the secret shares remain secure and private while allowing efficient computation.
 
@@ -50,9 +49,9 @@ The key properties of ZKPs are:
 
 These properties make ZKPs an ideal fit for threshold signature schemes, offering robust tools for ensuring the privacy and security of sensitive information.
 
-In the GG20 protocol, multiple zero-knowledge proofs are used to verify that participants are&#x20;following the protocol correctly. These include proofs of knowledge for discrete logarithms and&#x20;range proofs to ensure that values are within appropriate bounds. These proofs are essential for&#x20;preventing malicious behavior that could compromise the security of the system.
+In the GG20 protocol, multiple zero-knowledge proofs are used to verify that participants are following the protocol correctly. These include proofs of knowledge for discrete logarithms and range proofs to ensure that values are within appropriate bounds. These proofs are essential for preventing malicious behavior that could compromise the security of the system.
 
-The ZKP techniques used in Vultisig’s TSS implementation include various forms of non-interactive&#x20;zero-knowledge proofs that allow verification without additional communication rounds,&#x20;enhancing both security and efficiency.
+The ZKP techniques used in Vultisig's TSS implementation include various forms of non-interactive zero-knowledge proofs that allow verification without additional communication rounds, enhancing both security and efficiency.
 
 ## Multi Party Computation (MPC)
 
@@ -66,7 +65,7 @@ The private key is never actually constructed in Vultisig
 
 Thus, no party will ever have access to the actual secret (i.e., private key) held by the other parties.
 
-The GG20 protocol that Vultisig implements requires 6 rounds of communication between participants&#x20;to generate a valid signature. This multi-round process ensures security but requires&#x20;participants to exchange multiple messages in a specific sequence. The protocol provides “identifiable&#x20;abort,” meaning if something goes wrong during the signing process, the system can&#x20;identify which participant caused the failure - a significant security feature for accountability.
+The GG20 protocol that Vultisig implements requires 6 rounds of communication between participants to generate a valid signature. This multi-round process ensures security but requires participants to exchange multiple messages in a specific sequence. The protocol provides "identifiable abort," meaning if something goes wrong during the signing process, the system can identify which participant caused the failure - a significant security feature for accountability.
 
 ***
 
@@ -88,19 +87,16 @@ To sign a transaction, the vault shares are used as inputs in the MPC process to
 
 ## Conclusion
 
-The combination of these concepts essentially forms the foundation of the Threshold Signature&#x20;Scheme used by Vultisig. Vault Shares are created on each individual device, allowing functions\
-to be applied without revealing the shares.
+The combination of these concepts essentially forms the foundation of the Threshold Signature Scheme used by Vultisig. Vault Shares are created on each individual device, allowing functions to be applied without revealing the shares.
 
-The GG20 protocol provides a robust security framework with features like identifiable abort,&#x20;making it suitable for high-security applications. While it requires 6 communication rounds for&#x20;signature generation and involves computationally intensive operations, it offers strong security\
-guarantees when properly implemented.
+The GG20 protocol provides a robust security framework with features like identifiable abort, making it suitable for high-security applications. While it requires 6 communication rounds for signature generation and involves computationally intensive operations, it offers strong security guarantees when properly implemented.
 
-This approach ensures that the privacy and security of the Vault Shares are maintained at all\
-times, while using this technology also reduces the on-chain footprint, improving efficiency andsafety for the user.
+This approach ensures that the privacy and security of the Vault Shares are maintained at all times, while using this technology also reduces the on-chain footprint, improving efficiency and safety for the user.
 
 ***
 
 ## References
 
-1. Gennaro,   &#x20;R., & Goldfeder, S. (2020). [“One Round Threshold ECDSA with Identifiable Abort.”](https://eprint.iacr.org/2020/540)
-2. Shamir, A. (1979). “How to share a secret.” Communications of the ACM, 22(11), 612-613.
-3. Paillier, P. (1999). “Public-key cryptosystems based on composite degree residuosity   &#x20;classes.” In International Conference on the Theory and Applications of Cryptographic   &#x20;Techniques (pp. 223-238)
+1. Gennaro, R., & Goldfeder, S. (2020). ["One Round Threshold ECDSA with Identifiable Abort."](https://eprint.iacr.org/2020/540)
+2. Shamir, A. (1979). "How to share a secret." Communications of the ACM, 22(11), 612-613.
+3. Paillier, P. (1999). "Public-key cryptosystems based on composite degree residuosity classes." In International Conference on the Theory and Applications of Cryptographic Techniques (pp. 223-238)

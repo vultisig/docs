@@ -19,10 +19,6 @@ layout:
 
 # Airdrop V2
 
-{% hint style="warning" %}
-Airdrop V2 will go live in Q2 when the current Season 0 is conculded
-{% endhint %}
-
 Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.&#x20;
 
 The future $VULT airdrop will be proportional:

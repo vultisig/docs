@@ -38,7 +38,7 @@ $$
 The final share of the Airdrop is the pro-rata share of the airdrop allocation.
 
 $$
-\text{user\_airdrop\_share} = 5,000,000 \times \left( \frac{\text{user\_VULTIES}}{\text{total\_VULTIES}} \right)
+\text{user\_airdrop\_share} = 1,000,000 \times \left( \frac{\text{user\_VULTIES}}{\text{total\_VULTIES}} \right)
 $$
 
 <figure><img src="../../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>

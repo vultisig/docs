@@ -112,6 +112,20 @@ The first token to receive this treatment will be $VULT itself, which will grant
 
 The following tokens and NFTs have a higher multiplier:
 
+| Token  | Multiplier |
+| ------ | ---------- |
+| $VULT  | 1.5        |
+| $RUNE  | 1.3        |
+|        |            |
+
+***
+
+| NFT        | Multiplier |
+| ---------- | ---------- |
+| Thorguards | 1.3        |
+|            |            |
+|            |            |
+
 * $VULT = 1.5x $USD token value
 
 ***
@@ -127,7 +141,7 @@ $$
 ### Swap Volume multiplier
 
 $$
-\text{swap\_volume\_multiplier} = 1+0.02*SQRT(\text{swap\_volume\_per\_season})
+\text{swap\_volume\_multiplier} = 1+0.002*SQRT(\text{swap\_volume\_per\_season})
 $$
 
 ### Referral multiplier

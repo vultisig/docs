@@ -4,8 +4,8 @@
 
 ## What is Vultisig Extension?
 
-Vultisig Extension is the browser equivalent of the mobile apps and enables the user to use the assets stored in Vultisig Vaults with most available Web3 and DeFi dApps.
+The Vultisig Extension is the browser equivalent of mobile apps, enabling users to access assets stored in their Vultisig Vaults on most available Web3 and DeFi dApps.
 
-With Vultisig Extension you can tap into the complete universe of DeFi and web3 while keeping your digital assets completely secure.&#x20;
+With the extension, you can access the full DeFi and Web3 universe while keeping your digital assets completely secure.
 
-It is a secure and efficient way to interact with DeFi in the way you want — know that your assets are secure and accessible at any time.
+It's a secure and efficient way to interact with DeFi on your terms — rest assured that your assets are secure and accessible at any time.

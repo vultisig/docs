@@ -10,8 +10,6 @@ Upgrades are only available for vaults of the GG20 type.
 
 ## What is Upgrading?
 
-Upgrading your Vault will change the underlying TSS protocol. Unlocking faster signing speed and compatibiltiy with the [Vultisig Extension](../../vultisig-ecosystem/vulticonnect/). More specific technical details are highlighted in the [TSS section of the documentation](../../threshold-signature-scheme/threshold-signature-schemes-used-by-vultisig/).
-
 Upgrading your Vault changes the underlying TSS protocol. This unlocks faster signing speeds and enables compatibility with the [Vultisig Extension](../../vultisig-ecosystem/vulticonnect/). More specific technical details are highlighted in the [TSS section](../../threshold-signature-scheme/threshold-signature-schemes-used-by-vultisig/) of the documentation.
 
 ***
@@ -24,14 +22,12 @@ You can initiate the upgrade by using the banner on the home screen or by select
 
 <div><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Settings</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Upgrade.png" alt=""><figcaption><p>Home View</p></figcaption></figure></div>
 
-Upgrading your vault is a new [keygen](../creating-a-vault.md) process where all initial devices need to be present to compltete the process successfully. Afterwards new [Vault shares](vault-backup.md) are created, which need to be stored with the same precaussions as the old shares.
-
 Upgrading your Vault is a new[ keygen](../creating-a-vault.md#generating-a-vault) process that requires all initial devices (at first vault creation) to be present in order to complete it successfully.&#x20;
 
 New [Vault shares ](vault-backup.md)are created. They need to be stored with the same precautions as the old shares.
 
 {% hint style="warning" %}
-Proper storage of the new backups is essential to prevent a risk of loss of access to funds.
+Proper storage of the new backups is essential in order to prevent the risk of losing access to funds.
 {% endhint %}
 
 ### How to distinguish between new and old backups?

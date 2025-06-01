@@ -11,6 +11,7 @@
   * [Vault Rename](vultisig-vault-user-actions/managing-your-vault/vault-rename.md)
   * [Vault Reshare](vultisig-vault-user-actions/managing-your-vault/vault-reshare.md)
   * [Vault QR](vultisig-vault-user-actions/managing-your-vault/vault-qr.md)
+  * [Vault Upgrade](vultisig-vault-user-actions/managing-your-vault/vault-upgrade.md)
 * [Keysign](vultisig-vault-user-actions/signing-a-transaction/README.md)
   * [How Keysigning works](vultisig-vault-user-actions/signing-a-transaction/how-keysigning-works.md)
   * [Signing a Transaction](vultisig-vault-user-actions/signing-a-transaction/signing-a-transaction.md)
@@ -29,9 +30,8 @@
 
 ## Vultisig Ecosystem
 
-* [Vulticonnect](vultisig-ecosystem/vulticonnect/README.md)
-  * [What is Vulticonnect](vultisig-ecosystem/vulticonnect/what-is-vulticonnect.md)
-  * [How to use Vultisig Connect](vultisig-ecosystem/vulticonnect/how-to-use-vultisig-connect.md)
+* [Vultisig Extension](vultisig-ecosystem/vulticonnect/README.md)
+  * [How to use Vultisig Extension](vultisig-ecosystem/vulticonnect/how-to-use-vultisig-connect.md)
 * [Web App](vultisig-ecosystem/web-app.md)
 
 ***

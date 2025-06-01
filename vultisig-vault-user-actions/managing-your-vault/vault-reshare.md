@@ -10,7 +10,7 @@ description: >-
 T**his feature is only intended for advanced users! Access to funds are at risk if not properly managed!**
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Feature in settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Feature in settings</p></figcaption></figure>
 
 ## What is the Reshare feature
 

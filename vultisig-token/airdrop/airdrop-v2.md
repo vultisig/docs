@@ -19,10 +19,6 @@ layout:
 
 # Airdrop V2
 
-{% hint style="warning" %}
-Airdrop V2 will go live in Q2 when the current Season 0 is conculded
-{% endhint %}
-
 Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.&#x20;
 
 The future $VULT airdrop will be proportional:
@@ -102,6 +98,10 @@ The [Referral Program](airdrop-v2.md#referral-program) is tracking referred wall
 
 For a referral to be considered valid, the referred wallet must fund with at least $50 and take part in the airdrop.
 
+{% hint style="info" %}
+The referred wallet must continuously have at least $50 in the vault; otherwise, the referral will be voided.
+{% endhint %}
+
 This multiplier logarithmically multiplies and caps at 500 referrals, providing up to a maximum of 2x boost in your total airdrop points. The referral bonus, in contrast to other multipliers, will not reset between seasons, so you can build and retain your network advantage between seasons.
 
 ### Dedicated tokens and community multipliers
@@ -112,7 +112,18 @@ The first token to receive this treatment will be $VULT itself, which will grant
 
 The following tokens and NFTs have a higher multiplier:
 
-* $VULT = 1.5x $USD token value
+| Token  | Multiplier |
+| ------ | ---------- |
+| $VULT  | 1.5        |
+| $RUNE  | 1.3        |
+
+***
+
+| NFT        | Multiplier |
+| ---------- | ---------- |
+| Thorguards | 1.3        |
+
+
 
 ***
 
@@ -127,7 +138,7 @@ $$
 ### Swap Volume multiplier
 
 $$
-\text{swap\_volume\_multiplier} = 1+0.02*SQRT(\text{swap\_volume\_per\_season})
+\text{swap\_volume\_multiplier} = 1+0.002*SQRT(\text{swap\_volume\_per\_season})
 $$
 
 ### Referral multiplier

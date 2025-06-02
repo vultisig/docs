@@ -1,5 +1,5 @@
 ---
-description: 'Understanding Vultisig’s TSS Protocols: GG20 and DKLS23'
+description: 'Understanding Vultisig's TSS Protocols: GG20 and DKLS23'
 ---
 
 # Threshold Signature Schemes used by Vultisig
@@ -57,11 +57,11 @@ The upgrade offers:
 1. Faster transactions: Signing operations complete in milliseconds rather than seconds
 2. Better reliability: Fewer communication rounds mean less chance of failure when internet connections are slow
 3. Improved device compatibility: Works efficiently even on smartphones with limited processing power
-4. Enhanced battery life: Less computational work means less drain on your device’s battery
+4. Enhanced battery life: Less computational work means less drain on your device's battery
 5. More responsive experience: Security operations happen in the background without noticeable delays
 6. WASM Compatibility: Provides the Vultisig Extension with the same experience as the mobile apps.
 
-This upgrade represents Vultisig’s commitment to implementing the latest advancements in cryptographic security while improving the user experience.
+This upgrade represents Vultisig's commitment to implementing the latest advancements in cryptographic security while improving the user experience.
 
 ## What This Means For Your Wallet
 

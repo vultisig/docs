@@ -108,7 +108,7 @@ _Scenario 2 :_ WITHOUT mobile remote data wipe feature setup done and with at le
 2. Immediately move your funds away from this existing vault.
 
 {% hint style="warning" %}
-**You would still loss access to your funds if you do not have at least 67% of vault shares backup done properly.**\
+**You would still lose access to your funds if you do not have at least 67% of vault shares backup done properly.**\
 **ALWAYS BACK UP EACH DEVICE INDIVIDUALLY**
 {% endhint %}
 

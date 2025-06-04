@@ -13,7 +13,7 @@ These shares store all the data necessary to participate in Keygen/Keysign sessi
 **They never store any secret key or seed phrase.**
 
 {% hint style="info" %}
-The parameters stored in Vault Shares are non-sensitive data and are unique to the device on which they are created, making Vault Shares unique and not interchangeable with eachother.
+The parameters stored in Vault Shares are non-sensitive data and are unique to the device on which they are created, making Vault Shares unique and not interchangeable with each other.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Backup in Settings</p></figcaption></figure>
@@ -97,7 +97,7 @@ _Click on the above image to watch an explanation video on Twitter_
 
 In the app, navigate to `Settings` and proceed to `Vault Settings`.\
 Select `Backup`, enter an optional backup encryption password and proceed with `Save`.\
-If not needed, save the vault share by pressing `Skip PAssword` directly.
+If not needed, save the vault share by pressing `Skip Password` directly.
 
 ***
 

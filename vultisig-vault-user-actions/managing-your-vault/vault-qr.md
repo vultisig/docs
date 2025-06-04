@@ -13,7 +13,7 @@ It is only a tool to share public keys easily and securely.
 
 ## Why it is needed?
 
-With the Vault QR, the public keys of a Vault can be easily imported into other interfaces without the risk of exposing sensitive information, which could lead to loss of funds or potential exploits.&#x20;
+With the Vault QR, the public keys of a Vault can be easily imported into other interfaces without the risk of exposing sensitive information, which could lead to loss of funds or potential exploits.
 
 This is a safe way to share and import Vultisig Vaults without using seed phrases.
 
@@ -25,4 +25,4 @@ You can find the export of the QR code on the main screen in the top right corne
 
 ## Where to use the Vault QR?
 
-Currently the Vault QR can be imported into the Vultisig [Airdrop page](https://airdrop.vultisig.com/), to register for the [airdrop](../../vultisig-token/airdrop/) or into the [Vultisig Connect](broken-reference) browser extension.
+Currently the Vault QR can be imported into the Vultisig [Airdrop page](https://airdrop.vultisig.com/), to register for the [airdrop](../../vultisig-token/airdrop/) or into the [Vultisig Extension](../../vultisig-ecosystem/vulticonnect/README.md) browser extension.

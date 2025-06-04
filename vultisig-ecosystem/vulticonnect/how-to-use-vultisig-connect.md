@@ -8,4 +8,4 @@ Install Vultisig Extension for your Chrome Browser, over the Chrome Extension St
 
 ## How to use Vultisig Extension
 
-The extension can be used in the same way as the mobile and desktop apps, and all actions can be read in the[ user actions](broken-reference).
+The extension can be used in the same way as the mobile and desktop apps, and all actions can be read in the [user actions](../../vultisig-vault-user-actions/creating-a-vault.md).

@@ -73,7 +73,7 @@ Yes, most ERC-20 and SPL tokens are available. More and more tokens on different
 
 ### Will Vultisig support web apps and different platforms like Uniswap or Li-Fi(JumperExchange)?
 
-Yes, most web apps can be accessed with the VultiConnect browser extension. Some platforms will need a dedicated integration with Vultisig.
+Yes, most web apps can be accessed with the Vultisig browser extension. Some platforms will need a dedicated integration with Vultisig.
 
 ### Are the Vault Shares automatically uploaded into iCloud?
 

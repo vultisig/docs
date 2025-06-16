@@ -78,3 +78,4 @@
 * [Marketplace](marketplace-1/README.md)
   * [Plugins](marketplace-1/plugins.md)
   * [Ai Agents](marketplace-1/ai-agents.md)
+* [Vultisig Extension Integration Guide](vultisig-extension-integration-guide.md)

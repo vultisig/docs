@@ -32,6 +32,7 @@
 
 * [Vultisig Extension](vultisig-ecosystem/vulticonnect/README.md)
   * [How to use Vultisig Extension](vultisig-ecosystem/vulticonnect/how-to-use-vultisig-connect.md)
+  * [Web3 support](vultisig-ecosystem/vulticonnect/web3-support.md)
 * [Web App](vultisig-ecosystem/web-app.md)
 
 ***

@@ -69,6 +69,7 @@
 
 ## Developer Docs
 
+* [Vultisig Extension Integration Guide](developer-docs/vultisig-extension-integration-guide.md)
 * [Infrastructure Overview](developer-docs/infrastructure-overview.md)
 * [Vultisig SDK](developer-docs/vultisig-sdk/README.md)
   * [How to use it](developer-docs/vultisig-sdk/how-to-use-it.md)
@@ -78,4 +79,3 @@
 * [Marketplace](marketplace-1/README.md)
   * [Plugins](marketplace-1/plugins.md)
   * [Ai Agents](marketplace-1/ai-agents.md)
-* [Vultisig Extension Integration Guide](vultisig-extension-integration-guide.md)

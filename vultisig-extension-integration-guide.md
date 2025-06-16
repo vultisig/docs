@@ -1,2 +1,0 @@
-# Vultisig Extension Integration Guide
-

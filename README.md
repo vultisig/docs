@@ -4,20 +4,6 @@ description: >-
   multi-factor, and the end of seed phrases and Infrastructure for the bots
 cover: .gitbook/assets/Background.png
 coverY: 12
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Overview

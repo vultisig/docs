@@ -1,20 +1,6 @@
 ---
 cover: ../../.gitbook/assets/Vultisig - 1200x630 - 56- 2x.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Airdrop V2

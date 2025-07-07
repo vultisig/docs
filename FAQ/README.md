@@ -10,8 +10,7 @@ All other cold and hot wallets are single-sig and rely on one set of seed phrase
 
 ### What Platforms are supported and which are planned?
 
-* Available: iOS, Android, Windows and Web
-* Planned: Linux
+* Available: iOS, Android, Windows, Linux, Chrome Extension and Web
 
 ### What versions of iOS/IPadOS/Mac are supported?
 
@@ -41,12 +40,14 @@ Yes! Vault shares and signers are device agnostic. Users can mix and match any d
 Currently supported are:
 
 * Arbitrum
+* Akash
 * Avalanche
 * BSC
 * Base
 * Bitcoin
 * Bitcoin-Cash
 * Blast
+* Cardano
 * Cosmos
 * CronosChain
 * Dash
@@ -56,14 +57,20 @@ Currently supported are:
 * Kujira
 * Litecoin
 * Maya Protocol
+* Noble
 * Optimisim
+* Osmosis
 * Polkadot
 * Polygon
+* Ripple
 * Solana
 * Sui
 * THORChain
+* Terra
 * Ton
+* TRON
 * Zksync
+* ZCASH
 
 Generally any chains on [Trust Wallet Core](https://github.com/trustwallet/wallet-core/tree/master/src) can be supported.
 
@@ -73,7 +80,7 @@ Yes, most ERC-20 and SPL tokens are available. More and more tokens on different
 
 ### Will Vultisig support web apps and different platforms like Uniswap or Li-Fi(JumperExchange)?
 
-Yes, most web apps can be accessed with the Vultisig browser extension. Some platforms will need a dedicated integration with Vultisig.
+Yes, most web apps can be accessed with the [Vultisig browser extension](../vultisig-ecosystem/vulticonnect/). Some platforms will need a dedicated integration with Vultisig.
 
 ### Are the Vault Shares automatically uploaded into iCloud?
 
@@ -114,6 +121,4 @@ _Scenario 2 :_ WITHOUT mobile remote data wipe feature setup done and with at le
 
 ### What is the key utility of $VULT token to the ordinary users?
 
-All the platform incomes (affiliate, router and bridge fees) will be used to buy $VULT and burn to reduce $VULT supply, and create an deflationary effect.
-
-The larger amount and the longer time a user uses the platform, the more $VULT airdrops the user would receive.
+All the platform incomes (affiliate, router and bridge fees) will redistributed to the staking module where $VULT stakers will earn it directly in $USDC, read more [here](../vult-token/usdvult.md#utility-of-usdvult-token).

@@ -17,8 +17,7 @@ GG20 TSS integrates Homomorphic Secret Sharing, Zero Knowledge Proofs, and Multi
 By leveraging these advanced cryptographic techniques, Vultisig provides a highly secure and cutting-edge solution for managing digital assets.
 
 {% hint style="info" %}
-For an excellent summary of the history of MPC protocols, start here
-[https://www.cryptologie.net/article/605/whats-out-there-for-ecdsa-threshold-signatures/](https://www.cryptologie.net/article/605/whats-out-there-for-ecdsa-threshold-signatures/)
+For an excellent summary of the history of MPC protocols, start here[https://www.cryptologie.net/article/605/whats-out-there-for-ecdsa-threshold-signatures/](https://www.cryptologie.net/article/605/whats-out-there-for-ecdsa-threshold-signatures/)
 {% endhint %}
 
 ***

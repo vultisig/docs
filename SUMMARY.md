@@ -16,6 +16,12 @@
   * [How Keysigning works](vultisig-vault-user-actions/signing-a-transaction/how-keysigning-works.md)
   * [Signing a Transaction](vultisig-vault-user-actions/signing-a-transaction/signing-a-transaction.md)
 
+***
+
+* [User Actions](user-actions/README.md)
+  * [Sending](user-actions/sending.md)
+  * [Swapping](user-actions/swapping.md)
+
 ## Vultisig Infrastructure
 
 * [Overview](vultisig-infrastructure/overview.md)

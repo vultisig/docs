@@ -20,7 +20,7 @@ Upgrading your Vault is simple. The application will guide you through the proce
 
 You can initiate the upgrade by using the banner on the home screen or by selecting the option in the Vault settings.
 
-<div><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Settings</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Upgrade.png" alt=""><figcaption><p>Home View</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Settings</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Upgrade.png" alt=""><figcaption><p>Home View</p></figcaption></figure></div>
 
 Upgrading your Vault is a new[ keygen](../creating-a-vault.md#generating-a-vault) process that requires all initial devices (at first vault creation) to be present in order to complete it successfully.&#x20;
 

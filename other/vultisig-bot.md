@@ -16,11 +16,11 @@ Install the Bot
 The bot can be easily installed in your telegram by following the link above.\
 When installed launch the bot and follow the [instructions](vultisig-bot.md#how-to-use-the-bot)
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="314"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="314"><figcaption></figcaption></figure>
 
 ## How to use the Bot
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Upload your Vultisig [Vault QR](../vultisig-vault-user-actions/managing-your-vault/vault-qr.md)
 2. Join the airdrop in the `airdrop` tab

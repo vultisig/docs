@@ -1,7 +1,7 @@
 ---
 description: >-
   Redefining crypto wallet security for the AI Agent era: Multi-chain,
-  multi-factor, and the end of seed phrases and Infrastructure for the bots
+  multi-factor, and the end of seed phrases and infrastructure for the bots
 cover: .gitbook/assets/Background.png
 coverY: 12
 ---
@@ -10,42 +10,47 @@ coverY: 12
 
 ## Vultisig Project
 
-🛠 Vultisig is creating and maintaining an open source cryptocurrency wallet that takes the novel approach of providing a seedless, multi-factor, multi-chain wallet infrastructure based on MPC (Multi party computation) technology.&#x20;
+🛠 Vultisig is creating and maintaining an open source cryptocurrency wallet that takes the novel approach of providing a seedless, multi-factor, multi-chain wallet infrastructure based on MPC (Multi-Party Computation) technology.
 
-Distributed across all major platforms like iOS, Android, Windows and Linux users get a wallet with the enhanced security that comes from a multi-sig signing approach without the inconvenience of traditional multi-sig operations.
+Distributed across all major platforms like iOS, Android, Windows, and Linux, users get a wallet with the enhanced security that comes from a multi-sig signing approach without the inconvenience of traditional multi-sig operations.
 
-&#x20;Vultisig operates several different solutions and is constantly expanding, such as:
+Vultisig operates several different solutions and is constantly expanding, such as:
 
 * A Wallet (Vultisig Vaults)
 * An Extension (Vultisig Extension)
 * Webapp (View-only and Airdrop)
-* Marketplace (for Plugins and Ai Agents)
-* A SDK to enable builders
+* Marketplace (for Plugins and AI Agents)
+* An SDK for builders
 
 ***
 
 ## What is Vultisig Wallet
 
-🙋‍♀️ Vultisig's wallet solution is a multi-chain, multi-factor, multi-platform Threshold-Signature vault that does not need any specialised hardware. It supports most UTXO, EVM, BFT and EdDSA Chains.\
-It is powered by the state-of-the-art TSS protocol, [DKLS23](https://github.com/silence-laboratories/dkls23), which is developed and maintained by Silence Laboratories.
+🙋‍♀️ Vultisig's wallet solution is a multi-chain, multi-factor, multi-platform Threshold Signature Scheme (TSS) vault that does not require any specialised hardware.
 
-Vultisig is built by the founders of [THORChain](https://thorchain.org) - who built the largest and oldest working multi-chain DEX with Threshold-signatures.
+Vultisig supports most UTXO, EVM, BFT and EdDSA chains (e.g., Bitcoin, Ethereum, Cosmos, Solana, etc.) by generating both ECDSA and EdDSA signature keys for every vault. This means you can hold and sign for BTC, ETH, SOL, and more from the same vault setup.
+
+Vultisig is powered by the state-of-the-art TSS protocol, [DKLS23](https://github.com/silence-laboratories/dkls23), which is developed and maintained by Silence Laboratories.
+
+Vultisig is built by the founders of [THORChain](https://thorchain.org), creators of the largest and longest-running multi-chain DEX powered by Threshold Signature Schemes (TSS).
 
 ## How can it be used?
 
-It can be used like a normal multisig wallet just with different setup options including multiple devices. It is possible to create a vault with different secure setup options:
+Vultisig works much like a traditional multisig wallet but offers flexible setup options—including multiple devices and advanced security configurations.
 
 #### Ease of use options:
 
-* Fast Vaults (One device solution, "hot wallet")
+* Fast Vaults (Single device solution, "hot wallet")
 
 #### Self Custodial options, Secure Vaults:
 
-* 2 of 2 (fastest setup, no fallback device\*)
-* 2 of 3 (recommended, with fallback device\*)
-* 3 of 4 (most secure, with fallback device\*)
+* 2 of 2 (fastest setup, no fallback device*)
+* 2 of 3 (recommended, with fallback device*)
+* 3 of 4 (most secure, with fallback device*)
 
-_The above are the most popular vault configurations and more can come in the future._\\
+{% hint style="info" %}
+_These are the most widely used vault configurations, but Vultisig supports a wide range of threshold setups for advanced users._
+{% endhint %}
 
 ## Why
 
@@ -60,17 +65,22 @@ _The above are the most popular vault configurations and more can come in the fu
 * Rich, large screens with familiar UI, Secure Enclaves to store vault shares and with biometric locking.
 * Does not look like a hardware device and therefore grants higher security.
 
-🌈 Vultisig is open-source, based on secure technology and is audited (see in [security.md](other/security.md "mention"), _with further audits to come_).\
-**There is no registration required.**
+🌈 Vultisig is open-source, based on secure technology and is audited (see in [Security](other/security.md), *with further audits to come*).
+
+{% hint style="info" %}
+**No registration required:**
+* Vultisig never permanently stores your email or personal info.
+* *Fast Vaults* briefly require your email to send the `.vult` backup file — it's used just once and not retained.
+{% endhint %}
 
 ## Who should use it
 
-Everyone should use it!\
-It is far safer than anything else (mobile, desktop, hardware, etc).
+* Everyone should use it!
+* Vultisig is far safer than anything else (mobile, desktop, hardware, etc).
 
-## Other
+## Download & Contribute
 
-Vultisig is a ever expanding Ecosystem. Working on more platforms, products and features.
+Vultisig is an ever-expanding ecosystem, with ongoing work on new platforms, products, and features.
 
 👩‍💻 Read the docs!
 
@@ -78,12 +88,15 @@ Vultisig is a ever expanding Ecosystem. Working on more platforms, products and 
 
 * [iOS AppStore](https://apps.apple.com/us/app/vultisig/id6503023896)
 * [iOS Testflight](https://testflight.apple.com/join/kpVufItl)
-* [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet) or [Google Play Store Web](https://play.google.com/apps/testing/com.vultisig.wallet)
+* [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet)
 * [Windows](https://github.com/vultisig/vultisig-windows/releases)
 * [Linux](https://github.com/vultisig/vultisig-windows/releases)
-* [Vulttisig Chrome Extension](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0\&hl=en-GB)
-* Android APK or MacOS downloads also available - please check on Vultisig Discord for these.
+* [Vultisig Chrome Extension](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0&hl=en-GB)
+* [Android source](https://github.com/vultisig/vultisig-android)
+* [macOS source](https://github.com/vultisig/vultisig-ios)
 
-🧙 Contribute to the code ([https://github.com/vultisig](https://github.com/vultisig))\
-\
-\_\*\_fallback device: meaning that a device can be lost and access to funds is still ensured. Deleting the application is equivalent to losing the device. To properly back up the vault shares, please use the [following steps](vultisig-vault-user-actions/managing-your-vault/vault-backup.md).
+💬 Join the community: Connect with the team and other users on [Discord](https://discord.com/invite/9wrAfNSRpS).
+
+{% hint style="info" %}
+**Fallback device:** A fallback device means that a device can be lost and access to funds is still ensured. Deleting the application is equivalent to losing the device. To properly back up the vault shares, please use the [following steps](vultisig-vault-user-actions/managing-your-vault/vault-backup.md).
+{% endhint %}

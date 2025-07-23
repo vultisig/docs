@@ -10,4 +10,4 @@ Currently the following Swap Providers are integrated and used to facilitate cro
 * [Li.Fi](https://li.fi/)
 * [Kyberswap](https://kyberswap.com)
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

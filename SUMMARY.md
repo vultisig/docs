@@ -15,12 +15,9 @@
 * [Keysign](vultisig-vault-user-actions/signing-a-transaction/README.md)
   * [How Keysigning works](vultisig-vault-user-actions/signing-a-transaction/how-keysigning-works.md)
   * [Signing a Transaction](vultisig-vault-user-actions/signing-a-transaction/signing-a-transaction.md)
-
-***
-
-* [User Actions](user-actions/README.md)
-  * [Sending](user-actions/sending.md)
-  * [Swapping](user-actions/swapping.md)
+* [User Actions](vultisig-vault-user-actions/user-actions/README.md)
+  * [Sending](vultisig-vault-user-actions/user-actions/sending.md)
+  * [Swapping](vultisig-vault-user-actions/user-actions/swapping.md)
 
 ## Vultisig Infrastructure
 
@@ -80,9 +77,6 @@
 * [Infrastructure Overview](developer-docs/infrastructure-overview.md)
 * [Vultisig SDK](developer-docs/vultisig-sdk/README.md)
   * [How to use it](developer-docs/vultisig-sdk/how-to-use-it.md)
-
-***
-
-* [Marketplace](marketplace-1/README.md)
-  * [Plugins](marketplace-1/plugins.md)
-  * [Ai Agents](marketplace-1/ai-agents.md)
+* [Marketplace](developer-docs/marketplace-1/README.md)
+  * [Plugins](developer-docs/marketplace-1/plugins.md)
+  * [Ai Agents](developer-docs/marketplace-1/ai-agents.md)

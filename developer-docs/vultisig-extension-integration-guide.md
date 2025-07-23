@@ -2,37 +2,37 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Supported Chains](#supported-chains)
-3. [How Vultisig Extension Works](#how-vultisig-extension-works)
-4. [Supported Methods](#supported-methods)
-   - [Ethereum](#ethereum-windowvultisigethereum)
-   - [THORChain](#thorchain-windowthorchain-and-windowvultisigthorchain)
-   - [Cosmos-Based Chains](#cosmos-based-chains-gaiachain-osmosis-kujira-dydx)
-   - [Other Chains](#other-chains-windowchain-and-windowvultisigchain)
-5. [Steps to Integrate with Vultisig Extension](#steps-to-integrate-with-Vultisig-Extension)
-   - [1. Detect Vultisig Extension Support](#1-detect-Vultisig-Extension-support)
-   - [2. Connecting to Vultisig Extension](#2-connecting-to-Vultisig-Extension)
-   - [3. Connected Accounts](#3-connected-accounts)
-   - [4. Managing Active Chain](#4-managing-active-chain)
-   - [5. Handling Transactions](#5-handling-transactions)
-6. [Custom Message Signing](#6-custom-message-signing)
-7. [Querying Transactions](#7-querying-transactions)
-8. [Event Handling](#8-event-handling)
-9. [Get Vault](#9-get-vault)
-10. [Detailed Implementation Examples](#10-detailed-implementation-examples)
-11. [Summary](#summary)
+1. [Introduction](vultisig-extension-integration-guide.md#introduction)
+2. [Supported Chains](vultisig-extension-integration-guide.md#supported-chains)
+3. [How Vultisig Extension Works](vultisig-extension-integration-guide.md#how-vultisig-extension-works)
+4. [Supported Methods](vultisig-extension-integration-guide.md#supported-methods)
+   * [Ethereum](vultisig-extension-integration-guide.md#ethereum-windowvultisigethereum)
+   * [THORChain](vultisig-extension-integration-guide.md#thorchain-windowthorchain-and-windowvultisigthorchain)
+   * [Cosmos-Based Chains](vultisig-extension-integration-guide.md#cosmos-based-chains-gaiachain-osmosis-kujira-dydx)
+   * [Other Chains](vultisig-extension-integration-guide.md#other-chains-windowchain-and-windowvultisigchain)
+5. [Steps to Integrate with Vultisig Extension](vultisig-extension-integration-guide.md#steps-to-integrate-with-Vultisig-Extension)
+   * [1. Detect Vultisig Extension Support](vultisig-extension-integration-guide.md#1-detect-Vultisig-Extension-support)
+   * [2. Connecting to Vultisig Extension](vultisig-extension-integration-guide.md#2-connecting-to-Vultisig-Extension)
+   * [3. Connected Accounts](vultisig-extension-integration-guide.md#3-connected-accounts)
+   * [4. Managing Active Chain](vultisig-extension-integration-guide.md#4-managing-active-chain)
+   * [5. Handling Transactions](vultisig-extension-integration-guide.md#5-handling-transactions)
+6. [Custom Message Signing](vultisig-extension-integration-guide.md#6-custom-message-signing)
+7. [Querying Transactions](vultisig-extension-integration-guide.md#7-querying-transactions)
+8. [Event Handling](vultisig-extension-integration-guide.md#8-event-handling)
+9. [Get Vault](vultisig-extension-integration-guide.md#9-get-vault)
+10. [Detailed Implementation Examples](vultisig-extension-integration-guide.md#10-detailed-implementation-examples)
+11. [Summary](vultisig-extension-integration-guide.md#summary)
 
----
+***
 
 ## Introduction
 
 Vultisig Extension is a Chrome extension that enhances the experience of interacting with decentralized finance (DeFi) applications. It offers a secure way for users to connect with decentralized applications without storing private keys in their browsers. Vultisig Extension introduces:
 
-- **`window.vultisig.ethereum`** for Ethereum integrations (previously `window.vultisig`).
-- **`window.vultisig.thorchain` and `window.thorchain`** for THORChain support.
-- A MetaMask-compatible interface (`window.ethereum`) to ensure seamless integration with existing DeFi applications.
-- Support for multiple other chains including MayaChain, GaiaChain, Osmosis, Kujira, DyDx, BitcoinCash, Dash, DogeCoin, LiteCoin, and Bitcoin.
+* **`window.vultisig.ethereum`** for Ethereum integrations (previously `window.vultisig`).
+* **`window.vultisig.thorchain` and `window.thorchain`** for THORChain support.
+* A MetaMask-compatible interface (`window.ethereum`) to ensure seamless integration with existing DeFi applications.
+* Support for multiple other chains including MayaChain, GaiaChain, Osmosis, Kujira, DyDx, BitcoinCash, Dash, DogeCoin, LiteCoin, and Bitcoin.
 
 ## Supported Chains
 
@@ -51,101 +51,104 @@ Vultisig Extension currently supports the following chains:
 | LiteCoin    | `Litecoin_litecoin`   |
 | MayaChain   | `MayaChain-1`         |
 | Osmosis     | `osmosis-1`           |
+| Polkadot    | `Polkadot_polkadot`   |
+| Ripple      | `Ripple_ripple`       |
 | Solana      | `Solana_mainnet-beta` |
-| THORChain   | `Thorchain_1`         |
+| THORChain   | `Thorchain_thorchain` |
+| Zcash       | `Zcash_zcash`         |
 
 ## How Vultisig Extension Works
 
-- **Private Key Security**: Vultisig Extension does not store private keys. Instead, transactions are converted to QR codes that users can scan and sign using VultiSig peer devices.
-- **Compatibility**: The extension provides:
-  - `window.ethereum` for MetaMask-compatible Ethereum integration.
-  - `window.vultisig.ethereum` for Vultisig-Extension-enhanced Ethereum features.
-  - `window.vultisig.thorchain` and `window.thorchain` for THORChain functionality.
-  - Additional chain support for other chains using `window.vultisig.chain` and `window.chain`.
+* **Private Key Security**: Vultisig Extension does not store private keys. Instead, transactions are converted to QR codes that users can scan and sign using VultiSig peer devices.
+* **Compatibility**: The extension provides:
+  * `window.ethereum` for MetaMask-compatible Ethereum integration.
+  * `window.vultisig.ethereum` for Vultisig-Extension-enhanced Ethereum features.
+  * `window.vultisig.thorchain` and `window.thorchain` for THORChain functionality.
+  * Additional chain support for other chains using `window.vultisig.chain` and `window.chain`.
 
 ## Supported Methods
 
 ### Ethereum (`window.vultisig.ethereum`)
 
-- **Account Management**:
-  - `eth_accounts`
-  - `eth_requestAccounts`
-- **Chain Management**:
-  - `eth_chainId`
-  - `wallet_addEthereumChain`
-  - `wallet_switchEthereumChain`
-- **Transaction Management**:
-  - `eth_sendTransaction`
-  - `eth_getTransactionByHash`
-  - `eth_estimateGas`
-- **Other Methods**:
-  - `eth_blockNumber`
-  - `eth_call`
-  - `eth_gasPrice`
-  - `eth_getBalance`
-  - `eth_getBlockByNumber`
-  - `eth_getCode`
-  - `eth_getTransactionCount`
-  - `eth_getTransactionReceipt`
-  - `eth_maxPriorityFeePerGas`
-  - `personal_sign`
+* **Account Management**:
+  * `eth_accounts`
+  * `eth_requestAccounts`
+* **Chain Management**:
+  * `eth_chainId`
+  * `wallet_addEthereumChain`
+  * `wallet_switchEthereumChain`
+* **Transaction Management**:
+  * `eth_sendTransaction`
+  * `eth_getTransactionByHash`
+  * `eth_estimateGas`
+* **Other Methods**:
+  * `eth_blockNumber`
+  * `eth_call`
+  * `eth_gasPrice`
+  * `eth_getBalance`
+  * `eth_getBlockByNumber`
+  * `eth_getCode`
+  * `eth_getTransactionCount`
+  * `eth_getTransactionReceipt`
+  * `eth_maxPriorityFeePerGas`
+  * `personal_sign`
 
 ### THORChain (`window.vultisig.thorchain` and `window.thorchain`)
 
-- **Account Management**:
-  - `request_accounts`
-  - `get_accounts`
-- **Transaction Management**:
-  - `send_transaction`
-  - `deposit_transaction`
-  - `get_transaction_by_hash`
+* **Account Management**:
+  * `request_accounts`
+  * `get_accounts`
+* **Transaction Management**:
+  * `send_transaction`
+  * `deposit_transaction`
+  * `get_transaction_by_hash`
 
 ### Solana (`window.vultisig.solana` and `window.solana`)
 
-- **Account Management**:
-  - `request_accounts`
-  - `get_accounts`
-- **Transaction Management**:
-  - `send_transaction`
-  - `get_transaction_by_hash`
+* **Account Management**:
+  * `request_accounts`
+  * `get_accounts`
+* **Transaction Management**:
+  * `send_transaction`
+  * `get_transaction_by_hash`
 
 ### Cosmos-Based Chains (DyDx, GaiaChain, Kujira, Osmosis)
 
-- **Account Management**:
-  - `request_accounts`
-  - `get_accounts`
-  - `chain_id`
-- **Chain Management**:
-  - `wallet_add_chain`
-  - `wallet_switch_chain`
-- **Transaction Management**:
-  - `send_transaction`
-  - `get_transaction_by_hash`
-- **Notes**: Accessing a specific Cosmos-based chain (such as Kujira or Osmosis) requires calling `chain_id` to retrieve the active chain's ID or using `wallet_add_chain` and `wallet_switch_chain` to add or switch to the desired chain.
+* **Account Management**:
+  * `request_accounts`
+  * `get_accounts`
+  * `chain_id`
+* **Chain Management**:
+  * `wallet_add_chain`
+  * `wallet_switch_chain`
+* **Transaction Management**:
+  * `send_transaction`
+  * `get_transaction_by_hash`
+* **Notes**: Accessing a specific Cosmos-based chain (such as Kujira or Osmosis) requires calling `chain_id` to retrieve the active chain's ID or using `wallet_add_chain` and `wallet_switch_chain` to add or switch to the desired chain.
 
-### Other Chains (`window.vultisig[chain]` and `window[chain]`)
+### Other Chains (`window.vultisig[chain]` )
 
-- **Account Management**:
-  - `request_accounts`
-  - `get_accounts`
-- **Transaction Management**:
-  - `send_transaction`
-  - `get_transaction_by_hash`
+* **Account Management**:
+  * `request_accounts`
+  * `get_accounts`
+* **Transaction Management**:
+  * `send_transaction`
+  * `get_transaction_by_hash`
 
 #### Supported Chains
 
 The following chains are fully supported through their respective interfaces:
 
-- Bitcoin
-- BitcoinCash
-- Dash
-- DogeCoin
-- LiteCoin
-- MayaChain
+* Bitcoin
+* BitcoinCash
+* Dash
+* DogeCoin
+* LiteCoin
+* MayaChain
 
 ## Steps to Integrate with Vultisig Extension
 
-### 1. Detect Vultisig Extebsuib Support
+### 1. Detect Vultisig Extension Support
 
 ```javascript
 if (window.vultisig?.ethereum) {
@@ -192,7 +195,7 @@ const connectEthereum = async () => {
 
 ```javascript
 const connectChain = async (chain) => {
-  const provider = window.vultisig?.[chain] || window[chain];
+  const provider = window.vultisig?.[chain];
 
   if (provider) {
     try {
@@ -362,10 +365,10 @@ Since other providers do not have different active chains, there is no need to s
 
 The txDetails object used in the transaction methods has the following structure:
 
-- from: The sender's Ethereum or chain-specific wallet address,
-- to: The receiver's wallet address.
-- data: Arbitrary data that can be included with the transaction (e.g., for contract interactions).
-- value: The amount to transfer, represented in hexadecimal format (e.g., "0x1" for 1 wei).
+* from: The sender's Ethereum or chain-specific wallet address,
+* to: The receiver's wallet address.
+* data: Arbitrary data that can be included with the transaction (e.g., for contract interactions).
+* value: The amount to transfer, represented in hexadecimal format (e.g., "0x1" for 1 wei).
 
 Example:
 
@@ -437,6 +440,60 @@ const THORChainDepositTransaction = async (txDetails) => {
     }
   }
 };
+```
+
+Example of non-native tokens of THORChain and other Cosmos chains :
+
+```javascript
+// sending RUJI on THORChain
+
+const txDetails = {
+  from: "thor1249rpf9u2ulwuezxkh6uas4au7xnde8umdua5z",
+  to: "thor1ch4rpf9u2ulwuezxkh6uas4au7xnde8umdua91",
+  assset:{
+    chain: "THORChain",
+    ticker: "x/ruji"
+  },
+  amount:{
+    amount: 100000,
+    deciamls: 8
+  }،
+  data: "0x", // Optional memo data
+};
+
+
+// sending KUJI on Cosmos
+
+const txDetails = {
+  from: "cosmos1ditx650chvyn8vs70v8camcj3q7h7hxlsavo9z",
+  to: "cosmos1ditx650chvyn8vs70v8camcj3q7h7hxlsavo9z",
+  assset:{
+    chain: "Cosmos",
+    ticker: "ibc/4CC44260793F84006656DD868E017578F827A492978161DA31D7572BCB3F4289"
+  },
+  amount:{
+    amount: 100000,
+    deciamls: 6
+  }،
+  data: "0x", // Optional memo data
+};
+
+// sending ION on Osmosis
+
+const txDetails = {
+  from: "osmo5iosp650chvyn8vs70v8camcj3q7h7hyucxl0op",
+  to: "osmo5iosp650chvyn8vs70v8camcj3q7h7hyucxl0op",
+  assset:{
+    chain: "Osmosis",
+    ticker: "uion"
+  },
+  amount:{
+    amount: 100000,
+    deciamls: 6
+  }،
+  data: "0x", // Optional memo data
+};
+
 ```
 
 ## 6. Custom Message Signing
@@ -739,6 +796,7 @@ const callContract = async (transaction: Transaction) => {
 ## Error Handling
 
 All methods can throw errors with the following structure:
+
 ```typescript
 interface ProviderError {
   code: number;
@@ -747,11 +805,12 @@ interface ProviderError {
 ```
 
 Common error codes include:
-- 4001: User rejected the request
-- 4100: Unauthorized
-- 4200: Unsupported method
-- 4900: Disconnected
-- 4901: Chain disconnected
+
+* 4001: User rejected the request
+* 4100: Unauthorized
+* 4200: Unsupported method
+* 4900: Disconnected
+* 4901: Chain disconnected
 
 ## Summary
 

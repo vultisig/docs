@@ -153,7 +153,7 @@ $$
 
 <figure><img src="../../.gitbook/assets/Frame 1000005130.png" alt="" width="279"><figcaption></figcaption></figure>
 
-* [Export](../../vultisig-vault-user-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault
+* [Export](../../vultisig-app-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault
 
 <figure><img src="../../.gitbook/assets/Frame 1000005131.png" alt="" width="279"><figcaption></figcaption></figure>
 

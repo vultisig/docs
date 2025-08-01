@@ -4,11 +4,11 @@
 
 Vultisig Referrals uses [THORChain Nested Affiliates](https://dev.thorchain.org/affiliate-guide/affiliate-fee-guide.html) to redistribute a portion of swap fees back to users.
 
-<figure><img src=".gitbook/assets/image (18).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## What do Vultisig users gain?
 
-* Users who refer others — *referrers* — earn 10 basis points (0.10%) on each referred swap.
+* Users who refer others — _referrers_ — earn 10 basis points (0.10%) on each referred swap.
 * Users who use a referral code save 5 basis points (0.05%) on each swap.
 
 ## How do they work?
@@ -27,7 +27,4 @@ In the Referrals section of the app (Settings → Referral Code), you can:
 Note: You can replace your friend’s referral code at any time, but cannot leave the field blank once a code has been entered.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
-
-
-
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>

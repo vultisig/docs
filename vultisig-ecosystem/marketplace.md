@@ -27,6 +27,6 @@ The fee structure will be as followed:\
 * 70% of revenue will go to the Plugin/Ai Agent developer
 * 30% of revenue will go to the $VULT token
 
-<figure><img src=".gitbook/assets/Group 1000004758.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Group 1000004758.png" alt=""><figcaption></figcaption></figure>
 
 \

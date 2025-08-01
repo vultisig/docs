@@ -2,22 +2,24 @@
 
 * [Overview](README.md)
 
-## Vultisig Vault User Actions
+## Vultisig App Actions
 
-* [Creating a Vault](vultisig-vault-user-actions/creating-a-vault.md)
-* [Managing your Vault](vultisig-vault-user-actions/managing-your-vault/README.md)
-  * [Vault Details](vultisig-vault-user-actions/managing-your-vault/vault-details.md)
-  * [Vault Backups](vultisig-vault-user-actions/managing-your-vault/vault-backup.md)
-  * [Vault Rename](vultisig-vault-user-actions/managing-your-vault/vault-rename.md)
-  * [Vault Reshare](vultisig-vault-user-actions/managing-your-vault/vault-reshare.md)
-  * [Vault QR](vultisig-vault-user-actions/managing-your-vault/vault-qr.md)
-  * [Vault Upgrade](vultisig-vault-user-actions/managing-your-vault/vault-upgrade.md)
-* [Keysign](vultisig-vault-user-actions/signing-a-transaction/README.md)
-  * [How Keysigning works](vultisig-vault-user-actions/signing-a-transaction/how-keysigning-works.md)
-  * [Signing a Transaction](vultisig-vault-user-actions/signing-a-transaction/signing-a-transaction.md)
-* [User Actions](vultisig-vault-user-actions/user-actions/README.md)
-  * [Sending](vultisig-vault-user-actions/user-actions/sending.md)
-  * [Swapping](vultisig-vault-user-actions/user-actions/swapping.md)
+* [Creating a Vault](vultisig-app-actions/creating-a-vault.md)
+* [Managing your Vault](vultisig-app-actions/managing-your-vault/README.md)
+  * [Vault Details](vultisig-app-actions/managing-your-vault/vault-details.md)
+  * [Vault Backups](vultisig-app-actions/managing-your-vault/vault-backup.md)
+  * [Vault Rename](vultisig-app-actions/managing-your-vault/vault-rename.md)
+  * [Vault Reshare](vultisig-app-actions/managing-your-vault/vault-reshare.md)
+  * [Vault QR](vultisig-app-actions/managing-your-vault/vault-qr.md)
+  * [Vault Upgrade](vultisig-app-actions/managing-your-vault/vault-upgrade.md)
+* [Keysign](vultisig-app-actions/signing-a-transaction/README.md)
+  * [How Keysigning works](vultisig-app-actions/signing-a-transaction/how-keysigning-works.md)
+  * [Signing a Transaction](vultisig-app-actions/signing-a-transaction/signing-a-transaction.md)
+* [User Actions](vultisig-app-actions/user-actions/README.md)
+  * [Sending](vultisig-app-actions/user-actions/sending.md)
+  * [Swapping](vultisig-app-actions/user-actions/swapping.md)
+  * [Functions](vultisig-app-actions/user-actions/functions.md)
+* [Vultisig Referrals](vultisig-app-actions/vultisig-referrals.md)
 
 ## Vultisig Infrastructure
 
@@ -26,10 +28,7 @@
   * [How does a Fast Vault work?](vultisig-infrastructure/what-is-vultisigner/how-does-vultisigner-work.md)
   * [Transaction Policies](vultisig-infrastructure/what-is-vultisigner/what-can-be-configured.md)
   * [Why is it safe?](vultisig-infrastructure/what-is-vultisigner/why-is-it-safe.md)
-
-***
-
-* [Relay Server](relay-server.md)
+* [Relay Server](vultisig-infrastructure/relay-server.md)
 
 ## Vultisig Ecosystem
 
@@ -37,12 +36,8 @@
   * [How to use Vultisig Extension](vultisig-ecosystem/vulticonnect/how-to-use-vultisig-connect.md)
   * [Web3 support](vultisig-ecosystem/vulticonnect/web3-support.md)
 * [Web App](vultisig-ecosystem/web-app.md)
-
-***
-
-* [Marketplace](marketplace.md)
-* [Vultisig SDK](vultisig-sdk.md)
-* [Vultisig Referrals](vultisig-referrals.md)
+* [Marketplace](vultisig-ecosystem/marketplace.md)
+* [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md)
 
 ## Threshold Signature Scheme
 

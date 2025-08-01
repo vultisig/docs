@@ -44,9 +44,9 @@ Vultisig works much like a traditional multisig wallet but offers flexible setup
 
 #### Self Custodial options, Secure Vaults:
 
-* 2 of 2 (fastest setup, no fallback device*)
-* 2 of 3 (recommended, with fallback device*)
-* 3 of 4 (most secure, with fallback device*)
+* 2 of 2 (fastest setup, no fallback device\*)
+* 2 of 3 (recommended, with fallback device\*)
+* 3 of 4 (most secure, with fallback device\*)
 
 {% hint style="info" %}
 _These are the most widely used vault configurations, but Vultisig supports a wide range of threshold setups for advanced users._
@@ -65,12 +65,13 @@ _These are the most widely used vault configurations, but Vultisig supports a wi
 * Rich, large screens with familiar UI, Secure Enclaves to store vault shares and with biometric locking.
 * Does not look like a hardware device and therefore grants higher security.
 
-🌈 Vultisig is open-source, based on secure technology and is audited (see in [Security](other/security.md), *with further audits to come*).
+🌈 Vultisig is open-source, based on secure technology and is audited (see in [Security](other/security.md), _with further audits to come_).
 
 {% hint style="info" %}
 **No registration required:**
+
 * Vultisig never permanently stores your email or personal info.
-* *Fast Vaults* briefly require your email to send the `.vult` backup file — it's used just once and not retained.
+* _Fast Vaults_ briefly require your email to send the `.vult` backup file — it's used just once and not retained.
 {% endhint %}
 
 ## Who should use it
@@ -91,12 +92,12 @@ Vultisig is an ever-expanding ecosystem, with ongoing work on new platforms, pro
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet)
 * [Windows](https://github.com/vultisig/vultisig-windows/releases)
 * [Linux](https://github.com/vultisig/vultisig-windows/releases)
-* [Vultisig Chrome Extension](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0&hl=en-GB)
+* [Vultisig Chrome Extension](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0\&hl=en-GB)
 * [Android source](https://github.com/vultisig/vultisig-android)
 * [macOS source](https://github.com/vultisig/vultisig-ios)
 
 💬 Join the community: Connect with the team and other users on [Discord](https://discord.com/invite/9wrAfNSRpS).
 
 {% hint style="info" %}
-**Fallback device:** A fallback device means that a device can be lost and access to funds is still ensured. Deleting the application is equivalent to losing the device. To properly back up the vault shares, please use the [following steps](vultisig-vault-user-actions/managing-your-vault/vault-backup.md).
+**Fallback device:** A fallback device means that a device can be lost and access to funds is still ensured. Deleting the application is equivalent to losing the device. To properly back up the vault shares, please use the [following steps](vultisig-app-actions/managing-your-vault/vault-backup.md).
 {% endhint %}

@@ -13,7 +13,7 @@ The SDK opens two powerful paths for builders:&#x20;
 
 By removing old limitations and technical boundaries, the Vultisig SDK is a quantum leap in the field. Developers can now build fully cross-chain agent-based systems that combine the security of MPC technology with the intelligence of AI, ushering in a new age of automated, secure and intelligent digital asset management.
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 Use the Vultisig SDK here:
 

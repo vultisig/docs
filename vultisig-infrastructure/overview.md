@@ -10,6 +10,6 @@ Nevertheless, it provides two solutions to improve the user experience, which ar
 [what-is-vultisigner](what-is-vultisigner/)
 {% endcontent-ref %}
 
-{% content-ref url="../relay-server.md" %}
-[relay-server.md](../relay-server.md)
+{% content-ref url="relay-server.md" %}
+[relay-server.md](relay-server.md)
 {% endcontent-ref %}

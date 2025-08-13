@@ -22,7 +22,7 @@ You can initiate the upgrade by using the banner on the home screen or by select
 
 <div><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Settings</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Upgrade.png" alt=""><figcaption><p>Home View</p></figcaption></figure></div>
 
-Upgrading your Vault is a new[ keygen](../creating-a-vault.md#generating-a-vault) process that requires all initial devices (at first vault creation) to be present in order to complete it successfully.&#x20;
+Upgrading your Vault is a new[ keygen](../creating-a-vault/#generating-a-vault) process that requires all initial devices (at first vault creation) to be present in order to complete it successfully.&#x20;
 
 New [Vault shares ](vault-backup.md)are created. They need to be stored with the same precautions as the old shares.
 
@@ -47,7 +47,7 @@ To differentiate between the [GG20](../../threshold-signature-scheme/threshold-s
 Active Vaults are a discontinued feature, so they have a slightly different upgrade procedure.
 {% endhint %}
 
-To upgrade an Active Vault, the Server Share must be on a third device because Vultisig does not support upgrading Active Vaults. Therefore, the Active Vault must be transformed into a [Secure Vault](../creating-a-vault.md#secure-vault).
+To upgrade an Active Vault, the Server Share must be on a third device because Vultisig does not support upgrading Active Vaults. Therefore, the Active Vault must be transformed into a [Secure Vault](../creating-a-vault/#secure-vault).
 
 To do this:
 
@@ -55,7 +55,7 @@ To do this:
 2. Initiate the upgrade on the other devices.
 3. Follow the upgrade instructions and join with all three devices
 
-Afterwards the user will have a normal [Secure Vault](../creating-a-vault.md#secure-vault) without any Vultisig Server involved.
+Afterwards the user will have a normal [Secure Vault](../creating-a-vault/#secure-vault) without any Vultisig Server involved.
 
 {% hint style="info" %}
 If the Fast signing feature is still desired, we recommend creating a new Fast Vault.

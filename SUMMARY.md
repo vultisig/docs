@@ -4,7 +4,9 @@
 
 ## Vultisig App Actions
 
-* [Creating a Vault](vultisig-app-actions/creating-a-vault.md)
+* [Creating a Vault](vultisig-app-actions/creating-a-vault/README.md)
+  * [Fast Vault](vultisig-app-actions/creating-a-vault/fast-vault.md)
+  * [Secure Vault](vultisig-app-actions/creating-a-vault/secure-vault.md)
 * [Managing your Vault](vultisig-app-actions/managing-your-vault/README.md)
   * [Vault Details](vultisig-app-actions/managing-your-vault/vault-details.md)
   * [Vault Backups](vultisig-app-actions/managing-your-vault/vault-backup.md)

@@ -38,11 +38,11 @@ There are two general setup types to choose from.
 
 #### Videos
 
-_Click on the image below to watch an explanation video on Twitter on creating a 2/2 Secure Vault_
+_Click on the image below to watch an explanation video on Twitter on creating a Fast Vault_
 
 [![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://x.com/iceman00008/status/1955828412876312653/video/1)
 
-_Click on the image below to watch an explanation video on Twitter on creating a 2/2 Fast Vault_
+_Click on the image below to watch an explanation video on Twitter on creating a 2/2 Secure Vault_
 
 [![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://x.com/iceman00008/status/1955865336341041197/video/1)
 

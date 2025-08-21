@@ -28,9 +28,13 @@ For example, for a 2-of-2 vault, both devices must be present.
 Do this if a device has been lost in a secure setup and you need to add a new, unique device or update the current shares.\
 &#xNAN;_&#x49;f a device of a 2-of-2 setup is lost please use the_ [_backup feature_](vault-backup.md)_._
 
-[![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://twitter.com/iceman00008/status/1825339005673857356/video/1)
+_Click on the image below to watch an explanation video on Twitter for Resharing from 3-of-4 to 2-of-3 (new version workflow)_
 
-_Click on the above image to watch an explanation video on Twitter_
+[![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://x.com/iceman00008/status/1958446928271900905/video/1)
+
+_Click on the image below to watch an explanation video on Twitter for Resharing from 2-of-2 to 2-of-3 (old version workflow)_
+
+[![](../../.gitbook/assets/TwitterVideoThumbnail.jpeg)](https://twitter.com/iceman00008/status/1825339005673857356/video/1)
 
 After clicking "Reshare" in the Vultisig Vault menu, the next steps are very similar to creating a Vault, as the reshare feature is just another keygen ceremony.
 

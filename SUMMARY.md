@@ -65,6 +65,7 @@
 * [Security](other/security.md)
 * [Frequently Asked Questions](FAQ/README.md)
 * [Privacy](other/privacy.md)
+* [MiCAR White Paper](other/micar-white-paper.md)
 * [License](other/licence.md)
 * [Terms](other/terms.md)
 

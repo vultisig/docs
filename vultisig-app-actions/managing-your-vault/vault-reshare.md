@@ -64,16 +64,12 @@ New unique devices can be added or old devices can be excluded.
 
 ## **IMPORTANT NOTE FOR RESHARE**
 
-After resharing a vault, the vault shares of each device will also change.
+After resharing a vault, the vault shares of each device will also change. The old vault shares are not compatible with the new vault shares. Any device that was not present in a reshare will still have the old vault share, and will not be able to keysign with the devices with the new vault shares.
 
 {% hint style="danger" %}
-**Be sure to ALWAYS back up your Vault shares after using the reshare feature!**
+**Be sure to ALWAYS back up your new vault shares after using the reshare feature!**
 {% endhint %}
 
-Resharing invalidates the old backups of the shares in Vultisig and increases the risk that mixed backups will be imported and restored.\
-**This can result in inaccessible vaults.**\\
-
 {% hint style="info" %}
-Any device that was not present in a reshare will have a different vault share to the rest of the vault, making it impossible to join the keygen or keysign after the reshare.\
-This is intentional, as vault shares can be disabled in Vultisig if a share is suspected of being compromised.
+The set of old vault shares can still keysign with each other and access the funds linked to the vault address. Resharing does not "invalidates" the set of old vault shares.
 {% endhint %}

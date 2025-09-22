@@ -34,9 +34,7 @@ Furthermore, the Vultisig token $VULT serves four important purposes:
 
 Following vestings apply to above mentioned parties:
 
-
-
-<figure><img src="../.gitbook/assets/Tokenomics 7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Allocation.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **Launch Liquidity Allocation:**
 
@@ -44,7 +42,7 @@ Following vestings apply to above mentioned parties:
 * 11% of $VULT tokens come from the project Treasury and will be carefully managed for specific growth initiatives but intended to stay in the LP.
 
 {% hint style="success" %}
-The Treasury allocation remains partially unlocked to fund exceptional opportunities that drive Vultisig adoption, including strategic partnerships, community giveaways, and hackathons. \
+The Treasury allocation remains partially unlocked to fund exceptional opportunities that drive Vultisig adoption, including strategic partnerships, community giveaways, and hackathons.\
 All Treasury token usage will be strictly limited to initiatives that directly increase Vultisig ecosystem value.
 {% endhint %}
 
@@ -53,7 +51,7 @@ All Treasury token usage will be strictly limited to initiatives that directly i
 #### **Community and Strategic Allocations:**
 
 * 6% of VULT reserved for community airdrop, rewarding early supporters. Unlocking with ending seasons and distributed to airdrop participants.
-* 10% of $VULT dedicated to the $WEWE → $VULT merger.&#x20;
+* 10% of $VULT dedicated to the $WEWE → $VULT merger.
 * 1.7% of $VULT allocated to a strategic partnership with CoinMarketCap to significantly expand Vultisig’s reach and adoption. Locked with a 1-year cliff.
 
 #### **Team Commitment:**

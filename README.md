@@ -88,7 +88,7 @@ Vultisig is an ever-expanding ecosystem, with ongoing work on new platforms, pro
 🍿 Download here:
 
 * [iOS AppStore](https://apps.apple.com/us/app/vultisig/id6503023896)
-* [iOS Testflight](https://testflight.apple.com/join/kpVufItl)
+* [iOS Testflight](https://testflight.apple.com/join/dxKWaCNK)
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet)
 * [Windows](https://github.com/vultisig/vultisig-windows/releases)
 * [Linux](https://github.com/vultisig/vultisig-windows/releases)

@@ -37,9 +37,10 @@
 * [Vultisig Extension](vultisig-ecosystem/vulticonnect/README.md)
   * [How to use Vultisig Extension](vultisig-ecosystem/vulticonnect/how-to-use-vultisig-connect.md)
   * [Web3 support](vultisig-ecosystem/vulticonnect/web3-support.md)
-* [Web App](vultisig-ecosystem/web-app.md)
 * [Marketplace](vultisig-ecosystem/marketplace.md)
+* [Web App](vultisig-ecosystem/web-app.md)
 * [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md)
+* [Community Tools](vultisig-ecosystem/community-tools.md)
 
 ## Threshold Signature Scheme
 

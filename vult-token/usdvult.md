@@ -8,9 +8,9 @@ description: >-
 
 ## Utility of $VULT token
 
-The primary benefit comes through a Tier system that gives $VULT holders reduced trading fees and the staking mechanism, where $VULT holders will be able stake their tokens to earn direct $USDC cash-back rewards generated from ecosystem activity.
+The benefit comes through the staking mechanism, where $VULT holders will be able stake their tokens to earn direct rewards generated from ecosystem activity and holding $VULT to receive trading fee discounts.
 
-Beyond passive income opportunities, $VULT unlocks preferential pricing and exclusive access to premium features across the Vultisig marketplace. As our ecosystem grows, so too will the utility and value proposition of holding VULT tokens.
+Beyond rewards opportunities, $VULT will unlock preferential pricing and exclusive access to premium features across the Vultisig marketplace. As our ecosystem grows, so too will the utility and value proposition of holding VULT tokens.
 
 Furthermore, the Vultisig token $VULT serves four important purposes:
 
@@ -31,7 +31,7 @@ The amount of $VULT per tier may be revisited periodically that accesibility and
 
 ### Value Accrual
 
-The Vultisig $VULT token will provide direct $USDC revenue to the user when staked, coming from the fees generated in Vultisig Ecosystem. \
+The Vultisig $VULT token will provide swap fee revenue to the user when being staked, coming from the fees generated in whole Vultisig Ecosystem. \
 See more in [usdvult-staking.md](../vultisig-token/usdvult-staking.md "mention")
 
 {% hint style="info" %}

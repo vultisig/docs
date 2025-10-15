@@ -51,7 +51,7 @@ The exact distribution parameters are still under evaluation.
 
 ### Allocations
 
-<figure><img src="../.gitbook/assets/Tokenomics.png" alt=""><figcaption><p>Allocations</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Main Pitch - 19.jpg" alt=""><figcaption><p>Allocations</p></figcaption></figure>
 
 ## Vesting
 

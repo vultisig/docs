@@ -2,20 +2,20 @@
 description: The launch of the Vultisig Token to the world.
 ---
 
-# Launch of $VULT (Status: **Launch Date Pending**)
+# Launch of $VULT
 
-> **Last updated:** 2025‑04‑21 - reflects the “Token Launch Update and New Principles for Community Communication” Medium post. [Read the full announcement](https://vultisig.medium.com/token-launch-update-and-new-principles-for-community-communication-a57898b5614e).
+> **Last updated:** 2025‑10‑20 - reflects the “Token Launch Update and New Principles for Community Communication” Medium post. [Read the full announcement](https://vultisig.medium.com/token-launch-update-and-new-principles-for-community-communication-a57898b5614e).
 
 ## TL;DR / FAQ
 
-**Launch window:** *TBA*. The DEX launch will occur **24 hours *before* our CEX listing**, once a date with the CEX partner is finalized. We will share this confirmation as soon as we receive it - which could be announced several days or weeks ahead of time.
+**Launch window:** _27th of October 2025_. The DEX launch will occur **24 hours&#x20;**_**before**_**&#x20;our CEX listing**.
 
-- **DEX → CEX cadence:** DEX launches **24 hours before the CEX listing**.
-- **Liquidity & pricing:** 35% of supply seeded in a Uniswap V3 pool at ~$3M FDV.
-- **Whitelist:** 1,500 slots with staggered purchase caps ($1k first hour → $10k thereafter).
-- **IOU VULT holders:** merged IOU balances will be airdropped as *staked VULT* **24h after public launch**; no action required.
+* **DEX → CEX cadence:** DEX launches **24 hours before the CEX listing**.
+* **Liquidity & pricing:** \~35% of supply seeded in a Uniswap V3 pool starting at \~$3M FDV.
+* **Whitelist: Up to** 1,500 slots with staggered purchase caps ($1k first hour → $10k thereafter).
+* **IOU VULT holders:** $VULT will be claimable shortly after the launch.
 
----
+***
 
 Our CEX partners determine their own go‑live schedule. Once our CEX partner publicly confirms their listing schedule, we will coordinate transparently and clearly communicate the DEX launch date. Committing prematurely has already created confusion, so we are moving to an evidence‑based timeline:
 
@@ -26,57 +26,49 @@ Our CEX partners determine their own go‑live schedule. Once our CEX partner pu
 
 This approach guarantees we never miss a published date again and keeps the community first in the information flow.
 
----
+***
 
 ## Launch Liquidity
 
 ### Initial Funding
 
-Vultisig has raised **$3.6M** in strategic capital. 35% of the total supply is paired with this USDC in a Uniswap V3 1% fee pool. Concentrated-liquidity ranges will span **$3M → $1B FDV**, ensuring deep two-side liquidity from the first block.
+Vultisig has raised **$3.6M** in strategic capital. 35% of the total supply is paired with this USDC in a Uniswap V3 1% fee pool. Concentrated-liquidity ranges will span **$3M → $1B FDV**, ensuring sufficient liquidity from the first block.
 
 ### Pool Composition
 
-- **24%** - strategic investors  (1-year lock)
-- **11%** - Treasury allocation
+* **24%** - strategic investors&#x20;
+* **11%** - Treasury allocation
 
 ### Initial Valuation
 
 The FDV at pool inception remains **$3M**.
 
----
+***
 
 ## Updated Launch Flow
 
 ### Phase 1 - Whitelisted Trade-Only (24h)
 
-- 1,500 vetted addresses
-- Hour 1 cap: **$1k**
-- Hour 2 → 24h cap: **$10k**
-- No lock-ups; free to LP or trade
+* 1,500 vetted addresses
+* Hour 1 cap: **$1k**
+* Hour 2 → 24h cap: **$10k**
+* No lock-ups; free to LP or trade
 
 ### Phase 2 - Public Launch
 
-- Pool opens to everyone simultaneously with the availability of $VULT on our CEX partner
-- No caps, no throttles; full market dynamics
+* Pool opens to everyone simultaneously with the availability of $VULT on our CEX partner
+* No caps, no throttles; full market dynamics
 
 <figure><img src="../.gitbook/assets/Tokenomics 4.png" alt=""><figcaption><p>Launch Roadmap</p></figcaption></figure>
 
----
-
-## Communication Principles (adopted 2025‑04‑21)
-
-1. **Evidence over estimation** - no public dates without contractual confirmation.
-2. **Community first** - Vultisquad gets the news before press releases.
-3. **Single source of truth** - this page is updated within 24h of any material change.
-
----
+***
 
 ## Further Information
 
-- Strategic investors entered at **$70M FDV** (~23× public launch valuation).
-- Investors will optionally LP more USDC/VULT at launch to stabilize price discovery.
-- Launch LP remains on Uniswap V3 (1% fee tier).
+* Strategic investors entered at **$70M FDV** (\~23× public launch valuation).
+* Investors will optionally LP more USDC/VULT at launch to stabilize price discovery.
+* Launch LP remains on Uniswap V3 (1% fee tier).
 
----
+***
 
-*Questions?*  Join the discussion in `#-announcements` and `#-wl-launch` on Discord.
+_Questions?_ Join the discussion in `#-announcements` and `#-wl-launch` on Discord.

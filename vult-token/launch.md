@@ -32,24 +32,24 @@ This approach guarantees we never miss a published date again and keeps the comm
 
 ### Initial Funding
 
-Vultisig has raised **$3.6M** in strategic capital. 35% of the total supply is paired with this USDC in a Uniswap V3 1% fee pool. Concentrated-liquidity ranges will span **$3M → $1B FDV**, ensuring sufficient liquidity from the first block.
+Vultisig has raised **$3.6M** in initial funding of LP investors. Up to 35% of the total supply is paired with USDC in a Uniswap V3 1% fee pool. Concentrated-liquidity ranges will span **$3M → $1B FDV**, ensuring sufficient liquidity from the first block.
 
 ### Pool Composition
 
 * **24%** - strategic investors&#x20;
-* **11%** - Treasury allocation
+* **\~11%** - Treasury allocation
 
 ### Initial Valuation
 
-The FDV at pool inception remains **$3M**.
+The FDV at pool inception will start at **$3M** and increases organically after the first buys.
 
 ***
 
-## Updated Launch Flow
+## Launch Flow
 
 ### Phase 1 - Whitelisted Trade-Only (24h)
 
-* 1,500 vetted addresses
+* Up to 1,500 addresses
 * Hour 1 cap: **$1k**
 * Hour 2 → 24h cap: **$10k**
 * No lock-ups; free to LP or trade

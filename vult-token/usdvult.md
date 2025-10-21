@@ -62,7 +62,7 @@ Following vestings apply to above mentioned parties:
 ### **Launch Liquidity Allocation:**
 
 * 24% of $VULT tokens are allocated to initial investors as an LP position, with a 1-year cliff to provide sufficient initial liquidity
-* 11% of $VULT tokens come from the project Treasury and will be carefully managed for specific growth initiatives but intended to stay in the LP.
+* Up to 11% of $VULT tokens come from the project treasury to add sufficient liquidity and will be carefully managed for specific growth initiatives but intended to stay in the LP.
 
 {% hint style="success" %}
 The Treasury allocation remains partially unlocked to fund exceptional opportunities that drive Vultisig adoption, including strategic partnerships, community giveaways, and hackathons.\

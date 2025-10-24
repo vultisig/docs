@@ -6,9 +6,11 @@ description: Exporting vault shares, backing up or importing vaults shares.
 
 ## What is a Backup in Vultisig
 
-**Vultisig implements a novel backup and recovery mechanism that differs from traditional seed phrase-based approaches.**
+**Vultisig implements a novel backup and recovery mechanism that differs from traditional seed phrase-based approaches. Watch the video below for a quick overview:**
 
-This mechanism also utilizes the Threshold Signature Scheme (TSS) technology which is used to generate so called "[**Vault Shares**](vault-backup.md#what-are-vault-shares)", that enable more secure and reliable wallet recovery without seed phrases.\
+[![](../../.gitbook/assets/ThumbnailVideoBackup.jpeg)](https://x.com/vultisig/status/1981438381184958698)
+
+This mechanism utilizes the Threshold Signature Scheme (TSS) technology which is used to generate so "[**Vault Shares**](vault-backup.md#what-are-vault-shares)", that enable more secure and reliable wallet recovery without seed phrases.\
 These shares store all the data necessary to participate in Keygen/Keysign sessions and restore the Vault upon import.\
 **They never store any secret key or seed phrase.**
 

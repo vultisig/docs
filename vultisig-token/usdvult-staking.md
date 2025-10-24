@@ -1,5 +1,6 @@
 ---
 description: This describes $VULT staking mechanism
+hidden: true
 ---
 
 # $VULT Staking

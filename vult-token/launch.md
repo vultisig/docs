@@ -32,7 +32,7 @@ This approach guarantees we never miss a published date again and keeps the comm
 
 ### Initial Funding
 
-Vultisig has raised **$3.6M** in initial funding of LP investors. Up to 35% of the total supply is paired with USDC in a Uniswap V3 1% fee pool. Concentrated-liquidity ranges will span **$3M → $1B FDV**, ensuring sufficient liquidity from the first block.
+Vultisig has raised **$2.4M** in initial funding of LP investors. Up to 35% of the total supply is paired with USDC in a Uniswap V3 1% fee pool. Concentrated-liquidity ranges will span **$3M → $1B FDV**, ensuring sufficient liquidity from the first block.
 
 ### Pool Composition
 

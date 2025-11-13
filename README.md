@@ -18,7 +18,7 @@ Vultisig operates several different solutions and is constantly expanding, such 
 
 * A Wallet (Vultisig Vaults)
 * An Extension (Vultisig Extension)
-* Webapp (View-only and Airdrop)
+* Webapp (View only and Airdrop)
 * Marketplace (for Plugins and AI Agents)
 * An SDK for builders
 

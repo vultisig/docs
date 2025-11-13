@@ -8,13 +8,6 @@ coverY: 12
 
 # Overview
 
-## Contract Addresses
-
-ERC-20: 0xb788144DF611029C60b859DF47e79B7726C4DEBa
-
-SPL: FKm2ibXXjQdEpvnKhA7wxmXwAEQBuo9L5uvK4ktpump\
-
-
 ## Vultisig Project
 
 🛠 Vultisig is creating and maintaining an open source cryptocurrency wallet that takes the novel approach of providing a seedless, multi-factor, multi-chain wallet infrastructure based on MPC (Multi-Party Computation) technology.
@@ -94,14 +87,14 @@ Vultisig is an ever-expanding ecosystem, with ongoing work on new platforms, pro
 
 🍿 Download here:
 
-* [iOS AppStore](https://vultisig.fyi/)
-* [iOS Testflight](https://vultisig.fyi/)
-* [Google Play Store](https://vultisig.fyi/)
-* [Windows](https://vultisig.fyi/)
-* [Linux](https://vultisig.fyi/)
-* [Vultisig Chrome Extension](https://vultisig.fyi/)
-* [Android source](https://vultisig.fyi/)
-* [macOS source](https://vultisig.fyi/)
+* [iOS AppStore](https://apps.apple.com/us/app/vultisig/id6503023896)
+* [iOS Testflight](https://testflight.apple.com/join/dxKWaCNK)
+* [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet)
+* [Windows](https://github.com/vultisig/vultisig-windows/releases)
+* [Linux](https://github.com/vultisig/vultisig-windows/releases)
+* [Vultisig Chrome Extension](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0\&hl=en-GB)
+* [Android source](https://github.com/vultisig/vultisig-android)
+* [macOS source](https://github.com/vultisig/vultisig-ios)
 
 💬 Join the community: Connect with the team and other users on [Discord](https://discord.com/invite/9wrAfNSRpS).
 

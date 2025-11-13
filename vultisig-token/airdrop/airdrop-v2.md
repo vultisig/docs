@@ -14,7 +14,7 @@ vault\_asset\_value*time\_in\_vault
 $$
 
 While taking into account other multipliers, such as swap volume and referral multipliers, to further increase the virality.\
-Check your eligibility [here](https://vultisig.fyi/).
+See further calculation [here](airdrop-v2.md#calculations).
 
 ***
 
@@ -153,15 +153,15 @@ $$
 
 <figure><img src="../../.gitbook/assets/Frame 1000005130.png" alt="" width="279"><figcaption></figcaption></figure>
 
-* [Export](https://vultisig.fyi/) the Vault QR of the Vultisig Vault
+* [Export](../../vultisig-app-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault
 
 <figure><img src="../../.gitbook/assets/Frame 1000005131.png" alt="" width="279"><figcaption></figcaption></figure>
 
-*   Connect to the [airdrop](https://vultisig.fyi/) page with your [VultiConnect](https://chromewebstore.google.com/detail/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?utm_source=item-share-cp) or with uploading your Vault QR\
+*   Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [VultiConnect](https://chromewebstore.google.com/detail/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?utm_source=item-share-cp) or with uploading your Vault QR\
 
 
     <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
-*   Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the [web app](https://vultisig.fyi/)\
+*   Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the [web app](../../vultisig-ecosystem/web-app.md)\
 
 
     <figure><img src="../../.gitbook/assets/Button.png" alt="" width="225"><figcaption></figcaption></figure>

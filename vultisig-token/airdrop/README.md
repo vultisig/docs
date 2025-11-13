@@ -15,7 +15,7 @@ vault\_asset\_value*time\_in\_vault
 $$
 
 With the distribution date of 12 months after registration goes live.\
-See further calculation [here](./#airdrop-process).\
+See further calculation [here](https://vultisig.fyi/).\
 \
 Users will receive full information about how to register for this airdrop in the coming weeks.
 
@@ -24,7 +24,7 @@ Users will receive full information about how to register for this airdrop in th
 ## Airdrop Process
 
 To register their vaults for the Airdrop, users send their exported Vault public Keys to an Airdrop Registry, which will scan for presence of funds on chains, and then begin counting airdrop value.\
-**See the exact instructions** [**here.**](./#how-to-register-for-the-airdrop)\
+**See the exact instructions** [**here.**](https://vultisig.fyi/)\
 \
 This will include most actions performed in Vultisig (like bonding to nodes and staking, etc.).
 
@@ -70,10 +70,10 @@ The Ongoing Airdrop Process will continue for another 5 years, and the dedicated
 
 ## How to register for the airdrop
 
-1.  [Export](../../vultisig-app-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault\\
+1.  [Export](https://vultisig.fyi/) the Vault QR of the Vultisig Vault\\
 
     <figure><img src="../../.gitbook/assets/VultisigQR-Main Vault-828 (1).png" alt="" width="188"><figcaption></figcaption></figure>
-2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Extension](../../vultisig-ecosystem/vulticonnect/) or by uploading your Vault QR\\
+2.  Connect to the [airdrop](https://vultisig.fyi/) page with your [Vultisig Extension](../../vultisig-ecosystem/vulticonnect/) or by uploading your Vault QR\\
 
     <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
 3.  Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the website\\
@@ -101,7 +101,7 @@ The multiplier will start at 1 and will increase depending on the activities and
 
 ### How to increase the Multiplier
 
-At the heart of the Airdrop multiplier is the [Referral Program](./#referral-program).
+At the heart of the Airdrop multiplier is the [Referral Program](https://vultisig.fyi/).
 
 {% hint style="info" %}
 There will be special programs and opportunities to increase this as the airdrop progresses. They are listed below.
@@ -109,7 +109,7 @@ There will be special programs and opportunities to increase this as the airdrop
 
 #### Referral Program
 
-Vultisig team has built a [Telegram bot](../../other/vultisig-bot.md) to easily invite friends and track the referred people.
+Vultisig team has built a [Telegram bot](https://vultisig.fyi/) to easily invite friends and track the referred people.
 
 * Invite people
 * Let them install Vultisig

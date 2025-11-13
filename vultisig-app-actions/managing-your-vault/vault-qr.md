@@ -4,7 +4,7 @@
 
 The Vault QR is a QR code that includes the ECDSA and EdDSA public keys, the UID ( Unique Identifier) and name of the vault.
 
-<figure><img src="../../.gitbook/assets/VultisigQR-Main Vault-828.png" alt="" width="188"><figcaption><p>Example QR</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/VultisigQR-Main Vault-828 (1).png" alt="" width="188"><figcaption><p>Example QR</p></figcaption></figure>
 
 {% hint style="warning" %}
 **The Vault QR is NOT a backup for the respective Vault.**\

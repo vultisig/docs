@@ -5,7 +5,7 @@ coverY: 0
 
 # Airdrop V2
 
-Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.
+Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.&#x20;
 
 The future $VULT airdrop will be proportional:
 
@@ -14,21 +14,21 @@ vault\_asset\_value*time\_in\_vault
 $$
 
 While taking into account other multipliers, such as swap volume and referral multipliers, to further increase the virality.\
-See further calculation [here](https://vultisig.fyi/).
+See further calculation [here](airdrop-v2.md#calculations).
 
 ***
 
 ## Airdrop Process
 
-To register their vaults for airdrop, users send their exported vault public keys to an airdrop registry, which checks for the presence of funds on chains and then begins counting the airdrop value.
+To register their vaults for airdrop, users send their exported vault public keys to an airdrop registry, which checks for the presence of funds on chains and then begins counting the airdrop value.&#x20;
 
-This will include most actions performed in Vultisig (such as binding to nodes and staking, etc.).
+This will include most actions performed in Vultisig (such as binding to nodes and staking, etc.).&#x20;
 
-**A new scan is performed every cycle (day), and the user's airdrop value accumulates in the form of VULTIES (airdrop points).**
+**A new scan is performed every cycle (day), and the user's airdrop value accumulates in the form of VULTIES (airdrop points).**&#x20;
 
-Therefore, users who keep their funds in Vultisig the longest and use the vault actively will earn the highest airdrop value.
+Therefore, users who keep their funds in Vultisig the longest and use the vault actively will earn the highest airdrop value.&#x20;
 
-The airdrop points are reset after each [season](https://vultisig.fyi/) and can be multiplied with special multipliers, which are listed [below](https://vultisig.fyi/). The final share of the airdrop per season is the pro rata share of the airdrop allocation.
+The airdrop points are reset after each [season](airdrop-v2.md#seasons) and can be multiplied with special multipliers, which are listed [below](airdrop-v2.md#multipliers). The final share of the airdrop per season is the pro rata share of the airdrop allocation.
 
 ***
 
@@ -62,9 +62,9 @@ Season 1-4: 5,000,000 $VULT, distributed at the end of each season.
 
 ## Seasons
 
-In order to create a more dynamic and inclusive airdrop system, a seasonal structure will be implemented, giving both early supporters and newcomers meaningful opportunities to participate.
+In order to create a more dynamic and inclusive airdrop system, a seasonal structure will be implemented, giving both early supporters and newcomers meaningful opportunities to participate.&#x20;
 
-Each season will last 1 quarter and will have an airdrop share of 1,250,000 $VULT to distribute.
+Each season will last 1 quarter and will have an airdrop share of 1,250,000 $VULT to distribute.&#x20;
 
 **Airdrop points will be reset after each season.**
 
@@ -80,7 +80,7 @@ To incentivize trading and make the airdrop more dynamic, a swap multiplier will
 
 ### **Referral Multiplier**
 
-The [Referral Program](airdrop-v2.md#referral-program) is tracking referred wallets via the [Referral Telegram bot](https://docs.vultisig.com/other/vultisig-bot) of registered users.
+The [Referral Program](airdrop-v2.md#referral-program) is tracking referred wallets via the [Referral Telegram bot](https://docs.vultisig.com/other/vultisig-bot) of registered users.&#x20;
 
 For a referral to be considered valid, the referred wallet must fund with at least $50 and take part in the airdrop.
 
@@ -92,22 +92,24 @@ This multiplier logarithmically multiplies and caps at 500 referrals, providing 
 
 ### Dedicated tokens and community multipliers
 
-To attract more attention and expand the Vultisquad community, a special multiplier will be introduced for holding selected tokens or NFTs that will be selected in the coming future.
+To attract more attention and expand the Vultisquad community, a special multiplier will be introduced for holding selected tokens or NFTs that will be selected in the coming future.&#x20;
 
 The first token to receive this treatment will be $VULT itself, which will grant holders a 1.5x multiplier on its dollar value within the airdrop calculation.
 
 The following tokens and NFTs have a higher multiplier:
 
-| Token | Multiplier |
-| ----- | ---------- |
-| $VULT | 1.5        |
-| $RUNE | 1.3        |
+| Token  | Multiplier |
+| ------ | ---------- |
+| $VULT  | 1.5        |
+| $RUNE  | 1.3        |
 
 ***
 
 | NFT        | Multiplier |
 | ---------- | ---------- |
 | Thorguards | 1.3        |
+
+
 
 ***
 
@@ -151,14 +153,16 @@ $$
 
 <figure><img src="../../.gitbook/assets/Frame 1000005130.png" alt="" width="279"><figcaption></figcaption></figure>
 
-* [Export](https://vultisig.fyi/) the Vault QR of the Vultisig Vault
+* [Export](../../vultisig-app-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault
 
 <figure><img src="../../.gitbook/assets/Frame 1000005131.png" alt="" width="279"><figcaption></figcaption></figure>
 
-*   Connect to the [airdrop](https://vultisig.fyi/) page with your [VultiConnect](https://vultisig.fyi/) or with uploading your Vault QR\\
+*   Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [VultiConnect](https://chromewebstore.google.com/detail/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?utm_source=item-share-cp) or with uploading your Vault QR\
+
 
     <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
-*   Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the [web app](../../vultisig-ecosystem/web-app.md)\\
+*   Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the [web app](../../vultisig-ecosystem/web-app.md)\
+
 
     <figure><img src="../../.gitbook/assets/Button.png" alt="" width="225"><figcaption></figcaption></figure>
 * Go to the `Balances` tab and check for auto-discovery or enable **ALL a**ssets you want to have counted towards the airdrop
@@ -173,7 +177,7 @@ You need to enable all Chains and Tokens you want to have counted towards the ai
 
 ### Referral Program
 
-Vultisig team has built a [Telegram bot](https://vultisig.fyi/) to easily invite friends and track the referred people.
+Vultisig team has built a [Telegram bot](../../other/vultisig-bot.md) to easily invite friends and track the referred people.
 
 * Invite people
 * Let them install Vultisig

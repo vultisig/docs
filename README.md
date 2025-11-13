@@ -32,7 +32,7 @@ Vultisig supports most UTXO, EVM, BFT and EdDSA chains (e.g., Bitcoin, Ethereum,
 
 Vultisig is powered by the state-of-the-art TSS protocol, [DKLS23](https://github.com/silence-laboratories/dkls23), which is developed and maintained by Silence Laboratories.
 
-Vultisig is built by the founders of [THORChain](https://vultisig.fyi/), creators of the largest and longest-running multi-chain DEX powered by Threshold Signature Schemes (TSS).
+Vultisig is built by the founders of [THORChain](https://thorchain.org), creators of the largest and longest-running multi-chain DEX powered by Threshold Signature Schemes (TSS).
 
 ## How can it be used?
 
@@ -87,14 +87,14 @@ Vultisig is an ever-expanding ecosystem, with ongoing work on new platforms, pro
 
 🍿 Download here:
 
-* [iOS AppStore](https://vultisig.fyi/)
-* [iOS Testflight](https://vultisig.fyi/)
-* [Google Play Store](https://vultisig.fyi/)
-* [Windows](https://vultisig.fyi/)
-* [Linux](https://vultisig.fyi/)
-* [Vultisig Chrome Extension](https://vultisig.fyi/)
-* [Android source](https://vultisig.fyi/)
-* [macOS source](https://vultisig.fyi/)
+* [iOS AppStore](https://apps.apple.com/us/app/vultisig/id6503023896)
+* [iOS Testflight](https://testflight.apple.com/join/dxKWaCNK)
+* [Google Play Store](https://play.google.com/store/apps/details?id=com.vultisig.wallet)
+* [Windows](https://github.com/vultisig/vultisig-windows/releases)
+* [Linux](https://github.com/vultisig/vultisig-windows/releases)
+* [Vultisig Chrome Extension](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?authuser=0\&hl=en-GB)
+* [Android source](https://github.com/vultisig/vultisig-android)
+* [macOS source](https://github.com/vultisig/vultisig-ios)
 
 💬 Join the community: Connect with the team and other users on [Discord](https://discord.com/invite/9wrAfNSRpS).
 

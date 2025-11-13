@@ -12,7 +12,7 @@ coverY: 12
 
 ERC-20: 0xb788144DF611029C60b859DF47e79B7726C4DEBa
 
-SPL: 2kihda8Cx12BM464xEGbbJSrJBdDz1YpPaYhw3Empump\
+SPL: FKm2ibXXjQdEpvnKhA7wxmXwAEQBuo9L5uvK4ktpump\
 
 
 ## Vultisig Project

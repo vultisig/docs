@@ -37,10 +37,21 @@
 * [Vultisig Extension](vultisig-ecosystem/vulticonnect/README.md)
   * [How to use Vultisig Extension](vultisig-ecosystem/vulticonnect/how-to-use-vultisig-connect.md)
   * [Web3 support](vultisig-ecosystem/vulticonnect/web3-support.md)
-* [Marketplace](vultisig-ecosystem/marketplace.md)
+* [App Store](vultisig-ecosystem/marketplace.md)
 * [Web App](vultisig-ecosystem/web-app.md)
 * [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md)
 * [Community Tools](vultisig-ecosystem/community-tools.md)
+
+## VULTISIG Token
+
+* [The $VULT Token](vultisig-token/usdvult/README.md)
+  * [In-App Utility](vultisig-token/usdvult/in-app-utility.md)
+  * [App Store Utility](vultisig-token/usdvult/app-store-utility.md)
+  * [Governance Utility](vultisig-token/usdvult/governance-utility.md)
+* [Launch of $VULT](vult-token/launch.md)
+* [$VULT Staking](vultisig-token/usdvult-staking.md)
+* [Airdrop](vultisig-token/airdrop/README.md)
+  * [Airdrop V2](vultisig-token/airdrop/airdrop-v2.md)
 
 ## Threshold Signature Scheme
 
@@ -51,14 +62,6 @@
 * [Difference to Multi-Signatures](threshold-signature-scheme/difference-to-multi-signatures.md)
 * [Difference to Passkeys](threshold-signature-scheme/difference-to-passkeys.md)
 * [Emergency Recovery](threshold-signature-scheme/emergency-recovery.md)
-
-## VULTISIG Token
-
-* [The $VULT token](vult-token/usdvult.md)
-* [Launch of $VULT](vult-token/launch.md)
-* [$VULT Staking](vultisig-token/usdvult-staking.md)
-* [Airdrop](vultisig-token/airdrop/README.md)
-  * [Airdrop V2](vultisig-token/airdrop/airdrop-v2.md)
 
 ## Other
 

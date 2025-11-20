@@ -1,9 +1,9 @@
 ---
 description: >-
-  Redefining crypto wallet security for the AI Agent era: Multi-chain,
-  multi-factor, and the end of seed phrases and infrastructure for the bots
-cover: .gitbook/assets/Background.png
-coverY: 12
+  Crypto security reimagined for the AI Agent era: Self-custodial automation,
+  multi-chain, multi-factor, and the end of seed phrases. Your ultimate wallet.
+cover: .gitbook/assets/Banner-new.png
+coverY: 0
 ---
 
 # Overview

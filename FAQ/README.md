@@ -121,4 +121,4 @@ _Scenario 2 :_ WITHOUT mobile remote data wipe feature setup done and with at le
 
 ### What is the key utility of $VULT token to the ordinary users?
 
-All the platform incomes (affiliate, router and bridge fees) will redistributed to the staking module where $VULT stakers will earn it directly in $USDC, read more [here](../vult-token/usdvult.md#utility-of-usdvult-token).
+All the platform incomes (affiliate, router and bridge fees) will redistributed to the staking module where $VULT stakers will earn it directly in $USDC, read more [here](../vultisig-token/usdvult/#utility-of-usdvult-token).

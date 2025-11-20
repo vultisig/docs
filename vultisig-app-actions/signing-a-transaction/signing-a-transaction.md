@@ -14,8 +14,6 @@ Follow the Sending or Signing flow, prepare the transaction with input all the n
 
 #### Verify your input
 
-
-
 <div><figure><img src="../../.gitbook/assets/Verify pair.png" alt="" width="188"><figcaption><p>Send</p></figcaption></figure> <figure><img src="../../.gitbook/assets/verify-swap.png" alt="" width="188"><figcaption><p>Swap</p></figcaption></figure></div>
 
 Put in your password and wait until the signing is finished
@@ -44,7 +42,7 @@ _Click on the above image to watch an explanation video on Twitter_
 
 On your Main Device, prepare the transaction (e.g. Send or Swap). When ready, click on **Continue** or **Swap**.
 
-<div><figure><img src="../../.gitbook/assets/Send (1).png" alt="" width="188"><figcaption><p>Send Screen</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Swap-screen.png" alt="" width="188"><figcaption><p>Swap screen</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Send.png" alt="" width="188"><figcaption><p>Send Screen</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Swap-screen.png" alt="" width="188"><figcaption><p>Swap screen</p></figcaption></figure></div>
 
 Confirm all the details on the Verify screen, check all boxes for the reminder messages, and click **Sign**.
 
@@ -66,7 +64,7 @@ On your other device, after selecting the same Vault, click the **Camera** icon 
 
 The transaction details will load, verify them and click **Join key sign** to proceed.
 
-<div><figure><img src="../../.gitbook/assets/Verify pair (1).png" alt="" width="188"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Swap-verify-pairing.png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Verify pair.png" alt="" width="188"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Swap-verify-pairing.png" alt="" width="188"><figcaption></figcaption></figure></div>
 
 The signing will automatically start when the Threshold of devices joined.
 

@@ -72,7 +72,7 @@ The Ongoing Airdrop Process will continue for another 5 years, and the dedicated
 
 1.  [Export](../../vultisig-app-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault\\
 
-    <figure><img src="../../.gitbook/assets/VultisigQR-Main Vault-828 (1).png" alt="" width="188"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/VultisigQR-Main Vault-828.png" alt="" width="188"><figcaption></figcaption></figure>
 2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Extension](../../vultisig-ecosystem/vulticonnect/) or by uploading your Vault QR\\
 
     <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>

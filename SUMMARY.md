@@ -44,12 +44,11 @@
 
 ## VULTISIG Token
 
-* [The $VULT Token](vultisig-token/usdvult/README.md)
-  * [In-App Utility](vultisig-token/usdvult/in-app-utility.md)
-  * [App Store Utility](vultisig-token/usdvult/app-store-utility.md)
-  * [Governance Utility](vultisig-token/usdvult/governance-utility.md)
+* [The $VULT Token](vultisig-token/vult/README.md)
+  * [In-App Utility](vultisig-token/vult/in-app-utility.md)
+  * [App Store Utility](vultisig-token/vult/app-store-utility.md)
+  * [Governance Utility](vultisig-token/vult/governance-utility.md)
 * [Launch of $VULT](vult-token/launch.md)
-* [$VULT Staking](vultisig-token/usdvult-staking.md)
 * [Airdrop](vultisig-token/airdrop/README.md)
   * [Airdrop V2](vultisig-token/airdrop/airdrop-v2.md)
 
@@ -75,15 +74,15 @@
 
 ## Developer Docs
 
-* [Apps for the Vultisig App Store](developer-docs/marketplace-1/README.md)
-  * [App Store Overview](developer-docs/marketplace-1/infrastructure-overview/README.md)
-    * [Infrastructure](developer-docs/marketplace-1/infrastructure-overview/infrastructure.md)
-    * [Apps](developer-docs/marketplace-1/infrastructure-overview/plugins.md)
-    * [Revenue](developer-docs/marketplace-1/infrastructure-overview/revenue.md)
-  * [Create an App](developer-docs/marketplace-1/ai-agents/README.md)
-    * [Basics/Quick Start](developer-docs/marketplace-1/ai-agents/basics-quick-start.md)
-    * [Build your App](developer-docs/marketplace-1/ai-agents/build-your-app.md)
-    * [Submission Process](developer-docs/marketplace-1/ai-agents/submission-process.md)
+* [Apps for the Vultisig App Store](developer-docs/app-store/README.md)
+  * [App Store Overview](developer-docs/app-store/infrastructure-overview/README.md)
+    * [Infrastructure](developer-docs/app-store/infrastructure-overview/infrastructure.md)
+    * [Apps](developer-docs/app-store/infrastructure-overview/plugins.md)
+    * [Revenue](developer-docs/app-store/infrastructure-overview/revenue.md)
+  * [Create an App](developer-docs/app-store/ai-agents/README.md)
+    * [Basics/Quick Start](developer-docs/app-store/ai-agents/basics-quick-start.md)
+    * [Build your App](developer-docs/app-store/ai-agents/build-your-app.md)
+    * [Submission Process](developer-docs/app-store/ai-agents/submission-process.md)
 * [Vultisig Extension Integration Guide](developer-docs/vultisig-extension-integration-guide.md)
 * [Vultisig SDK](developer-docs/vultisig-sdk/README.md)
   * [How to use it](developer-docs/vultisig-sdk/how-to-use-it.md)

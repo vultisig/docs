@@ -75,10 +75,15 @@
 
 ## Developer Docs
 
+* [Apps for the Vultisig App Store](developer-docs/marketplace-1/README.md)
+  * [App Store Overview](developer-docs/marketplace-1/infrastructure-overview/README.md)
+    * [Infrastructure](developer-docs/marketplace-1/infrastructure-overview/infrastructure.md)
+    * [Apps](developer-docs/marketplace-1/infrastructure-overview/plugins.md)
+    * [Revenue](developer-docs/marketplace-1/infrastructure-overview/revenue.md)
+  * [Create an App](developer-docs/marketplace-1/ai-agents/README.md)
+    * [Basics/Quick Start](developer-docs/marketplace-1/ai-agents/basics-quick-start.md)
+    * [Build your App](developer-docs/marketplace-1/ai-agents/build-your-app.md)
+    * [Submission Process](developer-docs/marketplace-1/ai-agents/submission-process.md)
 * [Vultisig Extension Integration Guide](developer-docs/vultisig-extension-integration-guide.md)
-* [Infrastructure Overview](developer-docs/infrastructure-overview.md)
 * [Vultisig SDK](developer-docs/vultisig-sdk/README.md)
   * [How to use it](developer-docs/vultisig-sdk/how-to-use-it.md)
-* [Marketplace](developer-docs/marketplace-1/README.md)
-  * [Plugins](developer-docs/marketplace-1/plugins.md)
-  * [Ai Agents](developer-docs/marketplace-1/ai-agents.md)

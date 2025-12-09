@@ -1,0 +1,31 @@
+{
+    "verifier": {
+      "url": "http://localhost:8080",
+      "token": "localhost-apikey-app",
+      "party_prefix": "verifier"
+    },
+    "rpc":  "https://ethereum-rpc.publicnode.com"
+    ,
+    "vault_service": {
+        "relay": {
+            "server": "https://api.vultisig.com/router"
+        },
+        "local_party_prefix": "<your-plugin-id>",
+        "queue_email_task": false,
+        "encryption_secret": "test123",
+        "do_setup_msg": true
+    },
+  "redis": {
+    "uri": "redis://:password@localhost:6379"
+  },
+    "block_storage": {
+        "host": "http://localhost:9100",
+        "region": "us-east-1",
+        "access_key": "minioadmin",
+        "secret": "minioadmin",
+        "bucket": "app"
+    },
+    "postgres": {
+        "dsn": "postgres://myuser:mypassword@localhost:5432/app?sslmode=disable"
+    }
+}

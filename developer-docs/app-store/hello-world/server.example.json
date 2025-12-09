@@ -1,0 +1,23 @@
+{
+  "verifier": {
+    "token": "localhost-apikey-app"
+  },
+  "server": {
+    "host": "localhost",
+    "port": 8080,
+    "encryption_secret": "test123"
+  },
+  "postgres": {
+    "dsn": "postgres://myuser:mypassword@localhost:5432/app?sslmode=disable"
+  },
+  "redis": {
+    "uri": "redis://:password@localhost:6379"
+  },
+  "block_storage": {
+    "host": "http://localhost:9100",
+    "region": "us-east-1",
+    "access_key": "minioadmin",
+    "secret": "minioadmin",
+    "bucket": "app"
+  }
+}

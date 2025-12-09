@@ -84,7 +84,7 @@ Yes, most web apps can be accessed with the [Vultisig browser extension](../vult
 
 ### Are the Vault Shares automatically uploaded into iCloud?
 
-No. Users need to [manually backup the Vault Shares](https://docs.vultisig.com/user-actions/managing-your-vault). Users can then choose to keep the Vault Share files on iCloud.
+No. Users need to [manually backup the Vault Shares](/vultisig-app-actions/managing-your-vault/vault-backup). Users can then choose to keep the Vault Share files on iCloud.
 
 {% hint style="warning" %}
 **Do not store multiple Vault Share files in a single location. Anyone who has m Vault Shares (of a `m`-of-`n` setup) will have full access to the Vault**

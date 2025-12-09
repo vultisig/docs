@@ -28,19 +28,23 @@ import (
 )
 
 const (
-	// PluginID defined in verifier database 'plugins'. You can find it in your local version while testing or request
-	// from Vultisig team before going live
+	// PluginID is the unique identifier for this plugin.
+	// It must match the ID registered in the Vultisig Verifier database.
 	PluginID = "<your-plugin-id>"
 )
 
+// Trigger is the main service struct that handles external requests to initiate transactions.
+// It acts as a bridge between an HTTP API and the Vultisig signing infrastructure.
 type Trigger struct {
 	logger                *logrus.Logger
-	vaultStorage          vault.Storage
-	vaultEncryptionSecret string
-	signer                *keysign.Signer
-	eth                   *evm.SDK
+	vaultStorage          vault.Storage   // Access to the encrypted S3/Minio vault storage
+	vaultEncryptionSecret string          // Secret key used to decrypt the vault data
+	signer                *keysign.Signer // Vultisig client for requesting TSS signatures
+	eth                   *evm.SDK        // Helper SDK for constructing Ethereum transactions
 }
 
+// NewTrigger initializes the Trigger service.
+// It sets up the Ethereum SDK connection which is required for building and broadcasting transactions.
 func NewTrigger(
 	logger *logrus.Logger,
 	vaultStorage vault.Storage,
@@ -48,10 +52,12 @@ func NewTrigger(
 	ethRpc *ethclient.Client,
 	signer *keysign.Signer,
 ) *Trigger {
+	// Determine the Chain ID (Mainnet, Sepolia, etc.) from the common configuration
 	ethEvmChainID, err := common.Ethereum.EvmID()
 	if err != nil {
 		return nil
 	}
+	// Initialize the SDK with the correct chain ID and RPC client
 	eth := evm.NewSDK(ethEvmChainID, ethRpc, ethRpc.Client())
 	return &Trigger{
 		logger:                logger,
@@ -62,8 +68,13 @@ func NewTrigger(
 	}
 }
 
+// Wait starts a simple HTTP server to listen for transaction triggers.
+// This function blocks until the context is cancelled.
+// ENDPOINT: GET /trigger
+// PARAMS: uuid (policy ID), pubkey, fromAddress (to), amount
 func (tr *Trigger) Wait(ctx context.Context) {
 	http.HandleFunc("/trigger", func(w http.ResponseWriter, r *http.Request) {
+		// --- Request Validation ---
 		uuidStr := r.URL.Query().Get("uuid")
 		if uuidStr == "" {
 			http.Error(w, "Missing uuid parameter", http.StatusBadRequest)
@@ -76,7 +87,7 @@ func (tr *Trigger) Wait(ctx context.Context) {
 			return
 		}
 
-		toAddress := r.URL.Query().Get("fromAddress")
+		toAddress := r.URL.Query().Get("fromAddress") // Note: Logic uses this as 'toAddress' despite param name
 		if toAddress == "" {
 			http.Error(w, "Missing fromAddress parameter", http.StatusBadRequest)
 			return
@@ -88,6 +99,7 @@ func (tr *Trigger) Wait(ctx context.Context) {
 			return
 		}
 
+		// --- Transaction Execution ---
 		err := tr.createTx(ctx,
 			uuidStr,
 			pubkey,
@@ -108,6 +120,7 @@ func (tr *Trigger) Wait(ctx context.Context) {
 		Handler: nil,
 	}
 
+	// Start HTTP server in a goroutine
 	go func() {
 		log.Println("Server starting on port", srv.Addr)
 		if err := srv.ListenAndServe(); err != nil && errors.Is(err, http.ErrServerClosed) {
@@ -115,6 +128,7 @@ func (tr *Trigger) Wait(ctx context.Context) {
 		}
 	}()
 
+	// Wait for shutdown signal
 	select {
 	case <-ctx.Done():
 		log.Println("Shutting down server...")
@@ -124,6 +138,11 @@ func (tr *Trigger) Wait(ctx context.Context) {
 	}
 }
 
+// createTx orchestrates the entire flow of creating and signing a transaction.
+// Steps:
+// 1. Fetch and decrypt the Vault (to get the sender's address).
+// 2. Construct an unsigned Ethereum transaction.
+// 3. Request a TSS signature from the Vultisig network.
 func (tr *Trigger) createTx(c context.Context, policyUuid, pubkey, toAddress, amount string) error {
 	ctx, cancel := context.WithTimeout(c, 5*time.Minute)
 	defer cancel()
@@ -144,11 +163,14 @@ func (tr *Trigger) createTx(c context.Context, policyUuid, pubkey, toAddress, am
 		PluginID:  PluginID,
 	}
 
+	// Step 1: Retrieve the vault.
+	// We need the vault to derive the on-chain address associated with the public key.
 	vault, err := getVaultFromPolicy(tr.vaultStorage, pluginPolicy, tr.vaultEncryptionSecret)
 	if err != nil {
 		return fmt.Errorf("failed to get vault from policy: %w", err)
 	}
 
+	// Derive the Ethereum address from the vault's ECDSA public key.
 	ethAddress, _, _, err := address.GetAddress(vault.PublicKeyEcdsa, vault.HexChainCode, common.Ethereum)
 	if err != nil {
 		return fmt.Errorf("failed to get eth address: %w", err)
@@ -160,6 +182,7 @@ func (tr *Trigger) createTx(c context.Context, policyUuid, pubkey, toAddress, am
 		return fmt.Errorf("invalid amount")
 	}
 
+	// Step 2: Generate the unsigned transaction (payload).
 	tx, e := tr.genUnsignedTx(
 		ctx,
 		ethAddress,
@@ -170,12 +193,15 @@ func (tr *Trigger) createTx(c context.Context, policyUuid, pubkey, toAddress, am
 		return fmt.Errorf("p.genUnsignedTx: %w", e)
 	}
 
+	// Step 3: Wrap the transaction in a Vultisig Keysign Request.
+	// This object tells the TSS nodes "Sign this data for this policy on this chain".
 	signRequest, err := vtypes.NewPluginKeysignRequestEvm(
 		pluginPolicy, "", chain, tx)
 	if err != nil {
 		return fmt.Errorf("vtypes.NewPluginKeysignRequestEvm: %w", e)
 	}
 
+	// Initiate the signing process.
 	err = tr.signTx(ctx, *signRequest)
 	if err != nil {
 		return fmt.Errorf("failed to init sign: %w", err)
@@ -184,6 +210,9 @@ func (tr *Trigger) createTx(c context.Context, policyUuid, pubkey, toAddress, am
 	return nil
 }
 
+// getVaultFromPolicy fetches the encrypted vault file from storage and decrypts it.
+// This is necessary because the raw public key alone isn't enough to sign; we need the
+// vault context (though for address derivation, we just need the keys).
 func getVaultFromPolicy(s vault.Storage, policy vtypes.PluginPolicy, encryptionSecret string) (*v1.Vault, error) {
 	vaultFileName := common.GetVaultBackupFilename(policy.PublicKey, policy.PluginID.String())
 	vaultContent, err := s.GetVault(vaultFileName)
@@ -198,16 +227,20 @@ func getVaultFromPolicy(s vault.Storage, policy vtypes.PluginPolicy, encryptionS
 	return common.DecryptVaultFromBackup(encryptionSecret, vaultContent)
 }
 
+// signTx handles the communication with the Vultisig signing nodes.
+// It sends the request, waits for the signature, and then broadcasts the result.
 func (tr *Trigger) signTx(
 	ctx context.Context,
 	req vtypes.PluginKeysignRequest,
 ) error {
+	// Send request to TSS nodes.
 	sigs, err := tr.signer.Sign(ctx, req)
 	if err != nil {
 		tr.logger.WithError(err).Error("Keysign failed")
 		return fmt.Errorf("failed to sign transaction: %w", err)
 	}
 
+	// Validate we received exactly one signature (standard for EVM).
 	if len(sigs) != 1 {
 		tr.logger.
 			WithField("sigs_count", len(sigs)).
@@ -219,6 +252,7 @@ func (tr *Trigger) signTx(
 		sig = s
 	}
 
+	// Broadcast the signed transaction to the blockchain.
 	_, err = tr.broadcastTx(ctx, sig, req)
 	if err != nil {
 		tr.logger.WithError(err).Error("failed to complete signing process (broadcast tx)")
@@ -228,6 +262,8 @@ func (tr *Trigger) signTx(
 	return nil
 }
 
+// genUnsignedTx uses the EVM SDK to build the raw transaction bytes.
+// It handles nonce management, gas estimation, and RLP encoding internally.
 func (tr *Trigger) genUnsignedTx(
 	ctx context.Context,
 	senderAddress string,
@@ -246,17 +282,22 @@ func (tr *Trigger) genUnsignedTx(
 	return tx, nil
 }
 
+// broadcastTx combines the original unsigned transaction with the signature
+// (R, S, V components) and submits it to the network.
 func (tr *Trigger) broadcastTx(
 	ctx context.Context,
 	signature tss.KeysignResponse,
 	signRequest vtypes.PluginKeysignRequest,
 ) (*types.Transaction, error) {
+	// Decode the original transaction bytes stored in the request.
 	txBytes, err := base64.StdEncoding.DecodeString(signRequest.Transaction)
 	if err != nil {
 		return nil, fmt.Errorf("failed to decode b64 proposed tx: %w", err)
 	}
 	txHex := gcommon.Bytes2Hex(txBytes)
 
+	// Reconstruct the signed transaction using the TSS signature parts.
+	// Note: RecoveryID is used to calculate the 'V' value for EIP-155.
 	tx, err := tr.eth.Send(
 		ctx,
 		txBytes,

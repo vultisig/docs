@@ -19,7 +19,7 @@ Vultisig operates several different solutions and is constantly expanding, such 
 * A Wallet (Vultisig Vaults)
 * An Extension (Vultisig Extension)
 * Webapp (View only and Airdrop)
-* Marketplace (for Plugins and AI Agents)
+* App Store (for self-custodial automation)
 * An SDK for builders
 
 ***

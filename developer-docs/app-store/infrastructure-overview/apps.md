@@ -1,2 +1,2 @@
 # Apps
-
+Vultisig apps are vault automation workflows created by Vultisig or third-party developers that archive automatic on-chain interactions for users. Due to Vultisig's use of MPC technology, these apps are not limited by any specific chain, action, or protocol interaction. This gives developers the freedom to design secure, self-custodial automations without giving up private keys or granting full access to wallet funds.

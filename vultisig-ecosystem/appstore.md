@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/image (3).png
+coverY: 0
+---
+
 # App Store
 
 {% hint style="warning" %}
@@ -18,12 +23,27 @@ Vultisig apps are vault automation workflows created by Vultisig or third-party 
 
 ***
 
-Developers are able to unleash their creativity by making custom workflows and intelligent agents, earning direct revenue from their work.\
-Users benefit from a curated toolbox of trustworthy tools, ranging from automated trading strategies to sophisticated portfolio management solutions, integrated with Vultisig's secure infrastructure.
+## For Developers
 
-Through an interactive review and feedback mechanism, the marketplace fosters continuous improvement and community development, ensuring the highest possible quality solutions while rewarding innovative builders. This creates a self-sustaining ecosystem where value is transferred between creators and users, driving the growth of decentralized finance automation.
+Developers can unleash their creativity by creating custom workflows and intelligent agents, and earn direct revenue from their creations.
 
-Whether you're a developer looking to commercialize your expertise or a user looking to expand your crypto management capabilities, the Vultisig Marketplace is your gateway to the future of digital asset management automation."
+The App Store fosters continuous improvement and community development through an interactive review and feedback mechanism, ensuring the highest possible quality solutions while rewarding innovative builders. This creates a self-sustaining ecosystem where value is transferred between creators and users, driving the growth of decentralized finance automation.
+
+Whether you're a developer looking to monetize your skills or a user looking to enhance your crypto management capabilities, the Vultisig Marketplace is your gateway to the future of digital asset management automation.
+
+{% hint style="info" %}
+If you want to create a Vultisig App, look into the [developer section ](../developer-docs/app-store/)and join the discord to get support.
+{% endhint %}
+
+***
+
+## For Users
+
+Users can install apps and automations with a simple, one-click setup process. They benefit from a curated toolbox of reliable tools ranging from automated trading strategies to sophisticated portfolio management solutions. These tools are integrated with Vultisig's secure infrastructure.
+
+
+
+***
 
 ## Fee Structure
 
@@ -33,6 +53,3 @@ The fee structure will be as followed:\\
 * 30% of revenue will go to the $VULT token
 
 <figure><img src="../.gitbook/assets/Group 1000004758.png" alt=""><figcaption></figcaption></figure>
-
-\\
-

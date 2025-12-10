@@ -1,23 +1,23 @@
-# Vultisig SDK Users Guide
+# Vultisig SDK
 
 > **⚠️ Alpha Release**: This SDK is currently in alpha development. APIs may change without notice. Use in production at your own risk.
 
 ## Table of Contents
 
-- [Installation & Setup](#installation--setup)
-- [Quick Start Tutorial](#quick-start-tutorial)
-- [Core Concepts](#core-concepts)
-- [Password Management](#password-management)
-- [Vault Management](#vault-management)
-- [Essential Operations](#essential-operations)
-- [Token Swaps](#token-swaps)
-- [Configuration](#configuration)
-- [Caching System](#caching-system)
-- [Event System](#event-system)
-- [Quick Reference](#quick-reference)
-- [Platform Notes](#platform-notes)
+* [Installation & Setup](vultisig-sdk.md#installation--setup)
+* [Quick Start Tutorial](vultisig-sdk.md#quick-start-tutorial)
+* [Core Concepts](vultisig-sdk.md#core-concepts)
+* [Password Management](vultisig-sdk.md#password-management)
+* [Vault Management](vultisig-sdk.md#vault-management)
+* [Essential Operations](vultisig-sdk.md#essential-operations)
+* [Token Swaps](vultisig-sdk.md#token-swaps)
+* [Configuration](vultisig-sdk.md#configuration)
+* [Caching System](vultisig-sdk.md#caching-system)
+* [Event System](vultisig-sdk.md#event-system)
+* [Quick Reference](vultisig-sdk.md#quick-reference)
+* [Platform Notes](vultisig-sdk.md#platform-notes)
 
----
+***
 
 ## Installation & Setup
 
@@ -31,26 +31,27 @@ yarn add @vultisig/sdk
 
 ### Platform Requirements
 
-- **Node.js**: Version 20 or higher
-- **Browser**: Modern browsers with WebAssembly support (Chrome, Firefox, Safari, Edge)
-- **TypeScript**: Optional but recommended
+* **Node.js**: Version 20 or higher
+* **Browser**: Modern browsers with WebAssembly support (Chrome, Firefox, Safari, Edge)
+* **TypeScript**: Optional but recommended
 
 ### Browser Setup: WASM Files
 
 For browser environments, you need to serve the WASM files from your public directory:
 
-1. Copy WASM files to your public directory:
-   ```bash
-   cp node_modules/@vultisig/sdk/dist/*.wasm public/
-   ```
+1.  Copy WASM files to your public directory:
 
+    ```bash
+    cp node_modules/@vultisig/sdk/dist/*.wasm public/
+    ```
 2. The SDK will automatically load these files from the root path (`/`)
 
 ### Basic Initialization
 
 The SDK automatically uses the appropriate storage for your platform:
-- **Node.js**: `FileStorage` (stores in `~/.vultisig` by default)
-- **Browser**: `BrowserStorage` (uses IndexedDB with localStorage fallback)
+
+* **Node.js**: `FileStorage` (stores in `~/.vultisig` by default)
+* **Browser**: `BrowserStorage` (uses IndexedDB with localStorage fallback)
 
 ```typescript
 import { Vultisig } from '@vultisig/sdk'
@@ -76,7 +77,7 @@ await sdk.initialize()
 sdk.dispose()
 ```
 
----
+***
 
 ## Quick Start Tutorial
 
@@ -134,7 +135,7 @@ for (const [chain, balance] of Object.entries(balances)) {
 sdk.dispose()
 ```
 
----
+***
 
 ## Core Concepts
 
@@ -142,27 +143,27 @@ sdk.dispose()
 
 The SDK supports two types of vaults:
 
-- **FastVault**: 2-of-2 MPC with VultiServer assistance. Always encrypted with password. Best for quick setup and individual use.
-- **SecureVault** *(Coming Soon)*: Multi-device MPC without server. Optionally encrypted. Best for maximum security and multi-device scenarios.
+* **FastVault**: 2-of-2 MPC with VultiServer assistance. Always encrypted with password. Best for quick setup and individual use.
+* **SecureVault** _(Coming Soon)_: Multi-device MPC without server. Optionally encrypted. Best for maximum security and multi-device scenarios.
 
 ### Supported Chains
 
 The SDK supports 40+ blockchains across multiple ecosystems:
 
-- **EVM**: Ethereum, Polygon, BSC, Arbitrum, Optimism, Base, Avalanche, Blast, Cronos, ZkSync
-- **UTXO**: Bitcoin, Litecoin, Dogecoin, Bitcoin Cash, Dash
-- **Cosmos**: Cosmos Hub, THORChain, MayaChain, Osmosis, Dydx, Kujira, Terra
-- **Other**: Solana, Polkadot, Sui, TON, Ripple, Tron, Cardano
+* **EVM**: Ethereum, Polygon, BSC, Arbitrum, Optimism, Base, Avalanche, Blast, Cronos, ZkSync
+* **UTXO**: Bitcoin, Litecoin, Dogecoin, Bitcoin Cash, Dash
+* **Cosmos**: Cosmos Hub, THORChain, MayaChain, Osmosis, Dydx, Kujira, Terra
+* **Other**: Solana, Polkadot, Sui, TON, Ripple, Tron, Cardano
 
-See the [Quick Reference](#supported-chains) section for the complete list.
+See the [Quick Reference](vultisig-sdk.md#supported-chains) section for the complete list.
 
 ### Storage Layer
 
 By default, the SDK uses in-memory storage (data is lost on restart). For persistence:
 
-- **Browser**: Use IndexedDB storage (see [examples/browser](../examples/browser))
-- **Node.js**: Implement file-based storage or use a database
-- **Custom**: Implement the `Storage` interface
+* **Browser**: Use IndexedDB storage (see [examples/browser](examples/browser/))
+* **Node.js**: Implement file-based storage or use a database
+* **Custom**: Implement the `Storage` interface
 
 ```typescript
 type Storage = {
@@ -204,28 +205,31 @@ sdk.dispose()
 ```
 
 **Use cases for stateless usage:**
-- **One-off signing**: Sign a transaction without persisting vault state
-- **Address derivation**: Generate addresses without storing vault data
-- **Testing**: Unit and integration tests without filesystem side effects
-- **Serverless functions**: Lambda/Cloud Functions that load vault per-request
-- **CLI tools**: Command-line utilities that operate on vault files
+
+* **One-off signing**: Sign a transaction without persisting vault state
+* **Address derivation**: Generate addresses without storing vault data
+* **Testing**: Unit and integration tests without filesystem side effects
+* **Serverless functions**: Lambda/Cloud Functions that load vault per-request
+* **CLI tools**: Command-line utilities that operate on vault files
 
 **What works in stateless mode:**
-- ✅ Address derivation
-- ✅ Balance checking
-- ✅ Transaction signing (FastVault)
-- ✅ Gas estimation
-- ✅ Swap quotes and execution
-- ✅ Token/chain management (in-memory only)
+
+* ✅ Address derivation
+* ✅ Balance checking
+* ✅ Transaction signing (FastVault)
+* ✅ Gas estimation
+* ✅ Swap quotes and execution
+* ✅ Token/chain management (in-memory only)
 
 **What doesn't persist:**
-- ❌ Vault preferences (chains, tokens, currency)
-- ❌ Cached balances/addresses (recreated each session)
-- ❌ Password cache (must provide password each time)
+
+* ❌ Vault preferences (chains, tokens, currency)
+* ❌ Cached balances/addresses (recreated each session)
+* ❌ Password cache (must provide password each time)
 
 **Note**: The vault file (`.vult`) itself is never modified by the SDK—it's read-only. Persistence is about SDK metadata and cached data, not the vault file contents.
 
----
+***
 
 ## Password Management
 
@@ -233,10 +237,10 @@ Password management is a critical aspect of the SDK. FastVaults are always encry
 
 ### When Passwords Are Required
 
-- **FastVault**: Always encrypted, password required for all operations
-- **SecureVault**: Optional encryption, password only required if encrypted
-- **Import**: Password required if the vault file is encrypted
-- **Export**: Password optional, encrypts the backup file
+* **FastVault**: Always encrypted, password required for all operations
+* **SecureVault**: Optional encryption, password only required if encrypted
+* **Import**: Password required if the vault file is encrypted
+* **Export**: Password optional, encrypts the backup file
 
 ### Setting Up Password Callback
 
@@ -416,7 +420,7 @@ const { filename, data } = await vault.export()
 6. **Clear password cache on logout**
 7. **Use secure password input** (type="password" in forms)
 
----
+***
 
 ## Vault Management
 
@@ -536,7 +540,7 @@ await vault.rename('New Wallet Name')
 console.log('Vault renamed to:', vault.name)
 ```
 
----
+***
 
 ## Essential Operations
 
@@ -720,7 +724,7 @@ const totalEur = await vault.getTotalValue()
 console.log(`Total portfolio value: €${totalEur}`)
 ```
 
----
+***
 
 ## Token Swaps
 
@@ -728,11 +732,11 @@ The SDK supports token swaps across multiple chains and protocols, including cro
 
 ### Supported Swap Routes
 
-| Route Type | Provider | Example |
-| ---------- | -------- | ------- |
-| Cross-chain (BTC, ETH, Cosmos) | THORChain | BTC → ETH, ETH → ATOM |
-| Same-chain EVM | 1inch | ETH → USDC on Ethereum |
-| Cross-chain EVM | LiFi | Polygon → Arbitrum |
+| Route Type                     | Provider  | Example                |
+| ------------------------------ | --------- | ---------------------- |
+| Cross-chain (BTC, ETH, Cosmos) | THORChain | BTC → ETH, ETH → ATOM  |
+| Same-chain EVM                 | 1inch     | ETH → USDC on Ethereum |
+| Cross-chain EVM                | LiFi      | Polygon → Arbitrum     |
 
 ### Checking Swap Support
 
@@ -910,7 +914,7 @@ try {
 }
 ```
 
----
+***
 
 ## Configuration
 
@@ -1037,7 +1041,7 @@ await sdk.initialize()
 sdk.dispose()
 ```
 
----
+***
 
 ## Caching System
 
@@ -1089,7 +1093,7 @@ const sdk = new Vultisig({
 
 ### Password Caching
 
-Passwords are cached to avoid repeated prompts (see [Password Management](#password-management)):
+Passwords are cached to avoid repeated prompts (see [Password Management](vultisig-sdk.md#password-management)):
 
 ```typescript
 const sdk = new Vultisig({
@@ -1125,10 +1129,10 @@ const freshValue = await vault.getTotalValue()
 
 Caches are automatically invalidated when:
 
-- Balance updated from transaction
-- Token added/removed
-- Chain added/removed
-- Currency changed
+* Balance updated from transaction
+* Token added/removed
+* Chain added/removed
+* Currency changed
 
 Manual cache clearing:
 
@@ -1143,7 +1147,7 @@ await vault.updateBalances()
 await vault.lock()
 ```
 
----
+***
 
 ## Event System
 
@@ -1245,7 +1249,7 @@ vault.on('balanceUpdated', handler)
 vault.off('balanceUpdated', handler)
 ```
 
----
+***
 
 ## Quick Reference
 
@@ -1466,7 +1470,7 @@ new Vultisig({
 })
 ```
 
----
+***
 
 ## Platform Notes
 
@@ -1484,7 +1488,7 @@ cp node_modules/@vultisig/sdk/dist/*.wasm public/
 # Next.js: place in public/ directory
 ```
 
-**IndexedDB Storage**: For persistent storage, use IndexedDB (see [examples/browser](../examples/browser) for implementation).
+**IndexedDB Storage**: For persistent storage, use IndexedDB (see [examples/browser](examples/browser/) for implementation).
 
 **Import**:
 
@@ -1496,9 +1500,10 @@ await sdk.initialize()
 ```
 
 **Security Considerations**:
-- Use `type="password"` for password inputs
-- Consider using Web Crypto API for sensitive data
-- Implement Content Security Policy (CSP)
+
+* Use `type="password"` for password inputs
+* Consider using Web Crypto API for sensitive data
+* Implement Content Security Policy (CSP)
 
 ### Node.js
 
@@ -1513,7 +1518,7 @@ await sdk.initialize()
 sdk.dispose()
 ```
 
-**Custom Storage**: For custom persistence needs, implement the `Storage` interface (see [Custom Storage Implementation](#custom-storage-implementation) for a full example).
+**Custom Storage**: For custom persistence needs, implement the `Storage` interface (see [Custom Storage Implementation](vultisig-sdk.md#custom-storage-implementation) for a full example).
 
 **Password Input**: Use libraries like `inquirer` or `prompts` for CLI password input.
 
@@ -1525,17 +1530,16 @@ sdk.dispose()
 
 **Status**: Coming soon
 
----
+***
 
 ## Additional Resources
 
-- **Examples**:
-  - [Browser Example](../examples/browser) - Full React app with UI
-  - [CLI](../clients/cli) - Command-line wallet with interactive shell mode
+* **Examples**:
+  * [Browser Example](examples/browser/) - Full React app with UI
+  * [CLI](clients/cli/) - Command-line wallet with interactive shell mode
+* **GitHub**: [vultisig-sdk](https://github.com/vultisig/vultisig-sdk)
+* **Issues**: Report bugs and request features on GitHub
 
-- **GitHub**: [vultisig-sdk](https://github.com/vultisig/vultisig-sdk)
-- **Issues**: Report bugs and request features on GitHub
-
----
+***
 
 **Questions or feedback?** Open an issue on GitHub or check the example projects for more detailed implementations.

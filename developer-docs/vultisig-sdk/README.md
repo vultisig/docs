@@ -1,2 +1,0 @@
-# Vultisig SDK
-

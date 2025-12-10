@@ -1,24 +1,25 @@
 ---
-description: Empowering Ai Builders
+description: Empowering Builders
 ---
 
 # Vultisig SDK
 
-Vultisig aims to create a vibrant and widely adopted [marketplace](/broken/pages/qfPXBn9gvhZVglys23ea); to achieve this, the Vultisig team created the Vultisig SDK to seamlessly enable Ai agent builders to tap into the seedless, cross-chain, trust-minimized technology that powers Vultisig Vaults.\
+Vultisig aims to make Web3 safer and provide access to its technology. To achieve this, the Vultisig team created the Vultisig SDK, which enables developers to easily access cross-chain, multi-factor technology powered by Vultisig.\
 \
-The SDK opens two powerful paths for builders:
+The SDK opens powerful possibilities for developers:
 
-* Create fully or partially autonomous agents that operate independently across multiple chains, or create intelligent assistants that enhance existing vault setups - requiring user approval for actions or performing approved operations autonomously.
-* Create plugins that automate the workflow only within the limits set by the creator. For example, the DCA plugins.
+* Add Vultisig technology to existing seedphrase-based wallets
+* Add Vultisig technology to your web application to easily onboard users to Web3
+* Add Vultisig technology to coding environments without storing toxic seed phrases
 
-By removing old limitations and technical boundaries, the Vultisig SDK is a quantum leap in the field. Developers can now build fully cross-chain agent-based systems that combine the security of MPC technology with the intelligence of AI, ushering in a new age of automated, secure and intelligent digital asset management.
+By removing old limitations and technical boundaries, the Vultisig SDK is a quantum leap in the field.&#x20;
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+Developers can now build web3 applications to onboard users into a seed-less, cross-chain world that combine the security of MPC technology and ease of  use for both developers and users
 
-Use the Vultisig SDK here:
+***
 
-{% embed url="https://github.com/vultisig/vultisig-sdk" %}
+**Start building with the SDK here:**
 
-{% hint style="info" %}
-More documentation on implementation will come soon
-{% endhint %}
+{% content-ref url="../developer-docs/vultisig-sdk.md" %}
+[vultisig-sdk.md](../developer-docs/vultisig-sdk.md)
+{% endcontent-ref %}

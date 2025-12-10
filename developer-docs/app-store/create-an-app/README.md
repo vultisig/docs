@@ -4,8 +4,30 @@ This section is intended to guide the developers when building their own Vultisi
 
 The section consist of the whole creation journey for a developer:
 
-1. [Quick start basics](basics-quick-start.md)
-2. [Introduction Guide](build-your-app.md)
-3. [Adding new chains](adding-a-new-chain-to-the-vultisig-app-ecosystem.md) (if one is missing)
-4. Getting the building blocks and building the apps
-5. [Submission Process](submission-process.md)
+{% stepper %}
+{% step %}
+[Quick start basics](basics-quick-start.md)
+{% endstep %}
+
+{% step %}
+[Introduction Guide](build-your-app/)
+{% endstep %}
+
+{% step %}
+[Adding new chains](build-your-app/adding-a-new-chain-to-the-vultisig-app-ecosystem.md)
+
+If your chain is missing
+{% endstep %}
+
+{% step %}
+Building the App
+{% endstep %}
+
+{% step %}
+[Submission Process](submission-process.md)
+{% endstep %}
+{% endstepper %}
+
+{% hint style="info" %}
+It is intended to create a straight forward and easy to understand ecosystem. If something is unclear or you need help please do not hesitate to ping us in our discord.
+{% endhint %}

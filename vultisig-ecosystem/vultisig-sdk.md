@@ -4,9 +4,9 @@ description: Empowering Ai Builders
 
 # Vultisig SDK
 
-Vultisig aims to create a vibrant and widely adopted [marketplace](marketplace.md); to achieve this, the Vultisig team created the Vultisig SDK to seamlessly enable Ai agent builders to tap into the seedless, cross-chain, trust-minimized technology that powers Vultisig Vaults.\
+Vultisig aims to create a vibrant and widely adopted [marketplace](/broken/pages/qfPXBn9gvhZVglys23ea); to achieve this, the Vultisig team created the Vultisig SDK to seamlessly enable Ai agent builders to tap into the seedless, cross-chain, trust-minimized technology that powers Vultisig Vaults.\
 \
-The SDK opens two powerful paths for builders:&#x20;
+The SDK opens two powerful paths for builders:
 
 * Create fully or partially autonomous agents that operate independently across multiple chains, or create intelligent assistants that enhance existing vault setups - requiring user approval for actions or performing approved operations autonomously.
 * Create plugins that automate the workflow only within the limits set by the creator. For example, the DCA plugins.

@@ -1,9 +1,8 @@
-
-# Infrastructure Overview
+# Infrastructure
 
 ## Services and Modules
 
-![Vultisig ecosystem](../../../.gitbook/assets/general.png)
+![Vultisig ecosystem](<../../../.gitbook/assets/Services and Modules.jpg>)
 
 | Component       | Role / Description                                                                                                                                                                                                                                                                        |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -24,7 +24,7 @@ All basic building blocks can be found in our [hello-world](https://github.com/v
 
 To integrate your application with the Vultisig ecosystem, you need to build an app that at least supports:
 
-{% tabs fullWidth="true" %}
+{% tabs fullWidth="false" %}
 {% tab title="Mandatory" %}
 * &#x20;`/reshare` and `/sign` endpoints for TSS operations
 * API structure for automation management

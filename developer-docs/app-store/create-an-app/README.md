@@ -6,28 +6,30 @@ The section consist of the whole creation journey for a developer:
 
 {% stepper %}
 {% step %}
-[Quick start basics](basics-quick-start.md)
+## [Quick start basics](basics-quick-start.md)
 {% endstep %}
 
 {% step %}
-[Introduction Guide](build-your-app/)
+### [Introduction Guide](build-your-app/)
 {% endstep %}
 
 {% step %}
-[Adding new chains](build-your-app/adding-a-new-chain-to-the-vultisig-app-ecosystem.md)
+#### [Adding new chains](build-your-app/adding-a-new-chain-to-the-vultisig-app-ecosystem.md) (optional)
 
-If your chain is missing
+{% hint style="info" %}
+The process is unlikely due to Vultisig's constant increase in chain coverage for the App Store ecosystem.
+{% endhint %}
 {% endstep %}
 
 {% step %}
-Building the App
+## Building the App
 {% endstep %}
 
 {% step %}
-[Submission Process](submission-process.md)
+## [Submission Process](submission-process.md)
 {% endstep %}
 {% endstepper %}
 
-{% hint style="info" %}
-It is intended to create a straight forward and easy to understand ecosystem. If something is unclear or you need help please do not hesitate to ping us in our discord.
+{% hint style="success" %}
+It is intended to create a straight forward and easy to understand ecosystem and documentation. If something is unclear or you need help please do not hesitate to ping us in our discord.
 {% endhint %}

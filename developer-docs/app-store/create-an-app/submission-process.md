@@ -29,7 +29,6 @@ Below are typical app types found in Vultisig’s ecosystem. Refer to them when 
 | App ID            | Title         | Description                      | Category | Endpoint                                         |
 | ----------------- | ------------- | -------------------------------- | -------- | ------------------------------------------------ |
 | vultisig-dca-0000 | Recurring buy | Dollar Cost Averaging automation | app      | https://apps.vultisig.com/apps/vultisig-dca-0000 |
-| TBA               |               |                                  |          |                                                  |
 
 App Store supports both standard apps with business logic or automation, and agent-based apps for advanced trading and verification tasks.
 

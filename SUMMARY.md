@@ -82,7 +82,6 @@
   * [Create an App](developer-docs/app-store/create-an-app/README.md)
     * [Basics/Quick Start](developer-docs/app-store/create-an-app/basics-quick-start.md)
     * [Build your App: A Developer's Guide](developer-docs/app-store/create-an-app/build-your-app/README.md)
-      * [Tools](developer-docs/app-store/create-an-app/build-your-app/tools.md)
       * [Adding a New Chain to the Vultisig App Ecosystem](developer-docs/app-store/create-an-app/build-your-app/adding-a-new-chain-to-the-vultisig-app-ecosystem.md)
     * [Submission Process](developer-docs/app-store/create-an-app/submission-process.md)
 * [Vultisig Extension Integration Guide](developer-docs/vultisig-extension-integration-guide.md)

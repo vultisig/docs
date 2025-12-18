@@ -86,3 +86,4 @@
     * [Submission Process](developer-docs/app-store/create-an-app/submission-process.md)
 * [Vultisig Extension Integration Guide](developer-docs/vultisig-extension-integration-guide.md)
 * [Vultisig SDK](developer-docs/vultisig-sdk.md)
+  * [SDK CLI](/developer-docs/vultisig-sdk/CLI.md)

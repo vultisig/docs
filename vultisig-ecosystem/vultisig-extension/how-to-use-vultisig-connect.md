@@ -1,3 +1,9 @@
+---
+description: >-
+  Install and use the Vultisig Chrome extension. Connect your vault to DeFi
+  dApps step-by-step. Pair devices and sign transactions securely.
+---
+
 # How to use Vultisig Extension
 
 ## How to install Vultisig Extension

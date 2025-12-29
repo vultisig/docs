@@ -1,3 +1,9 @@
+---
+description: >-
+  Vultiserver enables automatic co-signing for Fast Vaults. One-device
+  experience with multi-factor security. Configurable transaction policies.
+---
+
 # Vultiserver
 
 Vultiserver is an infrastructure feature of Vultisig that enables automatic co-signing of transactions within a user's Vault, but only under [pre-defined parameters](what-can-be-configured.md) set by the Vault owner. It acts as an automatic co-signer that can also engage when only certain user-defined criteria are met.

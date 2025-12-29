@@ -1,5 +1,7 @@
 ---
-description: How to sign a transaction.
+description: >-
+  How Vultisig keysigning works. Multi-device threshold signing process
+  explained. Scan QR, approve on devices, broadcast securely.
 ---
 
 # Keysign

@@ -1,3 +1,9 @@
+---
+description: >-
+  Create a Secure Vault with multiple devices for cold storage security.
+  Flexible threshold signing (2-of-2 up to m-of-n). Ideal for holdings and DAOs.
+---
+
 # Secure Vault
 
 ## Overview

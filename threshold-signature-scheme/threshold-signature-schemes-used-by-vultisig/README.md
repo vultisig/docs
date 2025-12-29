@@ -1,5 +1,7 @@
 ---
-description: 'Understanding Vultisig's TSS Protocols: GG20 and DKLS23'
+description: >-
+  Vultisig TSS protocols compared: GG20 (legacy) vs DKLS23 (modern). Threshold
+  signing explained—split keys, no single point of failure.
 ---
 
 # Threshold Signature Schemes used by Vultisig

@@ -1,3 +1,9 @@
+---
+description: >-
+  Vultisig browser extension for Chrome. Connect your vault to DeFi dApps
+  and Web3 sites with MPC security. No seed phrase exposure.
+---
+
 # Vultisig Extension
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>

@@ -1,5 +1,7 @@
 ---
-description: What happens if the TSS software is unavailable
+description: >-
+  Emergency recovery tool for Vultisig vaults. Reconstruct keys if TSS
+  software becomes unavailable. Last-resort fund recovery process.
 ---
 
 # Emergency Recovery

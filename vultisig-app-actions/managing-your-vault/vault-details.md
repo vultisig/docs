@@ -1,7 +1,7 @@
 ---
 description: >-
-  Here you can view the details of your vault, including parties and public
-  keys.
+  View vault details: signing parties, ECDSA and EdDSA public keys, and vault
+  configuration. Verify your multi-device setup at a glance.
 ---
 
 # Vault Details

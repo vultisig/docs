@@ -1,3 +1,9 @@
+---
+description: >-
+  Vultisig Relay Server enables encrypted device-to-device communication.
+  End-to-end encrypted keygen and keysign messaging. Open source.
+---
+
 # Relay Server
 
 The Vultisig Relay Server is an infrastructure feature of Vultisig that enables encrypted messaging between user devices over the Internet.&#x20;

@@ -1,3 +1,9 @@
+---
+description: >-
+  Earn swap fee rebates with Vultisig referrals. Share your code, get rewards
+  via THORChain nested affiliates. Passive income from your network.
+---
+
 # Vultisig Referrals
 
 ## What are Vultisig Referrals

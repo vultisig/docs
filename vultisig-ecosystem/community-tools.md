@@ -1,7 +1,7 @@
 ---
 description: >-
-  Vultisig is open source, allowing community members to build upon it. All
-  applications listed in this section are approved and endorsed by Vultisig.
+  Community-built Vultisig tools: Vault Share Decoder and more. Open source
+  ecosystem—approved and endorsed applications.
 ---
 
 # Community Tools

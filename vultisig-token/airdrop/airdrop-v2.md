@@ -1,4 +1,7 @@
 ---
+description: >-
+  Vultisig Airdrop V2: Enhanced rewards system. Earn $VULT based on vault
+  value × time held. Achievement tiers, daily drops, and multipliers.
 cover: ../../.gitbook/assets/Vultisig - 1200x630 - 56- 2x.png
 coverY: 0
 ---
@@ -157,7 +160,7 @@ $$
 
 <figure><img src="../../.gitbook/assets/Frame 1000005131.png" alt="" width="279"><figcaption></figcaption></figure>
 
-*   Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [VultiConnect](https://chromewebstore.google.com/detail/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?utm_source=item-share-cp) or with uploading your Vault QR\
+*   Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Extension](https://chromewebstore.google.com/detail/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?utm_source=item-share-cp) or with uploading your Vault QR\
 
 
     <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>

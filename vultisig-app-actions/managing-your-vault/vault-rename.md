@@ -1,5 +1,7 @@
 ---
-description: The Vault can be Renamed here.
+description: >-
+  Rename your Vultisig vault for easy identification. Local change only—doesn't
+  affect other paired devices. Quick vault organization.
 ---
 
 # Vault Rename

@@ -1,5 +1,7 @@
 ---
-description: How do Threshold Signatures work with the DKLS23 protocol?
+description: >-
+  DKLS23 protocol deep-dive. Vultisig's modern TSS: faster signing, fewer
+  rounds, improved security. Developed by Silence Laboratories.
 ---
 
 # How DKLS23 works

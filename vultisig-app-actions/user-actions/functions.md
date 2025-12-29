@@ -1,3 +1,9 @@
+---
+description: >-
+  Access DeFi functions directly in Vultisig. Bond to THORChain nodes, stake
+  TCY/RUJI, IBC transfers, and more—without connecting to external dApps.
+---
+
 # Functions
 
 Vultisig supports advanced DeFi actions, or functions. They allow users to access their favorite DeFi apps directly within the app with just a few clicks, eliminating the need to connect to a dApp or send funds outside of a secure environment.

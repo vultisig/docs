@@ -1,5 +1,7 @@
 ---
-description: Exporting vault shares, backing up or importing vaults shares.
+description: >-
+  Back up your Vultisig vault shares securely. Export, import, and recover
+  vaults without seed phrases. Essential guide to protecting your assets.
 ---
 
 # Vault Backups

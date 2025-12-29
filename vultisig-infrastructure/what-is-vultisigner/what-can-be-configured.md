@@ -1,3 +1,9 @@
+---
+description: >-
+  Vultiserver transaction policies (coming soon): Spending limits, whitelisted
+  addresses, time delays, and custom rules for automated co-signing.
+---
+
 # Transaction Policies
 
 {% hint style="info" %}

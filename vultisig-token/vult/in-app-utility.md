@@ -1,7 +1,7 @@
 ---
 description: >-
-  Vultisig users will directly receive benefits of holding $VULT in their
-  Vaults.Trading Fee Tiers
+  $VULT in-app utility: Trading fee discounts up to 50% based on holdings.
+  Tier system from Bronze to Diamond. Hold more, pay less.
 ---
 
 # In-App Utility

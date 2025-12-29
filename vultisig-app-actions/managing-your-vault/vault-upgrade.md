@@ -1,5 +1,7 @@
 ---
-description: How to upgrade your Vault
+description: >-
+  Upgrade your Vultisig vault from GG20 to DKLS23 protocol. Faster signing,
+  better security. Same addresses, no fund migration needed.
 ---
 
 # Vault Upgrade
@@ -10,7 +12,7 @@ Upgrades are only available for vaults of the GG20 type.
 
 ## What is Upgrading?
 
-Upgrading your Vault changes the underlying TSS protocol. This unlocks faster signing speeds and enables compatibility with the [Vultisig Extension](../../vultisig-ecosystem/vulticonnect/). More specific technical details are highlighted in the [TSS section](../../threshold-signature-scheme/threshold-signature-schemes-used-by-vultisig/) of the documentation.
+Upgrading your Vault changes the underlying TSS protocol. This unlocks faster signing speeds and enables compatibility with the [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/). More specific technical details are highlighted in the [TSS section](../../threshold-signature-scheme/threshold-signature-schemes-used-by-vultisig/) of the documentation.
 
 ***
 

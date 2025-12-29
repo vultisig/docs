@@ -1,18 +1,31 @@
 ---
-description: Vultisig Frequently Asked Questions
+description: >-
+  Vultisig FAQ: Supported chains, device compatibility, vault backup, security
+  features, and how TSS multi-sig differs from traditional wallets.
 ---
 
 # Frequently Asked Questions
+
+## Security & Architecture
 
 ### What are the biggest differences between Vultisig and all the other cold and hot wallets out there?
 
 All other cold and hot wallets are single-sig and rely on one set of seed phrase and one piece of private key, while Vultisig is a Multi-Sig Multi-Device wallet that does not rely on seed phrases and has no single point of failure, enhancing wallet security. Vultisig utilizes the Threshold Signature Scheme (TSS): [Reference](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b).
 
+### Can users import their existing address into Vultisig?
+
+The single-sig private key and seed phrase of existing addresses are single-sig wallets, and cannot be imported into a Vultisig - which is mpc wallet.\
+This is to maintain and improve the security of the vaults, as single-sig seed phrases may have been previously exposed or had a bad generation, making them more vulnerable.
+
+***
+
+## Platform Support
+
 ### What Platforms are supported and which are planned?
 
 * Available: iOS, Android, Windows, Linux, Chrome Extension and Web
 
-### What versions of iOS/IPadOS/Mac are supported?
+### What versions of iOS/iPadOS/Mac are supported?
 
 **iOS:** Minimum iOS 17 with iPhone XS (2018)
 
@@ -34,6 +47,10 @@ Minimum API Level 26; Android 8.0 (Oreo) or newer.
 ### Can users mix and match iOS and Android devices?
 
 Yes! Vault shares and signers are device agnostic. Users can mix and match any devices (iOS, Android, browser apps, etc.) to be used as signers.
+
+***
+
+## Chains & Assets
 
 ### What chains are supported by Vultisig?
 
@@ -78,9 +95,9 @@ Generally any chains on [Trust Wallet Core](https://github.com/trustwallet/walle
 
 Yes, most ERC-20 and SPL tokens are available. More and more tokens on different chains will become available gradually.
 
-### Will Vultisig support web apps and different platforms like Uniswap or Li-Fi(JumperExchange)?
+***
 
-Yes, most web apps can be accessed with the [Vultisig browser extension](../vultisig-ecosystem/vulticonnect/). Some platforms will need a dedicated integration with Vultisig.
+## Vault Management & Backup
 
 ### Are the Vault Shares automatically uploaded into iCloud?
 
@@ -89,16 +106,6 @@ No. Users need to [manually backup the Vault Shares](/vultisig-app-actions/manag
 {% hint style="warning" %}
 **Do not store multiple Vault Share files in a single location. Anyone who has m Vault Shares (of a `m`-of-`n` setup) will have full access to the Vault**
 {% endhint %}
-
-### Can users import their existing address into Vultisig?
-
-The single-sig private key and seed phrase of existing addresses are single-sig wallets, and cannot be imported into a Vultisig - which is mpc wallet.\
-This is to maintain and improve the security of the vaults, as single-sig seed phrases may have been previously exposed or had a bad generation, making them more vulnerable.
-
-### Can we bond RUNE/ provide liquidity on THORChain/MAYA by using Vultisig and will it be counted for airdrop?
-
-Yes, Vultisig supports MsgDeposits for THORChain and MAYA Protocol.\
-Saver, Liquidity Positions, Lending and Bonding will be counted for the airdrop
 
 ### What is the best practice in the event of losing 67% of vault shares at the same time?
 
@@ -118,6 +125,23 @@ _Scenario 2 :_ WITHOUT mobile remote data wipe feature setup done and with at le
 **You would still lose access to your funds if you do not have at least 67% of vault shares backup done properly.**\
 **ALWAYS BACK UP EACH DEVICE INDIVIDUALLY**
 {% endhint %}
+
+***
+
+## Features & Integrations
+
+### Will Vultisig support web apps and different platforms like Uniswap or Li-Fi(JumperExchange)?
+
+Yes, most web apps can be accessed with the [Vultisig browser extension](../vultisig-ecosystem/vultisig-extension/). Some platforms will need a dedicated integration with Vultisig.
+
+### Can we bond RUNE/ provide liquidity on THORChain/MAYA by using Vultisig and will it be counted for airdrop?
+
+Yes, Vultisig supports MsgDeposits for THORChain and MAYA Protocol.\
+Saver, Liquidity Positions, Lending and Bonding will be counted for the airdrop
+
+***
+
+## $VULT Token
 
 ### What is the key utility of $VULT token to the ordinary users?
 

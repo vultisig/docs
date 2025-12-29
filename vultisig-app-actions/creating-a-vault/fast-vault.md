@@ -1,3 +1,9 @@
+---
+description: >-
+  Create a Fast Vault in seconds—single-device hot wallet powered by
+  Vultisigner. Perfect for daily transactions with seedless MPC security.
+---
+
 # Fast Vault
 
 ## Overview

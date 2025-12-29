@@ -1,5 +1,7 @@
 ---
-description: Everything related to security what affects the Vultisig Project
+description: >-
+  Vultisig security: Audited by Kudelski, Code4rena, and Trail of Bits.
+  DKLS23 threshold signatures eliminate seed phrase risks.
 ---
 
 # Security

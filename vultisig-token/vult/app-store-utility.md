@@ -1,3 +1,9 @@
+---
+description: >-
+  $VULT App Store utility: Developer registration fees, app listing fees,
+  and premium placement. Token burns drive scarcity.
+---
+
 # App Store Utility
 
 {% hint style="info" %}

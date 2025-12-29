@@ -1,3 +1,9 @@
+---
+description: >-
+  Vultisig web app for view-only vault access. Perfect for DAOs and treasuries
+  to share holdings publicly. Track your airdrop position.
+---
+
 # Web App
 
 The web app is a "view-only" version of all Vultisig Vaults, giving DAOs and Treasuries the perfect tool to share their holdings without fear that any stakeholder will be able to access the assets.

@@ -1,3 +1,9 @@
+---
+description: >-
+  Vault QR code contains root public key and vault ID. Use for pairing
+  and verification—not a backup. Share safely for view-only access.
+---
+
 # Vault QR
 
 ## What is a Vault QR?

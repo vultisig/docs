@@ -1,4 +1,7 @@
 ---
+description: >-
+  Self-custodial automation marketplace. Install DCA, recurring payments, and
+  trading apps without giving up custody. MPC-secured, multi-chain.
 cover: ../.gitbook/assets/image (3).png
 coverY: 0
 ---

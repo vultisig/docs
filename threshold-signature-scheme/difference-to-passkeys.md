@@ -1,5 +1,7 @@
 ---
-description: What is the difference between TSS and Passkeys??
+description: >-
+  TSS vs Passkeys comparison. Why threshold signatures offer better crypto
+  security: multi-device, no single point of failure, true self-custody.
 ---
 
 # Difference to Passkeys

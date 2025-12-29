@@ -1,5 +1,7 @@
 ---
-description: Actions
+description: >-
+  TSS operations explained: Key Generation (vault creation), Key Signing
+  (transactions), and Resharing (device changes). Core MPC actions.
 ---
 
 # TSS Actions

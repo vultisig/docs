@@ -1,5 +1,7 @@
 ---
-description: How to sign a transaction with your Vault
+description: >-
+  Sign transactions with Vultisig: Fast Vault (one-tap) or Secure Vault
+  (multi-device QR scan). Step-by-step signing guide for both setups.
 ---
 
 # Signing a Transaction

@@ -1,3 +1,9 @@
+---
+description: >-
+  Technical deep-dive into Vultisig keysigning. QR-based session pairing,
+  encrypted relay messaging, threshold signing ceremony, and broadcast.
+---
+
 # How Keysigning works
 
 <figure><img src="../../.gitbook/assets/How keysign works.png" alt=""><figcaption><p>Flowchart - TX signing</p></figcaption></figure>

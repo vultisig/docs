@@ -1,5 +1,7 @@
 ---
-description: What is the difference between TSS and Multi Signatures?
+description: >-
+  TSS vs Multi-Sig explained. Why threshold signatures are superior: no
+  private key reconstruction, chain-agnostic, lower fees, better privacy.
 ---
 
 # Difference to Multi-Signatures

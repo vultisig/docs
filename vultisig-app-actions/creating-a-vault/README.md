@@ -1,5 +1,7 @@
 ---
-description: How to create a vault.
+description: >-
+  Create a Vultisig vault in minutes. Choose Fast Vault for quick setup or
+  Secure Vault for multi-device security. No seed phrases required.
 ---
 
 # Creating a Vault

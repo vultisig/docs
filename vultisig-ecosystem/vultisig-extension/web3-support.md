@@ -1,3 +1,9 @@
+---
+description: >-
+  Supported dApps and Web3 sites for Vultisig Extension. DeFi, NFT marketplaces,
+  and utilities. Native integration or wallet injection fallback.
+---
+
 # Web3 support
 
 The Vultisig Extension aims to support all dApps and interfaces where a wallet connection is possible.\

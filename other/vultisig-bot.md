@@ -1,3 +1,9 @@
+---
+description: >-
+  Vultisig Telegram bot for airdrop tracking. Refer friends, check leaderboard
+  position, and view your farmed VULTIES points.
+---
+
 # Vultisig Bot
 
 The Vultisig Bot is a telegram mini-application to gamify the airdrop and increase the reach of Vultisig. It is used for easy access to the Vultisig Airdrop:

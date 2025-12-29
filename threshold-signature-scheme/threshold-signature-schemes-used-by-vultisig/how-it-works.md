@@ -1,5 +1,7 @@
 ---
-description: How do Threshold Signatures with the GG20 protocol work ?
+description: >-
+  GG20 threshold signature protocol explained. How Vultisig's legacy TSS
+  works: secret sharing, MPC signing rounds, and security model.
 ---
 
 # How GG20 works

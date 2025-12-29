@@ -34,9 +34,9 @@
 
 ## Vultisig Ecosystem
 
-* [Vultisig Extension](vultisig-ecosystem/vulticonnect/README.md)
-  * [How to use Vultisig Extension](vultisig-ecosystem/vulticonnect/how-to-use-vultisig-connect.md)
-  * [Web3 support](vultisig-ecosystem/vulticonnect/web3-support.md)
+* [Vultisig Extension](vultisig-ecosystem/vultisig-extension/README.md)
+  * [How to use Vultisig Extension](vultisig-ecosystem/vultisig-extension/how-to-use-vultisig-connect.md)
+  * [Web3 support](vultisig-ecosystem/vultisig-extension/web3-support.md)
 * [App Store](vultisig-ecosystem/appstore.md)
 * [Web App](vultisig-ecosystem/web-app.md)
 * [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md)

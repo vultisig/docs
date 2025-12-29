@@ -1,7 +1,7 @@
 ---
 description: >-
-  Resharing Vault Shares with paired devices and adding new devices to the
-  vault.
+  Reshare vault keys to add or remove devices. Upgrade security without
+  changing addresses or moving funds. Advanced feature for vault management.
 ---
 
 # Vault Reshare

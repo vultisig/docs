@@ -8,35 +8,23 @@ coverY: 0
 
 # Overview
 
-{% hint style="danger" %}
-**Backup Your Vault Shares**
+## Vultisig Project
 
-Your vault shares are the ONLY way to recover your funds. Vultisig cannot help you recover lost shares. Export and securely store backups from each device in your vault configuration.
+Vultisig is an open-source cryptocurrency vault that takes a novel approach: seedless, multi-factor, multi-chain security based on MPC (Multi-Party Computation) technology.
 
-[Learn how to backup →](getting-started/backup-recovery.md)
-{% endhint %}
-
-***
-
-## Quick Navigation
-
-<table data-card-size="large" data-view="cards">
-<thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
-<tbody>
-<tr><td><strong>Getting Started</strong></td><td>New to Vultisig? Start here. Download, create your first vault, and secure your backup.</td><td><a href="getting-started/README.md">getting-started/README.md</a></td></tr>
-<tr><td><strong>App Guide</strong></td><td>Step-by-step guides for Wallet, DeFi, and Vault Management features.</td><td><a href="app-guide/README.md">app-guide/README.md</a></td></tr>
-<tr><td><strong>Security & Technology</strong></td><td>How threshold signatures work, protocol details, and security architecture.</td><td><a href="security-technology/README.md">security-technology/README.md</a></td></tr>
-<tr><td><strong>FAQ</strong></td><td>Common questions about vaults, security, and troubleshooting.</td><td><a href="help/faq.md">help/faq.md</a></td></tr>
-</tbody>
-</table>
+Available on iOS, Android, macOS, Windows, Linux, and as a browser extension—Vultisig delivers multi-sig level security without the traditional multi-sig complexity.
 
 ***
 
 ## What is Vultisig?
 
-Vultisig is a multi-chain, multi-factor, multi-platform Threshold Signature Scheme (TSS) vault that does not require any specialized hardware.
+Vultisig is a multi-chain, multi-factor, multi-platform Threshold Signature Scheme (TSS) vault. No specialized hardware required.
 
-Unlike traditional wallets with single private keys, Vultisig distributes security across multiple devices. No single point of failure—compromise one device, funds remain safe.
+Supporting UTXO, EVM, BFT, and EdDSA chains (Bitcoin, Ethereum, Cosmos, Solana, and 30+ more), Vultisig generates both ECDSA and EdDSA signature keys for every vault. Hold and sign for BTC, ETH, SOL, and more from a single vault setup.
+
+Powered by [DKLS23](https://github.com/silence-laboratories/dkls23), a state-of-the-art TSS protocol developed by Silence Laboratories.
+
+Built by the founders of [THORChain](https://thorchain.org)—creators of the largest and longest-running multi-chain DEX powered by Threshold Signature Schemes.
 
 ### Key Features
 
@@ -48,60 +36,71 @@ Unlike traditional wallets with single private keys, Vultisig distributes securi
 
 ***
 
-## Vault Types
+## How It Works
 
-### Fast Vault
+Vultisig works like a traditional multisig wallet but with flexible setup options and modern convenience.
 
-Single device paired with Vultisig's server (Vultiserver). Quick setup for everyday use.
+**Fast Vault** — Single device + Vultisig server. Quick setup, instant signing.
 
-- Instant transactions
-- Single device convenience
-- Server provides second signature
-
-### Secure Vault
-
-Multiple physical devices you control. Maximum security for significant holdings.
-
-| Configuration | Devices | Redundancy |
-|--------------|---------|------------|
-| 2 of 2 | 2 required | No fallback |
-| 2 of 3 | 2 of 3 required | 1 device backup |
-| 3 of 4 | 3 of 4 required | 1 device backup |
+**Secure Vault** — Multiple devices you control:
+- 2-of-2: Fastest setup, no fallback
+- 2-of-3: Recommended, with fallback device
+- 3-of-4: Maximum security, with fallback device
 
 {% hint style="info" %}
-**Fallback device**: With 2-of-3 or 3-of-4 configurations, you can lose one device and still access funds. Always maintain backups regardless of configuration.
+These are the most common configurations, but Vultisig supports a wide range of threshold setups for advanced users.
 {% endhint %}
 
 ***
 
 ## Why Vultisig?
 
-**Better than single-signature wallets:**
-- No single private key to steal
-- No seed phrase to compromise
-- Multi-device authentication
+**Better security model:**
+- Vault shares don't store funds—no funds at risk if you lose a share
+- No on-chain registration of signing keys
+- Compatible with all chains and fully DeFi compatible (multi-sigs often aren't)
 
-**Better than traditional multi-sig:**
-- Works on all chains (multi-sig often doesn't)
-- Single signature on-chain (lower fees)
-- Flexible device management
-
-**Uses your existing devices:**
-- Phones, tablets, laptops you already own
+**Uses devices you already own:**
+- Phones, tablets, laptops with familiar interfaces
 - Secure Enclaves protect vault shares
-- Biometric authentication
+- Biometric authentication built-in
+- Doesn't look like a hardware wallet (better operational security)
+
+**Open source and audited:**
+- Fully transparent codebase on [GitHub](https://github.com/vultisig)
+- Security audits completed ([view reports](help/security.md))
+
+{% hint style="info" %}
+**No registration required.** Vultisig never permanently stores your email or personal info. Fast Vaults briefly require email to send backup files—used once and not retained.
+{% endhint %}
+
+***
+
+## Quick Navigation
+
+<table data-card-size="large" data-view="cards">
+<thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
+<tbody>
+<tr><td><strong>Getting Started</strong></td><td>New to Vultisig? Download, create your first vault, and make your first transaction.</td><td><a href="getting-started/README.md">getting-started/README.md</a></td></tr>
+<tr><td><strong>App Guide</strong></td><td>Complete guides for Wallet, DeFi, and Vault Management features.</td><td><a href="app-guide/README.md">app-guide/README.md</a></td></tr>
+<tr><td><strong>Security & Technology</strong></td><td>How threshold signatures work, protocol deep-dives, and security architecture.</td><td><a href="security-technology/README.md">security-technology/README.md</a></td></tr>
+<tr><td><strong>Developer Docs</strong></td><td>Build on Vultisig: SDK, Extension integration, App Store development.</td><td><a href="developer-docs/app-store/README.md">developer-docs/app-store/README.md</a></td></tr>
+</tbody>
+</table>
 
 ***
 
 ## Vultisig Ecosystem
 
-Vultisig operates several interconnected products:
-
-- **Vultisig Wallet** — Core vault application
-- **Vultisig Extension** — Browser extension for Web3 dApps
-- **Web App** — View-only access and airdrop tracking
-- **App Store** — Self-custodial automation apps
-- **SDK** — Build on Vultisig infrastructure
+<table data-card-size="large" data-view="cards">
+<thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
+<tbody>
+<tr><td><strong>Vultisig Wallet</strong></td><td>Core vault application for iOS, Android, macOS, Windows, Linux</td><td><a href="getting-started/download-install.md">getting-started/download-install.md</a></td></tr>
+<tr><td><strong>Vultisig Extension</strong></td><td>Browser extension for Web3 dApp connections</td><td><a href="vultisig-ecosystem/vultisig-extension/README.md">vultisig-ecosystem/vultisig-extension/README.md</a></td></tr>
+<tr><td><strong>Web App</strong></td><td>View-only vault access and airdrop tracking</td><td><a href="vultisig-ecosystem/web-app.md">vultisig-ecosystem/web-app.md</a></td></tr>
+<tr><td><strong>App Store</strong></td><td>Self-custodial automation marketplace</td><td><a href="vultisig-ecosystem/appstore.md">vultisig-ecosystem/appstore.md</a></td></tr>
+</tbody>
+</table>
 
 ***
 
@@ -125,15 +124,3 @@ Vultisig operates several interconnected products:
 - **Discord**: [discord.vultisig.com](https://discord.vultisig.com)
 - **Twitter/X**: [@vaboraxi](https://x.com/vaboraxi)
 - **GitHub**: [github.com/vultisig](https://github.com/vultisig)
-
-***
-
-## Built By
-
-Vultisig is built by the founders of [THORChain](https://thorchain.org), creators of the largest and longest-running multi-chain DEX powered by Threshold Signature Schemes.
-
-Powered by [DKLS23](https://github.com/silence-laboratories/dkls23), a state-of-the-art TSS protocol developed by Silence Laboratories.
-
-{% hint style="info" %}
-**No registration required**: Vultisig never permanently stores your email or personal info. Fast Vaults briefly require email to send backup files—used once and not retained.
-{% endhint %}

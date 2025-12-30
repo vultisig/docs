@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Overview](README.md)
-* [FAQ](help/faq.md)
 
 ## Getting Started
 
@@ -94,6 +93,7 @@
 
 ## Help & Legal
 
+* [FAQ](help/faq.md)
 * [Vultisig Bot](help/vultisig-bot.md)
 * [Security](help/security.md)
 * [Privacy](help/privacy.md)

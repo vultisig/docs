@@ -1,5 +1,9 @@
 # Vultisig Extension Integration Guide
 
+{% hint style="info" %}
+**Extension vs SDK**: Use the Extension for web dApps where users connect their existing Vultisig wallet (like MetaMask integration). Use the [SDK](vultisig-sdk/) for building applications that create and manage vaults programmatically.
+{% endhint %}
+
 ## Table of Contents
 
 1. [Introduction](vultisig-extension-integration-guide.md#introduction)

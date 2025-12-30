@@ -77,19 +77,20 @@
 
 ## Developer Docs
 
-* [Apps for the Vultisig App Store](developer-docs/app-store/README.md)
-  * [App Store Overview](developer-docs/app-store/infrastructure-overview/README.md)
-    * [Infrastructure](developer-docs/app-store/infrastructure-overview/infrastructure.md)
-    * [Apps](developer-docs/app-store/infrastructure-overview/apps.md)
-    * [Revenue](developer-docs/app-store/infrastructure-overview/revenue.md)
-  * [Create an App](developer-docs/app-store/create-an-app/README.md)
-    * [Basics/Quick Start](developer-docs/app-store/create-an-app/basics-quick-start.md)
-    * [Build your App: A Developer's Guide](developer-docs/app-store/create-an-app/build-your-app/README.md)
-      * [Adding a New Chain to the Vultisig App Ecosystem](developer-docs/app-store/create-an-app/build-your-app/adding-a-new-chain-to-the-vultisig-app-ecosystem.md)
-    * [Submission Process](developer-docs/app-store/create-an-app/submission-process.md)
-* [Vultisig Extension Integration Guide](developer-docs/vultisig-extension-integration-guide.md)
-* [Vultisig SDK](developer-docs/vultisig-sdk.md)
-  * [SDK CLI](/developer-docs/vultisig-sdk/CLI.md)
+* [Developer Home](developer-docs/README.md)
+* [App Store Apps](developer-docs/app-store/README.md)
+  * [What is an App](developer-docs/app-store/infrastructure-overview/apps.md)
+  * [Services Architecture](developer-docs/app-store/infrastructure-overview/services.md)
+  * [Policy Rules](developer-docs/app-store/infrastructure-overview/metarules.md)
+  * [Infrastructure](developer-docs/app-store/infrastructure-overview/infrastructure.md)
+  * [Quick Start](developer-docs/app-store/create-an-app/basics-quick-start.md)
+  * [Build Your App](developer-docs/app-store/create-an-app/build-your-app/README.md)
+    * [Adding a New Chain](developer-docs/app-store/create-an-app/build-your-app/adding-a-new-chain-to-the-vultisig-app-ecosystem.md)
+  * [Submission & Revenue](developer-docs/app-store/create-an-app/submission-process.md)
+* [Extension Integration](developer-docs/vultisig-extension-integration-guide.md)
+* [SDK](developer-docs/vultisig-sdk/README.md)
+  * [SDK Implementation Guide](developer-docs/vultisig-sdk/SDK-USERS-GUIDE.md)
+  * [SDK CLI](developer-docs/vultisig-sdk/CLI.md)
 
 ## Help & Legal
 

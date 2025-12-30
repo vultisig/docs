@@ -1,10 +1,14 @@
 # Build your App: A Developer's Guide
 
+{% hint style="success" %}
+**Reference Implementation**: The [DCA (Dollar Cost Averaging)](https://github.com/vultisig/dca) app is the official reference. Clone it as your starting point and modify for your use case.
+{% endhint %}
+
 ### Introduction
 
-This document provides a comprehensive guide for developers on how to integrate their applications into the Vultisig ecosystem. By following these instructions, you can build a plugin that leverages Vultisig's decentralized security infrastructure for transaction signing and management.&#x20;
+This document provides a comprehensive guide for developers on how to integrate their applications into the Vultisig ecosystem. By following these instructions, you can build a plugin that leverages Vultisig's decentralized security infrastructure for transaction signing and management.
 
-The guide covers mandatory requirements, optional features, project setup, and implementation details based on a sample application.
+The guide covers mandatory requirements, optional features, project setup, and implementation details.
 
 ***
 

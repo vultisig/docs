@@ -1,38 +1,53 @@
 # Table of contents
 
 * [Overview](README.md)
+* [FAQ](help/faq.md)
 
-## Vultisig App Actions
+## Getting Started
 
-* [Creating a Vault](vultisig-app-actions/creating-a-vault/README.md)
-  * [Fast Vault](vultisig-app-actions/creating-a-vault/fast-vault.md)
-  * [Secure Vault](vultisig-app-actions/creating-a-vault/secure-vault.md)
-* [Managing your Vault](vultisig-app-actions/managing-your-vault/README.md)
-  * [Vault Details](vultisig-app-actions/managing-your-vault/vault-details.md)
-  * [Vault Backups](vultisig-app-actions/managing-your-vault/vault-backup.md)
-  * [Vault Rename](vultisig-app-actions/managing-your-vault/vault-rename.md)
-  * [Vault Reshare](vultisig-app-actions/managing-your-vault/vault-reshare.md)
-  * [Vault QR](vultisig-app-actions/managing-your-vault/vault-qr.md)
-  * [Vault Upgrade](vultisig-app-actions/managing-your-vault/vault-upgrade.md)
-* [Keysign](vultisig-app-actions/signing-a-transaction/README.md)
-  * [How Keysigning works](vultisig-app-actions/signing-a-transaction/how-keysigning-works.md)
-  * [Signing a Transaction](vultisig-app-actions/signing-a-transaction/signing-a-transaction.md)
-* [User Actions](vultisig-app-actions/user-actions/README.md)
-  * [Sending](vultisig-app-actions/user-actions/sending.md)
-  * [Swapping](vultisig-app-actions/user-actions/swapping.md)
-  * [Functions](vultisig-app-actions/user-actions/functions.md)
-* [Vultisig Referrals](vultisig-app-actions/vultisig-referrals.md)
+* [Getting Started](getting-started/README.md)
+  * [Download & Install](getting-started/download-install.md)
+  * [Create a Vault](getting-started/create-vault.md)
+  * [Backup & Recovery](getting-started/backup-recovery.md)
+  * [Your First Transaction](getting-started/first-transaction.md)
 
-## Vultisig Infrastructure
+## App Guide
 
-* [Overview](vultisig-infrastructure/overview.md)
-* [Vultiserver](vultisig-infrastructure/what-is-vultisigner/README.md)
-  * [How does a Fast Vault work?](vultisig-infrastructure/what-is-vultisigner/how-does-vultisigner-work.md)
-  * [Transaction Policies](vultisig-infrastructure/what-is-vultisigner/what-can-be-configured.md)
-  * [Why is it safe?](vultisig-infrastructure/what-is-vultisigner/why-is-it-safe.md)
-* [Relay Server](vultisig-infrastructure/relay-server.md)
+* [App Guide](app-guide/README.md)
+* [Creating a Vault](app-guide/creating-a-vault/README.md)
+  * [Fast Vault](app-guide/creating-a-vault/fast-vault.md)
+  * [Secure Vault](app-guide/creating-a-vault/secure-vault.md)
+* [Wallet](app-guide/wallet/README.md)
+  * [Sending](app-guide/wallet/sending.md)
+  * [Swapping](app-guide/wallet/swapping.md)
+* [DeFi](app-guide/defi/README.md)
+  * [Circle Protocol](app-guide/defi/circle.md)
+  * [THORChain](app-guide/defi/thorchain.md)
+  * [MayaChain](app-guide/defi/maya.md)
+  * [Cosmos Staking](app-guide/defi/cosmos.md)
+  * [TON Staking](app-guide/defi/ton.md)
+  * [dYdX Staking](app-guide/defi/dydx.md)
+* [Vault Management](app-guide/vault-management/README.md)
+  * [Vault Details](app-guide/vault-management/vault-details.md)
+  * [Vault Backups](app-guide/vault-management/vault-backup.md)
+  * [Vault Rename](app-guide/vault-management/vault-rename.md)
+  * [Vault Reshare](app-guide/vault-management/vault-reshare.md)
+  * [Vault QR](app-guide/vault-management/vault-qr.md)
+  * [Vault Upgrade](app-guide/vault-management/vault-upgrade.md)
+* [Referrals](app-guide/referrals.md)
 
-## Vultisig Ecosystem
+## Security & Technology
+
+* [Security & Technology](security-technology/README.md)
+  * [Keysign](security-technology/keysign.md)
+  * [TSS Actions](security-technology/tss-actions.md)
+  * [How GG20 Works](security-technology/how-gg20-works.md)
+  * [How DKLS23 Works](security-technology/how-dkls23-works.md)
+  * [Difference to Multi-Signatures](security-technology/difference-to-multi-sig.md)
+  * [Difference to Passkeys](security-technology/difference-to-passkeys.md)
+  * [Emergency Recovery](security-technology/emergency-recovery.md)
+
+## Ecosystem
 
 * [Vultisig Extension](vultisig-ecosystem/vultisig-extension/README.md)
   * [How to use Vultisig Extension](vultisig-ecosystem/vultisig-extension/how-to-use-vultisig-connect.md)
@@ -42,7 +57,7 @@
 * [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md)
 * [Community Tools](vultisig-ecosystem/community-tools.md)
 
-## VULTISIG Token
+## VULT Token
 
 * [The $VULT Token](vultisig-token/vult/README.md)
   * [In-App Utility](vultisig-token/vult/in-app-utility.md)
@@ -52,25 +67,14 @@
 * [Airdrop](vultisig-token/airdrop/README.md)
   * [Airdrop V2](vultisig-token/airdrop/airdrop-v2.md)
 
-## Threshold Signature Scheme
+## Infrastructure
 
-* [Threshold Signature Schemes used by Vultisig](threshold-signature-scheme/threshold-signature-schemes-used-by-vultisig/README.md)
-  * [How GG20 works](threshold-signature-scheme/threshold-signature-schemes-used-by-vultisig/how-it-works.md)
-  * [How DKLS23 works](threshold-signature-scheme/threshold-signature-schemes-used-by-vultisig/how-dkls23-works.md)
-* [TSS Actions](threshold-signature-scheme/tss-actions.md)
-* [Difference to Multi-Signatures](threshold-signature-scheme/difference-to-multi-signatures.md)
-* [Difference to Passkeys](threshold-signature-scheme/difference-to-passkeys.md)
-* [Emergency Recovery](threshold-signature-scheme/emergency-recovery.md)
-
-## Other
-
-* [Vultisig Bot](other/vultisig-bot.md)
-* [Security](other/security.md)
-* [Frequently Asked Questions](FAQ/README.md)
-* [Privacy](other/privacy.md)
-* [MiCAR White Paper](other/micar-white-paper.md)
-* [License](other/licence.md)
-* [Terms](other/terms.md)
+* [Overview](vultisig-infrastructure/overview.md)
+* [Vultiserver](vultisig-infrastructure/what-is-vultisigner/README.md)
+  * [How does a Fast Vault work?](vultisig-infrastructure/what-is-vultisigner/how-does-vultisigner-work.md)
+  * [Transaction Policies](vultisig-infrastructure/what-is-vultisigner/what-can-be-configured.md)
+  * [Why is it safe?](vultisig-infrastructure/what-is-vultisigner/why-is-it-safe.md)
+* [Relay Server](vultisig-infrastructure/relay-server.md)
 
 ## Developer Docs
 
@@ -87,3 +91,12 @@
 * [Vultisig Extension Integration Guide](developer-docs/vultisig-extension-integration-guide.md)
 * [Vultisig SDK](developer-docs/vultisig-sdk.md)
   * [SDK CLI](/developer-docs/vultisig-sdk/CLI.md)
+
+## Help & Legal
+
+* [Vultisig Bot](help/vultisig-bot.md)
+* [Security](help/security.md)
+* [Privacy](help/privacy.md)
+* [Terms of Use](help/terms.md)
+* [License](help/license.md)
+* [MiCAR White Paper](help/micar-white-paper.md)

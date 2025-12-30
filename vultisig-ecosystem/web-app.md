@@ -16,7 +16,7 @@ The website can be accessed here:
 
 ## How to connect to the Web App
 
-1. Get your [Vault QR](../vultisig-app-actions/managing-your-vault/vault-qr.md) code from your Vultisig Vault
+1. Get your [Vault QR](../app-guide/vault-management/vault-qr.md) code from your Vultisig Vault
 2. Open the [web app](https://airdrop.vultisig.com)
 3. Upload your QR code
 4. Access the web app

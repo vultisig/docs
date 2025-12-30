@@ -8,7 +8,7 @@ description: >-
 
 ## Vault Share Decoder
 
-This app helps users decode their vault shares and access additional information when needed. It can also be used to easily recover private keys by combining the threshold of shares, similar as the [emergency-recovery.md](../threshold-signature-scheme/emergency-recovery.md "mention").
+This app helps users decode their vault shares and access additional information when needed. It can also be used to easily recover private keys by combining the threshold of shares, similar to the [Emergency Recovery](../security-technology/emergency-recovery.md) process.
 
 {% hint style="warning" %}
 You should only recreate the private keys if it is absolutely necessary, as doing so will compromise the security of Vultisig.

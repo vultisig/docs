@@ -83,7 +83,7 @@ To incentivize trading and make the airdrop more dynamic, a swap multiplier will
 
 ### **Referral Multiplier**
 
-The [Referral Program](airdrop-v2.md#referral-program) is tracking referred wallets via the [Referral Telegram bot](https://docs.vultisig.com/other/vultisig-bot) of registered users.&#x20;
+The [Referral Program](airdrop-v2.md#referral-program) is tracking referred wallets via the [Referral Telegram bot](../../help/vultisig-bot.md) of registered users.&#x20;
 
 For a referral to be considered valid, the referred wallet must fund with at least $50 and take part in the airdrop.
 
@@ -156,7 +156,7 @@ $$
 
 <figure><img src="../../.gitbook/assets/Frame 1000005130.png" alt="" width="279"><figcaption></figcaption></figure>
 
-* [Export](../../vultisig-app-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault
+* [Export](../../app-guide/vault-management/vault-qr.md) the Vault QR of the Vultisig Vault
 
 <figure><img src="../../.gitbook/assets/Frame 1000005131.png" alt="" width="279"><figcaption></figcaption></figure>
 
@@ -180,7 +180,7 @@ You need to enable all Chains and Tokens you want to have counted towards the ai
 
 ### Referral Program
 
-Vultisig team has built a [Telegram bot](../../other/vultisig-bot.md) to easily invite friends and track the referred people.
+Vultisig team has built a [Telegram bot](../../help/vultisig-bot.md) to easily invite friends and track the referred people.
 
 * Invite people
 * Let them install Vultisig
@@ -196,4 +196,4 @@ Do not register for the Airdrop if you do not wish for your public keys to be se
 **Note, after the Airdrop has finished, your public keys will be purged. No other user information is collected.**
 {% endhint %}
 
-Read the [#privacy-policy](../../other/privacy.md#privacy-policy "mention")
+Read the [Privacy Policy](../../help/privacy.md)

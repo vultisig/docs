@@ -76,7 +76,7 @@ The Ongoing Airdrop Process will continue for another 5 years, and the dedicated
 
 ## How to register for the airdrop
 
-1.  [Export](../../vultisig-app-actions/managing-your-vault/vault-qr.md) the Vault QR of the Vultisig Vault\\
+1.  [Export](../../app-guide/vault-management/vault-qr.md) the Vault QR of the Vultisig Vault\\
 
     <figure><img src="../../.gitbook/assets/VultisigQR-Main Vault-828.png" alt="" width="188"><figcaption></figcaption></figure>
 2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/) or by uploading your Vault QR\\
@@ -115,7 +115,7 @@ There will be special programs and opportunities to increase this as the airdrop
 
 #### Referral Program
 
-Vultisig team has built a [Telegram bot](../../other/vultisig-bot.md) to easily invite friends and track the referred people.
+Vultisig team has built a [Telegram bot](../../help/vultisig-bot.md) to easily invite friends and track the referred people.
 
 * Invite people
 * Let them install Vultisig
@@ -131,4 +131,4 @@ Do not register for the Airdrop if you do not wish for your public keys to be se
 Note, after the Airdrop has finished, your public keys will be purged. No other user information is collected.
 {% endhint %}
 
-Read the [#privacy-policy](../../other/privacy.md#privacy-policy "mention")
+Read the [Privacy Policy](../../help/privacy.md)

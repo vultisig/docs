@@ -29,6 +29,7 @@ MetaRules summarize cross-chain actions (like send, swap) via simplified resourc
 | `bitcoin.send` | `bitcoin.btc.transfer`                                              | Bitcoin |
 | `ethereum.swap` | 1inch, Uniswap V2/V3 calls                                          | Ethereum |
 | `solana.swap` | Jupiter aggregator calls                                            | Solana |
+| `ethereum.bridge` | LiFi, Across, deBridge, Native L2 bridge calls                      | Ethereum, Arbitrum, Optimism, Base, Polygon, etc. |
 
 ### MetaRule Expansion (Go Example)
 
@@ -45,6 +46,8 @@ func (m *MetaRule) TryFormat(resource string, constraints map[string]*types.Cons
 		return m.expandSendRule(chain, constraints)
 	case swap:
 		return m.expandSwapRule(chain, constraints)
+	case bridge:
+		return m.expandBridgeRule(chain, constraints)
 	default:
 		return nil, fmt.Errorf("unsupported meta-protocol: %s", protocol)
 	}
@@ -160,6 +163,15 @@ Magic Constants are **predefined system addresses and values** maintained in the
 | VULTISIG_TREASURY | 1 | Treasury address           |
 | THORCHAIN_VAULT | 2 | Router/vault for THORChain |
 | THORCHAIN_ROUTER | 3 | Router for THORChain swaps |
+| LIFI_ROUTER | 6 | LiFi cross-chain aggregator router |
+| ARBITRUM_L1_GATEWAY | 7 | Arbitrum L1 Gateway Router (on Ethereum) |
+| OPTIMISM_L1_BRIDGE | 8 | Optimism L1 Standard Bridge (on Ethereum) |
+| BASE_L1_BRIDGE | 9 | Base L1 Standard Bridge (on Ethereum) |
+| ARBITRUM_L2_GATEWAY | 10 | Arbitrum L2 Gateway Router |
+| OPTIMISM_L2_BRIDGE | 11 | Optimism L2 Standard Bridge |
+| BASE_L2_BRIDGE | 12 | Base L2 Standard Bridge |
+| ACROSS_SPOKE_POOL | 15 | Across Protocol SpokePool contract |
+| DEBRIDGE_DLN_SOURCE | 16 | deBridge DLN Source contract |
 
 #### What Are Magic Constants?
 

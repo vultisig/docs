@@ -1,0 +1,47 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+redirects:
+  # Old VultiConnect URLs -> new Vultisig Extension
+  vultisig-ecosystem/vulticonnect: vultisig-ecosystem/vultisig-extension/README.md
+  ecosystem/vulticonnect: vultisig-ecosystem/vultisig-extension/README.md
+  vulticonnect: vultisig-ecosystem/vultisig-extension/README.md
+
+  # Old "other" section -> help section
+  other/vultisig-bot: help/vultisig-bot.md
+  other/faq: help/faq.md
+  other/security: help/security.md
+  other/privacy: help/privacy.md
+  other/terms: help/terms.md
+
+  # Old app-actions structure -> new app-guide/vault-management
+  vultisig-app-actions/managing-your-vault/vault-qr: app-guide/vault-management/vault-qr.md
+  vultisig-app-actions/managing-your-vault/vault-backup: app-guide/vault-management/vault-backup.md
+  vultisig-app-actions/managing-your-vault/vault-rename: app-guide/vault-management/vault-rename.md
+  vultisig-app-actions/managing-your-vault/vault-reshare: app-guide/vault-management/vault-reshare.md
+  vultisig-app-actions/managing-your-vault/vault-details: app-guide/vault-management/vault-details.md
+  vultisig-vault-user-actions/managing-your-vault/vault-qr: app-guide/vault-management/vault-qr.md
+  vultisig-vault-user-actions/managing-your-vault/vault-backup: app-guide/vault-management/vault-backup.md
+
+  # Old security-and-technology -> security-technology
+  security-and-technology/security-technology: security-technology/README.md
+  security-and-technology/keysign: security-technology/keysign.md
+  security-and-technology/tss-actions: security-technology/tss-actions.md
+  security-and-technology/how-gg20-works: security-technology/how-gg20-works.md
+  security-and-technology/emergency-recovery: security-technology/emergency-recovery.md
+
+  # Old vultisigner -> vultiserver
+  vultisig-infrastructure/vultisigner: vultisig-infrastructure/what-is-vultisigner/README.md
+  infrastructure/vultisigner: vultisig-infrastructure/what-is-vultisigner/README.md
+
+  # Common old paths
+  download: getting-started/download-install.md
+  downloads: getting-started/download-install.md
+  install: getting-started/download-install.md
+  backup: getting-started/backup-recovery.md
+  recovery: getting-started/backup-recovery.md
+  faq: help/faq.md
+  support: help/faq.md

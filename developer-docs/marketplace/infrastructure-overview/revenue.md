@@ -14,7 +14,7 @@ Fees are collected either immediately or in batches, automatically converted to 
 
 ## Overview
 
-The Vultisig fee system is a comprehensive solution for collecting usage fees from app users and managing treasury operations. It supports multiple fee structures, automatic token conversions, and transparent revenue distribution while maintaining the security guarantees of the TSS architecture.
+The Vultisig fee system is a comprehensive solution for collecting usage fees from plugin users and managing treasury operations. It supports multiple fee structures, automatic token conversions, and transparent revenue distribution while maintaining the security guarantees of the TSS architecture.
 
 ## Fee System Architecture
 
@@ -56,7 +56,7 @@ The Vultisig fee system is a comprehensive solution for collecting usage fees fr
 
 <summary>Per-Transaction Fees</summary>
 
-**Overview:** Charged each time your app executes a transaction on behalf of users.
+**Overview:** Charged each time your plugin executes a transaction on behalf of users.
 
 ```json
 {
@@ -99,7 +99,7 @@ The Vultisig fee system is a comprehensive solution for collecting usage fees fr
 
 <summary>Per installation</summary>
 
-**Overview:** One-time charge when users install your app from the App Store.
+**Overview:** One-time charge when users install your plugin from the Marketplace.
 
 ```json
 {

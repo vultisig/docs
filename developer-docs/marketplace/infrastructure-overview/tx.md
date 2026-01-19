@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-This guide explains how app developers in the Vultisig ecosystem can programmatically initiate and sign transactions based on automated conditions (schedules, events, etc.). Apps must:
+This guide explains how plugin developers in the Vultisig ecosystem can programmatically initiate and sign transactions based on automated conditions (schedules, events, etc.). Plugins must:
 
 1. **Define automation rules** via Recipe specifications that declare supported transaction types, parameters, and constraints
 2. **Implement `ProposeTransactions`** to validate policies, fetch vault data, generate unsigned transactions based on recipe rules, index them, and create keysign requests
@@ -14,21 +14,21 @@ This guide explains how app developers in the Vultisig ecosystem can programmati
 
 ## Overview
 
-This documentation describes the transaction proposing flow for app developers in the Vultisig ecosystem. Apps have the capability to initiate transactions based on their own conditions, which can be triggered by schedules, events, or other conditions.
+This documentation describes the transaction proposing flow for plugin developers in the Vultisig ecosystem. Plugins have the capability to initiate transactions based on their own conditions, which can be triggered by schedules, events, or other conditions.
 
 ## Key Concepts
 
-- **App automation**: Defines the rules and constraints for transactions that a app can propose
+- **Plugin automation**: Defines the rules and constraints for transactions that a plugin can propose
 - **Recipe**: Contains the specific transaction rules derived from the automation
 - **Keysign Request**: A request to sign a transaction that meets all automation requirements
 - **Verifier**: A secondary participant that validates proposed transactions against the automation
 
 ## Transaction Flow Sequence
 
-1. **Trigger Event**: A scheduler, event, or condition triggers the app
-2. **Automation Retrieval**: The app fetches its associated automation
-3. **Transaction Proposal**: The app generates unsigned transactions based on automation rules
-4. **Signing Initiation**: The app creates keysign requests for each transaction
+1. **Trigger Event**: A scheduler, event, or condition triggers the plugin
+2. **Automation Retrieval**: The plugin fetches its associated automation
+3. **Transaction Proposal**: The plugin generates unsigned transactions based on automation rules
+4. **Signing Initiation**: The plugin creates keysign requests for each transaction
 5. **Verification & Signing**: The verifier validates and signs the transactions
 6. **Broadcast**: Signed transactions are broadcast to the network
 7. **Transaction Indexing**: Proposed transactions are recorded in the transaction indexer
@@ -37,7 +37,7 @@ This documentation describes the transaction proposing flow for app developers i
 ### Transaction Proposal
 
 You should implement:
-- App automation validation
+- Plugin automation validation
 - Getting pk info from vault
 - Processing each rule in the recipe and generate transactions if it's needed
 - Create transaction records in the indexer
@@ -251,7 +251,7 @@ All proposed transactions must pass verification by the verifier service, which 
 
 ## Recipe Specification
 
-The app defines its supported transaction types through a recipe specification:
+The plugin defines its supported transaction types through a recipe specification:
 
 ```go
 func (p *Plugin) GetRecipeSpecification() (*rtypes.RecipeSchema, error)

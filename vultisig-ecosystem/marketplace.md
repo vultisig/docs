@@ -1,51 +1,51 @@
 ---
 description: >-
   Self-custodial automation marketplace. Install DCA, recurring payments, and
-  trading apps without giving up custody. MPC-secured, multi-chain.
+  trading plugins without giving up custody. MPC-secured, multi-chain.
 cover: ../.gitbook/assets/image (3).png
 coverY: 0
 ---
 
-# App Store
+# Marketplace
 
 {% hint style="warning" %}
-The App Store is in early access. Use for testing only—do not use with production funds.
+The Marketplace is in early access. Use for testing only—do not use with production funds.
 {% endhint %}
 
 ## Overview
 
-The Vultisig App Store is a marketplace for self-custodial automation. Install apps to automate your crypto management—like recurring investments (DCA) and scheduled payments—without giving up custody of your funds.
+The Vultisig Marketplace is a marketplace for self-custodial automation. Install plugins to automate your crypto management—like recurring investments (DCA) and scheduled payments—without giving up custody of your funds.
 
-Unlike traditional automation that requires handing over your keys, Vultisig apps use MPC technology to keep you in control. Your vault executes automations securely—no third parties, no smart contract risks, no seed phrase exposure.
+Unlike traditional automation that requires handing over your keys, Vultisig plugins use MPC technology to keep you in control. Your vault executes automations securely—no third parties, no smart contract risks, no seed phrase exposure.
 
-Browse apps at [apps.vultisig.com](https://apps.vultisig.com).
+Browse plugins at [apps.vultisig.com](https://apps.vultisig.com).
 
 ***
 
 ## How It Works
 
-Vultisig apps use a **proposing/validating architecture** that keeps you in control through every step.
+Vultisig plugins use a **proposing/validating architecture** that keeps you in control through every step.
 
 ### Setup & Installation
 
-Installing an app creates a secure connection between your vault and the app's automation service. Here's what happens:
+Installing a plugin creates a secure connection between your vault and the plugin's automation service. Here's what happens:
 
 **Step 1: Browse & Select**
 
-Visit [apps.vultisig.com](https://apps.vultisig.com), connect your Vultisig vault, and choose an app.
+Visit [apps.vultisig.com](https://apps.vultisig.com), connect your Vultisig vault, and choose a plugin.
 
-**Step 2: Install the App**
+**Step 2: Install the Plugin**
 
-Approve the installation to connect your vault to the app. This creates a secure link between your vault and the app's Verifier service:
+Approve the installation to connect your vault to the plugin. This creates a secure link between your vault and the plugin's Verifier service:
 
 | What Changes | Before Installation | After Installation |
 |--------------|--------------------|--------------------|
-| **Signing parties** | Your device + Vultisigner | Your device + App Verifier |
-| **Who can propose** | Only you | App (within your rules) |
+| **Signing parties** | Your device + Vultisigner | Your device + Plugin Verifier |
+| **Who can propose** | Only you | Plugin (within your rules) |
 | **Who validates** | — | Verifier checks every transaction |
 
 {% hint style="info" %}
-**Technical note:** Under the hood, installation performs a "reshare"—your vault's signing arrangement is reconfigured so the app's Verifier can participate in signing, but ONLY for transactions you authorize.
+**Technical note:** Under the hood, installation performs a "reshare"—your vault's signing arrangement is reconfigured so the plugin's Verifier can participate in signing, but ONLY for transactions you authorize.
 {% endhint %}
 
 **Step 3: Configure Your Rules**
@@ -58,7 +58,7 @@ Now set your automation parameters:
 
 **Step 4: Automation Goes Live**
 
-Your automation policy is now active. The app can propose transactions within your configured limits, and the Verifier ensures nothing outside your rules ever gets signed.
+Your automation policy is now active. The plugin can propose transactions within your configured limits, and the Verifier ensures nothing outside your rules ever gets signed.
 
 ### Execution Flow
 
@@ -67,20 +67,20 @@ Once installed, your automation runs automatically:
 | Step | What Happens |
 |------|--------------|
 | **1. Trigger** | Scheduler triggers based on your rules (e.g., "every Monday at 9am") |
-| **2. Propose** | App creates an unsigned transaction matching your policy |
+| **2. Propose** | Plugin creates an unsigned transaction matching your policy |
 | **3. Validate** | Verifier checks the transaction against your exact rules |
 | **4. Sign** | MPC signs only if validation passes—keys never leave your devices |
 | **5. Broadcast** | Signed transaction is sent to the blockchain |
 
 {% hint style="info" %}
-**Security guarantee:** The Verifier rejects any transaction that doesn't match your configured rules exactly. If an app tries to send more than you authorized, to a different address, or at the wrong time—it gets blocked.
+**Security guarantee:** The Verifier rejects any transaction that doesn't match your configured rules exactly. If a plugin tries to send more than you authorized, to a different address, or at the wrong time—it gets blocked.
 {% endhint %}
 
 ***
 
-## Available Apps
+## Available Plugins
 
-Current apps available at [apps.vultisig.com](https://apps.vultisig.com):
+Current plugins available at [apps.vultisig.com](https://apps.vultisig.com):
 
 ### Recurring Swaps (DCA)
 
@@ -108,18 +108,18 @@ Schedule automatic payments to any address. Set up payroll, subscriptions, or re
 
 1. Open [apps.vultisig.com](https://apps.vultisig.com)
 2. Connect your Vultisig vault
-3. Browse and select an app
+3. Browse and select a plugin
 4. Approve the installation
 5. Configure your automation rules
 
-Each app shows its risk level and fee structure before installation.
+Each plugin shows its risk level and fee structure before installation.
 
 ### Security Features
 
 | Feature | What It Means |
 |---------|---------------|
-| **Risk ratings** | Apps are reviewed and assigned risk levels (Low/Medium/High) |
-| **Rule-based execution** | Apps can only do what you've configured—nothing more |
+| **Risk ratings** | Plugins are reviewed and assigned risk levels (Low/Medium/High) |
+| **Rule-based execution** | Plugins can only do what you've configured—nothing more |
 | **No key exposure** | Your private keys never leave your devices |
 | **Transparent fees** | All costs shown upfront before you install |
 
@@ -127,7 +127,7 @@ Each app shows its risk level and fee structure before installation.
 
 ## For Developers
 
-Build apps for Vultisig users and earn 70% of the revenue. Apps are reviewed for quality and security before listing.
+Build plugins for Vultisig users and earn 70% of the revenue. Plugins are reviewed for quality and security before listing.
 
 **What you can build:**
 - Trading bots and DCA strategies
@@ -137,24 +137,24 @@ Build apps for Vultisig users and earn 70% of the revenue. Apps are reviewed for
 - Cross-chain workflows
 
 {% hint style="info" %}
-Ready to build? Check the [Developer Documentation](../developer-docs/app-store/) and join [Discord](https://discord.gg/vultisig) for support.
+Ready to build? Check the [Developer Documentation](../developer-docs/marketplace/) for Plugins and join [Discord](https://discord.gg/vultisig) for support.
 {% endhint %}
 
 ***
 
 ## Fee Structure
 
-App revenue is split:
+Plugin revenue is split:
 
 | Recipient | Share |
 |-----------|-------|
-| App developer | 70% |
+| Plugin developer | 70% |
 | $VULT token | 30% |
 
 <figure><img src="../.gitbook/assets/Group 1000004758.png" alt="70/30 revenue split visualization"><figcaption><p>Revenue split: 70% to developers, 30% to $VULT</p></figcaption></figure>
 
 **Fee models available to developers:**
-- **Per-transaction** — charged each time the app executes
+- **Per-transaction** — charged each time the plugin executes
 - **Subscription** — monthly or yearly recurring fee
 - **Per-installation** — one-time setup fee
 
@@ -162,9 +162,9 @@ App revenue is split:
 
 ## Vultisig vs Alternatives
 
-How does Vultisig App Store compare to other automation options?
+How does Vultisig Marketplace compare to other automation options?
 
-| Feature | Vultisig App Store | CEX Recurring Buy | Smart Contract Bots | Custodial Services |
+| Feature | Vultisig Marketplace | CEX Recurring Buy | Smart Contract Bots | Custodial Services |
 |---------|-------------------|-------------------|---------------------|-------------------|
 | **Self-custody** | ✅ Yes | ❌ No | ⚠️ Partial | ❌ No |
 | **Seed phrase exposure** | ✅ None | N/A | ⚠️ Often required | ❌ Full access |
@@ -203,14 +203,14 @@ Yes. You can pause, modify, or delete any automation at any time from apps.vulti
 <details>
 <summary><strong>What chains are supported?</strong></summary>
 
-The App Store supports all chains that Vultisig supports, including:
+The Marketplace supports all chains that Vultisig supports, including:
 - EVM chains (Ethereum, Polygon, Arbitrum, Base, Optimism, Avalanche, BSC)
 - Bitcoin
 - Solana
 - THORChain
 - And more
 
-Each app specifies which chains it supports.
+Each plugin specifies which chains it supports.
 
 </details>
 
@@ -224,29 +224,29 @@ No. Once you've set up an automation, it runs on Vultisig's infrastructure. Your
 ### Security
 
 <details>
-<summary><strong>Can an app drain my wallet?</strong></summary>
+<summary><strong>Can a plugin drain my wallet?</strong></summary>
 
-No. Apps can only execute transactions that match your configured rules exactly. The Verifier service validates every transaction before MPC signing. If an app tries to send more than you authorized or to a different address, the transaction is rejected.
+No. Plugins can only execute transactions that match your configured rules exactly. The Verifier service validates every transaction before MPC signing. If a plugin tries to send more than you authorized or to a different address, the transaction is rejected.
 
 </details>
 
 <details>
 <summary><strong>What if Vultisig's servers go down?</strong></summary>
 
-Your funds remain safe in your vault. Automations would pause until service is restored. You can always access your funds directly through the Vultisig app—the App Store is an optional feature.
+Your funds remain safe in your vault. Automations would pause until service is restored. You can always access your funds directly through the Vultisig app—the Marketplace is an optional feature.
 
 </details>
 
 <details>
-<summary><strong>How are apps reviewed?</strong></summary>
+<summary><strong>How are plugins reviewed?</strong></summary>
 
-All apps go through a security review before listing. We check:
+All plugins go through a security review before listing. We check:
 - Code quality and security practices
 - Transaction logic matches declared functionality
 - No hidden fees or unexpected behaviors
 - Proper error handling
 
-Apps are assigned risk ratings (Low/Medium/High) based on their complexity and permissions.
+Plugins are assigned risk ratings (Low/Medium/High) based on their complexity and permissions.
 
 </details>
 
@@ -263,7 +263,7 @@ No. Vultisig is seedless by design. There's no seed phrase to expose. The MPC ar
 <summary><strong>What fees do I pay?</strong></summary>
 
 You pay two types of fees:
-1. **App fees** — Set by the developer (shown before installation)
+1. **Plugin fees** — Set by the developer (shown before installation)
 2. **Network fees** — Standard blockchain gas fees for each transaction
 
 There are no hidden Vultisig platform fees.
@@ -273,7 +273,7 @@ There are no hidden Vultisig platform fees.
 <details>
 <summary><strong>How do subscription fees work?</strong></summary>
 
-If an app uses subscription pricing, the fee is collected automatically at the start of each billing period. You can cancel anytime—you'll retain access until the current period ends.
+If a plugin uses subscription pricing, the fee is collected automatically at the start of each billing period. You can cancel anytime—you'll retain access until the current period ends.
 
 </details>
 
@@ -281,12 +281,12 @@ If an app uses subscription pricing, the fee is collected automatically at the s
 
 ## What's Next
 
-The App Store is actively growing. Upcoming features include:
+The Marketplace is actively growing. Upcoming features include:
 
-- More automation apps from third-party developers
+- More automation plugins from third-party developers
 - Advanced DeFi integrations (yield farming, liquidity provision)
 - Cross-chain yield strategies
 - Community-built tools
 - Enhanced analytics and reporting
 
-Want to request an app or feature? Join the [Discord](https://discord.gg/vultisig) and share your ideas.
+Want to request a plugin or feature? Join the [Discord](https://discord.gg/vultisig) and share your ideas.

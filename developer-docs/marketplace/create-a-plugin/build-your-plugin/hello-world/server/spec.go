@@ -33,7 +33,7 @@ var supportedChains = []common.Chain{
 
 	// Expand Support: You can uncomment other chains here if your logic is generic enough
 	// to handle them (e.g., EVM-compatible chains).
-	// See Metarules docs: https://github.com/vultisig/docs/blob/main/developer-docs/app-store/infrastructure-overview/metarules.md
+	// See Metarules docs: https://github.com/vultisig/docs/blob/main/developer-docs/marketplace/infrastructure-overview/metarules.md
 	//common.Arbitrum,
 	//common.Avalanche,
 	//common.BscChain,

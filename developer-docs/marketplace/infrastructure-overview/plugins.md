@@ -1,20 +1,20 @@
-# What is an App?
+# What is a Plugin?
 
-Vultisig apps are vault automation workflows created by Vultisig or third-party developers that enable automatic on-chain interactions for users. Due to Vultisig's use of MPC technology, these apps are not limited by any specific chain, action, or protocol interaction. This gives developers the freedom to design secure, self-custodial automations without users giving up private keys or granting full access to wallet funds.
+Vultisig plugins are vault automation workflows created by Vultisig or third-party developers that enable automatic on-chain interactions for users. Due to Vultisig's use of MPC technology, these plugins are not limited by any specific chain, action, or protocol interaction. This gives developers the freedom to design secure, self-custodial automations without users giving up private keys or granting full access to wallet funds.
 
-## How Apps Work
+## How Plugins Work
 
-An app operates as a trusted automation layer between the user and the blockchain:
+A plugin operates as a trusted automation layer between the user and the blockchain:
 
-1. **User Installs App**: The user selects an app from the App Store and configures their automation (e.g., "buy $100 of ETH every week")
-2. **Policy Creation**: The app creates a policy—a signed set of rules defining exactly what transactions are allowed
-3. **Verifier Validation**: When the app wants to execute a transaction, it submits it to the Verifier, which checks it against the user's policy
+1. **User Installs Plugin**: The user selects a plugin from the Marketplace and configures their automation (e.g., "buy $100 of ETH every week")
+2. **Policy Creation**: The plugin creates a policy—a signed set of rules defining exactly what transactions are allowed
+3. **Verifier Validation**: When the plugin wants to execute a transaction, it submits it to the Verifier, which checks it against the user's policy
 4. **TSS Signing**: If compliant, the Verifier participates in a threshold signing ceremony to approve the transaction
-5. **Broadcast**: The app broadcasts the signed transaction to the blockchain
+5. **Broadcast**: The plugin broadcasts the signed transaction to the blockchain
 
 ```
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│     User     │     │     App      │     │   Verifier   │
+│     User     │     │   Plugin     │     │   Verifier   │
 │              │     │              │     │              │
 │ • Installs   │────►│ • Runs logic │────►│ • Validates  │
 │ • Configures │     │ • Builds txs │     │ • Signs      │
@@ -24,15 +24,15 @@ An app operates as a trusted automation layer between the user and the blockchai
 
 ## Key Security Properties
 
-**Self-Custodial**: Users never give up their private keys. Apps cannot access funds outside the defined policy rules.
+**Self-Custodial**: Users never give up their private keys. Plugins cannot access funds outside the defined policy rules.
 
-**Policy-Bound**: Every transaction must match the policy the user signed. An app configured for "weekly ETH buys" cannot suddenly drain the wallet.
+**Policy-Bound**: Every transaction must match the policy the user signed. A plugin configured for "weekly ETH buys" cannot suddenly drain the wallet.
 
-**Multi-Party Signing**: Transactions require TSS coordination—the app alone cannot sign transactions without the Verifier's participation.
+**Multi-Party Signing**: Transactions require TSS coordination—the plugin alone cannot sign transactions without the Verifier's participation.
 
 **Transparent Rules**: Policies use a rules system (MetaRules and Direct Rules) that maps to specific blockchain operations, making permissions auditable.
 
-## Types of Apps
+## Types of Plugins
 
 | Category | Examples | Description |
 |----------|----------|-------------|
@@ -41,9 +41,9 @@ An app operates as a trusted automation layer between the user and the blockchai
 | **Treasury Management** | Multi-sig ops, payroll | Organizational fund management |
 | **Cross-Chain** | Bridge automation, arbitrage | Operations spanning multiple blockchains |
 
-## App Components
+## Plugin Components
 
-A complete app consists of:
+A complete plugin consists of:
 
 | Component | Purpose | Required |
 |-----------|---------|----------|
@@ -56,11 +56,11 @@ See [Services Architecture](services.md) for detailed component documentation.
 
 ## Reference Implementation
 
-The [DCA (Dollar Cost Averaging)](https://github.com/vultisig/dca) app is the reference implementation for building Vultisig apps. It demonstrates:
+The [DCA (Dollar Cost Averaging)](https://github.com/vultisig/dca) plugin is the reference implementation for building Vultisig plugins. It demonstrates:
 
 - Complete server setup with all required endpoints
 - Policy specification and validation
 - Worker implementation for async signing
 - Scheduler-based transaction triggers
 
-Use it as a starting point for your own app development.
+Use it as a starting point for your own plugin development.

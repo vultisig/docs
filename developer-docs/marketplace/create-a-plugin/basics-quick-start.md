@@ -1,7 +1,7 @@
 ---
 description: >-
   This guide provides a quick step-by-step walkthrough for building your first
-  Vultisig app. By the end of this guide, all building blocks and how to
+  Vultisig plugin. By the end of this guide, all building blocks and how to
   integrate your application into the ecosystem
 ---
 
@@ -11,15 +11,15 @@ description: >-
 
 ### Components
 
-There are multiple components needed for your App to interact with the App Store and let users install your App, get a complete overview [here](https://docs.vultisig.com/~/revisions/PXow1uEZkyezTTrQV4ZB/developer-docs/app-store/infrastructure-overview/infrastructure):
+There are multiple components needed for your Plugin to interact with the Marketplace and let users install your Plugin, get a complete overview [here](https://docs.vultisig.com/developer-docs/marketplace/infrastructure-overview/infrastructure):
 
-* [App Server](basics-quick-start.md#app-server)
-* [App Specifications](basics-quick-start.md#app-specifications)
-* [App Worker](basics-quick-start.md#app-specifications)
+* [Plugin Server](basics-quick-start.md#app-server)
+* [Plugin Specifications](basics-quick-start.md#app-specifications)
+* [Plugin Worker](basics-quick-start.md#app-specifications)
 * [Triggers](basics-quick-start.md#triggers)
 
 {% hint style="info" %}
-All basic building blocks can be found in our [hello-world](https://github.com/vultisig/docs/tree/main/developer-docs/app-store/create-an-app/build-your-app/hello-world) section in the documentation and get be used to get started right away.
+All basic building blocks can be found in our [hello-world](https://github.com/vultisig/docs/tree/main/developer-docs/marketplace/create-a-plugin/build-your-plugin/hello-world) section in the documentation and get be used to get started right away.
 {% endhint %}
 
 To integrate your application with the Vultisig ecosystem, you need to build an app that at least supports:
@@ -38,11 +38,11 @@ To integrate your application with the Vultisig ecosystem, you need to build an 
 
 ***
 
-## App Server
+## Plugin Server
 
 ### Getting Started with the Server
 
-The fastest way to get started is to import the [`Server`](https://github.com/vultisig/docs/tree/main/developer-docs/app-store/create-an-app/build-your-app/hello-world/server) component from the Vultisig library.&#x20;
+The fastest way to get started is to import the [`Server`](https://github.com/vultisig/docs/tree/main/developer-docs/marketplace/create-a-plugin/build-your-plugin/hello-world/server) component from the Vultisig library.&#x20;
 
 This provides all the necessary API infrastructure, including the required endpoints for signing, resharing, and automation management, so you don't need to implement them from scratch.
 
@@ -52,11 +52,11 @@ This provides all the necessary API infrastructure, including the required endpo
 * **Standardized endpoints**: Provides the exact API structure that the Vultisig Verifier expects
 * **Built-in middleware**: Includes authentication, rate limiting, and error handling out of the box
 * **Storage integration**: Automatically connects with Redis, PostgreSQL, and S3-compatible storage
-* **Compatibility guarantee**: Ensures your app works seamlessly with the Vultisig mobile app and web interface
+* **Compatibility guarantee**: Ensures your plugin works seamlessly with the Vultisig mobile app and web interface
 
 ### Implementation
 
-The server is your app's main entry point. It initializes all infrastructure components (database, cache, storage), sets up the automation engine, and starts the HTTP server to handle requests from the Vultisig ecosystem.
+The server is your plugin's main entry point. It initializes all infrastructure components (database, cache, storage), sets up the automation engine, and starts the HTTP server to handle requests from the Vultisig ecosystem.
 
 **Key responsibilities:**
 
@@ -69,11 +69,11 @@ The server is your app's main entry point. It initializes all infrastructure com
 
 ***
 
-## App Specifications
+## Plugin Specifications
 
-### Defining Your App Specification
+### Defining Your Plugin Specification
 
-The specification defines what your app does and how it appears in the Vultisig UI.
+The specification defines what your plugin does and how it appears in the Vultisig UI.
 
 ### What the Spec Does
 
@@ -160,7 +160,7 @@ The trigger example is provided to help you understand how the signing flow work
 
 Now that you understand the basic structure, you can:
 
-1. **Clone the example** [**repository**](https://github.com/vultisig/docs/tree/main/developer-docs/app-store/create-an-app/build-your-app/hello-world) and modify it for your use case
+1. **Clone the example** [**repository**](https://github.com/vultisig/docs/tree/main/developer-docs/marketplace/create-a-plugin/build-your-plugin/hello-world) and modify it for your use case
 2. **Define your plugin specification** with the chains and operations you need
 3. **Implement your business logic** as part of the worker or create separate service
-4. **Test locally** with local verifier and App store UI
+4. **Test locally** with local verifier and Marketplace UI

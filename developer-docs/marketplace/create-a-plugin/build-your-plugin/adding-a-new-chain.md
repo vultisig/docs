@@ -1,14 +1,18 @@
 ---
-description: The how to steps to add a missing chains to the App store ecosystem
+description: The how to steps to add a missing chains to the Marketplace ecosystem
 ---
 
-# Adding a New Chain to the Vultisig App Ecosystem
-
-This document provides a high-level overview of the steps required to add support for a new blockchain across the Vultisig App Store ecosystem. The process involves multiple repositories and follows a dependency chain where each layer builds upon the previous.
-
-***
+# Adding a New Chain to the Vultisig Plugin Ecosystem
 
 ## Overview
+
+This document provides a high-level overview of the steps required to add support for a new blockchain across the Vultisig Marketplace ecosystem. The process involves multiple repositories and follows a dependency chain where each layer builds upon the previous.
+
+{% hint style="info" %}
+The process is unlikely due to Vultisig's constant increase in chain coverage for the Marketplace ecosystem.
+{% endhint %}
+
+***
 
 Adding a new chain requires changes across five main repositories:
 

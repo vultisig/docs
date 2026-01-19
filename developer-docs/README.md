@@ -16,15 +16,15 @@ These are just examples. Vultisig's MPC infrastructure is chain-agnostic and pro
 
 ## Choose Your Path
 
-### App Store Apps
-Build automation apps that run on Vultisig's infrastructure and are distributed through the App Store marketplace.
+### Marketplace Plugins
+Build automation plugins that run on Vultisig's infrastructure and are distributed through the Marketplace.
 
 - **Language**: Go
 - **Best for**: Backend developers building trading bots, yield strategies, or AI agents
 - **Revenue**: 70/30 split (developer/treasury)
 
-{% content-ref url="app-store/" %}
-[App Store Apps](app-store/)
+{% content-ref url="marketplace/" %}
+[Marketplace Plugins](marketplace/)
 {% endcontent-ref %}
 
 ### SDK

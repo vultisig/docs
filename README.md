@@ -84,7 +84,7 @@ These are the most common configurations, but Vultisig supports a wide range of 
 <tr><td><strong>Getting Started</strong></td><td>New to Vultisig? Download, create your first vault, and make your first transaction.</td><td><a href="getting-started/README.md">getting-started/README.md</a></td></tr>
 <tr><td><strong>App Guide</strong></td><td>Complete guides for Wallet, DeFi, and Vault Management features.</td><td><a href="app-guide/README.md">app-guide/README.md</a></td></tr>
 <tr><td><strong>Security & Technology</strong></td><td>How threshold signatures work, protocol deep-dives, and security architecture.</td><td><a href="security-technology/README.md">security-technology/README.md</a></td></tr>
-<tr><td><strong>Developer Docs</strong></td><td>Build on Vultisig: SDK, Extension integration, App Store development.</td><td><a href="developer-docs/app-store/README.md">developer-docs/app-store/README.md</a></td></tr>
+<tr><td><strong>Developer Docs</strong></td><td>Build on Vultisig: SDK, Extension integration, Marketplace development.</td><td><a href="developer-docs/marketplace/README.md">developer-docs/marketplace/README.md</a></td></tr>
 </tbody>
 </table>
 
@@ -98,7 +98,7 @@ These are the most common configurations, but Vultisig supports a wide range of 
 <tr><td><strong>Vultisig Wallet</strong></td><td>Core vault application for iOS, Android, macOS, Windows, Linux</td><td><a href="getting-started/download-install.md">getting-started/download-install.md</a></td></tr>
 <tr><td><strong>Vultisig Extension</strong></td><td>Browser extension for Web3 dApp connections</td><td><a href="vultisig-ecosystem/vultisig-extension/README.md">vultisig-ecosystem/vultisig-extension/README.md</a></td></tr>
 <tr><td><strong>Web App</strong></td><td>View-only vault access and airdrop tracking</td><td><a href="vultisig-ecosystem/web-app.md">vultisig-ecosystem/web-app.md</a></td></tr>
-<tr><td><strong>App Store</strong></td><td>Self-custodial automation marketplace</td><td><a href="vultisig-ecosystem/appstore.md">vultisig-ecosystem/appstore.md</a></td></tr>
+<tr><td><strong>Marketplace</strong></td><td>Self-custodial automation marketplace</td><td><a href="vultisig-ecosystem/marketplace.md">vultisig-ecosystem/marketplace.md</a></td></tr>
 </tbody>
 </table>
 

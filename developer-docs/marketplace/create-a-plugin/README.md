@@ -1,6 +1,6 @@
-# Create an App
+# Create a Plugin
 
-This section is intended to guide the developers when building their own Vultisig Apps. The general infrastructure overview can be found [here](developer-docs/app-store/)
+This section is intended to guide the developers when building their own Vultisig Plugins. The general infrastructure overview can be found [here](../)
 
 The section consist of the whole creation journey for a developer:
 
@@ -10,19 +10,19 @@ The section consist of the whole creation journey for a developer:
 {% endstep %}
 
 {% step %}
-### [Introduction Guide](build-your-app/)
+### [Introduction Guide](build-your-plugin/)
 {% endstep %}
 
 {% step %}
-#### [Adding new chains](build-your-app/adding-a-new-chain-to-the-vultisig-app-ecosystem.md) (optional)
+#### [Adding new chains](build-your-plugin/adding-a-new-chain.md) (optional)
 
 {% hint style="info" %}
-The process is unlikely due to Vultisig's constant increase in chain coverage for the App Store ecosystem.
+The process is unlikely due to Vultisig's constant increase in chain coverage for the Marketplace ecosystem.
 {% endhint %}
 {% endstep %}
 
 {% step %}
-## Building the App
+## Building the Plugin
 {% endstep %}
 
 {% step %}

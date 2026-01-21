@@ -122,5 +122,5 @@ These are the most common configurations, but Vultisig supports a wide range of 
 ## Community
 
 - **Discord**: [discord.vultisig.com](https://discord.vultisig.com)
-- **Twitter/X**: [@vaboraxi](https://x.com/vaboraxi)
+- **Twitter/X**: [@vultisig](https://x.com/vultisig)
 - **GitHub**: [github.com/vultisig](https://github.com/vultisig)

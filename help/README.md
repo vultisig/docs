@@ -49,7 +49,7 @@ This section provides support resources and legal documentation for Vultisig use
 ## Community
 
 * **Discord**: [discord.vultisig.com](https://discord.vultisig.com)
-* **Twitter/X**: [@vaboraxi](https://x.com/vaboraxi)
+* **Twitter/X**: [@vultisig](https://x.com/vultisig)
 * **GitHub**: [github.com/vultisig](https://github.com/vultisig)
 
 ***

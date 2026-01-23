@@ -1,7 +1,7 @@
 # Build your App: A Developer's Guide
 
 {% hint style="success" %}
-**Reference Implementation**: The [DCA (Dollar Cost Averaging)](https://github.com/vultisig/dca) app is the official reference. Clone it as your starting point and modify for your use case.
+**Reference Implementation**: The [App Recurring](https://github.com/vultisig/app-recurring) plugin is the official reference. Clone it as your starting point and modify for your use case.
 {% endhint %}
 
 ### Introduction

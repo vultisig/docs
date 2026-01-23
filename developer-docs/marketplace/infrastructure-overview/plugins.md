@@ -56,7 +56,7 @@ See [Services Architecture](services.md) for detailed component documentation.
 
 ## Reference Implementation
 
-The [DCA (Dollar Cost Averaging)](https://github.com/vultisig/dca) plugin is the reference implementation for building Vultisig plugins. It demonstrates:
+The [App Recurring](https://github.com/vultisig/app-recurring) plugin is the reference implementation for building Vultisig plugins. It demonstrates:
 
 - Complete server setup with all required endpoints
 - Policy specification and validation

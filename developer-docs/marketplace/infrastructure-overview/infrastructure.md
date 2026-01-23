@@ -8,7 +8,7 @@
 
 ## Key Interactions
 
-* All applications interface with Recipes modules for standardized logic.
-* Fee computations and treasury operations are funneled through the Fees module.
-* Every transaction is routed to the Verifier for strict automation compliance and TSS signing.
+* All applications interface with [Recipes](https://github.com/vultisig/recipes) modules for standardized logic.
+* Fee computations and treasury operations are funneled through the [Fees](https://github.com/vultisig/feeplugin) module.
+* Every transaction is routed to the [Verifier](https://github.com/vultisig/verifier) for strict automation compliance and TSS signing.
 * Blockchains are kept external, with all interaction managed through the Recipes abstraction layer.

@@ -5,7 +5,7 @@ Build automation plugins that run on Vultisig's infrastructure and distribute th
 ## Getting Started
 
 1. **Understand the architecture**: Learn [what a plugin is](infrastructure-overview/apps.md) and how the [services](infrastructure-overview/services.md) work together
-2. **Build your plugin**: Follow the [quick start guide](create-an-app/basics-quick-start.md) and reference the [DCA plugin](https://github.com/vultisig/dca)
+2. **Build your plugin**: Follow the [quick start guide](create-an-app/basics-quick-start.md) and reference the [App Recurring](https://github.com/vultisig/app-recurring) plugin
 3. **Submit for review**: Complete the [submission process](create-an-app/submission-process.md) to list on the Marketplace
 
 ## Documentation
@@ -27,7 +27,7 @@ Build automation plugins that run on Vultisig's infrastructure and distribute th
 
 ## Reference Implementation
 
-The [DCA (Dollar Cost Averaging)](https://github.com/vultisig/dca) plugin is the official reference implementation. Clone it as a starting point for your own development.
+The [App Recurring](https://github.com/vultisig/app-recurring) plugin is the official reference implementation. Clone it as a starting point for your own development.
 
 ## Support
 

@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-Vultisig's automation engine uses two rule types: **MetaRules** (high-level like `ethereum.send` or `solana.swap`) that automatically expand to protocol-specific implementations, and **Direct Rules** (low-level, ABI/IDL-mapped like `ethereum.erc20.transfer`) for precise control. Rules support seven constraint types (FIXED, MAX, MIN, MAGIC_CONSTANT, ANY, REGEXP, UNSPECIFIED) and use Magic Constants from `vultisig/recipes` for transparent address resolution. All app transactions require Verifier approval based on these rules before TSS signing.
+Vultisig's automation engine uses two rule types: **MetaRules** (high-level like `ethereum.send` or `solana.swap`) that automatically expand to protocol-specific implementations, and **Direct Rules** (low-level, ABI/IDL-mapped like `ethereum.erc20.transfer`) for precise control. Rules support seven constraint types (`FIXED`, `MAX`, `MIN`, `MAGIC_CONSTANT`, `ANY`, `REGEXP`, `UNSPECIFIED`) and use Magic Constants from `vultisig/recipes` for transparent address resolution. All app transactions require Verifier approval based on these rules before TSS signing.
 
 
 ## Overview
@@ -178,7 +178,7 @@ Magic Constants are symbolic references that resolve to actual blockchain addres
 Use magic constants in these scenarios:
 
 1. **Protocol Infrastructure Addresses**
-    - DEX routers (Uniswap, THORChain, Jupiter)
+    - DEX routers (Uniswap, THORChain, MayaChain, Jupiter)
     - Vault contracts
     - Official protocol treasury addresses
 2. **Cross-Chain Operations**

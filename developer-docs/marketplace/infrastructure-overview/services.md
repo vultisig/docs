@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-The Vultisig app ecosystem uses a distributed architecture with four core services: **HTTP Server** (API interface and app management), **Worker Service** (asynchronous transaction processing), **Scheduler Service** (time-based triggers and recurring operations), and **Transaction Indexer** (blockchain monitoring and event processing). These services communicate through Redis queues and interact with Vultisig's managed Verifier infrastructure for TSS-based transaction signing. To build your own app, implement the HTTP Server and transaction logic locally, import the Scheduler and TX Indexer from the verifier package, test against local Vultisig infrastructure, then submit an app configuration YAML for production deployment where only your custom services run while the Verifier and Fee App remain Vultisig-managed. Key packages include `github.com/vultisig/verifier/plugin`, `github.com/vultisig/recipes/engine`, `github.com/hibiken/asynq` for queuing, and blockchain-specific clients for EVM, Solana, and Bitcoin networks.
+The Vultisig app ecosystem uses a distributed architecture with four core services: **HTTP Server** (API interface and app management), **Worker Service** (asynchronous transaction processing), **Scheduler Service** (time-based triggers and recurring operations), and **Transaction Indexer** (blockchain monitoring and event processing). These services communicate through Redis queues and interact with Vultisig's managed Verifier infrastructure for TSS-based transaction signing. To build your own app, implement the HTTP Server and transaction logic locally, import the Scheduler and TX Indexer from the verifier package, test against local Vultisig infrastructure, then submit an app configuration YAML for production deployment where only your custom services run while the [Verifier](https://github.com/vultisig/verifier) and [Fee App](https://github.com/vultisig/feeplugin) remain Vultisig-managed. Key packages include `github.com/vultisig/verifier/plugin`, `github.com/vultisig/recipes/engine`, `github.com/hibiken/asynq` for queuing, and blockchain-specific clients for EVM, Solana, and Bitcoin networks.
 
 ## Overview
 
@@ -146,10 +146,11 @@ The Transaction Indexer monitors blockchain networks and processes relevant even
 - Provide blockchain data for business logic
 
 **Supported Networks:**
-- **EVM Chains**: Ethereum, Polygon, Arbitrum, Base, Optimism, Avalanche, BSC
+- **EVM Chains**: Ethereum, Polygon, Arbitrum, Base, Optimism, Avalanche, BSC, Blast, Cronos, zkSync, Mantle, Sei (and other EVM chains as supported)
+- **UTXO Chains**: Bitcoin, Litecoin, Dogecoin, Bitcoin Cash, Dash, Zcash
 - **Solana**: Program logs and account changes
-- **Bitcoin**: UTXO tracking and confirmation monitoring
-- **THORChain**: Cross-chain transaction tracking
+- **THORChain / MayaChain**: Cross-chain transaction tracking
+- **Other**: XRP, Tron
 
 **Event Processing:**
 ```go
@@ -214,7 +215,7 @@ To deploy your app to production:
 To build a complete app, you need to implement these core components:
 
 #### 1. HTTP Server for core functionality (reshare, automations, etc.)
-For reference, you may use vultisig/dca app
+For reference, you may use [app-recurring](https://github.com/vultisig/app-recurring)
 #### 2. TX preparation and proposing logic
 Do it in accordance with user's signed automations
 #### 3. Scheduler and Tx indexer

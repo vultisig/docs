@@ -2,7 +2,7 @@
 
 ### TL;DR
 
-Submit your Vultisig plugin by joining Discord's third-party developer section, preparing a `plugin-config.yaml` with plugin details (ID, endpoint, supported chains, fees), and meeting security/performance requirements. The review includes basic sanity checks (documentation, config validity) for marketplace listing, with optional "Vultisig Approved" comprehensive audits available. Developers deploy and maintain their own infrastructure post-approval. Reference plugins include DCA for recurring buy automation and other standard/AI-agent categories.
+Submit your Vultisig plugin by joining Discord's third-party developer section, preparing a `plugin-config.yaml` with plugin details (ID, endpoint, supported chains, fees), and meeting security/performance requirements. The review includes basic sanity checks (documentation, config validity) for marketplace listing, with optional "Vultisig Approved" comprehensive audits available. Developers deploy and maintain their own infrastructure post-approval. Reference plugins include App Recurring for recurring buy automation and other standard/AI-agent categories.
 
 ***
 

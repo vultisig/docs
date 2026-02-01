@@ -25,7 +25,10 @@ For technical details, see [Security & Technology](../security-technology/README
 ## Audits
 
 ### TSS Library (mobile-tss-lib)
-
+<!--
+TODO:
+Add Report Link
+-->
 The core TSS library has been audited by:
 
 | Auditor | Date | Scope | Report |
@@ -33,7 +36,10 @@ The core TSS library has been audited by:
 | Kudelski Security | 2024 | GG20 implementation | [View Report](https://github.com/vultisig/mobile-tss-lib/blob/main/audit/Kudelski-Vultisig-Report.pdf) |
 
 ### DKLS23 Implementation
-
+<!--
+TODO:
+Add Report Link
+-->
 The upgraded DKLS23 protocol (via Silence Laboratories):
 
 | Auditor | Date | Scope | Report |

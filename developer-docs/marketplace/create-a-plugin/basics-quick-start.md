@@ -13,9 +13,9 @@ description: >-
 
 There are multiple components needed for your Plugin to interact with the Marketplace and let users install your Plugin, get a complete overview [here](https://docs.vultisig.com/developer-docs/marketplace/infrastructure-overview/infrastructure):
 
-* [Plugin Server](basics-quick-start.md#app-server)
-* [Plugin Specifications](basics-quick-start.md#app-specifications)
-* [Plugin Worker](basics-quick-start.md#app-specifications)
+* [Plugin Server](basics-quick-start.md#plugin-server)
+* [Plugin Specifications](basics-quick-start.md#plugin-specifications)
+* [Plugin Worker](basics-quick-start.md#worker)
 * [Triggers](basics-quick-start.md#triggers)
 
 {% hint style="info" %}

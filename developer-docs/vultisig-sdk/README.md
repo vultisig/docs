@@ -593,7 +593,7 @@ packages/lib/          # Shared libraries and utilities
 
 ## License
 
-MIT License - see [LICENSE](./LICENSE) file for details.
+MIT License - see [LICENSE](https://github.com/vultisig/vultisig-sdk/blob/main/LICENSE) file for details.
 
 ## Support
 

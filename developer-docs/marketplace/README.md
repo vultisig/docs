@@ -4,25 +4,25 @@ Build automation plugins that run on Vultisig's infrastructure and distribute th
 
 ## Getting Started
 
-1. **Understand the architecture**: Learn [what a plugin is](infrastructure-overview/apps.md) and how the [services](infrastructure-overview/services.md) work together
-2. **Build your plugin**: Follow the [quick start guide](create-an-app/basics-quick-start.md) and reference the [App Recurring](https://github.com/vultisig/app-recurring) plugin
-3. **Submit for review**: Complete the [submission process](create-an-app/submission-process.md) to list on the Marketplace
+1. **Understand the architecture**: Learn [what a plugin is](infrastructure-overview/plugins.md) and how the [services](infrastructure-overview/services.md) work together
+2. **Build your plugin**: Follow the [quick start guide](create-a-plugin/basics-quick-start.md) and reference the [App Recurring](https://github.com/vultisig/app-recurring) plugin
+3. **Submit for review**: Complete the [submission process](create-a-plugin/submission-process.md) to list on the Marketplace
 
 ## Documentation
 
 ### Architecture
-- [What is a Plugin](infrastructure-overview/apps.md) - Core concepts and security model
+- [What is a Plugin](infrastructure-overview/plugins.md) - Core concepts and security model
 - [Services Architecture](infrastructure-overview/services.md) - HTTP Server, Worker, Scheduler, TX Indexer
 - [Policy Rules](infrastructure-overview/metarules.md) - MetaRules and Direct Rules for transaction validation
 - [Infrastructure Overview](infrastructure-overview/infrastructure.md) - System components and interactions
 
 ### Building
-- [Quick Start](create-an-app/basics-quick-start.md) - Step-by-step guide to your first plugin
-- [Build Your Plugin](create-an-app/build-your-app/) - Detailed developer guide
-- [Adding a New Chain](create-an-app/build-your-app/adding-a-new-chain-to-the-vultisig-app-ecosystem.md) - Extend chain support
+- [Quick Start](create-a-plugin/basics-quick-start.md) - Step-by-step guide to your first plugin
+- [Build Your Plugin](create-a-plugin/build-your-plugin/README.md) - Detailed developer guide
+- [Adding a New Chain](create-a-plugin/build-your-plugin/adding-a-new-chain.md) - Extend chain support
 
 ### Publishing
-- [Submission Process](create-an-app/submission-process.md) - Review and approval workflow
+- [Submission Process](create-a-plugin/submission-process.md) - Review and approval workflow
 - [Revenue](infrastructure-overview/revenue.md) - Fee structures and 70/30 revenue split
 
 ## Reference Implementation

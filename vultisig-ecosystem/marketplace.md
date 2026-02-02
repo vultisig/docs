@@ -6,11 +6,7 @@ cover: ../.gitbook/assets/image (3).png
 coverY: 0
 ---
 
-# Marketplace
-
-{% hint style="warning" %}
-The Marketplace is in early access. Use for testing only—do not use with production funds.
-{% endhint %}
+# Marketplace 
 
 ## Overview
 

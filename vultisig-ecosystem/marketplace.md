@@ -1,20 +1,32 @@
 ---
 description: >-
-  Self-custodial automation marketplace. Install DCA, recurring payments, and
-  trading plugins without giving up custody. MPC-secured, multi-chain.
+  Self-custodial automation marketplace. Plugins for scheduled workflows, AI Agents for
+  autonomous strategies — all MPC-secured, multi-chain, without giving up custody.
 cover: ../.gitbook/assets/image (3).png
 coverY: 0
 ---
 
-# Marketplace 
+# Plugin Marketplace
 
 ## Overview
 
-The Vultisig Marketplace is a marketplace for self-custodial automation. Install plugins to automate your crypto management—like recurring investments (DCA) and scheduled payments—without giving up custody of your funds.
+The Vultisig Plugin Marketplace is a marketplace for self-custodial automation. Install plugins to automate your crypto management — from fixed workflows like DCA and scheduled payments, to autonomous AI Agents that make decisions based on market conditions — all without giving up custody of your funds.
 
-Unlike traditional automation that requires handing over your keys, Vultisig plugins use MPC technology to keep you in control. Your vault executes automations securely—no third parties, no smart contract risks, no seed phrase exposure.
+Unlike traditional automation that requires handing over your keys, Vultisig plugins use MPC technology to keep you in control. Your vault executes automations securely — no third parties, no smart contract risks, no seed phrase exposure.
 
-Browse plugins at [apps.vultisig.com](https://apps.vultisig.com).
+The Marketplace supports two types of automation:
+
+| | Plugins | AI Agents |
+|---|---------|-----------|
+| **What they do** | Fixed, repeatable workflows on a schedule | Autonomous strategies that react to conditions |
+| **Triggers** | Time-based (every Monday, every 4 hours) | Event-based (price drops 5%, portfolio drifts, arb opportunity) |
+| **Logic** | Configurable parameters within a fixed strategy | Condition-based strategies with flexible triggers |
+| **Setup** | Browse, install, configure rules | Browse, install, define conditions and limits |
+| **Examples** | DCA, recurring payments, scheduled swaps | Rebalancing bot, trend follower, cross-chain arbitrage |
+
+Both share the same MPC architecture — the Verifier validates every transaction before signing, ensuring nothing outside your rules gets executed.
+
+Browse plugins and agents at [apps.vultisig.com](https://apps.vultisig.com). Developers can build and publish their own — see the [Developer Documentation](../developer-docs/marketplace/) for details.
 
 ***
 
@@ -95,6 +107,27 @@ Schedule automatic payments to any address. Set up payroll, subscriptions, or re
 - Payroll automation
 - Subscription payments
 - Regular savings transfers
+
+### AI Agents
+
+AI Agents are plugins with more autonomy. Instead of running on a fixed schedule, they monitor conditions and act when triggers are met — rebalancing when your portfolio drifts, buying dips when prices drop, or capturing arbitrage opportunities across chains.
+
+They use the same Marketplace infrastructure as standard plugins — same installation flow, same Verifier validation, same MPC signing. The difference is in what triggers them and how much flexibility they have in deciding what to execute.
+
+**How they differ from standard plugins:**
+- **Reactive triggers** — respond to price movements, portfolio drift, on-chain events (not just schedules)
+- **Strategy flexibility** — developers define the decision logic, not just parameters
+- **Continuous monitoring** — agents watch conditions in real time and act when thresholds are met
+
+**Use cases:**
+- Portfolio rebalancing when allocations drift beyond a threshold
+- Buying the dip — accumulate an asset when it drops by a set percentage
+- Cross-chain arbitrage between DEXs
+- Trend-following strategies based on price momentum
+
+{% hint style="info" %}
+AI Agents share the same security model as plugins. The Verifier enforces your configured limits on every transaction — agents cannot exceed your rules, regardless of their strategy logic.
+{% endhint %}
 
 ***
 

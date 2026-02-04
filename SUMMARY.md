@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
+* [For AI Agents](agent.md)
 
 ## Getting Started
 
@@ -51,7 +52,7 @@
 * [Vultisig Extension](vultisig-ecosystem/vultisig-extension/README.md)
   * [How to use Vultisig Extension](vultisig-ecosystem/vultisig-extension/how-to-use-vultisig-connect.md)
   * [Web3 support](vultisig-ecosystem/vultisig-extension/web3-support.md)
-* [Marketplace](vultisig-ecosystem/marketplace.md)
+* [Plugin Marketplace](vultisig-ecosystem/marketplace.md)
 * [Web App](vultisig-ecosystem/web-app.md)
 * [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md)
 * [Community Tools](vultisig-ecosystem/community-tools.md)

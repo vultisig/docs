@@ -8,6 +8,6 @@ This section provides a thorough overview of the Vultisig Marketplace to help de
 
 It is divided into the following sections:
 
-* [Infrastructure](/broken/pages/6HYD5KXpo93LjEWEJ3hc)
+* [Infrastructure](infrastructure.md)
 * [Plugins](apps.md)
 * [Revenue](revenue.md)

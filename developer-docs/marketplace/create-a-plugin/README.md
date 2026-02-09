@@ -2,7 +2,7 @@
 
 This section is intended to guide the developers when building their own Vultisig Plugins. The general infrastructure overview can be found [here](../)
 
-The section consist of the whole creation journey for a developer:
+The section consists of the whole creation journey for a developer:
 
 {% stepper %}
 {% step %}
@@ -22,7 +22,7 @@ The process is unlikely due to Vultisig's constant increase in chain coverage fo
 {% endstep %}
 
 {% step %}
-## Building the Plugin
+## [Building the Plugin](build-your-plugin/hello-world/)
 {% endstep %}
 
 {% step %}

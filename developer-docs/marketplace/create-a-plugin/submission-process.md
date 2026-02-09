@@ -8,9 +8,9 @@ Submit your Vultisig plugin by joining Discord's third-party developer section, 
 
 ## Overview
 
-To publish your plugin in the Vultisig ecosystem, you must submit your plugin/agent for review and approval.&#x20;
+To launch your plugin in the Vultisig ecosystem, you must submit your plugin/agent for review and approval. After approval, developers are responsible for deploying and maintaining their own applications, ensuring uptime, scaling, and operational security outside of Vultisig core infrastructure.
 
-After approval, developers are responsible for deploying and maintaining their own applications, ensuring uptime, scaling, and operational security outside of Vultisig core infrastructure.
+Each plugin is an independent product. You define your own recipe (transaction rules), user configuration flow, and authentication requirements. Different plugins have different policies, constraints, and user experiences — this is by design.
 
 {% hint style="info" %}
 **Note:** Verifier and Fees are managed exclusively by Vultisig and run as core infrastructure services. All other plugins are deployed, operated, and updated directly by their respective developers.

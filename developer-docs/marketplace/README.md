@@ -29,6 +29,8 @@ Build automation plugins that run on Vultisig's infrastructure and distribute th
 
 The [App Recurring](https://github.com/vultisig/app-recurring) plugin is the official reference implementation. Clone it as a starting point for your own development.
 
+Each plugin is an independent service — you define your own recipe (transaction rules), authentication flow, and business logic. The reference plugin shows integration patterns, but your plugin can be structured however you need.
+
 ## Support
 
 - **Discord**: [discord.gg/vultisig](https://discord.gg/vultisig) - Join the third-party developer section

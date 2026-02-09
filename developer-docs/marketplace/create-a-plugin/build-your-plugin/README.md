@@ -10,6 +10,16 @@ This document provides a comprehensive guide for developers on how to integrate 
 
 The guide covers mandatory requirements, optional features, project setup, and implementation details.
 
+### Your Plugin, Your Rules
+
+Your plugin is an independent Go service that you fully own and operate. The only integration points with Vultisig are:
+
+1. **`/reshare` and `/sign` endpoints** — receive TSS key material and signing tasks
+2. **Recipe specification** — define what transactions your plugin is allowed to request
+3. **Policy validation** — validate user-configured policies match your schema
+
+Beyond these three touch points, you have complete freedom. Your architecture, your triggers, your auth flow, your infrastructure.
+
 ***
 
 ### Core Integration Requirements

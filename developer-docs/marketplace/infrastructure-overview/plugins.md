@@ -22,6 +22,19 @@ A plugin operates as a trusted automation layer between the user and the blockch
 └──────────────┘     └──────────────┘     └──────────────┘
 ```
 
+## Plugin Independence
+
+Every plugin is a standalone, independent service. There is no shared runtime or plugin framework that constrains what you build. Each plugin:
+
+- **Runs its own infrastructure** — your own HTTP server, workers, database, and task queue
+- **Defines its own recipe** — the rules and constraints governing what transactions it can request
+- **Sets its own auth and configuration** — each plugin determines what users need to configure and how policies are structured
+- **Controls its own business logic** — DCA schedules, AI trading strategies, payroll batches, or anything else you design
+
+The [App Recurring](https://github.com/vultisig/app-recurring) plugin is a reference starting point, not a rigid template. The Vultisig ecosystem provides the security layer (Verifier + TSS signing) and distribution (Marketplace). Everything else is yours to build.
+
+Users must configure policies specific to each installed plugin. A DCA plugin's policies look different from a payroll plugin's policies. Your plugin's `Suggest()` function guides users toward the right rules and constraints for your specific use case.
+
 ## Key Security Properties
 
 **Self-Custodial**: Users never give up their private keys. Plugins cannot access funds outside the defined policy rules.
@@ -56,11 +69,4 @@ See [Services Architecture](services.md) for detailed component documentation.
 
 ## Reference Implementation
 
-The [App Recurring](https://github.com/vultisig/app-recurring) plugin is the reference implementation for building Vultisig plugins. It demonstrates:
-
-- Complete server setup with all required endpoints
-- Policy specification and validation
-- Worker implementation for async signing
-- Scheduler-based transaction triggers
-
-Use it as a starting point for your own plugin development.
+The [App Recurring](https://github.com/vultisig/app-recurring) plugin is the reference implementation for building Vultisig plugins. Use it as a starting point — not a template you must follow. Your plugin defines its own recipe, configuration flow, and business logic.

@@ -24,17 +24,6 @@ For technical details, see [Security & Technology](../security-technology/README
 
 ## Audits
 
-### TSS Library (mobile-tss-lib)
-<!--
-TODO:
-Add Report Link
--->
-The core TSS library has been audited by:
-
-| Auditor | Date | Scope | Report |
-|---------|------|-------|--------|
-| Kudelski Security | 2024 | GG20 implementation | [View Report](https://github.com/vultisig/mobile-tss-lib/blob/main/audit/Kudelski-Vultisig-Report.pdf) |
-
 ### DKLS23 Implementation
 <!--
 TODO:
@@ -44,48 +33,11 @@ The upgraded DKLS23 protocol (via Silence Laboratories):
 
 | Auditor | Date | Scope | Report |
 |---------|------|-------|--------|
-| Trail of Bits | 2024 | DKLS23 protocol | [View Report](https://github.com/silence-laboratories/dkls23/blob/main/audits/) |
+| Trail of Bits | 2024 | DKLS23 protocol | [View Report](https://github.com/silence-laboratories/dkls23?tab=readme-ov-file#security-audit) |
 
 ### Application Audits
 
 Mobile and desktop application security assessments are conducted regularly. Reports are published upon completion.
-
-***
-
-## Bug Bounty
-
-Vultisig operates a responsible disclosure program for security researchers.
-
-### Scope
-
-- Vultisig mobile applications (iOS, Android)
-- Vultisig desktop applications (macOS, Windows, Linux)
-- Vultisig browser extension
-- TSS library (mobile-tss-lib)
-- Backend infrastructure
-
-### Rewards
-
-Bounties are determined based on severity:
-
-| Severity | Description | Reward Range |
-|----------|-------------|--------------|
-| Critical | Direct fund theft, key extraction | Up to $50,000 |
-| High | Significant security bypass | Up to $10,000 |
-| Medium | Limited security impact | Up to $2,500 |
-| Low | Minor issues | Up to $500 |
-
-### Reporting
-
-Report vulnerabilities to: **security@vultisig.com**
-
-Include:
-- Detailed description of the vulnerability
-- Steps to reproduce
-- Potential impact assessment
-- Your suggested fix (optional)
-
-Do not publicly disclose vulnerabilities before they are addressed.
 
 ***
 

@@ -63,13 +63,15 @@ Your vault backup is the ONLY way to recover access if you lose a device. Read t
 
 ***
 
-## Choose Your Setup
+## Choose Your Path
 
-**New to crypto or want simplicity?**
-- Start with a [Fast Vault](../app-guide/creating-a-vault/fast-vault.md) - single device, quick setup
+**Using the Vultisig app?**
+- [Fast Vault](../app-guide/creating-a-vault/fast-vault.md) - single device, quick setup
+- [Secure Vault](../app-guide/creating-a-vault/secure-vault.md) - multi-device, maximum security
 
-**Want maximum security?**
-- Create a [Secure Vault](../app-guide/creating-a-vault/secure-vault.md) - multi-device, no single point of failure
+**Building with the SDK or CLI?**
+- [SDK Developer Docs](../developer-docs/vultisig-sdk/) - TypeScript SDK for web apps, backends, and AI agents
+- [CLI Documentation](../developer-docs/vultisig-sdk/CLI.md) - Command-line wallet for scripts and automation
 
 ***
 

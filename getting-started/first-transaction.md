@@ -105,7 +105,7 @@ Once you're comfortable with basic transactions, explore:
 
 ## What's Next?
 
-Explore the full [App Guide](../app-guide/) to learn about:
+Explore the full [App Guide](../app-guide/overview.md) to learn about:
 
 * [Wallet features](../app-guide/wallet/) - Send, swap, manage assets
 * [DeFi](../app-guide/defi/) - Stake, bond, earn yield

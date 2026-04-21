@@ -73,6 +73,6 @@ All platforms share the same core functionality. The interface adapts to each pl
 
 ## Related
 
-* [Getting Started](../getting-started/getting-started.md) - New user onboarding
-* [Security & Technology](../security-and-technology/security-technology.md) - How Vultisig works under the hood
+* [Getting Started](../getting-started/overview.md) - New user onboarding
+* [Security & Technology](../security-and-technology/overview.md) - How Vultisig works under the hood
 * [Vultisig Extension](../vultisig-ecosystem/vultisig-extension/) - Browser extension for dApp connections

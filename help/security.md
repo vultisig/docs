@@ -18,7 +18,7 @@ Vultisig's security is built on threshold signature schemes (TSS), eliminating s
 * **Distributed trust**: Compromising one device does not compromise funds
 * **Open source**: All code publicly auditable on [GitHub](https://github.com/vultisig)
 
-For technical details, see [Security & Technology](../security-and-technology/security-technology.md).
+For technical details, see [Security & Technology](../security-and-technology/overview.md).
 
 ***
 
@@ -59,6 +59,6 @@ Mobile and desktop application security assessments are conducted regularly. Rep
 
 ## Related
 
-* [Security & Technology](../security-and-technology/security-technology.md) — Technical documentation
+* [Security & Technology](../security-and-technology/overview.md) — Technical documentation
 * [Emergency Recovery](../security-and-technology/emergency-recovery.md) — Fund recovery if software unavailable
 * [Privacy Policy](privacy.md) — Data handling practices

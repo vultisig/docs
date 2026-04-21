@@ -20,7 +20,7 @@ Upgrading changes the underlying TSS protocol from GG20 to DKLS23. Benefits incl
 * **Extension compatibility** — required for [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/)
 * **Same addresses** — no need to migrate funds
 
-Technical details are available in the [TSS section](../../security-and-technology/security-technology.md).
+Technical details are available in the [TSS section](../../security-and-technology/overview.md).
 
 ***
 
@@ -85,5 +85,5 @@ If Fast signing is still desired, create a new [Fast Vault](../creating-a-vault/
 
 ## Related
 
-* [TSS Protocols](../../security-and-technology/security-technology.md) - Technical details
+* [TSS Protocols](../../security-and-technology/overview.md) - Technical details
 * [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/) - Requires DKLS23

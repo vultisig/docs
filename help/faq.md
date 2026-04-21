@@ -136,6 +136,6 @@ Your funds remain accessible. Vultisig provides [emergency recovery tools](../se
 
 ## Related
 
-* [Getting Started](../getting-started/getting-started.md)
+* [Getting Started](../getting-started/overview.md)
 * [Backup & Recovery](../getting-started/backup-recovery.md)
 * [Security](security.md)

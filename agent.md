@@ -154,7 +154,7 @@ Files on [vultisig.com](https://vultisig.com) for agent discovery and integratio
 
 ### Security & Technology
 
-* [Overview](security-and-technology/security-technology.md): Security architecture
+* [Overview](security-and-technology/overview.md): Security architecture
 * [Keysign](security-and-technology/keysign.md): Transaction signing
 * [TSS Actions](security-and-technology/tss-actions.md): Threshold signature operations
 * [How GG20 Works](security-and-technology/how-gg20-works.md): GG20 protocol

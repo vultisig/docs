@@ -77,5 +77,5 @@ While passkeys represent progress in general authentication, they don't meet the
 
 ## Related
 
-* [Security & Technology Overview](security-technology.md)
+* [Security & Technology Overview](overview.md)
 * [Difference to Multi-Signatures](difference-to-multi-sig.md)

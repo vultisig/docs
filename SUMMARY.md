@@ -5,7 +5,7 @@
 
 ## Getting Started
 
-* [Overview](getting-started/getting-started.md)
+* [Overview](getting-started/overview.md)
 * [Download & Install](getting-started/download-install.md)
 * [Create a Vault](getting-started/create-vault.md)
 * [Backup & Recovery](getting-started/backup-recovery.md)
@@ -13,7 +13,7 @@
 
 ## App Guide
 
-* [Overview](app-guide/README.md)
+* [Overview](app-guide/overview.md)
 * [Creating a Vault](app-guide/creating-a-vault/README.md)
   * [Fast Vault](app-guide/creating-a-vault/fast-vault.md)
   * [Secure Vault](app-guide/creating-a-vault/secure-vault.md)
@@ -38,7 +38,7 @@
 
 ## Security & Technology
 
-* [Overview](security-and-technology/security-technology.md)
+* [Overview](security-and-technology/overview.md)
 * [Keysign](security-and-technology/keysign.md)
 * [TSS Actions](security-and-technology/tss-actions.md)
 * [How GG20 Works](security-and-technology/how-gg20-works.md)

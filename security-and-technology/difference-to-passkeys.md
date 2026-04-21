@@ -19,6 +19,7 @@ Passkeys utilize asymmetric cryptography—a private key and public key pair—s
 The public key is stored by the application server, while the private key remains on the user's device, protected by biometric authentication.
 
 During authentication:
+
 1. The server generates a cryptographic challenge
 2. The device signs the challenge with the private key
 3. The server verifies the signature with the stored public key
@@ -58,13 +59,13 @@ Recognizing these shortcomings, Vultisig developed a solution tailored for crypt
 
 ## Comparison
 
-| Factor | Passkeys | Vultisig TSS |
-|--------|----------|--------------|
-| **Single Point of Failure** | Yes (one device) | No (distributed across devices) |
-| **Multi-Chain** | No | Yes (30+ chains) |
-| **Self-Custody** | Partial (corporate infrastructure) | Full (no third parties) |
-| **Device Loss Recovery** | Dependent on platform | Threshold redundancy |
-| **Open Source** | Partial | Fully open source |
+| Factor                      | Passkeys                           | Vultisig TSS                    |
+| --------------------------- | ---------------------------------- | ------------------------------- |
+| **Single Point of Failure** | Yes (one device)                   | No (distributed across devices) |
+| **Multi-Chain**             | No                                 | Yes (30+ chains)                |
+| **Self-Custody**            | Partial (corporate infrastructure) | Full (no third parties)         |
+| **Device Loss Recovery**    | Dependent on platform              | Threshold redundancy            |
+| **Open Source**             | Partial                            | Fully open source               |
 
 ***
 
@@ -76,5 +77,5 @@ While passkeys represent progress in general authentication, they don't meet the
 
 ## Related
 
-- [Security & Technology Overview](README.md)
-- [Difference to Multi-Signatures](difference-to-multi-sig.md)
+* [Security & Technology Overview](security-technology.md)
+* [Difference to Multi-Signatures](difference-to-multi-sig.md)

@@ -4,7 +4,7 @@ description: >-
   vaults, and access all features across iOS, Android, and desktop.
 ---
 
-# App Guide
+# Overview
 
 The Vultisig app is organized into two main sections, accessible via the bottom navigation bar: **Wallet** and **DeFi**. This guide covers all app functionality in the same structure as the app itself.
 
@@ -12,10 +12,10 @@ The Vultisig app is organized into two main sections, accessible via the bottom 
 
 ## App Structure
 
-| Tab | Purpose | Key Features |
-|-----|---------|--------------|
-| **Wallet** | Asset management and transactions | Send, receive, swap across 30+ chains |
-| **DeFi** | Decentralized finance operations | Stake, bond, provide liquidity, earn yield |
+| Tab        | Purpose                           | Key Features                               |
+| ---------- | --------------------------------- | ------------------------------------------ |
+| **Wallet** | Asset management and transactions | Send, receive, swap across 30+ chains      |
+| **DeFi**   | Decentralized finance operations  | Stake, bond, provide liquidity, earn yield |
 
 Additional functionality is available through **Vault Management** in the settings menu.
 
@@ -61,11 +61,11 @@ Vault settings and maintenance: backups, renaming, resharing keys, and security 
 
 The Vultisig app is available on:
 
-- iOS (iPhone, iPad)
-- Android
-- macOS
-- Windows
-- Linux
+* iOS (iPhone, iPad)
+* Android
+* macOS
+* Windows
+* Linux
 
 All platforms share the same core functionality. The interface adapts to each platform while maintaining consistent features.
 
@@ -73,6 +73,6 @@ All platforms share the same core functionality. The interface adapts to each pl
 
 ## Related
 
-- [Getting Started](../getting-started/) - New user onboarding
-- [Security & Technology](../security-technology/) - How Vultisig works under the hood
-- [Vultisig Extension](../vultisig-ecosystem/vultisig-extension/) - Browser extension for dApp connections
+* [Getting Started](../getting-started/getting-started.md) - New user onboarding
+* [Security & Technology](../security-and-technology/security-technology.md) - How Vultisig works under the hood
+* [Vultisig Extension](../vultisig-ecosystem/vultisig-extension/) - Browser extension for dApp connections

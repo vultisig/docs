@@ -5,15 +5,15 @@
 
 ## Getting Started
 
-* [Getting Started](getting-started/README.md)
-  * [Download & Install](getting-started/download-install.md)
-  * [Create a Vault](getting-started/create-vault.md)
-  * [Backup & Recovery](getting-started/backup-recovery.md)
-  * [Your First Transaction](getting-started/first-transaction.md)
+* [Overview](getting-started/getting-started.md)
+* [Download & Install](getting-started/download-install.md)
+* [Create a Vault](getting-started/create-vault.md)
+* [Backup & Recovery](getting-started/backup-recovery.md)
+* [Your First Transaction](getting-started/first-transaction.md)
 
 ## App Guide
 
-* [App Guide](app-guide/README.md)
+* [Overview](app-guide/README.md)
 * [Creating a Vault](app-guide/creating-a-vault/README.md)
   * [Fast Vault](app-guide/creating-a-vault/fast-vault.md)
   * [Secure Vault](app-guide/creating-a-vault/secure-vault.md)
@@ -38,14 +38,14 @@
 
 ## Security & Technology
 
-* [Security & Technology](security-technology/README.md)
-  * [Keysign](security-technology/keysign.md)
-  * [TSS Actions](security-technology/tss-actions.md)
-  * [How GG20 Works](security-technology/how-gg20-works.md)
-  * [How DKLS23 Works](security-technology/how-dkls23-works.md)
-  * [Difference to Multi-Signatures](security-technology/difference-to-multi-sig.md)
-  * [Difference to Passkeys](security-technology/difference-to-passkeys.md)
-  * [Emergency Recovery](security-technology/emergency-recovery.md)
+* [Overview](security-and-technology/security-technology.md)
+* [Keysign](security-and-technology/keysign.md)
+* [TSS Actions](security-and-technology/tss-actions.md)
+* [How GG20 Works](security-and-technology/how-gg20-works.md)
+* [How DKLS23 Works](security-and-technology/how-dkls23-works.md)
+* [Difference to Multi-Signatures](security-and-technology/difference-to-multi-sig.md)
+* [Difference to Passkeys](security-and-technology/difference-to-passkeys.md)
+* [Emergency Recovery](security-and-technology/emergency-recovery.md)
 
 ## Ecosystem
 

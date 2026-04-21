@@ -1,4 +1,4 @@
-# Submission Process
+# Submission & Revenue
 
 ### TL;DR
 
@@ -60,39 +60,39 @@ plugins:
 
 {% stepper %}
 {% step %}
-### Join the developer discord
+#### Join the developer discord
 
 Join Discord at [discord.gg/vultisig](https://discord.gg/vultisig), navigate to dedicated section for third-party developers and get real-time support and feedback from the Vultisig team while building your plugin
 {% endstep %}
 
 {% step %}
-### Prepare submission
+#### Prepare submission
 
 Prepare all necessary code and documentation, like YAML config and documentation.
 {% endstep %}
 
 {% step %}
-### Complete Checks
+#### Complete Checks
 
 Complete the security checklist and performance requirements for APIs and resource use.
 {% endstep %}
 
 {% step %}
-### <mark style="color:orange;">Review and approval</mark>
+#### <mark style="color:orange;">Review and approval</mark>
 
-The review process includes basic sanity checks covering documentation completeness, configuration validity, and automation structure. \
-Plugins that pass these checks can be listed in the Marketplace.&#x20;
+The review process includes basic sanity checks covering documentation completeness, configuration validity, and automation structure.\
+Plugins that pass these checks can be listed in the Marketplace.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$info;">Optional: "Vultisig Approved"</mark>
+#### <mark style="color:$info;">Optional: "Vultisig Approved"</mark>
 
-Developers seeking a "Vultisig Approved" badge can request a comprehensive audit, which includes thorough security review, code audit, and performance testing. \
+Developers seeking a "Vultisig Approved" badge can request a comprehensive audit, which includes thorough security review, code audit, and performance testing.\
 This optional deep audit requires additional resources and time. Use the example plugins above as references for best practices and compliance.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$success;">Marketplace Listing</mark>
+#### <mark style="color:$success;">Marketplace Listing</mark>
 
 Once approved, your plugin is provisioned and listed in the Vultisig marketplace alongside other available Plugins. Those examples illustrate category standards, endpoint conventions, and API scope for production plugins.
 

@@ -1,4 +1,4 @@
-# App Services Architecture
+# Services Architecture
 
 ## TL;DR
 
@@ -10,11 +10,12 @@ The Vultisig app ecosystem is built on a distributed architecture with specializ
 
 ## Core Services Architecture
 
-![](verifier.png)
+![](../../../.gitbook/assets/verifier.png)
 
 This is a diagram of the verifier's components, but in general all apps have the same structure
 
 ***
+
 ## Service Components
 
 ### 1. HTTP Server
@@ -22,13 +23,15 @@ This is a diagram of the verifier's components, but in general all apps have the
 The HTTP Server is the primary interface for external interactions and app management.
 
 **Responsibilities:**
-- Handle API requests from users and external systems
-- Manage app installation and configuration
-- Serve automation creation and management endpoints
-- Provide real-time status and monitoring information
-- Handle authentication and authorization
+
+* Handle API requests from users and external systems
+* Manage app installation and configuration
+* Serve automation creation and management endpoints
+* Provide real-time status and monitoring information
+* Handle authentication and authorization
 
 **Key API Endpoints:**
+
 ```go
 // Plugin Management
 pluginGroup.POST("/policy", s.CreatePluginPolicy)
@@ -48,12 +51,14 @@ vaultGroup.GET("/sign/response/:taskId", s.GetKeysignResult)
 ```
 
 **Technology Stack:**
-- **Framework**: Echo (Go HTTP framework)
-- **Authentication**: JWT tokens
-- **Validation**: Custom middleware for request validation
-- **Monitoring**: Built-in health check endpoints
+
+* **Framework**: Echo (Go HTTP framework)
+* **Authentication**: JWT tokens
+* **Validation**: Custom middleware for request validation
+* **Monitoring**: Built-in health check endpoints
 
 **Configuration Example:**
+
 ```json
 {
   "server": {
@@ -69,19 +74,23 @@ vaultGroup.GET("/sign/response/:taskId", s.GetKeysignResult)
   }
 }
 ```
+
 ***
+
 ### 2. Worker Service
 
 The Worker Service handles asynchronous job processing and transaction execution.
 
 **Responsibilities:**
-- Process transaction signing requests
-- Execute scheduled tasks and recurring operations
-- Handle retry logic for failed operations
-- Manage resource-intensive computations
-- Coordinate with the Verifier for TSS operations
+
+* Process transaction signing requests
+* Execute scheduled tasks and recurring operations
+* Handle retry logic for failed operations
+* Manage resource-intensive computations
+* Coordinate with the Verifier for TSS operations
 
 **Job Processing Pipeline:**
+
 1. **Job Reception**: Receive jobs from Redis queue
 2. **Validation**: Validate job parameters and automation compliance
 3. **Transaction Construction**: Build blockchain transactions using Recipes
@@ -90,29 +99,35 @@ The Worker Service handles asynchronous job processing and transaction execution
 6. **Result Handling**: Process results and update job status
 
 **Key Features:**
-- **Concurrency Control**: Configurable worker pools
-- **Error Handling**: Automatic retry with exponential backoff
-- **Resource Management**: Memory and CPU usage monitoring
-- **Monitoring**: Job processing metrics and logging
+
+* **Concurrency Control**: Configurable worker pools
+* **Error Handling**: Automatic retry with exponential backoff
+* **Resource Management**: Memory and CPU usage monitoring
+* **Monitoring**: Job processing metrics and logging
+
 ***
+
 ### 3. Scheduler Service
 
 The Scheduler Service manages time-based triggers and recurring operations.
 
 **Responsibilities:**
-- Queue periodic tasks (subscriptions, recurring payments)
-- Manage execution timing and frequency
-- Handle rate limiting and throttling
-- Coordinate with business logic for trigger conditions
-- Maintain scheduling state and persistence
+
+* Queue periodic tasks (subscriptions, recurring payments)
+* Manage execution timing and frequency
+* Handle rate limiting and throttling
+* Coordinate with business logic for trigger conditions
+* Maintain scheduling state and persistence
 
 **Scheduling Patterns:**
-- **Fixed Intervals**: Execute every N seconds/minutes/hours
-- **Cron-like Scheduling**: Complex time-based triggers
-- **Event-driven**: Triggered by blockchain events or external conditions
-- **Rate Limited**: Ensure compliance with automation rate limits
+
+* **Fixed Intervals**: Execute every N seconds/minutes/hours
+* **Cron-like Scheduling**: Complex time-based triggers
+* **Event-driven**: Triggered by blockchain events or external conditions
+* **Rate Limited**: Ensure compliance with automation rate limits
 
 **Implementation:**
+
 ```go
 type SchedulerConfig struct {
     MaxTxsPerWindow     int           `json:"max_txs_per_window"`
@@ -123,6 +138,7 @@ type SchedulerConfig struct {
 ```
 
 **Example Usage:**
+
 ```go
 // Schedule a recurring payment
 scheduler.ScheduleRecurring(ScheduleRequest{
@@ -133,26 +149,31 @@ scheduler.ScheduleRecurring(ScheduleRequest{
     Parameters:  paymentParams,
 })
 ```
+
 ***
+
 ### 4. Transaction Indexer
 
 The Transaction Indexer monitors blockchain networks and processes relevant events.
 
 **Responsibilities:**
-- Monitor blockchain networks for transaction confirmations
-- Index app-related transactions and events
-- Trigger post-transaction processing
-- Maintain transaction history and state
-- Provide blockchain data for business logic
+
+* Monitor blockchain networks for transaction confirmations
+* Index app-related transactions and events
+* Trigger post-transaction processing
+* Maintain transaction history and state
+* Provide blockchain data for business logic
 
 **Supported Networks:**
-- **EVM Chains**: Ethereum, Polygon, Arbitrum, Base, Optimism, Avalanche, BSC, Blast, Cronos, zkSync, Mantle, Sei (and other EVM chains as supported)
-- **UTXO Chains**: Bitcoin, Litecoin, Dogecoin, Bitcoin Cash, Dash, Zcash
-- **Solana**: Program logs and account changes
-- **THORChain / MayaChain**: Cross-chain transaction tracking
-- **Other**: XRP, Tron
+
+* **EVM Chains**: Ethereum, Polygon, Arbitrum, Base, Optimism, Avalanche, BSC, Blast, Cronos, zkSync, Mantle, Sei (and other EVM chains as supported)
+* **UTXO Chains**: Bitcoin, Litecoin, Dogecoin, Bitcoin Cash, Dash, Zcash
+* **Solana**: Program logs and account changes
+* **THORChain / MayaChain**: Cross-chain transaction tracking
+* **Other**: XRP, Tron
 
 **Event Processing:**
+
 ```go
 type EventProcessor interface {
     ProcessBlock(ctx context.Context, blockHeight uint64) error
@@ -163,11 +184,14 @@ type EventProcessor interface {
 ```
 
 **Key Features:**
-- **Real-time Monitoring**: WebSocket connections for live updates
-- **Historical Indexing**: Backfill missed blocks during downtime
-- **Multi-chain Support**: Unified interface across different blockchains
-- **Reliable Processing**: Checkpoint-based progress tracking
+
+* **Real-time Monitoring**: WebSocket connections for live updates
+* **Historical Indexing**: Backfill missed blocks during downtime
+* **Multi-chain Support**: Unified interface across different blockchains
+* **Reliable Processing**: Checkpoint-based progress tracking
+
 ***
+
 ## Service Interaction Patterns
 
 ```mermaid
@@ -191,14 +215,16 @@ sequenceDiagram
 ### Service Deployment Model
 
 **For Development and Testing:**
-- Developers can run local instances of all services including Verifier and Fee App
-- Use provided Docker configurations for local development
-- Test your app against local Vultisig infrastructure
+
+* Developers can run local instances of all services including Verifier and Fee App
+* Use provided Docker configurations for local development
+* Test your app against local Vultisig infrastructure
 
 **For Production Deployment:**
-- Only your custom app services (HTTP Server, Worker, Scheduler, TX Indexer) are deployed
-- Verifier and Fee App remain Vultisig-managed infrastructure
-- Submit app configuration YAML for review and approval
+
+* Only your custom app services (HTTP Server, Worker, Scheduler, TX Indexer) are deployed
+* Verifier and Fee App remain Vultisig-managed infrastructure
+* Submit app configuration YAML for review and approval
 
 ### App Proposal Process
 
@@ -215,15 +241,21 @@ To deploy your app to production:
 To build a complete app, you need to implement these core components:
 
 #### 1. HTTP Server for core functionality (reshare, automations, etc.)
+
 For reference, you may use [app-recurring](https://github.com/vultisig/app-recurring)
+
 #### 2. TX preparation and proposing logic
+
 Do it in accordance with user's signed automations
+
 #### 3. Scheduler and Tx indexer
+
 You can import it from verifier package
 
 ### Essential Packages
 
 #### Core Packages
+
 ```go
 // Verifier integration
 "github.com/vultisig/verifier/plugin"
@@ -248,6 +280,7 @@ You can import it from verifier package
 ```
 
 #### Blockchain Clients
+
 ```go
 // EVM chains
 "github.com/ethereum/go-ethereum/ethclient"

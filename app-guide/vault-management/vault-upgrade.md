@@ -16,26 +16,27 @@ Upgrades are only available for vaults created with the GG20 protocol.
 
 Upgrading changes the underlying TSS protocol from GG20 to DKLS23. Benefits include:
 
-- **Faster signing** — improved keygen and signing speed
-- **Extension compatibility** — required for [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/)
-- **Same addresses** — no need to migrate funds
+* **Faster signing** — improved keygen and signing speed
+* **Extension compatibility** — required for [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/)
+* **Same addresses** — no need to migrate funds
 
-Technical details are available in the [TSS section](../../security-technology/).
+Technical details are available in the [TSS section](../../security-and-technology/security-technology.md).
 
 ***
 
 ## How to Upgrade
 
 The upgrade can be initiated from:
-- The banner on the home screen
-- **Settings** → **Vault Settings** → **Upgrade**
+
+* The banner on the home screen
+* **Settings** → **Vault Settings** → **Upgrade**
 
 <div><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Settings option</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Upgrade.png" alt=""><figcaption><p>Home banner</p></figcaption></figure></div>
 
 ### Requirements
 
-- All original devices from vault creation must be present
-- This is a full keygen ceremony (similar to creating a new vault)
+* All original devices from vault creation must be present
+* This is a full keygen ceremony (similar to creating a new vault)
 
 ### Steps
 
@@ -54,10 +55,10 @@ New vault shares are created during upgrade. Store them with the same security p
 
 ### Distinguishing Backups
 
-| Protocol | File naming |
-|----------|-------------|
-| GG20 | `vault-xxxx-part1of2.vult` |
-| DKLS23 | `vault-xxxx-share1of2.vult` |
+| Protocol | File naming                 |
+| -------- | --------------------------- |
+| GG20     | `vault-xxxx-part1of2.vult`  |
+| DKLS23   | `vault-xxxx-share1of2.vult` |
 
 ***
 
@@ -84,5 +85,5 @@ If Fast signing is still desired, create a new [Fast Vault](../creating-a-vault/
 
 ## Related
 
-- [TSS Protocols](../../security-technology/) - Technical details
-- [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/) - Requires DKLS23
+* [TSS Protocols](../../security-and-technology/security-technology.md) - Technical details
+* [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/) - Requires DKLS23

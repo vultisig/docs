@@ -8,7 +8,7 @@ description: >-
 
 Vultisig vaults are multi-factor by nature, requiring coordination between multiple signing parties. There are two vault types designed to meet different user needs: from a convenient "hot wallet" option to a highly secure "cold wallet" configuration.
 
-Creating a vault is also called a Key Generation (KeyGen) event. See [TSS Actions](../../security-technology/tss-actions.md) for technical details.
+Creating a vault is also called a Key Generation (KeyGen) event. See [TSS Actions](../../security-and-technology/tss-actions.md) for technical details.
 
 ***
 
@@ -18,27 +18,7 @@ Creating a vault is also called a Key Generation (KeyGen) event. See [TSS Action
 iOS, macOS, Android, Windows, Chrome browser, and Linux are supported. Check the [website](https://vultisig.com/) for the latest platform availability.
 {% endhint %}
 
-<table data-card-size="large" data-view="cards">
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th data-hidden data-card-target data-type="content-ref"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Fast Vault</strong></td>
-<td>Single device + Vultisig server. Quick setup, ideal for daily transactions.</td>
-<td><a href="fast-vault.md">fast-vault.md</a></td>
-</tr>
-<tr>
-<td><strong>Secure Vault</strong></td>
-<td>Multiple user devices. Maximum security, ideal for long-term storage.</td>
-<td><a href="secure-vault.md">secure-vault.md</a></td>
-</tr>
-</tbody>
-</table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Fast Vault</strong></td><td>Single device + Vultisig server. Quick setup, ideal for daily transactions.</td><td><a href="fast-vault.md">fast-vault.md</a></td></tr><tr><td><strong>Secure Vault</strong></td><td>Multiple user devices. Maximum security, ideal for long-term storage.</td><td><a href="secure-vault.md">secure-vault.md</a></td></tr></tbody></table>
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt="" width="375"><figcaption></figcaption></figure>
 

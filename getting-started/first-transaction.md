@@ -25,9 +25,9 @@ Each blockchain has its own address. Your Bitcoin address is different from your
 
 ### Deposit From
 
-- Another wallet you own
-- An exchange (Coinbase, Binance, Kraken, etc.)
-- A friend sending you crypto
+* Another wallet you own
+* An exchange (Coinbase, Binance, Kraken, etc.)
+* A friend sending you crypto
 
 ***
 
@@ -45,9 +45,9 @@ Each blockchain has its own address. Your Bitcoin address is different from your
 
 ### Tips
 
-- **Double-check the address** - crypto transactions are irreversible
-- **Start small** - send a test transaction first for large amounts
-- **Have enough for fees** - keep some native token (ETH, BTC, SOL) for gas
+* **Double-check the address** - crypto transactions are irreversible
+* **Start small** - send a test transaction first for large amounts
+* **Have enough for fees** - keep some native token (ETH, BTC, SOL) for gas
 
 ***
 
@@ -66,7 +66,7 @@ This is where Vultisig's security shines:
 **No single device ever has the full private key.** Even if one device is compromised, your funds remain safe.
 {% endhint %}
 
-For detailed information on the signing process, see [How Keysigning Works](../security-technology/keysign.md).
+For detailed information on the signing process, see [How Keysigning Works](../security-and-technology/keysign.md).
 
 ***
 
@@ -74,35 +74,39 @@ For detailed information on the signing process, see [How Keysigning Works](../s
 
 Once you're comfortable with basic transactions, explore:
 
-| Action | Description | Guide |
-|--------|-------------|-------|
-| **Send** | Transfer crypto to any address | [Sending Guide](../app-guide/wallet/sending.md) |
+| Action   | Description                     | Guide                                             |
+| -------- | ------------------------------- | ------------------------------------------------- |
+| **Send** | Transfer crypto to any address  | [Sending Guide](../app-guide/wallet/sending.md)   |
 | **Swap** | Exchange one crypto for another | [Swapping Guide](../app-guide/wallet/swapping.md) |
-| **DeFi** | Stake, bond, provide liquidity | [DeFi Guide](../app-guide/defi/README.md) |
+| **DeFi** | Stake, bond, provide liquidity  | [DeFi Guide](../app-guide/defi/)                  |
 
 ***
 
 ## Troubleshooting
 
 **Transaction stuck?**
-- Check the blockchain explorer for your transaction
-- Network congestion can cause delays
-- Ensure you paid sufficient gas fees
+
+* Check the blockchain explorer for your transaction
+* Network congestion can cause delays
+* Ensure you paid sufficient gas fees
 
 **Signing failed?**
-- Ensure all devices are on the same network
-- Try the relay server if QR scanning fails
-- Restart the app and try again
+
+* Ensure all devices are on the same network
+* Try the relay server if QR scanning fails
+* Restart the app and try again
 
 **Need help?**
-- [FAQ](../help/faq.md)
-- [Discord Community](https://discord.com/invite/9wrAfNSRpS)
+
+* [FAQ](../help/faq.md)
+* [Discord Community](https://discord.com/invite/9wrAfNSRpS)
 
 ***
 
 ## What's Next?
 
-Explore the full [App Guide](../app-guide/README.md) to learn about:
-- [Wallet features](../app-guide/wallet/README.md) - Send, swap, manage assets
-- [DeFi](../app-guide/defi/README.md) - Stake, bond, earn yield
-- [Vault Management](../app-guide/vault-management/README.md) - Rename, reshare, upgrade
+Explore the full [App Guide](../app-guide/) to learn about:
+
+* [Wallet features](../app-guide/wallet/) - Send, swap, manage assets
+* [DeFi](../app-guide/defi/) - Stake, bond, earn yield
+* [Vault Management](../app-guide/vault-management/) - Rename, reshare, upgrade

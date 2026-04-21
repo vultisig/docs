@@ -12,12 +12,12 @@ The Wallet tab is the primary interface for managing crypto assets. It displays 
 
 ## Features
 
-| Function | Description |
-|----------|-------------|
-| **View Assets** | See balances across all chains in one view |
-| **Receive** | Generate addresses and QR codes for deposits |
-| **Send** | Transfer assets to any address |
-| **Swap** | Exchange assets within or across chains |
+| Function        | Description                                  |
+| --------------- | -------------------------------------------- |
+| **View Assets** | See balances across all chains in one view   |
+| **Receive**     | Generate addresses and QR codes for deposits |
+| **Send**        | Transfer assets to any address               |
+| **Swap**        | Exchange assets within or across chains      |
 
 ***
 
@@ -25,10 +25,10 @@ The Wallet tab is the primary interface for managing crypto assets. It displays 
 
 Vultisig supports 30+ blockchains including:
 
-- **UTXO**: Bitcoin, Litecoin, Dogecoin, Bitcoin Cash, Dash
-- **EVM**: Ethereum, Arbitrum, Optimism, Base, Polygon, BSC, Avalanche
-- **Cosmos**: Cosmos Hub, Osmosis, Kujira, Dydx, THORChain, Maya
-- **Other**: Solana, Polkadot, Sui, TON, Ripple
+* **UTXO**: Bitcoin, Litecoin, Dogecoin, Bitcoin Cash, Dash
+* **EVM**: Ethereum, Arbitrum, Optimism, Base, Polygon, BSC, Avalanche
+* **Cosmos**: Cosmos Hub, Osmosis, Kujira, Dydx, THORChain, Maya
+* **Other**: Solana, Polkadot, Sui, TON, Ripple
 
 All chains are accessible from a single vault. Each vault generates addresses for all supported chains automatically.
 
@@ -44,7 +44,7 @@ All transactions from the Wallet tab require threshold signatures:
 4. Threshold signatures combine to create a valid transaction
 5. Transaction broadcasts to the blockchain
 
-No single device ever holds the complete private key. See [How Keysigning Works](../../security-technology/keysign.md) for technical details.
+No single device ever holds the complete private key. See [How Keysigning Works](../../security-and-technology/keysign.md) for technical details.
 
 ***
 

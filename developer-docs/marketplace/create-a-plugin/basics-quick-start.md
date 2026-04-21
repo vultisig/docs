@@ -5,7 +5,7 @@ description: >-
   integrate your application into the ecosystem
 ---
 
-# Basics/Quick Start
+# Quick Start
 
 ## Overview
 
@@ -26,7 +26,7 @@ To integrate your application with the Vultisig ecosystem, you need to build an 
 
 {% tabs fullWidth="false" %}
 {% tab title="Mandatory" %}
-* &#x20;`/reshare` and `/sign` endpoints for TSS operations
+* `/reshare` and `/sign` endpoints for TSS operations
 * API structure for automation management
 {% endtab %}
 
@@ -42,7 +42,7 @@ To integrate your application with the Vultisig ecosystem, you need to build an 
 
 ### Getting Started with the Server
 
-The fastest way to get started is to import the [`Server`](https://github.com/vultisig/docs/tree/main/developer-docs/marketplace/create-a-plugin/build-your-plugin/hello-world/server) component from the Vultisig library.&#x20;
+The fastest way to get started is to import the [`Server`](https://github.com/vultisig/docs/tree/main/developer-docs/marketplace/create-a-plugin/build-your-plugin/hello-world/server) component from the Vultisig library.
 
 This provides all the necessary API infrastructure, including the required endpoints for signing, resharing, and automation management, so you don't need to implement them from scratch.
 
@@ -140,7 +140,7 @@ The trigger service demonstrates **one possible implementation approach** for in
 * How to broadcast signed transactions to the blockchain
 
 {% hint style="success" %}
-### Important Note:
+#### Important Note:
 
 This is **not a prescriptive pattern**—it's one of many ways to trigger transactions. Your plugin might:
 

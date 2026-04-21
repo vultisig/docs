@@ -32,14 +32,14 @@ Sending is supported on all integrated blockchains, including Bitcoin, Ethereum,
 
 ## Tips
 
-- **Double-check the recipient address** — blockchain transactions are irreversible
-- **Ensure sufficient balance** for network fees (gas)
-- **Use QR scanning** when possible to avoid address typos
-- **For large amounts**, send a small test transaction first
+* **Double-check the recipient address** — blockchain transactions are irreversible
+* **Ensure sufficient balance** for network fees (gas)
+* **Use QR scanning** when possible to avoid address typos
+* **For large amounts**, send a small test transaction first
 
 ***
 
 ## Related
 
-- [Keysign](../../security-technology/keysign.md) — How transaction signing works
-- [Swapping](swapping.md)
+* [Keysign](../../security-and-technology/keysign.md) — How transaction signing works
+* [Swapping](swapping.md)

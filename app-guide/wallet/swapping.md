@@ -28,22 +28,22 @@ Vultisig supports swapping assets both within the same chain and across differen
 
 Vultisig automatically selects the best route using integrated providers:
 
-| Provider | Type | Speciality |
-|----------|------|------------|
-| [THORChain](https://thorchain.org/) | Cross-chain DEX | Native cross-chain swaps (BTC, ETH, etc.) |
-| [MAYA Protocol](https://www.mayaprotocol.com/) | Cross-chain DEX | Extended asset support |
-| [1inch](https://1inch.io/) | DEX Aggregator | Best rates across EVM DEXs |
-| [Li.Fi](https://li.fi/) | Bridge Aggregator | Cross-chain bridging |
-| [Kyberswap](https://kyberswap.com) | DEX Aggregator | EVM chain swaps |
+| Provider                                       | Type              | Speciality                                |
+| ---------------------------------------------- | ----------------- | ----------------------------------------- |
+| [THORChain](https://thorchain.org/)            | Cross-chain DEX   | Native cross-chain swaps (BTC, ETH, etc.) |
+| [MAYA Protocol](https://www.mayaprotocol.com/) | Cross-chain DEX   | Extended asset support                    |
+| [1inch](https://1inch.io/)                     | DEX Aggregator    | Best rates across EVM DEXs                |
+| [Li.Fi](https://li.fi/)                        | Bridge Aggregator | Cross-chain bridging                      |
+| [Kyberswap](https://kyberswap.com)             | DEX Aggregator    | EVM chain swaps                           |
 
 ***
 
 ## Cross-Chain vs Same-Chain
 
-| Type | Example | Speed |
-|------|---------|-------|
-| **Same-chain** | ETH → USDC on Ethereum | Fast, single transaction |
-| **Cross-chain** | BTC → ETH | Depends on blockchain finality |
+| Type            | Example                | Speed                          |
+| --------------- | ---------------------- | ------------------------------ |
+| **Same-chain**  | ETH → USDC on Ethereum | Fast, single transaction       |
+| **Cross-chain** | BTC → ETH              | Depends on blockchain finality |
 
 Cross-chain swaps use THORChain or Maya Protocol. Large swaps are automatically streamed for better rates.
 
@@ -51,15 +51,15 @@ Cross-chain swaps use THORChain or Maya Protocol. Large swaps are automatically 
 
 ## Tips
 
-- **Compare quotes** — Vultisig shows the best available rate
-- **Check slippage** — larger swaps may have higher slippage
-- **Streaming swaps** — large amounts are split for better execution
-- **Transaction fees** are shown before confirmation
+* **Compare quotes** — Vultisig shows the best available rate
+* **Check slippage** — larger swaps may have higher slippage
+* **Streaming swaps** — large amounts are split for better execution
+* **Transaction fees** are shown before confirmation
 
 ***
 
 ## Related
 
-- [Keysign](../../security-technology/keysign.md) — How transaction signing works
-- [Sending](sending.md)
-- [DeFi](../defi/README.md)
+* [Keysign](../../security-and-technology/keysign.md) — How transaction signing works
+* [Sending](sending.md)
+* [DeFi](../defi/)

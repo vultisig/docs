@@ -15,16 +15,17 @@ Vultisig is a multi-chain, multi-platform crypto vault that uses threshold signa
 ### Which platforms support Vultisig?
 
 Vultisig is available on:
-- iOS (iPhone, iPad)
-- Android
-- macOS
-- Windows
-- Linux
-- Browser Extension (Chrome, Brave, Edge)
+
+* iOS (iPhone, iPad)
+* Android
+* macOS
+* Windows
+* Linux
+* Browser Extension (Chrome, Brave, Edge)
 
 ### Which blockchains does Vultisig support?
 
-Vultisig supports 30+ chains including Bitcoin, Ethereum, THORChain, Solana, Cosmos ecosystem chains, and many EVM-compatible networks. See [Supported Chains](../app-guide/wallet/README.md) for the complete list.
+Vultisig supports 30+ chains including Bitcoin, Ethereum, THORChain, Solana, Cosmos ecosystem chains, and many EVM-compatible networks. See [Supported Chains](../app-guide/wallet/) for the complete list.
 
 ***
 
@@ -73,9 +74,10 @@ No. Vultisig has no access to your vault shares. This is a feature, not a limita
 ### Why is my transaction taking so long?
 
 Transaction times depend on:
-- Blockchain network congestion
-- Gas/fee settings
-- Number of confirmations required
+
+* Blockchain network congestion
+* Gas/fee settings
+* Number of confirmations required
 
 For TSS signing delays, ensure all participating devices have stable network connections.
 
@@ -103,7 +105,7 @@ Yes. See [Security](security.md) for audit reports and security practices.
 
 ### What if Vultisig company disappears?
 
-Your funds remain accessible. Vultisig provides [emergency recovery tools](../security-technology/emergency-recovery.md) to reconstruct private keys from vault shares if the software becomes unavailable.
+Your funds remain accessible. Vultisig provides [emergency recovery tools](../security-and-technology/emergency-recovery.md) to reconstruct private keys from vault shares if the software becomes unavailable.
 
 ***
 
@@ -134,6 +136,6 @@ Your funds remain accessible. Vultisig provides [emergency recovery tools](../se
 
 ## Related
 
-- [Getting Started](../getting-started/README.md)
-- [Backup & Recovery](../getting-started/backup-recovery.md)
-- [Security](security.md)
+* [Getting Started](../getting-started/getting-started.md)
+* [Backup & Recovery](../getting-started/backup-recovery.md)
+* [Security](security.md)

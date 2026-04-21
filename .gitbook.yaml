@@ -60,3 +60,9 @@ redirects:
   recovery: getting-started/backup-recovery.md
   faq: help/faq.md
   support: help/faq.md
+
+  # Legacy top-level paths -> new structure
+  security-technology: security-and-technology/overview.md
+  other/micar-white-paper: help/micar-white-paper.md
+  threshold-signature-scheme/security: help/security.md
+  threshold-signature-scheme/emergency-recovery: security-and-technology/emergency-recovery.md

@@ -26,13 +26,6 @@ redirects:
   vultisig-vault-user-actions/managing-your-vault/vault-qr: app-guide/vault-management/vault-qr.md
   vultisig-vault-user-actions/managing-your-vault/vault-backup: app-guide/vault-management/vault-backup.md
 
-  # Old security-and-technology -> security-technology
-  security-and-technology/security-technology: security-technology/README.md
-  security-and-technology/keysign: security-technology/keysign.md
-  security-and-technology/tss-actions: security-technology/tss-actions.md
-  security-and-technology/how-gg20-works: security-technology/how-gg20-works.md
-  security-and-technology/emergency-recovery: security-technology/emergency-recovery.md
-
   # Old vultisigner -> vultiserver
   vultisig-infrastructure/vultisigner: vultisig-infrastructure/what-is-vultisigner/README.md
   infrastructure/vultisigner: vultisig-infrastructure/what-is-vultisigner/README.md

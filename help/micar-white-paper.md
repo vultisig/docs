@@ -24,20 +24,20 @@ Vultisig is **non-custodial wallet software**—it provides tools for users to m
 
 Key characteristics:
 
-- **No custody**: Vultisig never holds user funds
-- **No private key access**: Keys are never constructed; vault shares remain with users
-- **User sovereignty**: Users maintain complete control over their assets
+* **No custody**: Vultisig never holds user funds
+* **No private key access**: Keys are never constructed; vault shares remain with users
+* **User sovereignty**: Users maintain complete control over their assets
 
 ### Software Provider vs. CASP
 
 Under MiCAR, Crypto-Asset Service Providers (CASPs) require authorization. Vultisig's role as a non-custodial software provider differs from regulated custody services:
 
-| Aspect | CASP (Custodial) | Vultisig (Non-Custodial) |
-|--------|------------------|--------------------------|
-| Asset Control | Provider holds assets | User holds assets |
-| Key Management | Provider manages keys | User manages vault shares |
-| Recovery | Provider can recover | Only user can recover |
-| Regulatory Status | Requires CASP license | Software tool |
+| Aspect            | CASP (Custodial)      | Vultisig (Non-Custodial)  |
+| ----------------- | --------------------- | ------------------------- |
+| Asset Control     | Provider holds assets | User holds assets         |
+| Key Management    | Provider manages keys | User manages vault shares |
+| Recovery          | Provider can recover  | Only user can recover     |
+| Regulatory Status | Requires CASP license | Software tool             |
 
 ***
 
@@ -56,10 +56,10 @@ Vultisig uses threshold signature schemes (TSS) where:
 
 Vultisig minimizes data collection:
 
-- No user registration required
-- No KYC/identity verification
-- No transaction data storage
-- Vault data stored locally on user devices
+* No user registration required
+* No KYC/identity verification
+* No transaction data storage
+* Vault data stored locally on user devices
 
 ***
 
@@ -67,15 +67,15 @@ Vultisig minimizes data collection:
 
 ### Transparency
 
-- **Open source**: All code publicly auditable
-- **Documentation**: Comprehensive user guides
-- **Risk disclosure**: Clear communication of self-custody responsibilities
+* **Open source**: All code publicly auditable
+* **Documentation**: Comprehensive user guides
+* **Risk disclosure**: Clear communication of self-custody responsibilities
 
 ### Security
 
-- **Audited code**: Independent security assessments
-- **No single point of failure**: TSS architecture
-- **User education**: Best practices documentation
+* **Audited code**: Independent security assessments
+* **No single point of failure**: TSS architecture
+* **User education**: Best practices documentation
 
 ***
 
@@ -83,10 +83,16 @@ Vultisig minimizes data collection:
 
 Vultisig is committed to:
 
-- Monitoring regulatory developments
-- Engaging with regulators constructively
-- Adapting to evolving requirements
-- Maintaining transparency with users
+* Monitoring regulatory developments
+* Engaging with regulators constructively
+* Adapting to evolving requirements
+* Maintaining transparency with users
+
+***
+
+## Whitepaper
+
+[Vultisig MiCAR Whitepaper v1.1](https://drive.google.com/file/d/1Pmg8MmoH_yupXfVfMZKwoxRBdX0C7v5I/view?usp=drive_link)
 
 ***
 
@@ -96,9 +102,9 @@ This white paper is for informational purposes only and does not constitute lega
 
 Users are responsible for:
 
-- Understanding applicable regulations in their jurisdiction
-- Complying with local laws regarding digital assets
-- Seeking professional legal and tax advice as needed
+* Understanding applicable regulations in their jurisdiction
+* Complying with local laws regarding digital assets
+* Seeking professional legal and tax advice as needed
 
 ***
 
@@ -106,12 +112,12 @@ Users are responsible for:
 
 For regulatory inquiries:
 
-- **Email**: legal@vultisig.com
+* **Email**: support@vultisig.com
 
 ***
 
 ## Related
 
-- [Terms of Use](terms.md)
-- [Privacy Policy](privacy.md)
-- [Security](security.md)
+* [Terms of Use](terms.md)
+* [Privacy Policy](privacy.md)
+* [Security](security.md)

@@ -20,15 +20,25 @@ The DeFi tab displays a portfolio view of all DeFi positions across supported ch
 
 ***
 
-## Supported Protocols
+## In the DeFi Tab
 
 | Protocol | Features |
 |----------|----------|
 | [Circle Protocol](circle.md) | USDC yield accounts |
 | [THORChain](thorchain.md) | Bond, stake (RUNE, TCY, RUJI), liquidity pools |
 | [MayaChain](maya.md) | Bond, stake (CACAO), liquidity pools |
-| [Cosmos IBC](cosmos.md) | IBC transfers, custom transactions |
-| [TON](ton.md) | Native staking |
+| [TRON](tron.md) | Freeze / Unfreeze (bandwidth & energy) |
+
+***
+
+## Via Wallet → Functions
+
+Some chain-specific actions are accessed through the **Functions** button on the respective chain in the **Wallet tab**, not the DeFi tab.
+
+| Chain | Features |
+|-------|----------|
+| [Cosmos (IBC)](cosmos.md) | IBC Transfer, Switch (→ THORChain), Custom transactions |
+| [TON](ton.md) | Stake / Unstake |
 | [dYdX](dydx.md) | Governance voting |
 
 {% hint style="info" %}
@@ -93,6 +103,10 @@ All DeFi transactions use the same threshold signature security as standard Vult
 
 {% content-ref url="maya.md" %}
 [maya.md](maya.md)
+{% endcontent-ref %}
+
+{% content-ref url="tron.md" %}
+[tron.md](tron.md)
 {% endcontent-ref %}
 
 {% content-ref url="cosmos.md" %}

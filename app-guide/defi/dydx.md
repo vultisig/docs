@@ -6,13 +6,13 @@ description: >-
 
 # dYdX
 
-{% hint style="warning" %}
-**Migration in Progress**
+{% hint style="info" %}
+**Accessed via Wallet tab**
 
-dYdX governance features are being migrated to the DeFi tab. Currently, these functions are still accessible via the **Functions** button on the dYdX chain in the Wallet tab.
+dYdX governance is available through the **Functions** button on the dYdX chain in the **Wallet tab**, not the DeFi tab.
 {% endhint %}
 
-Vultisig supports dYdX governance participation. Users can vote on dYdX proposals directly from the DeFi tab.
+Vultisig supports dYdX governance participation. Users can vote on dYdX proposals.
 
 ***
 
@@ -29,7 +29,7 @@ Vultisig supports dYdX governance participation. Users can vote on dYdX proposal
 
 ### How to Vote
 
-1. Open **DeFi tab** → **dYdX** → **Vote**
+1. Open **Wallet tab** → **dYdX** → **Functions** → **Vote**
 2. Enter the **Proposal ID**
 3. Select your **vote** (Yes/No/Abstain)
 4. Sign with your devices

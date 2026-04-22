@@ -6,13 +6,13 @@ description: >-
 
 # Cosmos (IBC)
 
-{% hint style="warning" %}
-**Migration in Progress**
+{% hint style="info" %}
+**Accessed via Wallet tab**
 
-Cosmos IBC features are being migrated to the DeFi tab. Currently, these functions are still accessible via the **Functions** button on each respective chain in the Wallet tab.
+Cosmos IBC features are available through the **Functions** button on each Cosmos chain in the **Wallet tab**, not the DeFi tab.
 {% endhint %}
 
-Vultisig supports IBC (Inter-Blockchain Communication) transfers for Cosmos ecosystem chains. Users can move assets between IBC-enabled chains and execute custom transactions directly from the DeFi tab.
+Vultisig supports IBC (Inter-Blockchain Communication) transfers for Cosmos ecosystem chains. Users can move assets between IBC-enabled chains and execute custom transactions.
 
 ***
 
@@ -32,8 +32,8 @@ Transfer assets between IBC-enabled Cosmos chains.
 
 ### How to Transfer
 
-1. Open **DeFi tab** → Select chain (Cosmos/Kujira/Osmosis)
-2. Select **IBC Transfer**
+1. Open **Wallet tab** → Select chain (Cosmos/Kujira/Osmosis)
+2. Tap **Functions** → **IBC Transfer**
 3. Enter the **destination chain**
 4. Enter the **destination address**
 5. Enter the **amount**
@@ -48,7 +48,7 @@ The Switch function transfers assets from Cosmos Hub to THORChain. This is part 
 
 ### How to Switch
 
-1. Open **DeFi tab** → **Cosmos** → **Switch**
+1. Open **Wallet tab** → **Cosmos** → **Functions** → **Switch**
 2. Select the **asset to switch**
 3. Enter the **amount**
 4. Sign with your devices
@@ -65,8 +65,8 @@ Advanced users can create custom memo transactions to interact with each Cosmos 
 
 ### How to Execute Custom Transaction
 
-1. Open **DeFi tab** → Select chain
-2. Select **Custom**
+1. Open **Wallet tab** → Select chain
+2. Tap **Functions** → **Custom**
 3. Enter the **memo** according to chain specifications
 4. Sign with your devices
 

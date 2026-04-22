@@ -12,12 +12,25 @@ The Wallet tab is the primary interface for managing crypto assets. It displays 
 
 ## Features
 
-| Function        | Description                                  |
-| --------------- | -------------------------------------------- |
-| **View Assets** | See balances across all chains in one view   |
-| **Receive**     | Generate addresses and QR codes for deposits |
-| **Send**        | Transfer assets to any address               |
-| **Swap**        | Exchange assets within or across chains      |
+| Function            | Description                                                             |
+| ------------------- | ----------------------------------------------------------------------- |
+| **View Assets**     | See balances across all chains in one view                              |
+| **Receive**         | Generate addresses and QR codes for deposits                            |
+| **Send**            | Transfer assets to any address                                          |
+| **Swap**            | Exchange assets within or across chains                                 |
+| **Chain Functions** | Chain-specific actions via the **Functions** button on supported chains |
+
+***
+
+## Chain Functions
+
+Some chains expose extra actions beyond send/receive/swap. Tap a chain in the Wallet tab, then tap **Functions** to access them.
+
+| Chain | Functions |
+|-------|-----------|
+| [Cosmos Hub / Kujira / Osmosis](../defi/cosmos.md) | IBC Transfer, Switch (→ THORChain), Custom transactions |
+| [TON](../defi/ton.md) | Stake, Unstake |
+| [dYdX](../defi/dydx.md) | Vote on governance proposals |
 
 ***
 

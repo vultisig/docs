@@ -130,7 +130,7 @@ Your funds remain accessible. Vultisig provides [emergency recovery tools](../se
 1. Force close and restart the app
 2. Check for app updates
 3. Restart device if issue persists
-4. Report persistent issues on [GitHub](https://github.com/vultisig/vultisig-ios/issues) or [Discord](https://discord.vultisig.com)
+4. Report persistent issues on [GitHub](https://github.com/vultisig/vultisig-ios/issues) or [Discord](https://discord.gg/Cugw9T2NrP)
 
 ***
 

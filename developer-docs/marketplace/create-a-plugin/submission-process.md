@@ -62,7 +62,7 @@ plugins:
 {% step %}
 #### Join the developer discord
 
-Join Discord at [discord.gg/vultisig](https://discord.gg/vultisig), navigate to dedicated section for third-party developers and get real-time support and feedback from the Vultisig team while building your plugin
+Join Discord at [discord.gg/Cugw9T2NrP](https://discord.gg/Cugw9T2NrP), navigate to dedicated section for third-party developers and get real-time support and feedback from the Vultisig team while building your plugin
 {% endstep %}
 
 {% step %}

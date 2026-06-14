@@ -166,7 +166,7 @@ Build plugins for Vultisig users and earn 70% of the revenue. Plugins are review
 - Cross-chain workflows
 
 {% hint style="info" %}
-Ready to build? Check the [Developer Documentation](../developer-docs/marketplace/) for Plugins and join [Discord](https://discord.gg/vultisig) for support.
+Ready to build? Check the [Developer Documentation](../developer-docs/marketplace/) for Plugins and join [Discord](https://discord.gg/Cugw9T2NrP) for support.
 {% endhint %}
 
 ***
@@ -318,4 +318,4 @@ The Marketplace is actively growing. Upcoming features include:
 - Community-built tools
 - Enhanced analytics and reporting
 
-Want to request a plugin or feature? Join the [Discord](https://discord.gg/vultisig) and share your ideas.
+Want to request a plugin or feature? Join the [Discord](https://discord.gg/Cugw9T2NrP) and share your ideas.

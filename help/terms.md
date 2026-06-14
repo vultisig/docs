@@ -148,7 +148,7 @@ If any provision of these Terms is found unenforceable, the remaining provisions
 For questions about these Terms:
 
 - **Email**: legal@vultisig.com
-- **Discord**: [discord.vultisig.com](https://discord.vultisig.com)
+- **Discord**: [discord.gg/Cugw9T2NrP](https://discord.gg/Cugw9T2NrP)
 
 ***
 

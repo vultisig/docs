@@ -2975,7 +2975,7 @@ cp node_modules/@vultisig/sdk/dist/*.wasm public/
 # Next.js: place in public/ directory
 ```
 
-**IndexedDB Storage**: For persistent storage, use IndexedDB (see [examples/browser](../examples/browser) for implementation).
+**IndexedDB Storage**: For persistent storage, use IndexedDB (see [examples/browser](https://github.com/vultisig/vultisig-sdk/tree/main/examples/browser) for implementation).
 
 **Import**:
 
@@ -3122,8 +3122,8 @@ Include WASM files in your Electron build:
 ## Additional Resources
 
 - **Examples**:
-  - [Browser Example](../examples/browser) - Full React app with UI
-  - [CLI](../clients/cli) - Command-line wallet with interactive shell mode
+  - [Browser Example](https://github.com/vultisig/vultisig-sdk/tree/main/examples/browser) - Full React app with UI
+  - [CLI](https://github.com/vultisig/vultisig-sdk/tree/main/clients/cli) - Command-line wallet with interactive shell mode
 
 - **GitHub**: [vultisig-sdk](https://github.com/vultisig/vultisig-sdk)
 - **Issues**: Report bugs and request features on GitHub

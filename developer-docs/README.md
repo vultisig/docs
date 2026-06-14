@@ -62,5 +62,5 @@ New to Vultisig's architecture? These resources explain the underlying security 
 
 Questions or need help getting started? Join our developer community:
 
-* **Discord**: [discord.gg/vultisig](https://discord.gg/vultisig) - Dedicated third-party developer section
+* **Discord**: [discord.gg/Cugw9T2NrP](https://discord.gg/Cugw9T2NrP) - Dedicated third-party developer section
 * **GitHub**: [github.com/vultisig](https://github.com/vultisig) - Source code and issue tracking

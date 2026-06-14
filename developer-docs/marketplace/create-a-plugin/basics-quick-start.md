@@ -89,7 +89,7 @@ The specification defines what your plugin does and how it appears in the Vultis
 * `ValidatePluginPolicy()`: Validates user input against your schema
 * `Suggest()`: Converts user configuration into specific execution rules with constraints
 
-**Full example**: [Specifications](build-your-app/hello-world/server/spec.go)
+**Full example**: [Specifications](build-your-plugin/hello-world/server/spec.go)
 
 ***
 
@@ -122,7 +122,7 @@ Running the worker separately from the server provides:
 * Registers handlers for `TypeKeySignDKLS` and `TypeReshareDKLS` tasks
 * Processes tasks with configurable concurrency (default: 10 parallel tasks)
 
-**Full example**: [Worker](build-your-app/hello-world/worker/worker.go)
+**Full example**: [Worker](build-your-plugin/hello-world/worker/worker.go)
 
 ***
 

@@ -48,7 +48,7 @@ This section provides support resources and legal documentation for Vultisig use
 
 ## Community
 
-* **Discord**: [discord.vultisig.com](https://discord.vultisig.com)
+* **Discord**: [discord.gg/Cugw9T2NrP](https://discord.gg/Cugw9T2NrP)
 * **Twitter/X**: [@vultisig](https://x.com/vultisig)
 * **GitHub**: [github.com/vultisig](https://github.com/vultisig)
 

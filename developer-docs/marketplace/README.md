@@ -33,5 +33,5 @@ Each plugin is an independent service — you define your own recipe (transactio
 
 ## Support
 
-- **Discord**: [discord.gg/vultisig](https://discord.gg/vultisig) - Join the third-party developer section
+- **Discord**: [discord.gg/Cugw9T2NrP](https://discord.gg/Cugw9T2NrP) - Join the third-party developer section
 - **GitHub**: [github.com/vultisig](https://github.com/vultisig) - Source code and issues

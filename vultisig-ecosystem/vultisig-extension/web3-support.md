@@ -19,7 +19,6 @@ This it the current list of supported dApps and interfaces:
 | [LeoDex](https://leodex.io/)                                                 | [Magic Eden](https://magiceden.io/) | [Venice.ai](https://venice.ai/)    |
 | [SushiSwap](https://app.sushi.com/)                                          | [Rarible](https://rarible.com/)     |                                    |
 | [ShapeShift](https://app.shapeshift.com/)                                    |                                     |                                    |
-| [DeFiSpot](https://www.defispot.com/tokens/ETH.ETH?from=BTC.BTC\&to=ETH.ETH) |                                     |                                    |
 | [1inch](https://app.1inch.io/)                                               |                                     |                                    |
 | [KyberSwap](https://kyberswap.com/)                                          |                                     |                                    |
 | [Trader Joe](https://traderjoexyz.com/)                                      |                                     |                                    |

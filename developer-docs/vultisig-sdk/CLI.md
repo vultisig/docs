@@ -877,13 +877,13 @@ npm update -g @vultisig/cli
 
 ## Documentation
 
-- [SDK Documentation](../../packages/sdk/README.md)
+- [SDK Documentation](https://github.com/vultisig/vultisig-sdk/blob/main/packages/sdk/README.md)
 - [API Reference](https://docs.vultisig.com)
 
 ## Support
 
 - [GitHub Issues](https://github.com/vultisig/vultisig-sdk/issues)
-- [Discord](https://discord.gg/vultisig)
+- [Discord](https://discord.gg/Cugw9T2NrP)
 - [Documentation](https://docs.vultisig.com)
 
 ## License

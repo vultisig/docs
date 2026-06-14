@@ -135,7 +135,7 @@ We may update this policy periodically. Significant changes will be communicated
 For privacy-related inquiries:
 
 - **Email**: privacy@vultisig.com
-- **Discord**: [discord.vultisig.com](https://discord.vultisig.com)
+- **Discord**: [discord.gg/Cugw9T2NrP](https://discord.gg/Cugw9T2NrP)
 
 ***
 

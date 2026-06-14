@@ -921,12 +921,12 @@ packages/lib/          # Shared libraries and utilities
 
 ## License
 
-MIT License - see [LICENSE](./LICENSE) file for details.
+MIT License - see the [SDK LICENSE](https://github.com/vultisig/vultisig-sdk/blob/main/packages/sdk/LICENSE) file for details.
 
 ## Support
 
 - 📖 [Documentation](https://docs.vultisig.com)
-- 💬 [Discord Community](https://discord.gg/vultisig)
+- 💬 [Discord Community](https://discord.gg/Cugw9T2NrP)
 - 🐛 [Report Issues](https://github.com/vultisig/vultisig-sdk/issues)
 - 🌐 [Website](https://vultisig.com)
 

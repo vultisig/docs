@@ -16,6 +16,17 @@ These are just examples. Vultisig's MPC infrastructure is chain-agnostic and pro
 
 ## Choose Your Path
 
+### AI Agents
+
+Give agents multi-chain wallet capabilities and choose between autonomous, policy-bound, and human-approved signing.
+
+* **Languages**: TypeScript, shell, or Go
+* **Best for**: Coding agents, trading bots, payment automation, and portfolio strategies
+
+{% content-ref url="ai-agents/" %}
+[ai-agents](ai-agents/)
+{% endcontent-ref %}
+
 ### Marketplace Plugins
 
 Build automation plugins that run on Vultisig's infrastructure and are distributed through the Marketplace.

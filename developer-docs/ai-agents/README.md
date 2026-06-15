@@ -12,12 +12,12 @@ The defining choice is not whether an agent can transact. It is **how much autho
 
 ## Why Vultisig for agents?
 
-Most agent wallets force developers to choose between two extremes: a fully autonomous hot wallet or manual approval for every action. Vultisig supports multiple signing models through the same multi-chain MPC infrastructure.
+Vultisig supports multiple signing models through the same multi-chain MPC infrastructure, so developers can match an agent's authority to the workflow.
 
 | Operating model | Best for | Signing authority |
 | --- | --- | --- |
-| **Autonomous Fast Vault** | Bots and services that must transact without a person present | The agent's device and VultiServer form a 2-of-2 MPC vault |
-| **Policy-bound automation** | Autonomous strategies with explicit user limits | A Marketplace plugin proposes; an independent Verifier enforces the configured rules |
+| **Autonomous Fast Vault** | Bots and services that must transact without a person present | The agent and VultiServer each hold one share of a 2-of-2 MPC vault |
+| **Policy-bound automation** | Autonomous strategies with explicit user limits | A Marketplace plugin proposes; the Vultisig-managed Verifier enforces the configured rules |
 | **Human-approved Secure Vault** | Higher-value workflows requiring approval | The configured threshold of human-controlled devices joins every signing session |
 
 Use the least authority that still lets the workflow succeed. See [Authority and security](authority-and-security.md) for the full decision guide.

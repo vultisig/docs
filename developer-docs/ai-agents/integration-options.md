@@ -1,7 +1,7 @@
 ---
 description: >-
-  Choose between the Vultisig CLI, TypeScript SDK, Marketplace plugins, and
-  experimental MCP tooling for AI agent integrations.
+  Choose between the Vultisig CLI, TypeScript SDK, Marketplace plugins, and MCP
+  tooling for AI agent integrations.
 ---
 
 # Integration options
@@ -46,7 +46,7 @@ Start with the [SDK guide](../vultisig-sdk/) and [implementation guide](../vulti
 
 ## Marketplace plugins
 
-Use a Marketplace plugin when an agent should act within user-defined rules instead of receiving broad wallet authority. The plugin proposes an unsigned transaction; an independent Verifier checks the proposal before participating in signing.
+Use a Marketplace plugin when an agent should act within user-defined rules instead of receiving broad wallet authority. The plugin proposes an unsigned transaction; the Vultisig-managed Verifier checks the proposal before participating in signing.
 
 Start with the [Marketplace developer docs](../marketplace/).
 
@@ -58,8 +58,4 @@ Start with the [Marketplace developer docs](../marketplace/).
 | [llms.txt](https://vultisig.com/llms.txt) | Compact documentation index |
 | [llms-full.txt](https://vultisig.com/llms-full.txt) | Full SDK context and examples |
 | [agent.json](https://vultisig.com/.well-known/agent.json) | Structured capabilities manifest |
-| [MCP server](https://github.com/vultisig/mcp) | Experimental MCP tools for EVM reads and transaction building |
-
-{% hint style="info" %}
-The MCP server is a work in progress. For production wallet operations, use the SDK, CLI, or Marketplace plugin infrastructure.
-{% endhint %}
+| [MCP server](https://github.com/vultisig/mcp) | MCP tools for multi-chain queries, unsigned transaction building, DeFi interactions, and plugin management |

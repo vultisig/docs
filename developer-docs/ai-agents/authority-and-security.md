@@ -12,7 +12,7 @@ MPC removes the complete private key as a single point of failure. It does not m
 
 ### Autonomous Fast Vault
 
-A Fast Vault combines the agent-controlled device share with a VultiServer share. The agent can sign without a person present.
+A Fast Vault combines an agent-controlled share with a VultiServer share. The agent can sign without a person present.
 
 **Use when:** the workflow requires unattended execution and the vault can be funded according to a defined risk budget.
 
@@ -20,15 +20,15 @@ A Fast Vault combines the agent-controlled device share with a VultiServer share
 
 ### Policy-bound Marketplace automation
 
-A Marketplace plugin proposes unsigned transactions. A separate Verifier checks each proposal against the user's configured policy before participating in MPC signing.
+A Marketplace plugin proposes unsigned transactions. The Vultisig-managed Verifier checks each proposal against the user's configured policy before participating in MPC signing.
 
 **Use when:** an autonomous strategy should operate inside explicit limits, such as allowed assets, destinations, amounts, or timing.
 
-**Primary controls:** narrowly scoped rules, independent validation, plugin review, monitoring, and the ability to disable the automation.
+**Primary controls:** narrowly scoped rules, Verifier policy validation, plugin review, monitoring, and the ability to disable the automation.
 
 ### Human-approved Secure Vault
 
-A Secure Vault requires the configured threshold of devices to join each signing session. The agent can research and prepare an action, but cannot complete the signature alone.
+A Secure Vault requires the configured threshold of devices to join each signing session. In a human-approved setup, the agent prepares the action and the human-controlled shares complete the signing threshold.
 
 **Use when:** every transaction requires human review or multiple participants must approve.
 

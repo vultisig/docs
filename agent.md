@@ -1,208 +1,137 @@
 ---
 description: >-
-  Structured index of Vultisig documentation for AI agents and language models.
-  SDK and CLI focus.
+  Give AI agents multi-chain wallet capabilities with a choice of autonomous,
+  policy-bound, or human-approved signing.
 ---
 
-# For AI Agents
+# Agent capabilities with Vultisig
 
-> Vultisig: Seedless, multi-chain, self-custody wallet using TSS/MPC. TypeScript SDK and CLI for building AI agents, automated plugins, and crypto applications across 40+ blockchains.
+Vultisig gives agents a programmable, seedless wallet across 40+ blockchains. Agents can inspect a portfolio, prepare transactions, send assets, swap across chains, and sign messages without ever holding a complete private key.
 
-## SDK (`@vultisig/sdk`)
+The important choice is not whether an agent can transact. It is **how much authority the agent should have**. Vultisig supports three operating models, from full runtime autonomy to human approval on every signature.
 
-TypeScript SDK for MPC vault creation, signing, balance checks, swaps, and transaction management.
+## Choose the right operating model
 
-**Install:** `npm install @vultisig/sdk`
+| Operating model | Best for | How signing works | Start with |
+| --- | --- | --- | --- |
+| **Autonomous Fast Vault** | Bots, services, and agents that must transact without a person present | The agent's device and VultiServer form a 2-of-2 MPC vault. Signing is immediate. | [SDK](developer-docs/vultisig-sdk/) or [CLI](developer-docs/vultisig-sdk/CLI.md) |
+| **Policy-bound automation** | Recurring workflows and autonomous strategies with defined limits | A Marketplace plugin proposes transactions. A separate Verifier signs only when the proposal matches the user's configured rules. | [Plugin Marketplace](vultisig-ecosystem/marketplace.md) |
+| **Human-approved Secure Vault** | Higher-value or sensitive workflows where a person should approve every transaction | The agent prepares the action, then the configured threshold of devices joins the MPC signing session. | [SDK implementation guide](developer-docs/vultisig-sdk/SDK-USERS-GUIDE.md) |
 
-**Core flow:** Initialize → Create vault → Verify → Use
+These models can support the same agent experience while placing the final signing authority in different places. Use the least authority that still lets the workflow succeed.
 
-```typescript
-import { Vultisig, MemoryStorage } from '@vultisig/sdk'
+## Pick the integration surface
 
-const sdk = new Vultisig({ storage: new MemoryStorage() })
-await sdk.initialize()
+### CLI: give an existing agent a wallet
 
-const vaultId = await sdk.createFastVault({ name: 'Agent Wallet', email: 'agent@example.com', password: 'pass' })
-const vault = await sdk.verifyVault(vaultId, code)
-
-const address = await vault.address('Ethereum')
-const balance = await vault.balance('Ethereum')
-```
-
-**Key methods:**
-
-| Method                                  | What it does                                           |
-| --------------------------------------- | ------------------------------------------------------ |
-| `sdk.createFastVault(opts)`             | Create 2-of-2 vault with VultiServer (instant signing) |
-| `sdk.createSecureVault(opts)`           | Create N-of-M multi-device vault (human co-signing)    |
-| `sdk.verifyVault(vaultId, code)`        | Verify vault via email code, returns vault             |
-| `vault.address(chain)`                  | Derive address for a chain                             |
-| `vault.balance(chain)`                  | Get native balance                                     |
-| `vault.balances(chains, includeTokens)` | Get balances across chains                             |
-| `vault.prepareSendTx(params)`           | Prepare a send transaction                             |
-| `vault.sign(payload)`                   | Sign a transaction (MPC)                               |
-| `vault.broadcastTx(params)`             | Broadcast signed transaction                           |
-| `vault.gas(chain)`                      | Get gas/fee estimate                                   |
-| `vault.getSwapQuote(params)`            | Get swap quote (THORChain, 1inch, LiFi)                |
-| `vault.prepareSwapTx(params)`           | Prepare swap transaction (handles approval)            |
-| `vault.signBytes(opts)`                 | Sign arbitrary pre-hashed bytes                        |
-| `vault.broadcastRawTx(params)`          | Broadcast pre-signed raw transaction                   |
-| `sdk.importVault(content, password)`    | Import vault from `.vult` file                         |
-| `vault.export(password)`                | Export vault to backup                                 |
-
-**Vault types:**
-
-|                    | Fast Vault                | Secure Vault                        |
-| ------------------ | ------------------------- | ----------------------------------- |
-| **Threshold**      | 2-of-2 (with VultiServer) | N-of-M (configurable)               |
-| **Signing**        | Instant, no human needed  | Requires device coordination via QR |
-| **Agent use case** | Full autonomy             | Human oversight on every tx         |
-
-**Supported chains (36+):** Bitcoin, Ethereum, Solana, THORChain, Polygon, Arbitrum, Optimism, Base, BSC, Avalanche, Cosmos, Litecoin, Dogecoin, Sui, TON, Ripple, Tron, Polkadot, Cardano, and more.
-
-**Full docs:**
-
-* [SDK README](developer-docs/vultisig-sdk/): Installation, quick start, API reference, vault types, error handling
-* [SDK Implementation Guide](developer-docs/vultisig-sdk/SDK-USERS-GUIDE.md): Complete usage guide — password management, vault lifecycle, transactions, swaps, events, caching, platform notes
-
-***
-
-## CLI (`@vultisig/cli`)
-
-Command-line wallet for scripting, automation, and agent pipelines. Mirrors the SDK's full capabilities.
-
-**Install:** `npm install -g @vultisig/cli`
-
-**Key commands:**
+Use the Vultisig CLI when an agent can run shell commands. It exposes structured JSON output, non-interactive options, quote commands, and specific exit codes for reliable agent workflows.
 
 ```bash
-# Vault management
-vultisig create fast --name "Wallet" --email user@example.com --password pass
-vultisig create secure --name "Team Wallet" --shares 3
-vultisig import /path/to/vault.vult
-vultisig vaults
-vultisig export
+npm install -g @vultisig/cli
 
-# Balances & addresses
-vultisig balance                      # All chains
-vultisig balance ethereum --tokens    # Specific chain + tokens
-vultisig addresses
-vultisig portfolio
+# Read-only portfolio snapshot
+vultisig portfolio --output json
 
-# Transactions
-vultisig send ethereum 0xRecipient 0.1
-vultisig send ethereum 0xRecipient 100 --token 0xTokenAddress
+# Preview a cross-chain swap quote
+vultisig swap-quote ethereum bitcoin 0.1 --output json
 
-# Swaps
-vultisig swap-quote ethereum bitcoin 0.1
-vultisig swap ethereum bitcoin 0.1
-
-# Advanced: sign arbitrary bytes, broadcast raw tx
-vultisig sign --chain ethereum --bytes "base64hash" -o json
-vultisig broadcast --chain ethereum --raw-tx "0x02f8..."
-
-# Seedphrase import
-vultisig create-from-seedphrase fast --name "Imported" --email user@example.com --discover-chains
+# Execute a cross-chain swap
+vultisig swap ethereum bitcoin 0.1 --output json
 ```
 
-**Agent-friendly features:**
+See the [CLI reference](developer-docs/vultisig-sdk/CLI.md) for vault creation, environment variables, commands, and JSON output.
 
-* `--output json` (or `-o json`) — structured JSON for all commands
-* `--silent` — suppress spinners and progress messages
-* `--password` flag — avoid interactive prompts
-* `VAULT_PASSWORD` env var — for automation pipelines
-* `VULTISIG_VAULT` env var — pre-select vault by name or ID
-* Exit codes: 0 success, 1-7 for specific error types
-* `vsig` shorthand alias for `vultisig`
+### SDK: build wallet capabilities into an agent
 
-**Full docs:** [CLI Documentation](developer-docs/vultisig-sdk/CLI.md): All commands, options, environment variables, JSON output examples, exit codes, interactive shell
+Use `@vultisig/sdk` when you are building a TypeScript agent, bot, or application. The SDK handles vault creation, balances, portfolio tracking, sends, swaps, message signing, and transaction broadcasting.
 
-***
+```typescript
+import { Chain, Vultisig } from '@vultisig/sdk'
 
-## Agent Resources
+const sdk = new Vultisig()
+await sdk.initialize()
 
-Files on [vultisig.com](https://vultisig.com) for agent discovery and integration:
+const vault = await sdk.getActiveVault()
+if (!vault) throw new Error('No active vault')
 
-| File                                                      | What it is                                                                                          |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| [SKILL.md](https://vultisig.com/SKILL.md)                 | Full operating procedure — 14 steps covering vault creation, sends, swaps, balances, gas estimation |
-| [llms.txt](https://vultisig.com/llms.txt)                 | Spec-compliant link index (llmstxt.org format)                                                      |
-| [llms-full.txt](https://vultisig.com/llms-full.txt)       | Full SDK context with verified code examples and source references                                  |
-| [agent.json](https://vultisig.com/.well-known/agent.json) | Structured capabilities manifest — chains, operations, SDK info                                     |
+const portfolio = await vault.portfolio('usd')
+const preview = await vault.send({
+  chain: Chain.Ethereum,
+  to: '0xRecipient',
+  amount: '0.1',
+  dryRun: true,
+})
+```
 
-***
+Start with the [SDK guide](developer-docs/vultisig-sdk/) and [implementation guide](developer-docs/vultisig-sdk/SDK-USERS-GUIDE.md).
 
-## Documentation Index
+### Marketplace: publish policy-bound automation
 
-### Getting Started
+Use a Marketplace plugin when an agent should act within user-defined rules rather than receive broad wallet authority. The plugin proposes an unsigned transaction; an independent Verifier checks the destination, amount, timing, and other configured rules before participating in MPC signing.
 
-* [Overview](./): What Vultisig is, key features
-* [Download & Install](getting-started/download-install.md): iOS, Android, macOS, Windows, Linux, browser extension
-* [Create a Vault](getting-started/create-vault.md): Fast Vault and Secure Vault creation
-* [Backup & Recovery](getting-started/backup-recovery.md): Vault backup and restore
-* [Your First Transaction](getting-started/first-transaction.md): Send your first transaction
+This model is designed for workflows such as recurring swaps, payments, portfolio rebalancing, and condition-based strategies. Learn about the [Plugin Marketplace](vultisig-ecosystem/marketplace.md) or [build a plugin](developer-docs/marketplace/).
 
-### App Guide
+## What agents can do
 
-* [Vault Creation](app-guide/creating-a-vault/): Vault types and flows
-  * [Fast Vault](app-guide/creating-a-vault/fast-vault.md): 2-of-2 with VultiServer
-  * [Secure Vault](app-guide/creating-a-vault/secure-vault.md): Multi-device with QR pairing
-* [Sending](app-guide/wallet/sending.md): How to send tokens
-* [Swapping](app-guide/wallet/swapping.md): Cross-chain and same-chain swaps
-* [DeFi](app-guide/defi/): Circle Protocol, THORChain, MayaChain, staking
-* [Vault Management](app-guide/vault-management/): Details, backups, reshare, rename, upgrade
+### Read-only portfolio intelligence
 
-### Security & Technology
+> "Summarize my portfolio across Bitcoin, Ethereum, Solana, and Cosmos."
 
-* [Overview](security-and-technology/overview.md): Security architecture
-* [Keysign](security-and-technology/keysign.md): Transaction signing
-* [TSS Actions](security-and-technology/tss-actions.md): Threshold signature operations
-* [How GG20 Works](security-and-technology/how-gg20-works.md): GG20 protocol
-* [How DKLS23 Works](security-and-technology/how-dkls23-works.md): DKLS23 protocol
-* [Difference to Multi-Signatures](security-and-technology/difference-to-multi-sig.md): TSS vs multisig
-* [Emergency Recovery](security-and-technology/emergency-recovery.md): Recovery procedures
+The agent queries addresses, native and token balances, and fiat values without signing a transaction.
 
-### Ecosystem
+### Preview, then execute
 
-* [Vultisig Extension](vultisig-ecosystem/vultisig-extension/): Browser extension for dApps
-* [Plugin Marketplace](vultisig-ecosystem/marketplace.md): Self-custodial automation — plugins and AI agents
-* [Web App](vultisig-ecosystem/web-app.md): Browser-based vault access
-* [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md): SDK overview with agent section
-* [Community Tools](vultisig-ecosystem/community-tools.md): Third-party tools
+> "Prepare a 0.1 ETH transfer, show me the fee and total, then wait for approval."
 
-### VULT Token
+The agent uses a dry run to surface the expected cost and transaction details before entering the selected signing flow.
 
-* [The $VULT Token](vultisig-token/vult/): Tokenomics and utility
-* [In-App Utility](vultisig-token/vult/in-app-utility.md): Fee discounts, staking tiers
-* [Marketplace Utility](vultisig-token/vult/marketplace-utility.md): Revenue distribution
-* [Governance](vultisig-token/vult/governance-utility.md): Voting rights
+### Natural-language cross-chain swaps
 
-### Infrastructure
+> "Swap 0.1 ETH to BTC using the best available route."
 
-* [Overview](vultisig-infrastructure/overview.md): Architecture
-* [Vultiserver](vultisig-infrastructure/what-is-vultisigner/): Co-signing server for Fast Vaults
-* [Transaction Policies](vultisig-infrastructure/what-is-vultisigner/what-can-be-configured.md): Spending limits, whitelists, time delays
-* [Relay Server](vultisig-infrastructure/relay-server.md): Device session coordination
+The agent can request a quote, explain estimated output and fees, then execute through THORChain, 1inch, KyberSwap, LiFi, or another supported route.
 
-### Developer Docs
+### Policy-bound automation
 
-* [Developer Home](developer-docs/): Entry point
-* [Marketplace Plugins](developer-docs/marketplace/): Build and publish plugins
-  * [What is a Plugin](developer-docs/marketplace/infrastructure-overview/plugins.md): Architecture and scope
-  * [Services Architecture](developer-docs/marketplace/infrastructure-overview/services.md): Service components
-  * [Policy Rules](developer-docs/marketplace/infrastructure-overview/metarules.md): Transaction validation rules
-  * [Infrastructure](developer-docs/marketplace/infrastructure-overview/infrastructure.md): Plugin infrastructure
-  * [Quick Start](developer-docs/marketplace/create-a-plugin/basics-quick-start.md): Scaffold your first plugin
-  * [Build Your Plugin](developer-docs/marketplace/create-a-plugin/build-your-plugin/): Full development guide
-  * [Submission & Revenue](developer-docs/marketplace/create-a-plugin/submission-process.md): Review process, 70/30 split
-* [Extension Integration](developer-docs/vultisig-extension-integration-guide.md): window.vultisig API, code examples
-* [SDK](developer-docs/vultisig-sdk/): Full SDK docs
-  * [SDK Implementation Guide](developer-docs/vultisig-sdk/SDK-USERS-GUIDE.md): Detailed usage guide
-  * [SDK CLI](developer-docs/vultisig-sdk/CLI.md): CLI reference
+> "Rebalance when BTC moves outside 45-55% of the portfolio, but never trade more than $500 per day."
 
-### Help & Legal
+A Marketplace agent can monitor conditions and propose transactions while the Verifier enforces the rules configured by the user.
 
-* [FAQ](help/faq.md): Common questions
-* [Security](help/security.md): Security policy
-* [Privacy](help/privacy.md): Privacy policy
-* [Terms of Use](help/terms.md): Terms
+## The security boundary
+
+Vultisig removes the complete private key as a single point of failure, but MPC does not make an agent's decisions correct. Your application is still responsible for prompts, strategy logic, token and contract selection, transaction parameters, credential storage, and economic outcomes.
+
+Before allowing an agent to sign:
+
+* Use dry runs and surface the destination, assets, fees, and expected output.
+* Prefer a Secure Vault when every transaction needs human approval.
+* Prefer Marketplace policies when autonomy should be limited by explicit rules.
+* Protect vault passwords and backups; do not embed them in prompts, source code, or logs.
+* Treat arbitrary message and byte signing as high-risk capabilities.
+
+{% hint style="warning" %}
+Fast Vaults enable unattended signing. Only fund an autonomous vault with an amount appropriate for the workflow's risk, and keep a tested vault backup.
+{% endhint %}
+
+## Agent discovery
+
+Vultisig publishes machine-readable resources for agents and coding assistants:
+
+| Resource | Purpose |
+| --- | --- |
+| [SKILL.md](https://vultisig.com/SKILL.md) | Operating instructions for balances, sends, swaps, gas estimation, and vault workflows |
+| [llms.txt](https://vultisig.com/llms.txt) | Compact documentation index |
+| [llms-full.txt](https://vultisig.com/llms-full.txt) | Full SDK context and examples |
+| [agent.json](https://vultisig.com/.well-known/agent.json) | Structured capabilities manifest |
+| [MCP server](https://github.com/vultisig/mcp) | Experimental MCP tools for EVM reads and transaction building |
+
+{% hint style="info" %}
+The MCP server is a work in progress. For production wallet operations, use the SDK, CLI, or Marketplace plugin infrastructure.
+{% endhint %}
+
+## Get started
+
+* **Give an existing coding agent a wallet:** install the [CLI](developer-docs/vultisig-sdk/CLI.md).
+* **Build a long-running agent or bot:** integrate the [TypeScript SDK](developer-docs/vultisig-sdk/).
+* **Build constrained autonomous strategies:** start with the [Marketplace developer docs](developer-docs/marketplace/).
+* **Require a person to approve every signature:** use a [Secure Vault](app-guide/creating-a-vault/secure-vault.md).

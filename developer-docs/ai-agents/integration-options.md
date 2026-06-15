@@ -63,4 +63,3 @@ Start with the [Marketplace developer docs](../marketplace/).
 {% hint style="info" %}
 The MCP server is a work in progress. For production wallet operations, use the SDK, CLI, or Marketplace plugin infrastructure.
 {% endhint %}
-

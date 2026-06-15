@@ -59,4 +59,3 @@ Your application remains responsible for:
 {% hint style="warning" %}
 Fast Vaults enable unattended signing. Only grant an agent the assets and capabilities its workflow requires.
 {% endhint %}
-

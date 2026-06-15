@@ -55,4 +55,3 @@ Marketplace agents can monitor conditions and propose transactions while a Verif
 * **Publish constrained autonomous strategies:** build a [Marketplace plugin](../marketplace/).
 * **Choose the right approval model:** read [Authority and security](authority-and-security.md).
 * **Compare the available developer surfaces:** read [Integration options](integration-options.md).
-

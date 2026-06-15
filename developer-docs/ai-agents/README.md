@@ -17,7 +17,7 @@ Vultisig supports multiple signing models through the same multi-chain MPC infra
 | Operating model | Best for | Signing authority |
 | --- | --- | --- |
 | **Autonomous Fast Vault** | Bots and services that must transact without a person present | The agent and VultiServer each hold one share of a 2-of-2 MPC vault |
-| **Policy-bound automation** | Autonomous strategies with explicit user limits | A Marketplace plugin proposes; the Vultisig-managed Verifier enforces the configured rules |
+| **Policy-bound automation** | Autonomous strategies with explicit user limits | A Marketplace plugin proposes; the Verifier enforces the configured rules |
 | **Human-approved Secure Vault** | Higher-value workflows requiring approval | The configured threshold of human-controlled devices joins every signing session |
 
 Use the least authority that still lets the workflow succeed. See [Authority and security](authority-and-security.md) for the full decision guide.

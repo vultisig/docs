@@ -20,7 +20,7 @@ A Fast Vault combines an agent-controlled share with a VultiServer share. The ag
 
 ### Policy-bound Marketplace automation
 
-A Marketplace plugin proposes unsigned transactions. The Vultisig-managed Verifier checks each proposal against the user's configured policy before participating in MPC signing.
+A Marketplace plugin proposes unsigned transactions. The Verifier checks each proposal against the user's configured policy before participating in MPC signing.
 
 **Use when:** an autonomous strategy should operate inside explicit limits, such as allowed assets, destinations, amounts, or timing.
 

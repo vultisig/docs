@@ -46,7 +46,7 @@ Start with the [SDK guide](../vultisig-sdk/) and [implementation guide](../vulti
 
 ## Marketplace plugins
 
-Use a Marketplace plugin when an agent should act within user-defined rules instead of receiving broad wallet authority. The plugin proposes an unsigned transaction; the Vultisig-managed Verifier checks the proposal before participating in signing.
+Use a Marketplace plugin when an agent should act within user-defined rules instead of receiving broad wallet authority. The plugin proposes an unsigned transaction; the Verifier checks the proposal before participating in signing.
 
 Start with the [Marketplace developer docs](../marketplace/).
 

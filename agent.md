@@ -97,6 +97,10 @@ vultisig send ethereum 0xRecipient 100 --token 0xTokenAddress
 vultisig swap-quote ethereum bitcoin 0.1
 vultisig swap ethereum bitcoin 0.1
 
+# Natural-language, one-shot — built for AI agent integration
+vultisig agent ask "What is my ETH balance?" --password "$VAULT_PASSWORD" --json
+vultisig agent ask "Send 0.01 ETH to 0x742d..." --session abc123 --password "$VAULT_PASSWORD"
+
 # Advanced: sign arbitrary bytes, broadcast raw tx
 vultisig sign --chain ethereum --bytes "base64hash" -o json
 vultisig broadcast --chain ethereum --raw-tx "0x02f8..."
@@ -107,6 +111,9 @@ vultisig create-from-seedphrase fast --name "Imported" --email user@example.com 
 
 **Agent-friendly features:**
 
+* `agent ask "<message>"` — one-shot natural-language mode for AI-to-AI use; returns structured JSON with `--json` and stable error codes
+* Non-interactive (non-TTY) auto-detection — skips prompts that would hang an agent; vault creation falls back to two-step mode automatically
+* `--ci` — full automation mode (`--output json --non-interactive --quiet`)
 * `--output json` (or `-o json`) — structured JSON for all commands
 * `--silent` — suppress spinners and progress messages
 * `--password` flag — avoid interactive prompts

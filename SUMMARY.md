@@ -80,6 +80,9 @@
 ## Developer Docs
 
 * [Developer Home](developer-docs/README.md)
+* [AI Agents](developer-docs/ai-agents/README.md)
+  * [Authority and Security](developer-docs/ai-agents/authority-and-security.md)
+  * [Integration Options](developer-docs/ai-agents/integration-options.md)
 * [Marketplace Plugins](developer-docs/marketplace/README.md)
   * [What is a Plugin](developer-docs/marketplace/infrastructure-overview/plugins.md)
   * [Services Architecture](developer-docs/marketplace/infrastructure-overview/services.md)

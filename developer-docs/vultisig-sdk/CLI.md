@@ -209,6 +209,103 @@ vultisig --interactive
 vultisig -i
 ```
 
+## AI Agent Integration
+
+The CLI has first-class support for AI agents — both coding agents (Claude Code, Cursor, Opencode) that drive it through shell commands, and agent-to-agent orchestration through a natural-language interface.
+
+### Non-interactive by default
+
+When the CLI runs in a non-TTY environment (pipes, scripts, agents), it auto-detects this and skips interactive prompts that would hang an agent. Vault creation falls back to two-step mode automatically:
+
+```bash
+# Auto-detects non-TTY, skips the interactive OTP prompt, returns immediately
+vultisig create fast --name "Agent Wallet" --password "$VAULT_PASSWORD" --email agent@example.com -o json
+
+# Verify later, once you have the email code
+vultisig verify <vaultId> --code 123456
+```
+
+Use `--ci` for full automation mode (equivalent to `--output json --non-interactive --quiet`). Provide the password through the `--password` flag or the `VAULT_PASSWORD` environment variable so no command blocks on input.
+
+### Agent ask (one-shot)
+
+Send a single natural-language message and get a structured response. This mode is designed for AI-to-AI communication and routes through the Vultisig agent backend.
+
+```bash
+# Query
+vultisig agent ask "What is my ETH balance?" --password "$VAULT_PASSWORD"
+
+# Execute a transaction
+vultisig agent ask "Send 0.01 ETH to 0x742d..." --password "$VAULT_PASSWORD"
+
+# Continue a conversation
+vultisig agent ask "Now swap it to USDC" --session abc123 --password "$VAULT_PASSWORD"
+
+# Structured JSON for parsing
+vultisig agent ask "Check my portfolio" --password "$VAULT_PASSWORD" --json
+```
+
+JSON output:
+
+```json
+{
+  "session_id": "abc123-def456",
+  "response": "Your ETH balance is 1.5 ETH ($3,750.00 USD).",
+  "tool_calls": [
+    { "action": "get_balances", "success": true, "data": { "balances": [{ "chain": "Ethereum", "symbol": "ETH", "amount": "1.5" }] } }
+  ],
+  "transactions": [
+    { "hash": "0x9f8e7d6c...", "chain": "ethereum", "explorerUrl": "https://etherscan.io/tx/0x9f8e7d6c..." }
+  ]
+}
+```
+
+On failure, stdout is a single JSON object with a human-readable `error` and a stable `code`:
+
+```json
+{ "error": "Agent backend unreachable", "code": "BACKEND_UNREACHABLE" }
+```
+
+**Options:**
+
+* `--session <id>` — continue an existing conversation
+* `--backend-url <url>` — agent backend URL (default: `https://abe.vultisig.com`)
+* `--password <password>` — vault password for signing
+* `--json` — output structured JSON
+* `--verbose` — show tool calls and debug info on stderr
+
+### Agent chat and pipe mode
+
+For an interactive chat TUI, or NDJSON agent-to-agent piping:
+
+```bash
+# Interactive chat interface
+vultisig agent
+
+# NDJSON pipe mode for agent-to-agent control (one JSON object per line on stdin/stdout)
+vultisig agent --via-agent --password "$VAULT_PASSWORD"
+```
+
+### Error codes
+
+Orchestrators should branch on `code`, not on the `error` message (which may change between releases). Codes are stable across `agent ask --json`, `--via-agent`, and the executor:
+
+| Code | Typical meaning |
+|------|-----------------|
+| `BACKEND_UNREACHABLE` | Agent health check failed or backend not responding |
+| `AUTH_FAILED` | Auth/token failure, HTTP 401/403, or wrong vault password |
+| `VAULT_LOCKED` | Encrypted vault needs unlock |
+| `PASSWORD_REQUIRED` | Password not supplied when required |
+| `CONFIRMATION_REQUIRED` | User confirmation needed |
+| `ACTION_NOT_IMPLEMENTED` | Local executor does not implement this action |
+| `INVALID_INPUT` | Bad parameters, unknown chain, malformed input |
+| `NETWORK_ERROR` | RPC/fetch connectivity failure |
+| `TIMEOUT` | Deadline exceeded |
+| `TRANSACTION_FAILED` | Build/broadcast/gas error |
+| `SIGNING_FAILED` | MPC/signing failed |
+| `SESSION_NOT_INITIALIZED` | Internal session state error |
+| `UNKNOWN_ERROR` | Unclassified failure |
+
 ## Commands
 
 ### Vault Management

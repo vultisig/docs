@@ -43,7 +43,7 @@ The Vault QR is a QR code containing the vault's public information for safe sha
 
 ### Airdrop Registration
 
-The Vault QR can be imported into the [Vultisig Airdrop page](https://airdrop.vultisig.com/) to register for the [$VULT airdrop](../../vultisig-token/airdrop/).
+Note: The [$VULT airdrop](../../vultisig-token/airdrop/) has completed and is no longer active.
 
 ### View-Only Access
 

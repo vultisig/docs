@@ -1,20 +1,22 @@
 ---
 description: >-
-  Vultisig $VULT airdrop details. Earn rewards based on vault value and
-  time held. Season structure, eligibility, and how to maximize points.
+  Archived Vultisig $VULT airdrop details, including season structure,
+  eligibility, and point calculations.
 ---
 
 # Airdrop
 
+Note: The $VULT airdrop has completed and is no longer active.
+
 {% hint style="warning" %}
-This is the setup for the current Season 0 and will be discontinued after the current season ends, starting with [Airdrop V2](airdrop-v2.md) to further enhance the airdrop experience. Read more about it [here](https://medium.com/@vultisig/vultisig-airdrop-2-0-how-were-transforming-the-experience-f20c146f2f29) .
+This page documents the completed Season 0 setup. It was discontinued after the season ended, starting with [Airdrop V2](airdrop-v2.md) to further enhance the airdrop experience. Read more about it [here](https://medium.com/@vultisig/vultisig-airdrop-2-0-how-were-transforming-the-experience-f20c146f2f29) .
 {% endhint %}
 
 ***
 
 Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.
 
-The future $VULT airdrop will be proportionate to:
+The completed $VULT airdrop was proportionate to:
 
 $$
 vault\_asset\_value*time\_in\_vault
@@ -23,7 +25,7 @@ $$
 With the distribution date of 12 months after registration goes live.\
 See further calculation [here](./#airdrop-process).\
 \
-Users will receive full information about how to register for this airdrop in the coming weeks.
+Registration information was provided during the active airdrop period.
 
 ***
 
@@ -74,20 +76,20 @@ The Ongoing Airdrop Process will continue for another 5 years, and the dedicated
 
 ***
 
-## How to register for the airdrop
+## Historical registration process
 
-1.  [Export](../../app-guide/vault-management/vault-qr.md) the Vault QR of the Vultisig Vault\\
+1.  Users [exported](../../app-guide/vault-management/vault-qr.md) the Vault QR of the Vultisig Vault\\
 
     <figure><img src="../../.gitbook/assets/VultisigQR-Main Vault-828.png" alt="" width="188"><figcaption></figcaption></figure>
-2.  Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/) or by uploading your Vault QR\\
+2.  Users connected with the [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/) or by uploading their Vault QR\\
 
     <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
-3.  Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the website\\
+3.  Users joined the airdrop with their connected vault by clicking `Join Airdrop` on the website\\
 
     <figure><img src="../../.gitbook/assets/image (14).png" alt="" width="188"><figcaption></figcaption></figure>
-4. Go to the `Balance` tab and enable **ALL a**ssets you want to have counted towards the airdrop
-5. Earn VULTIES (Airdrop points) and track the leaderboard
-6. Register multiple Vaults
+4. Users went to the `Balance` tab and enabled **ALL a**ssets they wanted to have counted towards the airdrop
+5. Users earned VULTIES (Airdrop points) and tracked the leaderboard
+6. Users registered multiple Vaults
 
 {% hint style="warning" %}
 You need to enable all Chains and Tokens you want to have counted towards the airdrop once!
@@ -101,7 +103,7 @@ In order to make the Vultisig Airdrop more game-like and to further increase the
 
 The multiplier will accumulate, similar to the VULTIES (airdrop points) and will be calculated at the end of the airdrop phase to get the complete airdrop share.
 
-This gives the opportunity to increase the personal multiplier over the course of the ongoing 12 month Airdrop without affecting the VULTIES.
+This gave users the opportunity to increase their personal multiplier over the course of the 12 month airdrop without affecting the VULTIES.
 
 The multiplier will start at 1 and will increase depending on the activities and programms, set by the Vultisig team.
 

@@ -1,16 +1,18 @@
 ---
 description: >-
-  Vultisig Airdrop V2: Enhanced rewards system. Earn $VULT based on vault
-  value × time held. Achievement tiers, daily drops, and multipliers.
+  Archived Vultisig Airdrop V2 details, including eligibility, point
+  calculations, and multipliers.
 cover: ../../.gitbook/assets/Vultisig - 1200x630 - 56- 2x.png
 coverY: 0
 ---
 
 # Airdrop V2
 
+Note: The $VULT airdrop has completed and is no longer active.
+
 Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.&#x20;
 
-The future $VULT airdrop will be proportional:
+The completed $VULT airdrop was proportional:
 
 $$
 vault\_asset\_value*time\_in\_vault
@@ -95,7 +97,7 @@ This multiplier logarithmically multiplies and caps at 500 referrals, providing 
 
 ### Dedicated tokens and community multipliers
 
-To attract more attention and expand the Vultisquad community, a special multiplier will be introduced for holding selected tokens or NFTs that will be selected in the coming future.&#x20;
+To attract more attention and expand the Vultisquad community, a special multiplier was planned for holding selected tokens or NFTs.&#x20;
 
 The first token to receive this treatment will be $VULT itself, which will grant holders a 1.5x multiplier on its dollar value within the airdrop calculation.
 
@@ -150,27 +152,27 @@ $$
 
 ***
 
-## How to register for the airdrop
+## Historical registration process
 
-* Download and open your Vultisig app
+* Users downloaded and opened their Vultisig app
 
 <figure><img src="../../.gitbook/assets/Frame 1000005130.png" alt="" width="279"><figcaption></figcaption></figure>
 
-* [Export](../../app-guide/vault-management/vault-qr.md) the Vault QR of the Vultisig Vault
+* Users [exported](../../app-guide/vault-management/vault-qr.md) the Vault QR of the Vultisig Vault
 
 <figure><img src="../../.gitbook/assets/Frame 1000005131.png" alt="" width="279"><figcaption></figcaption></figure>
 
-*   Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Extension](https://chromewebstore.google.com/detail/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?utm_source=item-share-cp) or with uploading your Vault QR\
+*   Users connected with the [Vultisig Extension](https://chromewebstore.google.com/detail/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?utm_source=item-share-cp) or by uploading their Vault QR\
 
 
     <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
-*   Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the [web app](../../vultisig-ecosystem/web-app.md)\
+*   Users joined the airdrop with their connected vault by clicking `Join Airdrop` on the [web app](../../vultisig-ecosystem/web-app.md)\
 
 
     <figure><img src="../../.gitbook/assets/Button.png" alt="" width="225"><figcaption></figcaption></figure>
-* Go to the `Balances` tab and check for auto-discovery or enable **ALL a**ssets you want to have counted towards the airdrop
-* Earn VULTIES (Airdrop points) and track the leaderboard
-* Register multiple Vaults
+* Users went to the `Balances` tab and checked for auto-discovery or enabled **ALL a**ssets they wanted to have counted towards the airdrop
+* Users earned VULTIES (Airdrop points) and tracked the leaderboard
+* Users registered multiple Vaults
 
 {% hint style="warning" %}
 You need to enable all Chains and Tokens you want to have counted towards the airdrop once!

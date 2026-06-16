@@ -6,23 +6,29 @@ description: >-
 
 # Integration options
 
-## CLI
+## CLI (start here)
 
-Use the Vultisig CLI when an agent can run shell commands. It exposes structured JSON output, non-interactive options, quote commands, and specific exit codes for reliable automation.
+The CLI is the fastest way to give an AI agent a wallet. Any agent that can run shell commands gets multi-chain balances, sends, swaps, and signing — through structured JSON, stable exit codes, and a natural-language `agent ask` mode built for AI-to-AI use. No SDK build step, no embedding.
 
 ```bash
 npm install -g @vultisig/cli
 
+# Structured wallet commands
 vultisig portfolio --output json
 vultisig swap-quote ethereum bitcoin 0.1 --output json
 vultisig swap ethereum bitcoin 0.1 --output json
+
+# Natural-language, one-shot — designed for AI agent integration
+vultisig agent ask "What is my ETH balance?" --password "$VAULT_PASSWORD" --json
 ```
 
-See the [CLI reference](../vultisig-sdk/CLI.md).
+The CLI auto-detects non-interactive (non-TTY) environments and skips the prompts that would otherwise hang an agent, so the same commands run unattended in scripts and pipelines. Set `VAULT_PASSWORD` to avoid interactive password entry, and branch on the documented exit codes and error codes for reliable orchestration.
+
+See the [CLI reference](../vultisig-sdk/CLI.md), including the AI agent integration guide.
 
 ## TypeScript SDK
 
-Use `@vultisig/sdk` when building wallet capabilities directly into an agent, bot, or application. The SDK handles vault creation, balances, portfolio tracking, sends, swaps, message signing, and transaction broadcasting.
+Use `@vultisig/sdk` when you are embedding wallet capabilities directly into your own agent, bot, or service in TypeScript. The SDK handles vault creation, balances, portfolio tracking, sends, swaps, message signing, and transaction broadcasting.
 
 ```typescript
 import { Chain, Vultisig } from '@vultisig/sdk'

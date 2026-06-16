@@ -50,8 +50,8 @@ Marketplace agents can monitor conditions and propose transactions while a Verif
 
 ## Start building
 
-* **Give an existing coding agent a wallet:** use the [CLI](../vultisig-sdk/CLI.md).
-* **Build a TypeScript agent or service:** integrate the [SDK](../vultisig-sdk/).
+* **Give any agent a wallet (start here):** the [CLI](../vultisig-sdk/CLI.md) is the fastest path — structured JSON, stable exit codes, and a natural-language `agent ask` mode built for AI-to-AI use. It runs unattended in non-interactive environments with no extra setup.
+* **Embed wallet logic into your own service:** integrate the [TypeScript SDK](../vultisig-sdk/).
 * **Publish constrained autonomous strategies:** build a [Marketplace plugin](../marketplace/).
 * **Choose the right approval model:** read [Authority and security](authority-and-security.md).
 * **Compare the available developer surfaces:** read [Integration options](integration-options.md).

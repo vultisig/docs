@@ -6,7 +6,7 @@ cover: ../.gitbook/assets/image (3).png
 coverY: 0
 ---
 
-# Plugin Marketplace
+# Vultisig plugin marketplace
 
 ## Overview
 

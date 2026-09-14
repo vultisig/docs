@@ -4,7 +4,7 @@ description: >-
   secure, seedless transactions using threshold signatures.
 ---
 
-# Sending
+# Send crypto from Vultisig
 
 Vultisig supports sending assets on all integrated blockchains. Transactions are secured using threshold signatures—no single device ever holds the complete private key.
 

@@ -4,7 +4,7 @@ description: >-
   and utilities. Native integration or wallet injection fallback.
 ---
 
-# Web3 support
+# Web3 dApps with Vultisig Extension
 
 The Vultisig Extension aims to support all dApps and interfaces where a wallet connection is possible.\
 It either is natively integrated or allows connections via other wallet injections if dedicated Vultisig Extension support is unavailable.

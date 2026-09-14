@@ -4,7 +4,7 @@ description: >-
   Access MayaChain features directly from your vault.
 ---
 
-# MayaChain
+# MayaChain in Vultisig
 
 MayaChain (MAYA Protocol) is a cross-chain liquidity protocol with extended asset support. Vultisig provides direct access to MayaChain's DeFi features from the DeFi tab.
 

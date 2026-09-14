@@ -4,7 +4,7 @@ description: >-
   1inch, Li.Fi, and Kyberswap for secure cross-chain exchanges.
 ---
 
-# Swapping
+# Swap crypto in Vultisig
 
 Vultisig supports swapping assets both within the same chain and across different blockchains. All swaps are secured by threshold signatures.
 

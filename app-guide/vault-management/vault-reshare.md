@@ -4,7 +4,7 @@ description: >-
   changing addresses or moving funds. Advanced feature for vault management.
 ---
 
-# Vault Reshare
+# Reshare a Vultisig vault
 
 {% hint style="danger" %}
 **Advanced feature.** Access to funds is at risk if not properly managed.

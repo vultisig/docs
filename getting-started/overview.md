@@ -4,7 +4,7 @@ description: >-
   send your first transaction - no seed phrases required.
 ---
 
-# Getting Started
+# Get started with Vultisig
 
 Welcome to Vultisig! This guide will get you up and running with the most secure self-custodial wallet in crypto.
 

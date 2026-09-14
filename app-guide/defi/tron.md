@@ -4,7 +4,7 @@ description: >-
   for fee-free transactions, and unfreeze to reclaim your TRX.
 ---
 
-# TRON
+# TRON in Vultisig
 
 Vultisig supports native TRON freezing directly in the DeFi tab. Freeze TRX to earn **bandwidth** (for regular transfers) or **energy** (for smart contract interactions), then unfreeze when you want your TRX back.
 

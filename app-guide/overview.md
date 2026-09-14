@@ -4,7 +4,7 @@ description: >-
   vaults, and access all features across iOS, Android, and desktop.
 ---
 
-# Overview
+# Vultisig app guide
 
 The Vultisig app is organized into two main sections, accessible via the bottom navigation bar: **Wallet** and **DeFi**. This guide covers all app functionality in the same structure as the app itself.
 

@@ -4,7 +4,7 @@ description: >-
   and premium placement. Token burns drive scarcity.
 ---
 
-# Marketplace Utility
+# $VULT marketplace utility
 
 {% hint style="info" %}
 The Marketplace is not yet fully rolled out. The exact fees for each category are still to be determined. They will be updated as soon as they are finalized.

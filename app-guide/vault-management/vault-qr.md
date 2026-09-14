@@ -4,7 +4,7 @@ description: >-
   and verification—not a backup. Share safely for view-only access.
 ---
 
-# Vault QR
+# Vultisig vault QR
 
 The Vault QR is a QR code containing the vault's public information for safe sharing and verification.
 

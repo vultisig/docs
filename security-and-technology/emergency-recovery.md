@@ -4,7 +4,7 @@ description: >-
   software becomes unavailable. Last-resort fund recovery process.
 ---
 
-# Emergency Recovery
+# Emergency recovery in Vultisig
 
 {% hint style="danger" %}
 **Last Resort Only**

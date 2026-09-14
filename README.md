@@ -1,12 +1,12 @@
 ---
 description: >-
-  Crypto security reimagined for the AI Agent era: Self-custodial automation,
-  multi-chain, multi-factor, and the end of seed phrases. Your ultimate wallet.
+  Vultisig docs: seedless multi-chain vault, Fast Vault and Secure Vault, SDK
+  and CLI. No seed phrase.
 cover: .gitbook/assets/Banner-new.png
 coverY: 0
 ---
 
-# Overview
+# Vultisig documentation
 
 ## Vultisig Project
 

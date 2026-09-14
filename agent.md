@@ -4,7 +4,7 @@ description: >-
   SDK and CLI focus.
 ---
 
-# For AI Agents
+# Vultisig for AI Agents
 
 > Vultisig: Seedless, multi-chain, self-custody wallet using TSS/MPC. TypeScript SDK and CLI for building AI agents, automated plugins, and crypto applications across 40+ blockchains.
 

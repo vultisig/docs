@@ -1,10 +1,10 @@
 ---
 description: >-
-  How Vultisig keysigning works. Multi-device threshold signing process for
-  Fast Vaults and Secure Vaults. QR pairing, verification, and broadcast.
+  How Fast Vault and Secure Vault co-sign in Vultisig. QR pairing, on-device
+  verification, broadcast.
 ---
 
-# Keysign
+# How Vultisig signs a transaction
 
 Keysigning is the process by which threshold devices collaborate to sign a transaction. This page explains how signing works for both Fast Vaults and Secure Vaults.
 

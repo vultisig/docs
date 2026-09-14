@@ -4,7 +4,7 @@ description: >-
   better security. Same addresses, no fund migration needed.
 ---
 
-# Vault Upgrade
+# Upgrade a Vultisig vault to DKLS23
 
 {% hint style="info" %}
 Upgrades are only available for vaults created with the GG20 protocol.

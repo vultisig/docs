@@ -4,7 +4,7 @@ description: >-
   and ecosystem development. Staked VULT = voting power.
 ---
 
-# Governance Utility
+# $VULT governance
 
 Vultisig will gradually transition to a governance voting structure owned by the community, which will utilize staked $VULT. This structure will decide how to allocate the bought-back $VULT.
 

@@ -4,7 +4,7 @@ description: >-
   liquidity. Access all THORChain features directly from your vault.
 ---
 
-# THORChain
+# THORChain in Vultisig
 
 THORChain is a decentralized cross-chain liquidity protocol. Vultisig provides direct access to THORChain's DeFi features from the DeFi tab.
 

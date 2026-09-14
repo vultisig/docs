@@ -4,7 +4,7 @@ description: >-
   configuration. Verify your multi-device setup at a glance.
 ---
 
-# Vault Details
+# Vultisig vault details
 
 The Vault Details screen displays technical information about the current vault configuration.
 

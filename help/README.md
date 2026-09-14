@@ -3,7 +3,7 @@ description: >-
   Support resources, security information, and legal documentation for Vultisig.
 ---
 
-# Help & Legal
+# Vultisig help and legal
 
 This section provides support resources and legal documentation for Vultisig users.
 

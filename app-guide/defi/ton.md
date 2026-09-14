@@ -4,7 +4,7 @@ description: >-
   Native staking support with threshold signature security.
 ---
 
-# TON
+# TON staking in Vultisig
 
 {% hint style="info" %}
 **Accessed via Wallet tab**

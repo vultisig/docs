@@ -4,7 +4,7 @@ description: >-
   End-to-end encrypted keygen and keysign messaging. Open source.
 ---
 
-# Relay Server
+# Vultisig relay server
 
 The Vultisig Relay Server is an infrastructure feature of Vultisig that enables encrypted messaging between user devices over the Internet.&#x20;
 

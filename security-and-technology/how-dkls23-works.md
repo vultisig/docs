@@ -1,10 +1,10 @@
 ---
 description: >-
-  DKLS23 protocol deep-dive. Vultisig's modern TSS: faster signing, fewer
-  rounds, improved security. Developed with Silence Laboratories.
+  DKLS23 is the threshold-signature protocol Vultisig uses now. Fewer rounds
+  than GG20, built with Silence Laboratories.
 ---
 
-# How DKLS23 Works
+# DKLS23 in Vultisig
 
 ## Evolution and Innovation
 

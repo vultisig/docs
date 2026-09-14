@@ -4,7 +4,7 @@ description: >-
   protocol, keysigning process, and cryptographic foundations explained.
 ---
 
-# Security & Technology
+# Vultisig security and TSS
 
 Vultisig's security is built on Threshold Signature Schemes (TSS), a form of Multi-Party Computation (MPC) that eliminates single points of failure. This section explains the cryptographic foundations and technical processes that secure your assets.
 

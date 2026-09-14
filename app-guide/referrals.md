@@ -4,7 +4,7 @@ description: >-
   via THORChain nested affiliates. Passive income from your network.
 ---
 
-# Referrals
+# Vultisig referrals
 
 ## What are Vultisig Referrals
 

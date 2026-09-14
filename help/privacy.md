@@ -4,7 +4,7 @@ description: >-
   Commitment to user privacy and data minimization.
 ---
 
-# Privacy Policy
+# Vultisig privacy policy
 
 **Last Updated**: January 2025
 

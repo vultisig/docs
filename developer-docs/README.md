@@ -1,4 +1,4 @@
-# Developer Home
+# Build on Vultisig
 
 Build on Vultisig's secure, multi-chain infrastructure. Whether you're creating automated trading strategies, integrating wallet connectivity into your dApp, or building applications with programmatic vault management, Vultisig provides the tools you need.
 

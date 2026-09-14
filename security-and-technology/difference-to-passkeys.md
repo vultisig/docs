@@ -4,7 +4,7 @@ description: >-
   security: multi-device, no single point of failure, true self-custody.
 ---
 
-# Difference to Passkeys
+# Vultisig vs passkeys
 
 ## What is a Passkey?
 

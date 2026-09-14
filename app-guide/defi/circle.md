@@ -4,7 +4,7 @@ description: >-
   returns. Deposit and withdraw directly from the DeFi tab.
 ---
 
-# Circle Protocol
+# Circle USDC in Vultisig
 
 Circle Protocol integration allows users to earn yield on USDC holdings directly from the Vultisig DeFi tab.
 

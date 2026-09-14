@@ -4,7 +4,7 @@ description: >-
   first transaction with multi-device security.
 ---
 
-# Your First Transaction
+# Your first Vultisig transaction
 
 Your vault is created and backed up. Now let's move some crypto!
 

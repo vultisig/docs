@@ -1,16 +1,14 @@
 ---
 description: >-
-  Create a Secure Vault with multiple devices for cold storage security.
-  Flexible threshold signing (2-of-2 up to m-of-n). Ideal for holdings and DAOs.
+  Vultisig Secure Vault: seedless crypto wallet across your own devices, no
+  server co-signer. 2-of-2 up to m-of-n. For larger holdings.
 ---
 
-# Secure Vault
+# Vultisig Secure Vault
 
 ## Overview
 
-Secure Vault offers the highest level of security—the "cold wallet" equivalent in Vultisig. These vaults consist solely of user-controlled devices with no third-party involvement.
-
-A minimum of two devices is required; three or more is recommended for redundancy. Additional devices increase the signing threshold and enhance security.
+A Vultisig Secure Vault is a seedless crypto wallet across your own devices, with no server co-signer. Cold-wallet equivalent: minimum two devices, three or more for redundancy. Extra devices raise the signing threshold.
 
 <figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 

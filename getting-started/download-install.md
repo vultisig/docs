@@ -1,10 +1,10 @@
 ---
 description: >-
-  Download Vultisig for iOS, Android, Windows, Linux, or Chrome. Available on
-  all major platforms for secure multi-device crypto management.
+  Download the Vultisig app for iOS, Android, Windows, Linux, or Chrome. One
+  vault, 30+ chains, no seed phrase.
 ---
 
-# Download & Install
+# Download Vultisig
 
 Vultisig is available on all major platforms. Download on at least two devices to create a Secure Vault, or use a single device with a Fast Vault.
 

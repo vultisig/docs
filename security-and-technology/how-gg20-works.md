@@ -1,10 +1,10 @@
 ---
 description: >-
-  GG20 threshold signature protocol explained. How Vultisig's legacy TSS
-  works: secret sharing, MPC signing rounds, and security model.
+  How Vultisig used GG20 threshold signatures: secret sharing, MPC rounds.
+  Legacy protocol. Current vaults use DKLS23.
 ---
 
-# How GG20 Works
+# GG20 TSS in Vultisig
 
 ## Concept
 

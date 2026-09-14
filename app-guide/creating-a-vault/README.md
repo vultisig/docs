@@ -4,7 +4,7 @@ description: >-
   Secure Vault for multi-device security. No seed phrases required.
 ---
 
-# Creating a Vault
+# Create a Vultisig Fast or Secure Vault
 
 Vultisig vaults are multi-factor by nature, requiring coordination between multiple signing parties. There are two vault types designed to meet different user needs: from a convenient "hot wallet" option to a highly secure "cold wallet" configuration.
 

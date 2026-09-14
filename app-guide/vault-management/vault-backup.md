@@ -4,7 +4,7 @@ description: >-
   vaults without seed phrases. Essential guide to protecting your assets.
 ---
 
-# Vault Backup
+# Export a Vultisig vault backup
 
 {% hint style="danger" %}
 **Vault backups are critical.** Without proper backups, device loss means permanent loss of access to funds.

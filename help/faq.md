@@ -4,7 +4,7 @@ description: >-
   backups, transactions, and troubleshooting.
 ---
 
-# FAQ
+# Vultisig FAQ
 
 ## General
 

@@ -4,7 +4,7 @@ description: >-
   addresses, time delays, and custom rules for automated co-signing.
 ---
 
-# Transaction Policies
+# Vultiserver transaction policies
 
 {% hint style="info" %}
 Transaction Policies will be available soon

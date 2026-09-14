@@ -4,7 +4,7 @@ description: >-
   Tier system from Bronze to Diamond. Hold more, pay less.
 ---
 
-# In-App Utility
+# $VULT in-app fee discounts
 
 ## Trading Fee Discounts
 

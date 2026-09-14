@@ -4,7 +4,7 @@ description: >-
   or Secure Vault for multi-device security.
 ---
 
-# Create Your First Vault
+# Create your first Vultisig vault
 
 A vault is your secure container for crypto assets. Vultisig uses Threshold Signature Scheme (TSS) technology - your private key is never stored in one place.
 

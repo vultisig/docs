@@ -4,7 +4,7 @@ description: >-
   security assessments and responsible disclosure.
 ---
 
-# Security
+# Vultisig audits and bug bounty
 
 Vultisig prioritizes security through open-source transparency, professional audits, and responsible disclosure practices.
 

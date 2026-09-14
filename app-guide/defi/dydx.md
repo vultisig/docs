@@ -4,7 +4,7 @@ description: >-
   Participate in protocol governance with threshold signature security.
 ---
 
-# dYdX
+# dYdX in Vultisig
 
 {% hint style="info" %}
 **Accessed via Wallet tab**

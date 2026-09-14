@@ -4,7 +4,7 @@ description: >-
   models with Vultisig.
 ---
 
-# Authority and security
+# Agent signing authority in Vultisig
 
 MPC removes the complete private key as a single point of failure. It does not make an agent's decisions correct. Choose a signing model based on the value at risk, the workflow's speed requirements, and the controls that must remain outside the agent.
 

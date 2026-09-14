@@ -4,7 +4,7 @@ description: >-
   Regulation compliance documentation for Vultisig.
 ---
 
-# MiCAR White Paper
+# Vultisig MiCAR white paper
 
 This document addresses Vultisig's compliance considerations under the European Union's Markets in Crypto-Assets Regulation (MiCAR).
 

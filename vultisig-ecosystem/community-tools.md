@@ -4,7 +4,7 @@ description: >-
   ecosystem—approved and endorsed applications.
 ---
 
-# Community Tools
+# Vultisig community tools
 
 ## Vault Share Decoder
 

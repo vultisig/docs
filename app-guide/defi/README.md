@@ -4,7 +4,7 @@ description: >-
   and more. Access DeFi directly from your vault without external dApps.
 ---
 
-# DeFi
+# DeFi in Vultisig
 
 The DeFi tab provides direct access to decentralized finance protocols. Users can stake tokens, bond to nodes, provide liquidity, and earn yield—all without connecting to external dApps or leaving the secure Vultisig environment.
 

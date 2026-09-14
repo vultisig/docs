@@ -1,10 +1,9 @@
 ---
 description: >-
-  Vultisig Wallet tab: send, receive, and swap crypto across 30+ blockchains.
-  Multi-chain asset management with threshold signature security.
+  Send, receive, and swap from the Vultisig Wallet tab across 30+ chains.
 ---
 
-# Wallet
+# Vultisig Wallet tab
 
 The Wallet tab is the primary interface for managing crypto assets. It displays all holdings across supported blockchains and provides access to core transaction functions.
 

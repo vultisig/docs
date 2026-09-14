@@ -4,7 +4,7 @@ description: >-
   and upgrade security. Complete guide to vault maintenance.
 ---
 
-# Vault Management
+# Manage a Vultisig vault
 
 Vault management options are available in the Settings menu. These features allow users to maintain, backup, and modify their vault configuration.
 

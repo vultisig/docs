@@ -4,7 +4,7 @@ description: >-
   (transactions), and Resharing (device changes). Core MPC actions.
 ---
 
-# TSS Actions
+# TSS actions in Vultisig
 
 Vultisig's Threshold Signature Scheme supports three core operations:
 

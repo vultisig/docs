@@ -4,7 +4,7 @@ description: >-
   much signing authority they receive.
 ---
 
-# AI Agents
+# Build AI agents on Vultisig
 
 Vultisig gives AI agents a programmable, seedless wallet across 40+ blockchains. Agents can inspect portfolios, prepare transactions, send assets, swap across chains, and sign messages without ever holding a complete private key.
 

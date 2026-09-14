@@ -1,10 +1,11 @@
 ---
 description: >-
-  Technical overview of Vultiserver Fast Vault setup. 2-of-2 keygen ceremony,
-  vault share storage in secure enclave, and signing flow.
+  How a Vultisig Fast Vault is created and signed. 2-of-2 keygen with
+  Vultiserver, where the server share is stored, and what to do if the server
+  is offline.
 ---
 
-# How does a Fast Vault work?
+# How a Vultisig Fast Vault works
 
 ## Set Up
 

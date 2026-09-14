@@ -4,7 +4,7 @@ description: >-
   governing use, modification, and distribution.
 ---
 
-# License
+# Vultisig software license
 
 Vultisig software is released under the **Software Terms and Modification Freedom (STMF) License**.
 

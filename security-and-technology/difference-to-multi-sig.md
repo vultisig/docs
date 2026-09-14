@@ -4,7 +4,7 @@ description: >-
   private key reconstruction, chain-agnostic, lower fees, better privacy.
 ---
 
-# Difference to Multi-Signatures
+# Vultisig vs multisig
 
 The main difference between Threshold Signature Schemes (TSS) and Multi-Signatures (MS) lies in their approach to generating signatures. In TSS, the signature is created by combining vault shares using Zero-Knowledge Proofs—no single private key is ever constructed. In contrast, MS involves multiple private keys, each contributing to the final signature.
 

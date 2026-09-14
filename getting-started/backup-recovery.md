@@ -4,7 +4,7 @@ description: >-
   proper vault share storage. No seed phrases - just secure backups.
 ---
 
-# Backup & Recovery
+# Backup a Vultisig vault
 
 {% hint style="danger" %}
 **This is the most important page in the documentation.**

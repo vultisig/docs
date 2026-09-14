@@ -4,7 +4,7 @@ description: >-
   for secure device communication. Trustless design, no tracking.
 ---
 
-# Overview
+# Vultisig infrastructure
 
 Vultisig aims to be as trustless as possible while still providing the best service possible.
 

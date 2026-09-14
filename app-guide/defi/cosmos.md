@@ -4,7 +4,7 @@ description: >-
   assets to THORChain, and execute custom transactions.
 ---
 
-# Cosmos (IBC)
+# Cosmos IBC in Vultisig
 
 {% hint style="info" %}
 **Accessed via Wallet tab**

@@ -4,7 +4,7 @@ description: >-
   affect other paired devices. Quick vault organization.
 ---
 
-# Vault Rename
+# Rename a Vultisig vault
 
 The rename feature allows changing the display name of a vault on the current device.
 

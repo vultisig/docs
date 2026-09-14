@@ -4,7 +4,7 @@ description: >-
   initiate transactions, secure even if compromised. Backup procedures.
 ---
 
-# Why is it safe?
+# Why Vultiserver is safe
 
 Since the Vultiserver always holds only one Vault Share, it will never be able to sign a transaction on its own without the participation and consent of the user, even in the event that the server is compromised.\
 \

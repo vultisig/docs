@@ -4,7 +4,7 @@ description: >-
   tooling for AI agent integrations.
 ---
 
-# Integration options
+# Vultisig agent integration options
 
 ## CLI (start here)
 

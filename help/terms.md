@@ -4,7 +4,7 @@ description: >-
   applications and services.
 ---
 
-# Terms of Use
+# Vultisig terms of use
 
 **Last Updated**: January 2025
 

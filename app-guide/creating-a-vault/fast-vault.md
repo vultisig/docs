@@ -1,16 +1,15 @@
 ---
 description: >-
-  Create a Fast Vault in seconds—single-device hot wallet powered by
-  Vultisigner. Perfect for daily transactions with seedless MPC security.
+  Vultisig Fast Vault is a one-device seedless crypto wallet. Your phone plus
+  Vultiserver as co-signer. Setup in about a minute. For daily amounts, not
+  long-term storage.
 ---
 
-# Fast Vault
+# Vultisig Fast Vault
 
 ## Overview
 
-Fast Vault is the "hot wallet" equivalent in Vultisig. It allows vault creation with a single device, without requiring multiple devices from the user.
-
-Fast Vaults are configured as two-factor vaults: one factor is the user's device, the other is the Vultiserver, which automatically co-signs user requests. This creates a single-signature experience while maintaining threshold security.
+A Vultisig Fast Vault is a one-device seedless crypto wallet. Your device holds one share; Vultiserver holds the other and co-signs. Same threshold math as a Secure Vault, one-device signing.
 
 Learn more about Vultiserver in the [Infrastructure documentation](../../vultisig-infrastructure/what-is-vultisigner/).
 

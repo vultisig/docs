@@ -6,7 +6,7 @@ cover: ../../.gitbook/assets/Vultisig - 1200x630 - 56- 2x.png
 coverY: 0
 ---
 
-# Airdrop V2
+# Vultisig airdrop V2
 
 Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.&#x20;
 

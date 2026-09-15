@@ -1,7 +1,7 @@
 ---
 description: >-
-  Vultisig docs: seedless multi-chain vault, Fast Vault and Secure Vault, SDK
-  and CLI. No seed phrase.
+  Vultisig docs: seedless MPC vault. ECDSA and EdDSA from one vault. Fast
+  Vault, Secure Vault, SDK, and CLI. No seed phrase.
 cover: .gitbook/assets/Banner-new.png
 coverY: 0
 ---
@@ -10,13 +10,16 @@ coverY: 0
 
 ## What is Vultisig?
 
-Vultisig is an open-source vault with no seed phrase. Your key is split into shares. They sign together. One share cannot move funds.
+Vultisig is an open-source vault with no seed phrase. It uses threshold signatures (MPC / TSS). Your key is split into shares. They sign together. One share cannot move funds.
 
-One vault works on Bitcoin, Ethereum, Cosmos, Solana, and 36+ other chains. Named list: [Wallet tab](app-guide/wallet/).
+One vault generates both ECDSA and EdDSA keys. You hold and sign Bitcoin, Ethereum, Cosmos, Solana, and 36+ other UTXO, EVM, BFT, and EdDSA chains. Named list: [Wallet tab](app-guide/wallet/).
+
+Signing uses [DKLS23](https://github.com/silence-laboratories/dkls23) from Silence Laboratories.
 
 * **No seed phrase.** Vault shares replace 12/24-word seeds.
+* **MPC / TSS.** Threshold signatures. No complete private key in normal operation.
+* **ECDSA and EdDSA.** Both key types from one vault.
 * **36+ chains** from one vault.
-* **Threshold signing.** One device cannot move funds.
 * **Platforms:** iOS, Android, macOS, Windows, Linux, Chrome, Firefox.
 * **Open source** on [GitHub](https://github.com/vultisig).
 

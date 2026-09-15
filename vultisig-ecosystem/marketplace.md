@@ -15,11 +15,11 @@ coverY: 0
 
 ## Overview
 
-The Vultisig Plugin Marketplace is a marketplace for self-custodial automation. Install plugins to automate your crypto management — from fixed workflows like DCA and scheduled payments, to autonomous AI Agents that make decisions based on market conditions — all without giving up custody of your funds.
+Planned product: plugins and agents that propose transactions; the vault signs. Users do not hand over keys.
 
-Unlike traditional automation that requires handing over your keys, Vultisig plugins use MPC technology to keep you in control. Your vault executes automations securely — no third parties, no smart contract risks, no seed phrase exposure.
+The rest of this page is the planned design. It is not live.
 
-The Marketplace supports two types of automation:
+The planned design has two types of automation:
 
 | | Plugins | AI Agents |
 |---|---------|-----------|
@@ -31,7 +31,7 @@ The Marketplace supports two types of automation:
 
 Both share the same MPC architecture — the Verifier validates every transaction before signing, ensuring nothing outside your rules gets executed.
 
-Browse plugins and agents at [apps.vultisig.com](https://apps.vultisig.com). Developers can build and publish their own — see the [Developer Documentation](../developer-docs/marketplace/) for details.
+Build notes: [Developer Documentation](../developer-docs/marketplace/). The listing surface was planned as apps.vultisig.com. It is not in production.
 
 ***
 

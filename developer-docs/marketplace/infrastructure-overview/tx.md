@@ -7,7 +7,7 @@
 
 ## TL;DR
 
-This guide explains how plugin developers in the Vultisig ecosystem can programmatically initiate and sign transactions based on automated conditions (schedules, events, etc.). Plugins must:
+A plugin that proposes and signs on a trigger must:
 
 1. **Define automation rules** via Recipe specifications that declare supported transaction types, parameters, and constraints
 2. **Implement `ProposeTransactions`** to validate policies, fetch vault data, generate unsigned transactions based on recipe rules, index them, and create keysign requests
@@ -19,7 +19,7 @@ This guide explains how plugin developers in the Vultisig ecosystem can programm
 
 ## Overview
 
-This documentation describes the transaction proposing flow for plugin developers in the Vultisig ecosystem. Plugins have the capability to initiate transactions based on their own conditions, which can be triggered by schedules, events, or other conditions.
+A plugin proposes a transaction on a schedule, an event, or another trigger. The verifier checks it against the recipe before signing.
 
 ## Key Concepts
 

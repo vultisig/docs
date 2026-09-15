@@ -1,11 +1,11 @@
 ---
 description: >-
-  Support resources, security information, and legal documentation for Vultisig.
+  Vultisig FAQ, audits, privacy, terms, license, and the Telegram bot.
 ---
 
 # Vultisig help and legal
 
-This section provides support resources and legal documentation for Vultisig users.
+FAQ, audits, privacy, terms, license. Telegram bot is airdrop-era; registration is closed.
 
 ***
 
@@ -56,5 +56,5 @@ This section provides support resources and legal documentation for Vultisig use
 
 ## Related
 
-- [Getting Started](../getting-started/overview.md) — New user guide
-- [Security & Technology](../security-and-technology/overview.md) — Technical documentation
+- [Getting Started](../getting-started/overview.md)
+- [Security & Technology](../security-and-technology/overview.md)

@@ -1,12 +1,12 @@
 ---
 description: >-
-  Vultisig DeFi tab: stake, bond, and provide liquidity across THORChain,
-  Maya, TON, Solana, Terra, and more.
+  Vultisig DeFi tab: stake, bond, and LP on THORChain, Maya, TON, Solana,
+  Terra, and more.
 ---
 
 # DeFi in Vultisig
 
-The DeFi tab is native protocol access from the vault. Stake, bond, provide liquidity, and earn yield without connecting an external dApp.
+The DeFi tab is stake, bond, and liquidity from the vault. You do not connect an external dApp.
 
 ***
 
@@ -67,7 +67,7 @@ Provide liquidity to trading pairs. THORChain and MayaChain.
 
 ## Security
 
-DeFi transactions use the same threshold signatures as send and swap. No seed phrase. No external wallet connection.
+DeFi uses the same threshold signatures as send and swap. No seed phrase. No external wallet connection.
 
 ***
 

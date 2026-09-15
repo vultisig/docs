@@ -1,7 +1,6 @@
 ---
 description: >-
-  Vultisig privacy policy. How user data is collected, used, and protected.
-  Commitment to user privacy and data minimization.
+  Vultisig privacy policy. No account, no KYC. What is collected and what is not.
 ---
 
 # Vultisig privacy policy
@@ -12,9 +11,7 @@ This privacy policy describes how Vultisig ("we", "us", "our") collects, uses, a
 
 ***
 
-## Our Commitment
-
-Vultisig is designed with privacy as a core principle:
+## Defaults
 
 - **No account required**: Use Vultisig without registration
 - **No KYC**: No identity verification required

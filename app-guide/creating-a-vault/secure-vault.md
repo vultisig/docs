@@ -8,12 +8,12 @@ description: >-
 
 ## Overview
 
-A Vultisig Secure Vault is a seedless crypto wallet across your own devices, with no server co-signer. Cold-wallet equivalent: minimum two devices, three or more for redundancy. Extra devices raise the signing threshold.
+Every share sits on a device you hold. No VultiServer. You need at least two devices. Add more if you want a fallback when one is gone.
 
 <figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Secure Vaults are ideal for shared wallets among multiple users and DAOs.
+Shared control: each person holds a device share. Same pattern for a DAO or a two-person treasury.
 {% endhint %}
 
 ***
@@ -25,11 +25,11 @@ Secure Vaults use an `m`-of-`n` threshold where `m` is at least 67% of `n`. Comm
 | Setup | Devices | Signing | Redundancy | Recommendation |
 |-------|---------|---------|------------|----------------|
 | **2-of-3** | 3 | 2 | Yes (1 device) | **Recommended** |
-| **3-of-4** | 4 | 3 | Yes (1 device) | Maximum security |
+| **3-of-4** | 4 | 3 | Yes (1 device) | Higher threshold |
 | **2-of-2** | 2 | 2 | No | Not recommended |
 
 {% hint style="info" %}
-**Best practice for maximum redundancy:**
+**Split backups across platforms:**
 
 1. Use 3 different platforms (Mac, iOS, Android)
 2. Encrypt vault shares with 3 different passwords
@@ -89,7 +89,7 @@ This setup allows recovery from anywhere in the world with just email access and
 ## After Creation
 
 {% hint style="warning" %}
-**Immediately backup every device** after vault creation. Without backups, device loss can mean permanent fund loss.
+**Export a backup from every device before you deposit.**
 
-See [Backup & Recovery](../../getting-started/backup-recovery.md) for detailed instructions.
+A lost device with no backup means the funds are gone. [Backup & Recovery](../../getting-started/backup-recovery.md)
 {% endhint %}

@@ -1,24 +1,22 @@
 ---
 description: >-
-  Create a Vultisig vault in minutes. Choose Fast Vault for quick setup or
-  Secure Vault for multi-device security. No seed phrases required.
+  Create a Vultisig vault. Fast Vault is one device plus VultiServer.
+  Secure Vault is two or more devices you control. No seed phrase.
 ---
 
 # Create a Vultisig Fast or Secure Vault
 
-Vultisig vaults are multi-factor by nature, requiring coordination between multiple signing parties. This gives the user a much greater security. There are two vault types designed to meet different user needs: from a convenient "hot wallet" option to a highly secure "cold wallet" configuration.
-
-Creating a vault is also called a Key Generation (KeyGen) event. See [TSS Actions](../../security-and-technology/tss-actions.md) for technical details.
+Think of the vault as a safe that needs a threshold of keys to open. Fast Vault: your device plus VultiServer. Secure Vault: devices you hold.
 
 ***
 
-## Vault Types
+## Vault types
 
-{% hint style="success" %}
-iOS, macOS, Android, Windows, Linux, Chrome, and Firefox can create vaults. Check the [website](https://vultisig.com/) for current downloads.
+{% hint style="info" %}
+iOS, macOS, Android, Windows, Linux, Chrome, and Firefox can create vaults. Downloads: [vultisig.com](https://vultisig.com/).
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Fast Vault</strong></td><td>Single device + Vultisig server. Quick setup, ideal for daily transactions.</td><td><a href="fast-vault.md">fast-vault.md</a></td></tr><tr><td><strong>Secure Vault</strong></td><td>Multiple user devices. Maximum security, ideal for long-term storage.</td><td><a href="secure-vault.md">secure-vault.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Fast Vault</strong></td><td>One device + VultiServer (2-of-2). VultiServer co-signs and can never sign alone.</td><td><a href="fast-vault.md">fast-vault.md</a></td></tr><tr><td><strong>Secure Vault</strong></td><td>Two or more devices you control. 2-of-3 is the usual setup.</td><td><a href="secure-vault.md">secure-vault.md</a></td></tr></tbody></table>
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -43,7 +41,7 @@ iOS, macOS, Android, Windows, Linux, Chrome, and Firefox can create vaults. Chec
 ## After Creation
 
 {% hint style="danger" %}
-**Always backup your vault immediately after creation.**
+**Export a backup before you deposit.**
 
-Without proper backups, device loss means permanent loss of access to funds. See [Backup & Recovery](../../getting-started/backup-recovery.md).
+A lost device with no backup means the funds are gone. See [Backup & Recovery](../../getting-started/backup-recovery.md).
 {% endhint %}

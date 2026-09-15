@@ -6,7 +6,7 @@ description: >-
 
 # Vultisig audits
 
-Vultisig's security model is open-source threshold signatures, professional audits of the signing protocol, and responsible disclosure.
+Open-source threshold signatures, an audited signing library, and responsible disclosure.
 
 There is no public bug bounty program today. Report a vulnerability through [GitHub](https://github.com/vultisig) or [Discord](https://discord.gg/Cugw9T2NrP).
 

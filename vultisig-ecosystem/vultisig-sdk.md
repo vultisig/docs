@@ -1,41 +1,34 @@
 ---
-description: MPC Wallet Infrastructure for Developers & AI Agents
+description: >-
+  Vultisig TypeScript SDK and CLI. Create vaults, check balances, send, swap,
+  and sign across 36+ chains. No seed phrase.
 ---
 
 # Vultisig SDK
 
-The Vultisig SDK gives developers and AI agents direct access to Vultisig's multi-party computation (MPC) technology. Instead of relying on seed phrases that create a single point of failure, the SDK splits wallet keys across multiple devices using threshold signatures. The result: secure, self-custodial wallets that work across 36+ blockchains.
+TypeScript SDK for vault create, verify, balance, send, swap, and sign. Threshold signatures. No seed phrase. 36+ chains.
 
-Whether you're building a web app, a backend service, or an AI agent that needs to hold and move crypto — the SDK handles vault creation, balance checks, token swaps, and transaction signing.
+Use it from a web app, a backend, Electron, or an agent. CLI (`@vultisig/cli`) mirrors the same surface.
 
-## What Can You Build With It?
+Full reference: [SDK docs](../developer-docs/vultisig-sdk/).
 
-- **Web3 applications** — Onboard users into seedless, cross-chain wallets with MPC security built in
-- **AI agent wallets** — Give autonomous agents their own self-custodial crypto wallets, with optional human co-signing for oversight
-- **Backend services** — Programmatic vault creation, balance checks, swaps, and signing from your server
-- **Desktop & browser apps** — Works in Electron, any modern browser, and Node.js
+## Vault types
 
-## How It Works
+- **Fast Vault** — 2-of-2 with VultiServer. VultiServer co-signs and can never sign alone.
+- **Secure Vault** — N-of-M on devices you control. Other shares join by QR from the Vultisig app.
 
-The SDK supports two vault types:
-
-- **Fast Vault** — A 2-of-2 setup between your app and VultiServer. Signing is instant. Great for quick setup and individual use.
-- **Secure Vault** — A multi-device setup (2-of-3, 3-of-5, etc.) where multiple devices must approve transactions. Other participants join by scanning a QR code with the Vultisig mobile app. Best for teams or high-value wallets.
-
-Both vault types support 36+ chains including Bitcoin, Ethereum, Solana, THORChain, Cosmos, and the broader EVM, UTXO, and Cosmos ecosystems. The wallet picks the best swap quote (THORChain, Maya, 1inch, Kyber, LiFi, Jupiter, and others).
-
-There's also a full CLI (`@vultisig/cli`) that mirrors the SDK's capabilities from the command line.
+Both vault types cover 36+ chains. The wallet picks the best swap quote (THORChain, Maya, 1inch, Kyber, LiFi, Jupiter, and others).
 
 ## For AI Agents
 
-AI agents can use the SDK or CLI to create wallets, check balances, send tokens, and execute swaps autonomously. Two trust models are available:
+SDK or CLI. Two trust models:
 
 | Mode | How it works | Signing | Use case |
 |------|-------------|---------|----------|
 | **Fast Vault** | Agent + VultiServer (2-of-2) | Instant, no human needed | Full agent autonomy |
 | **Secure Vault** | Agent + human device (2-of-2) | Human approves via QR scan | Human oversight on every transaction |
 
-The CLI makes agent integration simple:
+CLI for unattended agents:
 
 ```bash
 npm install -g @vultisig/cli

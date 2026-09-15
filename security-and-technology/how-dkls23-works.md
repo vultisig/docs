@@ -6,13 +6,11 @@ description: >-
 
 # DKLS23 in Vultisig
 
-## Evolution and Innovation
+## The protocol
 
-The [DKLS23 protocol](https://eprint.iacr.org/2023/765), introduced in 2023 by Doerner, Kondi, Lee, and Shelat, represents a significant advancement in threshold ECDSA. Building upon GG18 and GG20, DKLS23 reduces communication rounds from 6 to 3 while maintaining robust security.
+The [DKLS23 protocol](https://eprint.iacr.org/2023/765) (Doerner, Kondi, Lee, and Shelat, 2023) is the threshold ECDSA Vultisig uses now. It cuts communication rounds from 6 (GG20) to 3.
 
-This protocol shifts from homomorphic encryption toward more efficient oblivious transfer techniques—simpler to implement correctly with fewer potential vulnerabilities.
-
-DKLS23 integrates Oblivious Transfer, Zero Knowledge Proofs, and Multi-Party Computation (MPC) to create a threshold signature system with exceptional performance.
+It uses oblivious transfer instead of homomorphic encryption, plus zero-knowledge proofs and MPC.
 
 ***
 

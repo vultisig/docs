@@ -10,7 +10,7 @@ description: >-
 IBC transfer is on the **Functions** button for Cosmos Hub and Osmosis in the **Wallet tab**. Terra and Terra Classic staking are on the **DeFi tab**.
 {% endhint %}
 
-Vultisig supports IBC transfers between IBC-enabled Cosmos chains.
+You can IBC-transfer from Cosmos Hub or Osmosis. The path is Wallet → Functions, not the DeFi tab.
 
 ***
 

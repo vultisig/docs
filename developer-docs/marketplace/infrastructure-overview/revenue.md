@@ -19,7 +19,7 @@ Fees are collected either immediately or in batches, automatically converted to 
 
 ## Overview
 
-The Vultisig fee system is a comprehensive solution for collecting usage fees from plugin users and managing treasury operations. It supports multiple fee structures, automatic token conversions, and transparent revenue distribution while maintaining the security guarantees of the TSS architecture.
+Fees collect, convert to USDC, and split 70/30 (developer / treasury). Three models: per-transaction, subscription, per-installation.
 
 ## Fee System Architecture
 

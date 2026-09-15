@@ -1,7 +1,6 @@
 ---
 description: >-
-  Frequently asked questions about Vultisig. Common questions about vaults,
-  backups, transactions, and troubleshooting.
+  Vultisig FAQ: vaults, backups, fees, signing, and recovery.
 ---
 
 # Vultisig FAQ
@@ -10,7 +9,7 @@ description: >-
 
 ### What is Vultisig?
 
-Vultisig is a multi-chain, multi-platform crypto vault that uses threshold signatures (TSS) to secure digital assets. Unlike traditional wallets with single private keys, Vultisig distributes security across multiple devices—no single point of failure.
+Vultisig is a vault for many chains with no seed phrase. Your key is split into shares on your devices. They sign together. One share cannot move funds.
 
 ### Which platforms support Vultisig?
 
@@ -33,19 +32,19 @@ Vultisig supports 36+ chains. The named list is on the [Wallet tab](../app-guide
 
 ### What is the difference between Fast Vault and Secure Vault?
 
-**Fast Vault**: Uses your device plus Vultisig's server as the second signer. Quick setup, instant transactions, single-device convenience. Best for everyday use.
+**Fast Vault:** One device. VultiServer holds the second share and signs with you. It can never sign alone.
 
-**Secure Vault**: Requires multiple physical devices you control. Higher security with no server dependency. Best for significant holdings.
+**Secure Vault:** Two or more devices you hold. No VultiServer. 2-of-3 is the usual setup — you can lose one device and still sign.
 
 ### Can I convert a Fast Vault to a Secure Vault?
 
-Not directly. You would need to create a new Secure Vault and transfer your assets. Both vault types use the same underlying TSS technology.
+No. Create a new Secure Vault and move the funds across. The Fast Vault stays as it is.
 
 ### What happens if I lose a device?
 
-For **Fast Vault**: Restore from your device backup using the Vultiserver as the second share.
+For **Fast Vault**: restore from your device backup. VultiServer is still the second share.
 
-For **Secure Vault**: With a 2-of-3 configuration, you can still sign transactions with the remaining two devices and reshare to add a replacement device.
+For **Secure Vault**: on 2-of-3 you can still sign with the remaining two, then reshare to add a replacement device.
 
 ***
 
@@ -53,19 +52,19 @@ For **Secure Vault**: With a 2-of-3 configuration, you can still sign transactio
 
 ### How do I backup my vault?
 
-Export vault shares from each device in your vault configuration. Store backups securely—anyone with threshold shares can access your funds.
+Export a backup from each device in the vault. Keep those files apart — anyone with enough shares can move funds.
 
-For Fast Vault, device backup is the priority since server backup can be re-requested with your password.
+On Fast Vault, the device backup matters most. You can re-request the server share with your password.
 
-See [Backup & Recovery](../getting-started/backup-recovery.md) for detailed instructions.
+See [Backup & Recovery](../getting-started/backup-recovery.md).
 
 ### What if I lose my backup?
 
-If you still have access to threshold devices, you can re-export backups. If you've lost access to threshold devices AND backups, funds cannot be recovered—this is the security tradeoff of true self-custody.
+If you still have enough devices, export new backups from them. If the devices and the backups are both gone, the funds cannot be recovered. Vultisig cannot reconstruct them.
 
 ### Can Vultisig recover my funds?
 
-No. Vultisig has no access to your vault shares. This is a feature, not a limitation—it ensures true self-custody.
+No. Vultisig has no access to your vault shares and cannot reconstruct them.
 
 ***
 

@@ -1,22 +1,21 @@
 ---
 description: >-
-  Get started with Vultisig in minutes. Download, create your first vault, and
-  send your first transaction - no seed phrases required.
+  Download Vultisig, create a vault, back it up, and send. No seed phrase.
 ---
 
 # Get started with Vultisig
 
-Welcome to Vultisig! This guide will get you up and running with the most secure self-custodial wallet in crypto.
+You install the app, create a vault, back it up, then send. There is no seed phrase — each device holds a share of the key instead.
 
 {% hint style="danger" %}
-**Critical: Backup Your Vault**
+**Back up the vault before you put money in.**
 
-Your vault backup is the ONLY way to recover access if you lose a device. Read the [Backup & Recovery](backup-recovery.md) guide before storing any significant funds.
+If a device is lost and you have no backup, there is no recovery. Read [Backup & Recovery](backup-recovery.md) first.
 {% endhint %}
 
 ***
 
-## Quick Start Path
+## Start here
 
 <table data-card-size="large" data-view="cards">
 <thead>
@@ -28,23 +27,23 @@ Your vault backup is the ONLY way to recover access if you lose a device. Read t
 </thead>
 <tbody>
 <tr>
-<td><strong>1. Download & Install</strong></td>
-<td>Get Vultisig on your devices</td>
+<td><strong>1. Download</strong></td>
+<td>Install on the devices you will use to sign</td>
 <td><a href="download-install.md">download-install.md</a></td>
 </tr>
 <tr>
-<td><strong>2. Create Your Vault</strong></td>
-<td>Set up your first vault in minutes</td>
+<td><strong>2. Create a vault</strong></td>
+<td>Fast Vault (one device) or Secure Vault (two or more)</td>
 <td><a href="create-vault.md">create-vault.md</a></td>
 </tr>
 <tr>
-<td><strong>3. Backup Your Vault</strong></td>
-<td>Essential - protect your assets</td>
+<td><strong>3. Back it up</strong></td>
+<td>Export a share from every device in the vault</td>
 <td><a href="backup-recovery.md">backup-recovery.md</a></td>
 </tr>
 <tr>
-<td><strong>4. First Transaction</strong></td>
-<td>Send or receive your first crypto</td>
+<td><strong>4. First transaction</strong></td>
+<td>Receive, then send a small test</td>
 <td><a href="first-transaction.md">first-transaction.md</a></td>
 </tr>
 </tbody>
@@ -52,30 +51,21 @@ Your vault backup is the ONLY way to recover access if you lose a device. Read t
 
 ***
 
-## What Makes Vultisig Different?
+## Which vault?
 
-| Traditional Wallets | Vultisig |
-|---------------------|----------|
-| Seed phrase (single point of failure) | No seed phrases - distributed vault shares |
-| One device controls everything | Multi-device security by design |
-| Hardware wallet required for security | Your existing devices become secure signers |
-| Single-chain or limited chains | 36+ blockchains from one vault |
+If you have one device, start with a [Fast Vault](../app-guide/creating-a-vault/fast-vault.md). Your phone or laptop holds one share; VultiServer holds the other and signs with you. It can never sign alone. Setup takes about a minute.
 
-***
+If you want an extra device as a fallback, create a [Secure Vault](../app-guide/creating-a-vault/secure-vault.md). Two or more devices you control. 2-of-3 is the usual setup: you can lose one device and still sign.
 
-## Choose Your Path
-
-**Using the Vultisig app?**
-- [Fast Vault](../app-guide/creating-a-vault/fast-vault.md) - single device, quick setup
-- [Secure Vault](../app-guide/creating-a-vault/secure-vault.md) - multi-device, maximum security
+A Fast Vault does not turn into a Secure Vault. If you want the higher threshold later, create a new Secure Vault and move the funds.
 
 **Building with the SDK or CLI?**
-- [SDK Developer Docs](../developer-docs/vultisig-sdk/) - TypeScript SDK for web apps, backends, and AI agents
-- [CLI Documentation](../developer-docs/vultisig-sdk/CLI.md) - Command-line wallet for scripts and automation
+
+- [SDK](../developer-docs/vultisig-sdk/) — TypeScript for apps, backends, and agents
+- [CLI](../developer-docs/vultisig-sdk/CLI.md) — scripts and unattended agents
 
 ***
 
-## Need Help?
+## Help
 
-- [FAQ](../help/faq.md) - Common questions answered
-- [Discord Community](https://discord.gg/Cugw9T2NrP) - Get help from the team and community
+Stuck? [FAQ](../help/faq.md) or [Discord](https://discord.gg/Cugw9T2NrP).

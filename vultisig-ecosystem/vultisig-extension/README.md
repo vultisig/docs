@@ -8,9 +8,9 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-## What is Vultisig Extension?
+## What it is
 
-The Vultisig Extension is a full Vultisig vault in Chrome and Firefox. Create a Fast Vault or Secure Vault, send, swap, use DeFi, and connect to Web3 dApps. Same capabilities as the mobile and desktop apps.
+A full Vultisig vault in Chrome and Firefox. Create Fast or Secure Vault, send, swap, DeFi, and connect to dApps. Same vault model as the mobile and desktop apps.
 
 Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb) (Chrome, Brave, Edge) or [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/).
 

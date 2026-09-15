@@ -1,27 +1,24 @@
 # Build on Vultisig
 
-Build on Vultisig's secure, multi-chain infrastructure. Whether you're creating automated trading strategies, integrating wallet connectivity into your dApp, or building applications with programmatic vault management, Vultisig provides the tools you need.
+SDK, CLI, Extension, and (paused) Marketplace plugins. Same threshold vault the apps use.
 
-## What Can You Build?
+## Surfaces
 
-| Use Case                    | Example                                                      |
+| Surface | Example |
 | --------------------------- | ------------------------------------------------------------ |
-| **Automated Trading**       | DCA bots, yield optimizers, portfolio rebalancers            |
-| **AI Agents**               | Autonomous trading agents with secure key management         |
-| **dApp Wallet Integration** | Connect Vultisig to your DeFi protocol or NFT marketplace    |
-| **Custodial Services**      | Multi-sig treasury management, institutional custody         |
-| **Portfolio Apps**          | Cross-chain portfolio trackers with transaction capabilities |
+| **Agents** | Portfolio, send, swap, sign. Authority is the Fast / policy / human choice |
+| **Trading scripts** | DCA, rebalance, scheduled send |
+| **dApp connect** | Extension `window.vultisig` / EIP-1193 |
+| **Treasury** | N-of-M Secure Vault, programmatic send via SDK/CLI |
+| **Portfolio** | Balances and txs across the vault's chains |
 
-These are just examples. Vultisig's MPC infrastructure is chain-agnostic and protocol-agnostic—if it exists on-chain, you can automate it. Get creative.
-
-## Choose Your Path
+## Paths
 
 ### AI Agents
 
-Give agents multi-chain wallet capabilities and choose between autonomous, policy-bound, and human-approved signing.
+Agents get a vault. You choose Fast (autonomous), policy-bound (paused), or human-approved Secure Vault.
 
 * **Languages**: TypeScript, shell, or Go
-* **Best for**: Coding agents, trading bots, payment automation, and portfolio strategies
 
 {% content-ref url="ai-agents/" %}
 [ai-agents](ai-agents/)
@@ -33,11 +30,10 @@ Give agents multi-chain wallet capabilities and choose between autonomous, polic
 **Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
 {% endhint %}
 
-Build automation plugins that run on Vultisig's infrastructure and are distributed through the Marketplace.
+Planned Go plugins on Vultisig infrastructure. Not in production.
 
 * **Language**: Go
-* **Best for**: Backend developers building trading bots, yield strategies, or AI agents
-* **Revenue**: 70/30 split (developer/treasury)
+* **Planned revenue**: 70/30 split (developer/treasury)
 
 {% content-ref url="marketplace/" %}
 [marketplace](marketplace/)
@@ -45,10 +41,9 @@ Build automation plugins that run on Vultisig's infrastructure and are distribut
 
 ### SDK
 
-Build applications that create and manage Vultisig vaults programmatically using the TypeScript SDK.
+Create and manage vaults from TypeScript.
 
 * **Language**: TypeScript
-* **Best for**: Building apps with embedded vault functionality, custodial services, or portfolio management
 
 {% content-ref url="vultisig-sdk/" %}
 [vultisig-sdk](vultisig-sdk/)
@@ -56,26 +51,21 @@ Build applications that create and manage Vultisig vaults programmatically using
 
 ### Extension Integration
 
-Add Vultisig wallet connectivity to your web application, similar to MetaMask integration.
+Connect a dApp to the Vultisig Extension.
 
 * **Language**: JavaScript
-* **Best for**: dApp developers adding wallet connect functionality
 
 {% content-ref url="vultisig-extension-integration-guide.md" %}
 [vultisig-extension-integration-guide.md](vultisig-extension-integration-guide.md)
 {% endcontent-ref %}
 
-## Core Technology
-
-New to Vultisig's architecture? These resources explain the underlying security model:
+## Signing model
 
 * [How TSS Works](../security-and-technology/tss-actions.md) - Threshold signature scheme overview
 * [How DKLS23 Works](../security-and-technology/how-dkls23-works.md) - The signing protocol
 * [Vultiserver](../vultisig-infrastructure/what-is-vultisigner/) - Fast vault infrastructure
 
-## Support
-
-Questions or need help getting started? Join our developer community:
+## Help
 
 * **Discord**: [discord.gg/Cugw9T2NrP](https://discord.gg/Cugw9T2NrP) - Dedicated third-party developer section
 * **GitHub**: [github.com/vultisig](https://github.com/vultisig) - Source code and issue tracking

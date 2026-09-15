@@ -6,7 +6,7 @@ description: >-
 
 # Vultisig Settings
 
-Open **Settings** from the vault home. Vault-specific items live under **Vault Settings**.
+Open **Settings** from the vault home. Anything that belongs to this vault — backup, rename, reshare, Blockaid — is under **Vault Settings**.
 
 ***
 
@@ -24,10 +24,10 @@ Open **Settings** from the vault home. Vault-specific items live under **Vault S
 
 **Settings → Address book**
 
-1. Add a name and address
+1. Add a name and address you send to often
 2. On **Send**, pick the saved entry instead of pasting
 
-The book is local to the app. It is not a backup.
+The book lives on this app install. It is not a backup.
 
 ***
 
@@ -47,7 +47,7 @@ Folders only organize the list. They do not change signing or backups.
 
 **Settings → Vault Settings → Advanced → On-chain security**
 
-On by default. Turn it off here if you want. While it is on, send, swap, and WalletConnect / dApp verify screens can warn on a malicious destination or contract. It is a warning. You still decide whether to sign.
+On by default. You can turn it off here. While it is on, send, swap, and WalletConnect / dApp screens can warn you about a malicious destination or contract. It is a warning, not a lock. You still decide whether to sign.
 
 ***
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  $VULT serves as the cornerstone of the rapidly expanding Vultisig Ecosystem,
-  offering multiple valuable utilities to it's holders and stakers.
+  $VULT is the Vultisig token. Live utility is in-app swap fee discounts.
+  Contract, supply, and planned utility.
 ---
 
 # The $VULT Token
@@ -25,13 +25,11 @@ Availability:
 
 ## Utility of $VULT token
 
-The main benefit lies in the various mechanisms provided, through which $VULT holders receive discounts and other benefits for holding $VULT.
+Hold $VULT in a vault to cut the swap fee. Tiers: [in-app fee discounts](in-app-utility.md).
 
-In general, VULT unlocks trading fee discounts. Voting rights, preferential pricing, and marketplace features are planned. The plugin marketplace is paused and not in production.
+Voting, preferential pricing, and marketplace features are planned. The plugin marketplace is paused and not in production.
 
-All current and future utility is aimed at driving value to the VULT token, displaying the project's current adoption and value accrual.
-
-The Utility is separated into 3 pillars:
+Three pillars:
 
 * In-App Utility
 * Marketplace Utility
@@ -41,7 +39,7 @@ The Utility is separated into 3 pillars:
 
 ### Value Accrual
 
-All value generated in the Vultisig ecosystem is designed to flow back into the $VULT token, this consists mainly of fee revenue and other income streams.
+Fee revenue is designed to flow back into $VULT, mainly through buybacks.
 
 <table><thead><tr><th width="373">Fee</th><th>Amount</th></tr></thead><tbody><tr><td>Swap Fees (Cross-chain and Token swaps)</td><td>Starting at 50 basis points</td></tr><tr><td>Bridge Fees (Between EVMs and IBC, to be implemented)</td><td>10 basis points</td></tr><tr><td>Marketplace Fees (Plugins and AI Agents)</td><td>30% of generated revenue (paused, not in production)</td></tr></tbody></table>
 

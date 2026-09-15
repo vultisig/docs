@@ -16,4 +16,4 @@ Install the Vultisig Extension from the [Chrome Web Store](https://chromewebstor
 
 ## How to use Vultisig Extension
 
-The extension can be used in the same way as the mobile and desktop apps, and all actions can be read in the [App Guide](../../app-guide/overview.md).
+Use it like the mobile and desktop apps. Actions: [App Guide](../../app-guide/overview.md).

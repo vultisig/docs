@@ -11,7 +11,7 @@ description: The how to steps to add a missing chains to the Marketplace ecosyst
 
 ## Overview
 
-This document provides a high-level overview of the steps required to add support for a new blockchain across the Vultisig Marketplace ecosystem. The process involves multiple repositories and follows a dependency chain where each layer builds upon the previous.
+Steps to add a chain across the Marketplace stack. Each layer depends on the one before it.
 
 {% hint style="info" %}
 The process is unlikely due to Vultisig's constant increase in chain coverage for the Marketplace ecosystem.

@@ -5,9 +5,9 @@
 **Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
 {% endhint %}
 
-This section is intended to guide the developers when building their own Vultisig Plugins. The general infrastructure overview can be found [here](../)
+How to build a plugin. Planned product. Architecture: [infrastructure overview](../).
 
-The section consists of the whole creation journey for a developer:
+Path:
 
 {% stepper %}
 {% step %}
@@ -35,6 +35,6 @@ The process is unlikely due to Vultisig's constant increase in chain coverage fo
 {% endstep %}
 {% endstepper %}
 
-{% hint style="success" %}
-It is intended to create a straight forward and easy to understand ecosystem and documentation. If something is unclear or you need help please do not hesitate to ping us in our discord.
+{% hint style="info" %}
+Questions: [Discord](https://discord.gg/Cugw9T2NrP), third-party developer section.
 {% endhint %}

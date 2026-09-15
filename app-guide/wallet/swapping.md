@@ -6,19 +6,19 @@ description: >-
 
 # Swap crypto in Vultisig
 
-Vultisig swaps on the same chain and across chains. The wallet picks the best quote. You do not choose a provider. Threshold signatures sign.
+You can swap on the same chain or across chains. The wallet picks the best quote — you do not choose a provider. Your devices sign the same way they do for a send.
 
 ***
 
 ## How to swap
 
 1. Tap **Swap**
-2. Select the asset to sell
-3. Select the asset to receive
+2. Select the asset you want to sell
+3. Select the asset you want to receive
 4. Enter the amount
-5. Review the quote: rate, Vultisig fee, network / protocol fees, estimated output
+5. Check the quote: rate, Vultisig fee, network / protocol fees, estimated output
 6. Sign with your devices
-7. Cross-chain swaps wait on chain finality
+7. Cross-chain swaps wait for the chains to confirm. That can take a few minutes.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Swap Flow</p></figcaption></figure>
 

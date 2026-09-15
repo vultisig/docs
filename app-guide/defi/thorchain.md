@@ -1,12 +1,11 @@
 ---
 description: >-
-  THORChain DeFi in Vultisig: bond to nodes, stake RUNE/TCY/RUJI, and provide
-  liquidity. Access all THORChain features directly from your vault.
+  THORChain DeFi in Vultisig: bond to nodes, stake RUNE/TCY/RUJI, and add LP.
 ---
 
 # THORChain in Vultisig
 
-THORChain is a decentralized cross-chain liquidity protocol. Vultisig provides direct access to THORChain's DeFi features from the DeFi tab.
+Bond, stake, add LP, and merge RUJI from the DeFi tab. You can also add THORChain LP from Wallet → Functions on the listed L1s.
 
 ***
 
@@ -27,7 +26,7 @@ THORChain is a decentralized cross-chain liquidity protocol. Vultisig provides d
 
 ## Bond / Unbond
 
-Bonding RUNE to THORChain nodes supports network security and earns rewards.
+Bond RUNE to a THORChain node. Only do this if you are talking to a node operator who has already whitelisted your address.
 
 ### How to Bond
 
@@ -55,72 +54,28 @@ The "Leave" function is for node operators who wish to exit or disable a node. S
 
 ***
 
-## Staking
+## Stake / unstake
 
-Stake tokens to earn passive income from THORChain protocol fees.
+1. Open **DeFi tab** → **THORChain** → **Stake**
+2. Select the asset
+3. Enter the amount
+4. Sign with your devices
 
-### Available Staking Assets
+Unstake is the same path.
 
-| Asset | Description |
+| Asset | Notes |
 |-------|-------------|
 | **RUNE** | Native THORChain token |
 | **TCY** | THORChain yield token |
 | **yRUNE** | Yield-bearing RUNE |
 | **yTCY** | Yield-bearing TCY |
-| **RUJI** | RUJIRA ecosystem token |
-
-### How to Stake/Unstake RUNE
-
-1. Open **DeFi tab** → **THORChain** → **Stake**
-2. Select **RUNE**
-3. Enter the amount to stake or unstake
-4. Sign with your devices
-
-### How to Stake/Unstake TCY
-
-1. Open **DeFi tab** → **THORChain** → **Stake**
-2. Select **TCY**
-3. Enter the amount to stake or unstake
-4. Sign with your devices
-
-### How to Stake/Unstake yRUNE
-
-1. Open **DeFi tab** → **THORChain** → **Stake**
-2. Select **yRUNE**
-3. Enter the amount to stake or unstake
-4. Sign with your devices
-
-{% hint style="info" %}
-yRUNE is a yield-bearing version of RUNE. Staking yRUNE allows users to earn additional protocol fees.
-{% endhint %}
-
-### How to Stake/Unstake yTCY
-
-1. Open **DeFi tab** → **THORChain** → **Stake**
-2. Select **yTCY**
-3. Enter the amount to stake or unstake
-4. Sign with your devices
-
-{% hint style="info" %}
-yTCY is a yield-bearing version of TCY. Staking yTCY allows users to earn additional protocol fees.
-{% endhint %}
-
-### How to Stake/Unstake RUJI
-
-1. Open **DeFi tab** → **THORChain** → **Stake**
-2. Select **RUJI**
-3. Enter the amount to stake or unstake
-4. Sign with your devices
-
-{% hint style="success" %}
-For details on RUJI tokenomics, see the [RUJIRA documentation](https://docs.rujira.network/understanding-ruji-token).
-{% endhint %}
+| **RUJI** | RUJIRA. Tokenomics: [RUJIRA docs](https://docs.rujira.network/understanding-ruji-token) |
 
 ***
 
 ## RUJI Merge
 
-Users can merge eligible THORChain tokens into RUJI.
+Merge eligible THORChain tokens into RUJI.
 
 ### Merge Tokens
 
@@ -164,7 +119,7 @@ The deposit uses the asset you opened Functions from, unless you change it in th
 
 ## Liquidity Pools
 
-Provide liquidity to THORChain trading pairs and earn swap fees.
+Add or remove liquidity on a THORChain pair.
 
 ### How to Add Liquidity
 
@@ -182,12 +137,12 @@ Provide liquidity to THORChain trading pairs and earn swap fees.
 
 ***
 
-## Custom Transactions
+## Custom transactions
 
-Advanced users can create custom memo transactions to interact with the THORChain ecosystem.
+Custom memo transactions for THORChain.
 
 {% hint style="warning" %}
-Custom transactions are for advanced users only. Incorrect memos can result in errors or loss of funds.
+Wrong memos can fail or lose funds.
 {% endhint %}
 
 ***

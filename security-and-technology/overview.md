@@ -6,7 +6,7 @@ description: >-
 
 # Vultisig security and TSS
 
-Vultisig's security is built on Threshold Signature Schemes (TSS), a form of Multi-Party Computation (MPC) that eliminates single points of failure. This section explains the cryptographic foundations and technical processes that secure your assets.
+Vultisig uses threshold signatures (TSS), a form of multi-party computation (MPC). There is no complete private key in normal operation.
 
 ***
 
@@ -47,10 +47,8 @@ New vaults use DKLS23 by default. Existing GG20 vaults can be [upgraded](../app-
 
 ## Security Comparisons
 
-Understanding how Vultisig compares to alternative approaches:
-
-- [Difference to Multi-Signatures](difference-to-multi-sig.md) — Why TSS is superior to traditional multi-sig
-- [Difference to Passkeys](difference-to-passkeys.md) — Why passkeys aren't suitable for crypto
+- [Vultisig vs multisig](difference-to-multi-sig.md)
+- [Vultisig vs passkeys](difference-to-passkeys.md)
 
 ***
 

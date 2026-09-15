@@ -1,28 +1,26 @@
 ---
 description: >-
-  Critical guide to backing up your Vultisig vault. Protect your assets with
-  proper vault share storage. No seed phrases - just secure backups.
+  Back up a Vultisig vault. Each device has its own share. No seed phrase.
+  Export before you store funds.
 ---
 
 # Backup a Vultisig vault
 
 {% hint style="danger" %}
-**This is the most important page in the documentation.**
+**Back up before you deposit.**
 
-Without proper backups, you WILL lose access to your funds if a device is lost, stolen, or damaged. Read this entire page before storing any significant value.
+There is no seed phrase to write down. The backup is a file from each device. If a device is lost, stolen, or broken and you have no file, the funds are gone. Read this page before you put money in.
 {% endhint %}
 
 ***
 
-## How Vultisig Backups Work
+## How backups work
 
-Vultisig doesn't use seed phrases. Instead, each device in your vault has a unique **Vault Share** - a file that allows that device to participate in signing.
+Think of each device as holding one key to the same safe. The backup is a copy of that device's key — a `.vult` file. You need enough of those copies to meet the vault's threshold.
 
-**Key concepts:**
-- Each device has its **own unique** vault share
-- Each device needs its **own backup**
-- A single vault share alone cannot access your funds
-- You need your signing threshold of shares to recover (e.g., 2 shares for a 2-of-3 vault)
+- Each device has its own share, and its own backup
+- One share alone cannot move funds
+- Recovery needs the signing threshold (for example, 2 shares for a 2-of-3 vault)
 
 ***
 
@@ -36,12 +34,12 @@ Vultisig doesn't use seed phrases. Instead, each device in your vault has a uniq
 
 ### Step-by-Step
 
-1. Open Vultisig app
+1. Open the app
 2. Go to **Settings** → **Vault Settings**
-3. Select **Backup**
-4. (Optional) Set an encryption password for extra security
-5. Save the `.vult` file to a secure location
-6. **Repeat for every device** in your vault
+3. Tap **Backup**
+4. Optionally set a password on the file — you will need it to restore
+5. Save the `.vult` file somewhere you will still have if this device is gone
+6. **Repeat on every other device** in the vault
 
 ### Video Guide
 
@@ -89,7 +87,7 @@ If someone gains access to enough shares, they can reconstruct your vault and st
 
 - Use different cloud providers for different shares
 - Consider password managers (1Password, Bitwarden) for individual shares
-- Use offline storage (USB drive, external hard drive) for maximum security
+- Use offline storage (USB drive, external hard drive)
 - Encrypt your backups with a strong password
 
 ### Bad Practices

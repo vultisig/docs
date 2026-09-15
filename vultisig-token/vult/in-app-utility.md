@@ -8,9 +8,7 @@ description: >-
 
 ## Trading Fee Discounts
 
-As previously mentioned, utilizing the cross-chain swap functionality of Vultisig incurs a 50-bps fee for each swap executed.&#x20;
-
-Hold the $VULT token in the Vultisig Vaults to obtain in-app swap fee reductions and different tiers of discounts, rewarding stronger believers.
+Swaps charge 50 bps. Hold $VULT in the vault to cut that fee. Tiers:
 
 \
 The Tiers are the following:

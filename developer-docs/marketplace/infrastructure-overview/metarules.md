@@ -203,5 +203,5 @@ Use magic constants in these scenarios:
 - **Direct Rules**: Apply for advanced protocol features, fine-grained control, or where ABI details matter.
 - **Constraints**: Use principle of least privilege; always review all allowed parameters and document constraints.
 - **Testing**: Validate with protocol ABIs/IDLs and ensure all value constraints are respected before allow.
-- **Magic Constants**: Use system-defined constants for seamless app integrations and parameter substitutions.
+- **Magic Constants**: Use system-defined constants for address resolution and parameter substitutions.
 

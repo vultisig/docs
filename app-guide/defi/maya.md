@@ -6,7 +6,7 @@ description: >-
 
 # MayaChain in Vultisig
 
-MayaChain (MAYA Protocol) is a cross-chain liquidity protocol. Use it from the DeFi tab.
+MayaChain (MAYA Protocol) from the DeFi tab: bond, CACAO pool, LP.
 
 ***
 

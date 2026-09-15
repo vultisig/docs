@@ -24,12 +24,12 @@ However, it is possible to recombine vault shares and generate the private key f
 
 ## Recommended: Vault Share Decoder
 
-For most users, the community-built **Vault Share Decoder** is the easiest way to recover:
+The usual path is the community **Vault Share Decoder**:
 
 * **Website**: [https://share-decoder.vultisig.com](https://share-decoder.vultisig.com)
 * **Repository**: [GitHub](https://github.com/vultisig/community-tools/tree/main/recovery-tools/vultisig-share-decoder)
 
-This tool provides a user-friendly interface to decode vault shares and recover private keys without requiring developer tools.
+It decodes shares in the browser. No CLI required.
 
 {% hint style="info" %}
 The Vault Share Decoder is the preferred method for emergency recovery. Only use the CLI/Web options below if the community tool is unavailable.

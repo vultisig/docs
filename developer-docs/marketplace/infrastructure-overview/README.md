@@ -6,7 +6,7 @@
 {% endhint %}
 
 
-This section provides a thorough overview of the Vultisig Marketplace to help developers understand the ecosystem and build automation plugins.
+Planned architecture. Not in production.
 
 It is divided into the following sections:
 

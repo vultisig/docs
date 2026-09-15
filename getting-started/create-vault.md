@@ -1,16 +1,16 @@
 ---
 description: >-
-  Create your first Vultisig vault. Choose between Fast Vault for quick setup
-  or Secure Vault for multi-device security.
+  Create a Vultisig vault. Fast Vault is one device plus VultiServer.
+  Secure Vault is two or more devices you control. No seed phrase.
 ---
 
 # Create your first Vultisig vault
 
-A vault is your secure container for crypto assets. Vultisig uses Threshold Signature Scheme (TSS) technology - your private key is never stored in one place.
+Think of the vault as a safe that needs a threshold of keys to open. Your assets live in that safe. The full private key never exists in one place.
 
 ***
 
-## Choose Your Vault Type
+## Vault types
 
 <table data-card-size="large" data-view="cards">
 <thead>
@@ -24,14 +24,14 @@ A vault is your secure container for crypto assets. Vultisig uses Threshold Sign
 <tbody>
 <tr>
 <td><strong>Fast Vault</strong></td>
-<td>Single device + Vultisig server</td>
-<td>Best for: Getting started, smaller amounts, convenience</td>
+<td>One device + VultiServer (2-of-2)</td>
+<td>VultiServer signs with you and can never sign alone</td>
 <td><a href="../app-guide/creating-a-vault/fast-vault.md">fast-vault.md</a></td>
 </tr>
 <tr>
 <td><strong>Secure Vault</strong></td>
-<td>2+ devices you control</td>
-<td>Best for: Maximum security, larger amounts, no trusted third party</td>
+<td>Two or more devices you control</td>
+<td>No VultiServer. An extra device in 2-of-3 is the fallback</td>
 <td><a href="../app-guide/creating-a-vault/secure-vault.md">secure-vault.md</a></td>
 </tr>
 </tbody>
@@ -39,36 +39,28 @@ A vault is your secure container for crypto assets. Vultisig uses Threshold Sign
 
 ***
 
-## Quick Comparison
+## Comparison
 
-| Feature | Fast Vault | Secure Vault |
+| | Fast Vault | Secure Vault |
 |---------|------------|--------------|
-| Setup time | ~1 minute | ~3 minutes |
-| Devices needed | 1 | 2 or more |
-| Vultisig server involved | Yes (as co-signer) | No |
-| Self-custody level | Partial | Full |
-| Best for | Daily transactions | Long-term storage |
+| Setup | About a minute | About three minutes |
+| Devices | 1 + VultiServer | 2 or more you control |
+| VultiServer | Signs with you. Cannot sign alone. | Not used |
+| If one device is lost | Your device backup + VultiServer | Extra device (2-of-3 or 3-of-4) |
+
+If you only have one device, start with Fast Vault. If you want every share on hardware you hold, create a Secure Vault.
+
+A Fast Vault does not turn into a Secure Vault. For the higher threshold later, create a **new** Secure Vault and move the funds.
+
+**Secure Vault thresholds:**
+
+- **2-of-3**: the usual setup. You can lose one device and still sign.
+- **3-of-4**: three of four devices have to agree.
+- **2-of-2**: both devices required. No fallback if one is gone.
 
 ***
 
-## Recommended Configurations
-
-**For beginners:**
-- Start with a **Fast Vault** to learn the app
-- For larger amounts, create a **new Secure Vault** and move funds. Fast Vault does not convert into Secure Vault.
-
-**For Secure Vault:**
-- **2-of-3**: Three devices, any two can sign (recommended, has a fallback)
-- **3-of-4**: Four devices, any three can sign
-- **2-of-2**: Two devices, both required. No fallback. Not recommended.
-
-{% hint style="success" %}
-**2-of-3 is the sweet spot** - secure enough for most users, with a backup device in case one is lost.
-{% endhint %}
-
-***
-
-## Video Guides
+## Video guides
 
 **Creating a Fast Vault:**
 
@@ -84,21 +76,19 @@ A vault is your secure container for crypto assets. Vultisig uses Threshold Sign
 
 ***
 
-## After Creating Your Vault
+## After creation
 
 {% hint style="danger" %}
-**Immediately backup your vault!**
+**Export a backup before you deposit.**
 
-This is the most important step. Without a backup, you could lose access to your funds if a device is lost or damaged.
+A lost device with no backup means the funds are gone.
 
-[Backup & Recovery Guide →](backup-recovery.md)
+[Backup & Recovery](backup-recovery.md)
 {% endhint %}
 
 ***
 
-## Detailed Guides
+## Step-by-step
 
-For step-by-step instructions with screenshots:
-
-- [Fast Vault Setup Guide](../app-guide/creating-a-vault/fast-vault.md)
-- [Secure Vault Setup Guide](../app-guide/creating-a-vault/secure-vault.md)
+- [Fast Vault](../app-guide/creating-a-vault/fast-vault.md)
+- [Secure Vault](../app-guide/creating-a-vault/secure-vault.md)

@@ -11,9 +11,7 @@
 
 ### Introduction
 
-This document provides a comprehensive guide for developers on how to integrate their applications into the Vultisig ecosystem. By following these instructions, you can build a plugin that leverages Vultisig's decentralized security infrastructure for transaction signing and management.
-
-The guide covers mandatory requirements, optional features, project setup, and implementation details.
+Your plugin is a Go service you run. Vultisig talks to it at `/reshare` and `/sign`, plus the recipe and policy schema. Requirements, optional pieces, and setup are below.
 
 ### Your Plugin, Your Rules
 
@@ -29,7 +27,7 @@ Beyond these three touch points, you have complete freedom. Your architecture, y
 
 ### Core Integration Requirements
 
-To ensure seamless integration with the Vultisig ecosystem, your application must meet several architectural requirements.
+Required architecture:
 
 #### Mandatory Components
 

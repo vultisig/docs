@@ -9,7 +9,7 @@ description: >-
 TON stake and unstake are on the **DeFi tab**, not Wallet → Functions.
 {% endhint %}
 
-Vultisig supports native TON staking. Stake TON to a validator and earn rewards.
+Native TON staking. Stake TON to a validator.
 
 ***
 

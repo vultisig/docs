@@ -6,7 +6,7 @@ description: >-
 
 # Vultisig vault QR
 
-The Vault QR is a QR code containing the vault's public information for safe sharing and verification.
+The Vault QR encodes the vault's public keys, UID, and name. It is not a backup.
 
 <figure><img src="../../.gitbook/assets/VultisigQR-Main Vault-828.png" alt="" width="188"><figcaption><p>Example Vault QR</p></figcaption></figure>
 

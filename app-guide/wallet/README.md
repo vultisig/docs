@@ -5,11 +5,11 @@ description: >-
 
 # Vultisig Wallet tab
 
-The Wallet tab is the primary interface for managing crypto assets. It displays holdings across supported blockchains and the core transaction actions.
+This is where you see balances and send, receive, swap, or buy.
 
 ***
 
-## Features
+## Actions
 
 | Function | Description |
 | --- | --- |

@@ -1,14 +1,14 @@
 ---
 description: >-
-  Community-built Vultisig tools: Vault Share Decoder and more. Open source
-  ecosystem—approved and endorsed applications.
+  Community-built Vultisig tools. Vault Share Decoder for last-resort
+  recovery.
 ---
 
 # Vultisig community tools
 
 ## Vault Share Decoder
 
-This app helps users decode their vault shares and access additional information when needed. It can also be used to easily recover private keys by combining the threshold of shares, similar to the [Emergency Recovery](../security-and-technology/emergency-recovery.md) process.
+Decode vault shares. Combining a threshold of shares can reconstruct a private key — same last-resort as [Emergency Recovery](../security-and-technology/emergency-recovery.md).
 
 {% hint style="warning" %}
 You should only recreate the private keys if it is absolutely necessary, as doing so will compromise the security of Vultisig.

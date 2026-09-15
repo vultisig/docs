@@ -10,9 +10,9 @@ Vultisig gives AI agents a programmable, seedless wallet across 36+ blockchains.
 
 The defining choice is not whether an agent can transact. It is **how much authority the agent should have**.
 
-## Why Vultisig for agents?
+## Signing models
 
-Vultisig supports multiple signing models through the same multi-chain MPC infrastructure, so developers can match an agent's authority to the workflow.
+Same vault, three authority levels. Pick the least authority that still lets the workflow run.
 
 | Operating model | Best for | Signing authority |
 | --- | --- | --- |

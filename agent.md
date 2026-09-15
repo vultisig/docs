@@ -6,7 +6,7 @@ description: >-
 
 # Vultisig for AI Agents
 
-> Vultisig: Seedless, multi-chain, self-custody wallet using TSS/MPC. TypeScript SDK and CLI for building AI agents, automated plugins, and crypto applications across 40+ blockchains.
+> Vultisig: Seedless, multi-chain, self-custody wallet using TSS/MPC. TypeScript SDK and CLI for building AI agents and crypto applications across 36+ blockchains. The plugin marketplace is paused and not in production.
 
 ## SDK (`@vultisig/sdk`)
 
@@ -58,7 +58,7 @@ const balance = await vault.balance('Ethereum')
 | **Signing**        | Instant, no human needed  | Requires device coordination via QR |
 | **Agent use case** | Full autonomy             | Human oversight on every tx         |
 
-**Supported chains (36+):** Bitcoin, Ethereum, Solana, THORChain, Polygon, Arbitrum, Optimism, Base, BSC, Avalanche, Cosmos, Litecoin, Dogecoin, Sui, TON, Ripple, Tron, Polkadot, Cardano, and more.
+**Supported chains (36+):** Bitcoin, Ethereum, Solana, THORChain, Polygon, Arbitrum, Optimism, Base, BSC, Avalanche, Cosmos, Litecoin, Dogecoin, Sui, TON, Ripple, Tron, Polkadot, Cardano, Zcash, Hyperliquid, and more. See the [Wallet tab](app-guide/wallet/) for the named list.
 
 **Full docs:**
 
@@ -156,7 +156,7 @@ Files on [vultisig.com](https://vultisig.com) for agent discovery and integratio
   * [Secure Vault](app-guide/creating-a-vault/secure-vault.md): Multi-device with QR pairing
 * [Sending](app-guide/wallet/sending.md): How to send tokens
 * [Swapping](app-guide/wallet/swapping.md): Cross-chain and same-chain swaps
-* [DeFi](app-guide/defi/): Circle Protocol, THORChain, MayaChain, staking
+* [DeFi](app-guide/defi/): THORChain, MayaChain, TON, Solana, staking
 * [Vault Management](app-guide/vault-management/): Details, backups, reshare, rename, upgrade
 
 ### Security & Technology
@@ -172,7 +172,7 @@ Files on [vultisig.com](https://vultisig.com) for agent discovery and integratio
 ### Ecosystem
 
 * [Vultisig Extension](vultisig-ecosystem/vultisig-extension/): Browser extension for dApps
-* [Plugin Marketplace](vultisig-ecosystem/marketplace.md): Self-custodial automation — plugins and AI agents
+* [Plugin Marketplace](vultisig-ecosystem/marketplace.md): Paused, not in production
 * [Web App](vultisig-ecosystem/web-app.md): Browser-based vault access
 * [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md): SDK overview with agent section
 * [Community Tools](vultisig-ecosystem/community-tools.md): Third-party tools
@@ -181,7 +181,7 @@ Files on [vultisig.com](https://vultisig.com) for agent discovery and integratio
 
 * [The $VULT Token](vultisig-token/vult/): Tokenomics and utility
 * [In-App Utility](vultisig-token/vult/in-app-utility.md): Fee discounts, staking tiers
-* [Marketplace Utility](vultisig-token/vult/marketplace-utility.md): Revenue distribution
+  * [Marketplace Utility](vultisig-token/vult/marketplace-utility.md): Paused, not in production
 * [Governance](vultisig-token/vult/governance-utility.md): Voting rights
 
 ### Infrastructure
@@ -194,7 +194,7 @@ Files on [vultisig.com](https://vultisig.com) for agent discovery and integratio
 ### Developer Docs
 
 * [Developer Home](developer-docs/): Entry point
-* [Marketplace Plugins](developer-docs/marketplace/): Build and publish plugins
+* [Marketplace Plugins](developer-docs/marketplace/): Paused, not in production
   * [What is a Plugin](developer-docs/marketplace/infrastructure-overview/plugins.md): Architecture and scope
   * [Services Architecture](developer-docs/marketplace/infrastructure-overview/services.md): Service components
   * [Policy Rules](developer-docs/marketplace/infrastructure-overview/metarules.md): Transaction validation rules

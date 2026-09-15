@@ -1,6 +1,6 @@
 # Vultisig CLI
 
-Command-line wallet for Vultisig - secure multi-party computation (MPC) wallet management across 40+ blockchains.
+Command-line wallet for Vultisig - secure multi-party computation (MPC) wallet management across 36+ blockchains.
 
 > **Tip:** Use `vsig` as a shorthand alias for `vultisig` - all commands work with both!
 
@@ -926,11 +926,11 @@ Configuration is stored in `~/.vultisig/`:
 
 ## Supported Chains
 
-40+ blockchains including:
-- **EVM**: Ethereum, Polygon, Arbitrum, Optimism, BSC, Base, Avalanche
-- **UTXO**: Bitcoin, Litecoin, Dogecoin, Dash, Zcash
-- **Cosmos**: Cosmos Hub, THORChain, Maya, Dydx, Kujira
-- **Others**: Solana, Sui, Polkadot, Ripple
+36+ blockchains including:
+- **EVM**: Ethereum, Polygon, Arbitrum, Optimism, BSC, Base, Avalanche, Blast, Cronos, zkSync, Mantle, Hyperliquid, Sei, Robinhood
+- **UTXO**: Bitcoin, Bitcoin Cash, Litecoin, Dogecoin, Dash, Zcash
+- **Cosmos**: Cosmos Hub, THORChain, Maya, dYdX, Osmosis, Terra, Terra Classic, Noble, Akash
+- **Others**: Solana, Sui, Polkadot, Bittensor, TON, Ripple, Tron, Cardano
 
 ## Exit Codes
 

@@ -55,12 +55,12 @@ A vault is your secure container for crypto assets. Vultisig uses Threshold Sign
 
 **For beginners:**
 - Start with a **Fast Vault** to learn the app
-- Upgrade to Secure Vault later for larger amounts
+- For larger amounts, create a **new Secure Vault** and move funds. Fast Vault does not convert into Secure Vault.
 
-**For security-conscious users:**
-- **2-of-2**: Two devices, both required to sign (no backup device)
-- **2-of-3**: Three devices, any two can sign (recommended - has backup)
-- **3-of-4**: Four devices, any three can sign (maximum security)
+**For Secure Vault:**
+- **2-of-3**: Three devices, any two can sign (recommended, has a fallback)
+- **3-of-4**: Four devices, any three can sign
+- **2-of-2**: Two devices, both required. No fallback. Not recommended.
 
 {% hint style="success" %}
 **2-of-3 is the sweet spot** - secure enough for most users, with a backup device in case one is lost.

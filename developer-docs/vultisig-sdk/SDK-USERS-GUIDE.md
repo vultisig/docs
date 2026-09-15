@@ -163,12 +163,12 @@ The SDK supports two types of vaults:
 
 ### Supported Chains
 
-The SDK supports 36 blockchains across multiple ecosystems:
+The SDK supports 36+ mainnet chains (QBTC is a testnet). Kujira is removed from the SDK.
 
-- **EVM (13)**: Ethereum, Polygon, BSC, Arbitrum, Optimism, Base, Avalanche, Blast, Cronos, ZkSync, Hyperliquid, Mantle, Sei
+- **EVM (14)**: Ethereum, Polygon, BSC, Arbitrum, Optimism, Base, Avalanche, Blast, Cronos, zkSync, Hyperliquid, Mantle, Sei, Robinhood
 - **UTXO (6)**: Bitcoin, Litecoin, Dogecoin, Bitcoin Cash, Dash, Zcash
-- **Cosmos (10)**: Cosmos Hub, THORChain, MayaChain, Osmosis, Dydx, Kujira, Terra, Terra Classic, Noble, Akash
-- **Other (7)**: Solana, Polkadot, Sui, TON, Ripple, Tron, Cardano
+- **Cosmos (9)**: Cosmos Hub, THORChain, MayaChain, Osmosis, dYdX, Terra, Terra Classic, Noble, Akash
+- **Other (8)**: Solana, Polkadot, Sui, TON, Ripple, Tron, Cardano, Bittensor
 
 See the [Quick Reference](#supported-chains) section for the complete list.
 
@@ -3010,7 +3010,7 @@ sdk.dispose()
 
 ### React Native
 
-**Status**: Coming soon
+Import `@vultisig/sdk/react-native`. The package is shipped.
 
 ### Electron
 

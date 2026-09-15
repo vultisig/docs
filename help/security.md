@@ -1,54 +1,54 @@
 ---
 description: >-
-  Vultisig security practices, audits, and bug bounty program. Independent
-  security assessments and responsible disclosure.
+  Vultisig security practices and audits. Independent assessments and
+  responsible disclosure.
 ---
 
-# Vultisig audits and bug bounty
+# Vultisig audits
 
-Vultisig prioritizes security through open-source transparency, professional audits, and responsible disclosure practices.
+Vultisig's security model is open-source threshold signatures, professional audits of the signing protocol, and responsible disclosure.
+
+There is no public bug bounty program today. Report a vulnerability through [GitHub](https://github.com/vultisig) or [Discord](https://discord.gg/Cugw9T2NrP).
 
 ***
 
-## Security Model
+## Security model
 
-Vultisig's security is built on threshold signature schemes (TSS), eliminating single points of failure:
+Vultisig uses threshold signature schemes (TSS). There is no complete private key in normal operation:
 
-* **No single private key**: Keys are never constructed; vault shares create signatures collaboratively
-* **Distributed trust**: Compromising one device does not compromise funds
-* **Open source**: All code publicly auditable on [GitHub](https://github.com/vultisig)
+* Vault shares create signatures together
+* Compromising one device does not move funds
+* All app code is on [GitHub](https://github.com/vultisig)
 
-For technical details, see [Security & Technology](../security-and-technology/overview.md).
+For the protocol, see [Security & Technology](../security-and-technology/overview.md).
 
 ***
 
 ## Audits
 
-### DKLS23 Implementation
+### DKLS23 protocol library
 
-The upgraded DKLS23 protocol (via Silence Laboratories):
+The DKLS23 implementation Vultisig uses is from Silence Laboratories. Trail of Bits audited that **library**, not the Vultisig apps:
 
-| Auditor       | Date | Scope           | Report                                                                                          |
-| ------------- | ---- | --------------- | ----------------------------------------------------------------------------------------------- |
-| Trail of Bits | 2024 | DKLS23 protocol | [View Report](https://github.com/silence-laboratories/dkls23?tab=readme-ov-file#security-audit) |
+| Auditor | Date | Scope | Report |
+| --- | --- | --- | --- |
+| Trail of Bits | 2024 | DKLS23 protocol library | [View report](https://github.com/silence-laboratories/dkls23?tab=readme-ov-file#security-audit) |
 
-### Application Audits
+### Application audits
 
-Mobile and desktop application security assessments are conducted regularly. Reports are published upon completion.
+Mobile and desktop application audit reports will be linked here when they are published.
 
 ***
 
-## Security Best Practices
+## For users
 
-### For Users
+1. Backup vault shares to separate, offline storage
+2. Verify addresses before signing
+3. Keep the apps updated
+4. Use a Secure Vault for significant holdings
+5. Never share vault shares or backup files
 
-1. **Backup vault shares** to secure, offline storage
-2. **Verify addresses** before signing transactions
-3. **Keep apps updated** for latest security patches
-4. **Use Secure Vault** for significant holdings
-5. **Never share vault shares** or backup files
-
-### What Vultisig Cannot Do
+### What Vultisig cannot do
 
 * Access your funds
 * Recover lost vault shares
@@ -59,6 +59,6 @@ Mobile and desktop application security assessments are conducted regularly. Rep
 
 ## Related
 
-* [Security & Technology](../security-and-technology/overview.md) — Technical documentation
-* [Emergency Recovery](../security-and-technology/emergency-recovery.md) — Fund recovery if software unavailable
-* [Privacy Policy](privacy.md) — Data handling practices
+* [Security & Technology](../security-and-technology/overview.md)
+* [Emergency Recovery](../security-and-technology/emergency-recovery.md)
+* [Privacy Policy](privacy.md)

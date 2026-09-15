@@ -16,7 +16,7 @@ The user registers a keygen request with the Vultisigner server, which creates a
 
 ## Vault Share storage
 
-The Vultisigner's Vault Shares are stored on a dedicated Vultisigner server, which contains the Vault Shares along with configured instructions for signing transactions.\\
+The Vultiserver vault share is stored on a dedicated server and encrypted with the Fast Vault password. During setup, a backup of that share is emailed to you. Configurable transaction policies are [not in the apps yet](what-can-be-configured.md).\\
 
 For security reasons, the Vultisigner's Vault share is password encrypted and the user must provide an email address to which the Vault share will be sent during setup, for backup and independent access.
 
@@ -24,9 +24,7 @@ For security reasons, the Vultisigner's Vault share is password encrypted and th
 
 ## Transaction Signing
 
-When a user wishes to sign a transaction, the request is sent to the Vultisigner server.\
-The appropriate Vultisigner Vault will verify that the configured transaction policies are met before participating in the Keysign process.\
-If they are met, the Vultisigner joins the Keysign ceremony and the transaction is broadcasted to the blockchain.
+When you approve a transaction on your device, the request is sent to Vultiserver. The server joins the keysign with its share. You still have to approve on the device. Configurable policies are not applied today.
 
 <figure><img src="../../.gitbook/assets/default vultisigner.png" alt=""><figcaption><p>Vultisigner Flowchart</p></figcaption></figure>
 

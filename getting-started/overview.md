@@ -59,7 +59,7 @@ Your vault backup is the ONLY way to recover access if you lose a device. Read t
 | Seed phrase (single point of failure) | No seed phrases - distributed vault shares |
 | One device controls everything | Multi-device security by design |
 | Hardware wallet required for security | Your existing devices become secure signers |
-| Single-chain or limited chains | 30+ blockchains from one vault |
+| Single-chain or limited chains | 36+ blockchains from one vault |
 
 ***
 
@@ -78,4 +78,4 @@ Your vault backup is the ONLY way to recover access if you lose a device. Read t
 ## Need Help?
 
 - [FAQ](../help/faq.md) - Common questions answered
-- [Discord Community](https://discord.com/invite/9wrAfNSRpS) - Get help from the team and community
+- [Discord Community](https://discord.gg/Cugw9T2NrP) - Get help from the team and community

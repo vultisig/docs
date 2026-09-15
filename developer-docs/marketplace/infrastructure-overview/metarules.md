@@ -1,5 +1,10 @@
 # Rules System: MetaRules vs Direct Rules
 
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 ## TL;DR
 
 Vultisig's automation engine uses two rule types: **MetaRules** (high-level like `ethereum.send` or `solana.swap`) that automatically expand to protocol-specific implementations, and **Direct Rules** (low-level, ABI/IDL-mapped like `ethereum.erc20.transfer`) for precise control. Rules support seven constraint types (`FIXED`, `MAX`, `MIN`, `MAGIC_CONSTANT`, `ANY`, `REGEXP`, `UNSPECIFIED`) and use Magic Constants from `vultisig/recipes` for transparent address resolution. All app transactions require Verifier approval based on these rules before TSS signing.

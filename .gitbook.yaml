@@ -34,7 +34,12 @@ redirects:
   vultisig-ecosystem/appstore: vultisig-ecosystem/marketplace.md
   vultisig-token/vult/app-store-utility: vultisig-token/vult/marketplace-utility.md
   developer-docs/app-store: developer-docs/marketplace/README.md
-  developer-docs/app-store/apps: developer-docs/marketplace/plugins/README.md
+  developer-docs/app-store/apps: developer-docs/marketplace/create-a-plugin/README.md
+  developer-docs/marketplace/plugins: developer-docs/marketplace/create-a-plugin/README.md
+  developer-docs/marketplace/plugins/basics-quick-start: developer-docs/marketplace/create-a-plugin/basics-quick-start.md
+  developer-docs/marketplace/plugins/build-your-plugin: developer-docs/marketplace/create-a-plugin/build-your-plugin/README.md
+  developer-docs/marketplace/plugins/adding-a-new-chain: developer-docs/marketplace/create-a-plugin/build-your-plugin/adding-a-new-chain.md
+  developer-docs/marketplace/plugins/submission-process: developer-docs/marketplace/create-a-plugin/submission-process.md
   developer-docs/app-store/infrastructure-overview/apps: developer-docs/marketplace/infrastructure-overview/plugins.md
   developer-docs/app-store/infrastructure-overview/services: developer-docs/marketplace/infrastructure-overview/services.md
   developer-docs/app-store/infrastructure-overview/metarules: developer-docs/marketplace/infrastructure-overview/metarules.md
@@ -44,6 +49,8 @@ redirects:
   developer-docs/app-store/create-an-app/submission-process: developer-docs/marketplace/create-a-plugin/submission-process.md
   developer-docs/app-store/create-an-app/build-your-app: developer-docs/marketplace/create-a-plugin/build-your-plugin/README.md
   developer-docs/app-store/create-an-app/build-your-app/adding-a-new-chain-to-the-vultisig-app-ecosystem: developer-docs/marketplace/create-a-plugin/build-your-plugin/adding-a-new-chain.md
+
+  app-guide/defi/circle: app-guide/defi/README.md
 
   # Common old paths
   download: getting-started/download-install.md

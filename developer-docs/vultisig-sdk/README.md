@@ -8,9 +8,9 @@ A TypeScript SDK for secure multi-party computation (MPC) and blockchain operati
 - 🏦 **Fast Vault** - Server-assisted 2-of-2 vault for quick setup and instant signing
 - 🛡️ **Secure Vault** - Multi-device N-of-M threshold signing with mobile device pairing
 - 📲 **QR Code Pairing** - Pair with Vultisig mobile apps (iOS/Android) for vault creation and signing
-- 🌐 **Multi-Chain Support** - Bitcoin, Ethereum, Solana, THORChain, and 40+ blockchains
+- 🌐 **Multi-Chain Support** - Bitcoin, Ethereum, Solana, THORChain, and 36+ blockchains
 - 🔗 **Address Derivation** - Generate addresses across multiple blockchain networks
-- 📱 **Cross-Platform** - Works in browsers, Node.js, and Electron (React Native coming soon)
+- 📱 **Cross-Platform** - Works in browsers, Node.js, Electron, and React Native (`@vultisig/sdk/react-native`)
 - 🔒 **Vault Management** - Import, export, encrypt, and decrypt vault keyshares
 - 🔑 **Seedphrase Import** - Import existing BIP39 mnemonics with automatic chain discovery
 - 💰 **VULT Discount Tiers** - Automatic swap fee discounts based on VULT token holdings
@@ -58,6 +58,9 @@ const vaultId = await sdk.createFastVault({
 // User will receive a verification code via email
 const code = "1234"; // Get from user input
 const vault = await sdk.verifyVault(vaultId, code);
+
+// Agents and CI can skip the email step:
+// await sdk.createFastVault({ ..., skipVerification: true })
 ```
 
 ### 3. Derive Blockchain Addresses
@@ -326,7 +329,7 @@ sdk.notifications.handleIncomingPush(event.data.json())
 
 ## Supported Blockchains
 
-The SDK supports address derivation and operations for 40+ blockchain networks:
+The SDK supports address derivation and operations for 36+ blockchain networks (same set as the apps, plus QBTC as a testnet):
 
 | Network   | Chain ID    | Description         |
 | --------- | ----------- | ------------------- |

@@ -1,5 +1,10 @@
 # Revenue
 
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 ### TL;DR
 
 The Vultisig fee system enables plugins to monetize through three fee models:&#x20;

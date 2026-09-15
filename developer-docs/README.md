@@ -29,6 +29,10 @@ Give agents multi-chain wallet capabilities and choose between autonomous, polic
 
 ### Marketplace Plugins
 
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 Build automation plugins that run on Vultisig's infrastructure and are distributed through the Marketplace.
 
 * **Language**: Go

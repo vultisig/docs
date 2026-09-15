@@ -88,7 +88,7 @@ If a device is lost but you have threshold access:
 {% hint style="danger" %}
 **Backup immediately after resharing!**
 
-After resharing, all vault shares change. Old backups are NOT compatible with new shares.
+After resharing, all vault shares change. Export backups of the **new** shares immediately. Old backups are for the old share set only. Do not mix the two sets.
 {% endhint %}
 
 {% hint style="info" %}

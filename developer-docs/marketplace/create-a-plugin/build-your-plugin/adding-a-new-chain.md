@@ -4,6 +4,11 @@ description: The how to steps to add a missing chains to the Marketplace ecosyst
 
 # Adding a New Chain to the Vultisig Plugin Ecosystem
 
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 ## Overview
 
 This document provides a high-level overview of the steps required to add support for a new blockchain across the Vultisig Marketplace ecosystem. The process involves multiple repositories and follows a dependency chain where each layer builds upon the previous.

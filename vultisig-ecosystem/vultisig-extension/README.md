@@ -14,4 +14,6 @@ The Vultisig Extension is the browser equivalent of mobile apps, enabling users 
 
 With the extension, you can access the full DeFi and Web3 universe while keeping your digital assets completely secure.
 
-It's a secure and efficient way to interact with DeFi on your terms — rest assured that your assets are secure and accessible at any time.
+The extension is a companion. Signing still happens on the mobile or desktop app.
+
+Mobile apps also have **in-app WalletConnect** under Settings. Use that when you are on the phone and do not want the extension.

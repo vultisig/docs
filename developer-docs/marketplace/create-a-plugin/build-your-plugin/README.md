@@ -1,5 +1,10 @@
 # Build your App: A Developer's Guide
 
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 {% hint style="success" %}
 **Reference Implementation**: The [App Recurring](https://github.com/vultisig/app-recurring) plugin is the official reference. Clone it as your starting point and modify for your use case.
 {% endhint %}

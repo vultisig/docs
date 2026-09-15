@@ -136,7 +136,7 @@ Vault shares are cross-platform. An iOS backup can be imported on Android, Windo
 If you have a 2-of-3 or larger vault:
 1. Use your remaining devices to [reshare](../app-guide/vault-management/vault-reshare.md) the vault
 2. This creates new shares including one for your new device
-3. **Important**: Old backups become invalid after resharing
+3. **Important:** Export new backups immediately. After reshare, all shares change. Use the new backups for the new share set. The old share set can still sign with each other as a parallel set. Do not mix old and new backups.
 
 ***
 
@@ -145,7 +145,7 @@ If you have a 2-of-3 or larger vault:
 {% hint style="danger" %}
 **Backups are reshare-sensitive**
 
-After using the [reshare feature](../app-guide/vault-management/vault-reshare.md), all old backups become invalid. You must create new backups after every reshare.
+After a [reshare](../app-guide/vault-management/vault-reshare.md), export backups of the **new** shares. Those are the backups for the vault you are using now. Old shares can still sign with each other as a parallel set. Do not mix the two sets. Discard old backups once you have verified the new ones.
 {% endhint %}
 
 {% hint style="danger" %}

@@ -1,5 +1,10 @@
 # Infrastructure
 
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 ## Services and Modules
 
 ![Vultisig ecosystem](<../../../.gitbook/assets/Services and Modules.jpg>)

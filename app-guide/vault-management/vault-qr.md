@@ -41,13 +41,11 @@ The Vault QR is a QR code containing the vault's public information for safe sha
 
 ## Use Cases
 
-### Airdrop Registration
+### View-only access
 
-The Vault QR can be imported into the [Vultisig Airdrop page](https://airdrop.vultisig.com/) to register for the [$VULT airdrop](../../vultisig-token/airdrop/).
+Share the QR so someone can see public addresses. It cannot sign.
 
-### View-Only Access
-
-Share the QR to allow others to view your vault's public addresses without granting signing access.
+Season 0 used this QR on `airdrop.vultisig.com`. That host is not a current product surface. See the [airdrop record](../../vultisig-token/airdrop/).
 
 ### Verification
 
@@ -58,4 +56,4 @@ Compare Vault QRs across devices to verify they belong to the same vault.
 ## Related
 
 - [Vault Details](vault-details.md) - View public keys directly
-- [Airdrop](../../vultisig-token/airdrop/) - VULT token distribution
+- [Airdrop (historical)](../../vultisig-token/airdrop/)

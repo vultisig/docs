@@ -1,16 +1,18 @@
 ---
 description: >-
-  Vultisig Airdrop V2: Enhanced rewards system. Earn $VULT based on vault
-  value × time held. Achievement tiers, daily drops, and multipliers.
+  Historical Airdrop V2 design. $VULT launched 27 October 2025. Not a
+  current signup flow.
 cover: ../../.gitbook/assets/Vultisig - 1200x630 - 56- 2x.png
 coverY: 0
 ---
 
 # Vultisig airdrop V2
 
-Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.&#x20;
+{% hint style="warning" %}
+**Historical.** This page is the published Airdrop V2 design. $VULT launched on 27 October 2025. It is not a current registration flow. Current utility: [in-app fee discounts](../vult/in-app-utility.md).
+{% endhint %}
 
-The future $VULT airdrop will be proportional:
+Season 0 and V2 used this published formula:
 
 $$
 vault\_asset\_value*time\_in\_vault
@@ -150,7 +152,11 @@ $$
 
 ***
 
-## How to register for the airdrop
+## How Season 0 registration worked
+
+{% hint style="warning" %}
+Historical steps. `airdrop.vultisig.com` is not a current product surface. Do not follow this as a live signup.
+{% endhint %}
 
 * Download and open your Vultisig app
 

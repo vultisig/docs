@@ -1,5 +1,10 @@
 # Hello World Plugin
 
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 Building blocks to clone and start creating your own plugin — whether a fixed workflow or an AI agent that triggers specific actions.
 
 ## Files

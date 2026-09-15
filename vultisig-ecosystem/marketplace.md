@@ -1,12 +1,17 @@
 ---
 description: >-
-  Self-custodial automation marketplace. Plugins for scheduled workflows, AI Agents for
-  autonomous strategies — all MPC-secured, multi-chain, without giving up custody.
+  Plugin marketplace (paused, not in production). Planned self-custodial
+  automation for scheduled workflows and AI agents.
 cover: ../.gitbook/assets/image (3).png
 coverY: 0
 ---
 
 # Vultisig plugin marketplace
+
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
 
 ## Overview
 

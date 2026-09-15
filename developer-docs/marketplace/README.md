@@ -1,5 +1,10 @@
 # Marketplace Plugins
 
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 Build automation plugins that run on Vultisig's infrastructure and distribute them through the Marketplace. Plugins leverage Vultisig's MPC technology to execute transactions on behalf of users while maintaining self-custody—users never give up their private keys.
 
 ## Getting Started

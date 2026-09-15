@@ -6,7 +6,7 @@ description: >-
 
 # Create a Vultisig Fast or Secure Vault
 
-Vultisig vaults are multi-factor by nature, requiring coordination between multiple signing parties. There are two vault types designed to meet different user needs: from a convenient "hot wallet" option to a highly secure "cold wallet" configuration.
+Vultisig vaults are multi-factor by nature, requiring coordination between multiple signing parties. This gives the user a much greater security. There are two vault types designed to meet different user needs: from a convenient "hot wallet" option to a highly secure "cold wallet" configuration.
 
 Creating a vault is also called a Key Generation (KeyGen) event. See [TSS Actions](../../security-and-technology/tss-actions.md) for technical details.
 
@@ -15,7 +15,7 @@ Creating a vault is also called a Key Generation (KeyGen) event. See [TSS Action
 ## Vault Types
 
 {% hint style="success" %}
-iOS, macOS, Android, Windows, Chrome browser, and Linux are supported. Check the [website](https://vultisig.com/) for the latest platform availability.
+iOS, macOS, Android, Windows, and Linux can create vaults. The [browser extension](../../vultisig-ecosystem/vultisig-extension/) is a companion for dApps. It is not a standalone vault. Check the [website](https://vultisig.com/) for current downloads.
 {% endhint %}
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Fast Vault</strong></td><td>Single device + Vultisig server. Quick setup, ideal for daily transactions.</td><td><a href="fast-vault.md">fast-vault.md</a></td></tr><tr><td><strong>Secure Vault</strong></td><td>Multiple user devices. Maximum security, ideal for long-term storage.</td><td><a href="secure-vault.md">secure-vault.md</a></td></tr></tbody></table>

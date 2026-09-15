@@ -52,6 +52,10 @@ Start with the [SDK guide](../vultisig-sdk/) and [implementation guide](../vulti
 
 ## Marketplace plugins
 
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 Use a Marketplace plugin when an agent should act within user-defined rules instead of receiving broad wallet authority. The plugin proposes an unsigned transaction; the Verifier checks the proposal before participating in signing.
 
 Start with the [Marketplace developer docs](../marketplace/).
@@ -64,4 +68,4 @@ Start with the [Marketplace developer docs](../marketplace/).
 | [llms.txt](https://vultisig.com/llms.txt) | Compact documentation index |
 | [llms-full.txt](https://vultisig.com/llms-full.txt) | Full SDK context and examples |
 | [agent.json](https://vultisig.com/.well-known/agent.json) | Structured capabilities manifest |
-| [MCP server](https://github.com/vultisig/mcp) | MCP tools for multi-chain queries, unsigned transaction building, DeFi interactions, and plugin management |
+| MCP (`@vultisig/mcp` in the SDK repo) | MCP tools for multi-chain queries, unsigned transaction building, and DeFi. Plugin management is paused with the marketplace. |

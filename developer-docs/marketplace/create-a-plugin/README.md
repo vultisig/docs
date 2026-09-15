@@ -1,5 +1,10 @@
 # Create a Plugin
 
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 This section is intended to guide the developers when building their own Vultisig Plugins. The general infrastructure overview can be found [here](../)
 
 The section consists of the whole creation journey for a developer:

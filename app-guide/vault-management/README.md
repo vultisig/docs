@@ -22,6 +22,10 @@ Vault management options are available in the Settings menu. These features allo
 | [Vault Reshare](vault-reshare.md) | Add or remove devices |
 | [Vault QR](vault-qr.md) | Export public keys for sharing |
 | [Vault Upgrade](vault-upgrade.md) | Upgrade from GG20 to DKLS23 |
+| Vault folders | Group vaults in the vault picker |
+| Address book | Saved send destinations. See [Sending](../wallet/sending.md) |
+| WalletConnect | In-app WalletConnect sessions (mobile). The [browser extension](../../vultisig-ecosystem/vultisig-extension/) is for desktop dApps |
+| $VULT fee tiers | Settings shows the current swap-fee discount. See [Swapping](../wallet/swapping.md) |
 
 ***
 

@@ -1,5 +1,10 @@
 # Transaction Proposing Flow Documentation
 
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 ## TL;DR
 
 This guide explains how plugin developers in the Vultisig ecosystem can programmatically initiate and sign transactions based on automated conditions (schedules, events, etc.). Plugins must:

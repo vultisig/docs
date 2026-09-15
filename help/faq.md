@@ -25,7 +25,7 @@ Vultisig is available on:
 
 ### Which blockchains does Vultisig support?
 
-Vultisig supports 30+ chains including Bitcoin, Ethereum, THORChain, Solana, Cosmos ecosystem chains, and many EVM-compatible networks. See [Supported Chains](../app-guide/wallet/) for the complete list.
+Vultisig supports 36+ chains. The named list is on the [Wallet tab](../app-guide/wallet/) page.
 
 ***
 
@@ -83,9 +83,9 @@ For TSS signing delays, ensure all participating devices have stable network con
 
 ### What fees does Vultisig charge?
 
-Vultisig charges no fees for basic operations. You only pay standard blockchain network fees for transactions.
+Sends charge network fees only. Vultisig does not add a send fee.
 
-Swap operations through integrated DEXs (THORChain, Maya) include their standard protocol fees.
+Swaps charge a 50 bps Vultisig fee on top of the route's protocol and network fees. Hold $VULT in the vault to reduce that fee. Tiers are on [$VULT in-app fee discounts](../vultisig-token/vult/in-app-utility.md).
 
 ### Can I cancel a pending transaction?
 
@@ -101,7 +101,7 @@ Yes. All Vultisig code is open source and available on [GitHub](https://github.c
 
 ### Has Vultisig been audited?
 
-Yes. See [Security](security.md) for audit reports and security practices.
+The DKLS23 signing library was audited by Trail of Bits. See [Audits](security.md). Application audit reports will be linked there when published.
 
 ### What if Vultisig company disappears?
 

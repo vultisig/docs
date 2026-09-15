@@ -1,23 +1,21 @@
 ---
 description: >-
-  Vultisig web app for view-only vault access. Perfect for DAOs and treasuries
-  to share holdings publicly. Track your airdrop position.
+  The public web view was the airdrop importer. That host is not currently
+  serving. Use the native Vultisig apps.
 ---
 
 # Vultisig web app
 
-The web app is a "view-only" version of all Vultisig Vaults, giving DAOs and Treasuries the perfect tool to share their holdings without fear that any stakeholder will be able to access the assets.
+{% hint style="warning" %}
+The public web view at `https://airdrop.vultisig.com` was used to import a vault QR and show holdings and Season 0 airdrop points. That host is not currently serving a working page. Vultisig is not a browser wallet.
+{% endhint %}
 
-It is also used to display the ongoing [airdrop](../vultisig-token/airdrop/) of $VULT to the community.
+Use the [native apps](../getting-started/download-install.md) to hold and sign. Use the [browser extension](vultisig-extension/) to connect dApps. Share a [Vault QR](../app-guide/vault-management/vault-qr.md) only for public addresses, never as a backup.
 
-The website can be accessed here:
+$VULT is live. Current utility is [in-app fee discounts](../vultisig-token/vult/in-app-utility.md), not a web registration flow.
 
-{% embed url="https://airdrop.vultisig.com" %}
+## Related
 
-## How to connect to the Web App
-
-1. Get your [Vault QR](../app-guide/vault-management/vault-qr.md) code from your Vultisig Vault
-2. Open the [web app](https://airdrop.vultisig.com)
-3. Upload your QR code
-4. Access the web app
-
+* [Download Vultisig](../getting-started/download-install.md)
+* [Vault QR](../app-guide/vault-management/vault-qr.md)
+* [$VULT airdrop (historical)](../vultisig-token/airdrop/)

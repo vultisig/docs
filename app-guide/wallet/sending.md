@@ -1,45 +1,59 @@
 ---
 description: >-
-  Send crypto across 30+ blockchains with Vultisig. Step-by-step guide for
-  secure, seedless transactions using threshold signatures.
+  Send crypto from Vultisig. Address book, XRP destination tags, and
+  Blockaid on the verify screen.
 ---
 
 # Send crypto from Vultisig
 
-Vultisig supports sending assets on all integrated blockchains. Transactions are secured using threshold signatures—no single device ever holds the complete private key.
+Vultisig sends on every integrated chain. Threshold signatures sign. No device holds the complete key.
 
 ***
 
-## How to Send
+## How to send
 
-1. **Select the asset** from your vault's asset list
-2. **Tap "Send"** to enter the send flow
-3. **Enter the recipient address** — paste or scan a QR code
-4. **Enter the amount** — tap "Max" to send the full balance
-5. **Review the transaction** including network fee
-6. **Sign with your devices** — bring your threshold of devices together
-7. **Transaction broadcasts** automatically after successful signing
+1. Select the asset
+2. Tap **Send**
+3. Enter the recipient. Paste, scan a QR, or pick from the **address book**
+4. On XRP, fill the **destination tag** if the receiver requires one
+5. Enter the amount. **Max** sends the full spendable balance after fees
+6. Review destination, amount, network fee, and any decoded function
+7. Sign with your threshold of devices
+8. The app broadcasts after a successful signature
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Send Flow</p></figcaption></figure>
 
 ***
 
-## Supported Chains
+## Address book
 
-Sending is supported on all integrated blockchains, including Bitcoin, Ethereum, Solana, THORChain, and 30+ others.
+Settings includes an address book. Save a name and address, then pick it on send instead of pasting. The book is local to the app. It is not a backup and it is not a vault share.
+
+***
+
+## XRP destination tags
+
+Ripple (XRP) send shows a destination tag field. Exchanges and some custodians require a tag to credit a deposit. A tagless send to a tag-required address can be unrecoverable. If the recipient gives you an X-address, the app can split it into the classic address and the tag.
+
+***
+
+## Blockaid
+
+Settings can enable Blockaid scanning. On send and on dApp / WalletConnect sign, the verify screen can flag a malicious destination or contract. The scan is a warning. You still decide whether to sign.
 
 ***
 
 ## Tips
 
-* **Double-check the recipient address** — blockchain transactions are irreversible
-* **Ensure sufficient balance** for network fees (gas)
-* **Use QR scanning** when possible to avoid address typos
-* **For large amounts**, send a small test transaction first
+* Check the recipient address. Broadcasts are irreversible
+* Keep enough native token for the network fee
+* Prefer QR or the address book over typing
+* For a large first send to a new address, send a small test first
 
 ***
 
 ## Related
 
-* [Keysign](../../security-and-technology/keysign.md) — How transaction signing works
+* [Keysign](../../security-and-technology/keysign.md)
 * [Swapping](swapping.md)
+* [Wallet tab](README.md)

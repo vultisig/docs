@@ -4,7 +4,7 @@ description: MPC Wallet Infrastructure for Developers & AI Agents
 
 # Vultisig SDK
 
-The Vultisig SDK gives developers and AI agents direct access to Vultisig's multi-party computation (MPC) technology. Instead of relying on seed phrases that create a single point of failure, the SDK splits wallet keys across multiple devices using threshold signatures. The result: secure, self-custodial wallets that work across 40+ blockchains.
+The Vultisig SDK gives developers and AI agents direct access to Vultisig's multi-party computation (MPC) technology. Instead of relying on seed phrases that create a single point of failure, the SDK splits wallet keys across multiple devices using threshold signatures. The result: secure, self-custodial wallets that work across 36+ blockchains.
 
 Whether you're building a web app, a backend service, or an AI agent that needs to hold and move crypto — the SDK handles vault creation, balance checks, token swaps, and transaction signing.
 
@@ -22,7 +22,7 @@ The SDK supports two vault types:
 - **Fast Vault** — A 2-of-2 setup between your app and VultiServer. Signing is instant. Great for quick setup and individual use.
 - **Secure Vault** — A multi-device setup (2-of-3, 3-of-5, etc.) where multiple devices must approve transactions. Other participants join by scanning a QR code with the Vultisig mobile app. Best for teams or high-value wallets.
 
-Both vault types support 40+ chains including Bitcoin, Ethereum, Solana, THORChain, Cosmos, and the broader EVM, UTXO, and Cosmos ecosystems. Cross-chain swaps are powered by THORChain, with 1inch for same-chain DEX trades and LiFi for cross-EVM routes.
+Both vault types support 36+ chains including Bitcoin, Ethereum, Solana, THORChain, Cosmos, and the broader EVM, UTXO, and Cosmos ecosystems. The wallet picks the best swap quote (THORChain, Maya, 1inch, Kyber, LiFi, Jupiter, and others).
 
 There's also a full CLI (`@vultisig/cli`) that mirrors the SDK's capabilities from the command line.
 

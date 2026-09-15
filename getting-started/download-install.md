@@ -1,7 +1,7 @@
 ---
 description: >-
   Download the Vultisig app for iOS, Android, Windows, Linux, or Chrome. One
-  vault, 30+ chains, no seed phrase.
+  vault, 36+ chains, no seed phrase.
 ---
 
 # Download Vultisig

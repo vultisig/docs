@@ -16,8 +16,9 @@ THORChain is a decentralized cross-chain liquidity protocol. Vultisig provides d
 |--------|-------|-------------|
 | Bond | RUNE | Bond to THORChain nodes |
 | Unbond | RUNE | Remove bond from nodes |
-| Stake | RUNE, TCY, yRUNE, yTCY | Stake tokens for protocol fees |
-| Unstake | RUNE, TCY, yRUNE, yTCY | Remove staked tokens |
+| Stake | RUNE, TCY, yRUNE, yTCY, RUJI | Stake tokens for protocol fees |
+| Unstake | RUNE, TCY, yRUNE, yTCY, RUJI | Remove staked tokens |
+| Merge / withdraw RUJI | RUJI | RUJIRA merge and withdraw |
 | Add LP | Various pairs | Provide liquidity to pools |
 | Remove LP | Various pairs | Withdraw liquidity |
 | Custom | — | Advanced memo transactions |

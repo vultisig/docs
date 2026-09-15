@@ -99,7 +99,7 @@ Once you're comfortable with basic transactions, explore:
 **Need help?**
 
 * [FAQ](../help/faq.md)
-* [Discord Community](https://discord.com/invite/9wrAfNSRpS)
+* [Discord Community](https://discord.gg/Cugw9T2NrP)
 
 ***
 

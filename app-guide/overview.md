@@ -6,7 +6,7 @@ description: >-
 
 # Vultisig app guide
 
-The Vultisig app is organized into two main sections, accessible via the bottom navigation bar: **Wallet** and **DeFi**. This guide covers all app functionality in the same structure as the app itself.
+The Vultisig app is organized into two main sections, accessible via the bottom navigation bar: **Wallet** and **DeFi**. Settings holds vault management, address book, referrals, WalletConnect, and $VULT fee tiers.
 
 ***
 
@@ -14,7 +14,7 @@ The Vultisig app is organized into two main sections, accessible via the bottom 
 
 | Tab        | Purpose                           | Key Features                               |
 | ---------- | --------------------------------- | ------------------------------------------ |
-| **Wallet** | Asset management and transactions | Send, receive, swap across 30+ chains      |
+| **Wallet** | Asset management and transactions | Send, receive, swap across 36+ chains      |
 | **DeFi**   | Decentralized finance operations  | Stake, bond, provide liquidity, earn yield |
 
 Additional functionality is available through **Vault Management** in the settings menu.
@@ -33,7 +33,7 @@ Set up your first vault with either Fast Vault (single device) or Secure Vault (
 
 ### Wallet
 
-The Wallet tab provides asset management capabilities: viewing balances, sending crypto, receiving funds, and swapping between assets.
+The Wallet tab provides asset management: balances, send, receive, swap, buy, address book, and chain functions.
 
 {% content-ref url="wallet/" %}
 [wallet](wallet/)
@@ -49,10 +49,18 @@ The DeFi tab offers direct access to decentralized finance protocols. Users can 
 
 ### Vault Management
 
-Vault settings and maintenance: backups, renaming, resharing keys, and security upgrades.
+Vault settings: backups, rename, reshare, folders, address book, WalletConnect, $VULT fee tiers, and GG20 upgrade.
 
 {% content-ref url="vault-management/" %}
 [vault-management](vault-management/)
+{% endcontent-ref %}
+
+### Referrals
+
+THORChain / Maya referral codes and fee rebates.
+
+{% content-ref url="referrals.md" %}
+[referrals.md](referrals.md)
 {% endcontent-ref %}
 
 ***

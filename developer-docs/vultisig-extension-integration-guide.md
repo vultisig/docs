@@ -36,30 +36,38 @@ Vultisig Extension is a Chrome extension that enhances the experience of interac
 * **`window.vultisig.ethereum`** for Ethereum integrations (previously `window.vultisig`).
 * **`window.vultisig.thorchain` and `window.thorchain`** for THORChain support.
 * A MetaMask-compatible interface (`window.ethereum`) to ensure seamless integration with existing DeFi applications.
-* Support for multiple other chains including MayaChain, GaiaChain, Osmosis, Kujira, DyDx, BitcoinCash, Dash, DogeCoin, LiteCoin, and Bitcoin.
+* Support for UTXO, Cosmos, Solana, THORChain, Maya, TON, Tron, Cardano, Sui, Bittensor, Ripple, and EVM chains through `window.ethereum` / `wallet_switchEthereumChain`. Kujira is not a current chain.
 
 ## Supported Chains
 
 Vultisig Extension currently supports the following chains:
 
-| Chain       | Identifier            |
-| ----------- | --------------------- |
-| Bitcoin     | `0x1f96`              |
-| BitcoinCash | `0x2710`              |
-| Dash        | `Dash_dash`           |
-| DogeCoin    | `0x7d0`               |
-| DyDx        | `dydx-1`              |
-| Ethereum    | `0x1`                 |
-| GaiaChain   | `cosmoshub-4`         |
-| Kujira      | `kaiyo-1`             |
-| LiteCoin    | `Litecoin_litecoin`   |
-| MayaChain   | `MayaChain-1`         |
-| Osmosis     | `osmosis-1`           |
-| Polkadot    | `Polkadot_polkadot`   |
-| Ripple      | `Ripple_ripple`       |
-| Solana      | `Solana_mainnet-beta` |
-| THORChain   | `Thorchain_thorchain` |
-| Zcash       | `Zcash_zcash`         |
+| Chain | Identifier |
+| --- | --- |
+| Bitcoin | `0x1f96` |
+| Bitcoin Cash | `0x2710` |
+| Dash | `Dash_dash` |
+| Dogecoin | `0x7d0` |
+| dYdX | `dydx-1` |
+| Ethereum | `0x1` |
+| Cosmos Hub | `cosmoshub-4` |
+| Litecoin | `Litecoin_litecoin` |
+| MayaChain | `MayaChain-1` |
+| Osmosis | `osmosis-1` |
+| Polkadot | `Polkadot_polkadot` |
+| Ripple | `Ripple_ripple` |
+| Solana | `Solana_mainnet-beta` |
+| THORChain | `Thorchain_thorchain` |
+| Zcash | `Zcash_zcash` |
+| Cardano | CIP-30 (`window.cardano`) |
+| TON | TON Connect |
+| Tron | TronLink |
+| Sui | `window.sui` / `window.vultisig.sui` |
+| Bittensor | injected Bittensor provider |
+
+EVM L2s (Arbitrum, Base, Optimism, Polygon, BSC, Avalanche, and others the wallet supports) go through `window.ethereum` with `wallet_switchEthereumChain` / `wallet_addEthereumChain`. Do not treat Kujira as current.
+
+The extension also injects EIP-6963, Keplr / Station for Cosmos, and an XRPL adapter for Ripple dApps.
 
 ## How Vultisig Extension Works
 
@@ -96,6 +104,8 @@ Vultisig Extension currently supports the following chains:
   * `eth_getTransactionReceipt`
   * `eth_maxPriorityFeePerGas`
   * `personal_sign`
+  * `eth_signTypedData_v4`
+  * `wallet_watchAsset`
 
 ### THORChain (`window.vultisig.thorchain` and `window.thorchain`)
 
@@ -116,7 +126,7 @@ Vultisig Extension currently supports the following chains:
   * `send_transaction`
   * `get_transaction_by_hash`
 
-### Cosmos-Based Chains (DyDx, GaiaChain, Kujira, Osmosis)
+### Cosmos-Based Chains (dYdX, Cosmos Hub, Osmosis)
 
 * **Account Management**:
   * `request_accounts`
@@ -128,7 +138,7 @@ Vultisig Extension currently supports the following chains:
 * **Transaction Management**:
   * `send_transaction`
   * `get_transaction_by_hash`
-* **Notes**: Accessing a specific Cosmos-based chain (such as Kujira or Osmosis) requires calling `chain_id` to retrieve the active chain's ID or using `wallet_add_chain` and `wallet_switch_chain` to add or switch to the desired chain.
+* **Notes**: Accessing a specific Cosmos-based chain (such as Osmosis) requires calling `chain_id` to retrieve the active chain's ID or using `wallet_add_chain` and `wallet_switch_chain` to add or switch to the desired chain. Kujira is not a current chain.
 
 ### Other Chains (`window.vultisig[chain]` )
 

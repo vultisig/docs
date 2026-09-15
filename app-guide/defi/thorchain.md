@@ -148,6 +148,20 @@ Staked RUJI accumulates USDC rewards. To withdraw:
 
 ***
 
+## Add THORChain LP from an L1
+
+You can also add THORChain LP from the **Wallet tab** on Bitcoin, Bitcoin Cash, Litecoin, Dogecoin, Ethereum, Avalanche, BSC, Base, and Ripple.
+
+1. Open **Wallet tab** → the chain that holds the asset
+2. Tap **Functions** → **Add THORChain LP**
+3. Select the pool
+4. Enter the amount
+5. Sign with your devices
+
+The deposit uses the asset you opened Functions from, unless you change it in the form.
+
+***
+
 ## Liquidity Pools
 
 Provide liquidity to THORChain trading pairs and earn swap fees.

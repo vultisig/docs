@@ -39,7 +39,7 @@ Ripple (XRP) send shows a destination tag field. Exchanges and some custodians r
 
 ## Blockaid
 
-Settings can enable Blockaid scanning. On send and on dApp / WalletConnect sign, the verify screen can flag a malicious destination or contract. The scan is a warning. You still decide whether to sign.
+Turn the scanner on under **Settings → Vault Settings → Advanced → On-chain security**. On send and on dApp / WalletConnect sign, the verify screen can flag a malicious destination or contract. The scan is a warning. You still decide whether to sign. See [Settings](../settings.md).
 
 ***
 

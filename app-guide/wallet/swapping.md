@@ -64,7 +64,7 @@ Large THORChain / Maya swaps can stream automatically.
 
 ## Blockaid
 
-If Blockaid is on in Settings, the verify screen can warn on a malicious route or contract. Same rule as send: it is a warning, not a block you cannot override.
+If On-chain security is on (**Settings → Vault Settings → Advanced**), the verify screen can warn on a malicious route or contract. Same rule as send: it is a warning, not a block you cannot override.
 
 ***
 

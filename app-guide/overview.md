@@ -55,6 +55,14 @@ Vault settings: backups, rename, reshare, folders, address book, WalletConnect, 
 [vault-management](vault-management/)
 {% endcontent-ref %}
 
+### Settings
+
+Address book, WalletConnect, `$VULT` fee tiers, Blockaid, folders, language, and currency.
+
+{% content-ref url="settings.md" %}
+[settings.md](settings.md)
+{% endcontent-ref %}
+
 ### Referrals
 
 THORChain / Maya referral codes and fee rebates.

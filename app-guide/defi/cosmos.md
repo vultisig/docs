@@ -37,12 +37,21 @@ Kujira may still appear on some iOS builds. The network is wound down. Do not se
 
 ## DeFi tab: Terra / Terra Classic
 
-Terra and Terra Classic native staking (delegate, undelegate, redelegate, claim rewards) is on the **DeFi tab**, not Functions.
+Terra and Terra Classic native staking is on the **DeFi tab**, not Functions.
+
+| Action | What it does |
+| --- | --- |
+| Delegate | Stake LUNA or LUNC to a validator |
+| Undelegate | Start unbonding |
+| Redelegate | Move stake to another validator |
+| Claim | Claim staking rewards |
 
 1. Open **DeFi tab** → **Terra** or **Terra Classic**
-2. Choose delegate / undelegate / redelegate / claim
-3. Enter the amount or validator
+2. Choose the action
+3. Enter the validator and amount
 4. Sign with your devices
+
+Unbonding follows the chain's unbonding period. Rewards stay claimable until you claim them.
 
 ***
 

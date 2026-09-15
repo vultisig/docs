@@ -61,9 +61,9 @@ npm install @vultisig/sdk
 Create a vault and start using it:
 
 ```typescript
-import { Vultisig, MemoryStorage } from '@vultisig/sdk'
+import { Vultisig } from '@vultisig/sdk'
 
-const sdk = new Vultisig({ storage: new MemoryStorage() })
+const sdk = new Vultisig()
 await sdk.initialize()
 
 const vaultId = await sdk.createFastVault({

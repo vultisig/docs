@@ -51,6 +51,7 @@ redirects:
   developer-docs/app-store/create-an-app/build-your-app/adding-a-new-chain-to-the-vultisig-app-ecosystem: developer-docs/marketplace/create-a-plugin/build-your-plugin/adding-a-new-chain.md
 
   app-guide/defi/circle: app-guide/defi/README.md
+  developer-docs/vultisig-sdk.md: developer-docs/vultisig-sdk/README.md
   vultisig-ecosystem/web-app: vultisig-token/airdrop/README.md
   ecosystem/web-app: vultisig-token/airdrop/README.md
 

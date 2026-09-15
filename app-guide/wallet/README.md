@@ -56,7 +56,7 @@ That is 36+ mainnet networks. The SDK `Chain` enum is the same set plus QBTC.
 
 ## Transaction security
 
-Verify the destination, amount, and (on EVM) the decoded function on the sign screen. [Blockaid](sending.md#blockaid) can scan the transaction before you sign. Enable it in Settings.
+Verify the destination, amount, and (on EVM) the decoded function on the sign screen. [Blockaid](sending.md#blockaid) scans before you sign. It is on by default. Turn it off in Settings.
 
 ***
 

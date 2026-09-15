@@ -47,7 +47,7 @@ Folders only organize the list. They do not change signing or backups.
 
 **Settings → Vault Settings → Advanced → On-chain security**
 
-Toggle the security scanner. When it is on, send, swap, and WalletConnect / dApp verify screens can warn on a malicious destination or contract. It is a warning. You still decide whether to sign.
+On by default. Turn it off here if you want. While it is on, send, swap, and WalletConnect / dApp verify screens can warn on a malicious destination or contract. It is a warning. You still decide whether to sign.
 
 ***
 

@@ -31,7 +31,7 @@
 
 ## Introduction
 
-Vultisig Extension is a Chrome extension that enhances the experience of interacting with decentralized finance (DeFi) applications. It offers a secure way for users to connect with decentralized applications without storing private keys in their browsers. Vultisig Extension introduces:
+Vultisig Extension is a full Vultisig vault for Chrome and Firefox. Users install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb) or [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/). It creates and signs from a vault share in the browser, and it injects providers so dApps can connect. It does not store a complete private key. Vultisig Extension introduces:
 
 * **`window.vultisig.ethereum`** for Ethereum integrations (previously `window.vultisig`).
 * **`window.vultisig.thorchain` and `window.thorchain`** for THORChain support.
@@ -71,7 +71,7 @@ The extension also injects EIP-6963, Keplr / Station for Cosmos, and an XRPL ada
 
 ## How Vultisig Extension Works
 
-* **Private Key Security**: Vultisig Extension does not store private keys. Instead, transactions are converted to QR codes that users can scan and sign using VultiSig peer devices.
+* **Vault share, not a complete key**: The extension holds a vault share. Fast Vault signs in the extension with Vultiserver. Secure Vault signs with the user's other devices.
 * **Compatibility**: The extension provides:
   * `window.ethereum` for MetaMask-compatible Ethereum integration.
   * `window.vultisig.ethereum` for Vultisig-Extension-enhanced Ethereum features.

@@ -15,7 +15,7 @@ Creating a vault is also called a Key Generation (KeyGen) event. See [TSS Action
 ## Vault Types
 
 {% hint style="success" %}
-iOS, macOS, Android, Windows, and Linux can create vaults. The [browser extension](../../vultisig-ecosystem/vultisig-extension/) is a companion for dApps. It is not a standalone vault. Check the [website](https://vultisig.com/) for current downloads.
+iOS, macOS, Android, Windows, Linux, Chrome, and Firefox can create vaults. Check the [website](https://vultisig.com/) for current downloads.
 {% endhint %}
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Fast Vault</strong></td><td>Single device + Vultisig server. Quick setup, ideal for daily transactions.</td><td><a href="fast-vault.md">fast-vault.md</a></td></tr><tr><td><strong>Secure Vault</strong></td><td>Multiple user devices. Maximum security, ideal for long-term storage.</td><td><a href="secure-vault.md">secure-vault.md</a></td></tr></tbody></table>

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Download the Vultisig app for iOS, Android, Windows, Linux, or Chrome. One
-  vault, 36+ chains, no seed phrase.
+  Download the Vultisig app for iOS, Android, Windows, Linux, Chrome, or
+  Firefox. One vault, 36+ chains, no seed phrase.
 ---
 
 # Download Vultisig
@@ -34,11 +34,8 @@ Vultisig is available on all major platforms. Download on at least two devices t
 
 | Browser | Link | Notes |
 |---------|------|-------|
-| **Chrome** | [Chrome Web Store](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb) | Connect to dApps |
-
-{% hint style="info" %}
-The browser extension requires the Vultisig mobile or desktop app to sign transactions. It's a companion tool, not a standalone wallet.
-{% endhint %}
+| **Chrome** | [Chrome Web Store](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb) | Full vault. Chrome, Brave, Edge |
+| **Firefox** | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/) | Full vault |
 
 ***
 
@@ -62,6 +59,10 @@ Vultisig is fully open-source:
 - Windows 10/11 (64-bit)
 - macOS 12.0 or later
 - Linux (most modern distributions)
+
+**Browser:**
+- Chrome, Brave, or Edge (Chrome Web Store)
+- Firefox 140 or later (Firefox Add-ons)
 
 ***
 

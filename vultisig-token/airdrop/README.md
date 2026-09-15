@@ -1,15 +1,15 @@
 ---
 description: >-
-  Historical Season 0 $VULT airdrop. The token launched 27 October 2025.
+  The $VULT airdrop is concluded. $VULT launched 27 October 2025.
   Current utility is in-app swap fee discounts.
 ---
 
 # Vultisig $VULT airdrop
 
 {% hint style="warning" %}
-**Historical.** $VULT launched on 27 October 2025. Season 0 was the pre-launch registration program. This page is the Season 0 record, not a current signup flow.
+**Concluded.** The $VULT airdrop is finished. There is no registration, no VULTIES accrual, and no seasonal distribution.
 
-The registration host `airdrop.vultisig.com` is not a current product surface. Hold $VULT in a vault for [in-app fee discounts](../vult/in-app-utility.md).
+`airdrop.vultisig.com` is not a product surface. Hold $VULT in a vault for [in-app fee discounts](../vult/in-app-utility.md).
 {% endhint %}
 
 ***
@@ -24,7 +24,7 @@ The registration host `airdrop.vultisig.com` is not a current product surface. H
 
 ***
 
-## Season 0 (historical)
+## Season 0 (concluded)
 
 Season 0 measured vault value over time. Points were called VULTIES. The published formula was:
 
@@ -32,9 +32,9 @@ $$
 vault\_asset\_value * time\_in\_vault
 $$
 
-The published initial allocation was 5,000,000 $VULT, to be distributed after the first year. [Airdrop V2](airdrop-v2.md) described the seasonal design that was meant to follow Season 0.
+The published initial allocation was 5,000,000 $VULT, to be distributed after the first year. [Airdrop V2](airdrop-v2.md) described the seasonal design that followed Season 0. That program is concluded.
 
-Users registered by sending vault public keys (via Vault QR) to an airdrop registry, which scanned balances daily. That registration path is not current.
+Users registered by sending vault public keys (via Vault QR) to an airdrop registry, which scanned balances daily. That path is closed.
 
 ***
 

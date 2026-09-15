@@ -28,7 +28,7 @@ Vultisig is designed with privacy as a core principle:
 ### Information We Do NOT Collect
 
 - Private keys or vault shares
-- Wallet addresses (unless voluntarily registered for airdrop)
+- Wallet addresses (unless voluntarily registered for the concluded airdrop)
 - Transaction history
 - Personal identification information
 - Location data
@@ -44,8 +44,8 @@ Vultisig is designed with privacy as a core principle:
 - Temporary session data for transaction signing
 - Automatically deleted after signing completion
 
-**Airdrop Registration** (voluntary):
-- Wallet addresses you choose to register
+**Airdrop Registration** (concluded; was voluntary):
+- Wallet addresses you chose to register
 - Publicly visible on-chain balance data
 
 ***
@@ -80,7 +80,7 @@ We do NOT:
 
 - Anonymized analytics (if enabled)
 - Temporary relay session data
-- Airdrop registration data (if registered)
+- Airdrop registration data (if you registered while the program ran)
 
 ***
 

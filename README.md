@@ -21,7 +21,7 @@ Signing uses [DKLS23](https://github.com/silence-laboratories/dkls23) from Silen
 * **No seed phrases**: Vault shares replace vulnerable 12/24 word seeds
 * **Multi-chain**: 36+ blockchains from one vault (Bitcoin, Ethereum, Solana, Cosmos, and more)
 * **Multi-factor**: Multiple devices required to sign transactions
-* **Multi-platform**: iOS, Android, macOS, Windows, Linux, Browser Extension
+* **Multi-platform**: iOS, Android, macOS, Windows, Linux, Chrome and Firefox Extension
 * **Open source**: Fully auditable code on [GitHub](https://github.com/vultisig)
 
 ***
@@ -68,13 +68,13 @@ These are the most common configurations, but Vultisig supports a wide range of 
 
 ## Vultisig Ecosystem
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Vultisig Wallet</strong></td><td>Core vault application for iOS, Android, macOS, Windows, Linux</td><td><a href="getting-started/download-install.md">download-install.md</a></td></tr><tr><td><strong>Vultisig Extension</strong></td><td>Browser extension for Web3 dApp connections</td><td><a href="vultisig-ecosystem/vultisig-extension/">vultisig-extension</a></td></tr><tr><td><strong>Web App</strong></td><td>Public web view (airdrop importer; host not currently serving)</td><td><a href="vultisig-ecosystem/web-app.md">web-app.md</a></td></tr><tr><td><strong>Marketplace</strong></td><td>Plugin marketplace (paused, not in production)</td><td><a href="vultisig-ecosystem/marketplace.md">marketplace.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Vultisig Wallet</strong></td><td>Core vault application for iOS, Android, macOS, Windows, Linux</td><td><a href="getting-started/download-install.md">download-install.md</a></td></tr><tr><td><strong>Vultisig Extension</strong></td><td>Full vault in Chrome and Firefox, plus dApp connect</td><td><a href="vultisig-ecosystem/vultisig-extension/">vultisig-extension</a></td></tr><tr><td><strong>Marketplace</strong></td><td>Plugin marketplace (paused, not in production)</td><td><a href="vultisig-ecosystem/marketplace.md">marketplace.md</a></td></tr></tbody></table>
 
 ***
 
 ## Download
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>iOS</strong></td><td><a href="https://apps.apple.com/us/app/vultisig/id6503023896">https://apps.apple.com/us/app/vultisig/id6503023896</a></td></tr><tr><td><strong>Android</strong></td><td><a href="https://play.google.com/store/apps/details?id=com.vultisig.wallet">https://play.google.com/store/apps/details?id=com.vultisig.wallet</a></td></tr><tr><td><strong>macOS</strong></td><td><a href="https://github.com/vultisig/vultisig-ios">https://github.com/vultisig/vultisig-ios</a></td></tr><tr><td><strong>Windows/Linux</strong></td><td><a href="https://github.com/vultisig/vultisig-windows/releases">https://github.com/vultisig/vultisig-windows/releases</a></td></tr><tr><td><strong>Browser Extension</strong></td><td><a href="https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb">https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>iOS</strong></td><td><a href="https://apps.apple.com/us/app/vultisig/id6503023896">https://apps.apple.com/us/app/vultisig/id6503023896</a></td></tr><tr><td><strong>Android</strong></td><td><a href="https://play.google.com/store/apps/details?id=com.vultisig.wallet">https://play.google.com/store/apps/details?id=com.vultisig.wallet</a></td></tr><tr><td><strong>macOS</strong></td><td><a href="https://github.com/vultisig/vultisig-ios">https://github.com/vultisig/vultisig-ios</a></td></tr><tr><td><strong>Windows/Linux</strong></td><td><a href="https://github.com/vultisig/vultisig-windows/releases">https://github.com/vultisig/vultisig-windows/releases</a></td></tr><tr><td><strong>Chrome Extension</strong></td><td><a href="https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb">https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb</a></td></tr><tr><td><strong>Firefox Extension</strong></td><td><a href="https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/">https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/</a></td></tr></tbody></table>
 
 ***
 

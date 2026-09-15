@@ -15,7 +15,7 @@ This section provides support resources and legal documentation for Vultisig use
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
 <tr><td><strong>FAQ</strong></td><td>Answers to common questions about Vultisig</td><td><a href="faq.md">faq.md</a></td></tr>
-<tr><td><strong>Vultisig Bot</strong></td><td>Telegram bot (Season 0 registration was historical)</td><td><a href="vultisig-bot.md">vultisig-bot.md</a></td></tr>
+<tr><td><strong>Vultisig Bot</strong></td><td>Telegram bot (airdrop registration is concluded)</td><td><a href="vultisig-bot.md">vultisig-bot.md</a></td></tr>
 </tbody>
 </table>
 

@@ -55,7 +55,6 @@
   * [How to use Vultisig Extension](vultisig-ecosystem/vultisig-extension/how-to-use-vultisig-connect.md)
   * [Web3 dApps with Vultisig Extension](vultisig-ecosystem/vultisig-extension/web3-support.md)
 * [Vultisig plugin marketplace (paused)](vultisig-ecosystem/marketplace.md)
-* [Vultisig web app](vultisig-ecosystem/web-app.md)
 * [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md)
 * [Vultisig community tools](vultisig-ecosystem/community-tools.md)
 
@@ -66,8 +65,8 @@
   * [$VULT marketplace utility (paused)](vultisig-token/vult/marketplace-utility.md)
   * [$VULT governance](vultisig-token/vult/governance-utility.md)
 * [Launch of $VULT](vult-token/launch.md)
-* [Vultisig $VULT airdrop (historical)](vultisig-token/airdrop/README.md)
-  * [Vultisig airdrop V2 (historical)](vultisig-token/airdrop/airdrop-v2.md)
+* [Vultisig $VULT airdrop (concluded)](vultisig-token/airdrop/README.md)
+  * [Vultisig airdrop V2 (concluded)](vultisig-token/airdrop/airdrop-v2.md)
 
 ## Infrastructure
 

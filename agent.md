@@ -144,7 +144,7 @@ Files on [vultisig.com](https://vultisig.com) for agent discovery and integratio
 ### Getting Started
 
 * [Overview](./): What Vultisig is, key features
-* [Download & Install](getting-started/download-install.md): iOS, Android, macOS, Windows, Linux, browser extension
+* [Download & Install](getting-started/download-install.md): iOS, Android, macOS, Windows, Linux, Chrome and Firefox extension
 * [Create a Vault](getting-started/create-vault.md): Fast Vault and Secure Vault creation
 * [Backup & Recovery](getting-started/backup-recovery.md): Vault backup and restore
 * [Your First Transaction](getting-started/first-transaction.md): Send your first transaction
@@ -171,15 +171,15 @@ Files on [vultisig.com](https://vultisig.com) for agent discovery and integratio
 
 ### Ecosystem
 
-* [Vultisig Extension](vultisig-ecosystem/vultisig-extension/): Browser extension for dApps
+* [Vultisig Extension](vultisig-ecosystem/vultisig-extension/): Full vault in Chrome and Firefox, plus dApp connect
 * [Plugin Marketplace](vultisig-ecosystem/marketplace.md): Paused, not in production
-* [Web App](vultisig-ecosystem/web-app.md): Browser-based vault access
 * [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md): SDK overview with agent section
 * [Community Tools](vultisig-ecosystem/community-tools.md): Third-party tools
 
 ### VULT Token
 
 * [The $VULT Token](vultisig-token/vult/): Tokenomics and utility
+* [Airdrop](vultisig-token/airdrop/): Concluded. No registration or VULTIES accrual
 * [In-App Utility](vultisig-token/vult/in-app-utility.md): Fee discounts, staking tiers
   * [Marketplace Utility](vultisig-token/vult/marketplace-utility.md): Paused, not in production
 * [Governance](vultisig-token/vult/governance-utility.md): Voting rights

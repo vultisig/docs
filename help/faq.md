@@ -21,7 +21,7 @@ Vultisig is available on:
 * macOS
 * Windows
 * Linux
-* Browser Extension (Chrome, Brave, Edge)
+* Browser Extension (Chrome, Brave, Edge, Firefox). Full vault.
 
 ### Which blockchains does Vultisig support?
 

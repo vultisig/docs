@@ -83,7 +83,7 @@ All Treasury token usage will be strictly limited to initiatives that directly i
 
 #### **Community and Strategic Allocations:**
 
-* 6% of VULT reserved for community airdrop, rewarding early supporters. Unlocking with ending seasons and distributed to airdrop participants.
+* 6% of VULT allocated to the community airdrop (concluded).
 * 10% of $VULT dedicated to the $WEWE → $VULT merger.
 * 1.7% of $VULT allocated to a strategic partnership with CoinMarketCap to significantly expand Vultisig’s reach and adoption. Locked with a 1-year cliff.
 

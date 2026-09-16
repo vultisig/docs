@@ -1,9 +1,10 @@
 ---
 description: >-
-  Vultisig privacy policy. No account, no KYC. What is collected and what is not.
+  Vultisig privacy policy. No account, no KYC. What is collected and what is
+  not.
 ---
 
-# Vultisig privacy policy
+# Vultisig Privacy Policy
 
 **Last Updated**: January 2025
 
@@ -13,10 +14,10 @@ This privacy policy describes how Vultisig ("we", "us", "our") collects, uses, a
 
 ## Defaults
 
-- **No account required**: Use Vultisig without registration
-- **No KYC**: No identity verification required
-- **Local-first**: Vault data stored on your devices
-- **Open source**: Verify our privacy claims in the code
+* **No account required**: Use Vultisig without registration
+* **No KYC**: No identity verification required
+* **Local-first**: Vault data stored on your devices
+* **Open source**: Verify our privacy claims in the code
 
 ***
 
@@ -24,26 +25,29 @@ This privacy policy describes how Vultisig ("we", "us", "our") collects, uses, a
 
 ### Information We Do NOT Collect
 
-- Private keys or vault shares
-- Wallet addresses (unless voluntarily registered for the concluded airdrop)
-- Transaction history
-- Personal identification information
-- Location data
+* Private keys or vault shares
+* Wallet addresses (unless voluntarily registered for the concluded airdrop)
+* Transaction history
+* Personal identification information
+* Location data
 
 ### Information We May Collect
 
 **Analytics Data** (optional, can be disabled):
-- App version and platform
-- Feature usage patterns (anonymized)
-- Crash reports and error logs
+
+* App version and platform
+* Feature usage patterns (anonymized)
+* Crash reports and error logs
 
 **Relay Server Data** (when used for device communication):
-- Temporary session data for transaction signing
-- Automatically deleted after signing completion
+
+* Temporary session data for transaction signing
+* Automatically deleted after signing completion
 
 **Airdrop Registration** (concluded; was voluntary):
-- Wallet addresses you chose to register
-- Publicly visible on-chain balance data
+
+* Wallet addresses you chose to register
+* Publicly visible on-chain balance data
 
 ***
 
@@ -51,16 +55,17 @@ This privacy policy describes how Vultisig ("we", "us", "our") collects, uses, a
 
 Collected information is used to:
 
-- Improve app performance and stability
-- Fix bugs and errors
-- Develop new features
-- Facilitate device-to-device communication during signing
+* Improve app performance and stability
+* Fix bugs and errors
+* Develop new features
+* Facilitate device-to-device communication during signing
 
 We do NOT:
-- Sell user data
-- Share data with third parties for marketing
-- Track individual user behavior
-- Create user profiles
+
+* Sell user data
+* Share data with third parties for marketing
+* Track individual user behavior
+* Create user profiles
 
 ***
 
@@ -68,16 +73,16 @@ We do NOT:
 
 ### On Your Device
 
-- Vault shares
-- Transaction history
-- App settings
-- Backup files
+* Vault shares
+* Transaction history
+* App settings
+* Backup files
 
 ### On Our Servers
 
-- Anonymized analytics (if enabled)
-- Temporary relay session data
-- Airdrop registration data (if you registered while the program ran)
+* Anonymized analytics (if enabled)
+* Temporary relay session data
+* Airdrop registration data (if you registered while the program ran)
 
 ***
 
@@ -85,9 +90,9 @@ We do NOT:
 
 Vultisig integrates with third-party blockchain services:
 
-- **Block explorers**: For balance and transaction data
-- **Price feeds**: For USD valuations
-- **DEX protocols**: For swap functionality (THORChain, Maya)
+* **Block explorers**: For balance and transaction data
+* **Price feeds**: For USD valuations
+* **DEX protocols**: For swap functionality (THORChain, Maya)
 
 These services have their own privacy policies. Vultisig does not control data you share directly with blockchains.
 
@@ -97,10 +102,10 @@ These services have their own privacy policies. Vultisig does not control data y
 
 You can:
 
-- **Disable analytics**: In app settings
-- **Delete local data**: Uninstall the app
-- **Request data deletion**: Contact privacy@vultisig.com
-- **Export your data**: Via vault backup feature
+* **Disable analytics**: In app settings
+* **Delete local data**: Uninstall the app
+* **Request data deletion**: Contact privacy@vultisig.com
+* **Export your data**: Via vault backup feature
 
 ***
 
@@ -108,10 +113,10 @@ You can:
 
 We implement security measures including:
 
-- Encryption in transit (TLS)
-- Encryption at rest for server data
-- Regular security audits
-- Access controls and monitoring
+* Encryption in transit (TLS)
+* Encryption at rest for server data
+* Regular security audits
+* Access controls and monitoring
 
 ***
 
@@ -131,12 +136,12 @@ We may update this policy periodically. Significant changes will be communicated
 
 For privacy-related inquiries:
 
-- **Email**: privacy@vultisig.com
-- **Discord**: [discord.gg/Cugw9T2NrP](https://discord.gg/Cugw9T2NrP)
+* **Email**: business@vultisig.com
+* **Discord**: [discord.gg/Cugw9T2NrP](https://discord.gg/Cugw9T2NrP)
 
 ***
 
 ## Related
 
-- [Terms of Use](terms.md)
-- [Security](security.md)
+* [Terms of Use](terms.md)
+* [Security](security.md)

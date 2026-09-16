@@ -4,7 +4,7 @@ description: >-
   Jupiter, and others. 50 bps fee, reduced by $VULT.
 ---
 
-# Swap crypto in Vultisig
+# Swap Crypto in Vultisig
 
 You can swap on the same chain or across chains. The wallet picks the best quote — you do not choose a provider. Your devices sign the same way they do for a send.
 
@@ -28,15 +28,15 @@ You can swap on the same chain or across chains. The wallet picks the best quote
 
 Vultisig charges **50 bps** on swaps, on top of the route's protocol and network fees. Hold $VULT in the vault to reduce that fee:
 
-| Tier | $VULT in vault | Vultisig swap fee |
-| --- | --- | --- |
-| None | — | 50 bps |
-| Bronze | 1,500 | 45 bps |
-| Silver | 3,000 | 40 bps |
-| Gold | 7,500 | 30 bps |
-| Platinum | 15,000 | 25 bps |
-| Diamond | 100,000 | 15 bps |
-| Ultimate | 1,000,000 | 0 bps |
+| Tier     | $VULT in vault | Vultisig swap fee |
+| -------- | -------------- | ----------------- |
+| None     | —              | 50 bps            |
+| Bronze   | 1,500          | 45 bps            |
+| Silver   | 3,000          | 40 bps            |
+| Gold     | 7,500          | 30 bps            |
+| Platinum | 15,000         | 25 bps            |
+| Diamond  | 100,000        | 15 bps            |
+| Ultimate | 1,000,000      | 0 bps             |
 
 A THORGuard NFT in the vault raises the tier by one, up to Platinum. Full table: [$VULT in-app fee discounts](../../vultisig-token/vult/in-app-utility.md).
 
@@ -48,17 +48,15 @@ A THORGuard NFT in the vault raises the tier by one, up to Platinum. Full table:
 
 The wallet selects the route. You do not pick a provider in the UI. Routes include:
 
-| Provider | Typical use |
-| --- | --- |
-| [THORChain](https://thorchain.org/) | Native cross-chain (BTC, ETH, and others) |
-| [MAYA Protocol](https://www.mayaprotocol.com/) | Extra cross-chain pairs |
-| [1inch](https://1inch.io/) | EVM DEX aggregation |
-| [KyberSwap](https://kyberswap.com) | EVM DEX aggregation |
-| [Li.Fi](https://li.fi/) | Cross-EVM bridging |
-| [Jupiter](https://jup.ag/) | Solana |
-| SwapKit and other aggregators | Additional EVM / cross-chain routes |
-
-Large THORChain / Maya swaps can stream automatically.
+| Provider                                       | Typical use                               |
+| ---------------------------------------------- | ----------------------------------------- |
+| [THORChain](https://thorchain.org/)            | Native cross-chain (BTC, ETH, and others) |
+| [MAYA Protocol](https://www.mayaprotocol.com/) | Extra cross-chain pairs                   |
+| [1inch](https://1inch.io/)                     | EVM DEX aggregation                       |
+| [KyberSwap](https://kyberswap.com)             | EVM DEX aggregation                       |
+| [Li.Fi](https://li.fi/)                        | Cross-EVM bridging                        |
+| [Jupiter](https://jup.ag/)                     | Solana                                    |
+| SwapKit and other aggregators                  | Additional EVM / cross-chain routes       |
 
 ***
 

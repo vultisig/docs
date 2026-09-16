@@ -18,9 +18,9 @@ There is no seed phrase to write down. The backup is a file from each device. If
 
 Think of each device as holding one key to the same safe. The backup is a copy of that device's key — a `.vult` file. You need enough of those copies to meet the vault's threshold.
 
-- Each device has its own share, and its own backup
-- One share alone cannot move funds
-- Recovery needs the signing threshold (for example, 2 shares for a 2-of-3 vault)
+* Each device has its own share, and its own backup
+* One share alone cannot move funds
+* Recovery needs the signing threshold (for example, 2 shares for a 2-of-3 vault)
 
 ***
 
@@ -56,13 +56,13 @@ vaultname-ID-share(t)of(n).vult
 ```
 
 Example: `savings-ef8b-share1of2.vult`
-- `savings` = vault name
-- `ef8b` = vault ID
-- `share1of2` = this is share 1 of a 2-share vault
+
+* `savings` = vault name
+* `ef8b` = last numbers of vault ID
+* `share1of2` = this is share 1 of a 2-share vault
 
 {% hint style="info" %}
-**DKLS vaults** use "share" in the filename.
-**GG20 vaults** use "part" in the filename.
+**DKLS vaults** use "share" in the filename. **GG20 vaults** use "part" in the filename.
 {% endhint %}
 
 ***
@@ -77,25 +77,25 @@ If someone gains access to enough shares, they can reconstruct your vault and st
 
 ### Recommended Storage Strategy
 
-| Share | Storage Location |
-|-------|------------------|
-| Share 1 | Google Drive |
-| Share 2 | iCloud |
-| Share 3 | Dropbox |
+| Share   | Storage Location |
+| ------- | ---------------- |
+| Share 1 | Google Drive     |
+| Share 2 | iCloud           |
+| Share 3 | physical USB     |
 
 ### Good Practices
 
-- Use different cloud providers for different shares
-- Consider password managers (1Password, Bitwarden) for individual shares
-- Use offline storage (USB drive, external hard drive)
-- Encrypt your backups with a strong password
+* Use different cloud providers for different shares
+* Consider password managers (1Password, Bitwarden) for individual shares
+* Use offline storage (USB drive, external hard drive)
+* Encrypt your backups with a strong password
 
 ### Bad Practices
 
-- Storing all shares on one device
-- Storing all shares in one cloud account
-- Emailing shares to yourself (all in one inbox)
-- Storing shares unencrypted on shared computers
+* Storing all shares on one device
+* Storing all shares in one cloud account
+* Emailing shares to yourself (all in one inbox)
+* Storing shares unencrypted on shared computers
 
 ***
 
@@ -120,6 +120,7 @@ If you lose a device, you have two options:
 ### Option 1: Import Backup
 
 Import your backed-up vault share into a new device:
+
 1. Install Vultisig on the new device
 2. Open the `.vult` file (or import via app)
 3. Enter the encryption password (if set)
@@ -132,6 +133,7 @@ Vault shares are cross-platform. An iOS backup can be imported on Android, Windo
 ### Option 2: Reshare (2-of-3+ vaults only)
 
 If you have a 2-of-3 or larger vault:
+
 1. Use your remaining devices to [reshare](../app-guide/vault-management/vault-reshare.md) the vault
 2. This creates new shares including one for your new device
 3. **Important:** Export new backups immediately. After reshare, all shares change. Use the new backups for the new share set. The old share set can still sign with each other as a parallel set. Do not mix old and new backups.
@@ -164,11 +166,11 @@ For Fast Vaults, the device backup is the most important. If you have your devic
 
 Before storing significant funds, confirm:
 
-- [ ] I have backed up **every device** in my vault
-- [ ] Each backup is stored in a **different location**
-- [ ] I understand that I need **[threshold] shares** to recover
-- [ ] I have tested importing a backup on a spare device (optional but recommended)
-- [ ] I have set encryption passwords on my backups (optional but recommended)
+* [ ] I have backed up **every device** in my vault
+* [ ] Each backup is stored in a **different location**
+* [ ] I understand that I need **\[threshold] shares** to recover
+* [ ] I have tested importing a backup on a spare device (optional but recommended)
+* [ ] I have set encryption passwords on my backups (optional but recommended)
 
 ***
 

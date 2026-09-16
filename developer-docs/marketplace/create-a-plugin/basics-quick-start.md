@@ -1,10 +1,8 @@
 ---
-description: >-
-  Scaffold a Vultisig plugin. Planned product. Not in production.
+description: Scaffold a Vultisig plugin. Planned product. Not in production.
 ---
 
 # Quick Start
-
 
 {% hint style="warning" %}
 **Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
@@ -22,7 +20,7 @@ There are multiple components needed for your Plugin to interact with the Market
 * [Triggers](basics-quick-start.md#triggers)
 
 {% hint style="info" %}
-All basic building blocks can be found in our [hello-world](https://github.com/vultisig/docs/tree/main/developer-docs/marketplace/create-a-plugin/build-your-plugin/hello-world) section in the documentation and get be used to get started right away.
+All basic building blocks can be found in our [hello-world](build-your-plugin/hello-world/) section in the documentation and get be used to get started right away.
 {% endhint %}
 
 To integrate your application with the Vultisig ecosystem, you need to build an app that at least supports:
@@ -45,7 +43,7 @@ To integrate your application with the Vultisig ecosystem, you need to build an 
 
 ### Getting Started with the Server
 
-The fastest way to get started is to import the [`Server`](https://github.com/vultisig/docs/tree/main/developer-docs/marketplace/create-a-plugin/build-your-plugin/hello-world/server) component from the Vultisig library.
+The fastest way to get started is to import the [`Server`](build-your-plugin/hello-world/server/) component from the Vultisig library.
 
 This provides all the necessary API infrastructure, including the required endpoints for signing, resharing, and automation management, so you don't need to implement them from scratch.
 
@@ -163,7 +161,7 @@ The trigger example is provided to help you understand how the signing flow work
 
 Now that you understand the basic structure, you can:
 
-1. **Clone the example** [**repository**](https://github.com/vultisig/docs/tree/main/developer-docs/marketplace/create-a-plugin/build-your-plugin/hello-world) and modify it for your use case
+1. **Clone the example** [**repository**](build-your-plugin/hello-world/) and modify it for your use case
 2. **Define your plugin specification** with the chains and operations you need
 3. **Implement your business logic** as part of the worker or create separate service
 4. **Test locally** with local verifier and Marketplace UI

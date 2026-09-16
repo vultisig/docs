@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Vultisig documentation](README.md)
+* [Vultisig Documentation](README.md)
 * [Vultisig for AI Agents](agent.md)
 
 ## Getting Started
@@ -13,13 +13,13 @@
 
 ## App Guide
 
-* [Vultisig app guide](app-guide/overview.md)
+* [Vultisig App guide](app-guide/overview.md)
 * [Create a Vultisig Fast or Secure Vault](app-guide/creating-a-vault/README.md)
   * [Vultisig Fast Vault](app-guide/creating-a-vault/fast-vault.md)
   * [Vultisig Secure Vault](app-guide/creating-a-vault/secure-vault.md)
-* [Vultisig Wallet tab](app-guide/wallet/README.md)
-  * [Send crypto from Vultisig](app-guide/wallet/sending.md)
-  * [Swap crypto in Vultisig](app-guide/wallet/swapping.md)
+* [Vultisig Wallet Tab](app-guide/wallet/README.md)
+  * [Send Crypto from Vultisig](app-guide/wallet/sending.md)
+  * [Swap Crypto in Vultisig](app-guide/wallet/swapping.md)
 * [DeFi in Vultisig](app-guide/defi/README.md)
   * [THORChain in Vultisig](app-guide/defi/thorchain.md)
   * [MayaChain in Vultisig](app-guide/defi/maya.md)
@@ -100,9 +100,8 @@
 ## Help & Legal
 
 * [Vultisig FAQ](help/faq.md)
-* [Vultisig Bot](help/vultisig-bot.md)
-* [Vultisig audits](help/security.md)
-* [Vultisig privacy policy](help/privacy.md)
-* [Vultisig terms of use](help/terms.md)
+* [Vultisig Audits](help/security.md)
+* [Vultisig Privacy Policy](help/privacy.md)
+* [Vultisig Terms of Use](help/terms.md)
 * [Vultisig software license](help/license.md)
 * [Vultisig MiCAR white paper](help/micar-white-paper.md)

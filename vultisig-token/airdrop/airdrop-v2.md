@@ -1,12 +1,12 @@
 ---
 description: >-
-  The $VULT airdrop is concluded. This page is the published V2 design
-  record. Current utility is in-app swap fee discounts.
+  The $VULT airdrop is concluded. This page is the published V2 design record.
+  Current utility is in-app swap fee discounts.
 cover: ../../.gitbook/assets/Vultisig - 1200x630 - 56- 2x.png
 coverY: 0
 ---
 
-# Vultisig airdrop V2
+# Vultisig airdrop V2 (concluded)
 
 {% hint style="warning" %}
 **Concluded.** The $VULT airdrop is finished. There is no registration, no VULTIES accrual, and no seasonal distribution. This page is the published design record. Current utility: [in-app fee discounts](../vult/in-app-utility.md).
@@ -87,7 +87,7 @@ A swap multiplier rewarded active users with a higher airdrop share based on swa
 
 ### **Referral Multiplier**
 
-The [Referral Program](airdrop-v2.md#referral-program) tracked referred wallets via the [Referral Telegram bot](../../help/vultisig-bot.md).
+The [Referral Program](airdrop-v2.md#referral-program) tracked referred wallets via the [Referral Telegram bot](/broken/pages/nhXgIt8NEZZXgPP1V1Ea).
 
 A referral counted when the referred wallet funded with at least $50 and took part in the airdrop.
 
@@ -105,18 +105,16 @@ $VULT itself granted a 1.5x multiplier on its dollar value in the airdrop calcul
 
 Published token and NFT multipliers:
 
-| Token  | Multiplier |
-| ------ | ---------- |
-| $VULT  | 1.5        |
-| $RUNE  | 1.3        |
+| Token | Multiplier |
+| ----- | ---------- |
+| $VULT | 1.5        |
+| $RUNE | 1.3        |
 
 ***
 
 | NFT        | Multiplier |
 | ---------- | ---------- |
 | Thorguards | 1.3        |
-
-
 
 ***
 
@@ -168,12 +166,10 @@ $$
 
 <figure><img src="../../.gitbook/assets/Frame 1000005131.png" alt="" width="279"><figcaption></figcaption></figure>
 
-*   Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your Vultisig Extension ([Chrome](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/)) or by uploading your Vault QR\
-
+*   Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your Vultisig Extension ([Chrome](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/)) or by uploading your Vault QR\\
 
     <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
-*   Join the Airdrop with your connected Vault by clicking `Join Airdrop`\
-
+*   Join the Airdrop with your connected Vault by clicking `Join Airdrop`\\
 
     <figure><img src="../../.gitbook/assets/Button.png" alt="" width="225"><figcaption></figcaption></figure>
 * Go to the `Balances` tab and check for auto-discovery or enable **ALL a**ssets you want to have counted towards the airdrop
@@ -188,7 +184,7 @@ While the airdrop ran, every chain and token that should count had to be enabled
 
 ### Referral Program
 
-The [Telegram bot](../../help/vultisig-bot.md) was used to invite friends and track referrals while the airdrop ran.
+The [Telegram bot](/broken/pages/nhXgIt8NEZZXgPP1V1Ea) was used to invite friends and track referrals while the airdrop ran.
 
 * Invite people
 * Let them install Vultisig

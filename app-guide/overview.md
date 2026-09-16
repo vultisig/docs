@@ -1,21 +1,22 @@
 ---
 description: >-
-  Vultisig app: Wallet and DeFi tabs, vault management, Settings. Same
-  vault on iOS, Android, and desktop.
+  Vultisig app: Wallet and DeFi tabs, vault management, Settings. Same vault on
+  iOS, Android, and desktop.
 ---
 
-# Vultisig app guide
+# Vultisig App guide
 
-The app has two tabs at the bottom: **Wallet** and **DeFi**. Everything about the vault itself — backups, rename, reshare — lives in **Settings**, along with the address book, referrals, WalletConnect, and $VULT fee tiers.
+The app has two tabs at the bottom: **Wallet** and **DeFi**. \
+Everything about the vault itself, like backups, rename, reshare, lives in **Settings**, along with the address book, referrals and $VULT fee tiers.
 
 ***
 
 ## Tabs
 
-| Tab        | What it does |
-| ---------- | ------------------------------------------ |
+| Tab        | What it does                                        |
+| ---------- | --------------------------------------------------- |
 | **Wallet** | Balances, send, receive, swap, buy, chain functions |
-| **DeFi**   | Stake, bond, LP on supported protocols |
+| **DeFi**   | Stake, bond, LP on supported protocols              |
 
 Vault management is under **Settings**.
 

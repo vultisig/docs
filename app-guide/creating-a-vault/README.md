@@ -1,7 +1,7 @@
 ---
 description: >-
-  Create a Vultisig vault. Fast Vault is one device plus VultiServer.
-  Secure Vault is two or more devices you control. No seed phrase.
+  Create a Vultisig vault. Fast Vault is one device plus VultiServer. Secure
+  Vault is two or more devices you control. No seed phrase.
 ---
 
 # Create a Vultisig Fast or Secure Vault
@@ -44,4 +44,8 @@ iOS, macOS, Android, Windows, Linux, Chrome, and Firefox can create vaults. Down
 **Export a backup before you deposit.**
 
 A lost device with no backup means the funds are gone. See [Backup & Recovery](../../getting-started/backup-recovery.md).
+{% endhint %}
+
+{% hint style="warning" %}
+Never store the backups of a device on the device itself!
 {% endhint %}

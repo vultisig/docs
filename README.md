@@ -1,7 +1,7 @@
 ---
 description: >-
-  Vultisig docs: seedless MPC vault. ECDSA and EdDSA from one vault. Fast
-  Vault, Secure Vault, SDK, and CLI. No seed phrase.
+  Vultisig Docs: seedless MPC vault. ECDSA and EdDSA from one vault. Fast Vault,
+  Secure Vault, SDK, and CLI. No seed phrase.
 cover: .gitbook/assets/Banner-new.png
 coverY: 0
 ---
@@ -27,13 +27,10 @@ Signing uses [DKLS23](https://github.com/silence-laboratories/dkls23) from Silen
 
 ## How it works
 
-**No complete key.** Shares sign together. One lost or stolen share cannot move funds.
-
-**A normal signature on-chain.** No published signer set, no extra contract. That is why it works on Bitcoin and in DeFi where on-chain multisig often does not.
-
-**Devices you already own.** Shares sit in the device Secure Enclave, behind biometrics.
-
-**Open source and audited.** Code on [GitHub](https://github.com/vultisig). [Audit reports](help/security.md).
+* **No complete key.** Shares sign together. One lost or stolen share cannot move funds.
+* **A normal signature on-chain.** No published signer set, no extra contract. That is why it works on Bitcoin and in DeFi where on-chain multisig often does not.
+* **Devices you already own.** Shares sit in the device Secure Enclave, behind biometrics.
+* **Open source and audited.** Code on [GitHub](https://github.com/vultisig). [Audit reports](help/security.md).
 
 {% hint style="info" %}
 **No registration.** Vultisig does not keep your email. Fast Vaults use it once to send a backup file, then discard it.
@@ -61,13 +58,13 @@ Those are the usual setups. Other thresholds are available if you need them.
 
 ## Quick Navigation
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>New here? Download, create a vault, back it up, then send.</td><td><a href="getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>App Guide</strong></td><td>Wallet, DeFi, vault management, Settings.</td><td><a href="app-guide/overview.md">overview.md</a></td></tr><tr><td><strong>Security &#x26; Technology</strong></td><td>How threshold signatures work, and the signing protocols.</td><td><a href="security-and-technology/overview.md">overview.md</a></td></tr><tr><td><strong>Developer Docs</strong></td><td>SDK, CLI, and Extension integration.</td><td><a href="developer-docs/">README.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>New here? Download, create a vault, back it up, then send.</td><td><a href="getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>App Guide</strong></td><td>Wallet, DeFi, vault management, Settings.</td><td><a href="app-guide/overview.md">overview.md</a></td></tr><tr><td><strong>Security &#x26; Technology</strong></td><td>How threshold signatures work, and the signing protocols.</td><td><a href="security-and-technology/overview.md">overview.md</a></td></tr><tr><td><strong>Developer Docs</strong></td><td>SDK, CLI, and Extension integration.</td><td><a href="developer-docs/">developer-docs</a></td></tr></tbody></table>
 
 ***
 
 ## Vultisig Ecosystem
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Vultisig Wallet</strong></td><td>iOS, Android, macOS, Windows, Linux</td><td><a href="getting-started/download-install.md">download-install.md</a></td></tr><tr><td><strong>Vultisig Extension</strong></td><td>Full vault in Chrome and Firefox, plus dApp connect</td><td><a href="vultisig-ecosystem/vultisig-extension/">vultisig-extension</a></td></tr><tr><td><strong>Marketplace</strong></td><td>Plugin marketplace (paused, not in production)</td><td><a href="vultisig-ecosystem/marketplace.md">marketplace.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Vultisig Wallet</strong></td><td>iOS, Android, macOS, Windows, Linux</td><td><a href="getting-started/download-install.md">download-install.md</a></td></tr><tr><td><strong>Vultisig Extension</strong></td><td>Full vault in Chrome and Firefox, plus dApp connect</td><td><a href="vultisig-ecosystem/vultisig-extension/">vultisig-extension</a></td></tr><tr><td>Vultisig SDK</td><td>The modular SDK for developers and agents</td><td></td></tr></tbody></table>
 
 ***
 

@@ -1,17 +1,19 @@
 ---
 description: >-
-  Vultisig browser extension for Chrome. Connect your vault to DeFi dApps
-  and Web3 sites with MPC security. No seed phrase exposure.
+  Vultisig browser extension for Chrome and Firefox. Full vault in the
+  browser: create, send, swap, DeFi, and dApp connect. No seed phrase.
 ---
 
 # Vultisig Extension
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-## What is Vultisig Extension?
+## What it is
 
-The Vultisig Extension is the browser equivalent of mobile apps, enabling users to access assets stored in their Vultisig Vaults on most available Web3 and DeFi dApps.
+A full Vultisig vault in Chrome and Firefox. Create Fast or Secure Vault, send, swap, DeFi, and connect to dApps. Same vault model as the mobile and desktop apps.
 
-With the extension, you can access the full DeFi and Web3 universe while keeping your digital assets completely secure.
+Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb) (Chrome, Brave, Edge) or [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/).
 
-It's a secure and efficient way to interact with DeFi on your terms — rest assured that your assets are secure and accessible at any time.
+See the [App Guide](../../app-guide/overview.md) for vault, wallet, and DeFi actions.
+
+Mobile apps also have **in-app WalletConnect** under Settings. Use that when you are on the phone and do not want the extension.

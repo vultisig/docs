@@ -1,82 +1,61 @@
 ---
 description: >-
-  Cosmos IBC in Vultisig: transfer assets between IBC-enabled chains, switch
-  assets to THORChain, and execute custom transactions.
+  Cosmos IBC in Vultisig: transfer assets between IBC-enabled chains from
+  Wallet Functions. Terra staking is on the DeFi tab.
 ---
 
 # Cosmos IBC in Vultisig
 
 {% hint style="info" %}
-**Accessed via Wallet tab**
-
-Cosmos IBC features are available through the **Functions** button on each Cosmos chain in the **Wallet tab**, not the DeFi tab.
+IBC transfer is on the **Functions** button for Cosmos Hub and Osmosis in the **Wallet tab**. Terra and Terra Classic staking are on the **DeFi tab**.
 {% endhint %}
 
-Vultisig supports IBC (Inter-Blockchain Communication) transfers for Cosmos ecosystem chains. Users can move assets between IBC-enabled chains and execute custom transactions.
+You can IBC-transfer from Cosmos Hub or Osmosis. The path is Wallet → Functions, not the DeFi tab.
 
 ***
 
-## Supported Chains
+## Wallet → Functions
 
-| Chain | Features |
-|-------|----------|
-| **Cosmos Hub** | IBC Transfer, Switch, Custom |
-| **Kujira** | IBC Transfer, Custom |
-| **Osmosis** | IBC Transfer, Custom |
+| Chain | Functions |
+| --- | --- |
+| **Cosmos Hub** | IBC transfer |
+| **Osmosis** | IBC transfer |
 
-***
+Kujira may still appear on some iOS builds. The network is wound down. Do not send funds there.
 
-## IBC Transfer
+### How to IBC transfer
 
-Transfer assets between IBC-enabled Cosmos chains.
-
-### How to Transfer
-
-1. Open **Wallet tab** → Select chain (Cosmos/Kujira/Osmosis)
+1. Open **Wallet tab** → Cosmos Hub or Osmosis
 2. Tap **Functions** → **IBC Transfer**
-3. Enter the **destination chain**
-4. Enter the **destination address**
-5. Enter the **amount**
-6. (Optional) Add a memo
+3. Enter the destination chain
+4. Enter the destination address
+5. Enter the amount
+6. Optional memo
 7. Sign with your devices
 
 ***
 
-## Switch (Cosmos Hub)
+## DeFi tab: Terra / Terra Classic
 
-The Switch function transfers assets from Cosmos Hub to THORChain. This is part of the RUJIRA token migration flow.
+Terra and Terra Classic native staking is on the **DeFi tab**, not Functions.
 
-### How to Switch
+| Action | What it does |
+| --- | --- |
+| Delegate | Stake LUNA or LUNC to a validator |
+| Undelegate | Start unbonding |
+| Redelegate | Move stake to another validator |
+| Claim | Claim staking rewards |
 
-1. Open **Wallet tab** → **Cosmos** → **Functions** → **Switch**
-2. Select the **asset to switch**
-3. Enter the **amount**
+1. Open **DeFi tab** → **Terra** or **Terra Classic**
+2. Choose the action
+3. Enter the validator and amount
 4. Sign with your devices
 
-{% hint style="info" %}
-For details on the Switch function and RUJI merge, see the [RUJIRA documentation](https://docs.rujira.network/understanding-ruji-token#merge-flow).
-{% endhint %}
-
-***
-
-## Custom Transactions
-
-Advanced users can create custom memo transactions to interact with each Cosmos chain's ecosystem.
-
-### How to Execute Custom Transaction
-
-1. Open **Wallet tab** → Select chain
-2. Tap **Functions** → **Custom**
-3. Enter the **memo** according to chain specifications
-4. Sign with your devices
-
-{% hint style="warning" %}
-Custom transactions are for advanced users only. Incorrect memos can result in errors or loss of funds.
-{% endhint %}
+Unbonding follows the chain's unbonding period. Rewards stay claimable until you claim them.
 
 ***
 
 ## Related
 
-- [DeFi Overview](README.md)
-- [THORChain](thorchain.md)
+* [DeFi overview](README.md)
+* [THORChain](thorchain.md)

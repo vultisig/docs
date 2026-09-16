@@ -1,11 +1,14 @@
 ---
 description: >-
-  This guide provides a quick step-by-step walkthrough for building your first
-  Vultisig plugin. By the end of this guide, all building blocks and how to
-  integrate your application into the ecosystem
+  Scaffold a Vultisig plugin. Planned product. Not in production.
 ---
 
 # Quick Start
+
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
 
 ## Overview
 
@@ -52,7 +55,7 @@ This provides all the necessary API infrastructure, including the required endpo
 * **Standardized endpoints**: Provides the exact API structure that the Vultisig Verifier expects
 * **Built-in middleware**: Includes authentication, rate limiting, and error handling out of the box
 * **Storage integration**: Automatically connects with Redis, PostgreSQL, and S3-compatible storage
-* **Compatibility guarantee**: Ensures your plugin works seamlessly with the Vultisig mobile app and web interface
+* **Compatibility**: the endpoints the Verifier and the apps expect
 
 ### Implementation
 

@@ -1,65 +1,76 @@
 ---
 description: >-
-  Swap crypto across chains with Vultisig. Integrated with THORChain, Maya,
-  1inch, Li.Fi, and Kyberswap for secure cross-chain exchanges.
+  Swap in Vultisig. Best quote from THORChain, Maya, 1inch, Li.Fi, Kyber,
+  Jupiter, and others. 50 bps fee, reduced by $VULT.
 ---
 
 # Swap crypto in Vultisig
 
-Vultisig supports swapping assets both within the same chain and across different blockchains. All swaps are secured by threshold signatures.
+You can swap on the same chain or across chains. The wallet picks the best quote — you do not choose a provider. Your devices sign the same way they do for a send.
 
 ***
 
-## How to Swap
+## How to swap
 
-1. **Tap "Swap"** from your vault view
-2. **Select the asset to swap from** (source)
-3. **Select the asset to receive** (destination)
-4. **Enter the amount** to swap
-5. **Review the quote** — rate, fees, and estimated output
-6. **Sign with your devices**
-7. **Monitor the swap** — cross-chain swaps depend on blockchain finality
+1. Tap **Swap**
+2. Select the asset you want to sell
+3. Select the asset you want to receive
+4. Enter the amount
+5. Check the quote: rate, Vultisig fee, network / protocol fees, estimated output
+6. Sign with your devices
+7. Cross-chain swaps wait for the chains to confirm. That can take a few minutes.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Swap Flow</p></figcaption></figure>
 
 ***
 
-## Swap Providers
+## Fees and $VULT discounts
 
-Vultisig automatically selects the best route using integrated providers:
+Vultisig charges **50 bps** on swaps, on top of the route's protocol and network fees. Hold $VULT in the vault to reduce that fee:
 
-| Provider                                       | Type              | Speciality                                |
-| ---------------------------------------------- | ----------------- | ----------------------------------------- |
-| [THORChain](https://thorchain.org/)            | Cross-chain DEX   | Native cross-chain swaps (BTC, ETH, etc.) |
-| [MAYA Protocol](https://www.mayaprotocol.com/) | Cross-chain DEX   | Extended asset support                    |
-| [1inch](https://1inch.io/)                     | DEX Aggregator    | Best rates across EVM DEXs                |
-| [Li.Fi](https://li.fi/)                        | Bridge Aggregator | Cross-chain bridging                      |
-| [Kyberswap](https://kyberswap.com)             | DEX Aggregator    | EVM chain swaps                           |
+| Tier | $VULT in vault | Vultisig swap fee |
+| --- | --- | --- |
+| None | — | 50 bps |
+| Bronze | 1,500 | 45 bps |
+| Silver | 3,000 | 40 bps |
+| Gold | 7,500 | 30 bps |
+| Platinum | 15,000 | 25 bps |
+| Diamond | 100,000 | 15 bps |
+| Ultimate | 1,000,000 | 0 bps |
 
-***
+A THORGuard NFT in the vault raises the tier by one, up to Platinum. Full table: [$VULT in-app fee discounts](../../vultisig-token/vult/in-app-utility.md).
 
-## Cross-Chain vs Same-Chain
-
-| Type            | Example                | Speed                          |
-| --------------- | ---------------------- | ------------------------------ |
-| **Same-chain**  | ETH → USDC on Ethereum | Fast, single transaction       |
-| **Cross-chain** | BTC → ETH              | Depends on blockchain finality |
-
-Cross-chain swaps use THORChain or Maya Protocol. Large swaps are automatically streamed for better rates.
+[Referrals](../referrals.md) can rebate part of the swap fee.
 
 ***
 
-## Tips
+## Providers
 
-* **Compare quotes** — Vultisig shows the best available rate
-* **Check slippage** — larger swaps may have higher slippage
-* **Streaming swaps** — large amounts are split for better execution
-* **Transaction fees** are shown before confirmation
+The wallet selects the route. You do not pick a provider in the UI. Routes include:
+
+| Provider | Typical use |
+| --- | --- |
+| [THORChain](https://thorchain.org/) | Native cross-chain (BTC, ETH, and others) |
+| [MAYA Protocol](https://www.mayaprotocol.com/) | Extra cross-chain pairs |
+| [1inch](https://1inch.io/) | EVM DEX aggregation |
+| [KyberSwap](https://kyberswap.com) | EVM DEX aggregation |
+| [Li.Fi](https://li.fi/) | Cross-EVM bridging |
+| [Jupiter](https://jup.ag/) | Solana |
+| SwapKit and other aggregators | Additional EVM / cross-chain routes |
+
+Large THORChain / Maya swaps can stream automatically.
+
+***
+
+## Blockaid
+
+On-chain security is on by default. Turn it off under **Settings → Vault Settings → Advanced**. The verify screen can warn on a malicious route or contract. Same rule as send: it is a warning, not a block you cannot override.
 
 ***
 
 ## Related
 
-* [Keysign](../../security-and-technology/keysign.md) — How transaction signing works
 * [Sending](sending.md)
 * [DeFi](../defi/)
+* [Referrals](../referrals.md)
+* [$VULT in-app fee discounts](../../vultisig-token/vult/in-app-utility.md)

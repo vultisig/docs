@@ -1,71 +1,68 @@
 ---
 description: >-
-  Send, receive, and swap from the Vultisig Wallet tab across 30+ chains.
+  Send, receive, and swap from the Vultisig Wallet tab across 36+ chains.
 ---
 
 # Vultisig Wallet tab
 
-The Wallet tab is the primary interface for managing crypto assets. It displays all holdings across supported blockchains and provides access to core transaction functions.
+This is where you see balances and send, receive, swap, or buy.
 
 ***
 
-## Features
+## Actions
 
-| Function            | Description                                                             |
-| ------------------- | ----------------------------------------------------------------------- |
-| **View Assets**     | See balances across all chains in one view                              |
-| **Receive**         | Generate addresses and QR codes for deposits                            |
-| **Send**            | Transfer assets to any address                                          |
-| **Swap**            | Exchange assets within or across chains                                 |
-| **Chain Functions** | Chain-specific actions via the **Functions** button on supported chains |
+| Function | Description |
+| --- | --- |
+| **View assets** | Balances across chains in one view |
+| **Receive** | Addresses and QR codes for deposits |
+| **Send** | Transfer to an address. Address book and destination tags where the chain needs them |
+| **Swap** | Same-chain and cross-chain. Vultisig picks the best quote |
+| **Buy** | Fiat on-ramp on supported coins (not QBTC) |
+| **Chain functions** | Extra actions via **Functions** on chains that offer them |
 
 ***
 
-## Chain Functions
+## Chain functions
 
-Some chains expose extra actions beyond send/receive/swap. Tap a chain in the Wallet tab, then tap **Functions** to access them.
+Some chains expose extra actions beyond send / receive / swap. Open the chain in the Wallet tab, then tap **Functions**.
 
 | Chain | Functions |
-|-------|-----------|
-| [Cosmos Hub / Kujira / Osmosis](../defi/cosmos.md) | IBC Transfer, Switch (→ THORChain), Custom transactions |
-| [TON](../defi/ton.md) | Stake, Unstake |
+| --- | --- |
+| [Cosmos Hub, Osmosis](../defi/cosmos.md) | IBC transfer |
 | [dYdX](../defi/dydx.md) | Vote on governance proposals |
+| Bitcoin, Bitcoin Cash, Litecoin, Dogecoin, Ethereum, Avalanche, BSC, Base, Ripple | Add THORChain LP |
+| MayaChain | Leave, custom memo |
+
+TON stake / unstake and Solana / Terra staking are on the [DeFi tab](../defi/), not Functions.
+
+Kujira may still appear on some iOS builds. The network is wound down and is removed from the SDK. Do not treat it as a current chain.
 
 ***
 
-## Supported Chains
+## Supported chains
 
-Vultisig supports 30+ blockchains including:
+The apps expose these networks from one vault. Addresses are derived automatically.
 
-* **UTXO**: Bitcoin, Litecoin, Dogecoin, Bitcoin Cash, Dash
-* **EVM**: Ethereum, Arbitrum, Optimism, Base, Polygon, BSC, Avalanche
-* **Cosmos**: Cosmos Hub, Osmosis, Kujira, Dydx, THORChain, Maya
-* **Other**: Solana, Polkadot, Sui, TON, Ripple
+* **UTXO:** Bitcoin, Bitcoin Cash, Litecoin, Dogecoin, Dash, Zcash
+* **EVM:** Ethereum, Arbitrum, Optimism, Base, Polygon, BSC, Avalanche, Blast, Cronos, zkSync, Mantle, Hyperliquid, Sei, Robinhood
+* **Cosmos:** Cosmos Hub, Osmosis, dYdX, Terra, Terra Classic, Noble, Akash, THORChain, MayaChain
+* **Other:** Solana, Polkadot, Bittensor, TON, Ripple, Tron, Cardano, Sui
 
-All chains are accessible from a single vault. Each vault generates addresses for all supported chains automatically.
+QBTC appears in some builds as a post-quantum testnet. It is not a WalletCore signing chain. Do not send mainnet funds there.
 
-***
-
-## Transaction Security
-
-All transactions from the Wallet tab require threshold signatures:
-
-1. Transaction is initiated on one device
-2. Other devices join the signing session
-3. Each device independently verifies and approves
-4. Threshold signatures combine to create a valid transaction
-5. Transaction broadcasts to the blockchain
-
-No single device ever holds the complete private key. See [How Keysigning Works](../../security-and-technology/keysign.md) for technical details.
+That is 36+ mainnet networks. The SDK `Chain` enum is the same set plus QBTC.
 
 ***
 
-## Guides
+## Transaction security
 
-{% content-ref url="sending.md" %}
-[sending.md](sending.md)
-{% endcontent-ref %}
+Verify the destination, amount, and (on EVM) the decoded function on the sign screen. [Blockaid](sending.md#blockaid) scans before you sign. It is on by default. Turn it off in Settings.
 
-{% content-ref url="swapping.md" %}
-[swapping.md](swapping.md)
-{% endcontent-ref %}
+***
+
+## Related
+
+* [Send](sending.md)
+* [Swap](swapping.md)
+* [DeFi](../defi/)
+* [Referrals](../referrals.md)

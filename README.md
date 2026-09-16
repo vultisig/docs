@@ -1,100 +1,79 @@
 ---
 description: >-
-  Vultisig docs: seedless multi-chain vault, Fast Vault and Secure Vault, SDK
-  and CLI. No seed phrase.
+  Vultisig docs: seedless MPC vault. ECDSA and EdDSA from one vault. Fast
+  Vault, Secure Vault, SDK, and CLI. No seed phrase.
 cover: .gitbook/assets/Banner-new.png
 coverY: 0
 ---
 
-# Vultisig documentation
-
-## Vultisig Project
-
-Vultisig is an open-source cryptocurrency vault that takes a novel approach: seedless, multi-factor, multi-chain security based on MPC (Multi-Party Computation) technology.
-
-Available on iOS, Android, macOS, Windows, Linux, and as a browser extension—Vultisig delivers multi-sig level security without the traditional multi-sig complexity.
-
-***
+# Vultisig Documentation
 
 ## What is Vultisig?
 
-Vultisig is a multi-chain, multi-factor, multi-platform Threshold Signature Scheme (TSS) vault. No specialized hardware required.
+Vultisig is an open-source vault with no seed phrase. It uses threshold signatures (MPC / TSS). Your key is split into shares. They sign together. One share cannot move funds.
 
-Supporting UTXO, EVM, BFT, and EdDSA chains (Bitcoin, Ethereum, Cosmos, Solana, and 30+ more), Vultisig generates both ECDSA and EdDSA signature keys for every vault. Hold and sign for BTC, ETH, SOL, and more from a single vault setup.
+One vault generates both ECDSA and EdDSA keys. You hold and sign Bitcoin, Ethereum, Cosmos, Solana, and 36+ other UTXO, EVM, BFT, and EdDSA chains. Named list: [Wallet tab](app-guide/wallet/).
 
-Powered by [DKLS23](https://github.com/silence-laboratories/dkls23), a state-of-the-art TSS protocol developed by Silence Laboratories.
+Signing uses [DKLS23](https://github.com/silence-laboratories/dkls23) from Silence Laboratories.
 
-Built by the founders of [THORChain](https://thorchain.org)—creators of the largest and longest-running multi-chain DEX powered by Threshold Signature Schemes.
-
-### Key Features
-
-* **No seed phrases**: Vault shares replace vulnerable 12/24 word seeds
-* **Multi-chain**: 30+ blockchains from one vault (Bitcoin, Ethereum, Solana, Cosmos, and more)
-* **Multi-factor**: Multiple devices required to sign transactions
-* **Multi-platform**: iOS, Android, macOS, Windows, Linux, Browser Extension
-* **Open source**: Fully auditable code on [GitHub](https://github.com/vultisig)
+* **No seed phrase.** Vault shares replace 12/24-word seeds.
+* **MPC / TSS.** Threshold signatures. No complete private key in normal operation.
+* **ECDSA and EdDSA.** Both key types from one vault.
+* **36+ chains** from one vault.
+* **Platforms:** iOS, Android, macOS, Windows, Linux, Chrome, Firefox.
+* **Open source** on [GitHub](https://github.com/vultisig).
 
 ***
 
-## How It Works
+## How it works
 
-Vultisig works like a traditional multisig wallet but with flexible setup options and modern convenience.
+**No complete key.** Shares sign together. One lost or stolen share cannot move funds.
 
-**Fast Vault** — Single device + Vultisig server. Quick setup, instant signing.
+**A normal signature on-chain.** No published signer set, no extra contract. That is why it works on Bitcoin and in DeFi where on-chain multisig often does not.
 
-**Secure Vault** — Multiple devices you control:
+**Devices you already own.** Shares sit in the device Secure Enclave, behind biometrics.
 
-* 2-of-2: Fastest setup, no fallback
-* 2-of-3: Recommended, with fallback device
-* 3-of-4: Maximum security, with fallback device
+**Open source and audited.** Code on [GitHub](https://github.com/vultisig). [Audit reports](help/security.md).
 
 {% hint style="info" %}
-These are the most common configurations, but Vultisig supports a wide range of threshold setups for advanced users.
+**No registration.** Vultisig does not keep your email. Fast Vaults use it once to send a backup file, then discard it.
 {% endhint %}
 
 ***
 
-## Why Vultisig?
+## Vault types
 
-**Better security model:**
+Think of the vault as a safe that needs a threshold of keys to open.
 
-* Vault shares don't store funds—no funds at risk if you lose a share
-* No on-chain registration of signing keys
-* Compatible with all chains and fully DeFi compatible (multi-sigs often aren't)
+**Fast Vault** — Your device plus VultiServer (2-of-2). About a minute to set up. VultiServer signs with you and can never sign alone.
 
-**Uses devices you already own:**
+**Secure Vault** — Two or more devices you control:
 
-* Phones, tablets, laptops with familiar interfaces
-* Secure Enclaves protect vault shares
-* Biometric authentication built-in
-* Doesn't look like a hardware wallet (better operational security)
-
-**Open source and audited:**
-
-* Fully transparent codebase on [GitHub](https://github.com/vultisig)
-* Security audits completed ([view reports](help/security.md))
+* 2-of-2: both devices required. No fallback if one is gone.
+* 2-of-3: the usual setup. You can lose one device and still sign.
+* 3-of-4: three of four devices have to agree.
 
 {% hint style="info" %}
-**No registration required.** Vultisig never permanently stores your email or personal info. Fast Vaults briefly require email to send backup files—used once and not retained.
+Those are the usual setups. Other thresholds are available if you need them.
 {% endhint %}
 
 ***
 
 ## Quick Navigation
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>New to Vultisig? Download, create your first vault, and make your first transaction.</td><td><a href="getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>App Guide</strong></td><td>Complete guides for Wallet, DeFi, and Vault Management features.</td><td><a href="app-guide/overview.md">overview.md</a></td></tr><tr><td><strong>Security &#x26; Technology</strong></td><td>How threshold signatures work, protocol deep-dives, and security architecture.</td><td><a href="security-and-technology/overview.md">overview.md</a></td></tr><tr><td><strong>Developer Docs</strong></td><td>Build on Vultisig: SDK, Extension integration, Marketplace development.</td><td><a href="developer-docs/marketplace/">marketplace</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>New here? Download, create a vault, back it up, then send.</td><td><a href="getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>App Guide</strong></td><td>Wallet, DeFi, vault management, Settings.</td><td><a href="app-guide/overview.md">overview.md</a></td></tr><tr><td><strong>Security &#x26; Technology</strong></td><td>How threshold signatures work, and the signing protocols.</td><td><a href="security-and-technology/overview.md">overview.md</a></td></tr><tr><td><strong>Developer Docs</strong></td><td>SDK, CLI, and Extension integration.</td><td><a href="developer-docs/">README.md</a></td></tr></tbody></table>
 
 ***
 
 ## Vultisig Ecosystem
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Vultisig Wallet</strong></td><td>Core vault application for iOS, Android, macOS, Windows, Linux</td><td><a href="getting-started/download-install.md">download-install.md</a></td></tr><tr><td><strong>Vultisig Extension</strong></td><td>Browser extension for Web3 dApp connections</td><td><a href="vultisig-ecosystem/vultisig-extension/">vultisig-extension</a></td></tr><tr><td><strong>Web App</strong></td><td>View-only vault access and airdrop tracking</td><td><a href="vultisig-ecosystem/web-app.md">web-app.md</a></td></tr><tr><td><strong>Marketplace</strong></td><td>Self-custodial automation marketplace</td><td><a href="vultisig-ecosystem/marketplace.md">marketplace.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Vultisig Wallet</strong></td><td>iOS, Android, macOS, Windows, Linux</td><td><a href="getting-started/download-install.md">download-install.md</a></td></tr><tr><td><strong>Vultisig Extension</strong></td><td>Full vault in Chrome and Firefox, plus dApp connect</td><td><a href="vultisig-ecosystem/vultisig-extension/">vultisig-extension</a></td></tr><tr><td><strong>Marketplace</strong></td><td>Plugin marketplace (paused, not in production)</td><td><a href="vultisig-ecosystem/marketplace.md">marketplace.md</a></td></tr></tbody></table>
 
 ***
 
 ## Download
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>iOS</strong></td><td><a href="https://apps.apple.com/us/app/vultisig/id6503023896">https://apps.apple.com/us/app/vultisig/id6503023896</a></td></tr><tr><td><strong>Android</strong></td><td><a href="https://play.google.com/store/apps/details?id=com.vultisig.wallet">https://play.google.com/store/apps/details?id=com.vultisig.wallet</a></td></tr><tr><td><strong>macOS</strong></td><td><a href="https://github.com/vultisig/vultisig-ios">https://github.com/vultisig/vultisig-ios</a></td></tr><tr><td><strong>Windows/Linux</strong></td><td><a href="https://github.com/vultisig/vultisig-windows/releases">https://github.com/vultisig/vultisig-windows/releases</a></td></tr><tr><td><strong>Browser Extension</strong></td><td><a href="https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb">https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>iOS</strong></td><td><a href="https://apps.apple.com/us/app/vultisig/id6503023896">https://apps.apple.com/us/app/vultisig/id6503023896</a></td></tr><tr><td><strong>Android</strong></td><td><a href="https://play.google.com/store/apps/details?id=com.vultisig.wallet">https://play.google.com/store/apps/details?id=com.vultisig.wallet</a></td></tr><tr><td><strong>macOS</strong></td><td><a href="https://github.com/vultisig/vultisig-ios">https://github.com/vultisig/vultisig-ios</a></td></tr><tr><td><strong>Windows/Linux</strong></td><td><a href="https://github.com/vultisig/vultisig-windows/releases">https://github.com/vultisig/vultisig-windows/releases</a></td></tr><tr><td><strong>Chrome Extension</strong></td><td><a href="https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb">https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb</a></td></tr><tr><td><strong>Firefox Extension</strong></td><td><a href="https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/">https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/</a></td></tr></tbody></table>
 
 ***
 

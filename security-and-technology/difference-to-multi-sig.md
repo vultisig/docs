@@ -1,7 +1,7 @@
 ---
 description: >-
-  TSS vs Multi-Sig explained. Why threshold signatures are superior: no
-  private key reconstruction, chain-agnostic, lower fees, better privacy.
+  TSS vs on-chain multisig: no complete private key, works on Bitcoin,
+  normal signature on-chain.
 ---
 
 # Vultisig vs multisig

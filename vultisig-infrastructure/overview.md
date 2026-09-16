@@ -1,16 +1,14 @@
 ---
 description: >-
-  Vultisig infrastructure: Vultiserver for auto-signing and Relay Server
-  for secure device communication. Trustless design, no tracking.
+  Vultisig infrastructure: Vultiserver (Fast Vault co-signer) and the
+  relay (encrypted device messaging).
 ---
 
 # Vultisig infrastructure
 
-Vultisig aims to be as trustless as possible while still providing the best service possible.
+Two services sit next to the apps: Vultiserver (the Fast Vault co-signer) and the relay (device messaging).
 
-To achieve this, Vultisig doesn't use any tracking or data collection in-app, see more here.
-
-Nevertheless, it provides two solutions to improve the user experience, which are the Vultiserver and the Relay-Server:
+In-app analytics can be turned off. [Privacy Policy](../help/privacy.md).
 
 {% content-ref url="what-is-vultisigner/" %}
 [what-is-vultisigner](what-is-vultisigner/)

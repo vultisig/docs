@@ -1,36 +1,32 @@
 ---
 description: >-
-  Earn swap fee rebates with Vultisig referrals. Share your code, get rewards
-  via THORChain nested affiliates. Passive income from your network.
+  Vultisig referrals: share a code for a swap-fee rebate. THORChain nested
+  affiliates.
 ---
 
 # Vultisig referrals
 
-## What are Vultisig Referrals
+A referral code moves a slice of the swap fee. You create a code, or you use someone else's.
 
-Vultisig Referrals uses [THORChain Nested Affiliates](https://dev.thorchain.org/affiliate-guide/affiliate-fee-guide.html) to redistribute a portion of swap fees back to users.
+* If someone uses **your** code, you earn 10 basis points (0.10%) on their swap.
+* If you use **their** code, you save 5 basis points (0.05%) on yours.
+
+The app writes the affiliate into the THORChain swap memo. The rebate goes to the code owner on-chain.
 
 <figure><img src="../.gitbook/assets/image (18).png" alt="" width="375"><figcaption></figcaption></figure>
 
-## What do Vultisig users gain?
+***
 
-* Users who refer others — _referrers_ — earn 10 basis points (0.10%) on each referred swap.
-* Users who use a referral code save 5 basis points (0.05%) on each swap.
+## How to set it up
 
-## How do they work?
+**Settings → Referral Code**
 
-When a swap is made, the app creates a memo for the swap on THORChain. This memo includes the user's chosen affiliate and redistributes the fees directly to the affiliate's owner.
-
-## How to manage the Vultisig Referrals
-
-In the Referrals section of the app (Settings → Referral Code), you can:
-
-* Create your own referral code and start earning.
-* Enter a friend's code and start saving.
-* Edit or change your saved referral code.
+* Create your own code
+* Enter a friend's code
+* Change the saved code later
 
 {% hint style="info" %}
-Note: You can replace your friend's referral code at any time, but cannot leave the field blank once a code has been entered.
+You can replace a friend's code at any time. You cannot clear the field once a code is set.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
@@ -39,5 +35,5 @@ Note: You can replace your friend's referral code at any time, but cannot leave 
 
 ## Related
 
-- [Swapping](wallet/swapping.md) — Swap tokens using THORChain/Maya
-- [THORChain](defi/thorchain.md) — THORChain DeFi integration
+- [Swapping](wallet/swapping.md)
+- [THORChain](defi/thorchain.md)

@@ -1,28 +1,28 @@
 ---
 description: >-
-  Back up your Vultisig vault shares securely. Export, import, and recover
-  vaults without seed phrases. Essential guide to protecting your assets.
+  Export a Vultisig vault backup from Settings. Each device has its own
+  share. Full storage and recovery: Backup & Recovery.
 ---
 
 # Export a Vultisig vault backup
 
 {% hint style="danger" %}
-**Vault backups are critical.** Without proper backups, device loss means permanent loss of access to funds.
+**Export a backup before you deposit.**
+
+Without a backup, a lost device can mean lost funds.
 {% endhint %}
 
-For comprehensive backup instructions, storage recommendations, and recovery procedures, see the [Backup & Recovery Guide](../../getting-started/backup-recovery.md).
+Full storage and recovery: [Backup & Recovery](../../getting-started/backup-recovery.md).
 
 ***
 
-## Quick Reference
-
-### How to Backup
+## How to backup
 
 1. Go to **Settings** → **Vault Settings**
-2. Select **Backup**
-3. (Optional) Set an encryption password
-4. Save the `.vult` file to a secure location
-5. **Repeat for every device** in your vault
+2. Tap **Backup**
+3. Optionally set a password on the file — you will need it to restore
+4. Save the `.vult` file somewhere you will still have if this device is gone
+5. **Repeat on every other device** in the vault
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Backup in Settings</p></figcaption></figure>
 
@@ -32,12 +32,12 @@ For comprehensive backup instructions, storage recommendations, and recovery pro
 
 ***
 
-## Key Points
+## Keep in mind
 
-- Each device has a **unique vault share** requiring its own backup
-- Vault shares use the `.vult` extension
-- **Never store multiple shares in the same location**
-- Backups become invalid after [resharing](vault-reshare.md) — create new backups
+- Each device has its own share, and its own backup
+- Files use the `.vult` extension
+- **Never store two shares in the same place**
+- After a [reshare](vault-reshare.md), export new backups. Do not mix old and new sets
 
 ***
 

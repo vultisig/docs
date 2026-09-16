@@ -6,7 +6,7 @@ description: >-
 
 # Vultisig vault details
 
-The Vault Details screen displays technical information about the current vault configuration.
+Vault Details shows this vault's name, type, public keys, and signing threshold.
 
 <figure><img src="../../.gitbook/assets/Vault Details.png" alt="" width="188"><figcaption><p>Vault Details view</p></figcaption></figure>
 

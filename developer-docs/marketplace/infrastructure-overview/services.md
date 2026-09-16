@@ -1,5 +1,10 @@
 # Services Architecture
 
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
 ## TL;DR
 
 The Vultisig app ecosystem uses a distributed architecture with four core services: **HTTP Server** (API interface and app management), **Worker Service** (asynchronous transaction processing), **Scheduler Service** (time-based triggers and recurring operations), and **Transaction Indexer** (blockchain monitoring and event processing). These services communicate through Redis queues and interact with Vultisig's managed Verifier infrastructure for TSS-based transaction signing. To build your own app, implement the HTTP Server and transaction logic locally, import the Scheduler and TX Indexer from the verifier package, test against local Vultisig infrastructure, then submit an app configuration YAML for production deployment where only your custom services run while the [Verifier](https://github.com/vultisig/verifier) and [Fee App](https://github.com/vultisig/feeplugin) remain Vultisig-managed. Key packages include `github.com/vultisig/verifier/plugin`, `github.com/vultisig/recipes/engine`, `github.com/hibiken/asynq` for queuing, and blockchain-specific clients for EVM, Solana, and Bitcoin networks.

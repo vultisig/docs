@@ -1,12 +1,12 @@
 ---
 description: >-
-  Download the Vultisig app for iOS, Android, Windows, Linux, or Chrome. One
-  vault, 30+ chains, no seed phrase.
+  Download the Vultisig app for iOS, Android, Windows, Linux, Chrome, or
+  Firefox. One vault, 36+ chains, no seed phrase.
 ---
 
 # Download Vultisig
 
-Vultisig is available on all major platforms. Download on at least two devices to create a Secure Vault, or use a single device with a Fast Vault.
+Install the app on every device that will hold a vault share. Fast Vault needs one device. Secure Vault needs two or more — put the app on each of them before you start KeyGen.
 
 ***
 
@@ -15,7 +15,7 @@ Vultisig is available on all major platforms. Download on at least two devices t
 | Platform | Link | Notes |
 |----------|------|-------|
 | **iOS** | [App Store](https://apps.apple.com/us/app/vultisig/id6503023896) | iPhone and iPad |
-| **iOS TestFlight** | [TestFlight](https://testflight.apple.com/join/dxKWaCNK) | Beta features |
+| **iOS TestFlight** | [TestFlight](https://testflight.apple.com/join/dxKWaCNK) | Beta |
 | **Android** | [Google Play](https://play.google.com/store/apps/details?id=com.vultisig.wallet) | Android 8.0+ |
 
 ***
@@ -26,33 +26,28 @@ Vultisig is available on all major platforms. Download on at least two devices t
 |----------|------|-------|
 | **macOS** | [GitHub Releases](https://github.com/vultisig/vultisig-ios) | Build from source |
 | **Windows** | [GitHub Releases](https://github.com/vultisig/vultisig-windows/releases) | Windows 10/11 |
-| **Linux** | [GitHub Releases](https://github.com/vultisig/vultisig-windows/releases) | AppImage available |
+| **Linux** | [GitHub Releases](https://github.com/vultisig/vultisig-windows/releases) | AppImage |
 
 ***
 
-## Browser Extension
+## Browser extension
 
 | Browser | Link | Notes |
 |---------|------|-------|
-| **Chrome** | [Chrome Web Store](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb) | Connect to dApps |
-
-{% hint style="info" %}
-The browser extension requires the Vultisig mobile or desktop app to sign transactions. It's a companion tool, not a standalone wallet.
-{% endhint %}
+| **Chrome** | [Chrome Web Store](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb) | Full vault. Chrome, Brave, Edge |
+| **Firefox** | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/) | Full vault |
 
 ***
 
-## Source Code
+## Source
 
-Vultisig is fully open-source:
-
-- [iOS/macOS Source](https://github.com/vultisig/vultisig-ios)
-- [Android Source](https://github.com/vultisig/vultisig-android)
-- [Windows/Linux Source](https://github.com/vultisig/vultisig-windows)
+- [iOS/macOS](https://github.com/vultisig/vultisig-ios)
+- [Android](https://github.com/vultisig/vultisig-android)
+- [Windows/Linux](https://github.com/vultisig/vultisig-windows)
 
 ***
 
-## System Requirements
+## Requirements
 
 **Mobile:**
 - iOS 15.0 or later
@@ -61,10 +56,14 @@ Vultisig is fully open-source:
 **Desktop:**
 - Windows 10/11 (64-bit)
 - macOS 12.0 or later
-- Linux (most modern distributions)
+- Linux (64-bit; AppImage)
+
+**Browser:**
+- Chrome, Brave, or Edge (Chrome Web Store)
+- Firefox 140 or later
 
 ***
 
-## Next Step
+## Next
 
-Once installed, proceed to [Create Your Vault](create-vault.md).
+[Create a vault](create-vault.md)

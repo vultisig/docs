@@ -1,11 +1,11 @@
 ---
 description: >-
-  Support resources, security information, and legal documentation for Vultisig.
+  Vultisig FAQ, audits, privacy, terms, license, and the Telegram bot.
 ---
 
 # Vultisig help and legal
 
-This section provides support resources and legal documentation for Vultisig users.
+FAQ, audits, privacy, terms, license. Telegram bot is airdrop-era; registration is closed.
 
 ***
 
@@ -15,7 +15,7 @@ This section provides support resources and legal documentation for Vultisig use
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
 <tr><td><strong>FAQ</strong></td><td>Answers to common questions about Vultisig</td><td><a href="faq.md">faq.md</a></td></tr>
-<tr><td><strong>Vultisig Bot</strong></td><td>Telegram bot for airdrop registration and tracking</td><td><a href="vultisig-bot.md">vultisig-bot.md</a></td></tr>
+<tr><td><strong>Vultisig Bot</strong></td><td>Telegram bot (airdrop registration is concluded)</td><td><a href="vultisig-bot.md">vultisig-bot.md</a></td></tr>
 </tbody>
 </table>
 
@@ -26,7 +26,7 @@ This section provides support resources and legal documentation for Vultisig use
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>Security</strong></td><td>Audits, bug bounty, and security practices</td><td><a href="security.md">security.md</a></td></tr>
+<tr><td><strong>Security</strong></td><td>Audits and security practices</td><td><a href="security.md">security.md</a></td></tr>
 <tr><td><strong>MiCAR White Paper</strong></td><td>EU regulatory compliance documentation</td><td><a href="micar-white-paper.md">micar-white-paper.md</a></td></tr>
 </tbody>
 </table>
@@ -56,5 +56,5 @@ This section provides support resources and legal documentation for Vultisig use
 
 ## Related
 
-- [Getting Started](../getting-started/README.md) — New user guide
-- [Security & Technology](../security-technology/README.md) — Technical documentation
+- [Getting Started](../getting-started/overview.md)
+- [Security & Technology](../security-and-technology/overview.md)

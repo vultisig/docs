@@ -1,7 +1,7 @@
 ---
 description: >-
-  Upgrade your Vultisig vault from GG20 to DKLS23 protocol. Faster signing,
-  better security. Same addresses, no fund migration needed.
+  Upgrade a GG20 Vultisig vault to DKLS23. Faster signing. Same addresses.
+  Export new backups after.
 ---
 
 # Upgrade a Vultisig vault to DKLS23
@@ -14,13 +14,13 @@ Upgrades are only available for vaults created with the GG20 protocol.
 
 ## What is Upgrading?
 
-Upgrading changes the underlying TSS protocol from GG20 to DKLS23. Benefits include:
+Upgrade moves the vault from GG20 to DKLS23.
 
-* **Faster signing** — improved keygen and signing speed
-* **Extension compatibility** — required for [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/)
-* **Same addresses** — no need to migrate funds
+* Faster signing
+* Required for the [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/)
+* Same addresses. You do not move funds.
 
-Technical details are available in the [TSS section](../../security-and-technology/overview.md).
+Protocol pages: [Security and TSS](../../security-and-technology/overview.md).
 
 ***
 
@@ -40,10 +40,10 @@ The upgrade can be initiated from:
 
 ### Steps
 
-1. Initiate upgrade on one device
-2. Join with all other devices
-3. Complete the keygen process
-4. **Backup all new vault shares immediately**
+1. Start the upgrade on one device
+2. Join with every original device
+3. Wait until keygen finishes on all of them
+4. **Export a new backup from every device**
 
 ***
 

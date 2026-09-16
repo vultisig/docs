@@ -1,13 +1,13 @@
 ---
 description: >-
-  Reshare vault keys to add or remove devices. Upgrade security without
-  changing addresses or moving funds. Advanced feature for vault management.
+  Reshare a Vultisig vault to add or remove devices. Same addresses. No
+  fund move. Export new backups after.
 ---
 
 # Reshare a Vultisig vault
 
 {% hint style="danger" %}
-**Advanced feature.** Access to funds is at risk if not properly managed.
+**Reshare carefully.** A mistake here can lock you out. Read the warnings at the bottom before you start.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Reshare in settings</p></figcaption></figure>
@@ -16,12 +16,14 @@ description: >-
 
 ## What is Resharing?
 
-Resharing modifies the number of devices in a vault without changing wallet addresses or moving funds. This feature enables:
+Reshare changes which devices hold shares. Addresses stay the same. Funds stay put.
 
-- Adding new devices to increase security
-- Removing devices that are no longer needed
-- Including Vultiserver in an existing Secure Vault
-- Replacing a lost device with a new one
+You can:
+
+- Add a device (for example 2-of-2 → 2-of-3)
+- Remove a device you no longer want in the set
+- Include Vultiserver in an existing Secure Vault
+- Replace a lost device, if you still have the threshold
 
 <figure><img src="../../.gitbook/assets/Reshare.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -47,14 +49,14 @@ A threshold majority is **always** required. For a 2-of-3 vault, at least 2 devi
 
 ***
 
-## How to Reshare
+## How to reshare
 
 1. Go to **Settings** → **Vault Settings** → **Reshare**
 2. Choose whether to include Vultiserver
-3. Start the reshare ceremony on the initiating device
-4. Join with other devices (scan QR or use relay)
-5. Add new devices or exclude devices as needed
-6. Complete the keygen process
+3. Start the ceremony on one device
+4. Join with the other devices (QR or relay)
+5. Add the new device, or leave an old one out
+6. Wait until every remaining device finishes
 
 <figure><img src="../../.gitbook/assets/Reshare Vault - Start Screen.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -86,9 +88,9 @@ If a device is lost but you have threshold access:
 ## Critical Warnings
 
 {% hint style="danger" %}
-**Backup immediately after resharing!**
+**Export new backups as soon as reshare finishes.**
 
-After resharing, all vault shares change. Old backups are NOT compatible with new shares.
+Every share changes. Old backups belong to the old set only. Do not mix the two.
 {% endhint %}
 
 {% hint style="info" %}

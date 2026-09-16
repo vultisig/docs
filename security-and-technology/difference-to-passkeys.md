@@ -1,7 +1,7 @@
 ---
 description: >-
-  TSS vs Passkeys comparison. Why threshold signatures offer better crypto
-  security: multi-device, no single point of failure, true self-custody.
+  TSS vs passkeys: multi-device threshold, no corporate passkey platform,
+  36+ chains.
 ---
 
 # Vultisig vs passkeys
@@ -51,9 +51,9 @@ The authentication process constitutes a single point of failure. A physical att
 
 Recognizing these shortcomings, Vultisig developed a solution tailored for cryptocurrency:
 
-1. **Open Source Everything**: Transparency through open-source protocols
-2. **Multi-Chain Compatibility**: Seamless interoperability across blockchain networks
-3. **Multi-Factor Authentication**: Multiple devices eliminate single points of failure
+1. **Open source.** Protocols and apps on GitHub.
+2. **Multi-chain.** One vault, 36+ networks.
+3. **Threshold of devices.** One device cannot move funds.
 
 ***
 
@@ -62,7 +62,7 @@ Recognizing these shortcomings, Vultisig developed a solution tailored for crypt
 | Factor                      | Passkeys                           | Vultisig TSS                    |
 | --------------------------- | ---------------------------------- | ------------------------------- |
 | **Single Point of Failure** | Yes (one device)                   | No (distributed across devices) |
-| **Multi-Chain**             | No                                 | Yes (30+ chains)                |
+| **Multi-Chain**             | No                                 | Yes (36+ chains)                |
 | **Self-Custody**            | Partial (corporate infrastructure) | Full (no third parties)         |
 | **Device Loss Recovery**    | Dependent on platform              | Threshold redundancy            |
 | **Open Source**             | Partial                            | Fully open source               |

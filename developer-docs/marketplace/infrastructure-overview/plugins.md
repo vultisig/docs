@@ -1,6 +1,11 @@
 # What is a Plugin?
 
-Vultisig plugins are vault automation workflows created by Vultisig or third-party developers that enable automatic on-chain interactions for users. Due to Vultisig's use of MPC technology, these plugins are not limited by any specific chain, action, or protocol interaction. This gives developers the freedom to design secure, self-custodial automations without users giving up private keys or granting full access to wallet funds.
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
+A plugin is an automation that proposes transactions; the vault signs. Users do not hand over keys. Planned product. Not in production.
 
 ## How Plugins Work
 

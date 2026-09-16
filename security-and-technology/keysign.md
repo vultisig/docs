@@ -6,7 +6,7 @@ description: >-
 
 # How Vultisig signs a transaction
 
-Keysigning is the process by which threshold devices collaborate to sign a transaction. This page explains how signing works for both Fast Vaults and Secure Vaults.
+Keysigning is how a threshold of devices sign a transaction together. Fast Vault and Secure Vault both use it. The path looks different on the screen.
 
 <figure><img src="../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
 

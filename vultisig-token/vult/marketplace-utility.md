@@ -1,14 +1,16 @@
 ---
 description: >-
-  $VULT Marketplace utility: Developer registration fees, plugin listing fees,
-  and premium placement. Token burns drive scarcity.
+  $VULT marketplace utility (paused, not in production). Planned developer
+  registration fees, listing fees, and premium placement.
 ---
 
 # $VULT marketplace utility
 
-{% hint style="info" %}
-The Marketplace is not yet fully rolled out. The exact fees for each category are still to be determined. They will be updated as soon as they are finalized.
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
 {% endhint %}
+
 
 ## **Developer and Plugin Registration Fee**
 

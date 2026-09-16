@@ -1,12 +1,12 @@
 ---
 description: >-
-  Manage your Vultisig vault: backup, rename, view details, reshare keys,
-  and upgrade security. Complete guide to vault maintenance.
+  Manage a Vultisig vault: backup, rename, details, reshare, QR, GG20
+  upgrade. Open from Settings.
 ---
 
 # Manage a Vultisig vault
 
-Vault management options are available in the Settings menu. These features allow users to maintain, backup, and modify their vault configuration.
+Open **Settings** when you need to back up, rename, reshare, export a QR, or upgrade a GG20 vault.
 
 <figure><img src="../../.gitbook/assets/ManageVault.png" alt=""><figcaption></figcaption></figure>
 
@@ -22,6 +22,7 @@ Vault management options are available in the Settings menu. These features allo
 | [Vault Reshare](vault-reshare.md) | Add or remove devices |
 | [Vault QR](vault-qr.md) | Export public keys for sharing |
 | [Vault Upgrade](vault-upgrade.md) | Upgrade from GG20 to DKLS23 |
+| [Settings](../settings.md) | Address book, WalletConnect, `$VULT` tiers, Blockaid, folders |
 
 ***
 
@@ -35,5 +36,5 @@ Vault management options are available in the Settings menu. These features allo
 
 ## Related
 
-- [Backup & Recovery](../../getting-started/backup-recovery.md) - Essential backup guide
-- [Creating a Vault](../creating-a-vault/) - Vault setup options
+- [Backup & Recovery](../../getting-started/backup-recovery.md)
+- [Creating a vault](../creating-a-vault/)

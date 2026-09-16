@@ -6,12 +6,9 @@ description: >-
 
 # Web3 dApps with Vultisig Extension
 
-The Vultisig Extension aims to support all dApps and interfaces where a wallet connection is possible.\
-It either is natively integrated or allows connections via other wallet injections if dedicated Vultisig Extension support is unavailable.
+The Extension connects to dApps that accept a wallet. Native Vultisig support where it exists, or another injected provider if the site does not list Vultisig yet.
 
-As we add more chains supported by the Vultisig Extension, we will also constantly expand connectivity to the whole web3 space. \
-\
-This it the current list of supported dApps and interfaces:
+Current list:
 
 | Dex/DeFi                                                                     | NFT Marketplace                     | Utilities                          |
 | ---------------------------------------------------------------------------- | ----------------------------------- | ---------------------------------- |

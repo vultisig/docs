@@ -12,7 +12,7 @@ The Threshold Signature Scheme (TSS) is part of the broader field of Multi-Party
 
 In 2018, [the "GG18" paper by Gennaro-Goldfeder](https://eprint.iacr.org/2019/114.pdf) introduced significant advancements, simplifying and enhancing the efficiency of TSS. This was further improved in 2020 with the ["GG20" paper](https://eprint.iacr.org/2020/540), which introduced "identifiable abort"—the ability to identify which party caused a protocol failure.
 
-Vultisig utilizes this improved version of TSS, implemented in a comprehensive [library from Binance](https://github.com/bnb-chain/tss-lib) and thoroughly tested in production by THORChain.
+Vultisig used this GG20 stack, implemented in a [library from Binance](https://github.com/bnb-chain/tss-lib), for vaults created before the DKLS23 upgrade. New vaults use [DKLS23](how-dkls23-works.md). Existing GG20 vaults can [upgrade](../app-guide/vault-management/vault-upgrade.md).
 
 GG20 TSS integrates Homomorphic Secret Sharing, Zero Knowledge Proofs, and Multi-Party Computation (MPC) to securely sign transactions without revealing sensitive information.
 

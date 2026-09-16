@@ -1,7 +1,6 @@
 ---
 description: >-
-  Vultisig privacy policy. How user data is collected, used, and protected.
-  Commitment to user privacy and data minimization.
+  Vultisig privacy policy. No account, no KYC. What is collected and what is not.
 ---
 
 # Vultisig privacy policy
@@ -12,9 +11,7 @@ This privacy policy describes how Vultisig ("we", "us", "our") collects, uses, a
 
 ***
 
-## Our Commitment
-
-Vultisig is designed with privacy as a core principle:
+## Defaults
 
 - **No account required**: Use Vultisig without registration
 - **No KYC**: No identity verification required
@@ -28,7 +25,7 @@ Vultisig is designed with privacy as a core principle:
 ### Information We Do NOT Collect
 
 - Private keys or vault shares
-- Wallet addresses (unless voluntarily registered for airdrop)
+- Wallet addresses (unless voluntarily registered for the concluded airdrop)
 - Transaction history
 - Personal identification information
 - Location data
@@ -44,8 +41,8 @@ Vultisig is designed with privacy as a core principle:
 - Temporary session data for transaction signing
 - Automatically deleted after signing completion
 
-**Airdrop Registration** (voluntary):
-- Wallet addresses you choose to register
+**Airdrop Registration** (concluded; was voluntary):
+- Wallet addresses you chose to register
 - Publicly visible on-chain balance data
 
 ***
@@ -80,7 +77,7 @@ We do NOT:
 
 - Anonymized analytics (if enabled)
 - Temporary relay session data
-- Airdrop registration data (if registered)
+- Airdrop registration data (if you registered while the program ran)
 
 ***
 

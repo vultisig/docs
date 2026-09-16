@@ -4,7 +4,11 @@ description: The launch of the Vultisig Token to the world.
 
 # Launch of $VULT
 
-> **Last updated:** 2025‑10‑20 - reflects the “Token Launch Update and New Principles for Community Communication” Medium post. [Read the full announcement](https://vultisig.medium.com/token-launch-update-and-new-principles-for-community-communication-a57898b5614e).
+{% hint style="info" %}
+**Launched.** $VULT went live on 27 October 2025. It trades on Uniswap (Ethereum) and Kraken. Contract: [`0xb788144DF611029C60b859DF47e79B7726C4DEBa`](https://etherscan.io/token/0xb788144df611029c60b859df47e79b7726c4deba). Current utility: [in-app fee discounts](../vultisig-token/vult/in-app-utility.md).
+{% endhint %}
+
+> **Launch brief last updated:** 2025-10-20. The text below is the launch record, not a countdown. [Read the announcement](https://vultisig.medium.com/token-launch-update-and-new-principles-for-community-communication-a57898b5614e).
 
 ## TL;DR / FAQ
 

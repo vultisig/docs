@@ -21,12 +21,12 @@
   * [Send crypto from Vultisig](app-guide/wallet/sending.md)
   * [Swap crypto in Vultisig](app-guide/wallet/swapping.md)
 * [DeFi in Vultisig](app-guide/defi/README.md)
-  * [Circle USDC in Vultisig](app-guide/defi/circle.md)
   * [THORChain in Vultisig](app-guide/defi/thorchain.md)
   * [MayaChain in Vultisig](app-guide/defi/maya.md)
   * [TRON in Vultisig](app-guide/defi/tron.md)
   * [Cosmos IBC in Vultisig](app-guide/defi/cosmos.md)
   * [TON staking in Vultisig](app-guide/defi/ton.md)
+  * [Solana DeFi in Vultisig](app-guide/defi/solana.md)
   * [dYdX in Vultisig](app-guide/defi/dydx.md)
 * [Manage a Vultisig vault](app-guide/vault-management/README.md)
   * [Vultisig vault details](app-guide/vault-management/vault-details.md)
@@ -35,6 +35,7 @@
   * [Reshare a Vultisig vault](app-guide/vault-management/vault-reshare.md)
   * [Vultisig vault QR](app-guide/vault-management/vault-qr.md)
   * [Upgrade a Vultisig vault to DKLS23](app-guide/vault-management/vault-upgrade.md)
+* [Vultisig Settings](app-guide/settings.md)
 * [Vultisig referrals](app-guide/referrals.md)
 
 ## Security & Technology
@@ -53,8 +54,7 @@
 * [Vultisig Extension](vultisig-ecosystem/vultisig-extension/README.md)
   * [How to use Vultisig Extension](vultisig-ecosystem/vultisig-extension/how-to-use-vultisig-connect.md)
   * [Web3 dApps with Vultisig Extension](vultisig-ecosystem/vultisig-extension/web3-support.md)
-* [Vultisig plugin marketplace](vultisig-ecosystem/marketplace.md)
-* [Vultisig web app](vultisig-ecosystem/web-app.md)
+* [Vultisig plugin marketplace (paused)](vultisig-ecosystem/marketplace.md)
 * [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md)
 * [Vultisig community tools](vultisig-ecosystem/community-tools.md)
 
@@ -62,11 +62,11 @@
 
 * [The $VULT Token](vultisig-token/vult/README.md)
   * [$VULT in-app fee discounts](vultisig-token/vult/in-app-utility.md)
-  * [$VULT marketplace utility](vultisig-token/vult/marketplace-utility.md)
+  * [$VULT marketplace utility (paused)](vultisig-token/vult/marketplace-utility.md)
   * [$VULT governance](vultisig-token/vult/governance-utility.md)
 * [Launch of $VULT](vult-token/launch.md)
-* [Vultisig $VULT airdrop](vultisig-token/airdrop/README.md)
-  * [Vultisig airdrop V2](vultisig-token/airdrop/airdrop-v2.md)
+* [Vultisig $VULT airdrop (concluded)](vultisig-token/airdrop/README.md)
+  * [Vultisig airdrop V2 (concluded)](vultisig-token/airdrop/airdrop-v2.md)
 
 ## Infrastructure
 
@@ -83,7 +83,7 @@
 * [Build AI agents on Vultisig](developer-docs/ai-agents/README.md)
   * [Agent signing authority in Vultisig](developer-docs/ai-agents/authority-and-security.md)
   * [Vultisig agent integration options](developer-docs/ai-agents/integration-options.md)
-* [Marketplace Plugins](developer-docs/marketplace/README.md)
+* [Marketplace Plugins (paused)](developer-docs/marketplace/README.md)
   * [What is a Plugin](developer-docs/marketplace/infrastructure-overview/plugins.md)
   * [Services Architecture](developer-docs/marketplace/infrastructure-overview/services.md)
   * [Policy Rules](developer-docs/marketplace/infrastructure-overview/metarules.md)
@@ -101,7 +101,7 @@
 
 * [Vultisig FAQ](help/faq.md)
 * [Vultisig Bot](help/vultisig-bot.md)
-* [Vultisig audits and bug bounty](help/security.md)
+* [Vultisig audits](help/security.md)
 * [Vultisig privacy policy](help/privacy.md)
 * [Vultisig terms of use](help/terms.md)
 * [Vultisig software license](help/license.md)

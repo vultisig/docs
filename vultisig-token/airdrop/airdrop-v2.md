@@ -1,16 +1,18 @@
 ---
 description: >-
-  Vultisig Airdrop V2: Enhanced rewards system. Earn $VULT based on vault
-  value × time held. Achievement tiers, daily drops, and multipliers.
+  The $VULT airdrop is concluded. This page is the published V2 design
+  record. Current utility is in-app swap fee discounts.
 cover: ../../.gitbook/assets/Vultisig - 1200x630 - 56- 2x.png
 coverY: 0
 ---
 
 # Vultisig airdrop V2
 
-Early adopters of the Vultisig wallet security standard are highly valued by the project, so Vultisig wants to give back to these high conviction members.&#x20;
+{% hint style="warning" %}
+**Concluded.** The $VULT airdrop is finished. There is no registration, no VULTIES accrual, and no seasonal distribution. This page is the published design record. Current utility: [in-app fee discounts](../vult/in-app-utility.md).
+{% endhint %}
 
-The future $VULT airdrop will be proportional:
+Season 0 and V2 used this published formula:
 
 $$
 vault\_asset\_value*time\_in\_vault
@@ -23,25 +25,27 @@ See further calculation [here](airdrop-v2.md#calculations).
 
 ## Airdrop Process
 
-To register their vaults for airdrop, users send their exported vault public keys to an airdrop registry, which checks for the presence of funds on chains and then begins counting the airdrop value.&#x20;
+The following was the published process while the airdrop ran.
 
-This will include most actions performed in Vultisig (such as binding to nodes and staking, etc.).&#x20;
+Users registered vaults by sending exported vault public keys to an airdrop registry, which checked for funds on chains and then counted airdrop value.
 
-**A new scan is performed every cycle (day), and the user's airdrop value accumulates in the form of VULTIES (airdrop points).**&#x20;
+This included most actions performed in Vultisig (such as binding to nodes and staking).
 
-Therefore, users who keep their funds in Vultisig the longest and use the vault actively will earn the highest airdrop value.&#x20;
+**A scan ran every cycle (day). Airdrop value accumulated as VULTIES (airdrop points).**
 
-The airdrop points are reset after each [season](airdrop-v2.md#seasons) and can be multiplied with special multipliers, which are listed [below](airdrop-v2.md#multipliers). The final share of the airdrop per season is the pro rata share of the airdrop allocation.
+Users who kept funds in Vultisig longest and used the vault actively earned the highest airdrop value.
+
+Points reset after each [season](airdrop-v2.md#seasons) and could be multiplied. Multipliers are listed [below](airdrop-v2.md#multipliers). The final share per season was the pro rata share of that season's allocation.
 
 ***
 
 ## Eligible assets
 
-Assets must have a dollar value from an external provider in order to accumulate VULTIES (airdrop points).
+Assets needed a dollar value from an external provider in order to accumulate VULTIES (airdrop points).
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>BTC</p></figcaption></figure>
 
-Supported Assets are:
+Supported assets were:
 
 * L1 tokens supported by Vultisig
 * Tokens supported by 1inch, Jupiter and displayed on the airdrop website
@@ -50,56 +54,56 @@ Supported Assets are:
 * vTHOR
 * Staked TON
 
-Assets will be auto-discovered. In the case of non-discovery, assets can be added manually to verify if they are eligible.
+Assets were auto-discovered. If not discovered, they could be added manually to check eligibility.
 
 ***
 
 ## Airdrop amount
 
-The airdrop will have a total amount of **6,000,000 $VULT** (6% of total supply) and will be split into:
+The published allocation was **6,000,000 $VULT** (6% of total supply):
 
-Season 0 : 1,000,000 $VULT\
-Season 1-4: 5,000,000 $VULT, distributed at the end of each season.
+Season 0: 1,000,000 $VULT\
+Season 1-4: 5,000,000 $VULT, at the end of each season.
 
 ***
 
 ## Seasons
 
-In order to create a more dynamic and inclusive airdrop system, a seasonal structure will be implemented, giving both early supporters and newcomers meaningful opportunities to participate.&#x20;
+The published plan used a seasonal structure for early supporters and later joiners.
 
-Each season will last 1 quarter and will have an airdrop share of 1,250,000 $VULT to distribute.&#x20;
+Each season lasted 1 quarter, with 1,250,000 $VULT to distribute.
 
-**Airdrop points will be reset after each season.**
+**Airdrop points reset after each season.**
 
 ***
 
 ## Multipliers
 
-To make the airdrop more interesting, several multipliers will be introduced starting with Season 1.
+The published design introduced multipliers starting with Season 1.
 
 ### **Swap Volume Multiplier**
 
-To incentivize trading and make the airdrop more dynamic, a swap multiplier will be introduced. This will reward active users of Vultisig with a higher airdrop share based on their swap volume. The multiplier will reset each season to prevent excessive advantages and maintain fairness.
+A swap multiplier rewarded active users with a higher airdrop share based on swap volume. The multiplier reset each season.
 
 ### **Referral Multiplier**
 
-The [Referral Program](airdrop-v2.md#referral-program) is tracking referred wallets via the [Referral Telegram bot](../../help/vultisig-bot.md) of registered users.&#x20;
+The [Referral Program](airdrop-v2.md#referral-program) tracked referred wallets via the [Referral Telegram bot](../../help/vultisig-bot.md).
 
-For a referral to be considered valid, the referred wallet must fund with at least $50 and take part in the airdrop.
+A referral counted when the referred wallet funded with at least $50 and took part in the airdrop.
 
 {% hint style="info" %}
-The referred wallet must continuously have at least $50 in the vault; otherwise, the referral will be voided.
+The referred wallet had to keep at least $50 in the vault, or the referral was voided.
 {% endhint %}
 
-This multiplier logarithmically multiplies and caps at 500 referrals, providing up to a maximum of 2x boost in your total airdrop points. The referral bonus, in contrast to other multipliers, will not reset between seasons, so you can build and retain your network advantage between seasons.
+This multiplier scaled logarithmically and capped at 500 referrals, up to a 2x boost. Unlike other multipliers, the referral bonus did not reset between seasons.
 
 ### Dedicated tokens and community multipliers
 
-To attract more attention and expand the Vultisquad community, a special multiplier will be introduced for holding selected tokens or NFTs that will be selected in the coming future.&#x20;
+Selected tokens and NFTs carried a higher multiplier.
 
-The first token to receive this treatment will be $VULT itself, which will grant holders a 1.5x multiplier on its dollar value within the airdrop calculation.
+$VULT itself granted a 1.5x multiplier on its dollar value in the airdrop calculation.
 
-The following tokens and NFTs have a higher multiplier:
+Published token and NFT multipliers:
 
 | Token  | Multiplier |
 | ------ | ---------- |
@@ -150,7 +154,11 @@ $$
 
 ***
 
-## How to register for the airdrop
+## How Season 0 registration worked
+
+{% hint style="warning" %}
+**Concluded.** These steps are the old Season 0 flow. `airdrop.vultisig.com` is not a product surface. Do not follow them.
+{% endhint %}
 
 * Download and open your Vultisig app
 
@@ -160,11 +168,11 @@ $$
 
 <figure><img src="../../.gitbook/assets/Frame 1000005131.png" alt="" width="279"><figcaption></figcaption></figure>
 
-*   Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your [Vultisig Extension](https://chromewebstore.google.com/detail/ggafhcdaplkhmmnlbfjpnnkepdfjaelb?utm_source=item-share-cp) or with uploading your Vault QR\
+*   Connect to the [airdrop](https://airdrop.vultisig.com/import) page with your Vultisig Extension ([Chrome](https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/)) or by uploading your Vault QR\
 
 
     <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
-*   Join the Airdrop with your connected Vault with clicking `Join Airdrop` on the [web app](../../vultisig-ecosystem/web-app.md)\
+*   Join the Airdrop with your connected Vault by clicking `Join Airdrop`\
 
 
     <figure><img src="../../.gitbook/assets/Button.png" alt="" width="225"><figcaption></figcaption></figure>
@@ -172,28 +180,27 @@ $$
 * Earn VULTIES (Airdrop points) and track the leaderboard
 * Register multiple Vaults
 
-{% hint style="warning" %}
-You need to enable all Chains and Tokens you want to have counted towards the airdrop once!
+{% hint style="info" %}
+While the airdrop ran, every chain and token that should count had to be enabled once.
 {% endhint %}
 
 ***
 
 ### Referral Program
 
-Vultisig team has built a [Telegram bot](../../help/vultisig-bot.md) to easily invite friends and track the referred people.
+The [Telegram bot](../../help/vultisig-bot.md) was used to invite friends and track referrals while the airdrop ran.
 
 * Invite people
 * Let them install Vultisig
-* Funding the wallet with at least $50 of assets
-* **Increase your referral count and airdrop share**
+* Fund the wallet with at least $50 of assets
+* Referral count raised the airdrop share
 
-**The referred people will have a strong impact on the multiplier.**
+That path is closed. The airdrop is concluded.
 
 ## Privacy
 
 {% hint style="warning" %}
-Do not register for the Airdrop if you do not wish for your public keys to be sent to the Airdrop Registry.\
-**Note, after the Airdrop has finished, your public keys will be purged. No other user information is collected.**
+**Registration is closed.** The airdrop is concluded. The published note was that public keys would be purged after the airdrop finished, and that no other user information was collected.
 {% endhint %}
 
 Read the [Privacy Policy](../../help/privacy.md)

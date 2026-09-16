@@ -6,8 +6,8 @@ description: >-
 
 # Vultiserver transaction policies
 
-{% hint style="info" %}
-Transaction Policies will be available soon
+{% hint style="warning" %}
+**Not in the apps.** Fast Vaults do not expose spending limits, allowlists, or time delays. The list below is the planned policy set, not a current settings screen.
 {% endhint %}
 
 ## What can be configured?

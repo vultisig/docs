@@ -8,13 +8,11 @@ description: >-
 
 Keysigning is how a threshold of devices sign a transaction together. Fast Vault and Secure Vault both use it. The path looks different on the screen.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
-
 ***
 
 ## How It Works
 
-<figure><img src="../.gitbook/assets/How keysign works.png" alt=""><figcaption><p>Transaction signing flowchart</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Transaction Signing.jpg" alt=""><figcaption><p>Transaction signing flowchart</p></figcaption></figure>
 
 ### Session Initiation
 
@@ -41,18 +39,18 @@ Fast Vaults provide a single-device signing experience with the Vultiserver as t
 ### Steps
 
 1. Prepare the transaction (Send or Swap)
-2. Tap **Continue** or **Swap**
+2. Tap **Swap**
 
-<div><figure><img src="../.gitbook/assets/Send.png" alt="" width="188"><figcaption><p>Send screen</p></figcaption></figure> <figure><img src="../.gitbook/assets/Swap-screen.png" alt="" width="188"><figcaption><p>Swap screen</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/iPhone_13_Pro-1.png" alt="" width="272"><figcaption><p>Send screen</p></figcaption></figure> <figure><img src="../.gitbook/assets/iPhone_13_Pro.png" alt="" width="272"><figcaption><p>Swap screen</p></figcaption></figure></div>
 
 3. Verify transaction details
 
-<div><figure><img src="../.gitbook/assets/Verify pair.png" alt="" width="188"><figcaption><p>Send verification</p></figcaption></figure> <figure><img src="../.gitbook/assets/verify-swap.png" alt="" width="188"><figcaption><p>Swap verification</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/iPhone_13_Pro-2.png" alt="" width="272"><figcaption><p>Send verification</p></figcaption></figure> <figure><img src="../.gitbook/assets/iPhone_13_Pro-3 (1).png" alt="" width="272"><figcaption><p>Swap verification</p></figcaption></figure></div>
 
 4. Enter your password
 5. Wait for signing to complete
 
-<figure><img src="../.gitbook/assets/Succes-swap (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/iPhone_13_Pro-4.png" alt="" width="272"><figcaption></figcaption></figure>
 
 ***
 
@@ -115,15 +113,15 @@ Signing starts automatically when the threshold of devices has joined. The trans
 
 ## Network Modes
 
-| Mode | Description | Use Case |
-|------|-------------|----------|
+| Mode         | Description               | Use Case                      |
+| ------------ | ------------------------- | ----------------------------- |
 | **Internet** | Via Vultisig relay server | Devices on different networks |
-| **Local** | Via local WiFi (mDNS) | Same network, maximum privacy |
+| **Local**    | Via local WiFi (mDNS)     | Same network, maximum privacy |
 
 ***
 
 ## Related
 
-- [TSS Actions](tss-actions.md) — Key generation, signing, resharing
-- [Sending](../app-guide/wallet/sending.md) — How to send transactions
-- [Swapping](../app-guide/wallet/swapping.md) — How to swap assets
+* [TSS Actions](tss-actions.md) — Key generation, signing, resharing
+* [Sending](../app-guide/wallet/sending.md) — How to send transactions
+* [Swapping](../app-guide/wallet/swapping.md) — How to swap assets

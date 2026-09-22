@@ -1,14 +1,16 @@
 ---
 description: >-
-  Structured index of Vultisig documentation for AI agents and language models.
-  SDK and CLI focus.
+  Build AI agent crypto wallets with Vultisig's MPC wallet SDK and CLI. Create
+  vaults, sign transactions, check balances, and swap across 36+ blockchains.
+cover: .gitbook/assets/Page Banner.jpg
+coverY: 0
 ---
 
-# Vultisig for AI Agents
+# Vultisig AI Agent Wallet SDK and CLI
 
-> Vultisig: Seedless, multi-chain, self-custody wallet using TSS/MPC. TypeScript SDK and CLI for building AI agents and crypto applications across 36+ blockchains. The plugin marketplace is paused and not in production.
+> Vultisig is a seedless, multi-chain, self-custody crypto wallet using TSS/MPC. Build AI agent wallets and crypto applications with the TypeScript SDK and CLI across 36+ blockchains. The plugin marketplace is paused and not in production.
 
-## SDK (`@vultisig/sdk`)
+## MPC crypto wallet SDK for AI agents (`@vultisig/sdk`)
 
 TypeScript SDK for MPC vault creation, signing, balance checks, swaps, and transaction management.
 
@@ -60,14 +62,14 @@ const balance = await vault.balance('Ethereum')
 
 **Supported chains (36+):** Bitcoin, Ethereum, Solana, THORChain, Polygon, Arbitrum, Optimism, Base, BSC, Avalanche, Cosmos, Litecoin, Dogecoin, Sui, TON, Ripple, Tron, Polkadot, Cardano, Zcash, Hyperliquid, and more. See the [Wallet tab](app-guide/wallet/) for the named list.
 
-**Full docs:**
+**MPC wallet SDK documentation:**
 
 * [SDK README](developer-docs/vultisig-sdk/): Installation, quick start, API reference, vault types, error handling
 * [SDK Implementation Guide](developer-docs/vultisig-sdk/SDK-USERS-GUIDE.md): Complete usage guide — password management, vault lifecycle, transactions, swaps, events, caching, platform notes
 
 ***
 
-## CLI (`@vultisig/cli`)
+## AI agent crypto wallet CLI (`@vultisig/cli`)
 
 Command-line wallet for scripting, automation, and agent pipelines. Mirrors the SDK's full capabilities.
 
@@ -122,7 +124,7 @@ vultisig create-from-seedphrase fast --name "Imported" --email user@example.com 
 * Exit codes: 0 success, 1-7 for specific error types
 * `vsig` shorthand alias for `vultisig`
 
-**Full docs:** [CLI Documentation](developer-docs/vultisig-sdk/CLI.md): All commands, options, environment variables, JSON output examples, exit codes, interactive shell
+**Crypto wallet CLI documentation:** [CLI Documentation](developer-docs/vultisig-sdk/CLI.md): All commands, options, environment variables, JSON output examples, exit codes, interactive shell
 
 ***
 

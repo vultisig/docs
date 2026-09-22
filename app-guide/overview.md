@@ -13,10 +13,10 @@ Everything about the vault itself, like backups, rename, reshare, lives in **Set
 
 ## Tabs
 
-| Tab        | What it does                                        |
-| ---------- | --------------------------------------------------- |
-| **Wallet** | Balances, send, receive, swap, buy, chain functions |
-| **DeFi**   | Stake, bond, LP on supported protocols              |
+| Tab           | What it does                                        |
+| ------------- | --------------------------------------------------- |
+| **Wallet**    | Balances, send, receive, swap, buy, chain functions |
+| **DeFi/Earn** | Stake, bond, LP on supported protocols              |
 
 Vault management is under **Settings**.
 

@@ -1,13 +1,13 @@
 ---
 description: >-
-  Export a Vultisig vault backup from Settings. Each device has its own
-  share. Full storage and recovery: Backup & Recovery.
+  Export a Vultisig vault backup from Settings. Each device has its own share.
+  Full storage and recovery: Backup & Recovery.
 ---
 
-# Export a Vultisig vault backup
+# Export a Vultisig Vault Backup
 
 {% hint style="danger" %}
-**Export a backup before you deposit.**
+**Make sure to have all backups of all devices saved before sending in funds.**
 
 Without a backup, a lost device can mean lost funds.
 {% endhint %}
@@ -34,10 +34,10 @@ Full storage and recovery: [Backup & Recovery](../../getting-started/backup-reco
 
 ## Keep in mind
 
-- Each device has its own share, and its own backup
-- Files use the `.vult` extension
-- **Never store two shares in the same place**
-- After a [reshare](vault-reshare.md), export new backups. Do not mix old and new sets
+* Each device has its own share, and its own backup
+* Files use the `.vult` extension
+* **Never store two shares in the same place**
+* After a [reshare](vault-reshare.md), export new backups. Do not mix old and new sets
 
 ***
 

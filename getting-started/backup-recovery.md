@@ -4,7 +4,7 @@ description: >-
   Export before you store funds.
 ---
 
-# Backup a Vultisig vault
+# Backup a Vultisig Vault
 
 {% hint style="danger" %}
 **Back up before you deposit.**
@@ -31,6 +31,10 @@ Think of each device as holding one key to the same safe. The backup is a copy o
 ***
 
 ## How to Backup
+
+{% hint style="info" %}
+Backups get created when creating a vault. But should be verified and can be exported again.
+{% endhint %}
 
 ### Step-by-Step
 

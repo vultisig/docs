@@ -1,7 +1,8 @@
 ---
 description: >-
-  Vault QR code contains root public keys and vault ID. Use for pairing
-  and verification—not a backup. Share safely for view-only access.
+  Vault QR code contains root public keys and vault ID. Use for pairing and
+  verification—not a backup. Share safely for view-only access.
+hidden: true
 ---
 
 # Vultisig vault QR
@@ -14,12 +15,12 @@ The Vault QR encodes the vault's public keys, UID, and name. It is not a backup.
 
 ## What's Included
 
-| Data | Description |
-|------|-------------|
+| Data                 | Description               |
+| -------------------- | ------------------------- |
 | **ECDSA Public Key** | Root key for ECDSA chains |
 | **EdDSA Public Key** | Root key for EdDSA chains |
-| **Vault UID** | Unique identifier |
-| **Vault Name** | Display name |
+| **Vault UID**        | Unique identifier         |
+| **Vault Name**       | Display name              |
 
 ***
 
@@ -55,5 +56,5 @@ Compare Vault QRs across devices to verify they belong to the same vault.
 
 ## Related
 
-- [Vault Details](vault-details.md) - View public keys directly
-- [Airdrop (concluded)](../../vultisig-token/airdrop/)
+* [Vault Details](vault-details.md) - View public keys directly
+* [Airdrop (concluded)](../../vultisig-token/airdrop/)

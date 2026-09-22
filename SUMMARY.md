@@ -1,14 +1,14 @@
 # Table of contents
 
-* [Vultisig Documentation](README.md)
-* [Vultisig for AI Agents](agent.md)
+* [Vultisig Documentation | Seedless MPC Crypto Wallet](README.md)
+* [Vultisig AI Agent Wallet SDK and CLI](agent.md)
 
 ## Getting Started
 
 * [Get started with Vultisig](getting-started/overview.md)
 * [Download Vultisig](getting-started/download-install.md)
 * [Create your first Vultisig vault](getting-started/create-vault.md)
-* [Backup a Vultisig vault](getting-started/backup-recovery.md)
+* [Backup a Vultisig Vault](getting-started/backup-recovery.md)
 * [Your first Vultisig transaction](getting-started/first-transaction.md)
 
 ## App Guide
@@ -30,7 +30,7 @@
   * [dYdX in Vultisig](app-guide/defi/dydx.md)
 * [Manage a Vultisig vault](app-guide/vault-management/README.md)
   * [Vultisig vault details](app-guide/vault-management/vault-details.md)
-  * [Export a Vultisig vault backup](app-guide/vault-management/vault-backup.md)
+  * [Export a Vultisig Vault Backup](app-guide/vault-management/vault-backup.md)
   * [Rename a Vultisig vault](app-guide/vault-management/vault-rename.md)
   * [Reshare a Vultisig vault](app-guide/vault-management/vault-reshare.md)
   * [Vultisig vault QR](app-guide/vault-management/vault-qr.md)
@@ -40,12 +40,12 @@
 
 ## Security & Technology
 
-* [Vultisig security and TSS](security-and-technology/overview.md)
+* [Vultisig Security and TSS](security-and-technology/overview.md)
 * [How Vultisig signs a transaction](security-and-technology/keysign.md)
 * [TSS actions in Vultisig](security-and-technology/tss-actions.md)
 * [GG20 TSS in Vultisig](security-and-technology/how-gg20-works.md)
 * [DKLS23 in Vultisig](security-and-technology/how-dkls23-works.md)
-* [Vultisig vs multisig](security-and-technology/difference-to-multi-sig.md)
+* [Vultisig vs Multisig](security-and-technology/difference-to-multi-sig.md)
 * [Vultisig vs passkeys](security-and-technology/difference-to-passkeys.md)
 * [Emergency recovery in Vultisig](security-and-technology/emergency-recovery.md)
 
@@ -100,7 +100,7 @@
 ## Help & Legal
 
 * [Vultisig FAQ](help/faq.md)
-* [Vultisig Audits](help/security.md)
+* [Audits](help/security.md)
 * [Vultisig Privacy Policy](help/privacy.md)
 * [Vultisig Terms of Use](help/terms.md)
 * [Vultisig software license](help/license.md)

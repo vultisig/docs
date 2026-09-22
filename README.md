@@ -1,33 +1,33 @@
 ---
 description: >-
-  Vultisig Docs: seedless MPC vault. ECDSA and EdDSA from one vault. Fast Vault,
-  Secure Vault, SDK, and CLI. No seed phrase.
+  Vultisig is a seedless, self-custody MPC crypto wallet. Create secure Bitcoin,
+  Ethereum, Solana, and multichain vaults without a seed phrase.
 cover: .gitbook/assets/Banner-new.png
 coverY: 0
 ---
 
-# Vultisig Documentation
+# Vultisig Documentation | Seedless MPC Crypto Wallet
 
-## What is Vultisig?
+## Vultisig: Seedless MPC Crypto Wallet
 
-Vultisig is an open-source vault with no seed phrase. It uses threshold signatures (MPC / TSS). Your key is split into shares. They sign together. One share cannot move funds.
+Vultisig is an open-source, self-custody crypto wallet with no seed phrase. It uses multi-party computation (MPC) and threshold signature schemes (TSS). Your private key is split into shares. They sign together. One share cannot move funds.
 
-One vault generates both ECDSA and EdDSA keys. You hold and sign Bitcoin, Ethereum, Cosmos, Solana, and 36+ other UTXO, EVM, BFT, and EdDSA chains. Named list: [Wallet tab](app-guide/wallet/).
+One seedless vault generates both ECDSA and EdDSA keys. Manage and sign Bitcoin, Ethereum, Cosmos, Solana, and 36+ other UTXO, EVM, BFT, and EdDSA chains. Named list: [Wallet tab](app-guide/wallet/).
 
 Signing uses [DKLS23](https://github.com/silence-laboratories/dkls23) from Silence Laboratories.
 
-* **No seed phrase.** Vault shares replace 12/24-word seeds.
+* **No seed phrase.** Vault shares replace 12- and 24-word recovery phrases.
 * **MPC / TSS.** Threshold signatures. No complete private key in normal operation.
 * **ECDSA and EdDSA.** Both key types from one vault.
-* **36+ chains** from one vault.
+* **Multichain crypto wallet.** 36+ chains from one vault.
 * **Platforms:** iOS, Android, macOS, Windows, Linux, Chrome, Firefox.
 * **Open source** on [GitHub](https://github.com/vultisig).
 
 ***
 
-## How it works
+## How the Vultisig wallet works
 
-* **No complete key.** Shares sign together. One lost or stolen share cannot move funds.
+* **No complete private key.** MPC shares sign together. One lost or stolen share cannot move funds.
 * **A normal signature on-chain.** No published signer set, no extra contract. That is why it works on Bitcoin and in DeFi where on-chain multisig often does not.
 * **Devices you already own.** Shares sit in the device Secure Enclave, behind biometrics.
 * **Open source and audited.** Code on [GitHub](https://github.com/vultisig). [Audit reports](help/security.md).
@@ -40,11 +40,11 @@ Signing uses [DKLS23](https://github.com/silence-laboratories/dkls23) from Silen
 
 ## Vault types
 
-Think of the vault as a safe that needs a threshold of keys to open.
+Choose an MPC crypto wallet vault based on your recovery and signing needs.
 
-**Fast Vault** — Your device plus VultiServer (2-of-2). About a minute to set up. VultiServer signs with you and can never sign alone.
+**Fast Vault** — A 2-of-2 MPC wallet using your device and VultiServer. Set it up in about a minute. VultiServer signs with you and can never sign alone.
 
-**Secure Vault** — Two or more devices you control:
+**Secure Vault** — A self-custody MPC wallet using two or more devices you control:
 
 * 2-of-2: both devices required. No fallback if one is gone.
 * 2-of-3: the usual setup. You can lose one device and still sign.
@@ -56,9 +56,9 @@ Those are the usual setups. Other thresholds are available if you need them.
 
 ***
 
-## Quick Navigation
+## Explore Vultisig wallet documentation
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>New here? Download, create a vault, back it up, then send.</td><td><a href="getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>App Guide</strong></td><td>Wallet, DeFi, vault management, Settings.</td><td><a href="app-guide/overview.md">overview.md</a></td></tr><tr><td><strong>Security &#x26; Technology</strong></td><td>How threshold signatures work, and the signing protocols.</td><td><a href="security-and-technology/overview.md">overview.md</a></td></tr><tr><td><strong>Developer Docs</strong></td><td>SDK, CLI, and Extension integration.</td><td><a href="developer-docs/">developer-docs</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Download Vultisig, create an MPC vault, back it up, then send crypto.</td><td><a href="getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>App Guide</strong></td><td>Use the multichain wallet, DeFi features, vault management, and settings.</td><td><a href="app-guide/overview.md">overview.md</a></td></tr><tr><td><strong>Security &#x26; Technology</strong></td><td>Learn how MPC threshold signatures and Vultisig signing protocols work.</td><td><a href="security-and-technology/overview.md">overview.md</a></td></tr><tr><td><strong>Developer Docs</strong></td><td>Integrate the Vultisig SDK, CLI, and browser extension.</td><td><a href="developer-docs/">developer-docs</a></td></tr></tbody></table>
 
 ***
 
@@ -68,7 +68,7 @@ Those are the usual setups. Other thresholds are available if you need them.
 
 ***
 
-## Download
+## Download the Vultisig crypto wallet
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>iOS</strong></td><td><a href="https://apps.apple.com/us/app/vultisig/id6503023896">https://apps.apple.com/us/app/vultisig/id6503023896</a></td></tr><tr><td><strong>Android</strong></td><td><a href="https://play.google.com/store/apps/details?id=com.vultisig.wallet">https://play.google.com/store/apps/details?id=com.vultisig.wallet</a></td></tr><tr><td><strong>macOS</strong></td><td><a href="https://github.com/vultisig/vultisig-ios">https://github.com/vultisig/vultisig-ios</a></td></tr><tr><td><strong>Windows/Linux</strong></td><td><a href="https://github.com/vultisig/vultisig-windows/releases">https://github.com/vultisig/vultisig-windows/releases</a></td></tr><tr><td><strong>Chrome Extension</strong></td><td><a href="https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb">https://chromewebstore.google.com/detail/vulticonnect/ggafhcdaplkhmmnlbfjpnnkepdfjaelb</a></td></tr><tr><td><strong>Firefox Extension</strong></td><td><a href="https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/">https://addons.mozilla.org/en-US/firefox/addon/vultisig-extension/</a></td></tr></tbody></table>
 

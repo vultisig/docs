@@ -12,10 +12,9 @@ Open **Settings** from the vault home. Anything that belongs to this vault — b
 
 ## Vault
 
-| Item | What it does |
-| --- | --- |
-| **Vault Settings** | Backup, rename, details, reshare, QR, GG20 upgrade, advanced |
-| **WalletConnect** | In-app WalletConnect sessions on mobile. Pair a dApp QR here. Desktop dApps use the [browser extension](../vultisig-ecosystem/vultisig-extension/) |
+| Item                | What it does                                                                    |
+| ------------------- | ------------------------------------------------------------------------------- |
+| **Vault Settings**  | Backup, rename, details, reshare, QR, GG20 upgrade, advanced                    |
 | **$VULT fee tiers** | Current swap-fee discount for this vault. Tiers: [Swapping](wallet/swapping.md) |
 
 ***
@@ -53,12 +52,12 @@ On by default. You can turn it off here. While it is on, send, swap, and WalletC
 
 ## General
 
-| Item | What it does |
-| --- | --- |
-| **Notifications** | Signing and transaction alerts |
+| Item              | What it does                                              |
+| ----------------- | --------------------------------------------------------- |
+| **Notifications** | Signing and transaction alerts                            |
 | **Referral code** | THORChain / Maya referrals. See [Referrals](referrals.md) |
-| **Language** | App language |
-| **Currency** | Fiat display currency |
+| **Language**      | App language                                              |
+| **Currency**      | Fiat display currency                                     |
 
 ***
 

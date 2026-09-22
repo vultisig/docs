@@ -1,5 +1,7 @@
 ---
 description: Download Vultisig, create a vault, back it up, and send. No seed phrase.
+cover: ../.gitbook/assets/Vultisig_banner.jpg
+coverY: 0
 ---
 
 # Get started with Vultisig

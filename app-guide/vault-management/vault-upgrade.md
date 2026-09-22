@@ -2,6 +2,7 @@
 description: >-
   Upgrade a GG20 Vultisig vault to DKLS23. Faster signing. Same addresses.
   Export new backups after.
+hidden: true
 ---
 
 # Upgrade a Vultisig vault to DKLS23

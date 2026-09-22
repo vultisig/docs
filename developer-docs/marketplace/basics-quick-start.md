@@ -1,0 +1,167 @@
+---
+description: Scaffold a Vultisig plugin. Planned product. Not in production.
+---
+
+# Quick Start
+
+{% hint style="warning" %}
+**Paused.** The plugin marketplace is not in production. These pages describe the planned product and stay for reference.
+{% endhint %}
+
+## Overview
+
+### Components
+
+There are multiple components needed for your Plugin to interact with the Marketplace and let users install your Plugin, get a complete overview [here](https://docs.vultisig.com/developer-docs/marketplace/infrastructure-overview/infrastructure):
+
+* [Plugin Server](basics-quick-start.md#plugin-server)
+* [Plugin Specifications](basics-quick-start.md#plugin-specifications)
+* [Plugin Worker](basics-quick-start.md#worker)
+* [Triggers](basics-quick-start.md#triggers)
+
+{% hint style="info" %}
+All basic building blocks can be found in our [hello-world](create-a-plugin/build-your-plugin/hello-world/) section in the documentation and get be used to get started right away.
+{% endhint %}
+
+To integrate your application with the Vultisig ecosystem, you need to build an app that at least supports:
+
+{% tabs fullWidth="false" %}
+{% tab title="Mandatory" %}
+* `/reshare` and `/sign` endpoints for TSS operations
+* API structure for automation management
+{% endtab %}
+
+{% tab title="Optional" %}
+* Transaction indexing for monitoring blockchain confirmations
+* Scheduler for time-based or event-driven automations
+{% endtab %}
+{% endtabs %}
+
+***
+
+## Plugin Server
+
+### Getting Started with the Server
+
+The fastest way to get started is to import the [`Server`](create-a-plugin/build-your-plugin/hello-world/server/) component from the Vultisig library.
+
+This provides all the necessary API infrastructure, including the required endpoints for signing, resharing, and automation management, so you don't need to implement them from scratch.
+
+### Why use the built-in Server?
+
+* **Handles TSS complexity**: All the cryptographic protocol complexity is abstracted away
+* **Standardized endpoints**: Provides the exact API structure that the Vultisig Verifier expects
+* **Built-in middleware**: Includes authentication, rate limiting, and error handling out of the box
+* **Storage integration**: Automatically connects with Redis, PostgreSQL, and S3-compatible storage
+* **Compatibility**: the endpoints the Verifier and the apps expect
+
+### Implementation
+
+The server is your plugin's main entry point. It initializes all infrastructure components (database, cache, storage), sets up the automation engine, and starts the HTTP server to handle requests from the Vultisig ecosystem.
+
+**Key responsibilities:**
+
+* Set up S3-compatible storage for encrypted vault data (key shares)
+* Apply database migrations automatically
+* Register your plugin specification (capabilities and UI configuration)
+* Create async task for worker(s)
+
+**Full example**: [Server](create-a-plugin/build-your-plugin/hello-world/server/server.go)
+
+***
+
+## Plugin Specifications
+
+### Defining Your Plugin Specification
+
+The specification defines what your plugin does and how it appears in the Vultisig UI.
+
+### What the Spec Does
+
+* **UI Configuration**: Defines the form fields users see when creating an automation (e.g., asset selector, addresses, amounts)
+* **Validation Rules**: Ensures user input meets your requirements before creating a policy
+* **Permission Policies**: Translates high-level user intent into specific, security-constrained execution rules
+* **Resource Declaration**: Tells the Verifier which blockchain operations your plugin can perform
+* **Rate Limiting**: Sets transaction frequency limits to prevent abuse
+
+### Key Components
+
+* `GetRecipeSpecification()`: Returns JSON Schema for the UI form
+* `ValidatePluginPolicy()`: Validates user input against your schema
+* `Suggest()`: Converts user configuration into specific execution rules with constraints
+
+**Full example**: [Specifications](create-a-plugin/build-your-plugin/hello-world/server/spec.go)
+
+***
+
+## Worker
+
+### Setting Up the Worker
+
+The worker process handles background tasks asynchronously, separate from the HTTP server. This architecture ensures that long-running cryptographic operations don't block API requests.
+
+### Worker Responsibilities
+
+* **TSS Signing**: Participates in multi-party signing ceremonies to approve transactions
+* **Key Resharing**: Creates distributed key shares for enhanced security
+* **Transaction Monitoring**: Tracks submitted transactions and updates their status
+* **Task Queue Processing**: Consumes jobs from Redis queue using Asynq
+
+### Architecture Benefits
+
+Running the worker separately from the server provides:
+
+* **Scalability**: Can run multiple worker instances for high throughput
+* **Isolation**: Cryptographic operations don't impact API responsiveness
+* **Retry Logic**: Failed tasks can be automatically retried
+* **Monitoring**: Easy to track task queue depth and processing metrics
+
+### Key Components
+
+* Initializes the Vault Management Service for TSS operations
+* Sets up Transaction Indexer to monitor blockchain confirmations
+* Registers handlers for `TypeKeySignDKLS` and `TypeReshareDKLS` tasks
+* Processes tasks with configurable concurrency (default: 10 parallel tasks)
+
+**Full example**: [Worker](create-a-plugin/build-your-plugin/hello-world/worker/worker.go)
+
+***
+
+## Triggers
+
+### Example: Transaction Trigger Implementation
+
+The trigger service demonstrates **one possible implementation approach** for initiating transactions programmatically. This is not a required component, but serves as a reference for understanding the complete transaction lifecycle.
+
+### What This Example Shows
+
+* How to retrieve and decrypt vault data to derive blockchain addresses
+* How to construct unsigned transactions using the EVM SDK
+* How to create a `PluginKeysignRequest` and submit it to the TSS network
+* How to broadcast signed transactions to the blockchain
+
+{% hint style="success" %}
+#### Important Note:
+
+This is **not a prescriptive pattern**—it's one of many ways to trigger transactions. Your plugin might:
+
+* Listen to blockchain events instead of HTTP requests
+* Use a scheduler for recurring transactions
+* React to price feeds, governance votes, or other external data
+* Implement custom business logic specific to your use case
+{% endhint %}
+
+The trigger example is provided to help you understand how the signing flow works end-to-end, not as a template you must follow.
+
+**Full example**: [Trigger Code](create-a-plugin/build-your-plugin/hello-world/worker/tx.go)
+
+***
+
+## Next Steps
+
+Now that you understand the basic structure, you can:
+
+1. **Clone the example** [**repository**](create-a-plugin/build-your-plugin/hello-world/) and modify it for your use case
+2. **Define your plugin specification** with the chains and operations you need
+3. **Implement your business logic** as part of the worker or create separate service
+4. **Test locally** with local verifier and Marketplace UI

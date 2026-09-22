@@ -46,7 +46,7 @@ The Vault QR encodes the vault's public keys, UID, and name. It is not a backup.
 
 Share the QR so someone can see public addresses. It cannot sign.
 
-Season 0 used this QR on `airdrop.vultisig.com`. The airdrop is concluded. That host is not a product surface. See the [airdrop record](../../vultisig-token/airdrop/).
+Season 0 used this QR on `airdrop.vultisig.com`. The airdrop is concluded. That host is not a product surface. See the [airdrop record](../../vult-token/airdrop/).
 
 ### Verification
 
@@ -57,4 +57,4 @@ Compare Vault QRs across devices to verify they belong to the same vault.
 ## Related
 
 * [Vault Details](vault-details.md) - View public keys directly
-* [Airdrop (concluded)](../../vultisig-token/airdrop/)
+* [Airdrop (concluded)](../../vult-token/airdrop/)

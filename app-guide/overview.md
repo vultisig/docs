@@ -82,7 +82,7 @@ THORChain / Maya referral codes and fee rebates.
 * Windows
 * Linux
 
-Same vault model on each. Chrome and Firefox run a full vault as the [extension](../vultisig-ecosystem/vultisig-extension/).
+Same vault model on each. Chrome and Firefox run a full vault as the [extension](../ecosystem/vultisig-extension/).
 
 ***
 
@@ -90,4 +90,4 @@ Same vault model on each. Chrome and Firefox run a full vault as the [extension]
 
 * [Getting Started](../getting-started/overview.md)
 * [Security & Technology](../security-and-technology/overview.md)
-* [Vultisig Extension](../vultisig-ecosystem/vultisig-extension/)
+* [Vultisig Extension](../ecosystem/vultisig-extension/)

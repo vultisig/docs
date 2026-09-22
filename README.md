@@ -30,7 +30,7 @@ Signing uses [DKLS23](https://github.com/silence-laboratories/dkls23) from Silen
 * **No complete private key.** MPC shares sign together. One lost or stolen share cannot move funds.
 * **A normal signature on-chain.** No published signer set, no extra contract. That is why it works on Bitcoin and in DeFi where on-chain multisig often does not.
 * **Devices you already own.** Shares sit in the device Secure Enclave, behind biometrics.
-* **Open source and audited.** Code on [GitHub](https://github.com/vultisig). [Audit reports](help/security.md).
+* **Open source and audited.** Code on [GitHub](https://github.com/vultisig). [Audit reports](help-and-legal/security.md).
 
 {% hint style="info" %}
 **No registration.** Vultisig does not keep your email. Fast Vaults use it once to send a backup file, then discard it.
@@ -58,13 +58,13 @@ Those are the usual setups. Other thresholds are available if you need them.
 
 ## Explore Vultisig wallet documentation
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Download Vultisig, create an MPC vault, back it up, then send crypto.</td><td><a href="getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>App Guide</strong></td><td>Use the multichain wallet, DeFi features, vault management, and settings.</td><td><a href="app-guide/overview.md">overview.md</a></td></tr><tr><td><strong>Security &#x26; Technology</strong></td><td>Learn how MPC threshold signatures and Vultisig signing protocols work.</td><td><a href="security-and-technology/overview.md">overview.md</a></td></tr><tr><td><strong>Developer Docs</strong></td><td>Integrate the Vultisig SDK, CLI, and browser extension.</td><td><a href="developer-docs/">developer-docs</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Download Vultisig, create an MPC vault, back it up, then send crypto.</td><td><a href="getting-started/overview.md">overview.md</a></td></tr><tr><td><strong>App Guide</strong></td><td>Use the multichain wallet, DeFi features, vault management, and settings.</td><td><a href="app-guide/overview.md">overview.md</a></td></tr><tr><td><strong>Security &#x26; Technology</strong></td><td>Learn how MPC threshold signatures and Vultisig signing protocols work.</td><td><a href="security-and-technology/overview.md">overview.md</a></td></tr><tr><td><strong>Developer Docs</strong></td><td>Integrate the Vultisig SDK, CLI, and browser extension.</td><td><a href="developer-docs/developer-docs.md">developer-docs.md</a></td></tr></tbody></table>
 
 ***
 
 ## Vultisig Ecosystem
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Vultisig Wallet</strong></td><td>iOS, Android, macOS, Windows, Linux</td><td><a href="getting-started/download-install.md">download-install.md</a></td></tr><tr><td><strong>Vultisig Extension</strong></td><td>Full vault in Chrome and Firefox, plus dApp connect</td><td><a href="vultisig-ecosystem/vultisig-extension/">vultisig-extension</a></td></tr><tr><td>Vultisig SDK</td><td>The modular SDK for developers and agents</td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Vultisig Wallet</strong></td><td>iOS, Android, macOS, Windows, Linux</td><td><a href="getting-started/download-install.md">download-install.md</a></td></tr><tr><td><strong>Vultisig Extension</strong></td><td>Full vault in Chrome and Firefox, plus dApp connect</td><td><a href="ecosystem/vultisig-extension/">vultisig-extension</a></td></tr><tr><td>Vultisig SDK</td><td>The modular SDK for developers and agents</td><td></td></tr></tbody></table>
 
 ***
 

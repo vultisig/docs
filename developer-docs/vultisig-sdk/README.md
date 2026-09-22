@@ -1,19 +1,19 @@
 ---
 description: >-
-  Vultisig TypeScript SDK and CLI. Create Fast or Secure vaults, send, swap,
-  and sign across 36+ chains. No seed phrase.
+  Vultisig TypeScript SDK and CLI. Create Fast or Secure vaults, send, swap, and
+  sign across 36+ chains. No seed phrase.
 ---
 
 # Vultisig SDK
 
 The self-custodial multi-chain wallet SDK for developers and AI agents.
 
-- **Send and swap** across 36+ blockchains with human-readable amounts (`vault.send({ amount: "0.1" })`)
-- **MPC** — keys are split across parties. No seed phrase. No single point of failure
-- **Cross-chain swaps** via THORChain, Maya, 1inch, Kyber, LiFi, Jupiter, and others. The SDK picks the quote
-- **Portfolio** with balances and fiat prices
-- **Dry-run** on send and swap — preview fees and output before signing
-- **Agent-ready** — JSON output, programmatic API
+* **Send and swap** across 36+ blockchains with human-readable amounts (`vault.send({ amount: "0.1" })`)
+* **MPC** — keys are split across parties. No seed phrase. No single point of failure
+* **Cross-chain swaps** via THORChain, Maya, 1inch, Kyber, LiFi, Jupiter, and others. The SDK picks the quote
+* **Portfolio** with balances and fiat prices
+* **Dry-run** on send and swap — preview fees and output before signing
+* **Agent-ready** — JSON output, programmatic API
 
 Install `@vultisig/sdk` for apps and bots. Install `@vultisig/cli` for shells and coding agents.
 
@@ -21,22 +21,22 @@ Source: [vultisig/vultisig-sdk](https://github.com/vultisig/vultisig-sdk)
 
 ## Which interface
 
-| | Programmatic SDK (`@vultisig/sdk`) | CLI (`@vultisig/cli`) |
-|---|---|---|
-| **Install** | `npm install @vultisig/sdk` | `npm install -g @vultisig/cli` |
-| **Best for** | Apps, bots, long-running services | Coding agents, shell scripts |
-| **Language** | TypeScript | Shell, JSON out |
-| **Vault creation** | `sdk.createFastVault()` + email verification | `vultisig create fast --two-step` |
-| **Agent mode** | `vault.send()`, `vault.swap()` | `vultisig agent ask "check my ETH balance"` |
-| **Long-running** | Initialize WASM once | Each command reloads WASM |
-| **Signing** | `onPasswordRequired` or `vault.unlock()` | `--password` or `VAULT_PASSWORD` |
+|                    | Programmatic SDK (`@vultisig/sdk`)           | CLI (`@vultisig/cli`)                       |
+| ------------------ | -------------------------------------------- | ------------------------------------------- |
+| **Install**        | `npm install @vultisig/sdk`                  | `npm install -g @vultisig/cli`              |
+| **Best for**       | Apps, bots, long-running services            | Coding agents, shell scripts                |
+| **Language**       | TypeScript                                   | Shell, JSON out                             |
+| **Vault creation** | `sdk.createFastVault()` + email verification | `vultisig create fast --two-step`           |
+| **Agent mode**     | `vault.send()`, `vault.swap()`               | `vultisig agent ask "check my ETH balance"` |
+| **Long-running**   | Initialize WASM once                         | Each command reloads WASM                   |
+| **Signing**        | `onPasswordRequired` or `vault.unlock()`     | `--password` or `VAULT_PASSWORD`            |
 
-Full walkthrough: [SDK implementation guide](SDK-USERS-GUIDE.md). Command reference: [CLI](CLI.md).
+Full walkthrough: [SDK implementation guide](sdk-users-guide.md). Command reference: [CLI](cli.md).
 
 ## Vault types
 
-- **Fast Vault** — 2-of-2 with Vultiserver. Instant signing.
-- **Secure Vault** — N-of-M on devices you control. Other devices join by QR with the Vultisig app.
+* **Fast Vault** — 2-of-2 with Vultiserver. Instant signing.
+* **Secure Vault** — N-of-M on devices you control. Other devices join by QR with the Vultisig app.
 
 Both types derive addresses and sign on the same 36+ chains as the apps.
 
@@ -144,13 +144,13 @@ await vault.swap({
 await vault.portfolio('usd')
 ```
 
-| Need | Method |
-|------|--------|
-| One chain, native coin | `vault.balance(chain)` |
-| One chain, token | `vault.balance(chain, tokenId)` |
-| Several chains | `vault.balances(chains, includeTokens?)` |
-| All configured chains | `vault.allBalances(includeTokens?)` |
-| Fiat portfolio | `vault.portfolio('usd')` |
+| Need                   | Method                                   |
+| ---------------------- | ---------------------------------------- |
+| One chain, native coin | `vault.balance(chain)`                   |
+| One chain, token       | `vault.balance(chain, tokenId)`          |
+| Several chains         | `vault.balances(chains, includeTokens?)` |
+| All configured chains  | `vault.allBalances(includeTokens?)`      |
+| Fiat portfolio         | `vault.portfolio('usd')`                 |
 
 Omit `symbol` on send for the native coin. Set it for tokens (`"USDC"`).
 
@@ -158,12 +158,12 @@ Omit `symbol` on send for the native coin. Set it for tokens (`"USDC"`).
 
 Node.js 20+, Electron 20+, and browsers with WebAssembly (Chrome, Firefox, Safari, Edge). React Native is built as `@vultisig/sdk/react-native`.
 
-WASM (DKLS, Schnorr, Wallet Core) loads from the npm package. For Vite, use `@vultisig/sdk/vite`. Details are in the [implementation guide](SDK-USERS-GUIDE.md#browser-setup-vite-and-wasm).
+WASM (DKLS, Schnorr, Wallet Core) loads from the npm package. For Vite, use `@vultisig/sdk/vite`. Details are in the [implementation guide](sdk-users-guide.md#browser-setup-vite-and-wasm).
 
 ## Next
 
-* [SDK implementation guide](SDK-USERS-GUIDE.md) — passwords, vault lifecycle, swaps, events, platform notes
-* [CLI](CLI.md) — commands, JSON, `agent ask`, exit codes
+* [SDK implementation guide](sdk-users-guide.md) — passwords, vault lifecycle, swaps, events, platform notes
+* [CLI](cli.md) — commands, JSON, `agent ask`, exit codes
 * [Examples](https://github.com/vultisig/vultisig-sdk/tree/main/examples/browser) — browser app
 * [MIGRATING.md](https://github.com/vultisig/vultisig-sdk/blob/main/MIGRATING.md) — breaking changes
 * [Issues](https://github.com/vultisig/vultisig-sdk/issues)

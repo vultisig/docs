@@ -1,7 +1,7 @@
 ---
 description: >-
-  Send or receive your first transaction in Vultisig. Check the address
-  before you sign.
+  Send or receive your first transaction in Vultisig. Check the address before
+  you sign.
 ---
 
 # Your first Vultisig transaction
@@ -60,11 +60,11 @@ No device holds the complete key. One compromised device cannot move funds.
 
 ## Next
 
-| Action | Guide |
-| -------- | ------------------------------------------------- |
-| **Send** | [Sending](../app-guide/wallet/sending.md) |
+| Action   | Guide                                       |
+| -------- | ------------------------------------------- |
+| **Send** | [Sending](../app-guide/wallet/sending.md)   |
 | **Swap** | [Swapping](../app-guide/wallet/swapping.md) |
-| **DeFi** | [DeFi](../app-guide/defi/) |
+| **DeFi** | [DeFi](../app-guide/defi/)                  |
 
 ***
 
@@ -74,5 +74,5 @@ No device holds the complete key. One compromised device cannot move funds.
 
 **Signing failed.** Same Wi-Fi or the relay, matching vault name, latest app. Try the sign again.
 
-- [FAQ](../help/faq.md)
-- [Discord](https://discord.gg/Cugw9T2NrP)
+* [FAQ](../help-and-legal/faq.md)
+* [Discord](https://discord.gg/Cugw9T2NrP)

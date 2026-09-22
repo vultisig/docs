@@ -1,0 +1,1379 @@
+---
+description: >-
+  Vultisig CLI. Create vaults, send, swap, and run agent ask from the
+  command line. JSON output for scripts.
+---
+
+# Vultisig CLI
+
+Command-line wallet for Vultisig - secure multi-party computation (MPC) wallet management across 36+ blockchains. Designed for both human and AI agent use.
+
+> **Tip:** Use `vsig` as a shorthand alias for `vultisig` - all commands work with both!
+
+## Installation
+
+### npm (recommended)
+
+```bash
+# Install globally
+npm install -g @vultisig/cli
+
+# Verify installation
+vultisig --version
+```
+
+### npx (no installation)
+
+```bash
+# Run directly without installing
+npx @vultisig/cli balance ethereum
+```
+
+### From source
+
+```bash
+# Clone the repository
+git clone https://github.com/vultisig/vultisig-sdk.git
+cd vultisig-sdk
+
+# Install dependencies
+yarn install
+
+# Run CLI
+yarn cli --help
+```
+
+## Shell Completion
+
+Enable tab completion for commands, chains, and vault names (works for both `vultisig` and `vsig`):
+
+```bash
+# Install completion for your shell
+vultisig completion --install
+
+# Or manually add to your shell config
+vultisig completion bash >> ~/.bashrc
+vultisig completion zsh >> ~/.zshrc
+vultisig completion fish >> ~/.config/fish/completions/vultisig.fish
+```
+
+## Quick Start
+
+### Create a Fast Vault
+
+```bash
+vultisig create fast --name "My Wallet" --password "mypassword" --email user@example.com
+```
+
+You'll be prompted to:
+
+1. Enter the verification code sent to your email
+
+### Create a Secure Vault (Multi-Device)
+
+```bash
+vultisig create secure --name "Team Wallet" --shares 3
+```
+
+This creates a secure vault with configurable N-of-M threshold:
+
+1. A QR code displays in your terminal
+2. Other participants scan with Vultisig mobile app (iOS/Android)
+3. Once all devices join, keygen runs automatically
+4. Vault is created and ready to use
+
+**Secure vault options:**
+
+- `--shares <n>` - Number of participating devices (default: 3)
+- `--threshold <n>` - Signing threshold (default: 2)
+
+**Example session:**
+
+```bash
+$ vultisig create secure --name "Team Wallet" --shares 3
+
+Creating secure vault: Team Wallet (2-of-3)
+
+Scan this QR code with Vultisig mobile app:
+████████████████████████████
+█ ▄▄▄▄▄ █▀ ▄█▄█▀█ ▄▄▄▄▄ █
+█ █   █ █▀▄▄▄ ▄██ █   █ █
+...
+
+Waiting for devices to join...
+⠋ Device joined: iPhone-abc123 (2/3)
+⠋ Device joined: Android-def456 (3/3)
+
+All devices joined. Running keygen...
+✓ ECDSA keygen complete
+✓ EdDSA keygen complete
+
+✓ Secure vault created: Team Wallet
+  Vault ID: vault_abc123def456
+```
+
+### Import from Seedphrase
+
+Import an existing wallet from a BIP39 recovery phrase (12 or 24 words):
+
+```bash
+# FastVault import (server-assisted 2-of-2)
+vultisig create-from-seedphrase fast --name "Imported Wallet" --email user@example.com
+
+# SecureVault import (multi-device MPC)
+vultisig create-from-seedphrase secure --name "Team Wallet" --shares 3
+```
+
+**Import options:**
+
+- `--mnemonic <words>` - Recovery phrase (space-separated words)
+- `--discover-chains` - Scan chains for existing balances before import
+- `--chains <chains>` - Specific chains to enable (comma-separated)
+- `--use-phantom-solana-path` - Use Phantom wallet derivation path for Solana
+
+When `--mnemonic` is not provided, you'll be prompted to enter it securely (masked input).
+
+> **Note:** Phantom wallet uses a non-standard derivation path for Solana. If your seedphrase was originally created in Phantom and you're importing Solana funds, use `--use-phantom-solana-path`. When using `--discover-chains`, this is auto-detected.
+
+**Example session:**
+
+```bash
+$ vultisig create-from-seedphrase fast --name "My Wallet" --email user@example.com --password "mypassword" --discover-chains
+
+Enter your 12 or 24-word recovery phrase.
+Words will be hidden as you type.
+
+Seedphrase: ************************
+✓ Valid 12-word seedphrase
+
+Discovering chains with balances...
+  Bitcoin:     bc1q...xyz     0.05 BTC
+  Ethereum:    0x1234...      1.2 ETH
+✓ Found 2 chains with balances
+
+Importing seedphrase... (35%)
+✓ Keys generated, awaiting email verification
+
+Enter verification code: 123456
+✓ Vault verified successfully!
+
+Vault imported: My Wallet
+  Bitcoin:  bc1q...xyz
+  Ethereum: 0x1234...abc
+```
+
+### Check Balances
+
+```bash
+# All chains
+vultisig balance
+
+# Specific chain
+vultisig balance ethereum
+
+# Include token balances
+vultisig balance ethereum --tokens
+```
+
+### Send Transaction
+
+```bash
+# Send native token
+vultisig send ethereum 0xRecipient... 0.1
+
+# Send ERC-20 token
+vultisig send ethereum 0xRecipient... 100 --token 0xTokenAddress...
+
+# Provide password via flag (for scripts/automation)
+vultisig send ethereum 0xRecipient... 0.1 --password mypassword
+```
+
+**Secure vault transactions:**
+
+When using a secure vault, a QR code displays for device coordination:
+
+```bash
+$ vultisig send ethereum 0x742d35Cc... 0.1
+
+Preparing transaction...
+
+Scan this QR code to approve transaction:
+████████████████████████████
+...
+
+Waiting for devices to join signing session...
+⠋ Device joined: iPhone-abc123 (2/2)
+
+Signing transaction...
+✓ Transaction signed
+✓ Broadcast: 0x9f8e7d6c...
+```
+
+You can cancel with Ctrl+C while waiting for devices.
+
+### Interactive Shell
+
+Start an interactive session with tab completion and password caching:
+
+```bash
+vultisig --interactive
+# or
+vultisig -i
+```
+
+## Commands
+
+### Vault Management
+
+| Command                         | Description                                      |
+| ------------------------------- | ------------------------------------------------ |
+| `create fast`                   | Create a new fast vault (server-assisted 2-of-2) |
+| `create secure`                 | Create a secure vault (multi-device MPC)         |
+| `import <file>`                 | Import vault from .vult file                     |
+| `delete [vault]`                | Delete a vault from local storage                |
+| `create-from-seedphrase fast`   | Import seedphrase as FastVault (2-of-2)          |
+| `create-from-seedphrase secure` | Import seedphrase as SecureVault (N-of-M)        |
+| `join secure`                   | Join an existing SecureVault creation session    |
+| `export [path]`                 | Export vault to file                             |
+| `verify <vaultId>`              | Verify vault with email code                     |
+| `vaults`                        | List all stored vaults                           |
+| `switch <vaultId>`              | Switch to a different vault                      |
+| `rename <newName>`              | Rename the active vault                          |
+| `info`                          | Show detailed vault information                  |
+
+**Create fast options:**
+
+- `--name <name>` - Vault name (required)
+- `--password <password>` - Vault password (required)
+- `--email <email>` - Email for verification (required)
+
+**Create secure options:**
+
+- `--name <name>` - Vault name (required)
+- `--password <password>` - Vault password (optional)
+- `--shares <n>` - Number of devices (default: 3)
+- `--threshold <n>` - Signing threshold (default: 2)
+
+**Delete options:**
+
+- `[vault]` - Vault name or ID to delete (defaults to active vault)
+- `-y, --yes` - Skip confirmation prompt
+
+```bash
+# Delete by vault name
+vultisig delete "My Wallet"
+
+# Delete by vault ID (or prefix)
+vultisig delete abc123
+
+# Delete active vault
+vultisig delete
+
+# Skip confirmation (for scripts)
+vultisig delete "Test Vault" --yes
+```
+
+**Join secure options:**
+
+- `--qr <payload>` - QR code payload from initiator (vultisig://...)
+- `--qr-file <path>` - Read QR payload from file
+- `--mnemonic <words>` - Seedphrase (required for seedphrase-based sessions)
+- `--password <password>` - Vault password (optional)
+- `--devices <n>` - Total devices in session (default: 2)
+
+**Create-from-seedphrase fast options:**
+
+- `--name <name>` - Vault name (required)
+- `--email <email>` - Email for verification (required)
+- `--password <password>` - Vault password (required)
+- `--mnemonic <words>` - Recovery phrase (prompted securely if not provided)
+- `--discover-chains` - Auto-enable chains with existing balances
+- `--chains <chains>` - Specific chains to enable (comma-separated)
+- `--use-phantom-solana-path` - Use Phantom wallet derivation path for Solana
+
+**Create-from-seedphrase secure options:**
+
+- `--name <name>` - Vault name (required)
+- `--shares <n>` - Number of devices (default: 3)
+- `--threshold <n>` - Signing threshold (default: ceil((shares+1)/2))
+- `--password <password>` - Vault password (optional)
+- `--mnemonic <words>` - Recovery phrase (prompted securely if not provided)
+- `--discover-chains` - Auto-enable chains with existing balances
+- `--chains <chains>` - Specific chains to enable (comma-separated)
+- `--use-phantom-solana-path` - Use Phantom wallet derivation path for Solana
+
+**Export options:**
+
+- `[path]` - Output file or directory (defaults to SDK-generated filename in current directory)
+- `--password <password>` - Password to unlock encrypted vaults
+- `--exportPassword <password>` - Password to encrypt the export file (defaults to `--password` if provided)
+
+```bash
+# Export to current directory (prompts for export password)
+vultisig export
+
+# Export to specific directory
+vultisig export /path/to/backups/
+
+# Export with encryption (same password for unlock and export)
+vultisig export --password mypassword
+
+# Export with different passwords for unlock vs export
+vultisig export --password unlockPass --exportPassword exportPass
+
+# Export without encryption (leave password prompt empty)
+vultisig export
+# > Enter password for export encryption (leave empty for no encryption): [enter]
+```
+
+### Wallet Operations
+
+| Command                      | Description                            |
+| ---------------------------- | -------------------------------------- |
+| `balance [chain]`            | Show balance for a chain or all chains |
+| `send <chain> <to> <amount>` | Send tokens to an address              |
+| `addresses`                  | Show all vault addresses               |
+| `portfolio`                  | Show total portfolio value             |
+
+### Chain & Token Management
+
+| Command          | Description                              |
+| ---------------- | ---------------------------------------- |
+| `chains`         | List and manage chains (--add, --remove) |
+| `tokens <chain>` | List and manage tokens for a chain       |
+
+### Swap Operations
+
+| Command                           | Description                    |
+| --------------------------------- | ------------------------------ |
+| `swap-chains`                     | List chains that support swaps |
+| `swap-quote <from> <to> <amount>` | Get a swap quote               |
+| `swap <from> <to> <amount>`       | Execute a swap                 |
+
+```bash
+# Get a swap quote
+vultisig swap-quote ethereum bitcoin 0.1
+
+# Execute a swap
+vultisig swap ethereum bitcoin 0.1
+
+# With password for automation
+vultisig swap ethereum bitcoin 0.1 --password mypassword
+
+# Skip confirmation prompt
+vultisig swap ethereum bitcoin 0.1 -y --password mypassword
+```
+
+Swap quotes and previews show your VULT discount tier when affiliate fees are applied. See `vultisig discount` for tier details.
+
+### Advanced Operations
+
+| Command                      | Description                                   |
+| ---------------------------- | --------------------------------------------- |
+| `sign`                       | Sign pre-hashed bytes for custom transactions |
+| `broadcast`                  | Broadcast a pre-signed raw transaction        |
+| `tx-status <chain> <txHash>` | Check transaction confirmation status         |
+| `prep <helper>`              | Build an unsigned SDK transaction payload     |
+
+#### Unsigned transaction preparation
+
+`vultisig prep` exposes the SDK's specialized transaction builders directly. These commands only build unsigned
+payloads: they never sign or broadcast. Identity-dependent helpers use the active vault's public identity by default;
+isolated tooling can pass the same non-secret fields with `--identity <json>`.
+
+```bash
+vultisig prep contract-call Ethereum <contractAddress> approve --sender <senderAddress> --abi '[{"type":"function","name":"approve","inputs":[{"type":"address","name":"spender"},{"type":"uint256","name":"amount"}]}]' --args '["<spenderAddress>","1000000"]'
+vultisig prep ibc-transfer Osmosis <sourceAddress> <receiverAddress> uosmo 1000000 --to-chain Cosmos
+vultisig prep spl-transfer <mint> <from> <to> 1000000 6
+vultisig prep trc20-transfer <contract> <from> <to> 1000000
+vultisig prep jetton-transfer <recipient> <senderJettonWallet> 1000000 5
+vultisig prep sui-token-transfer <coinType> <from> <to> 1000000 --decimals 6 --ticker USDC
+vultisig prep polkadot-asset-send 1984 <from> <to> 1000000
+vultisig prep cosmos-staking delegate <delegator> <validator> 5000000 uosmo
+vultisig prep cw20-transfer osmo <contract> <recipient> 1000000 <sender>
+```
+
+Run `vultisig prep <helper> --help` for the complete optional parameter set. JSON mode returns
+`{ helper, unsigned: true, result }` inside the standard versioned success envelope.
+
+#### Transaction Status
+
+Check whether a transaction has confirmed on-chain. The CLI reports `pending`, `not_found`, `confirmed`, or `failed`. A recently broadcast hash may briefly be `not_found`, so the default mode polls every 5 seconds for up to 120 seconds. Use `--no-wait` for one read:
+
+```bash
+# Poll until confirmed (default)
+vultisig tx-status --chain Ethereum --tx-hash 0x9f8e7d6c...
+
+# Check current status without polling
+vultisig tx-status --chain Ethereum --tx-hash 0x9f8e7d6c... --no-wait
+
+# JSON output
+vultisig --output json tx-status --chain Ethereum --tx-hash 0x9f8e7d6c... --no-wait
+```
+
+**Output:**
+
+```
+✓ Transaction status: confirmed
+Status: confirmed
+Fee: 0.00042 ETH
+Explorer: https://etherscan.io/tx/0x9f8e7d6c...
+```
+
+**JSON output:**
+
+```json
+{
+  "success": true,
+  "v": 1,
+  "data": {
+    "chain": "Ethereum",
+    "txHash": "0x9f8e7d6c...",
+    "status": "confirmed",
+    "receipt": {
+      "feeAmount": "420000000000000",
+      "feeDecimals": 18,
+      "feeTicker": "ETH"
+    },
+    "explorerUrl": "https://etherscan.io/tx/0x9f8e7d6c..."
+  }
+}
+```
+
+A malformed hash fails before vault access or RPC with exit code `4`. JSON output uses error code `INVALID_HASH` and includes `error.context.status: "invalid_hash"`. A well-formed hash unknown to the node reports `not_found` in `--no-wait` mode; default polling exits `5` with `TX_NOT_FOUND` if it remains unseen for the wait budget. A known, unconfirmed transaction remains `pending`; if it is still `pending` when the wait budget is exhausted, default polling exits `3` with `TX_STATUS_TIMEOUT` (retryable) rather than reporting a false terminal status.
+
+EVM RPCs can distinguish a missing receipt from a hash the node does not know, so they report `not_found` explicitly. Some non-EVM providers do not distinguish an absent transaction from a failed lookup; those chains conservatively remain `pending` with an unknown-presence signal, and default CLI polling is still bounded by `--timeout`.
+
+#### Signing Arbitrary Bytes
+
+Sign pre-hashed data for externally constructed transactions:
+
+```bash
+# Sign a pre-hashed message (base64 encoded)
+vultisig sign --chain ethereum --bytes "aGVsbG8gd29ybGQ="
+
+# With password
+vultisig sign --chain bitcoin --bytes "..." --password mypassword
+
+# JSON output
+vultisig sign --chain ethereum --bytes "..." -o json
+```
+
+**Output:**
+
+```
+Signature: <base64-encoded signature>
+Recovery: 0
+Format: ecdsa
+```
+
+**JSON output:**
+
+```json
+{
+  "signature": "<base64>",
+  "recovery": 0,
+  "format": "ecdsa"
+}
+```
+
+#### Broadcasting Raw Transactions
+
+Broadcast pre-signed transactions to the network:
+
+```bash
+# EVM transaction (hex)
+vultisig broadcast --chain ethereum --raw-tx "0x02f8..."
+
+# Bitcoin transaction (hex)
+vultisig broadcast --chain bitcoin --raw-tx "0200000001..."
+
+# Solana transaction (base64)
+vultisig broadcast --chain solana --raw-tx "AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQABAwIAAA..."
+
+# Sui transaction (JSON)
+vultisig broadcast --chain sui --raw-tx '{"unsignedTx":"...","signature":"..."}'
+```
+
+**Output:**
+
+```
+TX Hash: 0x9f8e7d6c...
+Explorer: https://etherscan.io/tx/0x9f8e7d6c...
+```
+
+**Supported broadcast formats by chain:**
+
+| Chain                          | `--raw-tx` Format                              |
+| ------------------------------ | ---------------------------------------------- |
+| EVM (Ethereum, Polygon, etc.)  | Hex-encoded signed tx                          |
+| UTXO (Bitcoin, Litecoin, etc.) | Hex-encoded raw tx                             |
+| Solana                         | Base64-encoded tx bytes                        |
+| Sui                            | JSON: `{"unsignedTx":"...","signature":"..."}` |
+| Cosmos                         | JSON: `{"tx_bytes":"..."}` or base64           |
+| TON                            | Base64 BOC                                     |
+| Polkadot                       | Hex-encoded extrinsic                          |
+| Ripple                         | Hex-encoded tx blob                            |
+| Tron                           | JSON tx object                                 |
+
+#### Example: Custom EVM Transaction
+
+Build and sign a transaction with ethers.js, broadcast with CLI:
+
+```bash
+# 1. Build transaction externally (save as build-evm-tx.js)
+cat > build-evm-tx.js << 'EOF'
+const { keccak256, Transaction, parseEther } = require('ethers');
+const tx = Transaction.from({
+  to: '0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb0',
+  value: parseEther('0.01'),
+  gasLimit: 21000n,
+  maxFeePerGas: 50000000000n,
+  maxPriorityFeePerGas: 2000000000n,
+  nonce: 0,
+  chainId: 1,
+  type: 2
+});
+const hash = keccak256(tx.unsignedSerialized);
+console.log('HASH:', Buffer.from(hash.slice(2), 'hex').toString('base64'));
+console.log('UNSIGNED:', tx.unsignedSerialized);
+EOF
+node build-evm-tx.js
+
+# 2. Sign the hash with Vultisig
+vultisig sign --chain ethereum --bytes "<base64-hash-from-step-1>" -o json > sig.json
+
+# 3. Assemble signed transaction (use r,s,v from sig.json)
+# The signature field contains r||s (64 bytes hex), recovery is v
+
+# 4. Broadcast the assembled signed transaction
+vultisig broadcast --chain ethereum --raw-tx "0x02f8..."
+```
+
+#### Example: Custom Bitcoin Transaction
+
+Build a PSBT with bitcoinjs-lib, sign with CLI:
+
+```bash
+# 1. Build PSBT and get sighash (save as build-btc-tx.js)
+cat > build-btc-tx.js << 'EOF'
+const bitcoin = require('bitcoinjs-lib');
+const psbt = new bitcoin.Psbt({ network: bitcoin.networks.bitcoin });
+// Add your inputs and outputs
+psbt.addInput({
+  hash: '<previous-txid>',
+  index: 0,
+  witnessUtxo: { script: Buffer.from('...'), value: 100000 }
+});
+psbt.addOutput({ address: 'bc1q...', value: 90000 });
+// Get sighash for signing
+const sighash = psbt.getTxForSigning().hashForWitnessV0(0, scriptCode, 100000, 0x01);
+console.log('SIGHASH:', sighash.toString('base64'));
+EOF
+node build-btc-tx.js
+
+# 2. Sign with Vultisig
+vultisig sign --chain bitcoin --bytes "<base64-sighash>" -o json > sig.json
+
+# 3. Apply signature to PSBT and finalize (use signature from sig.json)
+
+# 4. Broadcast
+vultisig broadcast --chain bitcoin --raw-tx "0200000001..."
+```
+
+#### Example: Custom Solana Transaction
+
+Build with @solana/web3.js, sign with CLI:
+
+```bash
+# 1. Build transaction (save as build-sol-tx.js)
+cat > build-sol-tx.js << 'EOF'
+const { Transaction, SystemProgram, PublicKey, Connection } = require('@solana/web3.js');
+const connection = new Connection('https://api.mainnet-beta.solana.com');
+const fromPubkey = new PublicKey('<your-pubkey>');
+const toPubkey = new PublicKey('<recipient-pubkey>');
+
+const tx = new Transaction().add(
+  SystemProgram.transfer({ fromPubkey, toPubkey, lamports: 1000000 })
+);
+tx.recentBlockhash = (await connection.getLatestBlockhash()).blockhash;
+tx.feePayer = fromPubkey;
+
+const message = tx.serializeMessage();
+console.log('MESSAGE:', message.toString('base64'));
+EOF
+node build-sol-tx.js
+
+# 2. Sign the message with Vultisig (EdDSA)
+vultisig sign --chain solana --bytes "<base64-message>" -o json > sig.json
+
+# 3. Assemble signed transaction (attach signature to message)
+
+# 4. Broadcast (base64 encoded signed transaction)
+vultisig broadcast --chain solana --raw-tx "<base64-signed-tx>"
+```
+
+#### Example: Custom Sui Transaction
+
+Build with @mysten/sui, sign with CLI:
+
+```bash
+# 1. Build transaction (save as build-sui-tx.js)
+cat > build-sui-tx.js << 'EOF'
+const { SuiClient, getFullnodeUrl } = require('@mysten/sui/client');
+const { Transaction } = require('@mysten/sui/transactions');
+
+const client = new SuiClient({ url: getFullnodeUrl('mainnet') });
+const tx = new Transaction();
+tx.transferObjects([tx.gas], '<recipient-address>');
+const bytes = await tx.build({ client });
+console.log('TX_BYTES:', Buffer.from(bytes).toString('base64'));
+EOF
+node build-sui-tx.js
+
+# 2. Sign the transaction bytes with Vultisig (EdDSA)
+vultisig sign --chain sui --bytes "<base64-tx-bytes>" -o json > sig.json
+
+# 3. Broadcast (requires JSON with both unsigned tx and signature)
+vultisig broadcast --chain sui --raw-tx '{"unsignedTx":"<base64-tx-bytes>","signature":"<base64-signature-from-sig.json>"}'
+```
+
+### AI Agent Integration
+
+The CLI has first-class support for AI coding agents (Claude Code, Cursor, Opencode, etc.).
+
+#### Non-Interactive Vault Creation
+
+When running in a non-TTY environment (pipes, scripts, AI agents), the CLI **automatically** uses two-step mode — no interactive OTP prompt that would hang your agent:
+
+```bash
+# Agent runs this — auto-detects non-TTY, skips interactive prompt
+vultisig create fast --name "Agent Wallet" --password "$VAULT_PASSWORD" --email agent@example.com
+
+# Returns immediately with vault ID (pending verification)
+# Vault ID: 023118...
+
+# Verify later when you have the email code
+vultisig verify 023118... --code 123456
+```
+
+You can also force two-step mode explicitly:
+
+```bash
+# Force two-step even in a TTY
+vultisig create fast --name "Agent Wallet" --password "$VAULT_PASSWORD" --email agent@example.com --two-step
+
+# JSON output for machine parsing
+vultisig create fast --name "Agent Wallet" --password "$VAULT_PASSWORD" --email agent@example.com --two-step -o json
+```
+
+JSON output for two-step create:
+
+```json
+{
+  "vaultId": "023118...",
+  "status": "pending_verification",
+  "message": "Vault created. Verify with email OTP to activate.",
+  "verifyCommand": "vultisig verify 023118... --code <OTP>",
+  "resendCommand": "vultisig verify 023118... --resend --email agent@example.com --password ..."
+}
+```
+
+#### Agent Ask (One-Shot Mode)
+
+Send a single natural-language message and get a structured response. Designed for AI-to-AI communication.
+
+#### Headless Password and Credential Chain
+
+`agent ask` resolves the vault password before prompting, so automation does not need to put a secret on argv. The lookup order is:
+
+1. In-memory cache (an explicit `--password` or a password already resolved in this process)
+2. Stored credentials from `vsig auth setup` (OS keyring, or the encrypted-file backend)
+3. `VAULT_PASSWORDS` by vault name, then by vault ID
+4. `VAULT_PASSWORD`, then its namespaced alias `VULTISIG_PASSWORD`
+5. Interactive prompt, or an error in non-interactive mode
+
+The five password-related environment variables have distinct roles:
+
+| Variable                          | Purpose                                                                                                                                                       |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `VAULT_PASSWORD`                  | Single fallback vault/server-signing password. It is also the server password required by `auth setup --non-interactive`.                                     |
+| `VULTISIG_PASSWORD`               | Namespaced alias for the single-password fallback during normal vault unlock. `auth setup` still requires `VAULT_PASSWORD`.                                   |
+| `VAULT_PASSWORDS`                 | Per-vault passwords keyed by vault name or ID. Use the JSON form for names containing spaces.                                                                 |
+| `VAULT_DECRYPT_PASSWORD`          | Password for decrypting an encrypted `.vult` backup during `auth setup`; it is not part of the normal signing-password lookup chain.                          |
+| `VULTISIG_CREDENTIALS_PASSPHRASE` | Passphrase for the AES-256-GCM `credentials.enc` backend used instead of an OS keyring in Docker/CI. It must be set again when later commands read that file. |
+
+`VAULT_PASSWORDS` accepts a JSON object (recommended) or the legacy whitespace-separated form:
+
+```bash
+# Unambiguous: supports spaces and other punctuation in vault names
+export VAULT_PASSWORDS='{"Vultisig Cluster #1":"pw","vault-id":"other-pw"}'
+
+# Backward-compatible for space-free keys; passwords may contain colons
+export VAULT_PASSWORDS='MyVault:pw vault-id:other:pw'
+```
+
+Vault-ID keys are the most deterministic choice. If a JSON-looking value is malformed, the CLI warns on stderr and falls back to legacy parsing.
+
+For a keychain-less container, provide all setup secrets once, persist the config directory, then remove the vault passwords from the environment. Keep the credentials-file passphrase available to later CLI processes:
+
+```bash
+export VULTISIG_CONFIG_DIR=/var/lib/vultisig
+export VAULT_DECRYPT_PASSWORD='backup-file-password'
+export VAULT_PASSWORD='server-signing-password'
+export VULTISIG_CREDENTIALS_PASSPHRASE='credentials-file-passphrase'
+
+vsig auth setup --non-interactive --vault-file /run/secrets/vault.vult
+
+# Setup stored both passwords in $VULTISIG_CONFIG_DIR/credentials.enc (mode 0600).
+unset VAULT_DECRYPT_PASSWORD VAULT_PASSWORD
+vsig auth status
+
+# No vault password on argv or in the environment. --yes authorizes signing/broadcast.
+vsig agent ask 'Send 0.01 ETH to 0x742d...' --yes
+```
+
+Omit `VAULT_DECRYPT_PASSWORD` when the `.vult` file is not encrypted. Mount `VULTISIG_CONFIG_DIR` persistently and provide the same `VULTISIG_CREDENTIALS_PASSPHRASE` to each new container. The `--password` flag remains available as a fallback, but it exposes the secret to `ps` and shell history and emits a stderr warning.
+
+```bash
+# Simple query (password resolved from stored credentials or environment)
+vultisig agent ask "What is my ETH balance?"
+
+# Continue a conversation (multi-turn)
+vultisig agent ask "Now swap it to USDC" --session abc123
+
+# JSON output (for parsing)
+vultisig agent ask "Check my portfolio" --json
+
+# Fallback only — exposes the secret to `ps`/shell history (emits a warning)
+vultisig agent ask "What is my ETH balance?" --password "$VAULT_PASSWORD"
+
+# Signing does not authorize backend order submission unless this is also set
+vultisig agent ask "Place the order" --yes --allow-auto-submit
+```
+
+`--yes` authorizes unattended signing and transaction broadcast. It does not authorize the backend to submit a signed Polymarket order: that separate behavior is fail-closed unless `--allow-auto-submit` is present.
+
+**Text output (default):**
+
+```
+session:abc123-def456
+
+Your ETH balance is 1.5 ETH ($3,750.00 USD).
+
+tx:ethereum:0x9f8e7d6c...
+explorer:https://etherscan.io/tx/0x9f8e7d6c...
+```
+
+**JSON output (`--json`):**
+
+```json
+{
+  "success": true,
+  "v": 1,
+  "data": {
+    "conversation_id": "abc123-def456",
+    "session_id": "abc123-def456",
+    "response": "Your ETH balance is 1.5 ETH ($3,750.00 USD).",
+    "tool_calls": [
+      {
+        "id": "tool-call-1",
+        "action": "get_balances",
+        "success": true,
+        "data": { "balances": [] }
+      }
+    ],
+    "transactions": [],
+    "warnings": [
+      {
+        "code": "PROTOCOL_DRIFT",
+        "message": "Ignored 1 unknown SSE frame: data-future-critical",
+        "count": 1,
+        "eventTypes": ["data-future-critical"]
+      }
+    ],
+    "outcome": { "kind": "success" }
+  }
+}
+```
+
+`warnings` is omitted when empty, and is **`--verbose`-only**: `PROTOCOL_DRIFT` is a debugging aid, not a machine contract. The backend's V1 wire evolves forward-compatibly — unknown `data-*` card kinds are expected against a newer backend and are tolerated silently — so a warning emitted by default would fire on healthy turns. Run with `--verbose` to see which frame types a turn carried that this CLI does not route.
+
+Failures use the same v1 envelope with `success:false` and a stable `error.code`. This includes
+failed/declined signing and typed blocked/refusal/error turn endings; their partial turn data remains under `data`.
+If `--session` cannot be resumed, ask mode exits `5` before sending the message and does not fall back to a fresh
+conversation.
+If a transaction hash has already been submitted and a later backend outcome/error prevents the overall request
+from completing, the CLI exits `13` with `BROADCAST_COMMITTED`. This is deliberately **not** overall success:
+an approval or other first leg may have landed while a swap or follow-up step did not. Inspect every hash and do
+not blindly retry the original request.
+
+```json
+{
+  "success": false,
+  "v": 1,
+  "error": {
+    "message": "A transaction was broadcast, but the overall agent request may be incomplete. Inspect the transaction status before continuing.",
+    "code": "BROADCAST_COMMITTED",
+    "conversation_id": "abc123-def456"
+  },
+  "data": {
+    "transactions": [
+      {
+        "hash": "0x9f8e7d6c...",
+        "chain": "ethereum",
+        "status": "broadcast",
+        "explorerUrl": "https://etherscan.io/tx/0x9f8e7d6c..."
+      }
+    ],
+    "tool_calls": [],
+    "response": "",
+    "outcome": { "kind": "error", "code": "follow_up_failed" },
+    "original_error": {
+      "message": "Confirmation indexer failed after broadcast",
+      "code": "TRANSACTION_FAILED"
+    }
+  }
+}
+```
+
+Each entry in `tool_calls` may include `code` when `success` is false (same values as below).
+
+##### Error codes (`agent ask --json`, `--via-agent`, executor)
+
+Orchestrators should branch on `code`. The message in `error` / `message` stays human-readable and may change between releases.
+
+| Code                        | Typical meaning                                                                                                                                                               |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `BACKEND_UNREACHABLE`       | Agent health check failed or backend not responding                                                                                                                           |
+| `AUTH_FAILED`               | Auth/token failure, HTTP 401/403, or wrong vault password                                                                                                                     |
+| `VAULT_LOCKED`              | Encrypted vault needs unlock (password)                                                                                                                                       |
+| `PASSWORD_REQUIRED`         | Password was not supplied when required (e.g. pipe mode or signing)                                                                                                           |
+| `CONFIRMATION_REQUIRED`     | User confirmation needed (pipe mode; message prefix `CONFIRMATION_REQUIRED:`); also returned by `agent ask` on a declined sign (no `--yes`), exit 12                          |
+| `ACTION_NOT_IMPLEMENTED`    | Local executor does not implement this action type                                                                                                                            |
+| `INVALID_INPUT`             | Bad parameters, unknown chain, malformed NDJSON input, etc.                                                                                                                   |
+| `NETWORK_ERROR`             | RPC/fetch connectivity (includes many SDK `VaultError` network cases)                                                                                                         |
+| `TIMEOUT`                   | HTTP deadline or SSE frame-idle deadline exceeded (process exit 3, retryable)                                                                                                 |
+| `TRANSACTION_FAILED`        | Build/broadcast/gas errors mapped from the SDK                                                                                                                                |
+| `SIGNING_FAILED`            | MPC/signing failed                                                                                                                                                            |
+| `ACK_FAILED`                | Transaction broadcast, but its immediate acknowledgement/report failed; hash is valid and must be inspected before retrying                                                   |
+| `BROADCAST_COMMITTED`       | At least one transaction broadcast, but the overall agent request may be incomplete; do not blindly retry                                                                     |
+| `AGENT_TURN_BLOCKED`        | A fund-safety guardrail blocked the requested action (exit 10)                                                                                                                |
+| `AGENT_TURN_REFUSAL`        | The model refused or requested clarification without completing the action (exit 11)                                                                                          |
+| `AGENT_TURN_ERROR`          | The typed turn ending reported a failure without a more specific stream error                                                                                                 |
+| `IDEMPOTENT_TURN_DUPLICATE` | The backend already accepted the same keyed turn; inspect the conversation for the original persisted result                                                                  |
+| `IDEMPOTENCY_KEY_REUSED`    | The idempotency key was already used for a _different_ request body. This request did NOT run and nothing was persisted for it — retry with a fresh key (exit code 4, not 14) |
+| `SESSION_NOT_INITIALIZED`   | Internal session state error                                                                                                                                                  |
+| `UNKNOWN_ERROR`             | Unclassified failure (default for opaque SSE `error` events). Plain `AbortError` without “timeout” in the message maps here.                                                  |
+
+SSE `error` events may optionally include a `code` field from the backend; if it matches one of the values above, it is passed through unchanged. Otherwise the CLI infers a code from the message.
+
+**Agent ask options:**
+
+- `--session <id>` - Continue an existing conversation; a stale ID fails closed before the message is sent
+- `--backend-url <url>` - Agent backend URL (default: https://abe.vultisig.com)
+- `--password <password>` - Vault password (fallback only; prefer the keyring/`VAULT_PASSWORD` env — see **Password resolution** above)
+- `--verbose` - Show tool calls and debug info on stderr
+- `--json` - Output structured JSON
+- `--yes` - Authorize unattended signing/broadcast
+- `--allow-auto-submit` - Separately allow backend submission of signed Polymarket orders (requires `--yes` to sign)
+- `--force` - Bypass the duplicate-broadcast guard
+
+#### Agent Chat (Interactive/Pipe Mode)
+
+For interactive TUI or piped agent-to-agent communication:
+
+```bash
+# Interactive TUI with chat interface
+vultisig agent
+
+# Pipe mode for agent-to-agent (NDJSON) — password resolved from keyring/env
+vultisig agent --via-agent
+```
+
+The vault password is resolved from the keyring/env chain (`vsig auth setup` or `VAULT_PASSWORD`) the same way as `agent ask`; in `--via-agent` mode it can also be supplied over the pipe protocol (see below). `--password` remains a discouraged fallback.
+
+**Agent chat options:**
+
+- `--via-agent` - NDJSON pipe mode for agent-to-agent communication (24h password cache)
+- `--verbose` - Show detailed tool call parameters
+- `--backend-url <url>` - Agent backend URL
+- `--password <password>` - Vault password (fallback only; prefer the keyring/`VAULT_PASSWORD` env)
+- `--password-ttl <ms>` - Password cache TTL (default: 5min, 24h for `--via-agent`)
+- `--session-id <id>` - Resume an existing session
+- `--allow-auto-submit` - Allow backend submission of signed Polymarket orders after local confirmation
+
+#### Pipe Protocol (`--via-agent`)
+
+The pipe interface uses NDJSON (one JSON object per line) on stdin/stdout. Designed for AI agent orchestrators that need programmatic wallet control.
+
+**Input commands** (send on stdin):
+
+| Type       | Fields               | Purpose                               |
+| ---------- | -------------------- | ------------------------------------- |
+| `message`  | `content: string`    | Send a natural-language message       |
+| `confirm`  | `confirmed: boolean` | Respond to a confirmation request     |
+| `password` | `password: string`   | Provide vault password when requested |
+
+**Output events** (emitted on stdout):
+
+| Type          | Fields                                          | When                                                                                                     |
+| ------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `ready`       | `vault, addresses`                              | Session initialized, addresses for all chains                                                            |
+| `session`     | `id`                                            | Conversation ID for resuming later                                                                       |
+| `history`     | `messages[]`                                    | Previous messages when resuming a session                                                                |
+| `text_delta`  | `delta`                                         | Streaming text chunk from the agent                                                                      |
+| `tool_call`   | `id, action, params?, status`                   | Action started (`running`)                                                                               |
+| `tool_result` | `id, action, success, data?, error?, code?`     | Action completed (`code` when `success` is false)                                                        |
+| `tx_status`   | `tx_hash, chain, status, explorer_url?`         | Transaction broadcast/confirmed/failed                                                                   |
+| `assistant`   | `content`                                       | Full assistant response                                                                                  |
+| `suggestions` | `suggestions[]`                                 | Suggested follow-up actions                                                                              |
+| `warning`     | `warning: { code, message, count, eventTypes }` | Non-fatal protocol drift; an unrecognized SSE frame was ignored (`--verbose` only)                       |
+| `error`       | `message, code`                                 | Error or control signal (`PASSWORD_REQUIRED`, `CONFIRMATION_REQUIRED: …`; always includes stable `code`) |
+| `done`        | `{}`                                            | Response cycle complete                                                                                  |
+
+**Example session:**
+
+```bash
+echo '{"type":"message","content":"What is my ETH balance?"}' | vultisig agent --via-agent --password mypass --vault t1
+```
+
+```json
+{"type":"ready","vault":"t1","addresses":{"Ethereum":"0xabc...","Bitcoin":"bc1q..."}}
+{"type":"session","id":"conv_abc123"}
+{"type":"tool_call","id":"mcp-get_balances","action":"get_balances","status":"running"}
+{"type":"tool_result","id":"mcp-get_balances","action":"get_balances","success":true}
+{"type":"text_delta","delta":"Your ETH"}
+{"type":"text_delta","delta":" balance is 1.5 ETH."}
+{"type":"assistant","content":"Your ETH balance is 1.5 ETH ($3,750.00 USD)."}
+{"type":"done"}
+```
+
+When the agent needs a password mid-session (e.g. for signing), it emits `{"type":"error","message":"PASSWORD_REQUIRED","code":"PASSWORD_REQUIRED"}`. Respond with `{"type":"password","password":"..."}` on stdin.
+
+#### Session Management
+
+```bash
+# List chat sessions for current vault
+vultisig agent sessions list
+
+# Delete a session
+vultisig agent sessions delete abc123
+```
+
+#### Agent Command Summary
+
+| Command                      | Description                                |
+| ---------------------------- | ------------------------------------------ |
+| `agent ask <message>`        | One-shot: send message, get response, exit |
+| `agent`                      | Interactive TUI chat interface             |
+| `agent --via-agent`          | NDJSON pipe mode for agent-to-agent        |
+| `agent sessions list`        | List chat sessions                         |
+| `agent sessions delete <id>` | Delete a session                           |
+
+#### Environment Variables for Automation
+
+```bash
+# Pre-select vault (no --vault flag needed)
+VULTISIG_VAULT=MyWallet
+
+# Vault password (avoids --password flag)
+VAULT_PASSWORD=mypassword
+
+# Multiple vault passwords
+VAULT_PASSWORDS='{"Vault 1":"pass1","vault-id-2":"pass2"}'
+
+# Suppress spinners and info messages
+VULTISIG_SILENT=1
+
+# Bound agent-backend connection/unary requests (default: 30000ms)
+VULTISIG_HTTP_TIMEOUT_MS=30000
+
+# Bound an established SSE stream that stops making PROGRESS (default: 180000ms).
+# Measures time since the last real data frame. Keep-alive comments do NOT extend
+# it — both backends heartbeat on a timer that runs regardless of whether the turn
+# is advancing, so a clock they reset would bound only a dead connection, never a
+# wedged backend. Sized above the backend's worst-case silent stretch (a model call
+# is bounded at 90s; the swap builder is documented at 90s + 60s MCP), so a slow but
+# healthy turn is never killed.
+VULTISIG_SSE_IDLE_TIMEOUT_MS=180000
+```
+
+### Settings
+
+| Command           | Description                                |
+| ----------------- | ------------------------------------------ |
+| `currency [code]` | View or set currency preference            |
+| `server`          | Check server connectivity                  |
+| `discount`        | Show your VULT discount tier for swap fees |
+| `address-book`    | Manage saved addresses                     |
+
+#### Discount Tiers
+
+View your VULT token holdings discount tier for reduced swap fees:
+
+```bash
+# Show current discount tier
+vultisig discount
+
+# Force refresh from blockchain
+vultisig discount --refresh
+```
+
+**Output:**
+
+```text
++----------------------------------------+
+|          VULT Discount Tier            |
++----------------------------------------+
+
+  Current Tier:   Gold
+  Swap Fee:       30 bps (0.30%)
+  Discount:       20 bps saved
+
+  Next Tier:
+    Platinum - requires 15,000 VULT
+
+  Tip: Thorguard NFT holders get +1 tier upgrade (up to gold)
+```
+
+**Tier levels:**
+
+| Tier     | VULT Required | Swap Fee | Discount |
+| -------- | ------------- | -------- | -------- |
+| None     | 0             | 50 bps   | -        |
+| Bronze   | 1,500         | 45 bps   | 5 bps    |
+| Silver   | 3,000         | 40 bps   | 10 bps   |
+| Gold     | 7,500         | 30 bps   | 20 bps   |
+| Platinum | 15,000        | 25 bps   | 25 bps   |
+| Diamond  | 100,000       | 15 bps   | 35 bps   |
+| Ultimate | 1,000,000     | 0 bps    | 50 bps   |
+
+Thorguard NFT holders receive a free tier upgrade (up to gold tier).
+
+### CLI Management
+
+| Command      | Description                |
+| ------------ | -------------------------- |
+| `version`    | Show detailed version info |
+| `update`     | Check for updates          |
+| `completion` | Generate shell completion  |
+
+### Interactive Shell Commands
+
+| Command         | Description                        |
+| --------------- | ---------------------------------- |
+| `vault <name>`  | Switch to a different vault        |
+| `vaults`        | List all vaults                    |
+| `create`        | Create a new vault                 |
+| `import <file>` | Import vault from file             |
+| `delete [name]` | Delete a vault                     |
+| `lock`          | Lock vault (clear cached password) |
+| `unlock`        | Unlock vault (cache password)      |
+| `status`        | Show vault status                  |
+| `help`          | Show available commands            |
+| `.clear`        | Clear the screen                   |
+| `.exit`         | Exit the shell                     |
+
+## Global Options
+
+```
+-v, --version            Show version
+-i, --interactive        Start interactive shell mode
+-o, --output <format>    Output format: table, json (default: table)
+--vault <nameOrId>       Specify vault by name or ID
+--server-url <url>       Base Vultisig API URL for FastVault and relay endpoints
+--silent                 Suppress informational output, show only results
+--debug                  Enable debug output
+-h, --help               Show help
+```
+
+### Silent Mode
+
+Use `--silent` to suppress spinners, progress messages, and informational output. Only results and errors are shown:
+
+```bash
+# Normal output shows spinners and status messages
+vultisig balance ethereum
+# ✓ Loading vault...
+# ✓ Fetching balance...
+# ETH: 1.5
+
+# Silent mode shows only the result
+vultisig balance ethereum --silent
+# ETH: 1.5
+```
+
+Silent mode is useful for scripts where you only want the final output.
+
+### JSON Output
+
+Use `-o json` or `--output json` to get structured JSON output. JSON mode automatically enables silent mode:
+
+```bash
+# Get balance as JSON
+vultisig balance ethereum -o json
+```
+
+```json
+{
+  "chain": "ethereum",
+  "balance": {
+    "native": "1.5",
+    "symbol": "ETH",
+    "usdValue": "3750.00"
+  }
+}
+```
+
+```bash
+# Get all balances as JSON
+vultisig balance -o json
+```
+
+```json
+{
+  "balances": [
+    {
+      "chain": "ethereum",
+      "native": "1.5",
+      "symbol": "ETH",
+      "usdValue": "3750.00"
+    },
+    {
+      "chain": "bitcoin",
+      "native": "0.1",
+      "symbol": "BTC",
+      "usdValue": "6500.00"
+    }
+  ]
+}
+```
+
+```bash
+# Get portfolio as JSON
+vultisig portfolio -o json
+```
+
+```json
+{
+  "portfolio": {
+    "totalUsdValue": "10250.00",
+    "chains": [...]
+  },
+  "currency": "USD"
+}
+```
+
+```bash
+# List vaults as JSON
+vultisig vaults -o json
+```
+
+```json
+{
+  "vaults": [{ "id": "abc123", "name": "Main Wallet", "isActive": true }],
+  "activeVaultId": "abc123"
+}
+```
+
+```bash
+# Get swap quote as JSON
+vultisig swap-quote ethereum thorchain 0.1 -o json
+```
+
+```json
+{
+  "quote": {
+    "fromChain": "ethereum",
+    "toChain": "thorchain",
+    "fromAmount": "0.1",
+    "expectedOutput": "125.5",
+    "route": "..."
+  }
+}
+```
+
+JSON output is ideal for:
+
+- Scripting and automation
+- Parsing output programmatically
+- Integration with other tools (e.g., `jq`):
+
+```bash
+# Extract just the ETH balance using jq
+vultisig balance ethereum -o json | jq -r '.balance.native'
+
+# Get total portfolio value
+vultisig portfolio -o json | jq -r '.portfolio.totalUsdValue'
+```
+
+## Configuration
+
+### Environment Variables
+
+```bash
+# Pre-select vault by name or ID
+VULTISIG_VAULT=MyWallet
+
+# Override config directory
+VULTISIG_CONFIG_DIR=/custom/path
+
+# Override FastVault and relay via a shared base URL
+VULTISIG_SERVER_URL=http://127.0.0.1:8080
+
+# Disable colored output (NO_COLOR is the cross-tool standard; VULTISIG_NO_COLOR also works)
+NO_COLOR=1
+
+# Enable silent mode (suppress spinners and info messages)
+VULTISIG_SILENT=1
+
+# Enable debug output
+VULTISIG_DEBUG=1
+
+# Disable update checking
+VULTISIG_NO_UPDATE_CHECK=1
+
+# Vault password (for automation - use with caution!)
+VAULT_PASSWORD=mypassword
+
+# Multiple vault passwords
+VAULT_PASSWORDS='{"Vault 1":"pass1","vault-id-2":"pass2"}'
+```
+
+### Config Directory
+
+Configuration is stored in `~/.vultisig/`:
+
+```
+~/.vultisig/
+├── config.json       # User preferences and registered vaults
+├── credentials.enc   # Optional encrypted-file credential backend
+├── vaults/           # Vault data
+├── cache/            # Version checks, etc.
+└── address-book.json
+```
+
+## Security Best Practices
+
+- Never store passwords in plain text for production use
+- Always verify transaction details before confirming
+- Use testnets for development and testing
+- Keep vault backup files in a secure location
+- Never commit .vult files or .env with passwords to git
+
+## Supported Chains
+
+40+ blockchains including:
+
+- **EVM**: Ethereum, Polygon, Arbitrum, Optimism, BSC, Base, Avalanche
+- **UTXO**: Bitcoin, Litecoin, Dogecoin, Dash, Zcash
+- **Cosmos**: Cosmos Hub, THORChain, Maya, Dydx, Terra, Noble, Akash
+- **Others**: Solana, Sui, Polkadot, Ripple
+
+## Exit Codes
+
+| Code | Meaning                                                                                                                |
+| ---- | ---------------------------------------------------------------------------------------------------------------------- |
+| 0    | Success                                                                                                                |
+| 1    | Usage error (bad arguments, unknown command)                                                                           |
+| 2    | Authentication required                                                                                                |
+| 3    | Network error (retryable)                                                                                              |
+| 4    | Invalid input (bad chain, address, amount)                                                                             |
+| 5    | Resource not found (token, route)                                                                                      |
+| 6    | External service error (retryable)                                                                                     |
+| 7    | Unknown/unexpected error                                                                                               |
+| 8    | Broadcast succeeded but post-broadcast report failed — hash is valid, do NOT retry                                     |
+| 9    | Duplicate broadcast refused (nothing sent) — retry with --force to override                                            |
+| 10   | agent ask: a fund-safety guardrail blocked the requested action                                                        |
+| 11   | agent ask: the model refused or asked a clarifying question (no action taken)                                          |
+| 12   | Interactive confirmation/input required but the session is non-interactive — pass --yes/--confirm or the required flag |
+| 13   | agent ask: transaction broadcast but the overall request may be incomplete — inspect the hash, do NOT blindly retry    |
+| 14   | agent ask: duplicate keyed turn rejected — inspect the conversation for the original result                            |
+| 15   | No active vault selected — create, import, or switch to one                                                            |
+| 16   | Stored state is unreadable — repair it or re-import the vault from a .vult backup                                      |
+
+> These are generated from the `ExitCode` enum in `src/core/errors.ts` (the single source of
+> truth) and are covered by a doc-lint test that fails if this table drifts from the code. Run
+> `vultisig --help` for the same list.
+
+### Partial failures (`portfolio`)
+
+The `portfolio` command fetches every chain independently, so one unreachable chain no longer
+fails the whole command. The `-o json` envelope always carries a `failures` array (empty when
+everything succeeded):
+
+```jsonc
+{
+  "success": true,
+  "v": 1,
+  "data": {
+    "portfolio": { "totalValue": { ... }, "chainBalances": [ /* only the chains that loaded */ ] },
+    "currency": "usd",
+    "failures": [
+      { "chain": "Bitcoin", "stage": "balance", "error": "ECONNREFUSED btc-rpc" },
+      { "chain": "Ethereum", "stage": "value",   "error": "pricing service unavailable" }
+    ]
+  }
+}
+```
+
+- `stage: "balance"` — the balance fetch failed; the chain is omitted from `chainBalances`.
+- `stage: "value"` — the balance loaded but its fiat value did not; the chain still appears in
+  `chainBalances` (without a `value`) and is also listed here.
+- `error` is a concise single-line message — never a stack trace or filesystem path.
+
+**Partial-success exit contract:** if _some_ chains loaded, the command exits **0** and reports
+the rest under `failures`. Machine consumers should branch on `data.failures.length`, not `$?`.
+If _every_ chain fails to fetch a balance, the command exits **3** (network error, retryable).
+On the human-readable (table) output, failures are printed as `Warning:` lines below the table.
+
+> **Note on `totalValue`:** `failures` describes the per-chain _breakdown_ pass (`chainBalances`).
+> `portfolio.totalValue` is computed by an independent best-effort aggregate that includes token
+> values (not just native) and silently omits any chain/token it could not price. It is therefore
+> not guaranteed to be consistent with `chainBalances`/`failures` — treat it as an approximate
+> total, and rely on `failures` (not the total) to detect which chains had problems.
+
+## Troubleshooting
+
+### "No active vault" error
+
+Create or import a vault first:
+
+```bash
+vultisig create fast --name "My Wallet" --password "mypassword" --email user@example.com
+# or
+vultisig import /path/to/vault.vult
+```
+
+### Network errors
+
+1. Check your internet connection
+2. Run `vultisig server` to check connectivity
+3. Try again in a few moments
+
+### Update issues
+
+```bash
+# Check for updates
+vultisig update --check
+
+# Update manually
+npm update -g @vultisig/cli
+```
+
+## Documentation
+
+- [SDK Documentation](README.md)
+- [Hyperliquid signed-order backend contract](https://github.com/vultisig/vultisig-sdk/blob/main/clients/cli/docs/hyperliquid-order-contract.md)
+- [API Reference](https://docs.vultisig.com)
+
+## Support
+
+- [GitHub Issues](https://github.com/vultisig/vultisig-sdk/issues)
+- [Discord](https://discord.gg/Cugw9T2NrP)
+- [Documentation](https://docs.vultisig.com)
+
+## License
+
+MIT

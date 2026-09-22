@@ -1,0 +1,23 @@
+---
+description: >-
+  Vultiserver transaction policies (coming soon): Spending limits, whitelisted
+  addresses, time delays, and custom rules for automated co-signing.
+---
+
+# Vultiserver transaction policies
+
+{% hint style="warning" %}
+**Not in the apps.** Fast Vaults do not expose spending limits, allowlists, or time delays. The list below is the planned policy set, not a current settings screen.
+{% endhint %}
+
+## What can be configured?
+
+The transaction policies for Vultisigner can be configured to meet the specific needs of each user. \
+The default transaction policy can look like this:
+
+* Only allow swaps inside the vault (from pubkey to pubkey)
+* Max. $1k-$10k-$100k per day transaction limits
+* Only send to whitelist addresses
+* Send to non-whitelist addresses with 24 hour delay
+* Add new address whitelist with 24-hour delay
+* Only able to swap certain routes

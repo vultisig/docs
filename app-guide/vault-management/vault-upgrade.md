@@ -18,7 +18,7 @@ Upgrades are only available for vaults created with the GG20 protocol.
 Upgrade moves the vault from GG20 to DKLS23.
 
 * Faster signing
-* Required for the [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/)
+* Required for the [Vultisig Extension](../../ecosystem/vultisig-extension/)
 * Same addresses. You do not move funds.
 
 Protocol pages: [Security and TSS](../../security-and-technology/overview.md).
@@ -87,4 +87,4 @@ If Fast signing is still desired, create a new [Fast Vault](../creating-a-vault/
 ## Related
 
 * [TSS Protocols](../../security-and-technology/overview.md) - Technical details
-* [Vultisig Extension](../../vultisig-ecosystem/vultisig-extension/) - Requires DKLS23
+* [Vultisig Extension](../../ecosystem/vultisig-extension/) - Requires DKLS23

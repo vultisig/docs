@@ -14,11 +14,11 @@ The defining choice is not whether an agent can transact. It is **how much autho
 
 Same vault, three authority levels. Pick the least authority that still lets the workflow run.
 
-| Operating model | Best for | Signing authority |
-| --- | --- | --- |
-| **Autonomous Fast Vault** | Bots and services that must transact without a person present | The agent and VultiServer each hold one share of a 2-of-2 MPC vault |
-| **Policy-bound automation** | Autonomous strategies with explicit user limits | A Marketplace plugin proposes; the Verifier enforces the configured rules. **This path is paused and not in production.** |
-| **Human-approved Secure Vault** | Higher-value workflows requiring approval | The configured threshold of human-controlled devices joins every signing session |
+| Operating model                 | Best for                                                      | Signing authority                                                                                                         |
+| ------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Autonomous Fast Vault**       | Bots and services that must transact without a person present | The agent and VultiServer each hold one share of a 2-of-2 MPC vault                                                       |
+| **Policy-bound automation**     | Autonomous strategies with explicit user limits               | A Marketplace plugin proposes; the Verifier enforces the configured rules. **This path is paused and not in production.** |
+| **Human-approved Secure Vault** | Higher-value workflows requiring approval                     | The configured threshold of human-controlled devices joins every signing session                                          |
 
 Use the least authority that still lets the workflow succeed. See [Authority and security](authority-and-security.md) for the full decision guide.
 
@@ -50,7 +50,7 @@ Marketplace agents can monitor conditions and propose transactions while a Verif
 
 ## Start building
 
-* **Give any agent a wallet (start here):** the [CLI](../vultisig-sdk/CLI.md) is the fastest path — structured JSON, stable exit codes, and a natural-language `agent ask` mode built for AI-to-AI use. It runs unattended in non-interactive environments with no extra setup.
+* **Give any agent a wallet (start here):** the [CLI](../vultisig-sdk/cli.md) is the fastest path — structured JSON, stable exit codes, and a natural-language `agent ask` mode built for AI-to-AI use. It runs unattended in non-interactive environments with no extra setup.
 * **Embed wallet logic into your own service:** integrate the [TypeScript SDK](../vultisig-sdk/).
 * **Publish constrained autonomous strategies:** build a [Marketplace plugin](../marketplace/) (paused, not in production).
 * **Choose the right approval model:** read [Authority and security](authority-and-security.md).

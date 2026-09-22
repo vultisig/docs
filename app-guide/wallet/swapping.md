@@ -38,7 +38,7 @@ Vultisig charges **50 bps** on swaps, on top of the route's protocol and network
 | Diamond  | 100,000        | 15 bps            |
 | Ultimate | 1,000,000      | 0 bps             |
 
-A THORGuard NFT in the vault raises the tier by one, up to Platinum. Full table: [$VULT in-app fee discounts](../../vultisig-token/vult/in-app-utility.md).
+A THORGuard NFT in the vault raises the tier by one, up to Platinum. Full table: [$VULT in-app fee discounts](../../vult-token/vult/in-app-utility.md).
 
 [Referrals](../referrals.md) can rebate part of the swap fee.
 
@@ -71,4 +71,4 @@ On-chain security is on by default. Turn it off under **Settings → Vault Setti
 * [Sending](sending.md)
 * [DeFi](../defi/)
 * [Referrals](../referrals.md)
-* [$VULT in-app fee discounts](../../vultisig-token/vult/in-app-utility.md)
+* [$VULT in-app fee discounts](../../vult-token/vult/in-app-utility.md)

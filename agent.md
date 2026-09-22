@@ -65,7 +65,7 @@ const balance = await vault.balance('Ethereum')
 **MPC wallet SDK documentation:**
 
 * [SDK README](developer-docs/vultisig-sdk/): Installation, quick start, API reference, vault types, error handling
-* [SDK Implementation Guide](developer-docs/vultisig-sdk/SDK-USERS-GUIDE.md): Complete usage guide — password management, vault lifecycle, transactions, swaps, events, caching, platform notes
+* [SDK Implementation Guide](developer-docs/vultisig-sdk/sdk-users-guide.md): Complete usage guide — password management, vault lifecycle, transactions, swaps, events, caching, platform notes
 
 ***
 
@@ -124,7 +124,7 @@ vultisig create-from-seedphrase fast --name "Imported" --email user@example.com 
 * Exit codes: 0 success, 1-7 for specific error types
 * `vsig` shorthand alias for `vultisig`
 
-**Crypto wallet CLI documentation:** [CLI Documentation](developer-docs/vultisig-sdk/CLI.md): All commands, options, environment variables, JSON output examples, exit codes, interactive shell
+**Crypto wallet CLI documentation:** [CLI Documentation](developer-docs/vultisig-sdk/cli.md): All commands, options, environment variables, JSON output examples, exit codes, interactive shell
 
 ***
 
@@ -173,45 +173,45 @@ Files on [vultisig.com](https://vultisig.com) for agent discovery and integratio
 
 ### Ecosystem
 
-* [Vultisig Extension](vultisig-ecosystem/vultisig-extension/): Full vault in Chrome and Firefox, plus dApp connect
-* [Plugin Marketplace](vultisig-ecosystem/marketplace.md): Paused, not in production
-* [Vultisig SDK](vultisig-ecosystem/vultisig-sdk.md): SDK overview with agent section
-* [Community Tools](vultisig-ecosystem/community-tools.md): Third-party tools
+* [Vultisig Extension](ecosystem/vultisig-extension/): Full vault in Chrome and Firefox, plus dApp connect
+* [Plugin Marketplace](ecosystem/marketplace.md): Paused, not in production
+* [Vultisig SDK](ecosystem/vultisig-sdk.md): SDK overview with agent section
+* [Community Tools](ecosystem/community-tools.md): Third-party tools
 
 ### VULT Token
 
-* [The $VULT Token](vultisig-token/vult/): Tokenomics and utility
-* [Airdrop](vultisig-token/airdrop/): Concluded. No registration or VULTIES accrual
-* [In-App Utility](vultisig-token/vult/in-app-utility.md): Fee discounts, staking tiers
-  * [Marketplace Utility](vultisig-token/vult/marketplace-utility.md): Paused, not in production
-* [Governance](vultisig-token/vult/governance-utility.md): Voting rights
+* [The $VULT Token](vult-token/vult/): Tokenomics and utility
+* [Airdrop](vult-token/airdrop/): Concluded. No registration or VULTIES accrual
+* [In-App Utility](vult-token/vult/in-app-utility.md): Fee discounts, staking tiers
+  * [Marketplace Utility](vult-token/vult/marketplace-utility.md): Paused, not in production
+* [Governance](vult-token/vult/governance-utility.md): Voting rights
 
 ### Infrastructure
 
-* [Overview](vultisig-infrastructure/overview.md): Architecture
-* [Vultiserver](vultisig-infrastructure/what-is-vultisigner/): Co-signing server for Fast Vaults
-* [Transaction Policies](vultisig-infrastructure/what-is-vultisigner/what-can-be-configured.md): Spending limits, whitelists, time delays
-* [Relay Server](vultisig-infrastructure/relay-server.md): Device session coordination
+* [Overview](infrastructure/overview.md): Architecture
+* [Vultiserver](infrastructure/what-is-vultisigner/): Co-signing server for Fast Vaults
+* [Transaction Policies](infrastructure/what-is-vultisigner/what-can-be-configured.md): Spending limits, whitelists, time delays
+* [Relay Server](infrastructure/relay-server.md): Device session coordination
 
 ### Developer Docs
 
-* [Developer Home](developer-docs/): Entry point
+* [Developer Home](developer-docs/developer-docs.md): Entry point
 * [Marketplace Plugins](developer-docs/marketplace/): Paused, not in production
-  * [What is a Plugin](developer-docs/marketplace/infrastructure-overview/plugins.md): Architecture and scope
-  * [Services Architecture](developer-docs/marketplace/infrastructure-overview/services.md): Service components
-  * [Policy Rules](developer-docs/marketplace/infrastructure-overview/metarules.md): Transaction validation rules
-  * [Infrastructure](developer-docs/marketplace/infrastructure-overview/infrastructure.md): Plugin infrastructure
-  * [Quick Start](developer-docs/marketplace/create-a-plugin/basics-quick-start.md): Scaffold your first plugin
-  * [Build Your Plugin](developer-docs/marketplace/create-a-plugin/build-your-plugin/): Full development guide
-  * [Submission & Revenue](developer-docs/marketplace/create-a-plugin/submission-process.md): Review process, 70/30 split
+  * [What is a Plugin](developer-docs/marketplace/plugins.md): Architecture and scope
+  * [Services Architecture](developer-docs/marketplace/services.md): Service components
+  * [Policy Rules](developer-docs/marketplace/metarules.md): Transaction validation rules
+  * [Infrastructure](developer-docs/marketplace/infrastructure.md): Plugin infrastructure
+  * [Quick Start](developer-docs/marketplace/basics-quick-start.md): Scaffold your first plugin
+  * [Build Your Plugin](developer-docs/marketplace/build-your-plugin/): Full development guide
+  * [Submission & Revenue](developer-docs/marketplace/submission-process.md): Review process, 70/30 split
 * [Extension Integration](developer-docs/vultisig-extension-integration-guide.md): window.vultisig API, code examples
 * [SDK](developer-docs/vultisig-sdk/): Full SDK docs
-  * [SDK Implementation Guide](developer-docs/vultisig-sdk/SDK-USERS-GUIDE.md): Detailed usage guide
-  * [SDK CLI](developer-docs/vultisig-sdk/CLI.md): CLI reference
+  * [SDK Implementation Guide](developer-docs/vultisig-sdk/sdk-users-guide.md): Detailed usage guide
+  * [SDK CLI](developer-docs/vultisig-sdk/cli.md): CLI reference
 
 ### Help & Legal
 
-* [FAQ](help/faq.md): Common questions
-* [Security](help/security.md): Security policy
-* [Privacy](help/privacy.md): Privacy policy
-* [Terms of Use](help/terms.md): Terms
+* [FAQ](help-and-legal/faq.md): Common questions
+* [Security](help-and-legal/security.md): Security policy
+* [Privacy](help-and-legal/privacy.md): Privacy policy
+* [Terms of Use](help-and-legal/terms.md): Terms

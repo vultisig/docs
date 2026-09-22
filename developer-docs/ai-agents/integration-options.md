@@ -24,7 +24,7 @@ vultisig agent ask "What is my ETH balance?" --password "$VAULT_PASSWORD" --json
 
 The CLI auto-detects non-interactive (non-TTY) environments and skips the prompts that would otherwise hang an agent, so the same commands run unattended in scripts and pipelines. Set `VAULT_PASSWORD` to avoid interactive password entry, and branch on the documented exit codes and error codes for reliable orchestration.
 
-See the [CLI reference](../vultisig-sdk/CLI.md), including the AI agent integration guide.
+See the [CLI reference](../vultisig-sdk/cli.md), including the AI agent integration guide.
 
 ## TypeScript SDK
 
@@ -48,7 +48,7 @@ const preview = await vault.send({
 })
 ```
 
-Start with the [SDK guide](../vultisig-sdk/) and [implementation guide](../vultisig-sdk/SDK-USERS-GUIDE.md).
+Start with the [SDK guide](../vultisig-sdk/) and [implementation guide](../vultisig-sdk/sdk-users-guide.md).
 
 ## Marketplace plugins
 
@@ -62,10 +62,10 @@ Start with the [Marketplace developer docs](../marketplace/).
 
 ## Agent discovery resources
 
-| Resource | Purpose |
-| --- | --- |
-| [SKILL.md](https://vultisig.com/SKILL.md) | Operating instructions for balances, sends, swaps, gas estimation, and vault workflows |
-| [llms.txt](https://vultisig.com/llms.txt) | Compact documentation index |
-| [llms-full.txt](https://vultisig.com/llms-full.txt) | Full SDK context and examples |
-| [agent.json](https://vultisig.com/.well-known/agent.json) | Structured capabilities manifest |
-| MCP (`@vultisig/mcp` in the SDK repo) | MCP tools for multi-chain queries, unsigned transaction building, and DeFi. Plugin management is paused with the marketplace. |
+| Resource                                                  | Purpose                                                                                                                       |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| [SKILL.md](https://vultisig.com/SKILL.md)                 | Operating instructions for balances, sends, swaps, gas estimation, and vault workflows                                        |
+| [llms.txt](https://vultisig.com/llms.txt)                 | Compact documentation index                                                                                                   |
+| [llms-full.txt](https://vultisig.com/llms-full.txt)       | Full SDK context and examples                                                                                                 |
+| [agent.json](https://vultisig.com/.well-known/agent.json) | Structured capabilities manifest                                                                                              |
+| MCP (`@vultisig/mcp` in the SDK repo)                     | MCP tools for multi-chain queries, unsigned transaction building, and DeFi. Plugin management is paused with the marketplace. |

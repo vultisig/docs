@@ -1,7 +1,7 @@
 ---
 description: >-
-  Vultisig Fast Vault: one device plus VultiServer (2-of-2). Setup in about
-  a minute. VultiServer co-signs and can never sign alone.
+  Vultisig Fast Vault: one device plus VultiServer (2-of-2). Setup in about a
+  minute. VultiServer co-signs and can never sign alone.
 ---
 
 # Vultisig Fast Vault
@@ -10,7 +10,7 @@ description: >-
 
 Your device holds one share. VultiServer holds the other and signs with you. It can never sign alone. Same math as a Secure Vault, one-device signing.
 
-How the server share works: [VultiServer](../../vultisig-infrastructure/what-is-vultisigner/).
+How the server share works: [VultiServer](../../infrastructure/what-is-vultisigner/).
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
@@ -52,8 +52,8 @@ Do not keep the device backup on the same phone. Use a different cloud account o
 
 Fast Vaults have **two backup shares** despite using one user device for signing:
 
-- **Device share**: Your device's vault share
-- **Server share**: Sent to your email during creation
+* **Device share**: Your device's vault share
+* **Server share**: Sent to your email during creation
 
 {% hint style="info" %}
 Both shares must be backed up in separate locations. See [Backup & Recovery](../../getting-started/backup-recovery.md) for storage recommendations.
@@ -63,13 +63,11 @@ Both shares must be backed up in separate locations. See [Backup & Recovery](../
 
 ## Troubleshooting
 
-**Unable to connect to the server**
-The server may be temporarily unavailable. Try again later.
+**Unable to connect to the server** The server may be temporarily unavailable. Try again later.
 
-**Unstable Network**
-Keygen may fail with unstable connections. Quit the app, change networks, and restart.
+**Unstable Network** Keygen may fail with unstable connections. Quit the app, change networks, and restart.
 
 **Unable to sign with Fast Vault**
 
-1. *Server not available*: Try again later
-2. *QR code appears instead of password prompt*: You imported the server share instead of the device share. Import the correct device share.
+1. _Server not available_: Try again later
+2. _QR code appears instead of password prompt_: You imported the server share instead of the device share. Import the correct device share.

@@ -5,7 +5,7 @@ description: The launch of the Vultisig Token to the world.
 # Launch of $VULT
 
 {% hint style="info" %}
-**Launched.** $VULT went live on 27 October 2025. It trades on Uniswap (Ethereum) and Kraken. Contract: [`0xb788144DF611029C60b859DF47e79B7726C4DEBa`](https://etherscan.io/token/0xb788144df611029c60b859df47e79b7726c4deba). Current utility: [in-app fee discounts](../vultisig-token/vult/in-app-utility.md).
+**Launched.** $VULT went live on 27 October 2025. It trades on Uniswap (Ethereum) and Kraken. Contract: [`0xb788144DF611029C60b859DF47e79B7726C4DEBa`](https://etherscan.io/token/0xb788144df611029c60b859df47e79b7726c4deba). Current utility: [in-app fee discounts](vult/in-app-utility.md).
 {% endhint %}
 
 > **Launch brief last updated:** 2025-10-20. The text below is the launch record, not a countdown. [Read the announcement](https://vultisig.medium.com/token-launch-update-and-new-principles-for-community-communication-a57898b5614e).
@@ -40,7 +40,7 @@ Vultisig has raised **$2.4M** in initial funding of LP investors. Up to 35% of t
 
 ### Pool Composition
 
-* **24%** - strategic investors&#x20;
+* **24%** - strategic investors
 * **\~11%** - Treasury allocation
 
 ### Initial Valuation

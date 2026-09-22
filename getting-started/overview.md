@@ -35,10 +35,10 @@ A Fast Vault does not turn into a Secure Vault. If you want the higher threshold
 **Building with the SDK or CLI?**
 
 * [SDK](../developer-docs/vultisig-sdk/) — TypeScript for apps, backends, and agents
-* [CLI](../developer-docs/vultisig-sdk/CLI.md) — scripts and unattended agents
+* [CLI](../developer-docs/vultisig-sdk/cli.md) — scripts and unattended agents
 
 ***
 
 ## Help
 
-Stuck? [FAQ](../help/faq.md) or [Discord](https://discord.gg/Cugw9T2NrP).
+Stuck? [FAQ](../help-and-legal/faq.md) or [Discord](https://discord.gg/Cugw9T2NrP).

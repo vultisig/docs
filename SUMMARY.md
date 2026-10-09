@@ -15,7 +15,7 @@
 
 * [Vultisig App guide](app-guide/overview.md)
 * [Create a Vultisig Fast or Secure Vault](app-guide/creating-a-vault/README.md)
-  * [Vultisig Fast Vault](app-guide/creating-a-vault/fast-vault.md)
+  * [Fast Vault: one device + VultiServer (2-of-2)](app-guide/creating-a-vault/fast-vault.md)
   * [Vultisig Secure Vault](app-guide/creating-a-vault/secure-vault.md)
 * [Vultisig Wallet Tab](app-guide/wallet/README.md)
   * [Send Crypto from Vultisig](app-guide/wallet/sending.md)

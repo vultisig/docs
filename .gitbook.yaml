@@ -11,7 +11,7 @@ redirects:
   vulticonnect: vultisig-ecosystem/vultisig-extension/README.md
 
   # Old "other" section -> help section
-  other/vultisig-bot: help/vultisig-bot.md
+  other/vultisig-bot: vult-token/airdrop/README.md
   other/faq: help/faq.md
   other/security: help/security.md
   other/privacy: help/privacy.md
@@ -53,7 +53,7 @@ redirects:
   app-guide/defi/circle: app-guide/defi/README.md
   developer-docs/vultisig-sdk.md: developer-docs/vultisig-sdk/README.md
   vultisig-ecosystem/web-app: vultisig-token/airdrop/README.md
-  ecosystem/web-app: vultisig-token/airdrop/README.md
+  ecosystem/web-app: vult-token/airdrop/README.md
 
   # Common old paths
   download: getting-started/download-install.md
@@ -69,3 +69,12 @@ redirects:
   other/micar-white-paper: help/micar-white-paper.md
   threshold-signature-scheme/security: help/security.md
   threshold-signature-scheme/emergency-recovery: security-and-technology/emergency-recovery.md
+
+  # Retired URLs still requested by Google (Search Console 404s)
+  help-and-legal/vultisig-bot: vult-token/airdrop/README.md
+  vultisig-ecosystem/vulticonnect/how-to-use-vultisig-connect: ecosystem/vultisig-extension/how-to-use-vultisig-connect.md
+  vultisig-token/airdrop: vult-token/airdrop/README.md
+  user-guide/recovery: getting-started/backup-recovery.md
+  security/advanced-protection: security-and-technology/overview.md
+  threshold-signature-scheme/difference-to-multi-signatures: security-and-technology/difference-to-multi-sig.md
+  vultisigner/what-is-vultisigner: infrastructure/what-is-vultisigner/README.md

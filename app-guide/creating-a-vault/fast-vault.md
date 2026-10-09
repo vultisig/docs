@@ -1,10 +1,11 @@
 ---
 description: >-
-  Vultisig Fast Vault: one device plus VultiServer (2-of-2). Setup in about a
-  minute. VultiServer co-signs and can never sign alone.
+  Fast Vault is 2-of-2: your device plus VultiServer, which co-signs but can
+  never sign alone. Setup in about a minute. Secure Vault uses only your own
+  devices.
 ---
 
-# Vultisig Fast Vault
+# Fast Vault: one device + VultiServer (2-of-2)
 
 ## Overview
 

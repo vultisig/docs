@@ -1,10 +1,11 @@
 ---
 description: >-
-  DKLS23 is the threshold-signature protocol Vultisig uses now. Fewer rounds
-  than GG20, built with Silence Laboratories.
+  DKLS23 is a threshold ECDSA protocol (Doerner, Kondi, Lee, Shelat, 2023)
+  that signs in 3 rounds. Vultisig moved to it in 2025 with Silence
+  Laboratories.
 ---
 
-# DKLS23 in Vultisig
+# DKLS23: threshold ECDSA in Vultisig
 
 ## The protocol
 

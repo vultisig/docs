@@ -1,10 +1,10 @@
 ---
 description: >-
-  How Fast Vault and Secure Vault co-sign in Vultisig. QR pairing, on-device
-  verification, broadcast.
+  Keysign is how a threshold of devices sign a transaction together. Fast
+  Vault and Secure Vault both use it: QR pairing, signing ceremony, broadcast.
 ---
 
-# How Vultisig signs a transaction
+# Keysign: how Vultisig signs a transaction
 
 Keysigning is how a threshold of devices sign a transaction together. Fast Vault and Secure Vault both use it. The path looks different on the screen.
 

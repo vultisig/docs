@@ -41,10 +41,10 @@
 ## Security & Technology
 
 * [Vultisig Security and TSS](security-and-technology/overview.md)
-* [How Vultisig signs a transaction](security-and-technology/keysign.md)
+* [Keysign: how Vultisig signs a transaction](security-and-technology/keysign.md)
 * [TSS actions in Vultisig](security-and-technology/tss-actions.md)
-* [GG20 TSS in Vultisig](security-and-technology/how-gg20-works.md)
-* [DKLS23 in Vultisig](security-and-technology/how-dkls23-works.md)
+* [GG20: threshold ECDSA (legacy) in Vultisig](security-and-technology/how-gg20-works.md)
+* [DKLS23: threshold ECDSA in Vultisig](security-and-technology/how-dkls23-works.md)
 * [Vultisig vs Multisig](security-and-technology/difference-to-multi-sig.md)
 * [Vultisig vs passkeys](security-and-technology/difference-to-passkeys.md)
 * [Emergency recovery in Vultisig](security-and-technology/emergency-recovery.md)

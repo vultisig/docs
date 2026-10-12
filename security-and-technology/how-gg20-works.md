@@ -1,10 +1,11 @@
 ---
 description: >-
-  How Vultisig used GG20 threshold signatures: secret sharing, MPC rounds.
-  Legacy protocol. Current vaults use DKLS23.
+  GG20 is a threshold signature scheme (Gennaro-Goldfeder, 2020) with
+  identifiable abort and 6 rounds. Vultisig used it before DKLS23; new vaults
+  use DKLS23.
 ---
 
-# GG20 TSS in Vultisig
+# GG20: threshold ECDSA (legacy) in Vultisig
 
 ## Concept
 

@@ -1,7 +1,8 @@
 ---
 description: >-
-  Emergency recovery tool for Vultisig vaults. Reconstruct keys if TSS
-  software becomes unavailable. Last-resort fund recovery process.
+  Emergency recovery for Vultisig vaults with the Vault Share Decoder.
+  Reconstruct private keys from a threshold of vault shares (DKLS and GG20)
+  if Vultisig software becomes unavailable. Last-resort fund recovery.
 ---
 
 # Emergency recovery in Vultisig
@@ -9,109 +10,116 @@ description: >-
 {% hint style="danger" %}
 **Last Resort Only**
 
-Emergency recovery permanently converts a TSS vault to a single-signature wallet. Only use if Vultisig software is completely unavailable.
+Emergency recovery permanently converts a TSS vault to a single-signature wallet. Use it only if Vultisig software is completely unavailable.
 {% endhint %}
 
 ***
 
-## What is the Emergency Recovery Tool?
+## What is emergency recovery?
 
-In Vultisig, the private key never exists during normal operation—this significantly improves security since there's no private key to be extracted or stolen.
+Think of your vault as a safe that only opens when several keys turn at once. Each device holds one key, called a vault share. No single key opens the safe, and no master key exists anywhere. There is nothing for an attacker to steal.
 
-However, it is possible to recombine vault shares and generate the private key for use in other wallets. Scripts are provided for this purpose if Vultisig software ever becomes unavailable.
+Emergency recovery combines the shares into that master key: one private key you can import into another wallet. The **Vault Share Decoder** does this if Vultisig software ever becomes unavailable.
 
 ***
 
 ## Recommended: Vault Share Decoder
 
-The usual path is the community **Vault Share Decoder**:
+The **Vault Share Decoder** is the recommended way to recover a vault. It is a community tool with a simple web interface: upload your shares, and it shows the private key and address for each chain. No installation required.
 
 * **Website**: [https://share-decoder.vultisig.com](https://share-decoder.vultisig.com)
 * **Repository**: [GitHub](https://github.com/vultisig/community-tools/tree/main/recovery-tools/vultisig-share-decoder)
 
-It decodes shares in the browser. No CLI required.
+It supports both vault types: **DKLS** (current vaults) and **GG20** (older vaults), and detects which one you have.
 
 {% hint style="info" %}
-The Vault Share Decoder is the preferred method for emergency recovery. Only use the CLI/Web options below if the community tool is unavailable.
+Shares are decoded in your browser and never leave your device. If you prefer to work offline, you can also run the decoder on your own machine (see [Run the decoder locally](#run-the-decoder-locally)).
 {% endhint %}
 
 ***
 
-## Prerequisites
+## What you need
 
-* [Go (Golang)](https://golang.org/dl/) installed on your system
-* Access to threshold number of vault shares
-
-***
-
-## Option 1: Web UI Version
-
-1. **Clone the Repository:**
-
-```sh
-git clone https://github.com/vultisig/mobile-tss-lib
-```
-
-2. **Navigate to the Recovery Web Directory:**
-
-```sh
-cd mobile-tss-lib/cmd/recovery-web
-```
-
-3. **Run the Web Server:**
-
-```sh
-make
-```
-
-Access the recovery UI via your web browser.
+* **A threshold of vault shares**, for example 2 shares for a 2-of-3 vault. Each share is the `.vult` (or older `.bak`) backup file from a different device.
+* **The backup password for each share**, if the backups are encrypted. Each backup may have its own password.
+* **Your vault's addresses**, noted from the Vultisig app while it still works. Use them to confirm the recovered keys are correct.
 
 ***
 
-## Option 2: CLI Version
+## Recover with the website
 
-1. **Clone the Repository:**
+1. Open [share-decoder.vultisig.com](https://share-decoder.vultisig.com).
+2. Upload a threshold of vault shares and enter the password for any encrypted share.
+3. Run the recovery and note the private keys and addresses for each chain.
+4. **Check that every recovered address matches the address in your Vultisig app.** If an address does not match, the recovery is wrong. Do not send funds to it. Retry with the correct shares.
 
-```sh
-git clone https://github.com/vultisig/mobile-tss-lib
-```
-
-2. **Navigate to the Recovery CLI Directory:**
-
-```sh
-cd mobile-tss-lib/cmd/recovery-cli
-```
-
-3. **Run the Recovery CLI Tool:**
-
-```sh
-go run main.go
-```
-
-Follow the terminal instructions to proceed with recovery.
+{% hint style="warning" %}
+With fewer shares than the threshold, older (GG20) vaults can still show keys and addresses without an error. They are wrong. Always upload a full threshold of shares and compare the addresses.
+{% endhint %}
 
 ***
 
-## Supported Assets
+## Run the decoder locally
+
+Optional, for offline use or for developers. The local version has the same interface as the website. Build from source. Requires [Go 1.25+](https://go.dev/doc/install) with CGo.
+
+```sh
+git clone https://github.com/vultisig/community-tools.git
+cd community-tools/recovery-tools/vultisig-share-decoder
+```
+
+**Web interface:**
+
+```sh
+make webserver
+./dist/webserver
+```
+
+Then open [http://localhost:5000](http://localhost:5000). Start the server from the `vultisig-share-decoder` folder.
+
+**Command line:**
+
+```sh
+make cli
+./dist/cli recover --files share1.vult --files share2.vult --password <password1> --password <password2>
+```
+
+Omit `--password` for unencrypted shares. Add `--format json` for machine-readable output.
+
+***
+
+## Supported chains
+
+* **UTXO:** Bitcoin, Bitcoin Cash, Dash, Dogecoin, Litecoin
+* **Cosmos/BFT:** THORChain, MayaChain, Cosmos Hub, Kujira, dYdX, Terra Classic, Terra
+* **EVM:** Ethereum
+* **Tron:** TRX
+* **XRP Ledger:** XRP
+* **EdDSA:** Solana, Sui, TON
+
+Tokens are recovered with their chain's key. For example, ERC-20 tokens use the Ethereum key. Other EVM chains, such as Arbitrum, Base, BNB Chain and Polygon, also use the Ethereum key and address. Osmosis, Noble and Akash use the Cosmos Hub key.
+
+{% hint style="warning" %}
+Chains not listed above, such as Cardano, Polkadot, Bittensor, and Zcash, are not yet supported by the decoder.
+{% endhint %}
+
+The [repository README](https://github.com/vultisig/community-tools/tree/main/recovery-tools/vultisig-share-decoder#importing-results) explains how to import each key type into another wallet.
 
 {% hint style="danger" %}
-Only the following assets are supported: Bitcoin, Bitcoin Cash, Litecoin, Dogecoin, Ethereum, THORChain, MayaChain.
+**Warning:** Until you run recovery, the full private key has never existed. Recovery is one-way. Once the key exists, the vault is no longer a TSS vault but a single-signature wallet.
 
-**Warning:** Before using this tool, the private key never existed. This is a one-way function—once the private key is created, the vault is no longer a TSS vault but a single-signature wallet.
-
-Never use a single-signature wallet for significant value again.
+Move funds to a new vault after recovery. Never use a single-signature wallet for significant value again.
 {% endhint %}
 
 ***
 
-## Resources
+## Legacy recovery tools
 
-* Web UI: [https://github.com/vultisig/mobile-tss-lib/tree/main/cmd/recovery-web](https://github.com/vultisig/mobile-tss-lib/tree/main/cmd/recovery-web)
-* CLI: [https://github.com/vultisig/mobile-tss-lib/tree/main/cmd/cli](https://github.com/vultisig/mobile-tss-lib/tree/main/cmd/cli)
+The older recovery tools in [mobile-tss-lib](https://github.com/vultisig/mobile-tss-lib) only read GG20 vaults and cover fewer chains. Use the Vault Share Decoder instead.
 
 ***
 
 ## Related
 
-- [Backup & Recovery](../getting-started/backup-recovery.md) — Standard backup procedures
-- [TSS Actions](tss-actions.md) — How threshold signatures work
+- [Backup & Recovery](../getting-started/backup-recovery.md): standard backup procedures
+- [TSS Actions](tss-actions.md): how threshold signatures work

@@ -100,7 +100,7 @@ Omit `--password` for unencrypted shares. Add `--format json` for machine-readab
 Tokens are recovered with their chain's key. For example, ERC-20 tokens use the Ethereum key. Other EVM chains, such as Arbitrum, Base, BNB Chain and Polygon, also use the Ethereum key and address. Osmosis, Noble and Akash use the Cosmos Hub key.
 
 {% hint style="warning" %}
-The decoder does not support other chains yet, such as Cardano, Polkadot, Bittensor and Zcash.
+Chains not listed above, such as Cardano, Polkadot, Bittensor, and Zcash, are not yet supported by the decoder.
 {% endhint %}
 
 The [repository README](https://github.com/vultisig/community-tools/tree/main/recovery-tools/vultisig-share-decoder#importing-results) explains how to import each key type into another wallet.

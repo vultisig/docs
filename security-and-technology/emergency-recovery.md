@@ -23,7 +23,9 @@ However, it is possible to recombine vault shares and generate the private key f
 
 ***
 
-## Vault Share Decoder
+## Recommended: Vault Share Decoder
+
+The **Vault Share Decoder** is the recommended way to recover a vault. It is a community tool with a simple web interface: upload your shares, and it shows the private key and address for each chain. No installation required.
 
 * **Website**: [https://share-decoder.vultisig.com](https://share-decoder.vultisig.com)
 * **Repository**: [GitHub](https://github.com/vultisig/community-tools/tree/main/recovery-tools/vultisig-share-decoder)
@@ -31,7 +33,7 @@ However, it is possible to recombine vault shares and generate the private key f
 It supports both vault types: **DKLS** (current vaults) and **GG20** (older vaults). The scheme is detected automatically.
 
 {% hint style="info" %}
-Shares are decoded in the browser and never leave your device. For real funds, run the decoder locally (see below) on an offline machine rather than using the hosted website.
+Shares are decoded in your browser and never leave your device. If you prefer to work offline, you can also run the decoder on your own machine (see [Run the decoder locally](#run-the-decoder-locally)).
 {% endhint %}
 
 ***
@@ -46,7 +48,7 @@ Shares are decoded in the browser and never leave your device. For real funds, r
 
 ## Recover with the website
 
-1. Open [share-decoder.vultisig.com](https://share-decoder.vultisig.com), or your local copy.
+1. Open [share-decoder.vultisig.com](https://share-decoder.vultisig.com).
 2. Upload a threshold of vault shares and enter the password for any encrypted share.
 3. Run the recovery and note the private keys and addresses for each chain.
 4. **Check that every recovered address matches the address in your Vultisig app.** If an address does not match, the recovery is wrong. Do not send funds to it. Retry with the correct shares.
@@ -59,7 +61,7 @@ With fewer shares than the threshold, older (GG20) vaults can still show keys an
 
 ## Run the decoder locally
 
-Build from source. Requires [Go 1.25+](https://go.dev/doc/install) with CGo.
+Optional, for offline use or for developers. The local version has the same interface as the website. Build from source. Requires [Go 1.25+](https://go.dev/doc/install) with CGo.
 
 ```sh
 git clone https://github.com/vultisig/community-tools.git

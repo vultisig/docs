@@ -10,16 +10,16 @@ description: >-
 {% hint style="danger" %}
 **Last Resort Only**
 
-Emergency recovery permanently converts a TSS vault to a single-signature wallet. Only use if Vultisig software is completely unavailable.
+Emergency recovery permanently converts a TSS vault to a single-signature wallet. Use it only if Vultisig software is completely unavailable.
 {% endhint %}
 
 ***
 
 ## What is emergency recovery?
 
-In Vultisig, the private key never exists during normal operation—this significantly improves security since there's no private key to be extracted or stolen.
+Think of your vault as a safe that only opens when several keys turn at once. Each device holds one key, called a vault share. No single key opens the safe, and no master key exists anywhere. There is nothing for an attacker to steal.
 
-However, it is possible to recombine vault shares and generate the private key for use in other wallets. The **Vault Share Decoder** does this if Vultisig software ever becomes unavailable.
+Emergency recovery combines the shares into that master key: one private key you can import into another wallet. The **Vault Share Decoder** does this if Vultisig software ever becomes unavailable.
 
 ***
 
@@ -30,7 +30,7 @@ The **Vault Share Decoder** is the recommended way to recover a vault. It is a c
 * **Website**: [https://share-decoder.vultisig.com](https://share-decoder.vultisig.com)
 * **Repository**: [GitHub](https://github.com/vultisig/community-tools/tree/main/recovery-tools/vultisig-share-decoder)
 
-It supports both vault types: **DKLS** (current vaults) and **GG20** (older vaults). The scheme is detected automatically.
+It supports both vault types: **DKLS** (current vaults) and **GG20** (older vaults), and detects which one you have.
 
 {% hint style="info" %}
 Shares are decoded in your browser and never leave your device. If you prefer to work offline, you can also run the decoder on your own machine (see [Run the decoder locally](#run-the-decoder-locally)).
@@ -40,7 +40,7 @@ Shares are decoded in your browser and never leave your device. If you prefer to
 
 ## What you need
 
-* **A threshold of vault shares** — for example, 2 shares for a 2-of-3 vault. Each share is the `.vult` (or older `.bak`) backup file from a different device.
+* **A threshold of vault shares**, for example 2 shares for a 2-of-3 vault. Each share is the `.vult` (or older `.bak`) backup file from a different device.
 * **The backup password for each share**, if the backups are encrypted. Each backup may have its own password.
 * **Your vault's addresses**, noted from the Vultisig app while it still works. Use them to confirm the recovered keys are correct.
 
@@ -100,13 +100,13 @@ Omit `--password` for unencrypted shares. Add `--format json` for machine-readab
 Tokens are recovered with their chain's key. For example, ERC-20 tokens use the Ethereum key. Other EVM chains, such as Arbitrum, Base, BNB Chain and Polygon, also use the Ethereum key and address. Osmosis, Noble and Akash use the Cosmos Hub key.
 
 {% hint style="warning" %}
-Chains not listed above, such as Cardano, Polkadot, Bittensor, and Zcash, are not yet supported by the decoder.
+The decoder does not support other chains yet, such as Cardano, Polkadot, Bittensor and Zcash.
 {% endhint %}
 
-How to import each key type into another wallet is described in the [repository README](https://github.com/vultisig/community-tools/tree/main/recovery-tools/vultisig-share-decoder#importing-results).
+The [repository README](https://github.com/vultisig/community-tools/tree/main/recovery-tools/vultisig-share-decoder#importing-results) explains how to import each key type into another wallet.
 
 {% hint style="danger" %}
-**Warning:** Before using this tool, the private key never existed. This is a one-way function—once the private key is created, the vault is no longer a TSS vault but a single-signature wallet.
+**Warning:** Until you run recovery, the full private key has never existed. Recovery is one-way. Once the key exists, the vault is no longer a TSS vault but a single-signature wallet.
 
 Move funds to a new vault after recovery. Never use a single-signature wallet for significant value again.
 {% endhint %}
@@ -121,5 +121,5 @@ The older recovery tools in [mobile-tss-lib](https://github.com/vultisig/mobile-
 
 ## Related
 
-- [Backup & Recovery](../getting-started/backup-recovery.md) — Standard backup procedures
-- [TSS Actions](tss-actions.md) — How threshold signatures work
+- [Backup & Recovery](../getting-started/backup-recovery.md): standard backup procedures
+- [TSS Actions](tss-actions.md): how threshold signatures work

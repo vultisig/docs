@@ -35,22 +35,11 @@ Some chains expose extra actions beyond send / receive / swap. Open the chain in
 
 TON stake / unstake and Solana / Terra staking are on the [DeFi tab](../defi/), not Functions.
 
-Kujira may still appear on some iOS builds. The network is wound down and is removed from the SDK. Do not treat it as a current chain.
-
 ***
 
 ## Supported chains
 
-The apps expose these networks from one vault. Addresses are derived automatically.
-
-* **UTXO:** Bitcoin, Bitcoin Cash, Litecoin, Dogecoin, Dash, Zcash
-* **EVM:** Ethereum, Arbitrum, Optimism, Base, Polygon, BSC, Avalanche, Blast, Cronos, zkSync, Mantle, Hyperliquid, Sei, Robinhood
-* **Cosmos:** Cosmos Hub, Osmosis, dYdX, Terra, Terra Classic, Noble, Akash, THORChain, MayaChain
-* **Other:** Solana, Polkadot, Bittensor, TON, Ripple, Tron, Cardano, Sui
-
-QBTC appears in some builds as a post-quantum testnet. It is not a WalletCore signing chain. Do not send mainnet funds there.
-
-That is 36+ mainnet networks. The SDK `Chain` enum is the same set plus QBTC.
+One vault covers 36+ mainnet networks. The full list with native tokens is on [Supported chains](../supported-chains.md).
 
 ***
 
@@ -62,6 +51,7 @@ Verify the destination, amount, and (on EVM) the decoded function on the sign sc
 
 ## Related
 
+* [Supported chains](../supported-chains.md)
 * [Send](sending.md)
 * [Swap](swapping.md)
 * [DeFi](../defi/)

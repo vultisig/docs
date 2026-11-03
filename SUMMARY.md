@@ -37,6 +37,7 @@
   * [Upgrade a Vultisig vault to DKLS23](app-guide/vault-management/vault-upgrade.md)
 * [Vultisig Settings](app-guide/settings.md)
 * [Vultisig referrals](app-guide/referrals.md)
+* [Supported chains](app-guide/supported-chains.md)
 
 ## Security & Technology
 

@@ -4,7 +4,7 @@ description: >-
   tokens, from Bitcoin and Ethereum to THORChain, Solana, and NEAR.
 ---
 
-# Vultisig supported chains
+# Supported chains
 
 One vault holds an address on each of these 36+ mainnet networks. Vultisig derives every address for you.
 

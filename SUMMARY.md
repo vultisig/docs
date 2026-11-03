@@ -20,7 +20,6 @@
 * [Vultisig Wallet Tab](app-guide/wallet/README.md)
   * [Send Crypto from Vultisig](app-guide/wallet/sending.md)
   * [Swap Crypto in Vultisig](app-guide/wallet/swapping.md)
-* [Vultisig supported chains](app-guide/supported-chains.md)
 * [DeFi in Vultisig](app-guide/defi/README.md)
   * [THORChain in Vultisig](app-guide/defi/thorchain.md)
   * [MayaChain in Vultisig](app-guide/defi/maya.md)
@@ -38,6 +37,7 @@
   * [Upgrade a Vultisig vault to DKLS23](app-guide/vault-management/vault-upgrade.md)
 * [Vultisig Settings](app-guide/settings.md)
 * [Vultisig referrals](app-guide/referrals.md)
+* [Supported chains](app-guide/supported-chains.md)
 
 ## Security & Technology
 

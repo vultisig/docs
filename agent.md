@@ -60,7 +60,7 @@ const balance = await vault.balance('Ethereum')
 | **Signing**        | Instant, no human needed  | Requires device coordination via QR |
 | **Agent use case** | Full autonomy             | Human oversight on every tx         |
 
-**Supported chains (36+):** Bitcoin, Ethereum, Solana, THORChain, Polygon, Arbitrum, Optimism, Base, BSC, Avalanche, Cosmos, Litecoin, Dogecoin, Sui, TON, Ripple, Tron, Polkadot, Cardano, Zcash, Hyperliquid, and more. See the [Wallet tab](app-guide/wallet/) for the named list.
+**Supported chains (36+):** Bitcoin, Ethereum, Solana, THORChain, Polygon, Arbitrum, Optimism, Base, BSC, Avalanche, Cosmos, Litecoin, Dogecoin, Sui, TON, Ripple, Tron, Polkadot, Cardano, Zcash, Hyperliquid, and more. See [Supported chains](app-guide/supported-chains.md) for the full list.
 
 **MPC wallet SDK documentation:**
 

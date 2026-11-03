@@ -23,7 +23,7 @@ Vultisig is available on:
 
 ### Which blockchains does Vultisig support?
 
-Vultisig supports 36+ chains. The named list is on the [Wallet tab](../app-guide/wallet/) page.
+Vultisig supports 36+ chains. The full list with native tokens is on [Supported chains](../app-guide/supported-chains.md).
 
 ***
 

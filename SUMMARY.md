@@ -20,6 +20,7 @@
 * [Vultisig Wallet Tab](app-guide/wallet/README.md)
   * [Send Crypto from Vultisig](app-guide/wallet/sending.md)
   * [Swap Crypto in Vultisig](app-guide/wallet/swapping.md)
+* [Vultisig supported chains](app-guide/supported-chains.md)
 * [DeFi in Vultisig](app-guide/defi/README.md)
   * [THORChain in Vultisig](app-guide/defi/thorchain.md)
   * [MayaChain in Vultisig](app-guide/defi/maya.md)

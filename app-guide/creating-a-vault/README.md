@@ -16,7 +16,7 @@ Think of the vault as a safe that needs a threshold of keys to open. Fast Vault:
 iOS, macOS, Android, Windows, Linux, Chrome, and Firefox can create vaults. Downloads: [vultisig.com](https://vultisig.com/).
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Fast Vault</strong></td><td>One device + VultiServer (2-of-2). VultiServer co-signs and can never sign alone.</td><td><a href="fast-vault.md">fast-vault.md</a></td></tr><tr><td><strong>Secure Vault</strong></td><td>Two or more devices you control. 2-of-3 is the usual setup.</td><td><a href="secure-vault.md">secure-vault.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Fast Vault</strong></td><td>One device + VultiServer (2-of-2). VultiServer co-signs and can never sign alone.</td><td><a href="fast-vault.md">fast-vault.md</a></td></tr><tr><td><strong>Secure Vault</strong></td><td>Two or more devices you control. 2-of-3 is the usual setup.</td><td><a href="secure-vault.md">secure-vault.md</a></td></tr><tr><td><strong>Import a seed phrase</strong></td><td>Bring a 12 to 24-word seed phrase from another wallet into a Fast or Secure Vault. Same addresses, same funds.</td><td><a href="import-seed-phrase.md">import-seed-phrase.md</a></td></tr></tbody></table>
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt="" width="375"><figcaption></figcaption></figure>
 

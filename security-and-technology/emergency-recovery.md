@@ -61,7 +61,20 @@ With fewer shares than the threshold, older (GG20) vaults can still show keys an
 
 ## Run the decoder locally
 
-Optional, for offline use or for developers. The local version has the same interface as the website. Build from source. Requires [Go 1.25+](https://go.dev/doc/install) with CGo.
+Optional, for offline use or for developers.
+
+**Prebuilt command line:** download `vsd` from the [latest release](https://github.com/vultisig/community-tools/releases/latest). Keep the `.dylib`/`.so` files in the same folder as `vsd`.
+
+```sh
+# macOS (Apple Silicon)
+curl -sSL https://github.com/vultisig/community-tools/releases/latest/download/vsd_darwin_arm64.tar.gz | tar xz
+# Linux (x86_64)
+curl -sSL https://github.com/vultisig/community-tools/releases/latest/download/vsd_linux_amd64.tar.gz | tar xz
+
+./vsd recover --files share1.vult --files share2.vult --password <password1> --password <password2>
+```
+
+**Build from source:** needed for the local web interface, which has the same interface as the website, and for other platforms. Requires [Go 1.25+](https://go.dev/doc/install) with CGo.
 
 ```sh
 git clone https://github.com/vultisig/community-tools.git

@@ -1,7 +1,7 @@
 ---
 description: >-
   Create a Vultisig vault. Fast Vault is one device plus VultiServer. Secure
-  Vault is two or more devices you control. No seed phrase.
+  Vault is two or more devices you control. Or import an existing seed phrase.
 ---
 
 # Create a Vultisig Fast or Secure Vault

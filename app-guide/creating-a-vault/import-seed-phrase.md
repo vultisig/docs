@@ -89,4 +89,4 @@ A lost device with no backup means the funds are gone. See [Backup & Recovery](.
 
 **No active chains found** The scan found no funds. Tap **Select chains manually** and pick the chains you plan to use.
 
-**A chain is missing from your vault** The chain was not selected during import. Remove the imported vault from the device, then import the seed phrase again with that chain selected. The app won't import a seed phrase that a vault on the device already uses. Your funds stay put. The seed phrase still controls them.
+**A chain is missing from your vault** The chain was not selected during import. Remove the imported vault from this device, then import the seed phrase again with that chain selected. The app won't import a seed phrase that a vault on the device already uses. In a Secure Vault, your other devices ask to replace their copy during setup. Your funds stay put. The seed phrase still controls them.

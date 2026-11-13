@@ -1,7 +1,8 @@
 ---
 description: >-
-  TSS vs passkeys: multi-device threshold, no corporate passkey platform,
-  36+ chains.
+  How Vultisig threshold signatures compare with passkeys for crypto custody:
+  one device cannot move funds, one vault covers 36+ chains, and it is open
+  source.
 ---
 
 # Vultisig vs passkeys

@@ -1,7 +1,8 @@
 ---
 description: >-
-  Manage a Vultisig vault: backup, rename, details, reshare, QR, GG20
-  upgrade. Open from Settings.
+  What each vault setting does: Details lists signers and keys, Backup exports
+  this device's share, Reshare adds or removes devices, Rename sets a local
+  label.
 ---
 
 # Manage a Vultisig vault

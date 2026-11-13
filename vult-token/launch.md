@@ -1,5 +1,5 @@
 ---
-description: The launch of the Vultisig Token to the world.
+description: $VULT launched on 27 October 2025 on Uniswap and Kraken. The launch record covers the whitelist phase, purchase caps, Uniswap V3 liquidity, and starting FDV.
 ---
 
 # Launch of $VULT

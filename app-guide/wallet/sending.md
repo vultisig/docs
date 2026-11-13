@@ -1,7 +1,7 @@
 ---
 description: >-
-  Send crypto from Vultisig. Address book, XRP destination tags, and
-  Blockaid on the verify screen.
+  Send crypto from Vultisig on any chain in your vault. Use the address book,
+  add XRP destination tags, and check Blockaid warnings on the verify screen.
 ---
 
 # Send crypto from Vultisig

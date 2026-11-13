@@ -1,7 +1,8 @@
 ---
 description: >-
-  Rename a Vultisig vault on this device. Local label only. Other devices
-  keep their own name.
+  Rename a Vultisig vault in Settings. The name is a label on this device
+  only. The vault and its addresses stay the same, and other devices keep
+  their own name.
 ---
 
 # Rename a Vultisig vault

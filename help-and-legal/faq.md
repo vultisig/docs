@@ -1,5 +1,5 @@
 ---
-description: 'Vultisig FAQ: vaults, backups, fees, signing, and recovery.'
+description: 'Answers to common Vultisig questions: Fast Vault vs Secure Vault, supported platforms and chains, backups, lost devices, fees, audits, and signing problems.'
 ---
 
 # Vultisig FAQ

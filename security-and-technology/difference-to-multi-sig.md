@@ -1,7 +1,8 @@
 ---
 description: >-
-  TSS vs on-chain multisig: no complete private key, works on Bitcoin,
-  normal signature on-chain.
+  How Vultisig threshold signatures differ from on-chain multisig: no complete
+  private key, one standard signature on-chain, and resharing without new
+  addresses.
 ---
 
 # Vultisig vs multisig

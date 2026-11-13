@@ -1,6 +1,8 @@
 ---
 description: >-
-  Send, receive, and swap from the Vultisig Wallet tab across 36+ chains.
+  The Vultisig Wallet tab shows your balances across 36+ chains. Send,
+  receive, swap, or buy from it, and use Functions for extra actions on some
+  chains.
 ---
 
 # Vultisig Wallet tab

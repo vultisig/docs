@@ -1,7 +1,8 @@
 ---
 description: >-
-  Community-built Vultisig tools. Vault Share Decoder for last-resort
-  recovery.
+  Community tools for Vultisig, including the Vault Share Decoder. A threshold
+  of vault shares can reconstruct a private key, so use it only as a last
+  resort.
 ---
 
 # Vultisig community tools

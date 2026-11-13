@@ -1,7 +1,8 @@
 ---
 description: >-
-  Send or receive your first transaction in Vultisig. Check the address before
-  you sign.
+  Receive and send your first transaction in Vultisig. Each chain has its own
+  address. Check the destination, amount, and fee, then sign with your
+  devices.
 ---
 
 # Your first Vultisig transaction

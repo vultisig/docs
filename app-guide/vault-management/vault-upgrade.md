@@ -1,7 +1,8 @@
 ---
 description: >-
-  Upgrade a GG20 Vultisig vault to DKLS23. Faster signing. Same addresses.
-  Export new backups after.
+  Upgrade a GG20 Vultisig vault to DKLS23 for faster signing and Extension
+  support. Addresses stay the same. All original devices join, then export new
+  backups.
 hidden: true
 ---
 

@@ -1,6 +1,8 @@
 ---
 description: >-
-  dYdX governance in Vultisig: vote on proposals from Wallet Functions.
+  Vote on dYdX governance proposals from your Vultisig vault. Open dYdX in the
+  Wallet tab, tap Functions, enter the proposal ID, choose Yes, No, or
+  Abstain.
 ---
 
 # dYdX in Vultisig

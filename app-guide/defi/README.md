@@ -1,7 +1,8 @@
 ---
 description: >-
-  Vultisig DeFi tab: stake, bond, and LP on THORChain, Maya, TON, Solana,
-  Terra, and more.
+  Bond, stake, and add liquidity from your Vultisig vault in the DeFi tab. It
+  covers THORChain, MayaChain, TRON, TON, Solana, and Terra, with no external
+  dApp.
 ---
 
 # DeFi in Vultisig

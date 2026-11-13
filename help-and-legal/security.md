@@ -1,7 +1,7 @@
 ---
 description: >-
-  Vultisig security practices and audits. Independent assessments and
-  responsible disclosure.
+  Vultisig security model and audits. Trail of Bits audited the DKLS23 signing
+  library Vultisig uses. Report a vulnerability through GitHub or Discord.
 ---
 
 # Vultisig audits

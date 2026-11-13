@@ -1,7 +1,8 @@
 ---
 description: >-
-  Vultisig referrals: share a code for a swap-fee rebate. THORChain nested
-  affiliates.
+  Vultisig referral codes split the swap fee. Earn 10 basis points on swaps
+  made with your code, or save 5 basis points with a friend's code. Set it in
+  Settings.
 ---
 
 # Vultisig referrals

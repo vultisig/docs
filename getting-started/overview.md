@@ -1,5 +1,5 @@
 ---
-description: Download Vultisig, create a vault, back it up, and send. No seed phrase.
+description: Get started with Vultisig. Install the app, create a Fast Vault or Secure Vault, back up every share, then send a small test. There is no seed phrase.
 cover: ../.gitbook/assets/Vultisig_banner.jpg
 coverY: 0
 ---

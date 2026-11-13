@@ -1,6 +1,8 @@
 ---
 description: >-
-  THORChain DeFi in Vultisig: bond to nodes, stake RUNE/TCY/RUJI, and add LP.
+  Use THORChain from your Vultisig vault. Bond RUNE to nodes, stake RUNE, TCY,
+  or RUJI, merge tokens into RUJI, and add or remove liquidity from the DeFi
+  tab.
 ---
 
 # THORChain in Vultisig

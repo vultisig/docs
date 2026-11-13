@@ -1,8 +1,8 @@
 ---
 description: >-
-  The Vultisig Privacy Policy is published in full at vultisig.com/privacy.
-  This page links to the official policy, the Terms of Service, and Vultisig
-  security.
+  Read the full Vultisig Privacy Policy at vultisig.com/privacy. This page
+  links you to the policy, the Terms of Service, and the security and audits
+  page.
 ---
 
 # Vultisig Privacy Policy

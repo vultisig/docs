@@ -1,8 +1,8 @@
 ---
 description: >-
-  The Vultisig Terms of Service are published in full at
-  vultisig.com/termofservice. This page links to the terms, the Privacy
-  Policy, license, and security.
+  Read the full Vultisig Terms of Service at vultisig.com/termofservice. This
+  page links you to the terms, the Privacy Policy, the software license, and
+  security.
 ---
 
 # Vultisig terms of service
